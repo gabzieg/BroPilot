@@ -8,11 +8,14 @@ Um motor que é acionado via atalho (ex: `Ctrl + 0`) durante a gameplay. O gatil
 ## 🏗️ Arquitetura do Projeto
 
 O projeto é dividido em dois grandes motores:
-1. **Pipeline de Dados (ETL/Knowledge Base):** Scripts em Python que fazem scraping e limpeza da BG3 Wiki e fóruns focados em *builds*. Usa a arquitetura Medallion:
-   - `01_raw`: Arquivos HTML brutos.
-   - `02_trusted`: Arquivos convertidos para Markdown (textos limpos e mecânicas estruturadas).
+1. **Pipeline de Dados (ETL/Knowledge Base):** Scripts em Python que extraem dados da BG3 Wiki e fóruns focados em *builds*. Usa a arquitetura Medallion:
+   - `01_raw`: Arquivos HTML brutos e despejos de texto manual (`.txt`).
+   - `02_trusted`: Arquivos convertidos para Markdown, limpos de tags HTML, lixos de interface e marcações de tempo.
    - `03_refined`: Matrizes de itens e mercadores (WIP).
 2. **Cérebro da IA (Save Parser + LLM):** Motor que extrai o JSON do *save* do jogo e alimenta um LLM com os dados estruturados para devolver respostas rápidas e precisas no terminal.
+
+## 🧰 Modo de Contingência (API Humana)
+Devido a bloqueios de firewall severos (Cloudflare) no Reddit e no YouTube, implementamos rotinas de limpeza manual. Basta dar `Ctrl+A` / `Ctrl+C` nas threads ou transcrições, colar em arquivos `_manual.txt` na camada RAW e rodar os scripts `_text_cleaner.py` para gerar o Markdown limpo.
 
 ## 📁 Estrutura de Pastas
 ```text
@@ -20,10 +23,12 @@ BroPilot/
 ├── bropilot.py                   # Orquestrador da IA (LLM Core)
 ├── BroPilot-Knowledge/           # Base de dados (RAG)
 │   ├── data/
-│   │   ├── 01_raw/               # Dumps de HTML e Wikis
+│   │   ├── 01_raw/               # Dumps de HTML e textos puros (Ctrl+C)
 │   │   ├── 02_trusted/           # Textos curados em Markdown
 │   │   └── 03_refined/           # Matrizes e JSONs de itens
 │   ├── scripts/
-│   │   ├── wiki_crawler.py       # Aranha para baixar páginas da Wiki
-│   │   └── text_cleaner.py       # Limpa o HTML e converte para Markdown
+│   │   ├── wiki_crawler.py       # Crawler da Wiki oficial
+│   │   ├── text_cleaner.py       # Conversor HTML -> Markdown
+│   │   ├── reddit_text_cleaner.py  # Faxineiro de regex para lixo do Reddit
+│   │   └── youtube_text_cleaner.py # Removedor de timestamps do YouTube
 └── README.md
