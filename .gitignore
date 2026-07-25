@@ -1,0 +1,14 @@
+# Ambientes Virtuais
+venv/
+.venv/
+env/
+
+# Mac OS
+.DS_Store
+
+# Caches do Python
+__pycache__/
+*.pyc
+
+# Arquivos de ambiente e chaves
+.env
