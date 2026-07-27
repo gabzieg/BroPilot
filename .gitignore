@@ -16,3 +16,6 @@ __pycache__/
 # Dumps locais de teste
 *_dump.json
 char_struct.json
+
+# Staging de empacotamento do mod
+BroPilot-SaveParser/build/

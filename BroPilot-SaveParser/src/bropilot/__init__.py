@@ -3,7 +3,20 @@
 from .lspk import Package, PackageError
 from .lsf import Resource, Node, loads as load_lsf, LSFError
 from .save import SaveGame, find_saves, latest_save
-from .models import SaveContext, Party, CharacterSummary
+from .models import (
+    ActionResource,
+    BuildStats,
+    CharacterDump,
+    CharacterSummary,
+    InventoryDump,
+    Item,
+    Party,
+    QuestState,
+    SaveContext,
+    Vitals,
+    load_dump_file,
+    load_inventory_dump,
+)
 
 __all__ = [
     "Package",
@@ -18,6 +31,15 @@ __all__ = [
     "SaveContext",
     "Party",
     "CharacterSummary",
+    "CharacterDump",
+    "InventoryDump",
+    "BuildStats",
+    "Vitals",
+    "ActionResource",
+    "Item",
+    "QuestState",
+    "load_dump_file",
+    "load_inventory_dump",
 ]
 
 __version__ = "0.1.0"
