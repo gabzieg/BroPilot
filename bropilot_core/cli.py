@@ -10,6 +10,11 @@ Uso pretendido:
 
 O --dump permite testar no Mac com um snapshot salvo do mod, sem o jogo aberto
 (fixture) — contornando a dependência de plataforma (mod Lua só roda no Windows).
+
+Back-end de LLM selecionável via env var BROPILOT_LLM=ollama|openai (default
+ollama) — ver `llm.create_provider()`. A escolha só afeta generate(); os
+embeddings do RAG continuam vindo do Ollama/nomic-embed-text independente do
+back-end de geração (ver DECISION.md).
 """
 
 from __future__ import annotations
@@ -31,7 +36,8 @@ def _bootstrap_saveparser_path() -> None:
 
 def main(argv: list[str] | None = None) -> int:
     """Loop do REPL. Passos:
-    1. bootstrap do path + health_check do Ollama (falha cedo se offline).
+    1. bootstrap do path + health_check do provider selecionado (BROPILOT_LLM;
+       falha cedo se offline/sem API key).
     2. carrega o save mais recente (ou avisa que não achou).
     3. constrói o Orchestrator default.
     4. loop: pergunta -> ask() -> imprime resposta + fontes.

@@ -76,13 +76,17 @@ class Orchestrator:
 
 def build_default_orchestrator(
     *,
+    llm_provider: str | None = None,
     ollama_host: str = "http://localhost:11434",
     store_dir: Path | None = None,
 ) -> "Orchestrator":
     """Monta o Orchestrator com os defaults do MVP (Ollama local + LanceDB).
 
     É o único lugar que sabe COMO montar a stack concreta — o resto do código
-    fala com interfaces. A etapa 2 (modelo de custo baixo via API) troca este
-    factory, e nada mais.
+    fala com interfaces. `llm_provider` ("ollama" | "openai"; default lê a env
+    var BROPILOT_LLM, senão "ollama") escolhe o back-end de geração via
+    `llm.create_provider()` — é aqui, e só aqui, que a etapa 2 (modelo de
+    custo baixo via API) se pluga; o Orchestrator continua recebendo o
+    provider já pronto por injeção, sem saber qual back-end é.
     """
     raise NotImplementedError("scaffold")
