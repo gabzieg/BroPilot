@@ -1,0 +1,3 @@
+# Índice vetorial gerado localmente — reconstruível via `python -m bropilot_core.index.build`.
+# Não versionar: é grande, binário e derivado da base .md (que já está no git).
+index/store/
