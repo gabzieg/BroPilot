@@ -1,0 +1,336 @@
+# List Of All Spells
+
+| [Spells](/wiki/Spells "Spells") |
+| --- |
+| Lists of spells by level |
+| - All spells - [Cantrips](/wiki/List_of_cantrips "List of cantrips") - [1st level](/wiki/List_of_1st_level_spells "List of 1st level spells") - [2nd level](/wiki/List_of_2nd_level_spells "List of 2nd level spells") - [3rd level](/wiki/List_of_3rd_level_spells "List of 3rd level spells") - [4th level](/wiki/List_of_4th_level_spells "List of 4th level spells") - [5th level](/wiki/List_of_5th_level_spells "List of 5th level spells") - [6th level](/wiki/List_of_6th_level_spells "List of 6th level spells") |
+| Lists of spells by school |
+| - [Abjuration](/wiki/Abjuration "Abjuration") - [Conjuration](/wiki/Conjuration "Conjuration") - [Divination](/wiki/Divination "Divination") - [Enchantment](/wiki/Enchantment_(school) "Enchantment (school)") - [Evocation](/wiki/Evocation "Evocation") - [Illusion](/wiki/Illusion "Illusion") - [Necromancy](/wiki/Necromancy "Necromancy") - [Transmutation](/wiki/Transmutation "Transmutation") |
+| Lists of spells by class |
+| - [Bard](/wiki/List_of_Bard_spells "List of Bard spells") - [Cleric](/wiki/List_of_Cleric_spells "List of Cleric spells") - [Druid](/wiki/List_of_Druid_spells "List of Druid spells") - [Paladin](/wiki/List_of_Paladin_spells "List of Paladin spells") - [Ranger](/wiki/List_of_Ranger_spells "List of Ranger spells") - [Sorcerer](/wiki/List_of_Sorcerer_spells "List of Sorcerer spells") - [Warlock](/wiki/List_of_Warlock_spells "List of Warlock spells") - [Wizard](/wiki/List_of_Wizard_spells "List of Wizard spells") - [Arcane Trickster](/wiki/List_of_Arcane_Trickster_spells "List of Arcane Trickster spells") - [Eldritch Knight](/wiki/List_of_Eldritch_Knight_spells "List of Eldritch Knight spells") |
+| Other lists |
+| - [Upcastable spells](/wiki/Upcasting "Upcasting") - [Healing spells](/wiki/List_of_Healing_spells "List of Healing spells") - [NPC spells](/wiki/List_of_NPC_spells "List of NPC spells") - [Ritual spells](/wiki/List_of_Ritual_spells "List of Ritual spells") - [Scrolls](/wiki/Scrolls "Scrolls") |
+| - [v](/wiki/Template:Spells "Template:Spells") - [t](/wiki/Template_talk:Spells "Template talk:Spells") - [e](/wiki/Special:EditPage/Template:Spells "Special:EditPage/Template:Spells") |
+
+|  |  |  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [Overview](/wiki/Spells "Spells") | All spells | [Cantrips](/wiki/List_of_cantrips "List of cantrips") | [Level 1](/wiki/List_of_1st_level_spells "List of 1st level spells") | [Level 2](/wiki/List_of_2nd_level_spells "List of 2nd level spells") | [Level 3](/wiki/List_of_3rd_level_spells "List of 3rd level spells") | [Level 4](/wiki/List_of_4th_level_spells "List of 4th level spells") | [Level 5](/wiki/List_of_5th_level_spells "List of 5th level spells") | [Level 6](/wiki/List_of_6th_level_spells "List of 6th level spells") |
+
+This is a list of all [spells](/wiki/Spells "Spells") in *Baldur's Gate 3*.
+
+## Cantrips
+
+Cantrips are level 0 spells which do not cost [Spell Slots](/wiki/Spells#Spell_Slots "Spells") to cast. They cannot be [upcast](/wiki/Spells#Upcasting "Spells"), but most damage-dealing cantrips gain an additional damage die - typically at character levels 5 and 10 respectively.
+
+- [![Acid Splash](/w/images/thumb/9/99/Acid_Splash_Icon.webp/40px-Acid_Splash_Icon.webp)](/wiki/Acid_Splash "Acid Splash")[Acid Splash](/wiki/Acid_Splash "Acid Splash")
+- [![Blade Ward](/w/images/thumb/0/04/Blade_Ward_Icon.webp/40px-Blade_Ward_Icon.webp)](/wiki/Blade_Ward "Blade Ward")[Blade Ward](/wiki/Blade_Ward "Blade Ward")
+- [![Bone Chill](/w/images/thumb/0/03/Bone_Chill_Icon.webp/40px-Bone_Chill_Icon.webp)](/wiki/Bone_Chill "Bone Chill")[Bone Chill](/wiki/Bone_Chill "Bone Chill")
+- [![Booming Blade](/w/images/thumb/f/fd/Booming_Blade_Icon.webp/40px-Booming_Blade_Icon.webp)](/wiki/Booming_Blade "Booming Blade")[Booming Blade](/wiki/Booming_Blade "Booming Blade")
+- [![Bursting Sinew](/w/images/thumb/0/0f/Bursting_Sinew_Icon.webp/40px-Bursting_Sinew_Icon.webp)](/wiki/Bursting_Sinew "Bursting Sinew")[Bursting Sinew](/wiki/Bursting_Sinew "Bursting Sinew")
+- [![Dancing Lights](/w/images/thumb/b/ba/Dancing_Lights_Icon.webp/40px-Dancing_Lights_Icon.webp)](/wiki/Dancing_Lights "Dancing Lights")[Dancing Lights](/wiki/Dancing_Lights "Dancing Lights") [![](/w/images/thumb/8/83/Concentration_Icon.png/16px-Concentration_Icon.png.webp)](/wiki/Concentration "Concentration")
+- [![Eldritch Blast](/w/images/thumb/d/db/Eldritch_Blast_Icon.webp/40px-Eldritch_Blast_Icon.webp)](/wiki/Eldritch_Blast "Eldritch Blast")[Eldritch Blast](/wiki/Eldritch_Blast "Eldritch Blast")
+- [![Fire Bolt](/w/images/thumb/2/23/Fire_Bolt_Icon.webp/40px-Fire_Bolt_Icon.webp)](/wiki/Fire_Bolt "Fire Bolt")[Fire Bolt](/wiki/Fire_Bolt "Fire Bolt")
+- [![Friends](/w/images/thumb/7/75/Friends_Icon.webp/40px-Friends_Icon.webp)](/wiki/Friends "Friends")[Friends](/wiki/Friends "Friends") [![](/w/images/thumb/8/83/Concentration_Icon.png/16px-Concentration_Icon.png.webp)](/wiki/Concentration "Concentration")
+- [![Guidance](/w/images/thumb/7/7f/Guidance_Icon.webp/40px-Guidance_Icon.webp)](/wiki/Guidance "Guidance")[Guidance](/wiki/Guidance "Guidance") [![](/w/images/thumb/8/83/Concentration_Icon.png/16px-Concentration_Icon.png.webp)](/wiki/Concentration "Concentration")
+- [![Light](/w/images/thumb/5/5c/Light_Icon.webp/40px-Light_Icon.webp)](/wiki/Light "Light")[Light](/wiki/Light "Light")
+- [![Mage Hand](/w/images/thumb/f/f9/Mage_Hand_Icon.webp/40px-Mage_Hand_Icon.webp)](/wiki/Mage_Hand "Mage Hand")[Mage Hand](/wiki/Mage_Hand "Mage Hand")
+- [![Minor Illusion](/w/images/thumb/9/9d/Minor_Illusion_Icon.webp/40px-Minor_Illusion_Icon.webp)](/wiki/Minor_Illusion "Minor Illusion")[Minor Illusion](/wiki/Minor_Illusion "Minor Illusion")
+- [![Poison Spray](/w/images/thumb/1/1d/Poison_Spray_Icon.webp/40px-Poison_Spray_Icon.webp)](/wiki/Poison_Spray "Poison Spray")[Poison Spray](/wiki/Poison_Spray "Poison Spray")
+- [![Produce Flame](/w/images/thumb/e/ec/Produce_Flame_Icon.webp/40px-Produce_Flame_Icon.webp)](/wiki/Produce_Flame "Produce Flame")[Produce Flame](/wiki/Produce_Flame "Produce Flame")
+- [![Ray of Frost](/w/images/thumb/f/f9/Ray_of_Frost_Icon.webp/40px-Ray_of_Frost_Icon.webp)](/wiki/Ray_of_Frost "Ray of Frost")[Ray of Frost](/wiki/Ray_of_Frost "Ray of Frost")
+- [![Resistance](/w/images/thumb/a/a1/Resistance_Cantrip_Icon.webp/40px-Resistance_Cantrip_Icon.webp)](/wiki/Resistance_(Cantrip) "Resistance (Cantrip)")[Resistance](/wiki/Resistance_(Cantrip) "Resistance (Cantrip)") [![](/w/images/thumb/8/83/Concentration_Icon.png/16px-Concentration_Icon.png.webp)](/wiki/Concentration "Concentration")
+- [![Sacred Flame](/w/images/thumb/1/16/Sacred_Flame_Icon.webp/40px-Sacred_Flame_Icon.webp)](/wiki/Sacred_Flame "Sacred Flame")[Sacred Flame](/wiki/Sacred_Flame "Sacred Flame")
+- [![Shillelagh](/w/images/thumb/6/68/Shillelagh_Icon.webp/40px-Shillelagh_Icon.webp)](/wiki/Shillelagh "Shillelagh")[Shillelagh](/wiki/Shillelagh "Shillelagh")
+- [![Shocking Grasp](/w/images/thumb/2/2f/Shocking_Grasp_Icon.webp/40px-Shocking_Grasp_Icon.webp)](/wiki/Shocking_Grasp "Shocking Grasp")[Shocking Grasp](/wiki/Shocking_Grasp "Shocking Grasp")
+- [![Thaumaturgy](/w/images/thumb/3/3f/Thaumaturgy_Icon.webp/40px-Thaumaturgy_Icon.webp)](/wiki/Thaumaturgy "Thaumaturgy")[Thaumaturgy](/wiki/Thaumaturgy "Thaumaturgy")
+- [![Thorn Whip](/w/images/thumb/e/e8/Thorn_Whip_Icon.webp/40px-Thorn_Whip_Icon.webp)](/wiki/Thorn_Whip "Thorn Whip")[Thorn Whip](/wiki/Thorn_Whip "Thorn Whip")
+- [![Toll the Dead](/w/images/thumb/c/c0/Toll_the_Dead_Icon.webp/40px-Toll_the_Dead_Icon.webp)](/wiki/Toll_the_Dead "Toll the Dead")[Toll the Dead](/wiki/Toll_the_Dead "Toll the Dead")
+- [![True Strike](/w/images/thumb/4/47/True_Strike_Icon.webp/40px-True_Strike_Icon.webp)](/wiki/True_Strike "True Strike")[True Strike](/wiki/True_Strike "True Strike") [![](/w/images/thumb/8/83/Concentration_Icon.png/16px-Concentration_Icon.png.webp)](/wiki/Concentration "Concentration")
+- [![Vicious Mockery](/w/images/thumb/6/66/Vicious_Mockery_Icon.webp/40px-Vicious_Mockery_Icon.webp)](/wiki/Vicious_Mockery "Vicious Mockery")[Vicious Mockery](/wiki/Vicious_Mockery "Vicious Mockery")
+
+## Level 1 spells
+
+- ![Ico knownSpells lvl 01.png](/w/images/thumb/7/7c/Ico_knownSpells_lvl_01.png/24px-Ico_knownSpells_lvl_01.png.webp) **Level 1 spells** are spells which consume Level 1 [Spell Slots](/wiki/Spells#Spell_Slots "Spells") when cast.
+
+- [![Animal Friendship](/w/images/thumb/3/36/Animal_Friendship_Icon.webp/40px-Animal_Friendship_Icon.webp)](/wiki/Animal_Friendship "Animal Friendship")[Animal Friendship](/wiki/Animal_Friendship "Animal Friendship")
+- [![Armour of Agathys](/w/images/thumb/7/77/Armour_of_Agathys_Icon.webp/40px-Armour_of_Agathys_Icon.webp)](/wiki/Armour_of_Agathys "Armour of Agathys")[Armour of Agathys](/wiki/Armour_of_Agathys "Armour of Agathys")
+- [![Arms of Hadar](/w/images/thumb/3/3e/Arms_of_Hadar_Icon.webp/40px-Arms_of_Hadar_Icon.webp)](/wiki/Arms_of_Hadar "Arms of Hadar")[Arms of Hadar](/wiki/Arms_of_Hadar "Arms of Hadar")
+- [![Bane](/w/images/thumb/1/19/Bane_spell_Icon.webp/40px-Bane_spell_Icon.webp)](/wiki/Bane_(spell) "Bane (spell)")[Bane](/wiki/Bane_(spell) "Bane (spell)") [![](/w/images/thumb/8/83/Concentration_Icon.png/16px-Concentration_Icon.png.webp)](/wiki/Concentration "Concentration")
+- [![Bless](/w/images/thumb/c/c4/Bless_Icon.webp/40px-Bless_Icon.webp)](/wiki/Bless "Bless")[Bless](/wiki/Bless "Bless") [![](/w/images/thumb/8/83/Concentration_Icon.png/16px-Concentration_Icon.png.webp)](/wiki/Concentration "Concentration")
+- [![Burning Hands](/w/images/thumb/c/cf/Burning_Hands_Icon.webp/40px-Burning_Hands_Icon.webp)](/wiki/Burning_Hands "Burning Hands")[Burning Hands](/wiki/Burning_Hands "Burning Hands")
+- [![Charm Person](/w/images/thumb/b/bc/Charm_Person_Icon.webp/40px-Charm_Person_Icon.webp)](/wiki/Charm_Person "Charm Person")[Charm Person](/wiki/Charm_Person "Charm Person")
+- [![Chromatic Orb](/w/images/thumb/8/8e/Chromatic_Orb_Icon.webp/40px-Chromatic_Orb_Icon.webp)](/wiki/Chromatic_Orb "Chromatic Orb")[Chromatic Orb](/wiki/Chromatic_Orb "Chromatic Orb")
+- [![Colour Spray](/w/images/thumb/2/24/Colour_Spray_Icon.webp/40px-Colour_Spray_Icon.webp)](/wiki/Colour_Spray "Colour Spray")[Colour Spray](/wiki/Colour_Spray "Colour Spray")
+- [![Command](/w/images/thumb/7/7f/Command_Halt_Icon.webp/40px-Command_Halt_Icon.webp)](/wiki/Command "Command")[Command](/wiki/Command "Command")
+- [![Compelled Duel](/w/images/thumb/7/73/Compelled_Duel_Icon.webp/40px-Compelled_Duel_Icon.webp)](/wiki/Compelled_Duel "Compelled Duel")[Compelled Duel](/wiki/Compelled_Duel "Compelled Duel") [![](/w/images/thumb/8/83/Concentration_Icon.png/16px-Concentration_Icon.png.webp)](/wiki/Concentration "Concentration")
+- [![Create or Destroy Water](/w/images/thumb/d/d1/Create_Water_Icon.webp/40px-Create_Water_Icon.webp)](/wiki/Create_or_Destroy_Water "Create or Destroy Water")[Create or Destroy Water](/wiki/Create_or_Destroy_Water "Create or Destroy Water")
+- [![Cure Wounds](/w/images/thumb/4/40/Cure_Wounds_Icon.webp/40px-Cure_Wounds_Icon.webp)](/wiki/Cure_Wounds "Cure Wounds")[Cure Wounds](/wiki/Cure_Wounds "Cure Wounds")
+- [![Disguise Self](/w/images/thumb/8/8d/Disguise_Self_Icon.webp/40px-Disguise_Self_Icon.webp)](/wiki/Disguise_Self "Disguise Self")[Disguise Self](/wiki/Disguise_Self "Disguise Self") [![](/w/images/thumb/f/fa/Ritual_Spell_Icon.png/16px-Ritual_Spell_Icon.png.webp)](/wiki/Ritual_spell "Ritual spell")
+- [![Dissonant Whispers](/w/images/thumb/4/40/Dissonant_Whispers_Icon.webp/40px-Dissonant_Whispers_Icon.webp)](/wiki/Dissonant_Whispers "Dissonant Whispers")[Dissonant Whispers](/wiki/Dissonant_Whispers "Dissonant Whispers")
+- [![Divine Favour](/w/images/thumb/4/44/Divine_Favour_Icon.webp/40px-Divine_Favour_Icon.webp)](/wiki/Divine_Favour "Divine Favour")[Divine Favour](/wiki/Divine_Favour "Divine Favour") [![](/w/images/thumb/8/83/Concentration_Icon.png/16px-Concentration_Icon.png.webp)](/wiki/Concentration "Concentration")
+- [![Enhance Leap](/w/images/thumb/4/46/Enhance_Leap_Icon.webp/40px-Enhance_Leap_Icon.webp)](/wiki/Enhance_Leap "Enhance Leap")[Enhance Leap](/wiki/Enhance_Leap "Enhance Leap") [![](/w/images/thumb/f/fa/Ritual_Spell_Icon.png/16px-Ritual_Spell_Icon.png.webp)](/wiki/Ritual_spell "Ritual spell")
+- [![Ensnaring Strike](/w/images/thumb/6/60/Ensnaring_Strike_Ranged_Icon.webp/40px-Ensnaring_Strike_Ranged_Icon.webp)](/wiki/Ensnaring_Strike "Ensnaring Strike")[Ensnaring Strike](/wiki/Ensnaring_Strike "Ensnaring Strike") [![](/w/images/thumb/8/83/Concentration_Icon.png/16px-Concentration_Icon.png.webp)](/wiki/Concentration "Concentration")
+- [![Entangle](/w/images/thumb/d/d9/Entangle_Icon.webp/40px-Entangle_Icon.webp)](/wiki/Entangle "Entangle")[Entangle](/wiki/Entangle "Entangle") [![](/w/images/thumb/8/83/Concentration_Icon.png/16px-Concentration_Icon.png.webp)](/wiki/Concentration "Concentration")
+- [![Expeditious Retreat](/w/images/thumb/d/d6/Expeditious_Retreat_Icon.webp/40px-Expeditious_Retreat_Icon.webp)](/wiki/Expeditious_Retreat "Expeditious Retreat")[Expeditious Retreat](/wiki/Expeditious_Retreat "Expeditious Retreat") [![](/w/images/thumb/8/83/Concentration_Icon.png/16px-Concentration_Icon.png.webp)](/wiki/Concentration "Concentration")
+- [![Faerie Fire](/w/images/thumb/a/a1/Faerie_Fire_Icon.webp/40px-Faerie_Fire_Icon.webp)](/wiki/Faerie_Fire "Faerie Fire")[Faerie Fire](/wiki/Faerie_Fire "Faerie Fire") [![](/w/images/thumb/8/83/Concentration_Icon.png/16px-Concentration_Icon.png.webp)](/wiki/Concentration "Concentration")
+- [![False Life](/w/images/thumb/f/f2/False_Life_Icon.webp/40px-False_Life_Icon.webp)](/wiki/False_Life "False Life")[False Life](/wiki/False_Life "False Life")
+- [![Feather Fall](/w/images/thumb/0/00/Feather_Fall_Icon.webp/40px-Feather_Fall_Icon.webp)](/wiki/Feather_Fall "Feather Fall")[Feather Fall](/wiki/Feather_Fall "Feather Fall") [![](/w/images/thumb/f/fa/Ritual_Spell_Icon.png/16px-Ritual_Spell_Icon.png.webp)](/wiki/Ritual_spell "Ritual spell")
+- [![Find Familiar](/w/images/thumb/8/8b/Find_Familiar_Cat_Icon.webp/40px-Find_Familiar_Cat_Icon.webp)](/wiki/Find_Familiar "Find Familiar")[Find Familiar](/wiki/Find_Familiar "Find Familiar") [![](/w/images/thumb/f/fa/Ritual_Spell_Icon.png/16px-Ritual_Spell_Icon.png.webp)](/wiki/Ritual_spell "Ritual spell")
+- [![Fog Cloud](/w/images/thumb/c/c0/Fog_Cloud_Icon.webp/40px-Fog_Cloud_Icon.webp)](/wiki/Fog_Cloud "Fog Cloud")[Fog Cloud](/wiki/Fog_Cloud "Fog Cloud") [![](/w/images/thumb/8/83/Concentration_Icon.png/16px-Concentration_Icon.png.webp)](/wiki/Concentration "Concentration")
+- [![Goodberry](/w/images/thumb/4/42/Goodberry_Icon.webp/40px-Goodberry_Icon.webp)](/wiki/Goodberry "Goodberry")[Goodberry](/wiki/Goodberry "Goodberry")
+- [![Grease](/w/images/thumb/7/7a/Grease_Icon.webp/40px-Grease_Icon.webp)](/wiki/Grease "Grease")[Grease](/wiki/Grease "Grease")
+- [![Guiding Bolt](/w/images/thumb/2/2c/Guiding_Bolt_Icon.webp/40px-Guiding_Bolt_Icon.webp)](/wiki/Guiding_Bolt "Guiding Bolt")[Guiding Bolt](/wiki/Guiding_Bolt "Guiding Bolt")
+- [![Hail of Thorns](/w/images/thumb/6/63/Hail_of_Thorns_Icon.webp/40px-Hail_of_Thorns_Icon.webp)](/wiki/Hail_of_Thorns "Hail of Thorns")[Hail of Thorns](/wiki/Hail_of_Thorns "Hail of Thorns")
+- [![Healing Word](/w/images/thumb/e/ef/Healing_Word_Icon.webp/40px-Healing_Word_Icon.webp)](/wiki/Healing_Word "Healing Word")[Healing Word](/wiki/Healing_Word "Healing Word")
+- [![Hellish Rebuke](/w/images/thumb/8/82/Hellish_Rebuke_Icon.webp/40px-Hellish_Rebuke_Icon.webp)](/wiki/Hellish_Rebuke "Hellish Rebuke")[Hellish Rebuke](/wiki/Hellish_Rebuke "Hellish Rebuke")
+- [![Heroism](/w/images/thumb/1/19/Heroism_Icon.webp/40px-Heroism_Icon.webp)](/wiki/Heroism "Heroism")[Heroism](/wiki/Heroism "Heroism") [![](/w/images/thumb/8/83/Concentration_Icon.png/16px-Concentration_Icon.png.webp)](/wiki/Concentration "Concentration")
+- [![Hex](/w/images/thumb/9/9f/Hex_Icon.webp/40px-Hex_Icon.webp)](/wiki/Hex "Hex")[Hex](/wiki/Hex "Hex") [![](/w/images/thumb/8/83/Concentration_Icon.png/16px-Concentration_Icon.png.webp)](/wiki/Concentration "Concentration")
+- [![Hunter's Mark](/w/images/thumb/f/f6/Hunter%27s_Mark_Icon.webp/40px-Hunter%27s_Mark_Icon.webp)](/wiki/Hunter%27s_Mark "Hunter's Mark")[Hunter's Mark](/wiki/Hunter%27s_Mark "Hunter's Mark") [![](/w/images/thumb/8/83/Concentration_Icon.png/16px-Concentration_Icon.png.webp)](/wiki/Concentration "Concentration")
+- [![Ice Knife](/w/images/thumb/1/17/Ice_Knife_Icon.webp/40px-Ice_Knife_Icon.webp)](/wiki/Ice_Knife "Ice Knife")[Ice Knife](/wiki/Ice_Knife "Ice Knife")
+- [![Inflict Wounds](/w/images/thumb/3/3d/Inflict_Wounds_Icon.webp/40px-Inflict_Wounds_Icon.webp)](/wiki/Inflict_Wounds "Inflict Wounds")[Inflict Wounds](/wiki/Inflict_Wounds "Inflict Wounds")
+- [![Longstrider](/w/images/thumb/3/35/Longstrider_Icon.webp/40px-Longstrider_Icon.webp)](/wiki/Longstrider "Longstrider")[Longstrider](/wiki/Longstrider "Longstrider") [![](/w/images/thumb/f/fa/Ritual_Spell_Icon.png/16px-Ritual_Spell_Icon.png.webp)](/wiki/Ritual_spell "Ritual spell")
+- [![Mage Armour](/w/images/thumb/0/0d/Mage_Armour_Icon.webp/40px-Mage_Armour_Icon.webp)](/wiki/Mage_Armour "Mage Armour")[Mage Armour](/wiki/Mage_Armour "Mage Armour")
+- [![Magic Missile](/w/images/thumb/d/d4/Magic_Missile_Icon.webp/40px-Magic_Missile_Icon.webp)](/wiki/Magic_Missile "Magic Missile")[Magic Missile](/wiki/Magic_Missile "Magic Missile")
+- [![Protection from Evil and Good](/w/images/thumb/3/35/Protection_from_Evil_and_Good_Icon.webp/40px-Protection_from_Evil_and_Good_Icon.webp)](/wiki/Protection_from_Evil_and_Good "Protection from Evil and Good")[Protection from Evil and Good](/wiki/Protection_from_Evil_and_Good "Protection from Evil and Good") [![](/w/images/thumb/8/83/Concentration_Icon.png/16px-Concentration_Icon.png.webp)](/wiki/Concentration "Concentration")
+- [![Ray of Sickness](/w/images/thumb/7/74/Ray_of_Sickness_Icon.webp/40px-Ray_of_Sickness_Icon.webp)](/wiki/Ray_of_Sickness "Ray of Sickness")[Ray of Sickness](/wiki/Ray_of_Sickness "Ray of Sickness")
+- [![Sanctuary](/w/images/thumb/c/c1/Sanctuary_Icon.webp/40px-Sanctuary_Icon.webp)](/wiki/Sanctuary "Sanctuary")[Sanctuary](/wiki/Sanctuary "Sanctuary")
+- [![Searing Smite](/w/images/thumb/5/50/Searing_Smite_Icon.webp/40px-Searing_Smite_Icon.webp)](/wiki/Searing_Smite "Searing Smite")[Searing Smite](/wiki/Searing_Smite "Searing Smite") [![](/w/images/thumb/8/83/Concentration_Icon.png/16px-Concentration_Icon.png.webp)](/wiki/Concentration "Concentration")
+- [![Shield](/w/images/thumb/c/cf/Shield_spell_Icon.webp/40px-Shield_spell_Icon.webp)](/wiki/Shield_(spell) "Shield (spell)")[Shield](/wiki/Shield_(spell) "Shield (spell)")
+- [![Shield of Faith](/w/images/thumb/8/83/Shield_of_Faith_Icon.webp/40px-Shield_of_Faith_Icon.webp)](/wiki/Shield_of_Faith "Shield of Faith")[Shield of Faith](/wiki/Shield_of_Faith "Shield of Faith") [![](/w/images/thumb/8/83/Concentration_Icon.png/16px-Concentration_Icon.png.webp)](/wiki/Concentration "Concentration")
+- [![Sleep](/w/images/thumb/a/ae/Sleep_Icon.webp/40px-Sleep_Icon.webp)](/wiki/Sleep "Sleep")[Sleep](/wiki/Sleep "Sleep")
+- [![Speak with Animals](/w/images/thumb/2/24/Speak_with_Animals_Icon.webp/40px-Speak_with_Animals_Icon.webp)](/wiki/Speak_with_Animals "Speak with Animals")[Speak with Animals](/wiki/Speak_with_Animals "Speak with Animals") [![](/w/images/thumb/f/fa/Ritual_Spell_Icon.png/16px-Ritual_Spell_Icon.png.webp)](/wiki/Ritual_spell "Ritual spell")
+- [![Tasha's Hideous Laughter](/w/images/thumb/2/27/Tasha%27s_Hideous_Laughter_Icon.webp/40px-Tasha%27s_Hideous_Laughter_Icon.webp)](/wiki/Tasha%27s_Hideous_Laughter "Tasha's Hideous Laughter")[Tasha's Hideous Laughter](/wiki/Tasha%27s_Hideous_Laughter "Tasha's Hideous Laughter") [![](/w/images/thumb/8/83/Concentration_Icon.png/16px-Concentration_Icon.png.webp)](/wiki/Concentration "Concentration")
+- [![Thunderous Smite](/w/images/thumb/d/dd/Thunderous_Smite_Icon.webp/40px-Thunderous_Smite_Icon.webp)](/wiki/Thunderous_Smite "Thunderous Smite")[Thunderous Smite](/wiki/Thunderous_Smite "Thunderous Smite")
+- [![Thunderwave](/w/images/thumb/0/04/Thunderwave_Icon.webp/40px-Thunderwave_Icon.webp)](/wiki/Thunderwave "Thunderwave")[Thunderwave](/wiki/Thunderwave "Thunderwave")
+- [![Witch Bolt](/w/images/thumb/d/d2/Witch_Bolt_Icon.webp/40px-Witch_Bolt_Icon.webp)](/wiki/Witch_Bolt "Witch Bolt")[Witch Bolt](/wiki/Witch_Bolt "Witch Bolt") [![](/w/images/thumb/8/83/Concentration_Icon.png/16px-Concentration_Icon.png.webp)](/wiki/Concentration "Concentration")
+- [![Wrathful Smite](/w/images/thumb/7/79/Wrathful_Smite_Icon.webp/40px-Wrathful_Smite_Icon.webp)](/wiki/Wrathful_Smite "Wrathful Smite")[Wrathful Smite](/wiki/Wrathful_Smite "Wrathful Smite") [![](/w/images/thumb/8/83/Concentration_Icon.png/16px-Concentration_Icon.png.webp)](/wiki/Concentration "Concentration")
+
+## Level 2 spells
+
+- ![Ico knownSpells lvl 02.png](/w/images/thumb/1/1b/Ico_knownSpells_lvl_02.png/24px-Ico_knownSpells_lvl_02.png.webp) **Level 2 spells** are spells which consume Level 2 [Spell Slots](/wiki/Spells#Spell_Slots "Spells") when cast.
+
+- [![Aid](/w/images/thumb/5/50/Aid_Icon.webp/40px-Aid_Icon.webp)](/wiki/Aid "Aid")[Aid](/wiki/Aid "Aid")
+- [![Arcane Lock](/w/images/thumb/7/79/Arcane_Lock_Icon.webp/40px-Arcane_Lock_Icon.webp)](/wiki/Arcane_Lock "Arcane Lock")[Arcane Lock](/wiki/Arcane_Lock "Arcane Lock")
+- [![Barkskin](/w/images/thumb/8/8b/Barkskin_Icon.webp/40px-Barkskin_Icon.webp)](/wiki/Barkskin "Barkskin")[Barkskin](/wiki/Barkskin "Barkskin") [![](/w/images/thumb/8/83/Concentration_Icon.png/16px-Concentration_Icon.png.webp)](/wiki/Concentration "Concentration")
+- [![Blindness](/w/images/thumb/5/5a/Blindness_Icon.webp/40px-Blindness_Icon.webp)](/wiki/Blindness "Blindness")[Blindness](/wiki/Blindness "Blindness")
+- [![Blur](/w/images/thumb/0/0d/Blur_Icon.webp/40px-Blur_Icon.webp)](/wiki/Blur "Blur")[Blur](/wiki/Blur "Blur") [![](/w/images/thumb/8/83/Concentration_Icon.png/16px-Concentration_Icon.png.webp)](/wiki/Concentration "Concentration")
+- [![Branding Smite](/w/images/thumb/5/5e/Branding_Smite_Melee_Icon.webp/40px-Branding_Smite_Melee_Icon.webp)](/wiki/Branding_Smite "Branding Smite")[Branding Smite](/wiki/Branding_Smite "Branding Smite") [![](/w/images/thumb/8/83/Concentration_Icon.png/16px-Concentration_Icon.png.webp)](/wiki/Concentration "Concentration")
+- [![Calm Emotions](/w/images/thumb/d/d9/Calm_Emotions_Icon.webp/40px-Calm_Emotions_Icon.webp)](/wiki/Calm_Emotions "Calm Emotions")[Calm Emotions](/wiki/Calm_Emotions "Calm Emotions") [![](/w/images/thumb/8/83/Concentration_Icon.png/16px-Concentration_Icon.png.webp)](/wiki/Concentration "Concentration")
+- [![Cloud of Daggers](/w/images/thumb/3/3d/Cloud_of_Daggers_Icon.webp/40px-Cloud_of_Daggers_Icon.webp)](/wiki/Cloud_of_Daggers "Cloud of Daggers")[Cloud of Daggers](/wiki/Cloud_of_Daggers "Cloud of Daggers") [![](/w/images/thumb/8/83/Concentration_Icon.png/16px-Concentration_Icon.png.webp)](/wiki/Concentration "Concentration")
+- [![Crown of Madness](/w/images/thumb/4/48/Crown_of_Madness_Icon.webp/40px-Crown_of_Madness_Icon.webp)](/wiki/Crown_of_Madness "Crown of Madness")[Crown of Madness](/wiki/Crown_of_Madness "Crown of Madness") [![](/w/images/thumb/8/83/Concentration_Icon.png/16px-Concentration_Icon.png.webp)](/wiki/Concentration "Concentration")
+- [![Darkness](/w/images/thumb/b/bf/Darkness_Icon.webp/40px-Darkness_Icon.webp)](/wiki/Darkness "Darkness")[Darkness](/wiki/Darkness "Darkness") [![](/w/images/thumb/8/83/Concentration_Icon.png/16px-Concentration_Icon.png.webp)](/wiki/Concentration "Concentration")
+- [![Darkvision](/w/images/thumb/0/01/Darkvision_spell_Icon.webp/40px-Darkvision_spell_Icon.webp)](/wiki/Darkvision_(spell) "Darkvision (spell)")[Darkvision](/wiki/Darkvision_(spell) "Darkvision (spell)")
+- [![Detect Thoughts](/w/images/thumb/b/b6/Detect_Thoughts_Icon.webp/40px-Detect_Thoughts_Icon.webp)](/wiki/Detect_Thoughts "Detect Thoughts")[Detect Thoughts](/wiki/Detect_Thoughts "Detect Thoughts") [![](/w/images/thumb/8/83/Concentration_Icon.png/16px-Concentration_Icon.png.webp)](/wiki/Concentration "Concentration") [![](/w/images/thumb/f/fa/Ritual_Spell_Icon.png/16px-Ritual_Spell_Icon.png.webp)](/wiki/Ritual_spell "Ritual spell")
+- [![Enhance Ability](/w/images/thumb/6/65/Enhance_Ability_Icon.webp/40px-Enhance_Ability_Icon.webp)](/wiki/Enhance_Ability "Enhance Ability")[Enhance Ability](/wiki/Enhance_Ability "Enhance Ability") [![](/w/images/thumb/8/83/Concentration_Icon.png/16px-Concentration_Icon.png.webp)](/wiki/Concentration "Concentration")
+- [![Enlarge/Reduce](/w/images/thumb/c/c6/Enlarge_Reduce_Icon.webp/40px-Enlarge_Reduce_Icon.webp)](/wiki/Enlarge/Reduce "Enlarge/Reduce")[Enlarge/Reduce](/wiki/Enlarge/Reduce "Enlarge/Reduce") [![](/w/images/thumb/8/83/Concentration_Icon.png/16px-Concentration_Icon.png.webp)](/wiki/Concentration "Concentration")
+- [![Enthrall](/w/images/thumb/9/90/Enthrall_Icon.webp/40px-Enthrall_Icon.webp)](/wiki/Enthrall "Enthrall")[Enthrall](/wiki/Enthrall "Enthrall")
+- [![Flame Blade](/w/images/thumb/c/c8/Flame_Blade_Icon.webp/40px-Flame_Blade_Icon.webp)](/wiki/Flame_Blade "Flame Blade")[Flame Blade](/wiki/Flame_Blade "Flame Blade")
+- [![Flaming Sphere](/w/images/thumb/6/66/Flaming_Sphere_Icon.webp/40px-Flaming_Sphere_Icon.webp)](/wiki/Flaming_Sphere "Flaming Sphere")[Flaming Sphere](/wiki/Flaming_Sphere "Flaming Sphere") [![](/w/images/thumb/8/83/Concentration_Icon.png/16px-Concentration_Icon.png.webp)](/wiki/Concentration "Concentration")
+- [![Gust of Wind](/w/images/thumb/5/58/Gust_of_Wind_Icon.webp/40px-Gust_of_Wind_Icon.webp)](/wiki/Gust_of_Wind "Gust of Wind")[Gust of Wind](/wiki/Gust_of_Wind "Gust of Wind")
+- [![Heat Metal](/w/images/thumb/a/a3/Heat_Metal_Icon.webp/40px-Heat_Metal_Icon.webp)](/wiki/Heat_Metal "Heat Metal")[Heat Metal](/wiki/Heat_Metal "Heat Metal") [![](/w/images/thumb/8/83/Concentration_Icon.png/16px-Concentration_Icon.png.webp)](/wiki/Concentration "Concentration")
+- [![Hold Person](/w/images/thumb/7/75/Hold_Person_Icon.webp/40px-Hold_Person_Icon.webp)](/wiki/Hold_Person "Hold Person")[Hold Person](/wiki/Hold_Person "Hold Person") [![](/w/images/thumb/8/83/Concentration_Icon.png/16px-Concentration_Icon.png.webp)](/wiki/Concentration "Concentration")
+- [![Invisibility](/w/images/thumb/4/4e/Invisibility_spell_Icon.webp/40px-Invisibility_spell_Icon.webp)](/wiki/Invisibility_(spell) "Invisibility (spell)")[Invisibility](/wiki/Invisibility_(spell) "Invisibility (spell)") [![](/w/images/thumb/8/83/Concentration_Icon.png/16px-Concentration_Icon.png.webp)](/wiki/Concentration "Concentration")
+- [![Knock](/w/images/thumb/a/a4/Knock_Icon.webp/40px-Knock_Icon.webp)](/wiki/Knock "Knock")[Knock](/wiki/Knock "Knock")
+- [![Lesser Restoration](/w/images/thumb/e/e4/Lesser_Restoration_Icon.webp/40px-Lesser_Restoration_Icon.webp)](/wiki/Lesser_Restoration "Lesser Restoration")[Lesser Restoration](/wiki/Lesser_Restoration "Lesser Restoration")
+- [![Magic Weapon](/w/images/thumb/9/9c/Magic_Weapon_Icon.webp/40px-Magic_Weapon_Icon.webp)](/wiki/Magic_Weapon "Magic Weapon")[Magic Weapon](/wiki/Magic_Weapon "Magic Weapon") [![](/w/images/thumb/8/83/Concentration_Icon.png/16px-Concentration_Icon.png.webp)](/wiki/Concentration "Concentration")
+- [![Melf's Acid Arrow](/w/images/thumb/6/67/Melf%27s_Acid_Arrow_Icon.webp/40px-Melf%27s_Acid_Arrow_Icon.webp)](/wiki/Melf%27s_Acid_Arrow "Melf's Acid Arrow")[Melf's Acid Arrow](/wiki/Melf%27s_Acid_Arrow "Melf's Acid Arrow")
+- [![Mirror Image](/w/images/thumb/4/41/Mirror_Image_Icon.webp/40px-Mirror_Image_Icon.webp)](/wiki/Mirror_Image "Mirror Image")[Mirror Image](/wiki/Mirror_Image "Mirror Image")
+- [![Misty Step](/w/images/thumb/1/1f/Misty_Step_Icon.webp/40px-Misty_Step_Icon.webp)](/wiki/Misty_Step "Misty Step")[Misty Step](/wiki/Misty_Step "Misty Step")
+- [![Moonbeam](/w/images/thumb/8/8b/Moonbeam_Icon.webp/40px-Moonbeam_Icon.webp)](/wiki/Moonbeam "Moonbeam")[Moonbeam](/wiki/Moonbeam "Moonbeam") [![](/w/images/thumb/8/83/Concentration_Icon.png/16px-Concentration_Icon.png.webp)](/wiki/Concentration "Concentration")
+- [![Pass Without Trace](/w/images/thumb/2/2b/Pass_Without_Trace_Icon.webp/40px-Pass_Without_Trace_Icon.webp)](/wiki/Pass_Without_Trace "Pass Without Trace")[Pass Without Trace](/wiki/Pass_Without_Trace "Pass Without Trace") [![](/w/images/thumb/8/83/Concentration_Icon.png/16px-Concentration_Icon.png.webp)](/wiki/Concentration "Concentration")
+- [![Phantasmal Force](/w/images/thumb/a/ac/Phantasmal_Force_Icon.webp/40px-Phantasmal_Force_Icon.webp)](/wiki/Phantasmal_Force "Phantasmal Force")[Phantasmal Force](/wiki/Phantasmal_Force "Phantasmal Force") [![](/w/images/thumb/8/83/Concentration_Icon.png/16px-Concentration_Icon.png.webp)](/wiki/Concentration "Concentration")
+- [![Prayer of Healing](/w/images/thumb/e/e0/Prayer_of_Healing_Icon.webp/40px-Prayer_of_Healing_Icon.webp)](/wiki/Prayer_of_Healing "Prayer of Healing")[Prayer of Healing](/wiki/Prayer_of_Healing "Prayer of Healing")
+- [![Protection from Poison](/w/images/thumb/3/3b/Protection_from_Poison_Icon.webp/40px-Protection_from_Poison_Icon.webp)](/wiki/Protection_from_Poison "Protection from Poison")[Protection from Poison](/wiki/Protection_from_Poison "Protection from Poison")
+- [![Ray of Enfeeblement](/w/images/thumb/7/7b/Ray_of_Enfeeblement_Icon.webp/40px-Ray_of_Enfeeblement_Icon.webp)](/wiki/Ray_of_Enfeeblement "Ray of Enfeeblement")[Ray of Enfeeblement](/wiki/Ray_of_Enfeeblement "Ray of Enfeeblement") [![](/w/images/thumb/8/83/Concentration_Icon.png/16px-Concentration_Icon.png.webp)](/wiki/Concentration "Concentration")
+- [![Scorching Ray](/w/images/thumb/8/8e/Scorching_Ray_Icon.webp/40px-Scorching_Ray_Icon.webp)](/wiki/Scorching_Ray "Scorching Ray")[Scorching Ray](/wiki/Scorching_Ray "Scorching Ray")
+- [![See Invisibility](/w/images/thumb/c/c3/See_Invisibility_Icon.webp/40px-See_Invisibility_Icon.webp)](/wiki/See_Invisibility_(spell) "See Invisibility (spell)")[See Invisibility](/wiki/See_Invisibility_(spell) "See Invisibility (spell)")
+- [![Shadow Blade](/w/images/thumb/6/6e/Shadow_Blade_Icon.webp/40px-Shadow_Blade_Icon.webp)](/wiki/Shadow_Blade "Shadow Blade")[Shadow Blade](/wiki/Shadow_Blade "Shadow Blade")
+- [![Shatter](/w/images/thumb/c/c5/Shatter_Icon.webp/40px-Shatter_Icon.webp)](/wiki/Shatter "Shatter")[Shatter](/wiki/Shatter "Shatter")
+- [![Silence](/w/images/thumb/7/78/Silence_Icon.webp/40px-Silence_Icon.webp)](/wiki/Silence "Silence")[Silence](/wiki/Silence "Silence") [![](/w/images/thumb/8/83/Concentration_Icon.png/16px-Concentration_Icon.png.webp)](/wiki/Concentration "Concentration") [![](/w/images/thumb/f/fa/Ritual_Spell_Icon.png/16px-Ritual_Spell_Icon.png.webp)](/wiki/Ritual_spell "Ritual spell")
+- [![Spike Growth](/w/images/thumb/d/d4/Spike_Growth_Icon.webp/40px-Spike_Growth_Icon.webp)](/wiki/Spike_Growth "Spike Growth")[Spike Growth](/wiki/Spike_Growth "Spike Growth") [![](/w/images/thumb/8/83/Concentration_Icon.png/16px-Concentration_Icon.png.webp)](/wiki/Concentration "Concentration")
+- [![Spiritual Weapon](/w/images/thumb/2/26/Spiritual_Weapon_Icon.webp/40px-Spiritual_Weapon_Icon.webp)](/wiki/Spiritual_Weapon "Spiritual Weapon")[Spiritual Weapon](/wiki/Spiritual_Weapon "Spiritual Weapon")
+- [![Warding Bond](/w/images/thumb/e/ea/Warding_Bond_Icon.webp/40px-Warding_Bond_Icon.webp)](/wiki/Warding_Bond "Warding Bond")[Warding Bond](/wiki/Warding_Bond "Warding Bond")
+- [![Web](/w/images/thumb/8/8b/Web_Icon.webp/40px-Web_Icon.webp)](/wiki/Web "Web")[Web](/wiki/Web "Web") [![](/w/images/thumb/8/83/Concentration_Icon.png/16px-Concentration_Icon.png.webp)](/wiki/Concentration "Concentration")
+
+## Level 3 spells
+
+- ![Ico knownSpells lvl 03.png](/w/images/thumb/e/e3/Ico_knownSpells_lvl_03.png/24px-Ico_knownSpells_lvl_03.png.webp) **Level 3 spells** are spells which consume Level 3 [Spell Slots](/wiki/Spells#Spell_Slots "Spells") when cast.
+
+- [![Animate Dead](/w/images/thumb/2/2f/Animate_Dead_Icon.webp/40px-Animate_Dead_Icon.webp)](/wiki/Animate_Dead "Animate Dead")[Animate Dead](/wiki/Animate_Dead "Animate Dead")
+- [![Beacon of Hope](/w/images/thumb/5/5d/Beacon_of_Hope_Icon.webp/40px-Beacon_of_Hope_Icon.webp)](/wiki/Beacon_of_Hope "Beacon of Hope")[Beacon of Hope](/wiki/Beacon_of_Hope "Beacon of Hope") [![](/w/images/thumb/8/83/Concentration_Icon.png/16px-Concentration_Icon.png.webp)](/wiki/Concentration "Concentration")
+- [![Bestow Curse](/w/images/thumb/0/00/Bestow_Curse_Icon.webp/40px-Bestow_Curse_Icon.webp)](/wiki/Bestow_Curse "Bestow Curse")[Bestow Curse](/wiki/Bestow_Curse "Bestow Curse") [![](/w/images/thumb/8/83/Concentration_Icon.png/16px-Concentration_Icon.png.webp)](/wiki/Concentration "Concentration")
+- [![Blinding Smite](/w/images/thumb/5/5e/Blinding_Smite_Icon.webp/40px-Blinding_Smite_Icon.webp)](/wiki/Blinding_Smite "Blinding Smite")[Blinding Smite](/wiki/Blinding_Smite "Blinding Smite")
+- [![Blink](/w/images/thumb/b/b3/Blink_Icon.webp/40px-Blink_Icon.webp)](/wiki/Blink "Blink")[Blink](/wiki/Blink "Blink")
+- [![Call Lightning](/w/images/thumb/9/99/Call_Lightning_Icon.webp/40px-Call_Lightning_Icon.webp)](/wiki/Call_Lightning "Call Lightning")[Call Lightning](/wiki/Call_Lightning "Call Lightning") [![](/w/images/thumb/8/83/Concentration_Icon.png/16px-Concentration_Icon.png.webp)](/wiki/Concentration "Concentration")
+- [![Conjure Barrage](/w/images/thumb/d/df/Conjure_Barrage_Icon.webp/40px-Conjure_Barrage_Icon.webp)](/wiki/Conjure_Barrage "Conjure Barrage")[Conjure Barrage](/wiki/Conjure_Barrage "Conjure Barrage")
+- [![Counterspell](/w/images/thumb/5/50/Counterspell_Icon.webp/40px-Counterspell_Icon.webp)](/wiki/Counterspell "Counterspell")[Counterspell](/wiki/Counterspell "Counterspell")
+- [![Crusader's Mantle](/w/images/thumb/4/4d/Crusader%27s_Mantle_Icon.webp/40px-Crusader%27s_Mantle_Icon.webp)](/wiki/Crusader%27s_Mantle "Crusader's Mantle")[Crusader's Mantle](/wiki/Crusader%27s_Mantle "Crusader's Mantle") [![](/w/images/thumb/8/83/Concentration_Icon.png/16px-Concentration_Icon.png.webp)](/wiki/Concentration "Concentration")
+- [![Daylight](/w/images/thumb/6/6e/Daylight_Icon.webp/40px-Daylight_Icon.webp)](/wiki/Daylight "Daylight")[Daylight](/wiki/Daylight "Daylight")
+- [![Elemental Weapon](/w/images/thumb/0/06/Elemental_Weapon_Icon.webp/40px-Elemental_Weapon_Icon.webp)](/wiki/Elemental_Weapon "Elemental Weapon")[Elemental Weapon](/wiki/Elemental_Weapon "Elemental Weapon") [![](/w/images/thumb/8/83/Concentration_Icon.png/16px-Concentration_Icon.png.webp)](/wiki/Concentration "Concentration")
+- [![Fear](/w/images/thumb/a/ad/Fear_Icon.webp/40px-Fear_Icon.webp)](/wiki/Fear "Fear")[Fear](/wiki/Fear "Fear") [![](/w/images/thumb/8/83/Concentration_Icon.png/16px-Concentration_Icon.png.webp)](/wiki/Concentration "Concentration")
+- [![Feign Death](/w/images/thumb/f/fe/Feign_Death_Icon.webp/40px-Feign_Death_Icon.webp)](/wiki/Feign_Death "Feign Death")[Feign Death](/wiki/Feign_Death "Feign Death")
+- [![Fireball](/w/images/thumb/c/cb/Fireball_Icon.webp/40px-Fireball_Icon.webp)](/wiki/Fireball "Fireball")[Fireball](/wiki/Fireball "Fireball")
+- [![Gaseous Form](/w/images/thumb/6/62/Gaseous_Form_Icon.webp/40px-Gaseous_Form_Icon.webp)](/wiki/Gaseous_Form "Gaseous Form")[Gaseous Form](/wiki/Gaseous_Form "Gaseous Form") [![](/w/images/thumb/8/83/Concentration_Icon.png/16px-Concentration_Icon.png.webp)](/wiki/Concentration "Concentration")
+- [![Glyph of Warding](/w/images/thumb/8/88/Glyph_of_Warding_Icon.webp/40px-Glyph_of_Warding_Icon.webp)](/wiki/Glyph_of_Warding "Glyph of Warding")[Glyph of Warding](/wiki/Glyph_of_Warding "Glyph of Warding")
+- [![Grant Flight](/w/images/thumb/4/45/Grant_Flight_Icon.webp/40px-Grant_Flight_Icon.webp)](/wiki/Grant_Flight "Grant Flight")[Grant Flight](/wiki/Grant_Flight "Grant Flight") [![](/w/images/thumb/8/83/Concentration_Icon.png/16px-Concentration_Icon.png.webp)](/wiki/Concentration "Concentration")
+- [![Haste](/w/images/thumb/1/11/Haste_Icon.webp/40px-Haste_Icon.webp)](/wiki/Haste "Haste")[Haste](/wiki/Haste "Haste") [![](/w/images/thumb/8/83/Concentration_Icon.png/16px-Concentration_Icon.png.webp)](/wiki/Concentration "Concentration")
+- [![Hunger of Hadar](/w/images/thumb/4/44/Hunger_of_Hadar_Icon.webp/40px-Hunger_of_Hadar_Icon.webp)](/wiki/Hunger_of_Hadar "Hunger of Hadar")[Hunger of Hadar](/wiki/Hunger_of_Hadar "Hunger of Hadar") [![](/w/images/thumb/8/83/Concentration_Icon.png/16px-Concentration_Icon.png.webp)](/wiki/Concentration "Concentration")
+- [![Hypnotic Pattern](/w/images/thumb/2/28/Hypnotic_Pattern_Icon.webp/40px-Hypnotic_Pattern_Icon.webp)](/wiki/Hypnotic_Pattern "Hypnotic Pattern")[Hypnotic Pattern](/wiki/Hypnotic_Pattern "Hypnotic Pattern") [![](/w/images/thumb/8/83/Concentration_Icon.png/16px-Concentration_Icon.png.webp)](/wiki/Concentration "Concentration")
+- [![Lightning Arrow](/w/images/thumb/e/e3/Lightning_Arrow_Icon.webp/40px-Lightning_Arrow_Icon.webp)](/wiki/Lightning_Arrow "Lightning Arrow")[Lightning Arrow](/wiki/Lightning_Arrow "Lightning Arrow")
+- [![Lightning Bolt](/w/images/thumb/c/cb/Lightning_Bolt_Icon.webp/40px-Lightning_Bolt_Icon.webp)](/wiki/Lightning_Bolt "Lightning Bolt")[Lightning Bolt](/wiki/Lightning_Bolt "Lightning Bolt")
+- [![Mass Healing Word](/w/images/thumb/f/f8/Mass_Healing_Word_Icon.webp/40px-Mass_Healing_Word_Icon.webp)](/wiki/Mass_Healing_Word "Mass Healing Word")[Mass Healing Word](/wiki/Mass_Healing_Word "Mass Healing Word")
+- [![Plant Growth](/w/images/thumb/a/ad/Plant_Growth_Icon.webp/40px-Plant_Growth_Icon.webp)](/wiki/Plant_Growth "Plant Growth")[Plant Growth](/wiki/Plant_Growth "Plant Growth")
+- [![Protection from Energy](/w/images/thumb/1/15/Protection_from_Energy_Icon.webp/40px-Protection_from_Energy_Icon.webp)](/wiki/Protection_from_Energy "Protection from Energy")[Protection from Energy](/wiki/Protection_from_Energy "Protection from Energy") [![](/w/images/thumb/8/83/Concentration_Icon.png/16px-Concentration_Icon.png.webp)](/wiki/Concentration "Concentration")
+- [![Remove Curse](/w/images/thumb/7/7f/Remove_Curse_Icon.webp/40px-Remove_Curse_Icon.webp)](/wiki/Remove_Curse "Remove Curse")[Remove Curse](/wiki/Remove_Curse "Remove Curse")
+- [![Revivify](/w/images/thumb/5/59/Revivify_Icon.webp/40px-Revivify_Icon.webp)](/wiki/Revivify "Revivify")[Revivify](/wiki/Revivify "Revivify")
+- [![Sleet Storm](/w/images/thumb/5/50/Sleet_Storm_Icon.webp/40px-Sleet_Storm_Icon.webp)](/wiki/Sleet_Storm "Sleet Storm")[Sleet Storm](/wiki/Sleet_Storm "Sleet Storm") [![](/w/images/thumb/8/83/Concentration_Icon.png/16px-Concentration_Icon.png.webp)](/wiki/Concentration "Concentration")
+- [![Slow](/w/images/thumb/b/be/Slow_Icon.webp/40px-Slow_Icon.webp)](/wiki/Slow "Slow")[Slow](/wiki/Slow "Slow") [![](/w/images/thumb/8/83/Concentration_Icon.png/16px-Concentration_Icon.png.webp)](/wiki/Concentration "Concentration")
+- [![Speak with Dead](/w/images/thumb/8/8c/Speak_with_Dead_Icon.webp/40px-Speak_with_Dead_Icon.webp)](/wiki/Speak_with_Dead "Speak with Dead")[Speak with Dead](/wiki/Speak_with_Dead "Speak with Dead") [![](/w/images/thumb/f/fa/Ritual_Spell_Icon.png/16px-Ritual_Spell_Icon.png.webp)](/wiki/Ritual_spell "Ritual spell")
+- [![Spirit Guardians](/w/images/thumb/d/d6/Spirit_Guardians_Icon.webp/40px-Spirit_Guardians_Icon.webp)](/wiki/Spirit_Guardians "Spirit Guardians")[Spirit Guardians](/wiki/Spirit_Guardians "Spirit Guardians") [![](/w/images/thumb/8/83/Concentration_Icon.png/16px-Concentration_Icon.png.webp)](/wiki/Concentration "Concentration")
+- [![Stinking Cloud](/w/images/thumb/b/b7/Stinking_Cloud_Icon.webp/40px-Stinking_Cloud_Icon.webp)](/wiki/Stinking_Cloud "Stinking Cloud")[Stinking Cloud](/wiki/Stinking_Cloud "Stinking Cloud") [![](/w/images/thumb/8/83/Concentration_Icon.png/16px-Concentration_Icon.png.webp)](/wiki/Concentration "Concentration")
+- [![Vampiric Touch](/w/images/thumb/8/85/Vampiric_Touch_Icon.webp/40px-Vampiric_Touch_Icon.webp)](/wiki/Vampiric_Touch "Vampiric Touch")[Vampiric Touch](/wiki/Vampiric_Touch "Vampiric Touch") [![](/w/images/thumb/8/83/Concentration_Icon.png/16px-Concentration_Icon.png.webp)](/wiki/Concentration "Concentration")
+- [![Warden of Vitality](/w/images/thumb/0/0b/Warden_of_Vitality_Icon.webp/40px-Warden_of_Vitality_Icon.webp)](/wiki/Warden_of_Vitality "Warden of Vitality")[Warden of Vitality](/wiki/Warden_of_Vitality "Warden of Vitality")
+
+## Level 4 spells
+
+- ![Ico knownSpells lvl 04.png](/w/images/thumb/c/c9/Ico_knownSpells_lvl_04.png/24px-Ico_knownSpells_lvl_04.png.webp) **Level 4 spells** are spells which consume Level 4 [Spell Slots](/wiki/Spells#Spell_Slots "Spells") when cast.
+
+- [![Banishment](/w/images/thumb/6/6d/Banishment_Icon.webp/40px-Banishment_Icon.webp)](/wiki/Banishment "Banishment")[Banishment](/wiki/Banishment "Banishment") [![](/w/images/thumb/8/83/Concentration_Icon.png/16px-Concentration_Icon.png.webp)](/wiki/Concentration "Concentration")
+- [![Blight](/w/images/thumb/e/e0/Blight_Icon.webp/40px-Blight_Icon.webp)](/wiki/Blight "Blight")[Blight](/wiki/Blight "Blight")
+- [![Confusion](/w/images/thumb/7/7b/Confusion_Icon.webp/40px-Confusion_Icon.webp)](/wiki/Confusion "Confusion")[Confusion](/wiki/Confusion "Confusion") [![](/w/images/thumb/8/83/Concentration_Icon.png/16px-Concentration_Icon.png.webp)](/wiki/Concentration "Concentration")
+- [![Conjure Minor Elemental](/w/images/thumb/0/08/Conjure_Minor_Elemental_Azer_Icon.webp/40px-Conjure_Minor_Elemental_Azer_Icon.webp)](/wiki/Conjure_Minor_Elemental "Conjure Minor Elemental")[Conjure Minor Elemental](/wiki/Conjure_Minor_Elemental "Conjure Minor Elemental")
+- [![Conjure Woodland Being](/w/images/thumb/8/8a/Conjure_Woodland_Being_Icon.webp/40px-Conjure_Woodland_Being_Icon.webp)](/wiki/Conjure_Woodland_Being "Conjure Woodland Being")[Conjure Woodland Being](/wiki/Conjure_Woodland_Being "Conjure Woodland Being")
+- [![Death Ward](/w/images/thumb/8/84/Death_Ward_Icon.webp/40px-Death_Ward_Icon.webp)](/wiki/Death_Ward "Death Ward")[Death Ward](/wiki/Death_Ward "Death Ward")
+- [![Dimension Door](/w/images/thumb/d/da/Dimension_Door_Icon.webp/40px-Dimension_Door_Icon.webp)](/wiki/Dimension_Door "Dimension Door")[Dimension Door](/wiki/Dimension_Door "Dimension Door")
+- [![Dominate Beast](/w/images/thumb/8/83/Dominate_Beast_Icon.webp/40px-Dominate_Beast_Icon.webp)](/wiki/Dominate_Beast "Dominate Beast")[Dominate Beast](/wiki/Dominate_Beast "Dominate Beast") [![](/w/images/thumb/8/83/Concentration_Icon.png/16px-Concentration_Icon.png.webp)](/wiki/Concentration "Concentration")
+- [![Evard's Black Tentacles](/w/images/thumb/d/d6/Evard%27s_Black_Tentacles_Icon.webp/40px-Evard%27s_Black_Tentacles_Icon.webp)](/wiki/Evard%27s_Black_Tentacles "Evard's Black Tentacles")[Evard's Black Tentacles](/wiki/Evard%27s_Black_Tentacles "Evard's Black Tentacles") [![](/w/images/thumb/8/83/Concentration_Icon.png/16px-Concentration_Icon.png.webp)](/wiki/Concentration "Concentration")
+- [![Fire Shield](/w/images/thumb/e/e0/Fire_Shield_Icon.webp/40px-Fire_Shield_Icon.webp)](/wiki/Fire_Shield "Fire Shield")[Fire Shield](/wiki/Fire_Shield "Fire Shield")
+- [![Freedom of Movement](/w/images/thumb/f/f0/Freedom_of_Movement_Icon.webp/40px-Freedom_of_Movement_Icon.webp)](/wiki/Freedom_of_Movement "Freedom of Movement")[Freedom of Movement](/wiki/Freedom_of_Movement "Freedom of Movement")
+- [![Grasping Vine](/w/images/thumb/8/8b/Grasping_Vine_Icon.webp/40px-Grasping_Vine_Icon.webp)](/wiki/Grasping_Vine "Grasping Vine")[Grasping Vine](/wiki/Grasping_Vine "Grasping Vine")
+- [![Greater Invisibility](/w/images/thumb/2/28/Greater_Invisibility_Icon.webp/40px-Greater_Invisibility_Icon.webp)](/wiki/Greater_Invisibility "Greater Invisibility")[Greater Invisibility](/wiki/Greater_Invisibility "Greater Invisibility") [![](/w/images/thumb/8/83/Concentration_Icon.png/16px-Concentration_Icon.png.webp)](/wiki/Concentration "Concentration")
+- [![Guardian of Faith](/w/images/thumb/7/7d/Guardian_of_Faith_Icon.webp/40px-Guardian_of_Faith_Icon.webp)](/wiki/Guardian_of_Faith "Guardian of Faith")[Guardian of Faith](/wiki/Guardian_of_Faith "Guardian of Faith")
+- [![Ice Storm](/w/images/thumb/9/9b/Ice_Storm_Icon.webp/40px-Ice_Storm_Icon.webp)](/wiki/Ice_Storm "Ice Storm")[Ice Storm](/wiki/Ice_Storm "Ice Storm")
+- [![Otiluke's Resilient Sphere](/w/images/thumb/8/82/Otiluke%27s_Resilient_Sphere_Icon.webp/40px-Otiluke%27s_Resilient_Sphere_Icon.webp)](/wiki/Otiluke%27s_Resilient_Sphere "Otiluke's Resilient Sphere")[Otiluke's Resilient Sphere](/wiki/Otiluke%27s_Resilient_Sphere "Otiluke's Resilient Sphere") [![](/w/images/thumb/8/83/Concentration_Icon.png/16px-Concentration_Icon.png.webp)](/wiki/Concentration "Concentration")
+- [![Phantasmal Killer](/w/images/thumb/d/da/Phantasmal_Killer_Icon.webp/40px-Phantasmal_Killer_Icon.webp)](/wiki/Phantasmal_Killer "Phantasmal Killer")[Phantasmal Killer](/wiki/Phantasmal_Killer "Phantasmal Killer") [![](/w/images/thumb/8/83/Concentration_Icon.png/16px-Concentration_Icon.png.webp)](/wiki/Concentration "Concentration")
+- [![Polymorph](/w/images/thumb/f/f6/Polymorph_Icon.webp/40px-Polymorph_Icon.webp)](/wiki/Polymorph "Polymorph")[Polymorph](/wiki/Polymorph "Polymorph") [![](/w/images/thumb/8/83/Concentration_Icon.png/16px-Concentration_Icon.png.webp)](/wiki/Concentration "Concentration")
+- [![Staggering Smite](/w/images/thumb/0/03/Staggering_Smite_Icon.webp/40px-Staggering_Smite_Icon.webp)](/wiki/Staggering_Smite "Staggering Smite")[Staggering Smite](/wiki/Staggering_Smite "Staggering Smite") [![](/w/images/thumb/8/83/Concentration_Icon.png/16px-Concentration_Icon.png.webp)](/wiki/Concentration "Concentration")
+- [![Stoneskin](/w/images/thumb/c/c3/Stoneskin_Icon.webp/40px-Stoneskin_Icon.webp)](/wiki/Stoneskin "Stoneskin")[Stoneskin](/wiki/Stoneskin "Stoneskin") [![](/w/images/thumb/8/83/Concentration_Icon.png/16px-Concentration_Icon.png.webp)](/wiki/Concentration "Concentration")
+- [![Wall of Fire](/w/images/thumb/c/ca/Wall_of_Fire_Icon.webp/40px-Wall_of_Fire_Icon.webp)](/wiki/Wall_of_Fire "Wall of Fire")[Wall of Fire](/wiki/Wall_of_Fire "Wall of Fire") [![](/w/images/thumb/8/83/Concentration_Icon.png/16px-Concentration_Icon.png.webp)](/wiki/Concentration "Concentration")
+
+## Level 5 spells
+
+- ![Ico knownSpells lvl 05.png](/w/images/thumb/3/30/Ico_knownSpells_lvl_05.png/24px-Ico_knownSpells_lvl_05.png.webp) **Level 5 spells** are spells which consume Level 5 [Spell Slots](/wiki/Spells#Spell_Slots "Spells") when cast.
+
+- [![Banishing Smite](/w/images/thumb/3/3b/Banishing_Smite_Melee_Icon.webp/40px-Banishing_Smite_Melee_Icon.webp)](/wiki/Banishing_Smite "Banishing Smite")[Banishing Smite](/wiki/Banishing_Smite "Banishing Smite")
+- [![Cloudkill](/w/images/thumb/7/74/Cloudkill_Icon.webp/40px-Cloudkill_Icon.webp)](/wiki/Cloudkill "Cloudkill")[Cloudkill](/wiki/Cloudkill "Cloudkill") [![](/w/images/thumb/8/83/Concentration_Icon.png/16px-Concentration_Icon.png.webp)](/wiki/Concentration "Concentration")
+- [![Cone of Cold](/w/images/thumb/e/ef/Cone_of_Cold_Icon.webp/40px-Cone_of_Cold_Icon.webp)](/wiki/Cone_of_Cold "Cone of Cold")[Cone of Cold](/wiki/Cone_of_Cold "Cone of Cold")
+- [![Conjure Elemental](/w/images/thumb/e/e6/Conjure_Elemental_Icon.webp/40px-Conjure_Elemental_Icon.webp)](/wiki/Conjure_Elemental "Conjure Elemental")[Conjure Elemental](/wiki/Conjure_Elemental "Conjure Elemental")
+- [![Contagion](/w/images/thumb/6/60/Contagion_Filth_Fever_Icon.webp/40px-Contagion_Filth_Fever_Icon.webp)](/wiki/Contagion "Contagion")[Contagion](/wiki/Contagion "Contagion")
+- [![Curriculum of Strategy: Artistry of War](/w/images/thumb/b/b7/Curriculum_of_Strategy_Artistry_of_War_Icon.webp/40px-Curriculum_of_Strategy_Artistry_of_War_Icon.webp)](/wiki/Curriculum_of_Strategy:_Artistry_of_War "Curriculum of Strategy: Artistry of War")[Curriculum of Strategy: Artistry of War](/wiki/Curriculum_of_Strategy:_Artistry_of_War "Curriculum of Strategy: Artistry of War")
+- [![Destructive Wave](/w/images/thumb/f/fd/Destructive_Wave_Icon.webp/40px-Destructive_Wave_Icon.webp)](/wiki/Destructive_Wave "Destructive Wave")[Destructive Wave](/wiki/Destructive_Wave "Destructive Wave")
+- [![Dethrone](/w/images/thumb/6/6e/Dethrone_Icon.webp/40px-Dethrone_Icon.webp)](/wiki/Dethrone "Dethrone")[Dethrone](/wiki/Dethrone "Dethrone")
+- [![Dispel Evil And Good](/w/images/thumb/a/a5/Dispel_Evil_And_Good_Icon.webp/40px-Dispel_Evil_And_Good_Icon.webp)](/wiki/Dispel_Evil_And_Good "Dispel Evil And Good")[Dispel Evil And Good](/wiki/Dispel_Evil_And_Good "Dispel Evil And Good") [![](/w/images/thumb/8/83/Concentration_Icon.png/16px-Concentration_Icon.png.webp)](/wiki/Concentration "Concentration")
+- [![Dominate Person](/w/images/thumb/1/1d/Dominate_Person_Icon.webp/40px-Dominate_Person_Icon.webp)](/wiki/Dominate_Person "Dominate Person")[Dominate Person](/wiki/Dominate_Person "Dominate Person") [![](/w/images/thumb/8/83/Concentration_Icon.png/16px-Concentration_Icon.png.webp)](/wiki/Concentration "Concentration")
+- [![Flame Strike](/w/images/thumb/b/b8/Flame_Strike_Icon.webp/40px-Flame_Strike_Icon.webp)](/wiki/Flame_Strike "Flame Strike")[Flame Strike](/wiki/Flame_Strike "Flame Strike")
+- [![Greater Restoration](/w/images/thumb/e/ee/Greater_Restoration_Icon.webp/40px-Greater_Restoration_Icon.webp)](/wiki/Greater_Restoration "Greater Restoration")[Greater Restoration](/wiki/Greater_Restoration "Greater Restoration")
+- [![Hold Monster](/w/images/thumb/c/cf/Hold_Monster_Icon.webp/40px-Hold_Monster_Icon.webp)](/wiki/Hold_Monster "Hold Monster")[Hold Monster](/wiki/Hold_Monster "Hold Monster") [![](/w/images/thumb/8/83/Concentration_Icon.png/16px-Concentration_Icon.png.webp)](/wiki/Concentration "Concentration")
+- [![Insect Plague](/w/images/thumb/a/a2/Insect_Plague_Icon.webp/40px-Insect_Plague_Icon.webp)](/wiki/Insect_Plague "Insect Plague")[Insect Plague](/wiki/Insect_Plague "Insect Plague") [![](/w/images/thumb/8/83/Concentration_Icon.png/16px-Concentration_Icon.png.webp)](/wiki/Concentration "Concentration")
+- [![Mass Cure Wounds](/w/images/thumb/3/32/Mass_Cure_Wounds_Icon.webp/40px-Mass_Cure_Wounds_Icon.webp)](/wiki/Mass_Cure_Wounds "Mass Cure Wounds")[Mass Cure Wounds](/wiki/Mass_Cure_Wounds "Mass Cure Wounds")
+- [![Planar Binding](/w/images/thumb/f/fa/Planar_Binding_Icon.webp/40px-Planar_Binding_Icon.webp)](/wiki/Planar_Binding "Planar Binding")[Planar Binding](/wiki/Planar_Binding "Planar Binding") [![](/w/images/thumb/8/83/Concentration_Icon.png/16px-Concentration_Icon.png.webp)](/wiki/Concentration "Concentration")
+- [![Seeming](/w/images/thumb/f/f4/Seeming_Icon.webp/40px-Seeming_Icon.webp)](/wiki/Seeming "Seeming")[Seeming](/wiki/Seeming "Seeming")
+- [![Telekinesis](/w/images/thumb/c/c7/Telekinesis_Icon.webp/40px-Telekinesis_Icon.webp)](/wiki/Telekinesis "Telekinesis")[Telekinesis](/wiki/Telekinesis "Telekinesis") [![](/w/images/thumb/8/83/Concentration_Icon.png/16px-Concentration_Icon.png.webp)](/wiki/Concentration "Concentration")
+- [![Wall of Stone](/w/images/thumb/e/e2/Wall_of_Stone_Icon.webp/40px-Wall_of_Stone_Icon.webp)](/wiki/Wall_of_Stone "Wall of Stone")[Wall of Stone](/wiki/Wall_of_Stone "Wall of Stone") [![](/w/images/thumb/8/83/Concentration_Icon.png/16px-Concentration_Icon.png.webp)](/wiki/Concentration "Concentration")
+
+## Level 6 spells
+
+- ![Ico knownSpells lvl 06.png](/w/images/thumb/a/aa/Ico_knownSpells_lvl_06.png/24px-Ico_knownSpells_lvl_06.png.webp) **Level 6 spells** are spells which consume Level 6 [Spell Slots](/wiki/Spells#Spell_Slots "Spells") when cast.
+
+- [![Arcane Gate](/w/images/thumb/6/6e/Arcane_Gate_Icon.webp/40px-Arcane_Gate_Icon.webp)](/wiki/Arcane_Gate "Arcane Gate")[Arcane Gate](/wiki/Arcane_Gate "Arcane Gate") [![](/w/images/thumb/8/83/Concentration_Icon.png/16px-Concentration_Icon.png.webp)](/wiki/Concentration "Concentration")
+- [![Blade Barrier](/w/images/thumb/b/bb/Blade_Barrier_Icon.webp/40px-Blade_Barrier_Icon.webp)](/wiki/Blade_Barrier "Blade Barrier")[Blade Barrier](/wiki/Blade_Barrier "Blade Barrier") [![](/w/images/thumb/8/83/Concentration_Icon.png/16px-Concentration_Icon.png.webp)](/wiki/Concentration "Concentration")
+- [![Chain Lightning](/w/images/thumb/c/c9/Chain_Lightning_Icon.webp/40px-Chain_Lightning_Icon.webp)](/wiki/Chain_Lightning "Chain Lightning")[Chain Lightning](/wiki/Chain_Lightning "Chain Lightning")
+- [![Circle of Death](/w/images/thumb/f/f2/Circle_of_Death_Icon.webp/40px-Circle_of_Death_Icon.webp)](/wiki/Circle_of_Death "Circle of Death")[Circle of Death](/wiki/Circle_of_Death "Circle of Death")
+- [![Create Undead](/w/images/thumb/d/da/Create_Undead_Icon.webp/40px-Create_Undead_Icon.webp)](/wiki/Create_Undead "Create Undead")[Create Undead](/wiki/Create_Undead "Create Undead")
+- [![Disintegrate](/w/images/thumb/8/8a/Disintegrate_Icon.webp/40px-Disintegrate_Icon.webp)](/wiki/Disintegrate "Disintegrate")[Disintegrate](/wiki/Disintegrate "Disintegrate")
+- [![Eyebite](/w/images/thumb/f/f7/Eyebite_Panicked_Icon.webp/40px-Eyebite_Panicked_Icon.webp)](/wiki/Eyebite "Eyebite")[Eyebite](/wiki/Eyebite "Eyebite") [![](/w/images/thumb/8/83/Concentration_Icon.png/16px-Concentration_Icon.png.webp)](/wiki/Concentration "Concentration")
+- [![Flesh to Stone](/w/images/thumb/7/72/Flesh_to_Stone_Icon.webp/40px-Flesh_to_Stone_Icon.webp)](/wiki/Flesh_to_Stone "Flesh to Stone")[Flesh to Stone](/wiki/Flesh_to_Stone "Flesh to Stone") [![](/w/images/thumb/8/83/Concentration_Icon.png/16px-Concentration_Icon.png.webp)](/wiki/Concentration "Concentration")
+- [![Globe of Invulnerability](/w/images/thumb/7/7a/Globe_of_Invulnerability_Icon.webp/40px-Globe_of_Invulnerability_Icon.webp)](/wiki/Globe_of_Invulnerability "Globe of Invulnerability")[Globe of Invulnerability](/wiki/Globe_of_Invulnerability "Globe of Invulnerability") [![](/w/images/thumb/8/83/Concentration_Icon.png/16px-Concentration_Icon.png.webp)](/wiki/Concentration "Concentration")
+- [![Harm](/w/images/thumb/0/09/Harm_Icon.webp/40px-Harm_Icon.webp)](/wiki/Harm "Harm")[Harm](/wiki/Harm "Harm")
+- [![Heal](/w/images/thumb/d/d3/Heal_Icon.webp/40px-Heal_Icon.webp)](/wiki/Heal "Heal")[Heal](/wiki/Heal "Heal")
+- [![Heroes' Feast](/w/images/thumb/a/a0/Heroes%27_Feast_Icon.webp/40px-Heroes%27_Feast_Icon.webp)](/wiki/Heroes%27_Feast "Heroes' Feast")[Heroes' Feast](/wiki/Heroes%27_Feast "Heroes' Feast")
+- [![Otiluke's Freezing Sphere](/w/images/thumb/a/af/Otiluke%27s_Freezing_Sphere_Icon.webp/40px-Otiluke%27s_Freezing_Sphere_Icon.webp)](/wiki/Otiluke%27s_Freezing_Sphere "Otiluke's Freezing Sphere")[Otiluke's Freezing Sphere](/wiki/Otiluke%27s_Freezing_Sphere "Otiluke's Freezing Sphere")
+- [![Otto's Irresistible Dance](/w/images/thumb/8/8c/Otto%27s_Irresistible_Dance_Icon.webp/40px-Otto%27s_Irresistible_Dance_Icon.webp)](/wiki/Otto%27s_Irresistible_Dance "Otto's Irresistible Dance")[Otto's Irresistible Dance](/wiki/Otto%27s_Irresistible_Dance "Otto's Irresistible Dance") [![](/w/images/thumb/8/83/Concentration_Icon.png/16px-Concentration_Icon.png.webp)](/wiki/Concentration "Concentration")
+- [![Planar Ally](/w/images/thumb/f/f3/Planar_Ally_Icon.webp/40px-Planar_Ally_Icon.webp)](/wiki/Planar_Ally "Planar Ally")[Planar Ally](/wiki/Planar_Ally "Planar Ally")
+- [![Sights of the Seelie: Summon Deva](/w/images/thumb/d/d8/Sights_of_the_Seelie_Summon_Deva_Icon.webp/40px-Sights_of_the_Seelie_Summon_Deva_Icon.webp)](/wiki/Sights_of_the_Seelie:_Summon_Deva "Sights of the Seelie: Summon Deva")[Sights of the Seelie: Summon Deva](/wiki/Sights_of_the_Seelie:_Summon_Deva "Sights of the Seelie: Summon Deva")
+- [![Sunbeam](/w/images/thumb/6/63/Sunbeam_Icon.webp/40px-Sunbeam_Icon.webp)](/wiki/Sunbeam "Sunbeam")[Sunbeam](/wiki/Sunbeam "Sunbeam") [![](/w/images/thumb/8/83/Concentration_Icon.png/16px-Concentration_Icon.png.webp)](/wiki/Concentration "Concentration")
+- [![Wall of Ice](/w/images/thumb/d/d2/Wall_of_Ice_Icon.webp/40px-Wall_of_Ice_Icon.webp)](/wiki/Wall_of_Ice "Wall of Ice")[Wall of Ice](/wiki/Wall_of_Ice "Wall of Ice") [![](/w/images/thumb/8/83/Concentration_Icon.png/16px-Concentration_Icon.png.webp)](/wiki/Concentration "Concentration")
+- [![Wall of Thorns](/w/images/thumb/6/6e/Wall_of_Thorns_Icon.webp/40px-Wall_of_Thorns_Icon.webp)](/wiki/Wall_of_Thorns "Wall of Thorns")[Wall of Thorns](/wiki/Wall_of_Thorns "Wall of Thorns") [![](/w/images/thumb/8/83/Concentration_Icon.png/16px-Concentration_Icon.png.webp)](/wiki/Concentration "Concentration")
+- [![Wind Walk](/w/images/thumb/0/06/Wind_Walk_Icon.webp/40px-Wind_Walk_Icon.webp)](/wiki/Wind_Walk "Wind Walk")[Wind Walk](/wiki/Wind_Walk "Wind Walk")
+
+## Level 9 spells
+
+- ![Ico knownSpells lvl 09.png](/w/images/thumb/2/2b/Ico_knownSpells_lvl_09.png/24px-Ico_knownSpells_lvl_09.png.webp) These are special spells only available to [Non-Player Characters](/wiki/Non-Player_Characters "Non-Player Characters") or unlockable through unique quests.
+
+- [![Bhaal's Power Word Kill Ritual](/w/images/thumb/1/1e/Power_Word_Kill_Icon.webp/40px-Power_Word_Kill_Icon.webp)](/wiki/Bhaal%27s_Power_Word_Kill_Ritual "Bhaal's Power Word Kill Ritual")[Bhaal's Power Word Kill Ritual](/wiki/Bhaal%27s_Power_Word_Kill_Ritual "Bhaal's Power Word Kill Ritual")
+- [![Power Word Kill](/w/images/thumb/1/1e/Power_Word_Kill_Icon.webp/40px-Power_Word_Kill_Icon.webp)](/wiki/Power_Word_Kill "Power Word Kill")[Power Word Kill](/wiki/Power_Word_Kill "Power Word Kill")
+- [![Karsus' Compulsion](/w/images/thumb/1/10/Karsus%27_Compulsion_Icon.webp/40px-Karsus%27_Compulsion_Icon.webp)](/wiki/Karsus%27_Compulsion "Karsus' Compulsion")[Karsus' Compulsion](/wiki/Karsus%27_Compulsion "Karsus' Compulsion")
+- [![Formsculpt: Tressym](/w/images/thumb/3/3a/Formsculpt_Tressym_Icon.webp/40px-Formsculpt_Tressym_Icon.webp)](/wiki/Formsculpt:_Tressym "Formsculpt: Tressym")[Formsculpt: Tressym](/wiki/Formsculpt:_Tressym "Formsculpt: Tressym")
+- [![Power Word: Ruin](/w/images/thumb/5/54/Power_Word_Ruin_Icon.webp/40px-Power_Word_Ruin_Icon.webp)](/wiki/Power_Word:_Ruin "Power Word: Ruin")[Power Word: Ruin](/wiki/Power_Word:_Ruin "Power Word: Ruin")
+- [![Divine Revelry](/w/images/thumb/d/d7/Divine_Revelry_Icon.webp/40px-Divine_Revelry_Icon.webp)](/wiki/Divine_Revelry "Divine Revelry")[Divine Revelry](/wiki/Divine_Revelry "Divine Revelry")
+
+## Special NPC Spells
+
+- These are special spells available only to [Non-Player Characters](/wiki/Non-Player_Characters "Non-Player Characters").
+
+- [![Elemental Retort](/w/images/thumb/c/c1/Generic_Damage_Icon.webp/40px-Generic_Damage_Icon.webp)](/wiki/Elemental_Retort "Elemental Retort")[Elemental Retort](/wiki/Elemental_Retort "Elemental Retort")
+- [![Finger of Death](/w/images/thumb/2/2e/Generic_Death_Icon.webp/40px-Generic_Death_Icon.webp)](/wiki/Finger_of_Death "Finger of Death")[Finger of Death](/wiki/Finger_of_Death "Finger of Death")
+- [![Hellfire Orb](/w/images/thumb/c/cb/Fireball_Icon.webp/40px-Fireball_Icon.webp)](/wiki/Hellfire_Orb "Hellfire Orb")[Hellfire Orb](/wiki/Hellfire_Orb "Hellfire Orb")
+- [![Incinerate](/w/images/thumb/b/b8/Flame_Strike_Icon.webp/40px-Flame_Strike_Icon.webp)](/wiki/Incinerate "Incinerate")[Incinerate](/wiki/Incinerate "Incinerate")
+- [![Keeper's Fee](/w/images/thumb/3/3a/Generic_Control_Icon.webp/40px-Generic_Control_Icon.webp)](/wiki/Keeper%27s_Fee "Keeper's Fee")[Keeper's Fee](/wiki/Keeper%27s_Fee "Keeper's Fee")
+- [![Lunar Smite](/w/images/thumb/c/ca/Lunar_Smite_Icon.webp/40px-Lunar_Smite_Icon.webp)](/wiki/Lunar_Smite "Lunar Smite")[Lunar Smite](/wiki/Lunar_Smite "Lunar Smite")
+- [![Lovely Assistant](/w/images/thumb/2/25/Animate_Dead_Zombie_Icon.webp/40px-Animate_Dead_Zombie_Icon.webp)](/wiki/Lovely_Assistant "Lovely Assistant")[Lovely Assistant](/wiki/Lovely_Assistant "Lovely Assistant")
+- [![Mind Spike](/w/images/thumb/7/7f/Mind_Spike_Icon.webp/40px-Mind_Spike_Icon.webp)](/wiki/Mind_Spike "Mind Spike")[Mind Spike](/wiki/Mind_Spike "Mind Spike")
+- [![Possession](/w/images/thumb/3/3a/Generic_Control_Icon.webp/40px-Generic_Control_Icon.webp)](/wiki/Possession "Possession")[Possession](/wiki/Possession "Possession")
+- [![Promise of Wealth](/w/images/thumb/3/3a/Generic_Control_Icon.webp/40px-Generic_Control_Icon.webp)](/wiki/Promise_of_Wealth "Promise of Wealth")[Promise of Wealth](/wiki/Promise_of_Wealth "Promise of Wealth")
+- [![Revoke Guest Status](/w/images/thumb/6/6d/Banishment_Icon.webp/40px-Banishment_Icon.webp)](/wiki/Revoke_Guest_Status "Revoke Guest Status")[Revoke Guest Status](/wiki/Revoke_Guest_Status "Revoke Guest Status")
+- [![Shield of Screams](/w/images/thumb/3/3a/Generic_Control_Icon.webp/40px-Generic_Control_Icon.webp)](/wiki/Shield_of_Screams "Shield of Screams")[Shield of Screams](/wiki/Shield_of_Screams "Shield of Screams")
+- [![Summon Gilded Hellsboar](/w/images/thumb/8/8b/Find_Familiar_Cat_Icon.webp/40px-Find_Familiar_Cat_Icon.webp)](/wiki/Summon_Gilded_Hellsboar "Summon Gilded Hellsboar")[Summon Gilded Hellsboar](/wiki/Summon_Gilded_Hellsboar "Summon Gilded Hellsboar")
+- [![Teleport to Submersible](/w/images/thumb/f/f4/Teleport_to_Submersible_Icon.webp/40px-Teleport_to_Submersible_Icon.webp)](/wiki/Teleport_to_Submersible "Teleport to Submersible")[Teleport to Submersible](/wiki/Teleport_to_Submersible "Teleport to Submersible")
+- [![The Closed Fist of Bane](/w/images/thumb/d/dc/Generic_Explosion_Icon.webp/40px-Generic_Explosion_Icon.webp)](/wiki/The_Closed_Fist_of_Bane "The Closed Fist of Bane")[The Closed Fist of Bane](/wiki/The_Closed_Fist_of_Bane "The Closed Fist of Bane")
+- [![Tyrant's Bindings](/w/images/thumb/3/3a/Generic_Control_Icon.webp/40px-Generic_Control_Icon.webp)](/wiki/Tyrant%27s_Bindings "Tyrant's Bindings")[Tyrant's Bindings](/wiki/Tyrant%27s_Bindings "Tyrant's Bindings")
+
+## Special Item Spells
+
+- These are special spells granted by equipping certain magic [items](/wiki/Items "Items").
+
+- [![Beckoning Darkness](/w/images/thumb/5/56/Generic_Darkness_Icon.webp/40px-Generic_Darkness_Icon.webp)](/wiki/Beckoning_Darkness "Beckoning Darkness")[Beckoning Darkness](/wiki/Beckoning_Darkness "Beckoning Darkness")
+- [![Brand the Weak](/w/images/thumb/f/f1/Brand_the_Weak_Icon.webp/40px-Brand_the_Weak_Icon.webp)](/wiki/Brand_the_Weak "Brand the Weak")[Brand the Weak](/wiki/Brand_the_Weak "Brand the Weak")
+- [![Challenge to Duel](/w/images/thumb/7/73/Compelled_Duel_Icon.webp/40px-Compelled_Duel_Icon.webp)](/wiki/Challenge_to_Duel "Challenge to Duel")[Challenge to Duel](/wiki/Challenge_to_Duel "Challenge to Duel")
+- [![Danse Macabre](/w/images/thumb/9/92/Danse_Macabre_Icon.webp/40px-Danse_Macabre_Icon.webp)](/wiki/Danse_Macabre "Danse Macabre")[Danse Macabre](/wiki/Danse_Macabre "Danse Macabre")
+- [![Draconic Elemental Weapon](/w/images/thumb/0/06/Elemental_Weapon_Icon.webp/40px-Elemental_Weapon_Icon.webp)](/wiki/Draconic_Elemental_Weapon "Draconic Elemental Weapon")[Draconic Elemental Weapon](/wiki/Draconic_Elemental_Weapon "Draconic Elemental Weapon")
+- [![Elemental Age](/w/images/thumb/0/06/Elemental_Weapon_Icon.webp/40px-Elemental_Weapon_Icon.webp)](/wiki/Elemental_Age "Elemental Age")[Elemental Age](/wiki/Elemental_Age "Elemental Age")
+- [![Ensnaring Strands](/w/images/thumb/5/59/Ensnaring_Strands_Icon.webp/40px-Ensnaring_Strands_Icon.webp)](/wiki/Ensnaring_Strands "Ensnaring Strands")[Ensnaring Strands](/wiki/Ensnaring_Strands "Ensnaring Strands")
+- [![Exhort the Risen](/w/images/thumb/5/5e/Command_Halt_Undead_Icon.webp/40px-Command_Halt_Undead_Icon.webp)](/wiki/Exhort_the_Risen "Exhort the Risen")[Exhort the Risen](/wiki/Exhort_the_Risen "Exhort the Risen")
+- [![Find Familiar: Cheeky Quasit](/w/images/thumb/9/98/Find_Familiar_Quasit_Icon.webp/40px-Find_Familiar_Quasit_Icon.webp)](/wiki/Find_Familiar:_Cheeky_Quasit "Find Familiar: Cheeky Quasit")[Find Familiar: Cheeky Quasit](/wiki/Find_Familiar:_Cheeky_Quasit "Find Familiar: Cheeky Quasit")
+- [![Flesh to Gold](/w/images/thumb/6/67/Flesh_to_Gold_Icon.webp/40px-Flesh_to_Gold_Icon.webp)](/wiki/Flesh_to_Gold "Flesh to Gold")[Flesh to Gold](/wiki/Flesh_to_Gold "Flesh to Gold")
+- [![Howl of the Dead](/w/images/thumb/5/51/Howl_of_the_Dead_Icon.webp/40px-Howl_of_the_Dead_Icon.webp)](/wiki/Howl_of_the_Dead "Howl of the Dead")[Howl of the Dead](/wiki/Howl_of_the_Dead "Howl of the Dead")
+- [![Kereska's Favour](/w/images/thumb/1/15/Protection_from_Energy_Icon.webp/40px-Protection_from_Energy_Icon.webp)](/wiki/Kereska%27s_Favour "Kereska's Favour")[Kereska's Favour](/wiki/Kereska%27s_Favour "Kereska's Favour")
+- [![Khalid's Gift: Aid](/w/images/thumb/5/50/Aid_Icon.webp/40px-Aid_Icon.webp)](/wiki/Khalid%27s_Gift:_Aid "Khalid's Gift: Aid")[Khalid's Gift: Aid](/wiki/Khalid%27s_Gift:_Aid "Khalid's Gift: Aid")
+- [![Paralyzing Ray](/w/images/thumb/c/c1/Generic_Damage_Icon.webp/40px-Generic_Damage_Icon.webp)](/wiki/Paralyzing_Ray "Paralyzing Ray")[Paralyzing Ray](/wiki/Paralyzing_Ray "Paralyzing Ray")
+- [![Protection from Missiles](/w/images/thumb/5/5d/Protection_from_Missiles_Icon.webp/40px-Protection_from_Missiles_Icon.webp)](/wiki/Protection_from_Missiles "Protection from Missiles")[Protection from Missiles](/wiki/Protection_from_Missiles "Protection from Missiles")
+- [![Ray of Fear](/w/images/thumb/3/3a/Generic_Control_Icon.webp/40px-Generic_Control_Icon.webp)](/wiki/Ray_of_Fear "Ray of Fear")[Ray of Fear](/wiki/Ray_of_Fear "Ray of Fear")
+- [![Ride the Winds](/w/images/thumb/6/62/Gaseous_Form_Icon.webp/40px-Gaseous_Form_Icon.webp)](/wiki/Ride_the_Winds "Ride the Winds")[Ride the Winds](/wiki/Ride_the_Winds "Ride the Winds")
+- [![Selûne's Dream](/w/images/thumb/5/59/Sel%C3%BBne%27s_Dream_Icon.webp/40px-Sel%C3%BBne%27s_Dream_Icon.webp)](/wiki/Sel%C3%BBne%27s_Dream "Selûne's Dream")[Selûne's Dream](/wiki/Sel%C3%BBne%27s_Dream "Selûne's Dream")
+- [![Shadow Blade](/w/images/thumb/6/6e/Shadow_Blade_Icon.webp/40px-Shadow_Blade_Icon.webp)](/wiki/Shadow_Blade "Shadow Blade")[Shadow Blade](/wiki/Shadow_Blade "Shadow Blade")
+- [![Shar's Aegis](/w/images/thumb/8/83/Shield_of_Faith_Icon.webp/40px-Shield_of_Faith_Icon.webp)](/wiki/Shar%27s_Aegis "Shar's Aegis")[Shar's Aegis](/wiki/Shar%27s_Aegis "Shar's Aegis")
+- [![Sights of the Seelie: Summon Deva](/w/images/thumb/d/d8/Sights_of_the_Seelie_Summon_Deva_Icon.webp/40px-Sights_of_the_Seelie_Summon_Deva_Icon.webp)](/wiki/Sights_of_the_Seelie:_Summon_Deva "Sights of the Seelie: Summon Deva")[Sights of the Seelie: Summon Deva](/wiki/Sights_of_the_Seelie:_Summon_Deva "Sights of the Seelie: Summon Deva")
+- [![Summon Quothe the Raven](/w/images/thumb/e/e7/Find_Familiar_Raven_Icon.webp/40px-Find_Familiar_Raven_Icon.webp)](/wiki/Summon_Quothe_the_Raven "Summon Quothe the Raven")[Summon Quothe the Raven](/wiki/Summon_Quothe_the_Raven "Summon Quothe the Raven") [![](/w/images/thumb/f/fa/Ritual_Spell_Icon.png/16px-Ritual_Spell_Icon.png.webp)](/wiki/Ritual_spell "Ritual spell")
+- [![Wounding Ray](/w/images/thumb/2/2e/Generic_Necrotic_Icon.webp/40px-Generic_Necrotic_Icon.webp)](/wiki/Wounding_Ray "Wounding Ray")[Wounding Ray](/wiki/Wounding_Ray "Wounding Ray")
+
+## See also
+
+- [List of all spells (sortable)](/wiki/List_of_all_spells_(sortable) "List of all spells (sortable)")
+- [Unimplemented spells](/wiki/Unimplemented_spells "Unimplemented spells")
+
+## External links
+
+- [![Spell](/w/images/thumb/6/68/FRWiki_Icon.png/22px-FRWiki_Icon.png.webp)](https://forgottenrealms.fandom.com/wiki/Spell) [Spell](https://forgottenrealms.fandom.com/wiki/Spell) on the [Forgotten Realms Wiki](https://forgottenrealms.fandom.com/wiki/Main_Page)
