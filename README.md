@@ -22,6 +22,15 @@ Os scripts e dados que existiam (`reddit_parser.py`, `reddit_text_cleaner.py`, `
 ## 🧰 Modo de Contingência (API Humana)
 Para fontes onde a extração automática falha (ex.: um vídeo do YouTube sem transcrição disponível), existe uma rotina de limpeza manual: dê `Ctrl+A` / `Ctrl+C` no conteúdo, cole em um arquivo `_manual.txt` na camada RAW e rode o script `_text_cleaner.py` correspondente para gerar o Markdown limpo.
 
+## ⏳ Bloqueio de IP do YouTube: paciência em vez de proxy
+`youtube_parser.py` roda sobre `youtube-transcript-api`, que depende de requisições diretas ao YouTube — sem chave de API. Passado de um certo volume de requisições, o YouTube bloqueia o IP (`IpBlocked`/`RequestBlocked`) e o bloqueio pode durar bem mais do que os "minutos" que a própria lib sugere; testamos e confirmamos que não é um bloqueio pontual de vídeo específico, é o IP inteiro.
+
+A lib oferece dois contornos, e optamos por nenhum dos dois:
+- **Cookies de autenticação**: além de resolver só bloqueio de vídeo *age-restricted* (não o bloqueio de IP por rate-limit), essa via está **desativada na versão instalada** (`youtube-transcript-api` 1.2.4) — o próprio autor removeu o suporte após uma mudança da API do YouTube quebrar a implementação anterior.
+- **Proxy residencial rotativo** (ex.: Webshare): resolve de verdade, mas exige contratar e manter um serviço pago de terceiros — custo recorrente para um projeto que hoje é 100% local e sem custo externo.
+
+Optamos por **paciência**: o script já é idempotente (pula vídeos já baixados em `01_raw`/`02_trusted`), então basta rodar `youtube_parser.py` aos poucos, espaçado ao longo de vários dias, até completar a lista curada. Mais lento, mas sem dependência de serviço pago nem risco de banir a conta usada nos cookies.
+
 ## 📁 Estrutura de Pastas
 ```text
 BroPilot/
