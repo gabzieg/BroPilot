@@ -1,0 +1,2667 @@
+[
+    {
+        "text": "how does this sound a character who \ndoes a ton of damage to pretty much  ",
+        "start": 0.08,
+        "duration": 4.88
+    },
+    {
+        "text": "every enemy on the battlefield \nwhile simultaneously debuffing  ",
+        "start": 4.96,
+        "duration": 4.56
+    },
+    {
+        "text": "the crap out of them and making themselves \npractically unhitable sounds fun right well  ",
+        "start": 9.52,
+        "duration": 5.8
+    },
+    {
+        "text": "spoiler alert it is it really is let's \ntalk about how to build it welcome to",
+        "start": 15.32,
+        "duration": 6.84
+    },
+    {
+        "text": "[Music] D4 hey everybody so here at D4 each week \nI take a deep dive into character builds for  ",
+        "start": 22.16,
+        "duration": 13.32
+    },
+    {
+        "text": "my favorite role playing games I like to crunch \nnumbers about them Theory craft about them not so  ",
+        "start": 35.48,
+        "duration": 4.0
+    },
+    {
+        "text": "that I can tell you the right way or the best way \nto play a character but to explore one potential  ",
+        "start": 39.48,
+        "duration": 5.04
+    },
+    {
+        "text": "way to build something in the hopes of creating \na character that is both really fun but also  ",
+        "start": 44.52,
+        "duration": 4.88
+    },
+    {
+        "text": "really powerful to play so if you enjoy creating \ncharacters for your favorite role playing games  ",
+        "start": 49.4,
+        "duration": 5.64
+    },
+    {
+        "text": "almost as much as you enjoy playing the actual \ngame itself or if you're just looking for tips or  ",
+        "start": 55.04,
+        "duration": 4.56
+    },
+    {
+        "text": "ideas ideas on how to build something that you're \nthinking about playing then welcome home this is  ",
+        "start": 59.6,
+        "duration": 5.6
+    },
+    {
+        "text": "where you belong it really is I'm so glad you're \nhere thank you for watching my name's Colby I put  ",
+        "start": 65.2,
+        "duration": 5.12
+    },
+    {
+        "text": "out build videos every Tuesday so if you like \nwhat I do i' would appreciate it if you would  ",
+        "start": 70.32,
+        "duration": 4.44
+    },
+    {
+        "text": "consider joining the channel as a member there's \na little button down there that says join click on  ",
+        "start": 74.76,
+        "duration": 4.2
+    },
+    {
+        "text": "it it'll tell you all about it you can get access \nto the library of writeups that I create for each  ",
+        "start": 78.96,
+        "duration": 5.28
+    },
+    {
+        "text": "of these builds to help you create them yourself \na little more easily if you want to you can get  ",
+        "start": 84.24,
+        "duration": 4.8
+    },
+    {
+        "text": "access to our Discord server you can get access to \nour monthly live Q&A hangout sessions so anyways  ",
+        "start": 89.04,
+        "duration": 6.76
+    },
+    {
+        "text": "it's all great huge thank you and shout out to my \nchannel members especially you guys are amazing  ",
+        "start": 95.8,
+        "duration": 4.76
+    },
+    {
+        "text": "I could not do this without you and for everybody \nelse thank you just for being here you don't have  ",
+        "start": 100.56,
+        "duration": 4.08
+    },
+    {
+        "text": "to be a member if you don't want to or don't think \nyou can afford it I appreciate you just watching  ",
+        "start": 104.64,
+        "duration": 4.08
+    },
+    {
+        "text": "and liking and subscribing and commenting and \nringing the notifications bell all of the things  ",
+        "start": 108.72,
+        "duration": 5.16
+    },
+    {
+        "text": "all right so a few weeks ago I did my first ever \nbalers gate build where I actually kind of built  ",
+        "start": 113.88,
+        "duration": 5.24
+    },
+    {
+        "text": "around specific really fun and Powerful magic \nitems and conditions that are unique to balers  ",
+        "start": 119.12,
+        "duration": 7.08
+    },
+    {
+        "text": "Gate 3 and don't exist in DND right that build in \ncase you missed it was the Icebreaker and it was  ",
+        "start": 126.2,
+        "duration": 5.56
+    },
+    {
+        "text": "a ton of fun check it out uh right up there if \nyou haven't well now that I've done that I feel  ",
+        "start": 131.76,
+        "duration": 4.64
+    },
+    {
+        "text": "like Pandora's Box has kind of been opened what's \nin the box and it really lets me start thinking  ",
+        "start": 136.4,
+        "duration": 6.84
+    },
+    {
+        "text": "about all of the different fun interesting unique \npowerful builds that you can do when you couple  ",
+        "start": 143.24,
+        "duration": 4.44
+    },
+    {
+        "text": "some really fun and awesome magic items together \nwith like other magic items to combo their effects  ",
+        "start": 147.68,
+        "duration": 5.64
+    },
+    {
+        "text": "and play with conditions that are unique to the \ngame of which there are so many and like with  ",
+        "start": 153.32,
+        "duration": 5.48
+    },
+    {
+        "text": "specific D and spells and abilities it's just like \nanother level of a character building playground  ",
+        "start": 158.8,
+        "duration": 5.92
+    },
+    {
+        "text": "and I am here for it not to say that there isn't a \ntime and a place for builds that just work really  ",
+        "start": 164.72,
+        "duration": 5.92
+    },
+    {
+        "text": "well regardless of your magic items and I mean the \nfirst what like 10 balers Gate 3 videos I did are  ",
+        "start": 170.64,
+        "duration": 7.32
+    },
+    {
+        "text": "chalk full of builds just just like that check \nout the playlist right here if you not familiar  ",
+        "start": 177.96,
+        "duration": 5.36
+    },
+    {
+        "text": "with those but yeah today I wanted to take on \nanother really awesome fun build that cobbles  ",
+        "start": 183.32,
+        "duration": 5.64
+    },
+    {
+        "text": "together lots of items and spells and conditions \nthat synergize incredibly well together and I'm  ",
+        "start": 188.96,
+        "duration": 5.92
+    },
+    {
+        "text": "talking about radiating orb and reverberation \nfor the uninitiated the radiating orb condition  ",
+        "start": 194.88,
+        "duration": 6.76
+    },
+    {
+        "text": "uh that doesn't exist in D and D5 essentially \nlowers an enemy's chance to hit you by one for  ",
+        "start": 201.64,
+        "duration": 5.92
+    },
+    {
+        "text": "every stack of the condition that they have on \nthem at the time right so if they have a stack  ",
+        "start": 207.56,
+        "duration": 3.92
+    },
+    {
+        "text": "of one they've got a minus one to hit stack of \ntwo minus two to hit Etc there are only a handful  ",
+        "start": 211.48,
+        "duration": 4.48
+    },
+    {
+        "text": "of items in the game that apply this effect and \nthey all apply it when you deal damage to an enemy  ",
+        "start": 215.96,
+        "duration": 6.4
+    },
+    {
+        "text": "usually when you specifically do radiant damage \nto them on its own it's a pretty nice condition  ",
+        "start": 222.36,
+        "duration": 5.24
+    },
+    {
+        "text": "to inflict if you can stack multiple ways to \napply it consistently you can pretty quickly  ",
+        "start": 227.6,
+        "duration": 4.92
+    },
+    {
+        "text": "get an enemy to a point where their chance to hit \nyou is next to nothing they might succeed like  ",
+        "start": 232.52,
+        "duration": 4.92
+    },
+    {
+        "text": "only if they roll a crit for instance radi orb \nStacks automatically get reduced by one at the  ",
+        "start": 237.44,
+        "duration": 4.6
+    },
+    {
+        "text": "beginning of the affected creatures turn right \nso it just counts down every round as for the  ",
+        "start": 242.04,
+        "duration": 3.68
+    },
+    {
+        "text": "reverberation Condition it's also unique to this \ngame and it's a little more complicated first up  ",
+        "start": 245.72,
+        "duration": 4.84
+    },
+    {
+        "text": "for every stack of this condition that you have \nyou get a minus one to your strength dexterity  ",
+        "start": 250.56,
+        "duration": 5.16
+    },
+    {
+        "text": "and Constitution saves however as soon as you \nget five stacks of reverberation you take one  ",
+        "start": 255.72,
+        "duration": 5.48
+    },
+    {
+        "text": "D4 of Thunder damage then you have to succeed on a \ndc10 constitution saving throw or be knocked prone  ",
+        "start": 261.2,
+        "duration": 6.28
+    },
+    {
+        "text": "after that though all stacks of reverberation \nare removed and while a dc10 constitution save  ",
+        "start": 267.48,
+        "duration": 5.6
+    },
+    {
+        "text": "is not that difficult a save to make for lots of \nenemies in the game keep in mind that they will  ",
+        "start": 273.08,
+        "duration": 4.24
+    },
+    {
+        "text": "have a minus five to that save when they make it \nright because of their stacks of reverberation  ",
+        "start": 277.32,
+        "duration": 4.68
+    },
+    {
+        "text": "so okay a penalty to some saves and a little bit \nof damage I mean it seems nice but it's nothing  ",
+        "start": 282.0,
+        "duration": 4.84
+    },
+    {
+        "text": "incredibly powerful right we'll see about that but \nanyway reverberation also decreases automatically  ",
+        "start": 286.84,
+        "duration": 5.72
+    },
+    {
+        "text": "by one at the beginning of the affected creatures \nturn just like radiating orb however because of  ",
+        "start": 292.56,
+        "duration": 4.12
+    },
+    {
+        "text": "some really great synergies that you can get with \ncertain items in the game and a number of spells  ",
+        "start": 296.68,
+        "duration": 5.04
+    },
+    {
+        "text": "but I've got one in particular you can make a \ncharacter who applies a ton of stacks of both  ",
+        "start": 301.72,
+        "duration": 5.84
+    },
+    {
+        "text": "of these conditions really quickly and it can lead \nto some devastating results for entire swarms of  ",
+        "start": 307.56,
+        "duration": 6.72
+    },
+    {
+        "text": "enemies turning you into a one character wrecking \nball of a build who does lots of damage to every  ",
+        "start": 314.28,
+        "duration": 5.72
+    },
+    {
+        "text": "enemy on the battlefield while being nearly \nimpossible to hit yourself at the same time  ",
+        "start": 320.0,
+        "duration": 5.04
+    },
+    {
+        "text": "oh and my favorite part of the build you actually \nget most of the best items for it right in Act One  ",
+        "start": 325.04,
+        "duration": 5.44
+    },
+    {
+        "text": "meaning by level five or six the build is like \nfully online and you feel like an Unstoppable  ",
+        "start": 330.48,
+        "duration": 6.56
+    },
+    {
+        "text": "unkillable Powerhouse of radiant reverberation \nshould we talk about how to build it let's do it  ",
+        "start": 337.04,
+        "duration": 6.68
+    },
+    {
+        "text": "I proudly present uh balers Gate Episode number 12 \nthe radiant reverberator the blinding light flash  ",
+        "start": 343.72,
+        "duration": 7.6
+    },
+    {
+        "text": "and thunder thunder struck light and thunder I \nthink my favorite suggestion from the Discord  ",
+        "start": 351.32,
+        "duration": 7.2
+    },
+    {
+        "text": "Community uh thank thanks everyone by the way it \nwas the flashbang thanks to uncanny P for that one  ",
+        "start": 358.52,
+        "duration": 5.4
+    },
+    {
+        "text": "but I think in the end I'm going to go with the \nnight radiant I mean come on I got dinar right  ",
+        "start": 363.92,
+        "duration": 5.04
+    },
+    {
+        "text": "there how can I not right but first before we get \nto the build I am thrilled to have obvious mimik  ",
+        "start": 368.96,
+        "duration": 5.32
+    },
+    {
+        "text": "as a sponsor for the video again this week \nI'm not talking about their awesome t-shirt  ",
+        "start": 374.28,
+        "duration": 4.76
+    },
+    {
+        "text": "collection this week actually though I do have um \nyeah their red dragon Lodge underneath my hoodie  ",
+        "start": 379.04,
+        "duration": 5.48
+    },
+    {
+        "text": "B oh I actually just put in an another order for a \nfew more shirts can't wait to get them but instead  ",
+        "start": 384.52,
+        "duration": 6.8
+    },
+    {
+        "text": "no I need to tell you guys more about their new \nsolo DND Adventure the crystals of zth which now  ",
+        "start": 391.32,
+        "duration": 6.12
+    },
+    {
+        "text": "has a soft cover book available for pre-order in \naddition to the out now pdf version so in case  ",
+        "start": 397.44,
+        "duration": 6.6
+    },
+    {
+        "text": "you didn't know crystals of zth is obvious mimiks \nsecond very successful solo D and D Adventure it  ",
+        "start": 404.04,
+        "duration": 5.28
+    },
+    {
+        "text": "is perfect for those who are forever DMS or who \nfeel like playing D and but are maybe in between  ",
+        "start": 409.32,
+        "duration": 5.52
+    },
+    {
+        "text": "tables at the moment or well maybe they just need \na break from their table we've all been there  ",
+        "start": 414.84,
+        "duration": 4.6
+    },
+    {
+        "text": "there right or maybe the best of all for those of \nus who really want to like test the 157 character  ",
+        "start": 419.44,
+        "duration": 7.64
+    },
+    {
+        "text": "builds that they've made but there's no way that \nthey could actually do that in a group in a game  ",
+        "start": 427.08,
+        "duration": 6.32
+    },
+    {
+        "text": "right I might know a guy like that if any of the \nabove describes you then you are in luck because  ",
+        "start": 433.4,
+        "duration": 5.16
+    },
+    {
+        "text": "yes now you can play D and D all by yourself \nthanks to obvious mimic crystals of zth smashed  ",
+        "start": 438.56,
+        "duration": 5.48
+    },
+    {
+        "text": "their Kickstarter funding goal this fall and it \nis now live and ready for delivery in PDF format  ",
+        "start": 444.04,
+        "duration": 5.04
+    },
+    {
+        "text": "like I said I actually just got my PDF copy look \nhow awesome it is I can't wait to jump in but also  ",
+        "start": 449.08,
+        "duration": 6.32
+    },
+    {
+        "text": "like I said the soft cover book is now available \nfor pre-order for those of you who just love the  ",
+        "start": 455.4,
+        "duration": 4.28
+    },
+    {
+        "text": "feel of like paper in your hands right it is a \nclassic adventure of exploration Discovery and  ",
+        "start": 459.68,
+        "duration": 6.2
+    },
+    {
+        "text": "survival where you uncover the mysteries of a \nhidden city and hopefully Live to Tell the tale  ",
+        "start": 465.88,
+        "duration": 4.2
+    },
+    {
+        "text": "so take your own path through an interactive \nstory designed to replicate tabl toop gameplay  ",
+        "start": 470.08,
+        "duration": 4.04
+    },
+    {
+        "text": "where your decisions have actual consequences \nfight Monsters cast spells and find treasure  ",
+        "start": 474.12,
+        "duration": 5.08
+    },
+    {
+        "text": "with with an original story with real Stakes just \nlike any D and game you get experience points you  ",
+        "start": 479.2,
+        "duration": 5.48
+    },
+    {
+        "text": "level up you gain new loot and yeah play all of \nthose character builds that especially as a viewer  ",
+        "start": 484.68,
+        "duration": 5.4
+    },
+    {
+        "text": "of my channel I know you've been dying to take \nfor a test drive so please you guys go check out  ",
+        "start": 490.08,
+        "duration": 5.44
+    },
+    {
+        "text": "crystals of zth at the website that I've Linked In \nthe video description that is how they know that  ",
+        "start": 495.52,
+        "duration": 4.68
+    },
+    {
+        "text": "I sent you and also if you could use the discount \ncode Colby solo B yes use that code check out and  ",
+        "start": 500.2,
+        "duration": 9.8
+    },
+    {
+        "text": "you'll get 10% off crystals of zth in addition \nactually to the 20% off uh launch sale price if  ",
+        "start": 510.0,
+        "duration": 6.24
+    },
+    {
+        "text": "you're watching this video while they're still in \nthe middle of their launch sale that's 30% total  ",
+        "start": 516.24,
+        "duration": 5.08
+    },
+    {
+        "text": "maths and actually that code will get you even 10% \noff Wolves of Langston as well if you want to pick  ",
+        "start": 521.32,
+        "duration": 5.52
+    },
+    {
+        "text": "that up their first uh solo Adventure right so \nhuge thanks to obvious mimik you guys are awesome  ",
+        "start": 526.84,
+        "duration": 4.76
+    },
+    {
+        "text": "love what you're doing and let's jump into the \nbuild okay so kind of like the Icebreaker build  ",
+        "start": 531.6,
+        "duration": 4.92
+    },
+    {
+        "text": "we are going to be a little all over the place \nhere here compared to how I usually do builds  ",
+        "start": 536.52,
+        "duration": 4.52
+    },
+    {
+        "text": "we be respecing I wrote In The Script at least \ntwice it's I think it's like three or four times  ",
+        "start": 541.04,
+        "duration": 4.76
+    },
+    {
+        "text": "and I mean honestly if you're if you're like me \nwhen you're playing bg3 I'm respecting like twice  ",
+        "start": 545.8,
+        "duration": 5.8
+    },
+    {
+        "text": "a level right what's more there are magic items \nhere that are absolutely Paramount to this build  ",
+        "start": 551.6,
+        "duration": 4.96
+    },
+    {
+        "text": "working properly and so I'm going to like talk \nabout the decisions that we make as we're leveling  ",
+        "start": 556.56,
+        "duration": 4.44
+    },
+    {
+        "text": "and then I'm going to have to pause and talk about \nthe items and where to get them and why they're so  ",
+        "start": 561.0,
+        "duration": 3.4
+    },
+    {
+        "text": "awesome so yeah we're a little all over the place \nhere I'm going to start us off talking about what  ",
+        "start": 564.4,
+        "duration": 3.96
+    },
+    {
+        "text": "to do with the character up to level five at which \npoint we should have at least one or two of our  ",
+        "start": 568.36,
+        "duration": 3.88
+    },
+    {
+        "text": "important magic items so I'll talk about them then \nand we can get into tactics and kind of how it all  ",
+        "start": 572.24,
+        "duration": 4.08
+    },
+    {
+        "text": "works together uh after that I'll talk about some \nrespecing that we'll be doing for the next few  ",
+        "start": 576.32,
+        "duration": 4.36
+    },
+    {
+        "text": "levels why I want to Respec how and then you know \nsome U some other potential great items that work  ",
+        "start": 580.68,
+        "duration": 5.76
+    },
+    {
+        "text": "well with the build and then we'll finish out the \nbuild okay sound good sound good okay all right  ",
+        "start": 586.44,
+        "duration": 5.24
+    },
+    {
+        "text": "so at level one for our starting class here we're \ngoing to go cleric the most important spell for  ",
+        "start": 591.68,
+        "duration": 5.44
+    },
+    {
+        "text": "this build is going to be Spirit Guardians little \nspoiler warning there as Spirit Guardians can do  ",
+        "start": 597.12,
+        "duration": 4.96
+    },
+    {
+        "text": "radiant damage to multiple enemies every round uh \nsometimes multiple times per round actually in a  ",
+        "start": 602.08,
+        "duration": 6.08
+    },
+    {
+        "text": "nice-sized AOE area of effect the quickest way \nto get Spirit Guardians is by just beining for  ",
+        "start": 608.16,
+        "duration": 5.2
+    },
+    {
+        "text": "cleric 5 so that's how we're going to start off \nas for our starting ability scores let's go with  ",
+        "start": 613.36,
+        "duration": 5.52
+    },
+    {
+        "text": "a 16 wisdom a 16 Constitution and a 14 strength \nfor now we will be respecing later as I've said  ",
+        "start": 618.88,
+        "duration": 6.44
+    },
+    {
+        "text": "as we get items but this is probably where I'd \nstart for the equipment uh yeah I'm going to get  ",
+        "start": 625.32,
+        "duration": 4.6
+    },
+    {
+        "text": "into it and then right at level one clerics get \ntheir subass right and I think my favorite for  ",
+        "start": 629.92,
+        "duration": 5.8
+    },
+    {
+        "text": "this build is probably War cleric we actually \nhave a couple of different options honestly um  ",
+        "start": 635.72,
+        "duration": 5.64
+    },
+    {
+        "text": "just about any of them could work though Tempest \ncleric and War clerics are the only ones who get  ",
+        "start": 641.36,
+        "duration": 5.72
+    },
+    {
+        "text": "both heavy armor proficiency and Marshall weapon \nproficiency and that Marshall weapon proficiency  ",
+        "start": 647.08,
+        "duration": 5.12
+    },
+    {
+        "text": "is going to be important for us eventually but \nif you wanted to start off somewhere else like  ",
+        "start": 652.2,
+        "duration": 3.48
+    },
+    {
+        "text": "a light cleric or a life cleric I think those \nmight be favorite alternatives but War cleric  ",
+        "start": 655.68,
+        "duration": 4.28
+    },
+    {
+        "text": "has some nice benefits especially early on first \noff like I said we do get heavy armor and martial  ",
+        "start": 659.96,
+        "duration": 4.88
+    },
+    {
+        "text": "weapon proficiency and that's just going to give \nus access to the best armor and weapons as we get  ",
+        "start": 664.84,
+        "duration": 4.4
+    },
+    {
+        "text": "through these first few levels right but also War \nclerics get the war priest feature which tells us  ",
+        "start": 669.24,
+        "duration": 5.32
+    },
+    {
+        "text": "that three times per long rest we can make a \nweapon attack as a bonus action that's not a  ",
+        "start": 674.56,
+        "duration": 4.36
+    },
+    {
+        "text": "ton of opportunities right but we often will be \nwanting to use our bonus action for other things  ",
+        "start": 678.92,
+        "duration": 4.84
+    },
+    {
+        "text": "like casting healing word and later another spell \nthat I've got in mind so I don't mind the Limited  ",
+        "start": 683.76,
+        "duration": 5.44
+    },
+    {
+        "text": "use here all that much the truth is we're not \ngoing to be depending on weapon attacks a ton  ",
+        "start": 689.2,
+        "duration": 4.56
+    },
+    {
+        "text": "on this build but early on I think especially \nwe'll probably get more mileage out of those  ",
+        "start": 693.76,
+        "duration": 4.44
+    },
+    {
+        "text": "bonus action attacks than we would our cantrips \ndespite even our fairly mediocre 14 strength as  ",
+        "start": 698.2,
+        "duration": 6.12
+    },
+    {
+        "text": "for spells we get at cleric 1 I'm just going to \nsay let's stick to the usuals here guidance for  ",
+        "start": 704.32,
+        "duration": 4.72
+    },
+    {
+        "text": "some fantastic utility healing word for a nice \nbonus action heal from range bless for one of  ",
+        "start": 709.04,
+        "duration": 4.96
+    },
+    {
+        "text": "the best Buffs in game that you should absolutely \nbe using your concentration on for these first few  ",
+        "start": 714.0,
+        "duration": 4.68
+    },
+    {
+        "text": "levels at least and I'd even say grab guiding bolt \nespecially later when our enemies are debuffed  ",
+        "start": 718.68,
+        "duration": 5.68
+    },
+    {
+        "text": "it'll be something that we could use in a pinch \nto put some more radiant damage uh on an enemy  ",
+        "start": 724.36,
+        "duration": 4.32
+    },
+    {
+        "text": "from range all right at level two all clerics get \nchannel Divinity which they can use once per short  ",
+        "start": 728.68,
+        "duration": 5.2
+    },
+    {
+        "text": "rest to either turn Undead forcing enemy Undead \nwithin 30 ft of you to make a wisdom saving throw  ",
+        "start": 733.88,
+        "duration": 5.6
+    },
+    {
+        "text": "or spend their turn running away from you or as \na war cleric we can also use our Channel Divinity  ",
+        "start": 739.48,
+        "duration": 5.32
+    },
+    {
+        "text": "for guided strike which is pretty nice in that it \nlets you add 10 to your hit chance with a weapon  ",
+        "start": 744.8,
+        "duration": 5.76
+    },
+    {
+        "text": "and you get to decide whether or not you want \nto use it until after you roll so you'll know if  ",
+        "start": 750.56,
+        "duration": 4.84
+    },
+    {
+        "text": "using it's actually going to turn that Miss into \na hit right it can be really clutch if you just  ",
+        "start": 755.4,
+        "duration": 4.6
+    },
+    {
+        "text": "need to finish off an enemy before they get their \nnext turn for example at level three we get second  ",
+        "start": 760.0,
+        "duration": 5.12
+    },
+    {
+        "text": "level cleric spells and there are some good ones \nhere but most of them are support focused right  ",
+        "start": 765.12,
+        "duration": 5.56
+    },
+    {
+        "text": "Aid to increase your party's maximum hit points \nbe sure to always use this by the way lesser  ",
+        "start": 770.68,
+        "duration": 4.92
+    },
+    {
+        "text": "restoration for a little like condition cure \nall uh despite being a war cleric we are still  ",
+        "start": 775.6,
+        "duration": 5.72
+    },
+    {
+        "text": "playing these early levels especially as a bit \nof a hybrid like support damage dealer right War  ",
+        "start": 781.32,
+        "duration": 4.88
+    },
+    {
+        "text": "clerics do get spiritual weapon for free though \nwhich is nice uh this lets us summon a weapon and  ",
+        "start": 786.2,
+        "duration": 4.96
+    },
+    {
+        "text": "then use our bonus action to make attacks with it \nright the downside here is that it only has a 20ft  ",
+        "start": 791.16,
+        "duration": 4.64
+    },
+    {
+        "text": "move speed unfortunately so it often can be kind \nof difficult to get that spiritual weapon in place  ",
+        "start": 795.8,
+        "duration": 5.32
+    },
+    {
+        "text": "to make attacks every turn but it's not a terrible \nuse of a second level spell especially later when  ",
+        "start": 801.12,
+        "duration": 4.56
+    },
+    {
+        "text": "we've got tons of second level Spells at level \nfour we get our first feat and I'd probably just  ",
+        "start": 805.68,
+        "duration": 6.36
+    },
+    {
+        "text": "use it to increase our wisdom here for now it \ndoesn't do a ton for us at this level feel free  ",
+        "start": 812.04,
+        "duration": 4.48
+    },
+    {
+        "text": "to increase strength instead if you think you're \ngoing to get more out of your weapon attacks but  ",
+        "start": 816.52,
+        "duration": 4.04
+    },
+    {
+        "text": "or even you know take great weapon Master for that \nmatter but we don't have a great hit chance so I'm  ",
+        "start": 820.56,
+        "duration": 4.48
+    },
+    {
+        "text": "a little nervous about great weapon Master on \nthis build but at level five we're especially  ",
+        "start": 825.04,
+        "duration": 3.8
+    },
+    {
+        "text": "going to want like that higher wisdom because we \nget third level Spells at level five and this is  ",
+        "start": 828.84,
+        "duration": 6.72
+    },
+    {
+        "text": "when things really kind of start to come together \nfor this build first first off let me mention that  ",
+        "start": 835.56,
+        "duration": 4.88
+    },
+    {
+        "text": "I'd probably grab R of Vitality here as a Spell \noption it's an amazing spell and it's even better  ",
+        "start": 840.44,
+        "duration": 5.12
+    },
+    {
+        "text": "in bg3 because it doesn't require concentration \nlike it does in D and D lasts for 10 rounds and  ",
+        "start": 845.56,
+        "duration": 5.0
+    },
+    {
+        "text": "it lets you heal yourself or an ally for 2d6 as a \nbonus action every single round right it's really  ",
+        "start": 850.56,
+        "duration": 5.0
+    },
+    {
+        "text": "great for both in combat and out of combat healing \nwhen you need it though at this level with only  ",
+        "start": 855.56,
+        "duration": 5.16
+    },
+    {
+        "text": "two third level spell slots I might not be using \nit all that often if ever because the spell that  ",
+        "start": 860.72,
+        "duration": 5.12
+    },
+    {
+        "text": "we are most excited for here of course is Spirit \nGuardians like I said this spell is so good as a  ",
+        "start": 865.84,
+        "duration": 6.16
+    },
+    {
+        "text": "reminder for those who need it you cast Spirit \nGuardians as an action and then for the next  ",
+        "start": 872.0,
+        "duration": 4.72
+    },
+    {
+        "text": "minute it summons like Spirits all around you \nthat do either necrotic or radiant damage your  ",
+        "start": 876.72,
+        "duration": 5.24
+    },
+    {
+        "text": "choice you get to choose but we're going to want \nto go radiant for the most part and it does this  ",
+        "start": 881.96,
+        "duration": 4.16
+    },
+    {
+        "text": "damage to any enemy within 15 ft of you whether \nyou move the area over them or they move closer  ",
+        "start": 886.12,
+        "duration": 6.12
+    },
+    {
+        "text": "to you unlike in D and D it works a little \ndifferently right okay yes this spell and it's  ",
+        "start": 892.24,
+        "duration": 5.8
+    },
+    {
+        "text": "accompanying damage are already fantastic just \nby themselves but what happens when we couple  ",
+        "start": 898.04,
+        "duration": 5.48
+    },
+    {
+        "text": "them with a few key items let's talk about the \nones that we should be prioritizing here and that  ",
+        "start": 903.52,
+        "duration": 5.68
+    },
+    {
+        "text": "I think we can reasonably either have by now or \nat least anticipate getting very soon first and  ",
+        "start": 909.2,
+        "duration": 6.96
+    },
+    {
+        "text": "foremost the Luminous armor this medium armor has \na 15 Armor class not bad but not amazing and it  ",
+        "start": 916.16,
+        "duration": 7.08
+    },
+    {
+        "text": "tells us that when we deal radiant damage we cause \nwhat's called a radiant shock wave this shock wave  ",
+        "start": 923.24,
+        "duration": 7.04
+    },
+    {
+        "text": "applies two stacks of the radiating orb condition \nthat we've talked about already to every enemy  ",
+        "start": 930.28,
+        "duration": 6.0
+    },
+    {
+        "text": "within 10 ft what makes this so dang powerful when \ncoupled with Spirit Guardians is that if you were  ",
+        "start": 936.28,
+        "duration": 5.44
+    },
+    {
+        "text": "to walk right up to two enemies standing within \n10 ft of each other with your spirit Guardians  ",
+        "start": 941.72,
+        "duration": 5.16
+    },
+    {
+        "text": "active they will both trigger radiant shock wave \nmeaning that they will get two stacks and their  ",
+        "start": 946.88,
+        "duration": 4.56
+    },
+    {
+        "text": "friend will get two stacks and then when that one \ntakes damage they'll get two more stacks and the  ",
+        "start": 951.44,
+        "duration": 4.16
+    },
+    {
+        "text": "guy over here will get two more Stacks right \nso they're both going to have four stacks of  ",
+        "start": 955.6,
+        "duration": 3.44
+    },
+    {
+        "text": "radiating orb as soon as you walk up next to them \nI mean if you were to get three enemies within 10  ",
+        "start": 959.04,
+        "duration": 4.64
+    },
+    {
+        "text": "ft of each other we're talking six Stacks meaning \nthat they will have right away a minus 6 to hit  ",
+        "start": 963.68,
+        "duration": 4.96
+    },
+    {
+        "text": "you that's so nice now the Luminous armor can be \nfound in The salite Outpost in the underd dark so  ",
+        "start": 968.64,
+        "duration": 5.92
+    },
+    {
+        "text": "beine for the goblin camp and then you know you \ncan get to that area where you have to like solve  ",
+        "start": 974.56,
+        "duration": 4.68
+    },
+    {
+        "text": "the puzzle and then you can climb down that ladder \nso you get into the underd dark right at right at  ",
+        "start": 979.24,
+        "duration": 4.0
+    },
+    {
+        "text": "The salite Outpost thus letting you grab this \narmor as soon as possible we actually will be  ",
+        "start": 983.24,
+        "duration": 5.68
+    },
+    {
+        "text": "using it throughout our character's career so I \nhope you like the armor model if not you can turn  ",
+        "start": 988.92,
+        "duration": 6.16
+    },
+    {
+        "text": "it off and wear some fancy clothes while we are \ndown in the underd dark let's grab the next item  ",
+        "start": 995.08,
+        "duration": 5.68
+    },
+    {
+        "text": "on our list the fallar aluve I hope I'm saying \nthat right it's just right outside the gate at The  ",
+        "start": 1000.76,
+        "duration": 5.04
+    },
+    {
+        "text": "Outpost right kind of stuck in that Rock The Sword \nin the Stone that sword is stuck fast in solid  ",
+        "start": 1005.8,
+        "duration": 5.0
+    },
+    {
+        "text": "Stone and you're going to pull it out Merin it's \nimpossible Arthur you're the true king of Camelot  ",
+        "start": 1010.8,
+        "duration": 4.84
+    },
+    {
+        "text": "uh this is a fantastic weapon it's a long sword \nbut it's got the Ness property so I think I would  ",
+        "start": 1015.64,
+        "duration": 4.76
+    },
+    {
+        "text": "actually Respec at this point to dump strength in \nfavor of dexterity since dexterity is going to be  ",
+        "start": 1020.4,
+        "duration": 4.56
+    },
+    {
+        "text": "better for our armor class if we're wearing medium \narmor not to mention you know give us a better  ",
+        "start": 1024.96,
+        "duration": 4.16
+    },
+    {
+        "text": "initiative and a more important saving throw Etc \nthe sword is a plus one weapon but the real reason  ",
+        "start": 1029.12,
+        "duration": 5.48
+    },
+    {
+        "text": "we want it is because once per short rest we can \nactivate its Melody and make it shriek or like  ",
+        "start": 1034.6,
+        "duration": 7.44
+    },
+    {
+        "text": "sing I think it is for five rounds we want to do \nthe shriek option because this causes all enemies  ",
+        "start": 1042.04,
+        "duration": 6.08
+    },
+    {
+        "text": "Within 20 ft of us to suffer a minus D4 on all of \ntheir saving throws meaning it's more likely that  ",
+        "start": 1048.12,
+        "duration": 5.92
+    },
+    {
+        "text": "we'll get full damage from our spirit Guardians \namong other things and when we attack them we do  ",
+        "start": 1054.04,
+        "duration": 5.0
+    },
+    {
+        "text": "an extra D4 of Thunder damage too very nice what's \nmaybe even better though the tool tip doesn't say  ",
+        "start": 1059.04,
+        "duration": 6.0
+    },
+    {
+        "text": "so creatures affected by the shrieking sword \nalso suffer a minus1 D4 to hit which will mean  ",
+        "start": 1065.04,
+        "duration": 5.28
+    },
+    {
+        "text": "all kinds of really good things for us speaking \nof Thunder damage since we're down in the underd  ",
+        "start": 1070.32,
+        "duration": 5.52
+    },
+    {
+        "text": "dark let's run over to the mikid Grove and talk \nto to uh Ellum the mine flayer who's there right  ",
+        "start": 1075.84,
+        "duration": 5.2
+    },
+    {
+        "text": "he's going to sell us the boots of Stormy clamor \nwhich tell us that when we inflict a condition on  ",
+        "start": 1081.04,
+        "duration": 5.04
+    },
+    {
+        "text": "a creature like say the radiating orb condition \nfor example then we also inflict two stacks of  ",
+        "start": 1086.08,
+        "duration": 6.48
+    },
+    {
+        "text": "reverberation on them remember this means they \nhave a minus two to their strength dexterity and  ",
+        "start": 1092.56,
+        "duration": 5.0
+    },
+    {
+        "text": "Constitution saves right and again if you hit \nthem with radiating orb twice because they got  ",
+        "start": 1097.56,
+        "duration": 4.24
+    },
+    {
+        "text": "two stacks for taking radiant damage and two more \nfor their friend who is within 10 ft of them then  ",
+        "start": 1101.8,
+        "duration": 4.8
+    },
+    {
+        "text": "they will both have four stacks of radiating \norb and four stacks of reverberation and when  ",
+        "start": 1106.6,
+        "duration": 4.72
+    },
+    {
+        "text": "we hit five stacks of reverberation they take \nThunder damage and potentially fall prone one  ",
+        "start": 1111.32,
+        "duration": 5.08
+    },
+    {
+        "text": "note at the moment it seems that these boots are a \nlittle bugged in our favor I noticed that even if  ",
+        "start": 1116.4,
+        "duration": 5.44
+    },
+    {
+        "text": "an enemy succeeded on a save against a condition \nI was trying to inflict on them they were still  ",
+        "start": 1121.84,
+        "duration": 4.84
+    },
+    {
+        "text": "getting reverberation Stacks I'm not complaining \nbut you might notice that reverberation is getting  ",
+        "start": 1126.68,
+        "duration": 4.84
+    },
+    {
+        "text": "applied a lot more than you would have otherwise \nthought and if so this is probably why or at  ",
+        "start": 1131.52,
+        "duration": 6.04
+    },
+    {
+        "text": "least partly why oh and also a lot of things \nare considered conditions that you might not  ",
+        "start": 1137.56,
+        "duration": 5.32
+    },
+    {
+        "text": "necessarily have thought of as a condition for \nexample when someone first gets put into the area  ",
+        "start": 1142.88,
+        "duration": 6.64
+    },
+    {
+        "text": "of your shrieking sword it puts reverberation \nstacks on them that shrieking sword debuff is  ",
+        "start": 1149.52,
+        "duration": 5.24
+    },
+    {
+        "text": "a condition when they are impacted by your spirit \nGuardians that is considered a condition in this  ",
+        "start": 1154.76,
+        "duration": 5.2
+    },
+    {
+        "text": "game anyways so yeah reverberation is just going \noff like the 4th of [Music] July Welcome To Earth  ",
+        "start": 1159.96,
+        "duration": 8.56
+    },
+    {
+        "text": "let's then round things out here with two \nmore items from Crush y again pronunciation  ",
+        "start": 1168.52,
+        "duration": 6.24
+    },
+    {
+        "text": "and yeah if it were me I'd seriously just like \ngrab those items from the underd dark don't do  ",
+        "start": 1174.76,
+        "duration": 4.92
+    },
+    {
+        "text": "any quests just head over to the crash because \nthese two items are really important especially  ",
+        "start": 1179.68,
+        "duration": 5.36
+    },
+    {
+        "text": "the second one first up we've got uh gloves \nof belligerent Skies these are found in the  ",
+        "start": 1185.04,
+        "duration": 5.12
+    },
+    {
+        "text": "inquisitor's chamber inside the crash they tell \nus that when we do lightning or thunder check or  ",
+        "start": 1190.16,
+        "duration": 6.96
+    },
+    {
+        "text": "radiant damage check we inflict two more stacks of \nreverberation on our Target that's really nice we  ",
+        "start": 1197.12,
+        "duration": 6.68
+    },
+    {
+        "text": "are very often now doing both Thunder and radiant \ndamage right so we're going to be stacking a ton  ",
+        "start": 1203.8,
+        "duration": 5.28
+    },
+    {
+        "text": "of reverberation for reduced saves more damage and \nlike prone enemies everywhere but finally the pest  ",
+        "start": 1209.08,
+        "duration": 6.92
+    },
+    {
+        "text": "resistance we have the Holy Lance Helm which is \navailable outside the crash uh like at the very  ",
+        "start": 1216.0,
+        "duration": 6.2
+    },
+    {
+        "text": "top of the monastery up by where those Eagles \nare and stuff right this beauty says that when  ",
+        "start": 1222.2,
+        "duration": 4.68
+    },
+    {
+        "text": "an enemy misses an attack against us ranged or \nmelee or even a spell attack if they fail a dc14  ",
+        "start": 1226.88,
+        "duration": 7.08
+    },
+    {
+        "text": "dexterity Save which they'll probably do if they \nhave some reverberation on them right then they're  ",
+        "start": 1233.96,
+        "duration": 5.04
+    },
+    {
+        "text": "going to take 1 D4 radiant damage and if we have \nall of these items dealing radiant damage is going  ",
+        "start": 1239.0,
+        "duration": 6.72
+    },
+    {
+        "text": "to put both reverberation stacks and radiating \norb stacks on them in an area of effect even  ",
+        "start": 1245.72,
+        "duration": 5.8
+    },
+    {
+        "text": "when an enemy simply tries to hit us and likely \nfails this DC by the way for this Helm is based  ",
+        "start": 1251.52,
+        "duration": 6.28
+    },
+    {
+        "text": "on your your primary spellcasting stat so for us \nat the moment that's wisdom but if we respect to  ",
+        "start": 1257.8,
+        "duration": 6.12
+    },
+    {
+        "text": "be like level one in a different class then that \nclass's spellcasting stat is what will be used  ",
+        "start": 1263.92,
+        "duration": 5.24
+    },
+    {
+        "text": "here so be aware of that the result of all of this \nis truly a sight to behold we very quickly turn  ",
+        "start": 1269.16,
+        "duration": 7.2
+    },
+    {
+        "text": "into this like nigh unhitable monster doing damage \nto every enemy or almost every enemy on the entire  ",
+        "start": 1276.36,
+        "duration": 6.12
+    },
+    {
+        "text": "Battlefield where similar to the Icebreaker our \nenemies are dying left and right just for trying  ",
+        "start": 1282.48,
+        "duration": 6.16
+    },
+    {
+        "text": "to hit us but with the very big difference here \nbeing that they are dying because they are trying  ",
+        "start": 1288.64,
+        "duration": 4.56
+    },
+    {
+        "text": "to get into range and hit us and dying because \nthey're trying to hit us but missing it is so  ",
+        "start": 1293.2,
+        "duration": 5.52
+    },
+    {
+        "text": "freaking awesome and I will show you what it looks \nlike in game but just give me a couple more levels  ",
+        "start": 1298.72,
+        "duration": 5.12
+    },
+    {
+        "text": "first all right at level six I think I'm going \nto want to Respec here so that I can swap out my  ",
+        "start": 1303.84,
+        "duration": 6.08
+    },
+    {
+        "text": "feet now that we've got that all important Spirit \nGuardian spell our number one priority becomes  ",
+        "start": 1309.92,
+        "duration": 5.36
+    },
+    {
+        "text": "holding on to concentration and as a cleric we \ndon't have Constitution saving Thro proficiency  ",
+        "start": 1315.28,
+        "duration": 4.72
+    },
+    {
+        "text": "now sure we could respect to start off with say a \nlevel of sorcerer sorcerer one and then go cleric  ",
+        "start": 1320.0,
+        "duration": 6.0
+    },
+    {
+        "text": "right actually will'll do that before long but the \nproblem with doing that at this level is that it  ",
+        "start": 1326.0,
+        "duration": 4.4
+    },
+    {
+        "text": "makes us super mad right multiple ability score \ndependent the DC for our holy Lance Helm as an  ",
+        "start": 1330.4,
+        "duration": 5.8
+    },
+    {
+        "text": "item is going to be based on the spellcasting stat \nof whatever we took at level one like I just said  ",
+        "start": 1336.2,
+        "duration": 4.28
+    },
+    {
+        "text": "remember that Helm returns radiant damage if an \nenemy misses us which they're going to be doing  ",
+        "start": 1340.48,
+        "duration": 4.12
+    },
+    {
+        "text": "a lot but they get to save against the damage \nright we want them failing that save as often  ",
+        "start": 1344.6,
+        "duration": 5.0
+    },
+    {
+        "text": "as possible but the DC for Spirit Guardians is \nbased on our wisdom and I want that to be high  ",
+        "start": 1349.6,
+        "duration": 4.6
+    },
+    {
+        "text": "as well and we also want a high Constitution \nand at least a 14 dexterity if we can get it  ",
+        "start": 1354.2,
+        "duration": 5.16
+    },
+    {
+        "text": "for Armor class and initiative and even weapon \nattack purposes alt together I think we're just  ",
+        "start": 1359.36,
+        "duration": 5.28
+    },
+    {
+        "text": "better off sticking with full cleric for now and \nlosing a plus one to our wisdom modifier for the  ",
+        "start": 1364.64,
+        "duration": 5.4
+    },
+    {
+        "text": "sake of a more reliable concentration check and \nthus that was a long winded way of saying for our  ",
+        "start": 1370.04,
+        "duration": 6.56
+    },
+    {
+        "text": "feet let's take resilient con Constitution here it \nlets us add plus one to our Constitution and then  ",
+        "start": 1376.6,
+        "duration": 4.24
+    },
+    {
+        "text": "gives US Constitution and thus concentration check \nproficiency right and yeah so go ahead and Respec  ",
+        "start": 1380.84,
+        "duration": 5.72
+    },
+    {
+        "text": "if you want to get your ability score so that \nyou're at a 17 Constitution right and then this  ",
+        "start": 1386.56,
+        "duration": 4.24
+    },
+    {
+        "text": "would bump it to 18 anyways we're still cleric \nhere so we'd be a cleric six and as a war cleric  ",
+        "start": 1390.8,
+        "duration": 4.36
+    },
+    {
+        "text": "we get the War gods blessing feature which lets \nus use our reaction to give our Channel Divinity  ",
+        "start": 1395.16,
+        "duration": 5.12
+    },
+    {
+        "text": "plus 10 to hit to an ally instead of to ourselves \nmight be worth it if you've got a heavy hitter  ",
+        "start": 1400.28,
+        "duration": 4.48
+    },
+    {
+        "text": "that really needs to finish someone off finish him \nat level seven I would want to Respec again but  ",
+        "start": 1404.76,
+        "duration": 6.04
+    },
+    {
+        "text": "this time much more drastically I actually want \nto drop most of our cleric levels here for Bard  ",
+        "start": 1410.8,
+        "duration": 6.0
+    },
+    {
+        "text": "yeah when the question is raised which class \nis the most powerful in all of baldder Skate  ",
+        "start": 1416.8,
+        "duration": 4.68
+    },
+    {
+        "text": "3 the answer continues to be Bard like almost \nregardless of what you're trying to do with the",
+        "start": 1421.48,
+        "duration": 4.92
+    },
+    {
+        "text": "build so here's the thing the spirit Guardian \nspell in this game is pretty much exclusive to  ",
+        "start": 1426.4,
+        "duration": 10.08
+    },
+    {
+        "text": "clerics unless you are a Bard who has magical \nsecrets in which case congratulations you win  ",
+        "start": 1436.48,
+        "duration": 6.8
+    },
+    {
+        "text": "and as a lore Bard we get magical Secrets earlier \nthan the other subclasses right we get it at Bard  ",
+        "start": 1443.28,
+        "duration": 6.12
+    },
+    {
+        "text": "level six which we could be now with a reec and \nstill hold on to a level of cleric for both full  ",
+        "start": 1449.4,
+        "duration": 6.04
+    },
+    {
+        "text": "caster and armor and weapon proficiencies right \nnow you could certainly just stick with cleric  ",
+        "start": 1455.44,
+        "duration": 5.52
+    },
+    {
+        "text": "here and it would work great you'd pick up fourth \nlevel cleric spells I just think bards are better  ",
+        "start": 1460.96,
+        "duration": 5.32
+    },
+    {
+        "text": "all-rounders with access to more and better spells \nbetter utility and social interaction and that  ",
+        "start": 1466.28,
+        "duration": 5.32
+    },
+    {
+        "text": "sweet sweet baric inspiration so let me quickly go \nthrough now what six levels of Bard looks like for  ",
+        "start": 1471.6,
+        "duration": 6.72
+    },
+    {
+        "text": "us here first off let me say start as a Bard one \nso we've got Charisma right and then we're going  ",
+        "start": 1478.32,
+        "duration": 4.36
+    },
+    {
+        "text": "to want to change our abilities again making sure \nto prioritize Charisma over wisdom since that's  ",
+        "start": 1482.68,
+        "duration": 5.64
+    },
+    {
+        "text": "the ability that's going to affect both the DC \nfor our items and now our Bard spells including  ",
+        "start": 1488.32,
+        "duration": 5.4
+    },
+    {
+        "text": "Spirit Guardians once we get it at Bard one then \nwe're going to get baric inspiration which lets  ",
+        "start": 1493.72,
+        "duration": 4.2
+    },
+    {
+        "text": "us help our allies make their attacks and saves \nand ability checks more reliably we're going to  ",
+        "start": 1497.92,
+        "duration": 3.92
+    },
+    {
+        "text": "get barred spells and I'm just going to say pick \nyour favorites here probably largely avoiding  ",
+        "start": 1501.84,
+        "duration": 4.44
+    },
+    {
+        "text": "things that require concentration at least if \nthey're like a combat focused spell right as we  ",
+        "start": 1506.28,
+        "duration": 4.48
+    },
+    {
+        "text": "are going to need that concentration for Spirit \nguardians but yeah I mean vicious mockery friends  ",
+        "start": 1510.76,
+        "duration": 4.52
+    },
+    {
+        "text": "healing word dissonant Whispers is always great \nand maybe especially Thunder Wave on this build  ",
+        "start": 1515.28,
+        "duration": 5.08
+    },
+    {
+        "text": "these are all worth considering at b 2 we get song \nof rest for one more short rest per day which is  ",
+        "start": 1520.36,
+        "duration": 5.72
+    },
+    {
+        "text": "really great as well as Jack of all trades which \nadds half of our proficiency bonus to an ability  ",
+        "start": 1526.08,
+        "duration": 5.08
+    },
+    {
+        "text": "check that we are not proficient in at Bard three \nuh we get expertise which is going to double our  ",
+        "start": 1531.16,
+        "duration": 6.04
+    },
+    {
+        "text": "proficiency bonus in a couple of skills that \nwe're proficient in so feel free to become  ",
+        "start": 1537.2,
+        "duration": 4.4
+    },
+    {
+        "text": "your group's resident lock picker and trap this \narmor now if you want but yeah go ahead pick your  ",
+        "start": 1541.6,
+        "duration": 4.28
+    },
+    {
+        "text": "favorite skills here probably perception at least \nbut that's up to you we also get second level bar  ",
+        "start": 1545.88,
+        "duration": 5.24
+    },
+    {
+        "text": "spells now and most of the best ones require \nconcentration so yeah pick your favorite pyf  ",
+        "start": 1551.12,
+        "duration": 5.36
+    },
+    {
+        "text": "but I'd maybe grab chatter and lesser restoration \nI think invisibility is nice to have when you need  ",
+        "start": 1556.48,
+        "duration": 5.88
+    },
+    {
+        "text": "it outside of combat more importantly though at \nthis level we get our Bard subass and yes I want  ",
+        "start": 1562.36,
+        "duration": 5.8
+    },
+    {
+        "text": "to go lore for two very great reasons magical \nSecrets later yes but at this level we get the  ",
+        "start": 1568.16,
+        "duration": 5.88
+    },
+    {
+        "text": "incredibly wonderful cutting words this is just \nso dang good and yeah it's even better in balder's  ",
+        "start": 1574.04,
+        "duration": 7.12
+    },
+    {
+        "text": "Gate than it is in DND D in DND D it lets us use \nour reaction and one of our btic inspiration uses  ",
+        "start": 1581.16,
+        "duration": 5.96
+    },
+    {
+        "text": "to reduce an enemy's attack roll ability check \nor damage roll in bg3 it's attack roll ability  ",
+        "start": 1587.12,
+        "duration": 6.32
+    },
+    {
+        "text": "check or saving throw saving throw people do \nyou realize how freaking good this is I mean  ",
+        "start": 1593.44,
+        "duration": 6.6
+    },
+    {
+        "text": "use it for your companion Monk's stunning strike \nor your companions hold person spell I just kind  ",
+        "start": 1600.04,
+        "duration": 5.68
+    },
+    {
+        "text": "of feel like I have a hard time making any party \nright now that doesn't have a lard in it honestly  ",
+        "start": 1605.72,
+        "duration": 6.64
+    },
+    {
+        "text": "because of how good cutting words is it's so good \nand sure if we wanted to be selfish we could use  ",
+        "start": 1612.36,
+        "duration": 5.04
+    },
+    {
+        "text": "it to make sure someone fails their save against \nthe damage that they take from our helmet when  ",
+        "start": 1617.4,
+        "duration": 4.84
+    },
+    {
+        "text": "they miss an attack right that may seem silly for \njust a couple of radiant damage but keep in mind  ",
+        "start": 1622.24,
+        "duration": 5.0
+    },
+    {
+        "text": "it also is going to apply Radiant orb to them \nand their nearby allies and thus reverberation  ",
+        "start": 1627.24,
+        "duration": 6.16
+    },
+    {
+        "text": "right and yeah it can really help us kind of get \nthe ball rolling on massive waves of debuffing so  ",
+        "start": 1633.4,
+        "duration": 5.08
+    },
+    {
+        "text": "it might be worth considering using even just for \nthat two radiant damage don't I repeat do not use  ",
+        "start": 1638.48,
+        "duration": 6.8
+    },
+    {
+        "text": "this to ensure that someone fails their save \nagainst damage from Spirit Guardians they're  ",
+        "start": 1645.28,
+        "duration": 4.72
+    },
+    {
+        "text": "going to take half damage even if they succeed on \ntheir save and just taking some radiant damage is  ",
+        "start": 1650.0,
+        "duration": 4.84
+    },
+    {
+        "text": "what makes this so powerful because it'll still \nget that wave of debuffing going full damage is  ",
+        "start": 1654.84,
+        "duration": 5.56
+    },
+    {
+        "text": "nice but it's much less important so yeah save \nyour reaction and your inspiration for something  ",
+        "start": 1660.4,
+        "duration": 4.76
+    },
+    {
+        "text": "else right at Bard four we get our feet and \nI would keep it at resilient Constitution for  ",
+        "start": 1665.16,
+        "duration": 5.2
+    },
+    {
+        "text": "now at Bard five we get third level spells and \nagain I'm going to say pick your favorite all  ",
+        "start": 1670.36,
+        "duration": 5.16
+    },
+    {
+        "text": "of the best ones require concentration here \nespecially the inspiration improvements are  ",
+        "start": 1675.52,
+        "duration": 5.52
+    },
+    {
+        "text": "the real gem for Bard five here for us for this \nbuild our inspiration die goes up to a d8 and  ",
+        "start": 1681.04,
+        "duration": 5.56
+    },
+    {
+        "text": "we get those Inspirations back on a short rest \nwhich is just amazing honestly but Bard six is  ",
+        "start": 1686.6,
+        "duration": 5.76
+    },
+    {
+        "text": "the promised land because yes as a lard that means \nwe get magical secrets and that lets us take two  ",
+        "start": 1692.36,
+        "duration": 5.84
+    },
+    {
+        "text": "spells from other spellcaster classes though as \nan aside I hate how restrictive bg3 makes this  ",
+        "start": 1698.2,
+        "duration": 6.6
+    },
+    {
+        "text": "list in D and D it's literally any other level \nspell in the game but balers Gate 3 gives you  ",
+        "start": 1704.8,
+        "duration": 5.0
+    },
+    {
+        "text": "like this sort of prescriptive list right maybe \nthey just didn't want to overwhelm players with  ",
+        "start": 1709.8,
+        "duration": 3.92
+    },
+    {
+        "text": "too many choices I don't know as an aside the 5e \nSpells mod takes care of that little problem as  ",
+        "start": 1713.72,
+        "duration": 5.8
+    },
+    {
+        "text": "well as adding a ton of other spells from DND in \nthe game highly recommended probably my favorite  ",
+        "start": 1719.52,
+        "duration": 5.2
+    },
+    {
+        "text": "mod regardless Spirit Guardians is an option here \nso we can grab that and have it count as a b spell  ",
+        "start": 1724.72,
+        "duration": 6.72
+    },
+    {
+        "text": "Now using our Charisma for the saving throw right \nfantastic as for the other spell we get to choose  ",
+        "start": 1731.44,
+        "duration": 5.16
+    },
+    {
+        "text": "I'm going to say let's let grab Misty step now \nsure we can get Misty step from lots of items in  ",
+        "start": 1736.6,
+        "duration": 5.44
+    },
+    {
+        "text": "the game but we have a pretty specific list of \nitems that we want to be using to augment this  ",
+        "start": 1742.04,
+        "duration": 4.76
+    },
+    {
+        "text": "build you could grab the amulet that gives you \nMisty step once per short rest but I think I'd  ",
+        "start": 1746.8,
+        "duration": 4.92
+    },
+    {
+        "text": "just as soon have it usable with all of my spell \nslots if need be as well I think I'd be misty  ",
+        "start": 1751.72,
+        "duration": 5.12
+    },
+    {
+        "text": "stepping a lot on this character as you'll see \nin a minute a lot of the times you're going to  ",
+        "start": 1756.84,
+        "duration": 4.08
+    },
+    {
+        "text": "have archers or casters like perched up high or \nenemies who are otherwise like just Out Of Reach  ",
+        "start": 1760.92,
+        "duration": 4.88
+    },
+    {
+        "text": "and having Misty steps so that can hit as many \nenemies with your spirit Guardians as possible  ",
+        "start": 1765.8,
+        "duration": 4.44
+    },
+    {
+        "text": "Right on round one is going to be huge to really \nget our like debuff ball rolling okay level seven  ",
+        "start": 1770.24,
+        "duration": 6.88
+    },
+    {
+        "text": "is I think a good place to kind of show off the \nbuild in action I could have done it at level five  ",
+        "start": 1777.12,
+        "duration": 4.52
+    },
+    {
+        "text": "but I couldn't find a good save that I liked at \nlevel five so you know at this point we've moved  ",
+        "start": 1781.64,
+        "duration": 4.64
+    },
+    {
+        "text": "on from all cleric to mostly Bard which I'm going \nto kind of continue to be throughout the character  ",
+        "start": 1786.28,
+        "duration": 4.76
+    },
+    {
+        "text": "build so yeah felt like a good place to test \nit check it out all right let's see here so  ",
+        "start": 1791.04,
+        "duration": 5.76
+    },
+    {
+        "text": "we've got our holy Lance Helm our luminous armor \nour gloves of belligerent skies and our boots of  ",
+        "start": 1796.8,
+        "duration": 7.72
+    },
+    {
+        "text": "Stormy clamor along with the F ALU I've got some \nother things here none of which are particularly  ",
+        "start": 1804.52,
+        "duration": 7.2
+    },
+    {
+        "text": "important to the build first thing put ourselves \nin turn-based mode go Spirit Guardians we want the  ",
+        "start": 1811.72,
+        "duration": 6.72
+    },
+    {
+        "text": "radiant damage version of course and sure we've \ngot a four spot let's use it then end turn wait a  ",
+        "start": 1818.44,
+        "duration": 10.08
+    },
+    {
+        "text": "few seconds and then we can get our F aluve Melody \ngoing this only lasts five rounds so we want to do  ",
+        "start": 1828.52,
+        "duration": 8.48
+    },
+    {
+        "text": "this last right shriek not sing that going and \nthen let's start things off with the bang here  ",
+        "start": 1837.0,
+        "duration": 9.32
+    },
+    {
+        "text": "I'll just jump in and surprise them boom okay \nuh yeah we both died sorry about that and then  ",
+        "start": 1846.32,
+        "duration": 10.56
+    },
+    {
+        "text": "I'll just up here you took a bunch of damage uh \nI don't have a lot of bonus action options here  ",
+        "start": 1856.88,
+        "duration": 7.36
+    },
+    {
+        "text": "but just Tom strike do a little more I don't care \non your sa still did a bunch of damage still got  ",
+        "start": 1864.24,
+        "duration": 6.92
+    },
+    {
+        "text": "knocked prone because of all of the reverberation \nStacks that you've got and yeah we're done Fair  ",
+        "start": 1871.16,
+        "duration": 7.04
+    },
+    {
+        "text": "turn stand up miss an attack on me and die as \na result let's keep this party going shall we",
+        "start": 1878.2,
+        "duration": 8.96
+    },
+    {
+        "text": "okay trip attack no I think I'm going to \n[Music] say and you took some damage and  ",
+        "start": 1891.92,
+        "duration": 5.88
+    },
+    {
+        "text": "got knocked as a result awesome okay \nwe'll run up and you know what let's  ",
+        "start": 1897.8,
+        "duration": 6.52
+    },
+    {
+        "text": "Misty step we're going to go here and try \nand get well I don't think I can get all  ",
+        "start": 1904.32,
+        "duration": 5.96
+    },
+    {
+        "text": "three of them so we'll go here H this guy is \nprone so let's go ahead and hit him since we",
+        "start": 1910.28,
+        "duration": 7.64
+    },
+    {
+        "text": "have oops",
+        "start": 1917.92,
+        "duration": 6.48
+    },
+    {
+        "text": "oops you ran up tried to hit \nme and then missed me and",
+        "start": 1924.4,
+        "duration": 9.12
+    },
+    {
+        "text": "died hurt oh sorry you oh sorry you",
+        "start": 1933.52,
+        "duration": 6.0
+    },
+    {
+        "text": "[Music] died oh you missed and you got knocked  ",
+        "start": 1939.52,
+        "duration": 7.36
+    },
+    {
+        "text": "from um I apologize okay you've \ngot more hit points so we'll go",
+        "start": 1946.88,
+        "duration": 6.24
+    },
+    {
+        "text": "boom and you know since these guys both have \n10 stacks of radiating orb this is the guy I'm  ",
+        "start": 1953.12,
+        "duration": 9.96
+    },
+    {
+        "text": "more concerned about so turn over here and \nsee if we can take them out DK spellcasters  ",
+        "start": 1963.08,
+        "duration": 8.04
+    },
+    {
+        "text": "uh n all right and we're done okay you stand \nup and what are you gonna do oh let me guess",
+        "start": 1971.12,
+        "duration": 9.36
+    },
+    {
+        "text": "die n you're gonna die anyways um okay you're \ngoing to stand up and what's going to happen  ",
+        "start": 1980.48,
+        "duration": 12.92
+    },
+    {
+        "text": "uh you're going to die oh he didn't quite die that \nguy did so let's go oh I didn't even get to attack  ",
+        "start": 1993.4,
+        "duration": 9.48
+    },
+    {
+        "text": "him he just died too soon oh so much was fun so \nfun right I think I took like six damage over that  ",
+        "start": 2002.88,
+        "duration": 8.32
+    },
+    {
+        "text": "entire fight and so many enemies were just dying \nfor getting close to me or even missing me it  ",
+        "start": 2011.2,
+        "duration": 5.16
+    },
+    {
+        "text": "was just H it's so fun all right so before we get \nback to the build let's talk about some additional  ",
+        "start": 2016.36,
+        "duration": 5.4
+    },
+    {
+        "text": "items that will augment the build and should be \navailable for us at or around this level kind of  ",
+        "start": 2021.76,
+        "duration": 5.64
+    },
+    {
+        "text": "late act one and into act two first up I'd be sure \nto grab the adamantine shield from the adamantine  ",
+        "start": 2027.4,
+        "duration": 6.16
+    },
+    {
+        "text": "Forge it's super nice in that you know if a melee \nattack Miss misses us the shield gives the enemy  ",
+        "start": 2033.56,
+        "duration": 5.44
+    },
+    {
+        "text": "two stacks of The Reeling condition that's nice \nbecause conditions equal reverberation for us  ",
+        "start": 2039.0,
+        "duration": 5.6
+    },
+    {
+        "text": "right but also reeling gives them a minus one \nto hit penalty for each stack of it they have  ",
+        "start": 2044.6,
+        "duration": 4.32
+    },
+    {
+        "text": "so it just makes it even less likely that they're \never going to hit us I also love that the shield  ",
+        "start": 2048.92,
+        "duration": 3.84
+    },
+    {
+        "text": "prevents us from being crit because honestly at \nthis point a lot of enemies will only be able to  ",
+        "start": 2052.76,
+        "duration": 5.72
+    },
+    {
+        "text": "hit us if they roll a 20 and so while rolling a 20 \nis still going to do damage to us with this Shield  ",
+        "start": 2058.48,
+        "duration": 6.64
+    },
+    {
+        "text": "at least it won't do extra damage now right as for \nrings I would prioritize getting the callus glow  ",
+        "start": 2065.12,
+        "duration": 5.92
+    },
+    {
+        "text": "ring and the coruscation ring callus glow is in \nChar's Gauntlet so kind of later act two but it  ",
+        "start": 2071.04,
+        "duration": 5.92
+    },
+    {
+        "text": "just deals two radiant damage to creatures every \ntime we deal damage to them and we deal lots of  ",
+        "start": 2076.96,
+        "duration": 5.32
+    },
+    {
+        "text": "little bits of damage to them and radiant damage \nprocs radiating orb so there's just some really  ",
+        "start": 2082.28,
+        "duration": 5.44
+    },
+    {
+        "text": "nice Synergy there right coruscation ring is in \nthe Celler of Lights hope uh in act two so you  ",
+        "start": 2087.72,
+        "duration": 5.48
+    },
+    {
+        "text": "can get it pretty early in act two and it just \nstraight up applies two more stacks of radiating  ",
+        "start": 2093.2,
+        "duration": 4.08
+    },
+    {
+        "text": "orb whenever we do spell damage which we do a lot \nso this is going to just really Skyrocket those  ",
+        "start": 2097.28,
+        "duration": 5.92
+    },
+    {
+        "text": "radiating orb Stacks alternatively you might want \nto grab the Ring of spiteful thunder you can buy  ",
+        "start": 2103.2,
+        "duration": 5.36
+    },
+    {
+        "text": "this off Rua Moonglow in the moonrise towers and \nit just does an extra one Thunder damage whenever  ",
+        "start": 2108.56,
+        "duration": 5.36
+    },
+    {
+        "text": "you deal Thunder damage I know that's not huge \nbut we actually end up doing a lot of Thunder  ",
+        "start": 2113.92,
+        "duration": 4.56
+    },
+    {
+        "text": "damage with all of the times that we're going \nto be cycling reverberation to five stacks and  ",
+        "start": 2118.48,
+        "duration": 4.16
+    },
+    {
+        "text": "starting over right so it does add up maybe more \nimportantly it tells us that when we do Thunder  ",
+        "start": 2122.64,
+        "duration": 4.96
+    },
+    {
+        "text": "damage to a reverberating creature they're going \nto have to make a constitution Save which they'll  ",
+        "start": 2127.6,
+        "duration": 4.92
+    },
+    {
+        "text": "likely fail since they're reverberating right and \nif they fail it they will get the dazed condition  ",
+        "start": 2132.52,
+        "duration": 5.4
+    },
+    {
+        "text": "and dazed is nice because among other things it's \ngoing to give them disadvantage on wisdom saves  ",
+        "start": 2137.92,
+        "duration": 4.8
+    },
+    {
+        "text": "which means we're more likely to get full damage \nfrom our spirit Guardians among other things one  ",
+        "start": 2142.72,
+        "duration": 4.44
+    },
+    {
+        "text": "consideration though dazed keeps them from being \nable to make opportunity attacks and while that's  ",
+        "start": 2147.16,
+        "duration": 4.36
+    },
+    {
+        "text": "usually a good thing we actually might want \nto be like intentionally proing opportunity  ",
+        "start": 2151.52,
+        "duration": 4.68
+    },
+    {
+        "text": "attacks on our enemies similar to the Icebreaker \nright so that they'll take a swing at us because  ",
+        "start": 2156.2,
+        "duration": 5.16
+    },
+    {
+        "text": "they're probably going to miss and that's just \ngoing to mean more damage and more debuff stacks  ",
+        "start": 2161.36,
+        "duration": 4.48
+    },
+    {
+        "text": "for us if they do worth considering regardless \nanother like worth considering item here is the  ",
+        "start": 2165.84,
+        "duration": 5.2
+    },
+    {
+        "text": "Luminous gloves these are found in the ruined \nBattlefield in Act 2 and just apply one more  ",
+        "start": 2171.04,
+        "duration": 5.16
+    },
+    {
+        "text": "stack of radiating orb when we do radiant damage \nI think personally I prefer to just stick with the  ",
+        "start": 2176.2,
+        "duration": 5.28
+    },
+    {
+        "text": "gloves of belligerent Skies here which applies \nreverberation right since at this point we're  ",
+        "start": 2181.48,
+        "duration": 4.8
+    },
+    {
+        "text": "going to be a lot of radiating orb Stacks really \nquickly most of the time and more reverberation is  ",
+        "start": 2186.28,
+        "duration": 6.2
+    },
+    {
+        "text": "probably preferable since that kind of Cycles \nup to five does damage might knock them prone  ",
+        "start": 2192.48,
+        "duration": 4.44
+    },
+    {
+        "text": "and then starts over right but play around with \nboth and see what you prefer okay let's jump back  ",
+        "start": 2196.92,
+        "duration": 5.04
+    },
+    {
+        "text": "into the build then at level eight I'm going \nto say let's Respec yet again I know it's a  ",
+        "start": 2201.96,
+        "duration": 5.0
+    },
+    {
+        "text": "lot but doing so would let us now start off as a \nsorcerer one so that we could have Constitution  ",
+        "start": 2206.96,
+        "duration": 5.56
+    },
+    {
+        "text": "saving Thro proficiency then go cleric one for \nthe armor and weapon proficiency and you know  ",
+        "start": 2212.52,
+        "duration": 3.92
+    },
+    {
+        "text": "some bonus action weapon attacks if we want them \nand then b six so that we could still have Spirit  ",
+        "start": 2216.44,
+        "duration": 4.28
+    },
+    {
+        "text": "Guardians with all of our most important features \nworking off Charisma while still having the spell  ",
+        "start": 2220.72,
+        "duration": 4.8
+    },
+    {
+        "text": "Slots of a full Caster Constitution saving Thro \nproficiency and yeah we just have complete and  ",
+        "start": 2225.52,
+        "duration": 5.88
+    },
+    {
+        "text": "total happiness now as we're going through the \nrespecing process then just make sure to change  ",
+        "start": 2231.4,
+        "duration": 4.88
+    },
+    {
+        "text": "your feet from resilient Constitution to like \nplus Charisma or potentially the warcaster feat  ",
+        "start": 2236.28,
+        "duration": 5.84
+    },
+    {
+        "text": "this would among other things give us advantage \non our concentration check so now we'd have both  ",
+        "start": 2242.12,
+        "duration": 5.52
+    },
+    {
+        "text": "proficiency and advantage and we will almost never \nlose concentration unless we get knocked prone man  ",
+        "start": 2247.64,
+        "duration": 6.76
+    },
+    {
+        "text": "I hate that that breaks concentration in this \ngame admittedly it kind of makes sense but so  ",
+        "start": 2254.4,
+        "duration": 6.08
+    },
+    {
+        "text": "frustrating at least it works against enemies \nas well I would probably bump Charisma I think  ",
+        "start": 2260.48,
+        "duration": 4.16
+    },
+    {
+        "text": "personally now Sorcerers also get their subass \nat sorcerer 1 and I'm just going to actually say  ",
+        "start": 2264.64,
+        "duration": 5.2
+    },
+    {
+        "text": "pick your favorite here I think I'd probably go \nwith draconic bloodline taking white dragon as  ",
+        "start": 2269.84,
+        "duration": 5.36
+    },
+    {
+        "text": "the dragon ancestry again so that I could get \naccess to the armor of agius spell it really  ",
+        "start": 2275.2,
+        "duration": 4.56
+    },
+    {
+        "text": "is a great spell and not only does it increase \nour survivability but it kind of doubles down on  ",
+        "start": 2279.76,
+        "duration": 4.92
+    },
+    {
+        "text": "the whole look if you attack me you're going to \ntake damage whether you hit or miss kind of vibe  ",
+        "start": 2284.68,
+        "duration": 4.6
+    },
+    {
+        "text": "right super cool I can also see an argument \nfor storm sourcerer here though as the little  ",
+        "start": 2289.28,
+        "duration": 5.44
+    },
+    {
+        "text": "bit of flight that you can potentially get with \nit might help us to move around the battlefield  ",
+        "start": 2294.72,
+        "duration": 4.52
+    },
+    {
+        "text": "a little better without having to burn through \nall of our second level spell slots for Misty  ",
+        "start": 2299.24,
+        "duration": 4.12
+    },
+    {
+        "text": "step all of the time but yeah feel free to go wild \nMagic uh for kicks if you really want as for the  ",
+        "start": 2303.36,
+        "duration": 5.56
+    },
+    {
+        "text": "spells that we should take at sorcerer one this \nis another really nice reason to go sorcerer as  ",
+        "start": 2308.92,
+        "duration": 4.52
+    },
+    {
+        "text": "there are plenty of spells to consider Shield of \ncourse is always fantastic and here will not only  ",
+        "start": 2313.44,
+        "duration": 5.52
+    },
+    {
+        "text": "let us use our reaction to avoid taking damage \nby raising our Armor class by five for a round  ",
+        "start": 2318.96,
+        "duration": 5.0
+    },
+    {
+        "text": "when we get hit right but when we turn a hit \ninto a Miss like this it's going to return a  ",
+        "start": 2323.96,
+        "duration": 5.92
+    },
+    {
+        "text": "bunch of damage thanks to our Helm and then all \nthe reverberation that we're going to cause by  ",
+        "start": 2329.88,
+        "duration": 4.12
+    },
+    {
+        "text": "getting mist and returning damage and conditions \nas the result right the other spell that I really  ",
+        "start": 2334.0,
+        "duration": 4.4
+    },
+    {
+        "text": "want here though is a magic Missile it's not \na particularly powerful spell but the way that  ",
+        "start": 2338.4,
+        "duration": 4.52
+    },
+    {
+        "text": "it fires off multiple darts that automatically hit \nand can be directed at multiple enemies means that  ",
+        "start": 2342.92,
+        "duration": 5.92
+    },
+    {
+        "text": "if we have the callus glow ring which just does an \nextra two radiant damage every time we damage an  ",
+        "start": 2348.84,
+        "duration": 5.8
+    },
+    {
+        "text": "enemy well that's sort of a guaranteed way then \nthanks to our breastplate right to just Target  ",
+        "start": 2354.64,
+        "duration": 6.96
+    },
+    {
+        "text": "three or four enemies or whatever we want to cast \nthe spell at to just get a bunch of radiating or  ",
+        "start": 2361.6,
+        "duration": 5.0
+    },
+    {
+        "text": "Stacks going to enemies at range if we can't quite \nget to them Etc all right at level 9 we'll be done  ",
+        "start": 2366.6,
+        "duration": 6.24
+    },
+    {
+        "text": "with respecing for a while at least maybe forever \nbut that means that we would be a Bard seven here  ",
+        "start": 2372.84,
+        "duration": 5.56
+    },
+    {
+        "text": "right so sorcerer one cleric one Bard seven now \nthis means we get fourth level B spells and the  ",
+        "start": 2378.4,
+        "duration": 5.4
+    },
+    {
+        "text": "ones that I would grab I think would be dimension \ndoor and freedom of movement dimension door is  ",
+        "start": 2383.8,
+        "duration": 5.0
+    },
+    {
+        "text": "like Misty step on steroids it lets us go further \nand even bring a friend along for the ride if  ",
+        "start": 2388.8,
+        "duration": 4.92
+    },
+    {
+        "text": "we want freedom of movement it lasts all day in \nin this game versus am measly 1 hour in D and D  ",
+        "start": 2393.72,
+        "duration": 5.44
+    },
+    {
+        "text": "and it keeps us from being slowed or paralyzed or \nrestrained which is super important on this build  ",
+        "start": 2399.16,
+        "duration": 5.44
+    },
+    {
+        "text": "especially cuz we really want to be running around \nand getting as many enemies in the effect of our  ",
+        "start": 2404.6,
+        "duration": 5.32
+    },
+    {
+        "text": "spirit Guardians as we can right at level 10 we \nwould be a b eight and that means another feat  ",
+        "start": 2409.92,
+        "duration": 5.4
+    },
+    {
+        "text": "which I would probably use to bump my Charisma \nto 20 unless I used the hags plus one on this  ",
+        "start": 2415.32,
+        "duration": 7.52
+    },
+    {
+        "text": "character and thus was already at 20 so yeah note \nright when you're going through the early levels  ",
+        "start": 2422.84,
+        "duration": 6.04
+    },
+    {
+        "text": "here even though you're going to be a cleric when \nyou get that hag plus one don't use it on wisdom  ",
+        "start": 2428.88,
+        "duration": 4.16
+    },
+    {
+        "text": "or at least I wouldn't anyways we might already be \nat 20 in which case sure bump your Constitution or  ",
+        "start": 2433.04,
+        "duration": 4.64
+    },
+    {
+        "text": "take the war cter feet at level 11 we would be a \nBard nine and that means fifth level spells but  ",
+        "start": 2437.68,
+        "duration": 5.96
+    },
+    {
+        "text": "again most of the best ones are concentration \nright hold monster dominate person Etc but you  ",
+        "start": 2443.64,
+        "duration": 5.48
+    },
+    {
+        "text": "could grab greater restoration to get you out \nof curses and other really terrible conditions  ",
+        "start": 2449.12,
+        "duration": 5.0
+    },
+    {
+        "text": "and mask your wounds uh gives us a nice ni party \nwide heel in a pinch but at level 12 we would be  ",
+        "start": 2454.12,
+        "duration": 6.04
+    },
+    {
+        "text": "a Bard 10 and I mean sure for low bards that means \ntheir second helping of magical Secrets right and  ",
+        "start": 2460.16,
+        "duration": 6.68
+    },
+    {
+        "text": "so now we could grab like fire Shield which would \nreturn more damage if an enemy somehow managed to  ",
+        "start": 2466.84,
+        "duration": 5.0
+    },
+    {
+        "text": "hit us or death Ward which is always useful to \nkeep us or an ally alive a little longer or cone  ",
+        "start": 2471.84,
+        "duration": 4.84
+    },
+    {
+        "text": "of cold or conjure Elemental a really powerful \nsummon there or I mean you could become a Gish  ",
+        "start": 2476.68,
+        "duration": 6.68
+    },
+    {
+        "text": "instead right you guys know me I might go Gish \nhonestly this would entirely depend for me on  ",
+        "start": 2483.36,
+        "duration": 7.16
+    },
+    {
+        "text": "whether or not I had someone else in the party \nplaying a lard and I mean if one lard is good two  ",
+        "start": 2490.52,
+        "duration": 6.12
+    },
+    {
+        "text": "lards might be better but I'd also probably only \nwant to go this route if I had a bunch of like  ",
+        "start": 2496.64,
+        "duration": 5.44
+    },
+    {
+        "text": "giant strength Elixir available to chug since we \ndon't really have the stats to be relying on our  ",
+        "start": 2502.08,
+        "duration": 5.72
+    },
+    {
+        "text": "weapon damage all that often but if I did have \nanother party member playing lard and lots of  ",
+        "start": 2507.8,
+        "duration": 6.04
+    },
+    {
+        "text": "giant strength Elixir then yeah I think I think \nI might just Respec from lore Bard to swords Bard  ",
+        "start": 2513.84,
+        "duration": 5.44
+    },
+    {
+        "text": "here definitely not necessary but all bards get \nmagical Secrets at Bard 10 right so even a swords  ",
+        "start": 2519.28,
+        "duration": 5.92
+    },
+    {
+        "text": "B could pick up Spirit Guardians and Misty step if \nwe needed to and then we would get an extra attack  ",
+        "start": 2525.2,
+        "duration": 5.32
+    },
+    {
+        "text": "on our turn to really make good use of that fer \naluve or you know if you had another weapon that  ",
+        "start": 2530.52,
+        "duration": 5.08
+    },
+    {
+        "text": "you liked even more by this point you know it's \nend game now you probably have that Marco heser  ",
+        "start": 2535.6,
+        "duration": 6.68
+    },
+    {
+        "text": "staff right that legendary staff and actually \nthat one of the options for the self buff that  ",
+        "start": 2542.28,
+        "duration": 5.84
+    },
+    {
+        "text": "that gives you is something that works really well \nhere doing like thunder damage giving you some  ",
+        "start": 2548.12,
+        "duration": 4.36
+    },
+    {
+        "text": "really great Thunder damage spells and applying \nreverberation too I I am admittedly hesitant to  ",
+        "start": 2552.48,
+        "duration": 6.04
+    },
+    {
+        "text": "use anything other than the F aluve because that \nreally helps us get our debuff Stacks going and  ",
+        "start": 2558.52,
+        "duration": 6.04
+    },
+    {
+        "text": "gives the enemies an additional minus 1 D4 to \nhit and to save right it's really good but yeah  ",
+        "start": 2564.56,
+        "duration": 4.44
+    },
+    {
+        "text": "marah hes care is definitely an alternative \nworth considering here so yeah swords bar is  ",
+        "start": 2569.0,
+        "duration": 4.56
+    },
+    {
+        "text": "a potentially fun alternative they do get medium \narmor proficiency so if you were going to use the  ",
+        "start": 2573.56,
+        "duration": 6.24
+    },
+    {
+        "text": "staff instead of the F aluve you could drop that \nwar cleric level if you wanted and go B 11 so you  ",
+        "start": 2579.8,
+        "duration": 5.52
+    },
+    {
+        "text": "could get six level B spells or you know pick up \nsomething else another sorcerer level for some  ",
+        "start": 2585.32,
+        "duration": 5.4
+    },
+    {
+        "text": "metam magic options I don't know the the build \nworks very very similarly either way so I'm kind  ",
+        "start": 2590.72,
+        "duration": 5.76
+    },
+    {
+        "text": "of thinking like we might as well make another \nweapon attack per turn anytime we do damage it's  ",
+        "start": 2596.48,
+        "duration": 5.16
+    },
+    {
+        "text": "going to throw out some debuffs right okay so let \nme wrap things up here with a few final thoughts  ",
+        "start": 2601.64,
+        "duration": 7.24
+    },
+    {
+        "text": "in case it wasn't obvious I love this build a \nlot it comes online so early and is just so fun  ",
+        "start": 2608.88,
+        "duration": 8.08
+    },
+    {
+        "text": "to play in game and yeah you've guessed it I have \nstarted yet another playthrough so that I could  ",
+        "start": 2616.96,
+        "duration": 5.16
+    },
+    {
+        "text": "have this character as my Tav it just messes up \nthe battlefield so drastically and so quickly  ",
+        "start": 2622.12,
+        "duration": 5.36
+    },
+    {
+        "text": "all by itself I even think that the build could \npotentially be a fairly effective build for a  ",
+        "start": 2627.48,
+        "duration": 6.36
+    },
+    {
+        "text": "solo run I'm going to put an asterisk on that that \nthough there are some fights that return a ton of  ",
+        "start": 2633.84,
+        "duration": 5.6
+    },
+    {
+        "text": "damage to you when you deal radiant damage right \nso those fights would be really rough for this  ",
+        "start": 2639.44,
+        "duration": 6.36
+    },
+    {
+        "text": "build you could switch your damage to necrotic \nfor Spirit Guardians and then like swap out your  ",
+        "start": 2645.8,
+        "duration": 5.4
+    },
+    {
+        "text": "items that do radiant damage but yeah it'd be \nrough you'd lose a lot of synergy and uh it'd be  ",
+        "start": 2651.2,
+        "duration": 5.64
+    },
+    {
+        "text": "tough also some fights you just need to be doing \na ton of like single Target damage actively with  ",
+        "start": 2656.84,
+        "duration": 5.92
+    },
+    {
+        "text": "like weapon attacks and spell attacks and this \nbuild really is is n that I think it would work  ",
+        "start": 2662.76,
+        "duration": 4.72
+    },
+    {
+        "text": "great as a solo build maybe for like regular mode \nor maybe even tactician I'm not sure I would want  ",
+        "start": 2667.48,
+        "duration": 5.08
+    },
+    {
+        "text": "to try honor mode with it but hey someone do it \nprove me wrong I mean speaking of your teammates  ",
+        "start": 2672.56,
+        "duration": 5.48
+    },
+    {
+        "text": "or lack thereof I guess I didn't really talk \nmuch about what your teammates might be doing  ",
+        "start": 2678.04,
+        "duration": 3.64
+    },
+    {
+        "text": "to synergize with this build but there's a ton \nyou could work with here first off reducing every  ",
+        "start": 2681.68,
+        "duration": 5.32
+    },
+    {
+        "text": "enemy's hit chance and like knocking them prone \nand dazing them and reducing their saving throws  ",
+        "start": 2687.0,
+        "duration": 4.92
+    },
+    {
+        "text": "is going to benefit any party member immensely \nof course so you might want to stick lard here  ",
+        "start": 2691.92,
+        "duration": 5.68
+    },
+    {
+        "text": "and kind of play this character as your support \nright they're going to do a ton of damage too but  ",
+        "start": 2697.6,
+        "duration": 5.16
+    },
+    {
+        "text": "they could be sort of just throwing out heels and \nstuff otherwise and I mean yeah a monk's stunning  ",
+        "start": 2702.76,
+        "duration": 4.72
+    },
+    {
+        "text": "strike is going to be so much more reliable when \nthe enemy has a few stacks of reverberation on him  ",
+        "start": 2707.48,
+        "duration": 5.04
+    },
+    {
+        "text": "as will a fireball spell or anything else that \nallows for a constitution strength or dexterity  ",
+        "start": 2712.52,
+        "duration": 4.88
+    },
+    {
+        "text": "saving throw and even a wisdom saving throw if \nyou decide to equip that spiteful Thunder ring  ",
+        "start": 2717.4,
+        "duration": 5.44
+    },
+    {
+        "text": "right that that would then start giving enemies \ndisadvantage on their wisdom saves and there  ",
+        "start": 2722.84,
+        "duration": 4.16
+    },
+    {
+        "text": "are a ton of devastating spells in this game \nthat allow for wisdom save here's one favorite  ",
+        "start": 2727.0,
+        "duration": 4.48
+    },
+    {
+        "text": "companion idea with all of the knocking prone that \nyou're going to be doing on enemies when they get  ",
+        "start": 2731.48,
+        "duration": 4.64
+    },
+    {
+        "text": "five stacks of reverberation right spec one of \nyour characters to be a wildart barbarian at  ",
+        "start": 2736.12,
+        "duration": 5.6
+    },
+    {
+        "text": "level three that Barbarian would take tiger heart \nfor their subclass option which will among other  ",
+        "start": 2741.72,
+        "duration": 4.8
+    },
+    {
+        "text": "things let you give the bleed condition to enemies \nand at level six you can pick Wolverine for your  ",
+        "start": 2746.52,
+        "duration": 5.96
+    },
+    {
+        "text": "animal aspect which says if you attack a bleeding \nTarget they are maimed and maimed simply reduces  ",
+        "start": 2752.48,
+        "duration": 6.44
+    },
+    {
+        "text": "an enemy's move speed to zero and if an enemy \nis prone and they're maimed they can't stand up  ",
+        "start": 2758.92,
+        "duration": 6.12
+    },
+    {
+        "text": "so they're just stuck on the ground doing nothing \nand I mean if you didn't want to go Barbarian you  ",
+        "start": 2765.04,
+        "duration": 4.24
+    },
+    {
+        "text": "know equip a good Melee character with a battle \naxe or a war pick those weapons get the special  ",
+        "start": 2769.28,
+        "duration": 5.24
+    },
+    {
+        "text": "Ming strike ability only once per short rest \nbut that will also m a Target potentially or  ",
+        "start": 2774.52,
+        "duration": 5.12
+    },
+    {
+        "text": "heck do both right a dual wielding Wolverine \nBarbarian Wolverines sorry Red Dawn anybody  ",
+        "start": 2779.64,
+        "duration": 9.92
+    },
+    {
+        "text": "uh the original not the not the Remake W but yeah \nthis would be so much fun right pinning enemies to  ",
+        "start": 2789.56,
+        "duration": 8.24
+    },
+    {
+        "text": "the ground as they just wrie in agony burning up \nblinded with radiant damage deafened by peels of  ",
+        "start": 2797.8,
+        "duration": 6.32
+    },
+    {
+        "text": "thunderous reverberation and unable to do really \nanything man I love this game and I know you do  ",
+        "start": 2804.12,
+        "duration": 7.48
+    },
+    {
+        "text": "too so thanks for watching uh that's the build for \nthe week I hope you enjoyed it let me know in in  ",
+        "start": 2811.6,
+        "duration": 4.32
+    },
+    {
+        "text": "the comments what items or abilities you think I \nmight have missed that would make this build even  ",
+        "start": 2815.92,
+        "duration": 5.24
+    },
+    {
+        "text": "more powerful I've seen people throw together you \nknow open-hand monks that can do radiant damage  ",
+        "start": 2821.16,
+        "duration": 4.8
+    },
+    {
+        "text": "on every hit right and start stacking radiating \norb that way you could try and build a more melee  ",
+        "start": 2825.96,
+        "duration": 4.76
+    },
+    {
+        "text": "focused character around the blood of Leander \nlegendary mace right that does radiant damage  ",
+        "start": 2830.72,
+        "duration": 5.28
+    },
+    {
+        "text": "so yeah let me know what uh what spells would you \nuse how would you build a character around these  ",
+        "start": 2836.0,
+        "duration": 5.6
+    },
+    {
+        "text": "awesome fun items and conditions but anyways I \nlove you guys thank you so much for all that you  ",
+        "start": 2841.6,
+        "duration": 6.12
+    },
+    {
+        "text": "do for me you are the best truly I hope you have \na fantastic day and a great week and if you don't  ",
+        "start": 2847.72,
+        "duration": 6.24
+    },
+    {
+        "text": "I hope that you will hang in there I believe in \nyou you can do this I hope that you will do good  ",
+        "start": 2853.96,
+        "duration": 5.28
+    },
+    {
+        "text": "and be kind and stay safe and that I will see \nyou again very soon but until then take care",
+        "start": 2859.24,
+        "duration": 5.08
+    },
+    {
+        "text": "[Music] bye let me be your Everlasting \nand light a sun where there is none  ",
+        "start": 2864.32,
+        "duration": 19.68
+    },
+    {
+        "text": "I'm a Shepherd for you and I'll guide \nyou through let me be your Everlasting",
+        "start": 2884.0,
+        "duration": 8.44
+    },
+    {
+        "text": "Light you know I love me some Black Keys \nand that song is like perfect for this  ",
+        "start": 2892.44,
+        "duration": 7.96
+    },
+    {
+        "text": "build right the light you kind of got \nthe Reverb in that super like cynth",
+        "start": 2900.4,
+        "duration": 5.4
+    },
+    {
+        "text": "Baseline but the problem is he \nsings it like an octave higher  ",
+        "start": 2905.8,
+        "duration": 9.48
+    },
+    {
+        "text": "than that nobody wants to hear me \ndo that let me be your Everlasting",
+        "start": 2915.28,
+        "duration": 7.96
+    },
+    {
+        "text": "Light sun where there is",
+        "start": 2923.24,
+        "duration": 5.48
+    },
+    {
+        "text": "none sh",
+        "start": 2928.72,
+        "duration": 7.08
+    },
+    {
+        "text": "a I can't tell if when I look at my hoodie it \ndoesn't look like I have anything on it but on  ",
+        "start": 2935.8,
+        "duration": 19.24
+    },
+    {
+        "text": "the camera it does maybe it's the is it this oh \nit's just the wow that is uh that is just shining  ",
+        "start": 2955.04,
+        "duration": 8.56
+    },
+    {
+        "text": "through I guess what are going do the radiation \nwell it's not really a spoiler warning if I don't  ",
+        "start": 2963.6,
+        "duration": 7.16
+    },
+    {
+        "text": "give it until after I'm done saying what I'm \nabout to spoil right uh and for those uh non  ",
+        "start": 2970.76,
+        "duration": 6.96
+    },
+    {
+        "text": "United States viewers well everybody knows what \nthe Fourth of July is right so cocky coration  ",
+        "start": 2977.72,
+        "duration": 7.52
+    },
+    {
+        "text": "coruscation sword swords did I say lard okay \nstart this all over I haven't scripted this so  ",
+        "start": 2985.24,
+        "duration": 5.52
+    },
+    {
+        "text": "I'm kind of AD libbing here they do get medium \nweapon proficiency so uh medium weapon CH B",
+        "start": 2990.76,
+        "duration": 7.04
+    }
+]

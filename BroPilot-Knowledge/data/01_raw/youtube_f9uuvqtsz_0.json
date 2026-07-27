@@ -1,0 +1,3062 @@
+[
+    {
+        "text": "do you like ninjas that's a silly question \nwho doesn't like ninjas okay do you like  ",
+        "start": 0.08,
+        "duration": 7.2
+    },
+    {
+        "text": "playing highly mobile characters who \ncan teleport all over the battlefield  ",
+        "start": 7.28,
+        "duration": 4.2
+    },
+    {
+        "text": "go in the blink of an eye from being \ninvisible to doing massive burst damage  ",
+        "start": 11.48,
+        "duration": 4.44
+    },
+    {
+        "text": "and then disappear again in a cloud of \nsmoke I mean yeah that sounds awesome  ",
+        "start": 15.92,
+        "duration": 4.0
+    },
+    {
+        "text": "right if you agree with me then you're \ngoing to love today's video Welcome to",
+        "start": 19.92,
+        "duration": 3.92
+    },
+    {
+        "text": "D4",
+        "start": 23.84,
+        "duration": 6.12
+    },
+    {
+        "text": "hey everybody so here at D4 each week we take a \ndeep dive into character builds for our favorite  ",
+        "start": 32.36,
+        "duration": 5.6
+    },
+    {
+        "text": "role playing games usually DND or DND adjacent \nI like to crunch numbers about them Theory craft  ",
+        "start": 37.96,
+        "duration": 5.48
+    },
+    {
+        "text": "about them not so that I can tell you the right \nway or the best way to play a certain character  ",
+        "start": 43.44,
+        "duration": 4.32
+    },
+    {
+        "text": "but to explore one potential way to play Something \nin the hopes of creating a character that is both  ",
+        "start": 47.76,
+        "duration": 4.92
+    },
+    {
+        "text": "really fun but also really powerful to play in \ngame so if you enjoy creating characters for your  ",
+        "start": 52.68,
+        "duration": 6.2
+    },
+    {
+        "text": "favorite role playing games almost as much as you \nenjoy playing the actual game itself or if you're  ",
+        "start": 58.88,
+        "duration": 4.8
+    },
+    {
+        "text": "just looking for tips or ideas on how to build \nsomething that you're thinking about playing then  ",
+        "start": 63.68,
+        "duration": 4.4
+    },
+    {
+        "text": "welcome home this is where you belong and I'm \nso glad you're here so thank you for watching  ",
+        "start": 68.08,
+        "duration": 4.56
+    },
+    {
+        "text": "my name's Colby if you enjoy what I do on this \nchannel I had to appreciate it if you'd consider  ",
+        "start": 72.64,
+        "duration": 4.64
+    },
+    {
+        "text": "joining as a member there's a little button down \nthere that says join you click on it it'll tell  ",
+        "start": 77.28,
+        "duration": 4.04
+    },
+    {
+        "text": "you about all the little perks you can get by \nbeing a member including but not limited to uh  ",
+        "start": 81.32,
+        "duration": 4.92
+    },
+    {
+        "text": "writeups for these builds that I do so that you \ncan recreate them yourself a little easier access  ",
+        "start": 86.24,
+        "duration": 5.08
+    },
+    {
+        "text": "to the community Discord server filled with lots \nof wonderful lovely people and even access to the  ",
+        "start": 91.32,
+        "duration": 6.08
+    },
+    {
+        "text": "live monthly Q&A hangout sessions that we do I \nwant to give a huge thank you and shout out to  ",
+        "start": 97.4,
+        "duration": 5.08
+    },
+    {
+        "text": "all my channel members you guys are so awesome I \ntruly could not do this without you thank you and  ",
+        "start": 102.48,
+        "duration": 4.24
+    },
+    {
+        "text": "everybody else thank you too just being here and \nwatching and especially liking and subscribing and  ",
+        "start": 106.72,
+        "duration": 5.52
+    },
+    {
+        "text": "clicking on the notifications Bell these are \nall great ways to support the channel too so  ",
+        "start": 112.24,
+        "duration": 3.64
+    },
+    {
+        "text": "if you don't want to or don't feel like you can \nafford to join as a member that's fine fine I'm  ",
+        "start": 115.88,
+        "duration": 4.48
+    },
+    {
+        "text": "just glad you're here right so when people talk \nabout Rogue subclasses they seem to all agree that  ",
+        "start": 120.36,
+        "duration": 6.6
+    },
+    {
+        "text": "one subclass Reigns Supreme over all others \nin balers Gate 3 the thief this may come as  ",
+        "start": 126.96,
+        "duration": 6.6
+    },
+    {
+        "text": "a surprise to the DND exclusive players out there \nwho haven't dabbled much in balers Gate 3 yet and  ",
+        "start": 133.56,
+        "duration": 5.76
+    },
+    {
+        "text": "the reason for this though is simple thieves get \ntwo bonus actions every single turn it's a little  ",
+        "start": 139.32,
+        "duration": 6.28
+    },
+    {
+        "text": "overpowered I think and especially coupled with a \nbuild that makes great use of a bonus action like  ",
+        "start": 145.6,
+        "duration": 5.56
+    },
+    {
+        "text": "a Berserker Barbarian or an open-hand monk ding \nor even just a high-powered dual wielder like  ",
+        "start": 151.16,
+        "duration": 7.76
+    },
+    {
+        "text": "that then yeah Thief is really really good but is \nit always the most powerful Rogue subass I don't  ",
+        "start": 158.92,
+        "duration": 6.68
+    },
+    {
+        "text": "think so because you see assassins in balers Gate \n3 are insanely good as well if you build and play  ",
+        "start": 165.6,
+        "duration": 8.88
+    },
+    {
+        "text": "around their skill set right and especially \nI think if you're playing the game game solo  ",
+        "start": 174.48,
+        "duration": 6.48
+    },
+    {
+        "text": "now okay what's the fascination with solo builds \nthe last two or three balers Gate 3 builds that  ",
+        "start": 180.96,
+        "duration": 5.84
+    },
+    {
+        "text": "I've done have all talked at some point about how \nthis build would probably be great for solo play  ",
+        "start": 186.8,
+        "duration": 5.44
+    },
+    {
+        "text": "right and I always do this whenever I say those \nthings isn't this game meant to be played in  ",
+        "start": 192.24,
+        "duration": 5.72
+    },
+    {
+        "text": "a party don't you miss out on all kinds of great \ninteraction between companions fantastic sometimes  ",
+        "start": 197.96,
+        "duration": 6.12
+    },
+    {
+        "text": "poignant sometimes funny banter and reactions \nto your character that really enrich the game  ",
+        "start": 204.08,
+        "duration": 4.72
+    },
+    {
+        "text": "in a number of ways absolutely however there are \nsome benefits to playing solo as well first up it  ",
+        "start": 208.8,
+        "duration": 6.76
+    },
+    {
+        "text": "provides a greater challenge so that can be fun \nsecond it makes the game go a lot quicker in my  ",
+        "start": 215.56,
+        "duration": 5.28
+    },
+    {
+        "text": "experience so you're not having to like fiddle \naround with multiple characters getting them  ",
+        "start": 220.84,
+        "duration": 3.52
+    },
+    {
+        "text": "into just the right place making sure they're \nspecked and geared exactly like you want them  ",
+        "start": 224.36,
+        "duration": 4.16
+    },
+    {
+        "text": "and they're all concentrating on the right spell \nfor the situation etc etc right so yeah especially  ",
+        "start": 228.52,
+        "duration": 6.08
+    },
+    {
+        "text": "I think if you've beat the game once or twice or \nfive times and you feel like you don't really need  ",
+        "start": 234.6,
+        "duration": 5.6
+    },
+    {
+        "text": "to get all that fantastic interaction or maybe \nyou just want to play a character who's like kind  ",
+        "start": 240.2,
+        "duration": 5.36
+    },
+    {
+        "text": "of that Lone Wolf archetype right it can really \nbe a lot of fun it definitely mixes the game up  ",
+        "start": 245.56,
+        "duration": 6.2
+    },
+    {
+        "text": "that's not to say that the build that we're going \nto go over today has to be played Solo or doesn't  ",
+        "start": 251.76,
+        "duration": 4.12
+    },
+    {
+        "text": "work very well in a party or anything it will work \nabsolutely great mixed in with allies I just think  ",
+        "start": 255.88,
+        "duration": 5.64
+    },
+    {
+        "text": "it's the most fun when played solo personally and \nfor my money no character is better suited to a  ",
+        "start": 261.52,
+        "duration": 7.0
+    },
+    {
+        "text": "solo run of BG three than the Assassin Rogue or \nat least a character with a few levels of Assassin  ",
+        "start": 268.52,
+        "duration": 6.72
+    },
+    {
+        "text": "Rogue sprinkled into the build what we'll end up \nwith today is a character that's great at all of  ",
+        "start": 275.24,
+        "duration": 5.28
+    },
+    {
+        "text": "those important lockpicking and trap disarming \nskills a character that can sneak into and out  ",
+        "start": 280.52,
+        "duration": 4.76
+    },
+    {
+        "text": "of places that you feel like you'd rather bypass a \ncharacter who's incredibly mobile and who yes does  ",
+        "start": 285.28,
+        "duration": 6.56
+    },
+    {
+        "text": "really fantastic burst damage and decent sustained \ndamage to boot with decent survivability and lots  ",
+        "start": 291.84,
+        "duration": 6.84
+    },
+    {
+        "text": "of ways to get out out of jail if the tide of a \nBattle Turns against you and they play so much  ",
+        "start": 298.68,
+        "duration": 5.28
+    },
+    {
+        "text": "differently than any other build I've used so far \nin any of my playthroughs anyway that it's made  ",
+        "start": 303.96,
+        "duration": 5.68
+    },
+    {
+        "text": "the game feel really fresh really exciting and \nyeah more fun than it's been for me in several  ",
+        "start": 309.64,
+        "duration": 6.04
+    },
+    {
+        "text": "weeks so let's build it I proudly present bg3 \nepisode number 14 The Ultimate Assassin but  ",
+        "start": 315.68,
+        "duration": 8.64
+    },
+    {
+        "text": "first I am super excited you guys to tell you \nabout a new sponsor this week it just launched  ",
+        "start": 324.32,
+        "duration": 5.36
+    },
+    {
+        "text": "Karter project called the wandering Tavern coming \nto us from homie and the dude the Father and Son  ",
+        "start": 329.68,
+        "duration": 6.4
+    },
+    {
+        "text": "team that gave us skyers a previously successful \n5 compatible Kickstarter project anyways the  ",
+        "start": 336.08,
+        "duration": 5.48
+    },
+    {
+        "text": "wandering Tavern this looks so cool it's a 150 \npage Travelers guide to an expansive Studio gibli  ",
+        "start": 341.56,
+        "duration": 6.56
+    },
+    {
+        "text": "inspired floating ttrpg setting it totally reminds \nme of like howls Moving Castle so awesome explore  ",
+        "start": 348.12,
+        "duration": 7.36
+    },
+    {
+        "text": "this immense soaring City with battle maps that \ndetail its every nook and cranny delve into the  ",
+        "start": 355.48,
+        "duration": 5.48
+    },
+    {
+        "text": "devious underbelly of the tavern while getting \nto know its wide range of unique NPC patrons  ",
+        "start": 360.96,
+        "duration": 5.44
+    },
+    {
+        "text": "and staff the wandering taverns dark Mysteries \nand entangled truths are yours to unlock while  ",
+        "start": 366.4,
+        "duration": 5.44
+    },
+    {
+        "text": "traversing this vast Metropolis use remarkable \nmagic items to protect yourself from the Twisted  ",
+        "start": 371.84,
+        "duration": 5.08
+    },
+    {
+        "text": "Spirits stalking the Halls however if you have to \nescape you can glide through Uncharted skies on  ",
+        "start": 376.92,
+        "duration": 6.2
+    },
+    {
+        "text": "neverbe seen zephs constructed from a plethora \nof brand new parts and stations so guys this  ",
+        "start": 383.12,
+        "duration": 7.04
+    },
+    {
+        "text": "wandering Tavern book is going to have so much \ngreat stuff tons of history and lore 15 giant  ",
+        "start": 390.16,
+        "duration": 6.88
+    },
+    {
+        "text": "battle maps 33 plug-and-play NPCs 30 different \nplot hooks six new plug-and-play zephs which  ",
+        "start": 397.04,
+        "duration": 7.24
+    },
+    {
+        "text": "yeah in case you didn't know they're airships \nright but these actually come equipped with  ",
+        "start": 404.28,
+        "duration": 3.48
+    },
+    {
+        "text": "DND 5e stat blocks tons of new magic items \n13 setting themed recipes even to help you  ",
+        "start": 407.76,
+        "duration": 6.64
+    },
+    {
+        "text": "scratch your crafting itch there's even downtime \ngames unique celebrations holidays and and even  ",
+        "start": 414.4,
+        "duration": 5.76
+    },
+    {
+        "text": "a sky zepher quick start guide to help you jump \nright in also important to note is that wandering  ",
+        "start": 420.16,
+        "duration": 6.2
+    },
+    {
+        "text": "Tavern is actually a system agnostic setting \nso it will work with other ttrpgs too if you  ",
+        "start": 426.36,
+        "duration": 4.72
+    },
+    {
+        "text": "want to plug it into Pathfinder or something and \nwhile it has everything you need for a complete  ",
+        "start": 431.08,
+        "duration": 5.2
+    },
+    {
+        "text": "campaign if you already have an established world \nor setting or I mean heck even if you're playing  ",
+        "start": 436.28,
+        "duration": 5.4
+    },
+    {
+        "text": "an official Wizards of the Coast Adventure right \nthe wandering Tavern is the perfect unique pit  ",
+        "start": 441.68,
+        "duration": 4.96
+    },
+    {
+        "text": "stop for your players to visit take a load off \nand Del into something new if you're looking to  ",
+        "start": 446.64,
+        "duration": 4.52
+    },
+    {
+        "text": "change it up a bit so hey you should totally go \nback this Kickstarter go check it out use the URL  ",
+        "start": 451.16,
+        "duration": 5.88
+    },
+    {
+        "text": "that I've posted in the video description if you \nwould that way they know I sent you I'm putting  ",
+        "start": 457.04,
+        "duration": 3.72
+    },
+    {
+        "text": "it in the pinned comment as well I'm sure that it \nwill already be funded by the time you're seeing  ",
+        "start": 460.76,
+        "duration": 5.56
+    },
+    {
+        "text": "this their last project only took like 4 hours to \nfund so go help them hit their next stretch goal  ",
+        "start": 466.32,
+        "duration": 5.44
+    },
+    {
+        "text": "and you know pick up those Kickstarter exclusive \ngoodies before it's too late huge thanks to  ",
+        "start": 471.76,
+        "duration": 4.44
+    },
+    {
+        "text": "homie and the dude it just really warms my heart \nactually to see a father and a son team working  ",
+        "start": 476.2,
+        "duration": 4.64
+    },
+    {
+        "text": "together to make awesome 5e compatible stuff \ncan't wait to see the finished product here and  ",
+        "start": 480.84,
+        "duration": 5.12
+    },
+    {
+        "text": "let's jump into the build before we get started \nreally quick housekeeping item um next week is  ",
+        "start": 485.96,
+        "duration": 6.08
+    },
+    {
+        "text": "a spring break where I live and so I'm going to \ntake the week off and have a little vacation with  ",
+        "start": 492.04,
+        "duration": 5.76
+    },
+    {
+        "text": "my family so no video next week and I'm probably \nnot going to really be checking comments much at  ",
+        "start": 497.8,
+        "duration": 5.8
+    },
+    {
+        "text": "all either so please don't be offended if you \npost something and I don't reply or give it a  ",
+        "start": 503.6,
+        "duration": 4.84
+    },
+    {
+        "text": "heart or whatever um yeah really looking forward \nto it I could definitely use the break okay that's  ",
+        "start": 508.44,
+        "duration": 4.56
+    },
+    {
+        "text": "it all right at level one for our starting class \nyes I think we should start Rogue on this build  ",
+        "start": 513.0,
+        "duration": 6.48
+    },
+    {
+        "text": "since nobody has extra attack until level five \ndamage wise Rogues are going to be about as  ",
+        "start": 519.48,
+        "duration": 5.72
+    },
+    {
+        "text": "good as anyone and better than most if you can \nconsistently get the drop on your enemies which  ",
+        "start": 525.2,
+        "duration": 5.76
+    },
+    {
+        "text": "we will be doing what's more especially for solo \nplay it just makes things a lot easier from like  ",
+        "start": 530.96,
+        "duration": 5.92
+    },
+    {
+        "text": "a trap disarming and lockpicking perspective if \nif you can start as Rogue right and Rogues do get  ",
+        "start": 536.88,
+        "duration": 5.24
+    },
+    {
+        "text": "more skill proficiencies than any other class \nso we can at least be decent in like the most  ",
+        "start": 542.12,
+        "duration": 4.92
+    },
+    {
+        "text": "important skills even if we don't otherwise have \na great ability score to bolster those skills as  ",
+        "start": 547.04,
+        "duration": 5.52
+    },
+    {
+        "text": "for race I don't usually recommend race I think \nany will work fine but I think my favorite here  ",
+        "start": 552.56,
+        "duration": 5.72
+    },
+    {
+        "text": "honestly would either be a high Elf or half elf \nwith the high elf subass and the main reason is  ",
+        "start": 558.28,
+        "duration": 5.48
+    },
+    {
+        "text": "so that we could get the friends C trip you \nstart off with a free cantrip right from The  ",
+        "start": 563.76,
+        "duration": 4.48
+    },
+    {
+        "text": "Wizard spell list that might surprise some of you \nbut in balers Gate 3 the friends cantrip is really  ",
+        "start": 568.24,
+        "duration": 5.88
+    },
+    {
+        "text": "pretty dang good it simply gives you advantage \non Charisma checks against a non-hostile creature  ",
+        "start": 574.12,
+        "duration": 4.64
+    },
+    {
+        "text": "and as we'll discuss in a minute we're not going \nto have a great Charisma score on this build and  ",
+        "start": 578.76,
+        "duration": 4.52
+    },
+    {
+        "text": "if we're playing solo that might make important \nconversations a little challenging right friends  ",
+        "start": 583.28,
+        "duration": 5.0
+    },
+    {
+        "text": "is a c trip so doesn't take up any resources can \nbe cast in the middle of the conversation whenever  ",
+        "start": 588.28,
+        "duration": 5.0
+    },
+    {
+        "text": "you need it and then yeah just straight up gives \nyou advantage on those persuasion intimidation  ",
+        "start": 593.28,
+        "duration": 5.0
+    },
+    {
+        "text": "or deception checks and that will make you \na moderately decent face character even with  ",
+        "start": 598.28,
+        "duration": 5.2
+    },
+    {
+        "text": "a lowish Charisma score right especially if you \ncan get Proficiency in one or two of those skills  ",
+        "start": 603.48,
+        "duration": 5.2
+    },
+    {
+        "text": "which as a rogue we should have no problem getting \nas for our ability scores here I'm going to say  ",
+        "start": 608.68,
+        "duration": 5.44
+    },
+    {
+        "text": "let's get up to a 17 dexterity a 14 Constitution \na 16 wisdom and then a 10 Charisma you could put  ",
+        "start": 614.12,
+        "duration": 7.84
+    },
+    {
+        "text": "the 16 in Constitution for now if you want it \nbut I do think later on we're going to want our  ",
+        "start": 621.96,
+        "duration": 4.48
+    },
+    {
+        "text": "wisdom to be like our second most important stat \nnow that 17 dexterity doesn't really do us much  ",
+        "start": 626.44,
+        "duration": 5.44
+    },
+    {
+        "text": "good until we get a plus one bonus to an ability \nscore of your choice from spoiler alert anti effl  ",
+        "start": 631.88,
+        "duration": 6.96
+    },
+    {
+        "text": "right the hag which I'm assuming we do here so \nuntil then feel free to go 16 dexterity and then  ",
+        "start": 638.84,
+        "duration": 5.84
+    },
+    {
+        "text": "you can maybe get like a 12 Charisma right yeah it \nwill be a bit of a bummer to have only a plus zero  ",
+        "start": 644.68,
+        "duration": 5.36
+    },
+    {
+        "text": "or a plus one to Charisma for solo play but again \nwith friends and by burning Inspirations when it's  ",
+        "start": 650.04,
+        "duration": 6.36
+    },
+    {
+        "text": "really important I found that I was able to be \npersuasive when I really needed to right for those  ",
+        "start": 656.4,
+        "duration": 6.0
+    },
+    {
+        "text": "important conversations that I really wanted to \ngo a certain way and I mean hey if you still fail  ",
+        "start": 662.4,
+        "duration": 4.68
+    },
+    {
+        "text": "your charisma check part of the fun of the game is \ndealing with the consequences of bad roles anyways  ",
+        "start": 667.08,
+        "duration": 4.4
+    },
+    {
+        "text": "right as for equipment here eventually we're going \nto want to have the best one-handed finesse light  ",
+        "start": 671.48,
+        "duration": 6.08
+    },
+    {
+        "text": "weapons we can find that's generally going to \nmean shortswords so we can attack with both  ",
+        "start": 677.56,
+        "duration": 4.2
+    },
+    {
+        "text": "our main hand with our action right and then our \noffand with our bonus action two weapon fighting  ",
+        "start": 681.76,
+        "duration": 4.72
+    },
+    {
+        "text": "and then you know grab the best light armor that \nwe can for now anyways and the best ranged weapon  ",
+        "start": 686.48,
+        "duration": 5.44
+    },
+    {
+        "text": "that we can find I'll get into some important gear \npieces a little bit later let me say this as well  ",
+        "start": 691.92,
+        "duration": 5.16
+    },
+    {
+        "text": "yes this build would work great as a ranged build \narguably it might work even better first of all  ",
+        "start": 697.08,
+        "duration": 7.2
+    },
+    {
+        "text": "because yeah you can get the Sharpshooter fee to \nadd more damage to ranged attacks secondly because  ",
+        "start": 704.28,
+        "duration": 5.16
+    },
+    {
+        "text": "of all the really great arrows that you can get in \nthe game that add damage and other effects to your  ",
+        "start": 709.44,
+        "duration": 4.4
+    },
+    {
+        "text": "ranged attacks right and third because later on we \nwill have an ability to cast Darkness on ourselves  ",
+        "start": 713.84,
+        "duration": 6.96
+    },
+    {
+        "text": "but still be able to see in that darkness and \nno we're not going to be taking warlock levels  ",
+        "start": 720.8,
+        "duration": 4.88
+    },
+    {
+        "text": "in case you're wondering and doing that tends to \nbe more effective in this game if you're making  ",
+        "start": 725.68,
+        "duration": 5.44
+    },
+    {
+        "text": "ranged attacks from within said Darkness but in \nthe end I just really prefer the melee play style  ",
+        "start": 731.12,
+        "duration": 6.2
+    },
+    {
+        "text": "when I'm going for an assassin character there's \njust that higher Stakes stuff going on when you're  ",
+        "start": 737.32,
+        "duration": 4.92
+    },
+    {
+        "text": "sneaking in putting a knife in your targets back \nand then having to get out that just makes it a  ",
+        "start": 742.24,
+        "duration": 4.64
+    },
+    {
+        "text": "lot more fun for me than like hiding far away \nand shooting stuff from range but by all means  ",
+        "start": 746.88,
+        "duration": 5.12
+    },
+    {
+        "text": "go with a ranged Focus play style if you want \nand know that it will work great when I played  ",
+        "start": 752.0,
+        "duration": 4.36
+    },
+    {
+        "text": "this build in game I actually would do a bit of \nboth mostly I'd go melee but maybe in certain  ",
+        "start": 756.36,
+        "duration": 5.56
+    },
+    {
+        "text": "fights depending on my equipment and who I was \nfighting I might open up in ranged and then move  ",
+        "start": 761.92,
+        "duration": 4.6
+    },
+    {
+        "text": "into melee or even in a few instances just stay \nranged the whole time because I had really great  ",
+        "start": 766.52,
+        "duration": 4.96
+    },
+    {
+        "text": "position some powerful arrows Etc and that's the \nreally great thing about being a dexterity focused  ",
+        "start": 771.48,
+        "duration": 5.68
+    },
+    {
+        "text": "character right you can do both and as a rogue one \nthen we first up get the sneak attack feature this  ",
+        "start": 777.16,
+        "duration": 5.6
+    },
+    {
+        "text": "tells us that so long as we're using a finesse \nor ranged weapon and we have either advantage  ",
+        "start": 782.76,
+        "duration": 4.48
+    },
+    {
+        "text": "on the Target or they're standing next to one of \nour allies we can do an extra D6 of damage once  ",
+        "start": 787.24,
+        "duration": 5.56
+    },
+    {
+        "text": "per turn and that scales with more Rogue levels \nunfortunately I'm not planning on having allies  ",
+        "start": 792.8,
+        "duration": 6.6
+    },
+    {
+        "text": "with me in combat generally speaking meaning \nthat we're only going to be triggering sneak  ",
+        "start": 799.4,
+        "duration": 4.08
+    },
+    {
+        "text": "attack when we have Advantage fortunately we're \ngoing to have Advantage a lot especially when we  ",
+        "start": 803.48,
+        "duration": 4.92
+    },
+    {
+        "text": "need it most but we'll get into that later \nalso as a rogue one we get expertise which  ",
+        "start": 808.4,
+        "duration": 5.44
+    },
+    {
+        "text": "is so great it lets us double our Proficiency in \ntwo skills that we're proficient in right for me  ",
+        "start": 813.84,
+        "duration": 4.88
+    },
+    {
+        "text": "I'm going to take slight of hand to really help \nincrease our trap disarming and lockpicking and  ",
+        "start": 818.72,
+        "duration": 5.16
+    },
+    {
+        "text": "pickpocketing when we need it and then perception \nto make sure that we're seeing those traps and to  ",
+        "start": 823.88,
+        "duration": 5.48
+    },
+    {
+        "text": "avoid getting surprised ourselves Etc at \nlevel two Rogues get [ __ ] action which  ",
+        "start": 829.36,
+        "duration": 4.88
+    },
+    {
+        "text": "lets us Dash disengage or hide as a bonus action \nand that's actually going to be pretty important  ",
+        "start": 834.24,
+        "duration": 4.88
+    },
+    {
+        "text": "for this build especially early on before we get \nsome important skills from another class which  ",
+        "start": 839.12,
+        "duration": 5.28
+    },
+    {
+        "text": "will let us more reliably vanish we might find \nourselves opening up on targets trying to kill  ",
+        "start": 844.4,
+        "duration": 4.96
+    },
+    {
+        "text": "one or two of them before surprise wears off and \nthen running dashing and hiding or just straight  ",
+        "start": 849.36,
+        "duration": 5.8
+    },
+    {
+        "text": "up fleeing combat to like reset the fight then \ngo back in and repeat the process until we've  ",
+        "start": 855.16,
+        "duration": 4.96
+    },
+    {
+        "text": "picked off all of the enemies one by one and yeah \nno honor among Thieves uh you know or assassins I  ",
+        "start": 860.12,
+        "duration": 6.16
+    },
+    {
+        "text": "suppose in our case I have no qualms about hiding \nor fleeing Combat on this character it's kind of  ",
+        "start": 866.28,
+        "duration": 6.28
+    },
+    {
+        "text": "the Rules of Engagement for Rogues right at level \nthree Rogues get their subclass and yes we're  ",
+        "start": 872.56,
+        "duration": 5.64
+    },
+    {
+        "text": "going assassin so let's get into why assassins \nare just so dang good especially in balers Gate  ",
+        "start": 878.2,
+        "duration": 7.76
+    },
+    {
+        "text": "3 first up you've got the Ambush feature just like \nin D and D this tells us that any attacks we make  ",
+        "start": 885.96,
+        "duration": 5.48
+    },
+    {
+        "text": "against a surprised enemy is an automatic critical \nnow in Dungeons and Dragons this is nice but as  ",
+        "start": 891.44,
+        "duration": 6.84
+    },
+    {
+        "text": "I've often talked Al about in my D and builds \nthat really benefit from surprise it's really  ",
+        "start": 898.28,
+        "duration": 6.04
+    },
+    {
+        "text": "really hard to just kind of rely on surprising \nyour enemies in that game in my experience at  ",
+        "start": 904.32,
+        "duration": 6.84
+    },
+    {
+        "text": "least the majority of combat encounters don't even \nallow for a chance to get surprise whether because  ",
+        "start": 911.16,
+        "duration": 6.36
+    },
+    {
+        "text": "you've got a noisy Leroy jenkinses player at your \ntable or because you don't even know that combat  ",
+        "start": 917.52,
+        "duration": 6.24
+    },
+    {
+        "text": "is going to happen before it's just happening etc \netc right but in this game in bg3 especially if  ",
+        "start": 923.76,
+        "duration": 6.08
+    },
+    {
+        "text": "you've played through it a time or two it feels \nlike you can probably get surprised in what 70%  ",
+        "start": 929.84,
+        "duration": 6.44
+    },
+    {
+        "text": "of the combat encounters maybe more you might be \noften skipping dialogue that you'd otherwise be  ",
+        "start": 936.28,
+        "duration": 4.76
+    },
+    {
+        "text": "having but if you're playing the game like I'm \nan assassin I don't trust anyone and I'm going  ",
+        "start": 941.04,
+        "duration": 4.36
+    },
+    {
+        "text": "to stab first and ask questions later then it \nworks particularly fantastically is that too many  ",
+        "start": 945.4,
+        "duration": 5.96
+    },
+    {
+        "text": "adverbs so let's break down surprise because how \nit works isn't really all that intuitive if you  ",
+        "start": 951.36,
+        "duration": 6.84
+    },
+    {
+        "text": "attack an enemy when they don't know you're there \nbecause you're invisible or you've stealthed up  ",
+        "start": 958.2,
+        "duration": 4.64
+    },
+    {
+        "text": "behind them without being seen then they're going \nto be surprised the thing is that initial attack  ",
+        "start": 962.84,
+        "duration": 6.16
+    },
+    {
+        "text": "that you make from stealth isn't made against a \nsurprised enemy you make the attack with advantage  ",
+        "start": 969.0,
+        "duration": 5.36
+    },
+    {
+        "text": "since you're unseen so that's nice meaning you can \napply sneak attack and then initiative gets rolled  ",
+        "start": 974.36,
+        "duration": 5.68
+    },
+    {
+        "text": "right but unless the enemy has like the alert feet \nor something similar they're going to be surprised  ",
+        "start": 980.04,
+        "duration": 5.2
+    },
+    {
+        "text": "on the first round meaning they basically don't \ndo anything on their turn however there's still  ",
+        "start": 985.24,
+        "duration": 5.2
+    },
+    {
+        "text": "a possibility that the enemy can beat you in their \ninitiative role meaning that by the time it's your  ",
+        "start": 990.44,
+        "duration": 5.92
+    },
+    {
+        "text": "turn they will have already gone and then the \nsurprised status has worn off right in that case  ",
+        "start": 996.36,
+        "duration": 6.52
+    },
+    {
+        "text": "you're going to want on this build to move to a \nTarget who did not beat you with their initiative  ",
+        "start": 1002.88,
+        "duration": 4.84
+    },
+    {
+        "text": "role because they will still be surprised and \nyes any hits you land on them will be critical  ",
+        "start": 1007.72,
+        "duration": 5.68
+    },
+    {
+        "text": "hits which is awesome because yeah as a reminder \nCritical Hits double all damage dice rolls they  ",
+        "start": 1013.4,
+        "duration": 6.72
+    },
+    {
+        "text": "don't double any flat damage bonuses so bonuses \nfrom your dexterity modifier for example just  ",
+        "start": 1020.12,
+        "duration": 5.76
+    },
+    {
+        "text": "dice damage rolls right like your weapon damage \nand yeah sneak attack damage one other note about  ",
+        "start": 1025.88,
+        "duration": 5.72
+    },
+    {
+        "text": "attacking from stealth and then surprise as it \npertains to dual wielding get really familiar  ",
+        "start": 1031.6,
+        "duration": 5.68
+    },
+    {
+        "text": "with that little dual wielding toggle button \nright under your character's portrait right  ",
+        "start": 1037.28,
+        "duration": 5.04
+    },
+    {
+        "text": "if you have that clicked so that you make both a \nmainhand and offhand attack when you attack and  ",
+        "start": 1042.32,
+        "duration": 5.0
+    },
+    {
+        "text": "you know automatically use up your bonus action \nthen when you attack from stealth it will use  ",
+        "start": 1047.32,
+        "duration": 5.32
+    },
+    {
+        "text": "both your main and off-hand attacks right on that \nfirst attack it'll do the same when you get an  ",
+        "start": 1052.64,
+        "duration": 4.6
+    },
+    {
+        "text": "opportunity attack so you're going to want to have \nthat toggled on most of the time only toggling it  ",
+        "start": 1057.24,
+        "duration": 5.4
+    },
+    {
+        "text": "off if you know that your single attack action \nis going to finish off an enemy and you want  ",
+        "start": 1062.64,
+        "duration": 4.64
+    },
+    {
+        "text": "to save that bonus action to do something else \nwhen they're dead I'm talking after the initial  ",
+        "start": 1067.28,
+        "duration": 4.68
+    },
+    {
+        "text": "attack that you make right and yeah so if you \nthink you're going to need that bonus action to  ",
+        "start": 1071.96,
+        "duration": 3.92
+    },
+    {
+        "text": "attack somebody else or maybe Dash or hide or \ndisengage right then un toogle that two weapon  ",
+        "start": 1075.88,
+        "duration": 6.08
+    },
+    {
+        "text": "fighting toggle it can be kind of annoying I often \nforget to do it myself so as a general rule I tend  ",
+        "start": 1081.96,
+        "duration": 5.36
+    },
+    {
+        "text": "to leave it on even though sometimes that means \nwasting my bonus action and making a bonus action  ",
+        "start": 1087.32,
+        "duration": 4.92
+    },
+    {
+        "text": "attack against an enemy that I kind of would \nhave killed anyways we also get the assassinate  ",
+        "start": 1092.24,
+        "duration": 4.84
+    },
+    {
+        "text": "initiative feature which again just like in D and \nD tells us that we have advantage against anyone  ",
+        "start": 1097.08,
+        "duration": 5.12
+    },
+    {
+        "text": "who hasn't taken a turn yet on that first round as \nan aside thanks to how much we benefit from going  ",
+        "start": 1102.2,
+        "duration": 5.72
+    },
+    {
+        "text": "first in combat some of you might be thinking we \nshould be taking the alert feat on this build if  ",
+        "start": 1107.92,
+        "duration": 4.8
+    },
+    {
+        "text": "you want to go for it I found that by maximizing \ndexterity above all I was pretty much going first  ",
+        "start": 1112.72,
+        "duration": 5.56
+    },
+    {
+        "text": "in every combat encounter unless the enemy had \nthe alert feet themselves I just don't know that  ",
+        "start": 1118.28,
+        "duration": 4.68
+    },
+    {
+        "text": "it's worth it honestly but feel free to take it \nif you disagree anyways this feature assassinate  ",
+        "start": 1122.96,
+        "duration": 5.36
+    },
+    {
+        "text": "initiative is great advantage means more reliable \nhits and yeah sneak attack but it's actually the  ",
+        "start": 1128.32,
+        "duration": 6.2
+    },
+    {
+        "text": "third feature that assassins get assassins \nalacrity which is unique to the subass in bg3  ",
+        "start": 1134.52,
+        "duration": 7.48
+    },
+    {
+        "text": "that really makes them stand out in this game I \nthink because you see for all other classes and  ",
+        "start": 1142.0,
+        "duration": 6.32
+    },
+    {
+        "text": "subclasses when you make that attack from stealth \nbefore combat begins it actually uses your action  ",
+        "start": 1148.32,
+        "duration": 6.44
+    },
+    {
+        "text": "for the first round of combat what's worse if you \nhave extra attack but you attack from stealth it's  ",
+        "start": 1154.76,
+        "duration": 5.04
+    },
+    {
+        "text": "going to use your full action to just make one \nsingle attack your extra Attack Just magically  ",
+        "start": 1159.8,
+        "duration": 5.52
+    },
+    {
+        "text": "disappears it's super annoying actually you \ncould of course of course find a way to begin  ",
+        "start": 1165.32,
+        "duration": 4.52
+    },
+    {
+        "text": "combat from stealth with a bonus action even just \nmanually clicking on the bonus action attack if  ",
+        "start": 1169.84,
+        "duration": 5.08
+    },
+    {
+        "text": "you're dual wielding and then making that bonus \naction attack then yes your bonus action will be  ",
+        "start": 1174.92,
+        "duration": 5.4
+    },
+    {
+        "text": "used up for that first round of combat but you'll \nstill have your full action against the surprised  ",
+        "start": 1180.32,
+        "duration": 4.0
+    },
+    {
+        "text": "enemy this little fact kind of makes opening up \non an enemy from stealth not particularly great  ",
+        "start": 1184.32,
+        "duration": 6.04
+    },
+    {
+        "text": "for every other build in the game sure you have \nadvantage on your attack but you're not getting  ",
+        "start": 1190.36,
+        "duration": 5.44
+    },
+    {
+        "text": "much benefit otherwise but assassins thanks to \nthe Assassin's alacrity feature you immediately  ",
+        "start": 1195.8,
+        "duration": 6.12
+    },
+    {
+        "text": "restore your action and bonus action at the start \nof combat this means that if you open up on your  ",
+        "start": 1201.92,
+        "duration": 6.12
+    },
+    {
+        "text": "enemy from stealth making two attacks thanks to \nhaving that two up and fighting button toggled  ",
+        "start": 1208.04,
+        "duration": 4.64
+    },
+    {
+        "text": "on when combat then immediately begins you'll \nhave both your action and your bonus action  ",
+        "start": 1212.68,
+        "duration": 5.36
+    },
+    {
+        "text": "available again and the enemy will be surprised \nready for your full turn of automatic Critical  ",
+        "start": 1218.04,
+        "duration": 5.28
+    },
+    {
+        "text": "Hits loaded with sneak attack and you're going \nto be hitting really hard it's hard it's really  ",
+        "start": 1223.32,
+        "duration": 6.96
+    },
+    {
+        "text": "hard and again don't forget that if the enemy is \nsurprised they're going to skip their first turn  ",
+        "start": 1230.28,
+        "duration": 4.4
+    },
+    {
+        "text": "in combat right meaning that you're very likely to \nget three full turns of attacks before most if not  ",
+        "start": 1234.68,
+        "duration": 6.72
+    },
+    {
+        "text": "all of the enemies get to do anything you opened \nup on them from surprise that's one right then  ",
+        "start": 1241.4,
+        "duration": 5.2
+    },
+    {
+        "text": "you get your turn while the enemy is surprised \nthat's two and then as long as you rolled higher  ",
+        "start": 1246.6,
+        "duration": 4.76
+    },
+    {
+        "text": "than them in the initiative order you're going \nto get your turn before they get theirs that's  ",
+        "start": 1251.36,
+        "duration": 4.6
+    },
+    {
+        "text": "three considering that a couple of your attacks \nare going to be autom automatic Critical Hits  ",
+        "start": 1255.96,
+        "duration": 3.8
+    },
+    {
+        "text": "and you're adding a lot of sneak attack damage \nthat is some really strong burst potential and  ",
+        "start": 1259.76,
+        "duration": 5.8
+    },
+    {
+        "text": "for my money easily keeps Pace with the power of \nthe thief subass if you're building and playing  ",
+        "start": 1265.56,
+        "duration": 5.44
+    },
+    {
+        "text": "around being an assassin it is so much fun oh \nand speaking of sneak attack don't forget that  ",
+        "start": 1271.0,
+        "duration": 5.32
+    },
+    {
+        "text": "it does 2d6 damage when you use it now at Rogue \nthree right all right at level four we get our  ",
+        "start": 1276.32,
+        "duration": 5.6
+    },
+    {
+        "text": "first feet and I'm going to say let's increase \nour dexterity to add to both our hit chance and  ",
+        "start": 1281.92,
+        "duration": 6.16
+    },
+    {
+        "text": "damage but also to our Armor class our initiative \nand important Dex based skills yeah dexterity is  ",
+        "start": 1288.08,
+        "duration": 6.8
+    },
+    {
+        "text": "still kind of the god stat uh in this game just \nlike it is in D and D maybe a little less so here  ",
+        "start": 1294.88,
+        "duration": 5.88
+    },
+    {
+        "text": "but still really good now if you get that plus one \nfrom anti ethyl that would let us be at a 20 at  ",
+        "start": 1300.76,
+        "duration": 7.76
+    },
+    {
+        "text": "this point which is awesome that said you might at \nthis point in the game or very soon be able to get  ",
+        "start": 1308.52,
+        "duration": 6.64
+    },
+    {
+        "text": "your hands on what might be the best armor in the \ngame for this character the graceful cloth this  ",
+        "start": 1315.16,
+        "duration": 6.6
+    },
+    {
+        "text": "actually isn't even armor it's just stat filed \nclothing right but it's kind of perfect for this  ",
+        "start": 1321.76,
+        "duration": 4.8
+    },
+    {
+        "text": "build and I'm honestly tempted to just wear it for \nthe entire career of this character it is so good  ",
+        "start": 1326.56,
+        "duration": 6.4
+    },
+    {
+        "text": "first of all it gives advantage on all dexterity \nbased skill checks making our lockpicking and trap  ",
+        "start": 1332.96,
+        "duration": 5.48
+    },
+    {
+        "text": "disarming and stealthing just that much better \nbut then it increases our dexterity by two up  ",
+        "start": 1338.44,
+        "duration": 4.56
+    },
+    {
+        "text": "to a cap of 20 and it's really kind of difficult \nto overestimate how good that is I mean that's a  ",
+        "start": 1343.0,
+        "duration": 6.0
+    },
+    {
+        "text": "whole feet right and there's no such thing as like \nan elixir of dexterity like we have for strength  ",
+        "start": 1349.0,
+        "duration": 6.84
+    },
+    {
+        "text": "right with elixir of giant strength bonuses to \ndexterity are fairly hard to come by and we're  ",
+        "start": 1355.84,
+        "duration": 5.0
+    },
+    {
+        "text": "not going to have many Feats on this build now \nsure we could potentially get a higher Armor class  ",
+        "start": 1360.84,
+        "duration": 4.52
+    },
+    {
+        "text": "with other armor though later on that will be less \npronounced as we'll discuss but if and when you do  ",
+        "start": 1365.36,
+        "duration": 6.56
+    },
+    {
+        "text": "get this armor SL clothing which you buy off that \nMerchant lady Esther right after you take mountain  ",
+        "start": 1371.92,
+        "duration": 5.96
+    },
+    {
+        "text": "path on the way to the crash right once you get \nit and then after you've dealt with anti-l you're  ",
+        "start": 1377.88,
+        "duration": 4.72
+    },
+    {
+        "text": "going to have a 20 dexterity with no Feats if \nyou start with a 17 right meaning you could take  ",
+        "start": 1382.6,
+        "duration": 4.96
+    },
+    {
+        "text": "something else here instead of bumping our decks \nso sure you could take alert you could bump your  ",
+        "start": 1387.56,
+        "duration": 5.12
+    },
+    {
+        "text": "Constitution but the one that I think I would most \nrecommend actually is kind of a surprise to me and  ",
+        "start": 1392.68,
+        "duration": 5.76
+    },
+    {
+        "text": "something I have yet to even talk about in any of \nmy balers Gate 3 builds to date Savage attacker I  ",
+        "start": 1398.44,
+        "duration": 6.36
+    },
+    {
+        "text": "know D and D vets I know just stay with me here \nso yes it took me a long time to come around to  ",
+        "start": 1404.8,
+        "duration": 6.84
+    },
+    {
+        "text": "this feat in balers Gate 3 actually because I'm \nbringing my D and D 5e biases to the table in  ",
+        "start": 1411.64,
+        "duration": 6.4
+    },
+    {
+        "text": "D and D this feet sucks it sucks you're going \nto love it it rerolls the damage of your melee  ",
+        "start": 1418.04,
+        "duration": 5.96
+    },
+    {
+        "text": "attack then uses the higher role cool but in 5e \nrules as written it only applies to your weapons  ",
+        "start": 1424.0,
+        "duration": 7.28
+    },
+    {
+        "text": "damage meaning that at best it would add less than \ntwo points of damage to your attacks on average  ",
+        "start": 1431.28,
+        "duration": 6.56
+    },
+    {
+        "text": "sometimes not nothing right if you roll higher on \nthe first roll and yeah if you're using a D4 or a  ",
+        "start": 1437.84,
+        "duration": 5.12
+    },
+    {
+        "text": "D6 weapon it's less than one point of damage as an \nincrease on average I mean you know double that if  ",
+        "start": 1442.96,
+        "duration": 6.12
+    },
+    {
+        "text": "you crit but still pretty meh but in balers Gate \n3 it is quite a bit better and I've kind of known  ",
+        "start": 1449.08,
+        "duration": 6.64
+    },
+    {
+        "text": "this for a while but I've still been stubbornly \nresisting the math until now because you see in  ",
+        "start": 1455.72,
+        "duration": 5.52
+    },
+    {
+        "text": "balers Gate 3 if you have things that add damage \nto your weapon attacks like a ring that adds a  ",
+        "start": 1461.24,
+        "duration": 5.36
+    },
+    {
+        "text": "D4 of damage to your weapon attacks or gloves \nthat add a D6 of damage to your weapon attacks  ",
+        "start": 1466.6,
+        "duration": 4.32
+    },
+    {
+        "text": "Etc then those things get rolled as well and if \nyou're reliably getting Critical Hits and are very  ",
+        "start": 1470.92,
+        "duration": 6.08
+    },
+    {
+        "text": "interested in bursting down an enemy or three \nbefore they even get to take a turn in combat  ",
+        "start": 1477.0,
+        "duration": 4.48
+    },
+    {
+        "text": "then all those damage dice are doubled and the way \nthe game handles this is that it rerolls each die  ",
+        "start": 1481.48,
+        "duration": 6.72
+    },
+    {
+        "text": "separately and takes the higher roll every time in \nother words if your weapon normally does a D6 of  ",
+        "start": 1488.2,
+        "duration": 5.24
+    },
+    {
+        "text": "damage but you crit so it's 2d6 right it doesn't \nroll 2d6 two times and then take the higher result  ",
+        "start": 1493.44,
+        "duration": 6.12
+    },
+    {
+        "text": "it rolls each D6 separately twice and then takes \nthe higher result of each so if the first 2d6  ",
+        "start": 1499.56,
+        "duration": 7.76
+    },
+    {
+        "text": "roll gets you a five and a two and the second 2d6 \nroll gets you a three and a six then it's going to  ",
+        "start": 1507.32,
+        "duration": 5.32
+    },
+    {
+        "text": "take the five from the first roll and the six from \nthe second and it will repeat that for all other  ",
+        "start": 1512.64,
+        "duration": 5.8
+    },
+    {
+        "text": "instances of adding damage dice to your attack now \nfrustratingly and inexplicably this doesn't work  ",
+        "start": 1518.44,
+        "duration": 5.44
+    },
+    {
+        "text": "for sneak attack I don't know why it works for \ndivine Smite which is essentially the same wording  ",
+        "start": 1523.88,
+        "duration": 4.84
+    },
+    {
+        "text": "and mechanic maybe it's because sneak attack \ncan work on ranged weapons and isn't just melee  ",
+        "start": 1528.72,
+        "duration": 4.64
+    },
+    {
+        "text": "I don't know that really annoys me but the feat \nis still definitely worth considering depending  ",
+        "start": 1533.36,
+        "duration": 5.96
+    },
+    {
+        "text": "especially on the other gear that you have because \nyeah rrolling 2d6 is going to get you almost two  ",
+        "start": 1539.32,
+        "duration": 5.72
+    },
+    {
+        "text": "more points of damage on average rrolling 2 D4 \nis going to get you a little over one more point  ",
+        "start": 1545.04,
+        "duration": 4.64
+    },
+    {
+        "text": "of damage and so if you've got a few sources \nof extra damage Dice and you're critting with  ",
+        "start": 1549.68,
+        "duration": 4.6
+    },
+    {
+        "text": "reliability it can pretty quickly add up to \na lot more consistent damage when you need it  ",
+        "start": 1554.28,
+        "duration": 5.28
+    },
+    {
+        "text": "most outside of divine Smite builds the feat will \nrarely increase your damage to the levels of like  ",
+        "start": 1559.56,
+        "duration": 5.64
+    },
+    {
+        "text": "great weapon Master Sharpshooter bonuses but it \nalso doesn't have the minus 5 to hit penalty of  ",
+        "start": 1565.2,
+        "duration": 5.2
+    },
+    {
+        "text": "those Feats right so it makes the feet feel a lot \nmore akin to say like the damage bonus that you'd  ",
+        "start": 1570.4,
+        "duration": 5.64
+    },
+    {
+        "text": "get from Tavern brawler right which is no small \nthing anyways I still don't necessarily consider  ",
+        "start": 1576.04,
+        "duration": 5.36
+    },
+    {
+        "text": "the feat to be a no-brainer on this build maybe \nif it worked on sneak attack it would be but if  ",
+        "start": 1581.4,
+        "duration": 4.84
+    },
+    {
+        "text": "we're looking to really maximize our damage and \nwe're going melee instead of ranged primarily  ",
+        "start": 1586.24,
+        "duration": 5.28
+    },
+    {
+        "text": "then I do think it's the way to go obviously \nif you're focused on playing this build as a  ",
+        "start": 1591.52,
+        "duration": 3.8
+    },
+    {
+        "text": "ranged character take Sharpshooter here but at \nlevel five okay so there's a saying among D and  ",
+        "start": 1595.32,
+        "duration": 6.6
+    },
+    {
+        "text": "D veterans that I've often repeated myself on the \nchannel in the past that goes like this the best  ",
+        "start": 1601.92,
+        "duration": 4.84
+    },
+    {
+        "text": "Rogues take no more than three levels in Rogue \nfor the record that's not always true but the main  ",
+        "start": 1606.76,
+        "duration": 5.6
+    },
+    {
+        "text": "reason that that seems to be a common consensus \nI think is this Rogues don't get extra attack and  ",
+        "start": 1612.36,
+        "duration": 6.24
+    },
+    {
+        "text": "while sneak attack damage does scale with more \nRogue levels it usually can't keep up with more  ",
+        "start": 1618.6,
+        "duration": 5.12
+    },
+    {
+        "text": "attacks or I suppose more and better spells if \nyou were to multiclass into a full spell Caster  ",
+        "start": 1623.72,
+        "duration": 5.12
+    },
+    {
+        "text": "sorry Arcane tricksters your spell progression is \njust too slow you don't count so does that wisdom  ",
+        "start": 1628.84,
+        "duration": 6.48
+    },
+    {
+        "text": "hold true in bg3 as well unfortunately I think \nfor the most part yeah but on this build it's  ",
+        "start": 1635.32,
+        "duration": 7.04
+    },
+    {
+        "text": "not quite so clear I mean extra attack is great \nmore attacks means more damage right but keep in  ",
+        "start": 1642.36,
+        "duration": 5.28
+    },
+    {
+        "text": "mind that in bg3 getting surprise is a lot easier \nand assassins in this game can reliably get three  ",
+        "start": 1647.64,
+        "duration": 6.88
+    },
+    {
+        "text": "turns before their enemies get to do anything in \ncombat with that in mind I think we might actually  ",
+        "start": 1654.52,
+        "duration": 5.08
+    },
+    {
+        "text": "be better off staying Rogue at least for now \nthat said sure respecing into a different class  ",
+        "start": 1659.6,
+        "duration": 6.4
+    },
+    {
+        "text": "now that we're level five that does have extra \nattack is going to mean worse burst damage but  ",
+        "start": 1666.0,
+        "duration": 5.8
+    },
+    {
+        "text": "probably better sustained damage after you get \nthrough those early rounds of combat so should  ",
+        "start": 1671.8,
+        "duration": 4.92
+    },
+    {
+        "text": "we respect here May maybe depends on your gear \nand what you're enjoying most about the build I'm  ",
+        "start": 1676.72,
+        "duration": 4.88
+    },
+    {
+        "text": "going to assume that we're respecing here because \neventually we are going to want to do it anyways  ",
+        "start": 1681.6,
+        "duration": 5.44
+    },
+    {
+        "text": "whether you do it now or maybe later like probably \nat level eight when you can have both extra attack  ",
+        "start": 1687.04,
+        "duration": 5.48
+    },
+    {
+        "text": "and enough levels to keep assassin is up to you \nas for the class that we're going to Respec into  ",
+        "start": 1692.52,
+        "duration": 6.2
+    },
+    {
+        "text": "no not gloomstalker get out of here with your \ngloomstalkers okay fine gloomstalker is really  ",
+        "start": 1698.72,
+        "duration": 4.24
+    },
+    {
+        "text": "good but my favorite Choice here for this build is \nthe monk because monks can become Shadow Monks and  ",
+        "start": 1702.96,
+        "duration": 6.0
+    },
+    {
+        "text": "even though way of the open hand is arguably the \nbest monk for sustained damage when it comes to  ",
+        "start": 1708.96,
+        "duration": 4.92
+    },
+    {
+        "text": "stealthy strike hard and vanish in a cloud of \nsmoke and teleport all around the battlefield  ",
+        "start": 1713.88,
+        "duration": 5.04
+    },
+    {
+        "text": "bursty assassin goodness the shadow monk is \ndefinitely the way to go so let me quickly  ",
+        "start": 1718.92,
+        "duration": 5.8
+    },
+    {
+        "text": "go over what monk 1 through five looks like then \nfirst we get unarmored defense which lets us add  ",
+        "start": 1724.72,
+        "duration": 5.84
+    },
+    {
+        "text": "our wisdom and dexterity modifiers to our Armor \nclass if we're unarmored and unshielded it's a  ",
+        "start": 1730.56,
+        "duration": 4.84
+    },
+    {
+        "text": "good thing we got that graceful cloth and a for \n14 or maybe 16 wisdom plus a 20 decks now right  ",
+        "start": 1735.4,
+        "duration": 6.28
+    },
+    {
+        "text": "that's a pretty decent AC we also get martial \narts here which lets our monk weapon attacks  ",
+        "start": 1741.68,
+        "duration": 5.24
+    },
+    {
+        "text": "and unarmed attacks use our dexterity instead \nof our strength and those unarmed strikes do  ",
+        "start": 1746.92,
+        "duration": 4.92
+    },
+    {
+        "text": "a D4 of damage instead of just a flat one and we \ncan even make an unarmed strike as a bonus action  ",
+        "start": 1751.84,
+        "duration": 5.48
+    },
+    {
+        "text": "attack if we take the attack action that's nice \nbut probably not something we're going to make  ",
+        "start": 1757.32,
+        "duration": 4.4
+    },
+    {
+        "text": "a ton of use of on this build honestly we want \nto be dual wielding both for the nice bonuses  ",
+        "start": 1761.72,
+        "duration": 6.08
+    },
+    {
+        "text": "and benefits we can get from like the weapons \nthemselves right they're kind of stat sticks but  ",
+        "start": 1767.8,
+        "duration": 4.8
+    },
+    {
+        "text": "also because a lot of extra damage we can get from \nother gear is going to add extra damage to our  ",
+        "start": 1772.6,
+        "duration": 5.96
+    },
+    {
+        "text": "weapon attacks specifically and not necessarily \nour unarmed strikes what's more you can't use  ",
+        "start": 1778.56,
+        "duration": 5.56
+    },
+    {
+        "text": "sneak attack with unarmed strikes and damage from \nSavage attacker doesn't get rerolled for unarmed  ",
+        "start": 1784.12,
+        "duration": 5.96
+    },
+    {
+        "text": "strikes like it does for weapon attacks so while \nI think there will be times that unarmed strikes  ",
+        "start": 1790.08,
+        "duration": 4.72
+    },
+    {
+        "text": "are called for specifically if the enemy has \nvulnerability to bludgeoning damage or if we're  ",
+        "start": 1794.8,
+        "duration": 5.0
+    },
+    {
+        "text": "using Flurry of Blows more on that in a second \ngenerally if we're attacking with our bonus  ",
+        "start": 1799.8,
+        "duration": 4.56
+    },
+    {
+        "text": "action we're going to be using our offand weapon \nas opposed to our fists and feet on this build so  ",
+        "start": 1804.36,
+        "duration": 6.16
+    },
+    {
+        "text": "okay we also get our key points here right at monk \none in bg3 as opposed to in D and D and we get two  ",
+        "start": 1810.52,
+        "duration": 5.64
+    },
+    {
+        "text": "of them right off the bat so one more than we get \nin D and D these reset on a short rest and we use  ",
+        "start": 1816.16,
+        "duration": 6.76
+    },
+    {
+        "text": "them to fuel a bunch of cool monk abilities right \nnow the only thing we can use them for is flurry  ",
+        "start": 1822.92,
+        "duration": 4.84
+    },
+    {
+        "text": "of blows which lets us spend a bonus action and \na key point to make two unarmed strikes instead  ",
+        "start": 1827.76,
+        "duration": 5.4
+    },
+    {
+        "text": "of just one now one nice thing about this is that \nyou can do it without needing to take the attack  ",
+        "start": 1833.16,
+        "duration": 4.44
+    },
+    {
+        "text": "action first meaning you could potentially open \nwith Flurry of Blows if you wanted to get in two  ",
+        "start": 1837.6,
+        "duration": 4.84
+    },
+    {
+        "text": "attacks from stealth say and then still have \nyour full action and a surprised enemy which  ",
+        "start": 1842.44,
+        "duration": 4.68
+    },
+    {
+        "text": "will be nice if we've got extra attack but aren't \nyet assassins again right okay monk two unarmored  ",
+        "start": 1847.12,
+        "duration": 7.24
+    },
+    {
+        "text": "movement uh this says that if we're unarmored and \nunshielded we have an extra 10 Fe of move speed  ",
+        "start": 1854.36,
+        "duration": 4.64
+    },
+    {
+        "text": "always nice for a melee build especially we also \nget new ways to use our key points here patient  ",
+        "start": 1859.0,
+        "duration": 5.0
+    },
+    {
+        "text": "defense lets us use a key point to take the Dodge \naction as a bonus action causing attacks against  ",
+        "start": 1864.0,
+        "duration": 4.88
+    },
+    {
+        "text": "us to have disadvantage it can be handy sometimes \nand then step of the wind says that we can spend a  ",
+        "start": 1868.88,
+        "duration": 5.2
+    },
+    {
+        "text": "key point to take the dash or disengage action as \na bonus action something we can do for free when  ",
+        "start": 1874.08,
+        "duration": 5.84
+    },
+    {
+        "text": "we get Rogue level two back in the build right but \nat least we've got an option for it here at monk  ",
+        "start": 1879.92,
+        "duration": 5.48
+    },
+    {
+        "text": "three we get deflect missiles this lets us use a \nreaction to reduce damage to us when we're hit by  ",
+        "start": 1885.4,
+        "duration": 4.68
+    },
+    {
+        "text": "a ranged attack right I find this coming up a lot \nmore often in bg3 than in D and D personally and  ",
+        "start": 1890.08,
+        "duration": 5.48
+    },
+    {
+        "text": "we can even spend a key point to throw the missile \nback if we reduce the damage to zero which can be  ",
+        "start": 1895.56,
+        "duration": 4.64
+    },
+    {
+        "text": "cool and then yes we get our monk subass here \nand as I've said we're going with Shadow monk  ",
+        "start": 1900.2,
+        "duration": 6.16
+    },
+    {
+        "text": "which is definitely the most flavorful of all \nmonk subclasses it is super [Music] ninja at  ",
+        "start": 1906.36,
+        "duration": 9.8
+    },
+    {
+        "text": "this level Shadow Monks get a couple of features \nShadow Arts hide lets us hide as a bonus action  ",
+        "start": 1916.16,
+        "duration": 5.44
+    },
+    {
+        "text": "again not that cool if we're a rogue too but for \nnow it's nice to get that ability back and then  ",
+        "start": 1921.6,
+        "duration": 5.68
+    },
+    {
+        "text": "we get a limited selection of spells from Shadow \nart spells as well namely Darkness pass without  ",
+        "start": 1927.28,
+        "duration": 6.68
+    },
+    {
+        "text": "Trace dark vision silence and the minor illusion \ncantrip now none of these spells are particularly  ",
+        "start": 1933.96,
+        "duration": 6.36
+    },
+    {
+        "text": "powerful like in every situation right but they \ncan be really great in certain specific instances  ",
+        "start": 1940.32,
+        "duration": 5.64
+    },
+    {
+        "text": "I've already mentioned using Darkness in this \ngame ranged attacks can't penetrate The Cloud of  ",
+        "start": 1945.96,
+        "duration": 5.28
+    },
+    {
+        "text": "Darkness so it's easy to cast it on yourself and \nthen pop out make some attacks and then pop back  ",
+        "start": 1951.24,
+        "duration": 5.44
+    },
+    {
+        "text": "in if you're facing a bunch of ranged enemies or \ncasters who need to see you I mean I trivialized  ",
+        "start": 1956.68,
+        "duration": 5.76
+    },
+    {
+        "text": "the hag encounter with silence casting it on her \nbefore she could duplicate herself and then just  ",
+        "start": 1962.44,
+        "duration": 5.8
+    },
+    {
+        "text": "stun locking her inside that bubble of Silence it \nfelt really awesome actually so yeah look for ways  ",
+        "start": 1968.24,
+        "duration": 5.44
+    },
+    {
+        "text": "to take advantage of these spells in the right \nsituation they're really strong I wish they they  ",
+        "start": 1973.68,
+        "duration": 4.24
+    },
+    {
+        "text": "didn't cost two of our very precious key points to \ncast them but sometimes it'll be worth it at monk  ",
+        "start": 1977.92,
+        "duration": 5.92
+    },
+    {
+        "text": "4 we get slowfall this lets us use our reaction to \nhave falling damage have half cut it in half right  ",
+        "start": 1983.84,
+        "duration": 7.56
+    },
+    {
+        "text": "not just have falling damage oh good I'm going \nto have some falling damage uh that's nice when  ",
+        "start": 1991.4,
+        "duration": 5.6
+    },
+    {
+        "text": "you need it and then for the feet that we'd get \nhere again you know bump bump decks if you don't  ",
+        "start": 1997.0,
+        "duration": 5.12
+    },
+    {
+        "text": "have the graceful cloth yet but if you do yeah \nSavage attacker is nice but increasing wisdom is  ",
+        "start": 2002.12,
+        "duration": 6.16
+    },
+    {
+        "text": "also worth considering so pick what feels best to \nyou because not only will a wisdom bump increase  ",
+        "start": 2008.28,
+        "duration": 5.36
+    },
+    {
+        "text": "important skill checks and wisdom saving throws \nbut as a monk it's going to also bump our Armor  ",
+        "start": 2013.64,
+        "duration": 4.8
+    },
+    {
+        "text": "class and then make our monk abilities harder \nfor enemies to resist right because yeah I'm  ",
+        "start": 2018.44,
+        "duration": 7.32
+    },
+    {
+        "text": "talking here primarily about what we get at monk 5 \nstunning strike this is such a great ability when  ",
+        "start": 2025.76,
+        "duration": 5.4
+    },
+    {
+        "text": "it works I wish they made it a little more like \nhow it works in 5e where it can just be applied  ",
+        "start": 2031.16,
+        "duration": 6.12
+    },
+    {
+        "text": "on a hit if you want instead of having to actively \nselect I'm going to stunning strike them now it  ",
+        "start": 2037.28,
+        "duration": 5.4
+    },
+    {
+        "text": "needs to be like toggleable like uh Divine Smite \nor sneak attack right because as is we can't for  ",
+        "start": 2042.68,
+        "duration": 6.44
+    },
+    {
+        "text": "example use Flurry of Blows and stunning strike \nbut even worse in 5e it lasts until the end of  ",
+        "start": 2049.12,
+        "duration": 6.84
+    },
+    {
+        "text": "your next turn instead of the beginning uh like \nit does in bg3 it's still a great ability you  ",
+        "start": 2055.96,
+        "duration": 5.16
+    },
+    {
+        "text": "try to hit them and if it lands and they fail \na constitution saving throw against it then  ",
+        "start": 2061.12,
+        "duration": 4.64
+    },
+    {
+        "text": "they're stunned meaning they can't do anything \nand attacks against them have advantage in my  ",
+        "start": 2065.76,
+        "duration": 4.48
+    },
+    {
+        "text": "playthrough of this build I found myself spending \nmore key points on stunning strike than anything  ",
+        "start": 2070.24,
+        "duration": 4.76
+    },
+    {
+        "text": "else for most fights honestly and yeah after the \nNova rounds were over it made cleanup that much  ",
+        "start": 2075.0,
+        "duration": 6.08
+    },
+    {
+        "text": "easier and as a result I am very tempted to bump \nwisdom instead of take Savage attacker with our  ",
+        "start": 2081.08,
+        "duration": 6.12
+    },
+    {
+        "text": "feet but I think either is a great choice we do \nof course get extra attack at this level as well  ",
+        "start": 2087.2,
+        "duration": 5.24
+    },
+    {
+        "text": "meaning our sustain damage is a little better \nnow as we'd get two attacks every time we take  ",
+        "start": 2092.44,
+        "duration": 4.28
+    },
+    {
+        "text": "the attack action making it four attacks total if \ncoupled with Flurry of Blows right not bad at all  ",
+        "start": 2096.72,
+        "duration": 5.44
+    },
+    {
+        "text": "but to be honest I think my favorite Shadow monk \nfeature is Cloak of Shadows and laran bless their  ",
+        "start": 2102.16,
+        "duration": 6.24
+    },
+    {
+        "text": "souls have decided to give it to us at level five \ninstead of making us wait clear until Level 11  ",
+        "start": 2108.4,
+        "duration": 6.48
+    },
+    {
+        "text": "like they do in 5e and that is freaking awesome it \nlets us go invisible as an action period unlimited  ",
+        "start": 2114.88,
+        "duration": 7.8
+    },
+    {
+        "text": "use no resource cost now it only works if we're \nin diml or darkness and it breaks if if we walk  ",
+        "start": 2122.68,
+        "duration": 5.64
+    },
+    {
+        "text": "through a patch of bright light so you got to be \ncareful where you're walking here this is the skin  ",
+        "start": 2128.32,
+        "duration": 4.36
+    },
+    {
+        "text": "of a killer B but I found that in this game it's \npretty easy to find a patch of at least dim light  ",
+        "start": 2132.68,
+        "duration": 6.8
+    },
+    {
+        "text": "on almost every Battlefield and this just totally \nchanges the way that we can play this character  ",
+        "start": 2139.48,
+        "duration": 5.48
+    },
+    {
+        "text": "now where instead of Hitting and Running we can \nhit and vanish hit and vanish and it's just so  ",
+        "start": 2144.96,
+        "duration": 5.2
+    },
+    {
+        "text": "cool now admittedly combat can get a little long \nif we're only getting a bonus action attack and  ",
+        "start": 2150.16,
+        "duration": 4.64
+    },
+    {
+        "text": "then disappearing and trying to repeat that right \nespecially as enemies tend to reset their health  ",
+        "start": 2154.8,
+        "duration": 5.12
+    },
+    {
+        "text": "if combat breaks once you vanish but you can \nalways pop out of stealth take out one enemy  ",
+        "start": 2159.92,
+        "duration": 5.72
+    },
+    {
+        "text": "maybe over a round or two then vanish and you \nknow drink a health potion if need be it's not  ",
+        "start": 2165.64,
+        "duration": 5.56
+    },
+    {
+        "text": "going to break invisibility and then you know \ngo again I just love the feel of playing this  ",
+        "start": 2171.2,
+        "duration": 5.32
+    },
+    {
+        "text": "way more than anything it makes you feel like a \ntrue master of Shadows and it's so great coupled  ",
+        "start": 2176.52,
+        "duration": 5.32
+    },
+    {
+        "text": "with the fun Shadow monk spells that you get as \nwell as stunning strike and Flurry of Blows is  ",
+        "start": 2181.84,
+        "duration": 5.08
+    },
+    {
+        "text": "just really really cool it reminds me a lot of my \nrogue build from World of Warcraft and that fills  ",
+        "start": 2186.92,
+        "duration": 7.2
+    },
+    {
+        "text": "me with all kinds of happy Nostalgia but next \nlevel it gets even better because at level six  ",
+        "start": 2194.12,
+        "duration": 6.0
+    },
+    {
+        "text": "let's stick with monk that means we get Shadow \nstep now we will have an ond demand Misty step  ",
+        "start": 2200.12,
+        "duration": 6.2
+    },
+    {
+        "text": "as well it lets us use a bonus action to teleport \nfrom one area of dim lighter Darkness to another  ",
+        "start": 2206.32,
+        "duration": 5.44
+    },
+    {
+        "text": "area of dim light or darkness and then gives us \nadvantage on our next attack that we make this  ",
+        "start": 2211.76,
+        "duration": 4.88
+    },
+    {
+        "text": "turn the best part is I think it doesn't break \nour cloak of Shadows so we can vanish teleport  ",
+        "start": 2216.64,
+        "duration": 5.52
+    },
+    {
+        "text": "to the other side of the battlefield and then \nnext turn open up on enemies from a completely  ",
+        "start": 2222.16,
+        "duration": 3.92
+    },
+    {
+        "text": "different position and it's just so cool and \nin a pinch you can always throw Darkness down  ",
+        "start": 2226.08,
+        "duration": 5.24
+    },
+    {
+        "text": "on yourself if you're in bright light and you \ncan't get to a shadow right and then teleport  ",
+        "start": 2231.32,
+        "duration": 4.52
+    },
+    {
+        "text": "to a shadowy spot or teleport into the darkness \nif you cast The Darkness spell away from yourself  ",
+        "start": 2235.84,
+        "duration": 6.16
+    },
+    {
+        "text": "because you're in a shadow now but where you want \nto go is bright light there's just so many ways  ",
+        "start": 2242.0,
+        "duration": 4.44
+    },
+    {
+        "text": "to play with all of these abilities together now \nyou really feel like Nightcrawler it's so [Music]",
+        "start": 2246.44,
+        "duration": 10.82
+    },
+    {
+        "text": "awesome we also get key empowered strikes at monk \n6 which is pretty important a lot of enemies have  ",
+        "start": 2257.26,
+        "duration": 10.02
+    },
+    {
+        "text": "resistance to nonmagical bludgeoning piercing \nor slashing damage and this feature overcomes  ",
+        "start": 2267.28,
+        "duration": 6.6
+    },
+    {
+        "text": "that bludgeoning resistance in the case \nof our unarmed strikes that said again I  ",
+        "start": 2273.88,
+        "duration": 4.64
+    },
+    {
+        "text": "don't actually use unarmed strikes a lot on \nthis build and also frustratingly I think I  ",
+        "start": 2278.52,
+        "duration": 5.44
+    },
+    {
+        "text": "find that a lot of enemies have resistance to \nall kinds of bludgeoning piercing and slashing  ",
+        "start": 2283.96,
+        "duration": 4.24
+    },
+    {
+        "text": "damage in this game whether it's magical or not \nand that's really annoying if I'm being honest  ",
+        "start": 2288.2,
+        "duration": 5.68
+    },
+    {
+        "text": "so this feature feels less important in bg3 than \nit does in D and D to me and yeah especially on  ",
+        "start": 2293.88,
+        "duration": 7.0
+    },
+    {
+        "text": "this build still it is nice to have and yeah I do \nFlurry of Blows occasionally especially against  ",
+        "start": 2300.88,
+        "duration": 5.96
+    },
+    {
+        "text": "a surprised enemy where I can get two critical \nhits with one bonus action thanks to Flurry of  ",
+        "start": 2306.84,
+        "duration": 4.84
+    },
+    {
+        "text": "Blows right depending on what other gear I have \nso yeah nice to have but at level seven I think  ",
+        "start": 2311.68,
+        "duration": 5.92
+    },
+    {
+        "text": "I'm probably respecing [Music] again and yeah you \ndefinitely don't have to do this but you guys know  ",
+        "start": 2317.6,
+        "duration": 8.16
+    },
+    {
+        "text": "me I tend to resp almost every level just to try \nand make every single level like as optimal as  ",
+        "start": 2325.76,
+        "duration": 6.24
+    },
+    {
+        "text": "I can so at 7 I think we just do a simple resp \nto either go Road Rogue one monk 6 or Fighter 2  ",
+        "start": 2332.0,
+        "duration": 8.4
+    },
+    {
+        "text": "monk 5 starting as Rogue one again will let us \nkeep all of our sweet Shadow monk features but  ",
+        "start": 2340.4,
+        "duration": 5.48
+    },
+    {
+        "text": "give us more skills better skills and you know \nespecially expertise for way better slight of  ",
+        "start": 2345.88,
+        "duration": 4.76
+    },
+    {
+        "text": "hand and perception checks and then a little more \ndamage via sneak attack but since I'm planning on  ",
+        "start": 2350.64,
+        "duration": 4.72
+    },
+    {
+        "text": "taking fighter levels eventually on this build \nanyway spoiler alert let's assume here that we  ",
+        "start": 2355.36,
+        "duration": 4.84
+    },
+    {
+        "text": "went Fighter 2 monk 5 giving up Shadow step makes \nme sad but don't worry we will get it back event  ",
+        "start": 2360.2,
+        "duration": 7.48
+    },
+    {
+        "text": "Fighter 2 is just going to be a really nice way \nto add just a little more burst damage that's what  ",
+        "start": 2367.68,
+        "duration": 4.76
+    },
+    {
+        "text": "I'm primarily interested in it for so let's take \na look at what that would look like really quick  ",
+        "start": 2372.44,
+        "duration": 5.16
+    },
+    {
+        "text": "first up starting as fighter one gives us some \nreally nice additional proficiencies Constitution  ",
+        "start": 2377.6,
+        "duration": 4.88
+    },
+    {
+        "text": "saving throw proficiency means that we're going \nto be able to add our proficiency bonus to our  ",
+        "start": 2382.48,
+        "duration": 5.24
+    },
+    {
+        "text": "concentration checks right and for those of us \noften using darkness and silence pass without  ",
+        "start": 2387.72,
+        "duration": 5.76
+    },
+    {
+        "text": "Trace as well as a spell that we might have from \na piece of gear right concentration spell that's  ",
+        "start": 2393.48,
+        "duration": 5.08
+    },
+    {
+        "text": "going to be really nice letting us hold on to \nconcentration a lot more reliably now we also  ",
+        "start": 2398.56,
+        "duration": 4.04
+    },
+    {
+        "text": "get heavy and medium armor proficiency now I'm \npersonally a little hesitant to put armor on  ",
+        "start": 2402.6,
+        "duration": 5.84
+    },
+    {
+        "text": "this version of the monk like I did for say my way \nof four elements build that you can find there or  ",
+        "start": 2408.44,
+        "duration": 6.48
+    },
+    {
+        "text": "like I did when I actually played a Tavern brawler \nopen hand monk in one of my playthroughs in bg3  ",
+        "start": 2414.92,
+        "duration": 6.08
+    },
+    {
+        "text": "all you lose as a monk by armoring yourself is \nyour unarmored movement which isn't nothing but  ",
+        "start": 2421.0,
+        "duration": 5.72
+    },
+    {
+        "text": "it's not the end of the world right and there \nis some great medium and heavy armor out there  ",
+        "start": 2426.72,
+        "duration": 4.44
+    },
+    {
+        "text": "especially the medium armor options that will \nlet you add your full dexterity to your AC and  ",
+        "start": 2431.16,
+        "duration": 5.2
+    },
+    {
+        "text": "not cause disadvantage on stealth checks that said \nI love the graceful cloth so much for this build  ",
+        "start": 2436.36,
+        "duration": 5.56
+    },
+    {
+        "text": "that I am really loathed to give it up and with \nour decent wisdom modifier our AC doesn't increase  ",
+        "start": 2441.92,
+        "duration": 5.68
+    },
+    {
+        "text": "that much from the armor options out there if \nwe were to put medium armor on when I soloed  ",
+        "start": 2447.6,
+        "duration": 5.12
+    },
+    {
+        "text": "the game with this build and I put Solo in quotes \nintentionally I actually still had party members  ",
+        "start": 2452.72,
+        "duration": 5.04
+    },
+    {
+        "text": "to buff me with things like Shield of faith and \nlong Strider and warding bond Etc and then just  ",
+        "start": 2457.76,
+        "duration": 5.76
+    },
+    {
+        "text": "like left those companions back at Camp some of \nyou may consider that cheating for a solo run  ",
+        "start": 2463.52,
+        "duration": 5.0
+    },
+    {
+        "text": "that's fine but especially if you go that route \nwith a 20 decks and a 16 wisdom you really don't  ",
+        "start": 2468.52,
+        "duration": 5.56
+    },
+    {
+        "text": "feel squishy at all on this build and it doesn't \nfeel like you really need a better armor class I  ",
+        "start": 2474.08,
+        "duration": 5.28
+    },
+    {
+        "text": "don't think so I'm content to save myself a feat \nand keep advantage on the dexterity skill checks  ",
+        "start": 2479.36,
+        "duration": 6.2
+    },
+    {
+        "text": "and just forgo the armor right but if you find \nsomething that you really love that's worth the  ",
+        "start": 2485.56,
+        "duration": 4.8
+    },
+    {
+        "text": "sacrifice go for it you also get Marshall weapon \nproficiency as a fighter one and that's nice  ",
+        "start": 2490.36,
+        "duration": 4.64
+    },
+    {
+        "text": "because there just might be a long sword or Raper \nor something else out there that you really want  ",
+        "start": 2495.0,
+        "duration": 4.68
+    },
+    {
+        "text": "to equip though if you wanted to dual wield them \nright you'd have to swap out the Savage attacker  ",
+        "start": 2499.68,
+        "duration": 5.28
+    },
+    {
+        "text": "feet for the Dual wielder feet which could be \nworth it depending on the weapons it bumps your  ",
+        "start": 2504.96,
+        "duration": 4.2
+    },
+    {
+        "text": "AC by one too so again keep that option open it \nmight mean that you'd need to be drinking uh giant  ",
+        "start": 2509.16,
+        "duration": 5.92
+    },
+    {
+        "text": "strength Elixir but that's fairly easy to do if \nnothing else there's probably going to be a long  ",
+        "start": 2515.08,
+        "duration": 5.68
+    },
+    {
+        "text": "bow or a heavy crossbow or something that you're \ngoing to want to put in your ranged slot and so  ",
+        "start": 2520.76,
+        "duration": 4.48
+    },
+    {
+        "text": "now you can do that without worrying about not \nhaving Proficiency in the weapon right also as a  ",
+        "start": 2525.24,
+        "duration": 4.36
+    },
+    {
+        "text": "fighter one we get second wind which lets us heal \nourselves a little bit as a bonus action once per  ",
+        "start": 2529.6,
+        "duration": 4.12
+    },
+    {
+        "text": "short rest and then we get a fighting style which \nI'm going to say let's take two weapon fighting  ",
+        "start": 2533.72,
+        "duration": 4.36
+    },
+    {
+        "text": "this is going to be a nice little damage bump for \nus letting us finally add our dexterity modifier  ",
+        "start": 2538.08,
+        "duration": 4.64
+    },
+    {
+        "text": "to our offhand bonus action attack now too but \nthen at Fighter 2 we'd get action surge of course  ",
+        "start": 2542.72,
+        "duration": 5.2
+    },
+    {
+        "text": "letting us once per short rest take two actions \non our turn instead of one meaning that even if  ",
+        "start": 2547.92,
+        "duration": 4.68
+    },
+    {
+        "text": "we don't have assassination levels again yet we \ncan at least jump a target from stealth and then  ",
+        "start": 2552.6,
+        "duration": 7.24
+    },
+    {
+        "text": "get a full round of attacks against them while \nthey're surprised while still having our most  ",
+        "start": 2559.84,
+        "duration": 5.2
+    },
+    {
+        "text": "important tools from Shadow monk or sure cast \na spell on our turn and make some attacks etc  ",
+        "start": 2565.04,
+        "duration": 6.52
+    },
+    {
+        "text": "etc it just brings a lot of potential damage \nand versatility and it's hard to oversell the  ",
+        "start": 2571.56,
+        "duration": 6.28
+    },
+    {
+        "text": "power of action surge honestly but at level eight \nI'm going to Respec yet [Music] again into what I  ",
+        "start": 2577.84,
+        "duration": 10.68
+    },
+    {
+        "text": "consider to be like the core of the build and that \nis Rogue 3 monk 5 this would let us get the most  ",
+        "start": 2588.52,
+        "duration": 6.68
+    },
+    {
+        "text": "important features from monk extra attack stunning \nstrike and cloak of shadows as well as the most  ",
+        "start": 2595.2,
+        "duration": 5.28
+    },
+    {
+        "text": "important features from assassin Auto crits three \nturns before our opponent gets to take an action  ",
+        "start": 2600.48,
+        "duration": 5.56
+    },
+    {
+        "text": "sneak attack expertise at this point in the game \nthe build really shines in all the important ways  ",
+        "start": 2606.04,
+        "duration": 7.16
+    },
+    {
+        "text": "burst damage cuge mobility and it's just so much \nfreaking fun to play you want to see it all right  ",
+        "start": 2613.2,
+        "duration": 7.76
+    },
+    {
+        "text": "here you go but first you know what why don't \nwe go over some gear choices not so that I can  ",
+        "start": 2620.96,
+        "duration": 5.48
+    },
+    {
+        "text": "tell you like what the best in slot items are for \nthis point in the game but just to kind of go over  ",
+        "start": 2626.44,
+        "duration": 7.24
+    },
+    {
+        "text": "some options let you know what's available what \nkinds of things you can be looking for the helm  ",
+        "start": 2633.68,
+        "duration": 4.92
+    },
+    {
+        "text": "the hastee helm that's nice it gives you a little \nextra move speed early on nothing amazing cloak of  ",
+        "start": 2638.6,
+        "duration": 5.32
+    },
+    {
+        "text": "protection is probably the best cloak we can get \nat this point I think my beloved graceful cloth of  ",
+        "start": 2643.92,
+        "duration": 5.2
+    },
+    {
+        "text": "course that we've already talked about the flawed \nhell dust gloves might be the best gloves we can  ",
+        "start": 2649.12,
+        "duration": 4.4
+    },
+    {
+        "text": "get here in act two anyways only because they \ndo extra damage both on weapon attacks and also  ",
+        "start": 2653.52,
+        "duration": 6.96
+    },
+    {
+        "text": "on unarmed attacks which is kind of unique really \nnice and yeah it's a D4 of damage not flat damage  ",
+        "start": 2660.48,
+        "duration": 6.64
+    },
+    {
+        "text": "which we prefer I like the night walker boots \nthat you get off nare uh both for the Misty step  ",
+        "start": 2667.12,
+        "duration": 4.68
+    },
+    {
+        "text": "and also to keep us from getting ins snared and \nthings as for weapons the sword of Life stealing  ",
+        "start": 2671.8,
+        "duration": 5.04
+    },
+    {
+        "text": "is probably the best mainhand weapon I think we \ncan get here by this point primarily because on  ",
+        "start": 2676.84,
+        "duration": 5.32
+    },
+    {
+        "text": "a crit it deals extra damage and we crit a lot one \nproblem is it only works against those that aren't  ",
+        "start": 2682.16,
+        "duration": 7.04
+    },
+    {
+        "text": "constructs or Undead we fight a lot of Undead in \nact two so it's kind of good in some fights not  ",
+        "start": 2689.2,
+        "duration": 4.84
+    },
+    {
+        "text": "very good in others but then yeah it gives you \nsome extra temporary hit hit points too which is  ",
+        "start": 2694.04,
+        "duration": 3.8
+    },
+    {
+        "text": "nice the knife of the under Mountain King might be \nthe best offhand in the game uh that's debatable  ",
+        "start": 2697.84,
+        "duration": 5.2
+    },
+    {
+        "text": "but definitely by this point primarily because \nyeah it reduces the number we need to roll to get  ",
+        "start": 2703.04,
+        "duration": 5.32
+    },
+    {
+        "text": "a crit by one right so we're critting on a 19 now \nwhich is awesome has other benefits too there's  ",
+        "start": 2708.36,
+        "duration": 5.4
+    },
+    {
+        "text": "lots of different amulet options here I like \nthe Amulet of the Harpers The Shield spell once  ",
+        "start": 2713.76,
+        "duration": 4.8
+    },
+    {
+        "text": "per long rest is nice and a pinch but there are \nother decent choices here too as for Rings let's  ",
+        "start": 2718.56,
+        "duration": 5.88
+    },
+    {
+        "text": "get into it a little bit strange conduit ring is \none of my my favorites it says that while we're  ",
+        "start": 2724.44,
+        "duration": 4.24
+    },
+    {
+        "text": "concentrating on a spell then we deal an extra \nD4 of psychic damage which is awesome and makes  ",
+        "start": 2728.68,
+        "duration": 6.68
+    },
+    {
+        "text": "me want to always be concentrating on a spell \nright otherwise you know I like the risky ring  ",
+        "start": 2735.36,
+        "duration": 6.44
+    },
+    {
+        "text": "because advantage on attacks not only lets us hit \nand crit more often but for us lets us use sneak  ",
+        "start": 2741.8,
+        "duration": 5.6
+    },
+    {
+        "text": "attack even outside of our opening rounds right \nbut there are some other decent ones uh the costic  ",
+        "start": 2747.4,
+        "duration": 6.04
+    },
+    {
+        "text": "band of course an extra two damage on all hits not \nbad though we'd prefer er a die of damage because  ",
+        "start": 2753.44,
+        "duration": 5.4
+    },
+    {
+        "text": "that way we' benefit both from Critical Hits and \nalso Savage attacks right and then there's the  ",
+        "start": 2758.84,
+        "duration": 5.0
+    },
+    {
+        "text": "eversight ring this ring is really awesome on this \nbuild it prevents us from being blinded and if you  ",
+        "start": 2763.84,
+        "duration": 6.8
+    },
+    {
+        "text": "recall when we're in our own Darkness bubble we \nare blinded right not with this ring and thus just  ",
+        "start": 2770.64,
+        "duration": 7.08
+    },
+    {
+        "text": "like a warlock with the devil sight invocation we \ncould make attacks with Advantage from within that  ",
+        "start": 2777.72,
+        "duration": 4.76
+    },
+    {
+        "text": "Darkness bubble enemies attacking us would have \ndisadvantage it's just really awesome I did didn't  ",
+        "start": 2782.48,
+        "duration": 4.6
+    },
+    {
+        "text": "have it equipped because I was concentrating \non a spell other than Darkness uh on the last  ",
+        "start": 2787.08,
+        "duration": 4.48
+    },
+    {
+        "text": "fight but I think I'm going to use Darkness here \nand just kind of show this off so I'll equip it  ",
+        "start": 2791.56,
+        "duration": 3.56
+    },
+    {
+        "text": "in a second once I'm outside of turn base mode as \nfor ranged weapons yeah speaking of concentrating  ",
+        "start": 2795.12,
+        "duration": 6.68
+    },
+    {
+        "text": "on another spell my favorite ranged weapon at \nthis point in the game is the dark fire short  ",
+        "start": 2801.8,
+        "duration": 5.6
+    },
+    {
+        "text": "bow because it gives us access to the Hast spell \nwe can only use it once per day but on a really  ",
+        "start": 2807.4,
+        "duration": 4.4
+    },
+    {
+        "text": "tough fight it's awesome to have right once that's \nused up though I like to go back to the bow of the  ",
+        "start": 2811.8,
+        "duration": 4.36
+    },
+    {
+        "text": "banshee which is pretty nice it says that when we \nhit an enemy with it we can potentially frighten  ",
+        "start": 2816.16,
+        "duration": 5.72
+    },
+    {
+        "text": "them which is great in and of itself but then \nagainst frighten enemies we do an extra D4 of  ",
+        "start": 2821.88,
+        "duration": 5.28
+    },
+    {
+        "text": "damage and again if we're critting that's 2 D4 \nand that's going to benefit from Savage attacker  ",
+        "start": 2827.16,
+        "duration": 5.88
+    },
+    {
+        "text": "etc etc so a really nice option all right let's \nsee what it looks like in combat then first off  ",
+        "start": 2833.04,
+        "duration": 6.24
+    },
+    {
+        "text": "we'll go invisible and we've got a little fight \nhere that should be fairly short and sweet I  ",
+        "start": 2839.28,
+        "duration": 7.24
+    },
+    {
+        "text": "don't I think that's going to be a problem why \ndon't we start off by uh trying to fear one of",
+        "start": 2846.52,
+        "duration": 6.04
+    },
+    {
+        "text": "them yeah we can sneak attack they made their \nsave didn't they well regardless time to run  ",
+        "start": 2852.56,
+        "duration": 8.76
+    },
+    {
+        "text": "in and uh see what we can do let's actually \ntoggle off two up and fighting there because  ",
+        "start": 2861.32,
+        "duration": 11.04
+    },
+    {
+        "text": "as I thought I didn't need it leaving us with \nour bonus action still and our regular action  ",
+        "start": 2872.36,
+        "duration": 8.4
+    },
+    {
+        "text": "nope don't need paralyzing critical \nyeah this is going pretty well I would",
+        "start": 2880.76,
+        "duration": 4.48
+    },
+    {
+        "text": "say all right not a bad little surprise \nround nobody else gets to go and now I  ",
+        "start": 2885.24,
+        "duration": 14.48
+    },
+    {
+        "text": "can probably finish him off o \nunless I get a critical Miss",
+        "start": 2899.72,
+        "duration": 7.04
+    },
+    {
+        "text": "all right here we go save the \nbest for last just have my bonus",
+        "start": 2911.16,
+        "duration": 4.6
+    },
+    {
+        "text": "action all",
+        "start": 2915.76,
+        "duration": 7.24
+    },
+    {
+        "text": "right ouch oh I just lost concentration well  ",
+        "start": 2923.0,
+        "duration": 13.56
+    },
+    {
+        "text": "that that's all right because \nI wanted to show off Darkness",
+        "start": 2936.56,
+        "duration": 3.08
+    },
+    {
+        "text": "anyway",
+        "start": 2939.64,
+        "duration": 5.6
+    },
+    {
+        "text": "okay see now I have Advantage I'm \ngetting sneak attack oh sure and  ",
+        "start": 2945.24,
+        "duration": 10.56
+    },
+    {
+        "text": "they're paralyzed nobody can see me \nthis guy doesn't know what to do so  ",
+        "start": 2955.8,
+        "duration": 4.4
+    },
+    {
+        "text": "let's finish her off no need \nno need I'll use that on this",
+        "start": 2960.2,
+        "duration": 9.16
+    },
+    {
+        "text": "guy didn't need that either anyways that was an \neasy fight obviously they're not all going to go  ",
+        "start": 2969.36,
+        "duration": 9.0
+    },
+    {
+        "text": "that smoothly but as you can tell really really \nstrong for the first few rounds of combat and  ",
+        "start": 2978.36,
+        "duration": 5.44
+    },
+    {
+        "text": "after that you're kind of in cleanup mode right \nyeah so much fun so dang powerful and in case you  ",
+        "start": 2983.8,
+        "duration": 6.24
+    },
+    {
+        "text": "missed it go back I have a discussion about gear \nwhile I've got my like characters inventory open  ",
+        "start": 2990.04,
+        "duration": 6.68
+    },
+    {
+        "text": "so I can kind of talk about gear options what \nyou should be looking for ETC all right so at  ",
+        "start": 2996.72,
+        "duration": 5.2
+    },
+    {
+        "text": "level 9 again sorry to be a little nebulous here \nbut I think we've got two options either you're  ",
+        "start": 3001.92,
+        "duration": 5.8
+    },
+    {
+        "text": "going to want to go Rogue 4 monk 5 if you really \nwant another feat right maybe you want to increase  ",
+        "start": 3007.72,
+        "duration": 5.84
+    },
+    {
+        "text": "your wisdom and have Savage attacker or you want \ndual wielder and Savage attacker or you just want  ",
+        "start": 3013.56,
+        "duration": 5.24
+    },
+    {
+        "text": "to bump your wisdom all the way to 20 that's not \na bad route alternatively though and the way that  ",
+        "start": 3018.8,
+        "duration": 4.56
+    },
+    {
+        "text": "I decided to go you could go Rogue 3 monk 6 to \nget another key point and get Shadow step back  ",
+        "start": 3023.36,
+        "duration": 6.44
+    },
+    {
+        "text": "because Shadow step is just so dang cool and I \nlove it with all of my heart you make the call  ",
+        "start": 3029.8,
+        "duration": 5.24
+    },
+    {
+        "text": "but regardless of your choice at level 10 we're \nrespecing once [Music] again you don't have to  ",
+        "start": 3035.04,
+        "duration": 10.44
+    },
+    {
+        "text": "but I would go back to Rogue 3 monk 5 Fighter 2 \nso we can have all of our most important shadow  ",
+        "start": 3045.48,
+        "duration": 6.64
+    },
+    {
+        "text": "assassin abilities plus action surge for big huge \nmassive massive Burst when our enemy is surprised  ",
+        "start": 3052.12,
+        "duration": 7.04
+    },
+    {
+        "text": "five attacks that are all autoc crits six if \nlike you're hasted right maybe seven I guess  ",
+        "start": 3059.16,
+        "duration": 5.8
+    },
+    {
+        "text": "depending on what difficulty level you're playing \nat yes please that is insane damage but to level  ",
+        "start": 3064.96,
+        "duration": 6.08
+    },
+    {
+        "text": "11 we're finally done with respecing for good \nwhat did you say I would say either grab monk  ",
+        "start": 3071.04,
+        "duration": 6.16
+    },
+    {
+        "text": "six here to get Shadow step back or if you're more \ninterested in damage go for Fighter 3 because that  ",
+        "start": 3077.2,
+        "duration": 6.44
+    },
+    {
+        "text": "will let us get our fighter subass and that means \nwe could be a Battle Master which is by far my  ",
+        "start": 3083.64,
+        "duration": 6.04
+    },
+    {
+        "text": "favorite fighter subclass available to us in bg3 \nas a Battle Master we can learn three Maneuvers  ",
+        "start": 3089.68,
+        "duration": 5.96
+    },
+    {
+        "text": "and gain four superiority dice per short rest \nto spend on those Maneuvers those superiority  ",
+        "start": 3095.64,
+        "duration": 6.36
+    },
+    {
+        "text": "dice they're diates and the Maneuvers then would \nenhance our attacks in a variety of ways if we  ",
+        "start": 3102.0,
+        "duration": 5.04
+    },
+    {
+        "text": "decided to use them depending on which Maneuvers \nwe chose the three that I would take are first up  ",
+        "start": 3107.04,
+        "duration": 5.56
+    },
+    {
+        "text": "trip attack of course as that would let us add \nthe d8 superiority die in damage and remember  ",
+        "start": 3112.6,
+        "duration": 6.16
+    },
+    {
+        "text": "if we crit and we often crit that becomes 2date \nand it should work with Savage attacker though  ",
+        "start": 3118.76,
+        "duration": 6.56
+    },
+    {
+        "text": "crap I didn't test that does it work with Savage \nattacker I really hope it does if Divine Smite  ",
+        "start": 3125.32,
+        "duration": 5.04
+    },
+    {
+        "text": "does it totally should but anyways with trip \nattack we do extra damage and then potentially  ",
+        "start": 3130.36,
+        "duration": 5.32
+    },
+    {
+        "text": "knock the enemy prone giving us advantage on \nall of our other melee attacks regardless of  ",
+        "start": 3135.68,
+        "duration": 5.28
+    },
+    {
+        "text": "whether or not we have Darkness going Etc I \nalso really love hear menacing attack which  ",
+        "start": 3140.96,
+        "duration": 4.8
+    },
+    {
+        "text": "potentially frighten enemies preventing them from \nmoving say out of our Darkness bubble for example  ",
+        "start": 3145.76,
+        "duration": 5.4
+    },
+    {
+        "text": "and gives them disadvantage on their ability \nchecks and attack rolles that's really nice  ",
+        "start": 3151.16,
+        "duration": 4.2
+    },
+    {
+        "text": "especially if we have that bow of the Banshee that \nI mentioned because with that bow equipped we do  ",
+        "start": 3155.36,
+        "duration": 4.68
+    },
+    {
+        "text": "extra damage to frighten targets right and then \nfor the third one I think I would take sweeping  ",
+        "start": 3160.04,
+        "duration": 4.4
+    },
+    {
+        "text": "attack this lets us damage multiple enemies if \nthey're standing next to each other and yeah if  ",
+        "start": 3164.44,
+        "duration": 4.48
+    },
+    {
+        "text": "you've got two surprised enemies standing together \nit's going to be freaking awesome at level 12 then  ",
+        "start": 3168.92,
+        "duration": 5.24
+    },
+    {
+        "text": "assuming we went Fighter 3 at level 11 I would \ngo back to monk 6 yet again for shadow step more  ",
+        "start": 3174.16,
+        "duration": 6.52
+    },
+    {
+        "text": "key Etc and that everybody completes the build I \nhonestly have had so much fun playing this build  ",
+        "start": 3180.68,
+        "duration": 8.56
+    },
+    {
+        "text": "in game in case you have not been able to tell by \nmy enthusiasm throughout this video more than any  ",
+        "start": 3189.24,
+        "duration": 5.68
+    },
+    {
+        "text": "other solo build to date I would say does it have \nweaknesses sure it's not amazing at saving throws  ",
+        "start": 3194.92,
+        "duration": 5.68
+    },
+    {
+        "text": "and that can really throw a wrench in the works if \nyou're trying to run solo especially it's also not  ",
+        "start": 3200.6,
+        "duration": 5.48
+    },
+    {
+        "text": "f fantastic damage outside of your opening rounds \nit's no slouch but I wouldn't call it like cream  ",
+        "start": 3206.08,
+        "duration": 6.44
+    },
+    {
+        "text": "of the crop either fortunately we have a lot \nof tools that let us reset the fight after we  ",
+        "start": 3212.52,
+        "duration": 5.56
+    },
+    {
+        "text": "get through those first few rounds of combat so I \nguess you could argue that it sustained damage is  ",
+        "start": 3218.08,
+        "duration": 5.32
+    },
+    {
+        "text": "amazing because its sustained damage is also its \nburst damage right and that's just so cool though  ",
+        "start": 3223.4,
+        "duration": 7.44
+    },
+    {
+        "text": "there are some fights that you're not going to be \nable to reset it whether because the enemies can  ",
+        "start": 3230.84,
+        "duration": 5.64
+    },
+    {
+        "text": "see through your invisibility or you just don't \nhave like dim light or darkness that are going to  ",
+        "start": 3236.48,
+        "duration": 4.84
+    },
+    {
+        "text": "let you vanish Etc right and yeah it's never going \nto be a great face meaning you might have to brace  ",
+        "start": 3241.32,
+        "duration": 6.12
+    },
+    {
+        "text": "yourself for conversations not always going the \nway you want them to etc for all of these Reasons  ",
+        "start": 3247.44,
+        "duration": 6.4
+    },
+    {
+        "text": "I'm not super confident that the build would be \na great one to try in Solo honor mode with for  ",
+        "start": 3253.84,
+        "duration": 6.64
+    },
+    {
+        "text": "example I think it could be done but it might not \nbe the best build for a solo honor mode run uh uh  ",
+        "start": 3260.48,
+        "duration": 6.4
+    },
+    {
+        "text": "do I have any cards left maybe if you used the \nranged version of this build I think it might  ",
+        "start": 3266.88,
+        "duration": 4.88
+    },
+    {
+        "text": "work a little better in honor mode but I could \nbe wrong if you have soloed honor mode with this  ",
+        "start": 3271.76,
+        "duration": 5.68
+    },
+    {
+        "text": "build or something very similar I'd love to hear \nabout it in the comments maybe it would perform  ",
+        "start": 3277.44,
+        "duration": 4.72
+    },
+    {
+        "text": "better than I'm anticipating but as part of a \nteam for Honor mode or soloing balanced or even  ",
+        "start": 3282.16,
+        "duration": 6.08
+    },
+    {
+        "text": "tactician I can say from personal experience that \nit is smooth as butter and an absolute Delight all  ",
+        "start": 3288.24,
+        "duration": 6.6
+    },
+    {
+        "text": "that bming and critting and Vanishing back into \nthe Shadows just makes the game not only a ton  ",
+        "start": 3294.84,
+        "duration": 5.4
+    },
+    {
+        "text": "of fun but so much different to play than most \nother builds that using it has absolutely made  ",
+        "start": 3300.24,
+        "duration": 6.8
+    },
+    {
+        "text": "for one of if not my favorite playthroughs of \nthe game yet so I certainly hope that you get  ",
+        "start": 3307.04,
+        "duration": 5.64
+    },
+    {
+        "text": "to try it out for yourself very soon but I also \ncertainly hope that you know that I love you  ",
+        "start": 3312.68,
+        "duration": 4.8
+    },
+    {
+        "text": "thank you so much for all that you do for me \nfor the channel I hope that you have a really  ",
+        "start": 3317.48,
+        "duration": 4.48
+    },
+    {
+        "text": "great day and a fantastic week and if you don't I \nhope that you will hang in there you've got this  ",
+        "start": 3321.96,
+        "duration": 5.64
+    },
+    {
+        "text": "I hope that you'll do good and be kind and that I \nsee you again very soon but until then take care",
+        "start": 3327.6,
+        "duration": 6.48
+    },
+    {
+        "text": "[Music] bye night time sharpens heightens \neach sensation Darkness stirs and wakes it",
+        "start": 3334.08,
+        "duration": 22.48
+    },
+    {
+        "text": "imagination silently the senses abandon \ntheir [Music] defenses close your eyes  ",
+        "start": 3356.56,
+        "duration": 16.08
+    },
+    {
+        "text": "and surrender to your darkest dreams \nPurge your thoughts of the life you knew",
+        "start": 3372.64,
+        "duration": 9.48
+    },
+    {
+        "text": "before close your rise let your spirit start to",
+        "start": 3382.12,
+        "duration": 8.92
+    },
+    {
+        "text": "[Laughter] soore and you'll \nlive as you've never lived",
+        "start": 3391.04,
+        "duration": 10.4
+    },
+    {
+        "text": "[Music] before taking the cheese to \na whole new level so um yeah my this  ",
+        "start": 3401.44,
+        "duration": 12.76
+    },
+    {
+        "text": "morning I was like asking my wife wife as \nwe were getting ready I'm like hey honey  ",
+        "start": 3414.2,
+        "duration": 4.2
+    },
+    {
+        "text": "what song should I sing for my outakes \ntoday it's a it's a build about like a  ",
+        "start": 3418.4,
+        "duration": 5.4
+    },
+    {
+        "text": "stealthy like dark you know shadowy \nassassin she's like Phantom of the",
+        "start": 3423.8,
+        "duration": 7.0
+    },
+    {
+        "text": "Opera and I laughed and I was like well now I'm \ndefinitely doing that uh so yeah there you go  ",
+        "start": 3430.8,
+        "duration": 10.44
+    },
+    {
+        "text": "um here's something that will make you realize \nthat I'm even nerd than you maybe realized uh  ",
+        "start": 3441.24,
+        "duration": 7.96
+    },
+    {
+        "text": "the very first CD that I ever owned that like \nI bought with my own money phom of the Opera so  ",
+        "start": 3449.2,
+        "duration": 6.08
+    },
+    {
+        "text": "yeah I'm not only like a D and D nerd but I'm \nlike a theater nerd too admittedly not as much  ",
+        "start": 3455.28,
+        "duration": 6.88
+    },
+    {
+        "text": "as I would like to be like I did some plays in \nhigh school and stuff like that but like yeah  ",
+        "start": 3462.16,
+        "duration": 6.2
+    },
+    {
+        "text": "I I'd like to be more of a theater nerd than I \nam so um why am I sharing this too much I don't  ",
+        "start": 3468.36,
+        "duration": 8.56
+    },
+    {
+        "text": "know when I get to these outakes I just I just \nstart spilling my guts I'm getting a colonoscopy  ",
+        "start": 3476.92,
+        "duration": 5.52
+    },
+    {
+        "text": "tomorrow [Laughter] morning and I'm so excited \num it's just a routine you know you're old enough  ",
+        "start": 3482.44,
+        "duration": 8.08
+    },
+    {
+        "text": "now and you need to get a colonoscopy thing so \nnothing to be too worried about but today that  ",
+        "start": 3490.52,
+        "duration": 5.12
+    },
+    {
+        "text": "means that I'm just not eating anything and I'm \njust drinking lots of liquids so this is my lunch  ",
+        "start": 3495.64,
+        "duration": 6.8
+    },
+    {
+        "text": "it's um chicken broth M I'm so hungry cre usually \nyou're like falling down now today you want to  ",
+        "start": 3502.44,
+        "duration": 6.92
+    },
+    {
+        "text": "creep up huh just never satisfied okay hold on you \ncould you could you could put in our constitute  ",
+        "start": 3509.36,
+        "duration": 7.24
+    },
+    {
+        "text": "we're going to we we're going to want bug get \naway but as if you have more it means we'd be  ",
+        "start": 3516.6,
+        "duration": 8.8
+    },
+    {
+        "text": "it means we're well yeah I can't believe how hot \nthis broth is I made it like 2 hours ago this is  ",
+        "start": 3525.4,
+        "duration": 7.04
+    },
+    {
+        "text": "a really efficient thermos okay instead of take \nSavage effect that you gosh these doors bye-bye",
+        "start": 3532.44,
+        "duration": 9.72
+    }
+]

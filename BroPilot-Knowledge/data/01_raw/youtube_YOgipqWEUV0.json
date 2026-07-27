@@ -1,0 +1,2647 @@
+[
+    {
+        "text": "if you have been wanting to Respec and like \noptimize every companion character in your  ",
+        "start": 0.06,
+        "duration": 6.36
+    },
+    {
+        "text": "Baldur's Gate 3 party but do it in a way that's \nboth really powerful but also feels on point  ",
+        "start": 6.42,
+        "duration": 6.9
+    },
+    {
+        "text": "for that character thematically then I think \nyou're gonna enjoy this video Welcome to D4",
+        "start": 13.32,
+        "duration": 5.34
+    },
+    {
+        "text": "[Music]  ",
+        "start": 24.92,
+        "duration": 1.0
+    },
+    {
+        "text": "hey everybody so here at D4 every week I take a \ndeep dive into character builds for my favorite  ",
+        "start": 25.92,
+        "duration": 6.24
+    },
+    {
+        "text": "role-playing games usually that means Dungeons \nand Dragons lately we've had a healthy heaping of  ",
+        "start": 32.16,
+        "duration": 5.16
+    },
+    {
+        "text": "Baldur's Gate as well but I like to Theory craft \nabout character builds crunch numbers about them  ",
+        "start": 37.32,
+        "duration": 5.16
+    },
+    {
+        "text": "not so that I can tell you the right way or the \nbest way to play a certain character but just to  ",
+        "start": 42.48,
+        "duration": 4.98
+    },
+    {
+        "text": "explore one potential way to build something that \nis both really fun but also really powerful to  ",
+        "start": 47.46,
+        "duration": 6.06
+    },
+    {
+        "text": "play so if you enjoy creating characters for your \nrole-playing games almost as much as you enjoy  ",
+        "start": 53.52,
+        "duration": 4.8
+    },
+    {
+        "text": "actually playing the game itself or if you're \njust looking for tips or ideas on how to build  ",
+        "start": 58.32,
+        "duration": 4.38
+    },
+    {
+        "text": "something that you're thinking about playing then \nwelcome home this is where you belong and I am so  ",
+        "start": 62.7,
+        "duration": 5.28
+    },
+    {
+        "text": "glad you're here so thank you for watching \nmy name is Colby really quick if you would  ",
+        "start": 67.98,
+        "duration": 4.08
+    },
+    {
+        "text": "be interested in getting a written step-by-step \nguide to help you recreate these characters or  ",
+        "start": 72.06,
+        "duration": 5.7
+    },
+    {
+        "text": "any of the characters that I build on my channel \nwithout having to go back and re-watch the video  ",
+        "start": 77.76,
+        "duration": 4.08
+    },
+    {
+        "text": "or take notes I'd appreciate it if you would \nconsider joining as a channel member there's  ",
+        "start": 81.84,
+        "duration": 4.38
+    },
+    {
+        "text": "a little button down there that says join for \njust a couple of bucks a month you get access  ",
+        "start": 86.22,
+        "duration": 4.32
+    },
+    {
+        "text": "to the library of write-ups that I create for \neach one of these builds and it's just a nice  ",
+        "start": 90.54,
+        "duration": 4.74
+    },
+    {
+        "text": "way to lend some additional support to me and \nto the channel huge shout out and thank you to  ",
+        "start": 95.28,
+        "duration": 5.7
+    },
+    {
+        "text": "all my channel members you guys are fantastic \nI could not do this without you for everybody  ",
+        "start": 100.98,
+        "duration": 3.96
+    },
+    {
+        "text": "else you are also fantastic just watching liking \nsubscribing commenting clicking the notifications  ",
+        "start": 104.94,
+        "duration": 5.7
+    },
+    {
+        "text": "Bell these are also great ways to support the \nchannel and so I thank you for doing any and or  ",
+        "start": 110.64,
+        "duration": 5.76
+    },
+    {
+        "text": "all of them so yes as I mentioned at the beginning \nof my last Baldur's Gate 3 video right over there  ",
+        "start": 116.4,
+        "duration": 6.9
+    },
+    {
+        "text": "a lot of you have been asking me to do like an \noptimized build for our NPC companions that feels  ",
+        "start": 123.3,
+        "duration": 7.32
+    },
+    {
+        "text": "like it's still true to their story and concept \nI mean sure you could turn Carlock into a burst  ",
+        "start": 130.62,
+        "duration": 5.7
+    },
+    {
+        "text": "damage sorcerer if you wanted and actually I've \nbeen guilty of doing that myself but that might  ",
+        "start": 136.32,
+        "duration": 6.36
+    },
+    {
+        "text": "feel a little off for who that can companion \ncharacter is like supposed to be right and I  ",
+        "start": 142.68,
+        "duration": 6.78
+    },
+    {
+        "text": "mean for some characters making even a fairly \nmild change can be a little jarring I can't  ",
+        "start": 149.46,
+        "duration": 6.24
+    },
+    {
+        "text": "imagine Shadow heart waxing nostalgic about \nthe glories of the dark Embrace of Shar after  ",
+        "start": 155.7,
+        "duration": 6.06
+    },
+    {
+        "text": "being respect to be a light cleric for example \nas tempting as that may be and so that is the  ",
+        "start": 161.76,
+        "duration": 5.82
+    },
+    {
+        "text": "goal for this video respect those companions \nto maximize their mechanical Power while doing  ",
+        "start": 167.58,
+        "duration": 5.88
+    },
+    {
+        "text": "my best to stay true to like their story and \nbackground to that end I'm going to give myself  ",
+        "start": 173.46,
+        "duration": 5.16
+    },
+    {
+        "text": "these rules they have to have at least as many \nlevels in their original class as they do in  ",
+        "start": 178.62,
+        "duration": 5.46
+    },
+    {
+        "text": "any other class and if we're going to change their \nsubclass it can't feel like too big of a departure  ",
+        "start": 184.08,
+        "duration": 6.24
+    },
+    {
+        "text": "from who they are and where they come from that \nsecond rule admittedly will be a bit subjective  ",
+        "start": 190.32,
+        "duration": 5.34
+    },
+    {
+        "text": "I know and I might make some changes with some of \nthese characters that you think are like too far  ",
+        "start": 195.66,
+        "duration": 5.52
+    },
+    {
+        "text": "off their intended path I'm okay if we agree to \ndisagree but no I'm not not going to just commit  ",
+        "start": 201.18,
+        "duration": 6.42
+    },
+    {
+        "text": "necessarily to just using whatever their starting \nsubclass is because the trickery domain sucks  ",
+        "start": 207.6,
+        "duration": 5.64
+    },
+    {
+        "text": "now having conversations about a character's \nstory might potentially get us into some spoiler  ",
+        "start": 214.2,
+        "duration": 6.24
+    },
+    {
+        "text": "territory so whenever I feel like I might be \nflirting with even mild spoilers I'm going to  ",
+        "start": 220.44,
+        "duration": 5.4
+    },
+    {
+        "text": "change the video to black and white like this \nand put up big floating text at the bottom that  ",
+        "start": 225.84,
+        "duration": 6.6
+    },
+    {
+        "text": "says spoilers like this once I'm done with any \nspoiler territory we'll go back to normal and  ",
+        "start": 232.44,
+        "duration": 6.18
+    },
+    {
+        "text": "drop the text so you can just mute the video \nand wait until we're done and then see when  ",
+        "start": 238.62,
+        "duration": 5.34
+    },
+    {
+        "text": "we're finished cool let me also say this although \nthe builds that I'm doing here are geared towards  ",
+        "start": 243.96,
+        "duration": 5.16
+    },
+    {
+        "text": "our companion characters any and all of them \nwould absolutely work great as a build for  ",
+        "start": 249.12,
+        "duration": 6.12
+    },
+    {
+        "text": "your own player character people have been asking \nme to do a swords bar pact of the blade warlock  ",
+        "start": 255.24,
+        "duration": 4.86
+    },
+    {
+        "text": "for example we'll get there today but sure you \ncould use that build that I'm going to present  ",
+        "start": 260.1,
+        "duration": 5.4
+    },
+    {
+        "text": "for either your companion or for your tab right \none last and important note I'm only going to  ",
+        "start": 265.5,
+        "duration": 6.54
+    },
+    {
+        "text": "plan on doing builds for these 6 origin character \ncompanions here I know there are others that you  ",
+        "start": 272.04,
+        "duration": 6.12
+    },
+    {
+        "text": "can potentially pick up depending on conversations \nyou have quests that you do namely mild spoilers  ",
+        "start": 278.16,
+        "duration": 6.0
+    },
+    {
+        "text": "give them a second to hit that mute button house \nin johera Minsk and even menthara but I mean I  ",
+        "start": 284.16,
+        "duration": 7.62
+    },
+    {
+        "text": "killed mintara and actually failed to do houseen's \nQuest before it was too late in act 2. and you  ",
+        "start": 291.78,
+        "duration": 6.42
+    },
+    {
+        "text": "know I'm sure a lot of us are in a similar boat \nso I decided to just focus on the six that were  ",
+        "start": 298.2,
+        "duration": 4.86
+    },
+    {
+        "text": "basically all going to have for sure and also this \nis going to upset some of you six builds is a lot  ",
+        "start": 303.06,
+        "duration": 6.6
+    },
+    {
+        "text": "of builds I am just not comfortable trying to cram \nall of that into a single video so yes sorry I'm  ",
+        "start": 309.66,
+        "duration": 7.38
+    },
+    {
+        "text": "actually splitting this one up into a two-parter \nwith part two coming out next week doing the  ",
+        "start": 317.04,
+        "duration": 4.74
+    },
+    {
+        "text": "builds the way I like to with proper explanation \nand reasoning would just make for a super long  ",
+        "start": 321.78,
+        "duration": 5.04
+    },
+    {
+        "text": "video if I tried to cram all six into one and \nwhile I appreciate that many maybe most of you  ",
+        "start": 326.82,
+        "duration": 5.52
+    },
+    {
+        "text": "would have no problem with say a 90 minute video \nthe YouTube algorithm doesn't seem to like it as  ",
+        "start": 332.34,
+        "duration": 5.28
+    },
+    {
+        "text": "much and more importantly my own sanity and work \nlife balance would suffer drastically from trying  ",
+        "start": 337.62,
+        "duration": 5.76
+    },
+    {
+        "text": "to get all of that done in a single week so thank \nyou in advance for your patience and understanding  ",
+        "start": 343.38,
+        "duration": 6.96
+    },
+    {
+        "text": "okay Preamble done let's jump into Baldur's Gate 3 \nepisode number five optimizing the companions part  ",
+        "start": 350.34,
+        "duration": 8.34
+    },
+    {
+        "text": "one but first I am thrilled to have obvious mimic \nas a sponsor for the video yet again this week was  ",
+        "start": 358.68,
+        "duration": 7.8
+    },
+    {
+        "text": "game night canceled are you the forever DM at your \ntable or do you just really want to test one of  ",
+        "start": 366.48,
+        "duration": 5.76
+    },
+    {
+        "text": "the characters that I've made on this channel in \nan actual d d game maybe you're new to d d you've  ",
+        "start": 372.24,
+        "duration": 5.22
+    },
+    {
+        "text": "come to it from Baldur's Gate you're curious about \nchecking it out but you don't yet have anybody to  ",
+        "start": 377.46,
+        "duration": 4.26
+    },
+    {
+        "text": "play with well I've got some great news obvious \nmimic makes DND 5e solo Adventures for anyone who  ",
+        "start": 381.72,
+        "duration": 6.84
+    },
+    {
+        "text": "wants to play more or play at all but might not \nalways have people to play with or maybe they they  ",
+        "start": 388.56,
+        "duration": 6.0
+    },
+    {
+        "text": "could just use a break from people for that matter \nthe Wolves of Langston was obvious mimic's first  ",
+        "start": 394.56,
+        "duration": 5.28
+    },
+    {
+        "text": "murder mystery solo Adventure which I talked about \nlast time they sponsored a video a few months  ",
+        "start": 399.84,
+        "duration": 4.38
+    },
+    {
+        "text": "ago I played it it was so cool and now they have \njust successfully kick-started their second it's  ",
+        "start": 404.22,
+        "duration": 5.76
+    },
+    {
+        "text": "called the crystals of zeleph and it is currently \navailable for pre-order the crystals of zeleth is  ",
+        "start": 409.98,
+        "duration": 6.42
+    },
+    {
+        "text": "a classic adventure of exploration Discovery and \nsurvival where you uncover the mysteries of a  ",
+        "start": 416.4,
+        "duration": 5.52
+    },
+    {
+        "text": "hidden city and hopefully Live to Tell the tale \ntake your own path through an interactive story  ",
+        "start": 421.92,
+        "duration": 5.58
+    },
+    {
+        "text": "designed to replicate tabletop gameplay where your \ndecisions have real consequences fight Monsters  ",
+        "start": 427.5,
+        "duration": 5.82
+    },
+    {
+        "text": "cast spells and find treasure just like in a DND \ncampaign that you're playing with your friends  ",
+        "start": 433.32,
+        "duration": 5.1
+    },
+    {
+        "text": "with an original story that has real Stakes you \nmake progress you gain experience level up you  ",
+        "start": 438.42,
+        "duration": 6.48
+    },
+    {
+        "text": "even gain loot that if your DM were okay with it \nanyway you could potentially bring to your actual  ",
+        "start": 444.9,
+        "duration": 5.22
+    },
+    {
+        "text": "tabletop game best of all yeah this would let \nyou play all those character rebuilds that as a  ",
+        "start": 450.12,
+        "duration": 5.4
+    },
+    {
+        "text": "viewer of my channel I know you've been dying to \ntake for a test drive so check out obvious mimic  ",
+        "start": 455.52,
+        "duration": 5.64
+    },
+    {
+        "text": "at this URL please that's how they will know \nthat I sent you I will put a link to that in  ",
+        "start": 461.16,
+        "duration": 5.28
+    },
+    {
+        "text": "the video description of course and also if \nyou use the discount code Colby at checkout  ",
+        "start": 466.44,
+        "duration": 5.1
+    },
+    {
+        "text": "oh man that's so sweet usually my sponsors \ngive me a D4 discount code this feels a lot  ",
+        "start": 472.14,
+        "duration": 6.06
+    },
+    {
+        "text": "more personal anyways say my name and you'll get \nfive bucks off either the Wolves of Langston or  ",
+        "start": 478.2,
+        "duration": 6.18
+    },
+    {
+        "text": "the crystals of zeleph pre-order so nice so huge \nthanks to obvious mimic I love what you guys are  ",
+        "start": 484.38,
+        "duration": 5.76
+    },
+    {
+        "text": "doing and let's jump into those builds I think we \nought to kick things off with everyone's favorite  ",
+        "start": 490.14,
+        "duration": 6.24
+    },
+    {
+        "text": "goth princess Shadow heart I think of all the \ncompanions shadowheart might actually be like  ",
+        "start": 496.38,
+        "duration": 6.12
+    },
+    {
+        "text": "the most sensitive to subclass changes I mean I \ndon't think it makes a huge impact on who Gail is  ",
+        "start": 502.5,
+        "duration": 6.6
+    },
+    {
+        "text": "as a character if you make him an enchanter Wizard \nor an abduration wizard instead of an evocation  ",
+        "start": 509.1,
+        "duration": 5.34
+    },
+    {
+        "text": "wizard right but I guess mostly due to the nature \nof certain domains and deities that they tend to  ",
+        "start": 514.44,
+        "duration": 6.24
+    },
+    {
+        "text": "worship it's tough to make too far of a departure \nwith cleric when they already have a specific God  ",
+        "start": 520.68,
+        "duration": 6.36
+    },
+    {
+        "text": "that they worship but the problem is like I said \ntrickery domain just isn't that good I mean you  ",
+        "start": 527.04,
+        "duration": 6.84
+    },
+    {
+        "text": "can make it work of course course and sure there \nare some benefits to having bonuses to stealth  ",
+        "start": 533.88,
+        "duration": 4.14
+    },
+    {
+        "text": "and getting a little illusory duplicate to give \npeople some small advantages but I think we get  ",
+        "start": 538.02,
+        "duration": 5.16
+    },
+    {
+        "text": "a lot more out of other cleric subclasses now I \nthink my favorite mostly cleric build for this  ",
+        "start": 543.18,
+        "duration": 7.38
+    },
+    {
+        "text": "game at least that I've come up with thus far is \nthe light cleric that I actually laid out in that  ",
+        "start": 550.56,
+        "duration": 5.52
+    },
+    {
+        "text": "last vg3 builds video number four but yeah again \nthat doesn't work all that well for a worshiper of  ",
+        "start": 556.08,
+        "duration": 7.08
+    },
+    {
+        "text": "char that said spoiler warning depending on how \nthings play out for her at the end of act two I  ",
+        "start": 563.16,
+        "duration": 6.18
+    },
+    {
+        "text": "think that you could totally respect her at that \npoint into light cleric and feel great about the  ",
+        "start": 569.34,
+        "duration": 5.7
+    },
+    {
+        "text": "decision from my story and like Redemption Arc \nperspective yeah so if you decided to make the  ",
+        "start": 575.04,
+        "duration": 6.48
+    },
+    {
+        "text": "good girl decision there like I did then I would \nI think totally respecker into that light AOE  ",
+        "start": 581.52,
+        "duration": 6.66
+    },
+    {
+        "text": "cleric build that I did last time at that point \nokay and spoilers so what is our best option  ",
+        "start": 588.18,
+        "duration": 6.3
+    },
+    {
+        "text": "we don't want to go light cleric or like a life \ncleric to be a fantastic healer in order to stay  ",
+        "start": 594.48,
+        "duration": 5.28
+    },
+    {
+        "text": "true to Shadow heart's character but we don't \nwant to stay trickery because it's a lackluster  ",
+        "start": 599.76,
+        "duration": 5.46
+    },
+    {
+        "text": "subclass here's what I would do respect her to \nbe the goddess of the storm I think channeling  ",
+        "start": 605.22,
+        "duration": 5.58
+    },
+    {
+        "text": "anger and pain the darkness of a thunderstorm as \na tempest cleric feels like a lot better fit for  ",
+        "start": 610.8,
+        "duration": 7.02
+    },
+    {
+        "text": "a follower of char than most other options and \nTempest cleric has a lot of potential for big  ",
+        "start": 617.82,
+        "duration": 5.46
+    },
+    {
+        "text": "damage so yes the build that I'm going to present \nhere does have a lot in common with the Wrath of  ",
+        "start": 623.28,
+        "duration": 6.06
+    },
+    {
+        "text": "the storm build that I did in my third Baldur's \nGate 3 video but there's some major differences  ",
+        "start": 629.34,
+        "duration": 5.94
+    },
+    {
+        "text": "here that we need to incorporate in order to make \nit work as a mostly cleric build for shadowhard  ",
+        "start": 635.28,
+        "duration": 5.7
+    },
+    {
+        "text": "generally it's going to move the build from \nlike a pure burst damage focused build to one  ",
+        "start": 640.98,
+        "duration": 5.16
+    },
+    {
+        "text": "with some decent burst damage potential but better \nsustained damage too here's how at level one for  ",
+        "start": 646.14,
+        "duration": 6.06
+    },
+    {
+        "text": "our starting class yeah we're starting as clear \nof course but then as soon as you meet Withers I  ",
+        "start": 652.2,
+        "duration": 5.94
+    },
+    {
+        "text": "would Respec her if for no other reason then to \nclean up those terrible starting stats make sure  ",
+        "start": 658.14,
+        "duration": 4.92
+    },
+    {
+        "text": "that you get her a 16 wisdom a 16 intelligence \nand a 14 Constitution what's the deal with larian  ",
+        "start": 663.06,
+        "duration": 5.94
+    },
+    {
+        "text": "giving like every single companion character a \nbunch of odd numbered stats to start off with  ",
+        "start": 669.0,
+        "duration": 4.68
+    },
+    {
+        "text": "it's like they're just begging you to respect \nthese characters as for the 16 intelligence  ",
+        "start": 673.68,
+        "duration": 4.02
+    },
+    {
+        "text": "I'll explain about that later at level 1 clerics \nget their subclass and like I said we're going  ",
+        "start": 677.7,
+        "duration": 4.62
+    },
+    {
+        "text": "to change it to Tempest as a tempest cleric we \nget heavy armor proficiency so we don't have to  ",
+        "start": 682.32,
+        "duration": 4.92
+    },
+    {
+        "text": "worry about our dexterity as much which is nice \neventually then be sure to grab the best heavy  ",
+        "start": 687.24,
+        "duration": 5.28
+    },
+    {
+        "text": "armor possible and a shield not too worried about \nweapons here as a tempest cleric we get Wrath of  ",
+        "start": 692.52,
+        "duration": 5.76
+    },
+    {
+        "text": "the storm it's a nice little way to like return \ndamage on an enemy attacker with our reaction and  ",
+        "start": 698.28,
+        "duration": 5.22
+    },
+    {
+        "text": "then we get cleric spells Tempest clerics get \nThunder Wave and fog Cloud for free both are  ",
+        "start": 703.5,
+        "duration": 5.58
+    },
+    {
+        "text": "decent spells but other than those I'd say just \ngo with the usual suspects here at level one but  ",
+        "start": 709.08,
+        "duration": 5.28
+    },
+    {
+        "text": "less one of the best Buffs in game guidance one \nof the best utility spells in game healing word  ",
+        "start": 714.36,
+        "duration": 5.34
+    },
+    {
+        "text": "one of the best healing spells in game and then \nmost important of all create or destroy water  ",
+        "start": 719.7,
+        "duration": 4.86
+    },
+    {
+        "text": "as a reminder in bg3 when a creature gets the \nwet condition then cold and lightning damage  ",
+        "start": 724.56,
+        "duration": 6.24
+    },
+    {
+        "text": "is doubled against them they're vulnerable to it \nright there are several ways to cause a creature  ",
+        "start": 730.8,
+        "duration": 4.38
+    },
+    {
+        "text": "to get wet throw a bottle of water at them or near \nthem for example but another great and easy way is  ",
+        "start": 735.18,
+        "duration": 6.84
+    },
+    {
+        "text": "via the create water spell it creates a nice \npuddle of water that can get multiple enemies  ",
+        "start": 742.02,
+        "duration": 5.34
+    },
+    {
+        "text": "wet a couple of notes Here casting the spell \nwon't cause non-hostile enemies to suddenly  ",
+        "start": 747.36,
+        "duration": 6.36
+    },
+    {
+        "text": "attack you so you can potentially set up combat \nby going into turn based mode casting this waiting  ",
+        "start": 753.72,
+        "duration": 5.94
+    },
+    {
+        "text": "around and then opening combat with your cold or \nlightning damage if you know that you're going to  ",
+        "start": 759.66,
+        "duration": 5.34
+    },
+    {
+        "text": "be fighting those enemies however if the enemy is \nalready hostile it might be tricky to get create  ",
+        "start": 765.0,
+        "duration": 6.06
+    },
+    {
+        "text": "water off without starting combat and thus wasting \nyour first turn because you've got to get pretty  ",
+        "start": 771.06,
+        "duration": 4.8
+    },
+    {
+        "text": "close here's one potential way around it hide \naround a corner or behind a pillar or something  ",
+        "start": 775.86,
+        "duration": 5.1
+    },
+    {
+        "text": "and then up cast the spell if need be the higher \nlevel you cast it the bigger the area of water  ",
+        "start": 780.96,
+        "duration": 5.16
+    },
+    {
+        "text": "created this can potentially let you get enemies \nwet without even starting combat and then you can  ",
+        "start": 786.12,
+        "duration": 4.8
+    },
+    {
+        "text": "Engage The Enemy with your lightning or cold spell \nfor double damage without wasting that first round  ",
+        "start": 790.92,
+        "duration": 5.82
+    },
+    {
+        "text": "at level 2 clerics get channel Divinity they get \none charge of Channel Divinity which resets on a  ",
+        "start": 796.74,
+        "duration": 6.54
+    },
+    {
+        "text": "short rest and they can use this to either turn \nUndead right and make Undead enemies flee from  ",
+        "start": 803.28,
+        "duration": 4.98
+    },
+    {
+        "text": "you if they fail their save or as a tempest cleric \ndestructive wrath which is our bread and butter  ",
+        "start": 808.26,
+        "duration": 6.0
+    },
+    {
+        "text": "burst damage ability letting us do full maximum \ndamage on a lightning or thunder spell instead of  ",
+        "start": 814.26,
+        "duration": 6.48
+    },
+    {
+        "text": "rolling for it that's huge especially if the enemy \nis wet letting you do double Max damage it ends up  ",
+        "start": 820.74,
+        "duration": 6.0
+    },
+    {
+        "text": "being almost four times what you'd get on average \nwithout destructive wrath and the wet condition  ",
+        "start": 826.74,
+        "duration": 5.64
+    },
+    {
+        "text": "now at level 3 original only for that wrath of the \nstorm build I went with storm sorcerer levels to  ",
+        "start": 832.38,
+        "duration": 5.34
+    },
+    {
+        "text": "get access to Quicken Spell among other things so \nthat we could throw out create water as a bonus  ",
+        "start": 837.72,
+        "duration": 4.68
+    },
+    {
+        "text": "action and then follow up with a lightning spell \nfor big burst all in a single round or if the  ",
+        "start": 842.4,
+        "duration": 5.4
+    },
+    {
+        "text": "enemy was already wet casts two lightning-based \nspells in a single turn I'm going to adjust the  ",
+        "start": 847.8,
+        "duration": 4.74
+    },
+    {
+        "text": "shadow heart version of the build for a couple of \nreasons one I don't want to invest three levels  ",
+        "start": 852.54,
+        "duration": 4.5
+    },
+    {
+        "text": "into another class at least not right away since \nI wanted to feel like mostly a cleric throughout  ",
+        "start": 857.04,
+        "duration": 5.7
+    },
+    {
+        "text": "and that build by the way that I did ended up \nbeing mostly a sorcerer I kept going I wanted  ",
+        "start": 862.74,
+        "duration": 4.5
+    },
+    {
+        "text": "to get lightning bold but that was a five level \ninvestment and it meant I was making Charisma my  ",
+        "start": 867.24,
+        "duration": 4.38
+    },
+    {
+        "text": "main stat as opposed to wisdom and again that \ndoesn't feel very clericy or Shadow hearty but  ",
+        "start": 871.62,
+        "duration": 5.82
+    },
+    {
+        "text": "another reason that I felt like I ought to change \nit for this build is because I've kind of learned  ",
+        "start": 877.44,
+        "duration": 4.68
+    },
+    {
+        "text": "that it tends to be a lot easier to get enemies \nwet before combat begins without triggering combat  ",
+        "start": 882.12,
+        "duration": 4.92
+    },
+    {
+        "text": "like I've explained and or use an ally to toss a \nbottle of water and will have a great build for  ",
+        "start": 887.04,
+        "duration": 5.34
+    },
+    {
+        "text": "an ally to be able to do that without sacrifice \nfacing much by the way so quick and spell didn't  ",
+        "start": 892.38,
+        "duration": 4.8
+    },
+    {
+        "text": "feel quite as necessary plus there are some \nreally nice mechanical benefits to getting more  ",
+        "start": 897.18,
+        "duration": 4.98
+    },
+    {
+        "text": "cleric levels that said we don't currently have a \ngood lightning based damage spell and we want one  ",
+        "start": 902.16,
+        "duration": 5.94
+    },
+    {
+        "text": "remember wet doubles cold and lightning damage and \ndestructive wrath does Max damage on thunder and  ",
+        "start": 908.1,
+        "duration": 6.3
+    },
+    {
+        "text": "lightning so we've got to go with a lightning \nspell to take advantage of both right and the  ",
+        "start": 914.4,
+        "duration": 4.32
+    },
+    {
+        "text": "best level one lightning based spell for damage \nis chromatic orb so we need to dip into another  ",
+        "start": 918.72,
+        "duration": 5.34
+    },
+    {
+        "text": "class to get it because it's not available \nto clerics but if we're not as worried about  ",
+        "start": 924.06,
+        "duration": 4.56
+    },
+    {
+        "text": "Quicken spell then I think instead of sorcerer I \nwould grab a level of wizard at this point to get  ",
+        "start": 928.62,
+        "duration": 6.06
+    },
+    {
+        "text": "chromatic orb now that we've got destructive wrath \nfrankly Shadow heart has never felt particularly  ",
+        "start": 934.68,
+        "duration": 5.04
+    },
+    {
+        "text": "charismatic to me anyway I mean she can be pretty \nprickly right there's a bit of a wall there  ",
+        "start": 939.72,
+        "duration": 4.92
+    },
+    {
+        "text": "but intelligent cerebral calculating for sure so \nlet's do a level of wizard here to get access to  ",
+        "start": 945.24,
+        "duration": 7.14
+    },
+    {
+        "text": "Chromatic orb instead of sorcerer thus as a wizard \none we would get Arcane recovery and that's a nice  ",
+        "start": 952.38,
+        "duration": 5.22
+    },
+    {
+        "text": "way to get some spell slots back and then yes \nwe get wizard spells we get cantrips level one  ",
+        "start": 957.6,
+        "duration": 4.86
+    },
+    {
+        "text": "spells just make sure to grab chromatic orb which \nwe'll do as a level 1 spell 2d8 lightning damage  ",
+        "start": 962.46,
+        "duration": 6.18
+    },
+    {
+        "text": "or other damage types if we really wanted to \nplus with lightning it will cause the ground  ",
+        "start": 968.64,
+        "duration": 5.34
+    },
+    {
+        "text": "and the entire puddle of water if you have one and \nthey're standing in it to become electrified for  ",
+        "start": 973.98,
+        "duration": 5.82
+    },
+    {
+        "text": "a couple of rounds meaning enemies that touch the \narea get the electrocuted condition which deals a  ",
+        "start": 979.8,
+        "duration": 4.62
+    },
+    {
+        "text": "little lightning damage to them every round for a \ncouple of rounds plus it'll knock them back when  ",
+        "start": 984.42,
+        "duration": 4.26
+    },
+    {
+        "text": "they're first trying to enter the area so at this \nlevel if we upcast chromatic orb as a second level  ",
+        "start": 988.68,
+        "duration": 5.1
+    },
+    {
+        "text": "spell which we could do thanks to multi-classing \ntwo full spell casters together right we've got  ",
+        "start": 993.78,
+        "duration": 4.98
+    },
+    {
+        "text": "second level spells if the enemy were wet and we \nuse destructive wrath we would hit for 48 damage  ",
+        "start": 998.76,
+        "duration": 5.4
+    },
+    {
+        "text": "on a single Target at level three not bad of \ncourse arguably the best reason to take wizard  ",
+        "start": 1004.16,
+        "duration": 6.36
+    },
+    {
+        "text": "here is because of this thing that a ton of you \nhave been commenting about in my videos I kind of  ",
+        "start": 1010.52,
+        "duration": 5.28
+    },
+    {
+        "text": "feel like it's cheating so I haven't talked about \nit thus far I kind of feel like learning is gonna  ",
+        "start": 1015.8,
+        "duration": 4.56
+    },
+    {
+        "text": "fix or patch this but it's worth mentioning at \nthe time of this recording at least if you take  ",
+        "start": 1020.36,
+        "duration": 4.56
+    },
+    {
+        "text": "a single level of wizard then you can permanently \nlearn a wizard spell from a spell Scroll of any  ",
+        "start": 1024.92,
+        "duration": 6.06
+    },
+    {
+        "text": "level so long as you have access to spell Slots of \nthe appropriate level right so for example right  ",
+        "start": 1030.98,
+        "duration": 5.34
+    },
+    {
+        "text": "now we have second level spell slots but as a \ncleric 2 Wizard one we don't have any second level  ",
+        "start": 1036.32,
+        "duration": 4.86
+    },
+    {
+        "text": "spells well if you were to find a spell Scroll \nof say Misty step you could learn that since it's  ",
+        "start": 1041.18,
+        "duration": 7.2
+    },
+    {
+        "text": "a wizard spell and have permanent access to that \nspell for the rest of the game this is definitely  ",
+        "start": 1048.38,
+        "duration": 4.08
+    },
+    {
+        "text": "not how it works in DND and like I say I'm willing \nto bet that Lorraine is going to fix this in a  ",
+        "start": 1052.46,
+        "duration": 5.46
+    },
+    {
+        "text": "future patch hopefully not before this video comes \nout but if it's working as intended I mean keep  ",
+        "start": 1057.92,
+        "duration": 5.82
+    },
+    {
+        "text": "your eye out for those juicy wizard spells tools \nand get ready to scribe them into your Spellbook  ",
+        "start": 1063.74,
+        "duration": 4.02
+    },
+    {
+        "text": "permanently hello a lightning bolt anyway once \nwe've got chromatic orb let's go back to cleric  ",
+        "start": 1067.76,
+        "duration": 7.02
+    },
+    {
+        "text": "I think feel free to get a second level of wizard \nto grab a subclass but I would rather get more and  ",
+        "start": 1074.78,
+        "duration": 4.74
+    },
+    {
+        "text": "better cleric spells plus some good Tempest cleric \noptions if we're not going to be trying to beeline  ",
+        "start": 1079.52,
+        "duration": 6.06
+    },
+    {
+        "text": "for lightning bolt so as a cleric 3 we get second \nlevel cleric spells Tempest clerics get shatter  ",
+        "start": 1085.58,
+        "duration": 5.4
+    },
+    {
+        "text": "and gust of wind for free both situationally \nuseful some nice AOE damage on shatter and it's  ",
+        "start": 1090.98,
+        "duration": 5.4
+    },
+    {
+        "text": "thunder so you could double it with destructive \nwrath but it won't benefit from wet Beyond those  ",
+        "start": 1096.38,
+        "duration": 4.38
+    },
+    {
+        "text": "free spells go for the usuals here aid for a nice \nbuff and heal lesser restoration for a little  ",
+        "start": 1100.76,
+        "duration": 5.52
+    },
+    {
+        "text": "cure-all spiritual weapon if you need a weaponized \nbonus action not bad at level 5 we would be a  ",
+        "start": 1106.28,
+        "duration": 6.06
+    },
+    {
+        "text": "cleric 4 and that means we get our first feat and \nwe are absolutely going to bump our wisdom to 18  ",
+        "start": 1112.34,
+        "duration": 5.94
+    },
+    {
+        "text": "to make our spells harder to resist and hit more \nregularly at level 6 we would be a cleric five  ",
+        "start": 1118.28,
+        "duration": 6.12
+    },
+    {
+        "text": "and that means we get destroy Undead this causes \nturn Undead to also do for D6 damage in addition  ",
+        "start": 1124.4,
+        "duration": 6.72
+    },
+    {
+        "text": "to trying to turn them right which is nice and \nthen we get third level cleric spells now Tempest  ",
+        "start": 1131.12,
+        "duration": 6.24
+    },
+    {
+        "text": "clerics get sleet storm for free to make a big ice \npatch and force casters to make a concentration  ",
+        "start": 1137.36,
+        "duration": 5.04
+    },
+    {
+        "text": "check which is nice but then best of all call \nlightning this spell is typically only available  ",
+        "start": 1142.4,
+        "duration": 5.76
+    },
+    {
+        "text": "to Druids and storm Sorcerers and is really \nfantastic for this build I think I overlooked  ",
+        "start": 1148.16,
+        "duration": 6.6
+    },
+    {
+        "text": "it when I was first creating this character \nbecause in d d it's a good spell but it's not  ",
+        "start": 1154.76,
+        "duration": 4.56
+    },
+    {
+        "text": "great but in bothers Gate 3 it's stronger and we \nhave things like the wet condition that doubles  ",
+        "start": 1159.32,
+        "duration": 6.06
+    },
+    {
+        "text": "lightning damage so it's a really fantastic spell \nit's great for both burst and sustain damage so  ",
+        "start": 1165.38,
+        "duration": 6.48
+    },
+    {
+        "text": "the spell requires concentration and then it calls \ndown a lightning bolt that affects creatures in  ",
+        "start": 1171.86,
+        "duration": 4.74
+    },
+    {
+        "text": "a pretty small 2 meter or seven foot radius \nit's big enough to hit two Targets if they're  ",
+        "start": 1176.6,
+        "duration": 4.14
+    },
+    {
+        "text": "standing somewhat close together otherwise you're \nprobably just gonna be hitting one with it now  ",
+        "start": 1180.74,
+        "duration": 3.72
+    },
+    {
+        "text": "that initial straight break does 3D 10 damage but \nthen again so long as you maintain concentration  ",
+        "start": 1184.46,
+        "duration": 5.22
+    },
+    {
+        "text": "each round thereafter you can continue to call \nanother lightning bolt down for the same effect  ",
+        "start": 1189.68,
+        "duration": 4.92
+    },
+    {
+        "text": "by just using your action to do so not spending \nany more spell slots 3D 10 damage every turn at  ",
+        "start": 1194.6,
+        "duration": 5.88
+    },
+    {
+        "text": "the cost of Your Action and your concentration \nis situationally decent but if you can easily  ",
+        "start": 1200.48,
+        "duration": 5.16
+    },
+    {
+        "text": "get targets wet and now we're talking 6 d10 \nin an AOE every single round with a massive  ",
+        "start": 1205.64,
+        "duration": 6.3
+    },
+    {
+        "text": "Wallop of 60 flat damage if you use destructive \nwrath that's pretty fantastic now in DND when you  ",
+        "start": 1211.94,
+        "duration": 7.02
+    },
+    {
+        "text": "upcast this spell the initial lightning bolt \ndoes an extra d10 of damage for every level  ",
+        "start": 1218.96,
+        "duration": 4.98
+    },
+    {
+        "text": "above third that you upcasted at but in Baldur's \nGate 3 it continues to do the increased amount  ",
+        "start": 1223.94,
+        "duration": 5.4
+    },
+    {
+        "text": "of damage every single turn when you upcast it \nas well yeah this spell is really good in this  ",
+        "start": 1229.34,
+        "duration": 5.94
+    },
+    {
+        "text": "game and especially for this build at level 7 we \nwould be a cleric 6 and that means we get to use  ",
+        "start": 1235.28,
+        "duration": 6.0
+    },
+    {
+        "text": "Channel Divinity twice for short rest and this is \none of if not the biggest advantages that a mostly  ",
+        "start": 1241.28,
+        "duration": 7.08
+    },
+    {
+        "text": "Tempest cleric has over say a storm sorcerer \nor Tempest cleric being able to use destructive  ",
+        "start": 1248.36,
+        "duration": 5.52
+    },
+    {
+        "text": "wrath twice per combat encounter assuming you're \ntaking short rests after each fight right that's  ",
+        "start": 1253.88,
+        "duration": 5.22
+    },
+    {
+        "text": "some massive burst damage capabilities especially \nwhen we're using a spell like call lightning that  ",
+        "start": 1259.1,
+        "duration": 6.3
+    },
+    {
+        "text": "we only have to use one single spell slot for \nright tempus clerics also get Thunderbolt strike  ",
+        "start": 1265.4,
+        "duration": 4.68
+    },
+    {
+        "text": "here which lets us push enemies up to 10 feet \nwhen we do lightning or thunder damage that's a  ",
+        "start": 1270.08,
+        "duration": 5.1
+    },
+    {
+        "text": "lot of fun it will be super useful a lot of times \nin order to keep enemies at Bay or yeat them off  ",
+        "start": 1275.18,
+        "duration": 5.64
+    },
+    {
+        "text": "cliffs or maybe back into your electrified water \netc etc at level eight we'd be a cleric seven and  ",
+        "start": 1280.82,
+        "duration": 6.18
+    },
+    {
+        "text": "we get fourth level cleric spells tempus clerics \nget ice storm and freedom of movement for free  ",
+        "start": 1287.0,
+        "duration": 4.8
+    },
+    {
+        "text": "ice storm is like sleet storm but it does cold and \nbludgeoning damage in addition to making a big ice  ",
+        "start": 1291.8,
+        "duration": 5.22
+    },
+    {
+        "text": "patch on the ground and freedom of movement is \na nice concentration-free buff that gets allies  ",
+        "start": 1297.02,
+        "duration": 5.1
+    },
+    {
+        "text": "out of stunned and keeps them from being slowed \nor restrained or paralyzed alright it is at or  ",
+        "start": 1302.12,
+        "duration": 5.88
+    },
+    {
+        "text": "about this point in the game where I personally \nwould consider respecting Shadow heart into a  ",
+        "start": 1308.0,
+        "duration": 4.98
+    },
+    {
+        "text": "light cleric depending on how things go for you \nwhat decisions that you make but you don't have  ",
+        "start": 1312.98,
+        "duration": 4.44
+    },
+    {
+        "text": "to regardless of the decisions that you make right \nand if you don't sure at this point feel free to  ",
+        "start": 1317.42,
+        "duration": 5.4
+    },
+    {
+        "text": "grab some sorcerer levels so that you can Quicken \nend twin spell or go back to wizard to get I think  ",
+        "start": 1322.82,
+        "duration": 5.94
+    },
+    {
+        "text": "the evocation subclass so that you don't have \nto worry about hurting your allies with your AOE  ",
+        "start": 1328.76,
+        "duration": 4.26
+    },
+    {
+        "text": "spells we've probably found a scroll of lightning \nbolt at this point or sure even just stick with  ",
+        "start": 1333.02,
+        "duration": 5.82
+    },
+    {
+        "text": "cleric to pick up more and better cleric spells \nand features any of those options are good ones  ",
+        "start": 1338.84,
+        "duration": 5.46
+    },
+    {
+        "text": "and regardless you are going to love playing this \nversion of Shadow heart I have respect her to this  ",
+        "start": 1344.3,
+        "duration": 6.3
+    },
+    {
+        "text": "build in my game and it is so fun alright on to \nthe second build for the week carlak uh karlak my  ",
+        "start": 1350.6,
+        "duration": 8.1
+    },
+    {
+        "text": "favorite companion it's too bad learning didn't \ngive her a little more story right because her  ",
+        "start": 1358.7,
+        "duration": 4.14
+    },
+    {
+        "text": "personality is just the best she's so awesome \nand I think for her star to burn brightest  ",
+        "start": 1362.84,
+        "duration": 6.0
+    },
+    {
+        "text": "pun intended we need to just Channel her inner \nBerserker Barbarian and let her wreck stuff and  ",
+        "start": 1368.84,
+        "duration": 7.74
+    },
+    {
+        "text": "so to that end this is what I would consider to be \nthe ultimate karlak Barbarian Build at level one  ",
+        "start": 1376.58,
+        "duration": 6.54
+    },
+    {
+        "text": "starting class Barbarian then let's respect those \nability scores to a 17 strength a 16 Constitution  ",
+        "start": 1383.12,
+        "duration": 6.66
+    },
+    {
+        "text": "and a 14 dexterity for equipment here we're going \nto be looking for throne weapons medium armor and  ",
+        "start": 1389.78,
+        "duration": 7.56
+    },
+    {
+        "text": "any equipment that adds damage to throne weapon \nattacks because yes we are making carlak a raging  ",
+        "start": 1397.34,
+        "duration": 6.78
+    },
+    {
+        "text": "thrower and it's going to be glorious so as a \nbarbarian one we are going to get Rage which we  ",
+        "start": 1404.12,
+        "duration": 6.3
+    },
+    {
+        "text": "can use twice per day for now as a bonus action to \nget an extra 2 damage on melee improvised weapons  ",
+        "start": 1410.42,
+        "duration": 6.0
+    },
+    {
+        "text": "and Throne weapon attacks very nice we also get \nresistance to bludgeoning piercing and slashing  ",
+        "start": 1416.42,
+        "duration": 5.76
+    },
+    {
+        "text": "damage while raging and as I'm so fond of saying \nthat is most of the damage that we will be taking  ",
+        "start": 1422.18,
+        "duration": 4.38
+    },
+    {
+        "text": "in game so that's wonderful just keep in mind the \nbig drawback to rage is that we can't concentrate  ",
+        "start": 1426.56,
+        "duration": 5.4
+    },
+    {
+        "text": "on or cast spells while raging right no worries we \ndon't need them we do also get unarmored defense  ",
+        "start": 1431.96,
+        "duration": 6.0
+    },
+    {
+        "text": "at this level as well which lets our Armor class \nbe equal to 10 plus our dexterity modifier plus  ",
+        "start": 1437.96,
+        "duration": 5.58
+    },
+    {
+        "text": "our constitution modifier but most of the time \nthat's still going to be a lower Armor class  ",
+        "start": 1443.54,
+        "duration": 4.74
+    },
+    {
+        "text": "than if we just had some good medium armor \nso until you find some really Stellar like  ",
+        "start": 1448.28,
+        "duration": 5.22
+    },
+    {
+        "text": "Barbarian specific non-armor armor just go with \nregular armor at level 2 we get danger sense  ",
+        "start": 1453.5,
+        "duration": 6.48
+    },
+    {
+        "text": "which basically gives us advantage on dexterity \nsaving throws and then we get what is in my mind  ",
+        "start": 1459.98,
+        "duration": 5.22
+    },
+    {
+        "text": "the barbarian's best feature Reckless attack which \njust straight up lets us have advantage on our  ",
+        "start": 1465.2,
+        "duration": 5.22
+    },
+    {
+        "text": "attacks at the cost of giving enemies advantage \non their attacks against us it's totally worth it  ",
+        "start": 1470.42,
+        "duration": 4.68
+    },
+    {
+        "text": "especially if and when we're raging so we'll have \nresistance to most of the damage that we're taking  ",
+        "start": 1475.1,
+        "duration": 5.28
+    },
+    {
+        "text": "anyways now here's the tricky thing about Reckless \nattack on this build it's only supposed to work on  ",
+        "start": 1480.38,
+        "duration": 6.48
+    },
+    {
+        "text": "melee attacks unlike in d d when it's on strength \nbased attacks and thrown weapon attacks are not  ",
+        "start": 1486.86,
+        "duration": 6.72
+    },
+    {
+        "text": "considered melee attacks right however currently \nin the game if you make your first attack on the  ",
+        "start": 1493.58,
+        "duration": 5.34
+    },
+    {
+        "text": "round with Reckless attack turned on then all the \nrest of your attacks that round will still have  ",
+        "start": 1498.92,
+        "duration": 5.82
+    },
+    {
+        "text": "Advantage even if you're throwing stuff that's \ngoing to be really useful on particularly hard to  ",
+        "start": 1504.74,
+        "duration": 5.16
+    },
+    {
+        "text": "hit enemies especially but we are shortly going \nto have such a huge buff to our hit chance that  ",
+        "start": 1509.9,
+        "duration": 5.4
+    },
+    {
+        "text": "I'm not going to miss Advantage quite as much \non this character as I do on other builds if  ",
+        "start": 1515.3,
+        "duration": 5.16
+    },
+    {
+        "text": "you decide that you don't want to like make a \nmelee attack first and then start throwing as  ",
+        "start": 1520.46,
+        "duration": 4.68
+    },
+    {
+        "text": "level three first up we get a third rage charge \nper long rest and that's actually a pretty big  ",
+        "start": 1525.14,
+        "duration": 5.22
+    },
+    {
+        "text": "deal letting us rage just about every fight if \nwe're short resting after each combat and then  ",
+        "start": 1530.36,
+        "duration": 4.8
+    },
+    {
+        "text": "long resting after three fights or so which is \nkind of the norm for me it seems to be what most  ",
+        "start": 1535.16,
+        "duration": 5.34
+    },
+    {
+        "text": "people are doing based on what I'm hearing and \nseeing but then yes barbarians get their subclass  ",
+        "start": 1540.5,
+        "duration": 5.46
+    },
+    {
+        "text": "at this level and yes we are totally going with \nBerserker super fitting for a hot-headed barely  ",
+        "start": 1545.96,
+        "duration": 5.82
+    },
+    {
+        "text": "keeping it under control sometimes frenzied fire \ngoddess is it getting hot in here is it just me  ",
+        "start": 1551.78,
+        "duration": 6.18
+    },
+    {
+        "text": "so Berserkers don't get just regular rage but \nfrenzied Rage which tells us that when raging we  ",
+        "start": 1559.04,
+        "duration": 7.56
+    },
+    {
+        "text": "can make an improvised weapon attack with a bonus \naction which is nice actually but then also we  ",
+        "start": 1566.6,
+        "duration": 5.22
+    },
+    {
+        "text": "have access to two new abilities frenzied strike \nwhich lets us make an additional attack each round  ",
+        "start": 1571.82,
+        "duration": 5.34
+    },
+    {
+        "text": "with our bonus action that's great but it comes \nwith a pretty hefty price tag of giving us a stack  ",
+        "start": 1577.16,
+        "duration": 5.34
+    },
+    {
+        "text": "of frenzied strain frenzied strain gives us a \nminus one to hit for each stack of it that we  ",
+        "start": 1582.5,
+        "duration": 5.34
+    },
+    {
+        "text": "have on us and those Stacks don't go away until we \nstop raging so yes we're going to want to use this  ",
+        "start": 1587.84,
+        "duration": 5.76
+    },
+    {
+        "text": "with caution as it can quickly get our hit chance \ndown to an unacceptable level in a long fight the  ",
+        "start": 1593.6,
+        "duration": 5.46
+    },
+    {
+        "text": "other new ability that we get is our bread and \nbutter ability for this build enraged throw  ",
+        "start": 1599.06,
+        "duration": 5.82
+    },
+    {
+        "text": "this tells us that we can basically use a bonus \naction to throw stuff that can mean something  ",
+        "start": 1604.88,
+        "duration": 5.22
+    },
+    {
+        "text": "lying around nearby or something already in your \ninventory that we have equipped it can even be  ",
+        "start": 1610.1,
+        "duration": 5.4
+    },
+    {
+        "text": "an enemy standing nearby that you can pick up and \nthrow but there are some some additional benefits  ",
+        "start": 1615.5,
+        "duration": 4.86
+    },
+    {
+        "text": "here if we hit our Target with enraged throw they \nhave to make a strength save or they're not prone  ",
+        "start": 1620.36,
+        "duration": 5.16
+    },
+    {
+        "text": "that's awesome but also at least currently in \nthe game it's adding our strength modifier twice  ",
+        "start": 1625.52,
+        "duration": 6.06
+    },
+    {
+        "text": "to the damage if we're throwing an actual Throne \nweapon I'm assuming this is a bug but either way  ",
+        "start": 1631.58,
+        "duration": 6.18
+    },
+    {
+        "text": "it's a big damage bump and it makes using thrown \nweapons here a really great idea so Stack Up on  ",
+        "start": 1637.76,
+        "duration": 5.82
+    },
+    {
+        "text": "javelins and hand axes and daggers or better yet \nfind the returning spear that's for sale early  ",
+        "start": 1643.58,
+        "duration": 6.96
+    },
+    {
+        "text": "on in the game in the goblin camp that will just \nreturn to you automatically every time you throw  ",
+        "start": 1650.54,
+        "duration": 5.88
+    },
+    {
+        "text": "it one other thing that may or may not be a bug \nwith enraged throw currently using it also adds  ",
+        "start": 1656.42,
+        "duration": 7.8
+    },
+    {
+        "text": "a stack of frenzied strain though the tool tip \nin the game doesn't say that it will what's worse  ",
+        "start": 1664.22,
+        "duration": 5.58
+    },
+    {
+        "text": "if you pick up another creature and use them to \nthrow at the enemy something that's both potent  ",
+        "start": 1669.8,
+        "duration": 5.16
+    },
+    {
+        "text": "and hilarious as it does damage to both the \none you're throwing and the target you throw  ",
+        "start": 1674.96,
+        "duration": 4.38
+    },
+    {
+        "text": "them at and can knock both of them prone but \nwhen you do that it actually puts two stacks  ",
+        "start": 1679.34,
+        "duration": 4.5
+    },
+    {
+        "text": "of frenzied strain on you so I would only do that \nwith enraged throw if you had like one enemy that  ",
+        "start": 1683.84,
+        "duration": 6.6
+    },
+    {
+        "text": "only had a hit point or two left and you wanted to \nkill them by throwing them and do some damage to  ",
+        "start": 1690.44,
+        "duration": 4.98
+    },
+    {
+        "text": "the enemy that you're throwing them at yeah but at \nlevel 4 we get our first feat and yeah the thing  ",
+        "start": 1695.42,
+        "duration": 5.4
+    },
+    {
+        "text": "that really makes this build shine is that Tavern \nbrawler feat that we would take here this feat is  ",
+        "start": 1700.82,
+        "duration": 5.64
+    },
+    {
+        "text": "arguably the most overpowered feat in the game at \nthe moment bumping our strength by one to a nice  ",
+        "start": 1706.46,
+        "duration": 4.98
+    },
+    {
+        "text": "even 18 and then telling us that when we make an \nunarmed strike an improvised weapon or a throne  ",
+        "start": 1711.44,
+        "duration": 5.76
+    },
+    {
+        "text": "weapon attack then we get to double our strength \nbonus for both our hit chance and our damage  ",
+        "start": 1717.2,
+        "duration": 6.96
+    },
+    {
+        "text": "and yes for those counting that means that if we \nenraged throw with a throne weapon we're going to  ",
+        "start": 1724.16,
+        "duration": 5.64
+    },
+    {
+        "text": "be tripling our strength modifier for the damage \nwhen we hit what's more the rage damage seems to  ",
+        "start": 1729.8,
+        "duration": 5.46
+    },
+    {
+        "text": "be getting doubled here as well so until they \npatch this out if they patch it out enjoy that  ",
+        "start": 1735.26,
+        "duration": 6.48
+    },
+    {
+        "text": "crazy damage and yeah with such a high bump to \nour hit chance it makes frenzied strain hurt a  ",
+        "start": 1741.74,
+        "duration": 5.52
+    },
+    {
+        "text": "lot less especially if we can get Advantage via \na reckless attack by maybe making a melee attack  ",
+        "start": 1747.26,
+        "duration": 4.8
+    },
+    {
+        "text": "with our action than using enraged throw for our \nbonus action though to be fair you might just be  ",
+        "start": 1752.06,
+        "duration": 5.94
+    },
+    {
+        "text": "better off throwing with your action too doing so \nwill still at least double our strength modifier  ",
+        "start": 1758.0,
+        "duration": 5.04
+    },
+    {
+        "text": "and damage thanks to Tavern brawler it won't \ntriple it because enraged throw is only usable  ",
+        "start": 1763.04,
+        "duration": 3.9
+    },
+    {
+        "text": "as a bonus action right but it's still really good \nso Choose Wisely at level 5 barbarians get fast  ",
+        "start": 1766.94,
+        "duration": 5.88
+    },
+    {
+        "text": "movement that gives us an extra 10 feet of move \nspeed when we're not wearing heavy armor always  ",
+        "start": 1772.82,
+        "duration": 4.26
+    },
+    {
+        "text": "welcome but more importantly we get extra attack \nhere so that we can attack twice with our action  ",
+        "start": 1777.08,
+        "duration": 5.34
+    },
+    {
+        "text": "potentially making a reckless melee attack and \nthen in Rage throwing with our bonus action and  ",
+        "start": 1782.42,
+        "duration": 5.34
+    },
+    {
+        "text": "just doing a boatload of damage on our turn but at \nlevel six it's time to leave Barbarian behind for  ",
+        "start": 1787.76,
+        "duration": 6.12
+    },
+    {
+        "text": "greener pastures because yes we want some Rogue \nlevels now as a rogue one we get expertise first  ",
+        "start": 1793.88,
+        "duration": 6.66
+    },
+    {
+        "text": "off this lets us double our proficiency bonus for \ntwo skills of our choice and if it were me I would  ",
+        "start": 1800.54,
+        "duration": 5.1
+    },
+    {
+        "text": "take perception for sure as I think it's the most \nused skill in the game and probably Athletics to  ",
+        "start": 1805.64,
+        "duration": 5.88
+    },
+    {
+        "text": "just make karlak that much better at things you \nneed a good athletic skill for jumping shoving  ",
+        "start": 1811.52,
+        "duration": 5.82
+    },
+    {
+        "text": "Etc we also get sneak attack here which lets us do \nextra damage once per turn it's a D6 for now if we  ",
+        "start": 1817.34,
+        "duration": 6.6
+    },
+    {
+        "text": "make an attack with a finesse or ranged weapon \nif you have advantage or the enemy is standing  ",
+        "start": 1823.94,
+        "duration": 5.82
+    },
+    {
+        "text": "next to one of your allies and while no Throne \nweapons aren't the same thing as ranged weapons  ",
+        "start": 1829.76,
+        "duration": 5.34
+    },
+    {
+        "text": "there's one weapon I can think of that has both \nthe throne and finesse property the dagger and  ",
+        "start": 1835.1,
+        "duration": 6.42
+    },
+    {
+        "text": "yeah in my testing when I had advantage and then \nthrough a dagger it applied sneak attack in fact  ",
+        "start": 1841.52,
+        "duration": 5.82
+    },
+    {
+        "text": "when I was testing it that throw that I made crit \nand ended up doing 37 damage with a single bonus  ",
+        "start": 1847.34,
+        "duration": 6.24
+    },
+    {
+        "text": "action thrown non-magical dagger and then a \nknocked him prone so yeah it might be worth  ",
+        "start": 1853.58,
+        "duration": 4.8
+    },
+    {
+        "text": "keeping a good dagger on you to take advantage of \nsneak attack here at level 7 we would be a rogue  ",
+        "start": 1858.38,
+        "duration": 4.8
+    },
+    {
+        "text": "2 and that means we get cunning action so we can \nDash disengage or hide as a bonus action instead  ",
+        "start": 1863.18,
+        "duration": 5.1
+    },
+    {
+        "text": "of an action always useful and then at level 8 we \nwould be a rogue three and that means we get our  ",
+        "start": 1868.28,
+        "duration": 5.58
+    },
+    {
+        "text": "Rogue subclass and you know what we're doing we're \ngoing thief and this is the main reason that we  ",
+        "start": 1873.86,
+        "duration": 4.92
+    },
+    {
+        "text": "came Rogue right you knew that because thieves get \nfast hands and fast hands lets us take two bonus  ",
+        "start": 1878.78,
+        "duration": 5.58
+    },
+    {
+        "text": "actions every single turn which is just insane and \nthat means for us two enraged throws every single  ",
+        "start": 1884.36,
+        "duration": 7.38
+    },
+    {
+        "text": "turn and enemies are just going to melt under all \nthat Throne weapon deliciousness don't forget just  ",
+        "start": 1891.74,
+        "duration": 6.72
+    },
+    {
+        "text": "in case we are throwing a dagger once in a while \nsneak attack does scale at this level two up to  ",
+        "start": 1898.46,
+        "duration": 4.74
+    },
+    {
+        "text": "2d6 from this point on levels nine plus after we \ngot Thief under our belt I'd probably go one more  ",
+        "start": 1903.2,
+        "duration": 6.96
+    },
+    {
+        "text": "level of Rogue to get another feat and then get \nour strength up to 20. and then I think I would  ",
+        "start": 1910.16,
+        "duration": 4.08
+    },
+    {
+        "text": "actually go Fighter for those last three levels \nNot only would that get us action Surge and a nice  ",
+        "start": 1914.24,
+        "duration": 4.68
+    },
+    {
+        "text": "fighting style but you could even at Fighter 3 \ntake the Eldritch Knight subclass and Eldritch  ",
+        "start": 1918.92,
+        "duration": 7.26
+    },
+    {
+        "text": "Knights In addition to learning some handy \nwizard spells get this cool little feature  ",
+        "start": 1926.18,
+        "duration": 4.26
+    },
+    {
+        "text": "called weapon bond which lets you magically Bond \na weapon any weapon so that when you throw it it  ",
+        "start": 1930.44,
+        "duration": 7.08
+    },
+    {
+        "text": "automatically returns to your hand so now if you \nfind a throne weapon that's better than something  ",
+        "start": 1937.52,
+        "duration": 5.16
+    },
+    {
+        "text": "you already have that was like an automatically \nreturning weapon well now that new weapon can be  ",
+        "start": 1942.68,
+        "duration": 6.06
+    },
+    {
+        "text": "a returning weapon too and that is just perfect \nall right for our final companion of part one we  ",
+        "start": 1948.74,
+        "duration": 8.52
+    },
+    {
+        "text": "are going to dive into will I know I know you \nall wanted a Starion well too bad you're gonna  ",
+        "start": 1957.26,
+        "duration": 6.18
+    },
+    {
+        "text": "have to wait until part two for your favorite \ntrampy Vamp I can't put all of the favorites in  ",
+        "start": 1963.44,
+        "duration": 5.22
+    },
+    {
+        "text": "part one part two is not gonna get as many views \nas is part two of two parters never do right so  ",
+        "start": 1968.66,
+        "duration": 5.88
+    },
+    {
+        "text": "will honestly I think will might be the easiest \nof all the companions to do a super awesome and  ",
+        "start": 1974.54,
+        "duration": 6.84
+    },
+    {
+        "text": "optimized build for that is one hundred percent on \npoint for him thematically everything we need to  ",
+        "start": 1981.38,
+        "duration": 5.82
+    },
+    {
+        "text": "know is in his moniker the blade of the frontier \nso at level one yes will starts out as a warlock  ",
+        "start": 1987.2,
+        "duration": 5.82
+    },
+    {
+        "text": "and of course we're keeping him that way but \nthen we're going to make sure to respect his  ",
+        "start": 1993.02,
+        "duration": 4.26
+    },
+    {
+        "text": "ability scores to a 16 Charisma a 16 Constitution \nand a 14 dexterity as for equipment just look for  ",
+        "start": 1997.28,
+        "duration": 7.44
+    },
+    {
+        "text": "the best Rapier that you can get a shield and the \nbest light armor you can find though we will be  ",
+        "start": 2004.72,
+        "duration": 6.36
+    },
+    {
+        "text": "swapping that out for medium later on warlocks get \ntheir subclass right at level one and there's no  ",
+        "start": 2011.08,
+        "duration": 5.88
+    },
+    {
+        "text": "need for us to change will from fiend minor early \nspoiler warning it wouldn't make much sense for us  ",
+        "start": 2016.96,
+        "duration": 5.94
+    },
+    {
+        "text": "if we did anyway since his Patron is well a devil \nor half devil anyways as a fiend then will get  ",
+        "start": 2022.9,
+        "duration": 7.92
+    },
+    {
+        "text": "Stark one's blessing which gives some temporary \nhit points whenever we kill a creature not bad  ",
+        "start": 2030.82,
+        "duration": 4.56
+    },
+    {
+        "text": "and then as for warlock spells that we get here \nfiends get burning hands and command for free both  ",
+        "start": 2035.38,
+        "duration": 6.6
+    },
+    {
+        "text": "situationally useful but beyond that I'd make sure \nto grab Eldritch blast that best offensive cantrip  ",
+        "start": 2041.98,
+        "duration": 5.7
+    },
+    {
+        "text": "in the game warlock staple as well as hex for a \nlittle extra damage on your target when you hit  ",
+        "start": 2047.68,
+        "duration": 5.7
+    },
+    {
+        "text": "them with either a weapon attack or spell like \nEldritch blast it's perfect for us at level 2  ",
+        "start": 2053.38,
+        "duration": 5.4
+    },
+    {
+        "text": "we get Eldritch invocations and there are two \nmust-have invocations for this build agonizing  ",
+        "start": 2058.78,
+        "duration": 5.94
+    },
+    {
+        "text": "blast is going to add our Charisma modifier to \nthe damage of each beam of Eldritch blast that  ",
+        "start": 2064.72,
+        "duration": 5.04
+    },
+    {
+        "text": "we fire and remember it starts firing two beams \nat character level five and then three at level  ",
+        "start": 2069.76,
+        "duration": 5.7
+    },
+    {
+        "text": "11. and Devil's sight is going to let us see \nin magical Darkness you know where I'm going  ",
+        "start": 2075.46,
+        "duration": 5.46
+    },
+    {
+        "text": "with this don't you at level 3 warlocks get their \npacked Boon and we absolutely have to go with pact  ",
+        "start": 2080.92,
+        "duration": 6.72
+    },
+    {
+        "text": "of the blade let's make will actually represent \nhis nickname right pact of the blade is fantastic  ",
+        "start": 2087.64,
+        "duration": 5.58
+    },
+    {
+        "text": "in bg3 it lets us either Bond our equipped weapon \nas a packed weapon or lets us some common a  ",
+        "start": 2093.22,
+        "duration": 6.36
+    },
+    {
+        "text": "magical packed weapon of our choice and afterwards \nif we make attacks with that packed weapon we can  ",
+        "start": 2099.58,
+        "duration": 4.62
+    },
+    {
+        "text": "use our spell casting modifier both to hit and \nto damage I love being sad single ability score  ",
+        "start": 2104.2,
+        "duration": 6.96
+    },
+    {
+        "text": "dependent so now we can just focus on our Charisma \nand have it benefit both our spells and our weapon  ",
+        "start": 2111.16,
+        "duration": 6.54
+    },
+    {
+        "text": "attacks hooray also importantly at third level \nwe get second level warlock spells and that means  ",
+        "start": 2117.7,
+        "duration": 5.16
+    },
+    {
+        "text": "that we can get among other great options the \ndarkness spell now in my very first bg3 video  ",
+        "start": 2122.86,
+        "duration": 5.94
+    },
+    {
+        "text": "over here I talked about how this wasn't working \nproperly in Early Access but whether it was or  ",
+        "start": 2128.8,
+        "duration": 5.64
+    },
+    {
+        "text": "not they fixed it for a final release and I love \nit darkness is both stronger and weaker in bg3  ",
+        "start": 2134.44,
+        "duration": 6.12
+    },
+    {
+        "text": "than it is in DND on the one hand in Baldur's Gate \nyou can't cast it on an object only on the ground  ",
+        "start": 2140.56,
+        "duration": 5.76
+    },
+    {
+        "text": "meaning that you can't like cast it on your weapon \nand then have the darkness move around with you  ",
+        "start": 2146.32,
+        "duration": 4.62
+    },
+    {
+        "text": "but just like Indian D in Baldur's Gate 3 if you \nhave Devil's sight and are inside that Darkness  ",
+        "start": 2150.94,
+        "duration": 6.18
+    },
+    {
+        "text": "then your enemy can't see you but you can see them \nso you've got advantage on attacks against them  ",
+        "start": 2157.12,
+        "duration": 4.74
+    },
+    {
+        "text": "and they have disadvantage on attacks against you \nthis is fantastic but what's even better is that  ",
+        "start": 2161.86,
+        "duration": 5.16
+    },
+    {
+        "text": "if you're in the darkness and an enemy outside of \nit is trying to attack you with a ranged attack  ",
+        "start": 2167.02,
+        "duration": 4.8
+    },
+    {
+        "text": "the attack just straight up Fails Like There's \nnot even an attack roll made it's as though the  ",
+        "start": 2171.82,
+        "duration": 5.82
+    },
+    {
+        "text": "thick darkness is impenetrable to missiles they \njust bounce off doesn't work that way in DND but  ",
+        "start": 2177.64,
+        "duration": 5.4
+    },
+    {
+        "text": "it's great for this game now the area of Darkness \nitself is smaller in bg3 than it is in d d but  ",
+        "start": 2183.04,
+        "duration": 5.52
+    },
+    {
+        "text": "I actually see that as a good thing it makes \nDarkness a lot less disruptive for your other  ",
+        "start": 2188.56,
+        "duration": 4.68
+    },
+    {
+        "text": "allies so from this point on I'd use will like \nthis cast Darkness on your first Target and then  ",
+        "start": 2193.24,
+        "duration": 6.18
+    },
+    {
+        "text": "on subsequent turns make Rapier attacks against \nthem with Advantage enjoying relative safety in  ",
+        "start": 2199.42,
+        "duration": 5.52
+    },
+    {
+        "text": "the meantime since you're inside that warm dark \nEmbrace once any and all Targets inside of the  ",
+        "start": 2204.94,
+        "duration": 6.0
+    },
+    {
+        "text": "darkness are dead just stay inside as best you \ncan firing out Eldritch blast beams from within  ",
+        "start": 2210.94,
+        "duration": 4.92
+    },
+    {
+        "text": "enjoying continued advantage and safety pick \ntaking off your targets one by one it makes will  ",
+        "start": 2215.86,
+        "duration": 6.0
+    },
+    {
+        "text": "feel like a true spell sword super gishy you're \nboth making weapon attacks and casting spells  ",
+        "start": 2221.86,
+        "duration": 4.56
+    },
+    {
+        "text": "and it's awesome at level 4 we get our first feat \nand as sad as we are we are 100 bumping Charisma  ",
+        "start": 2226.42,
+        "duration": 6.78
+    },
+    {
+        "text": "here to 18 to benefit pretty much everything we \ndo now alternatively we could do something like  ",
+        "start": 2233.2,
+        "duration": 6.0
+    },
+    {
+        "text": "say take the great weapon Master feature and then \nmake our packed weapon a great sword or something  ",
+        "start": 2239.2,
+        "duration": 4.92
+    },
+    {
+        "text": "and enjoy that plus 10 to damage at the expense of \na minus five to hit if you're using darkness and  ",
+        "start": 2244.12,
+        "duration": 5.94
+    },
+    {
+        "text": "getting Advantage it's not a bad idea the big \nproblem with going that route I think is that  ",
+        "start": 2250.06,
+        "duration": 4.62
+    },
+    {
+        "text": "again Darkness doesn't travel with you so after \nthe enemies inside it are dead you're gonna have  ",
+        "start": 2254.68,
+        "duration": 5.16
+    },
+    {
+        "text": "a much tougher time hitting your enemies unless \nyou're getting Advantage from some other source if  ",
+        "start": 2259.84,
+        "duration": 5.28
+    },
+    {
+        "text": "you are and you'd prefer to make will more blade \nthan Caster go for it for me I think I keep it  ",
+        "start": 2265.12,
+        "duration": 6.24
+    },
+    {
+        "text": "simple here and just leave him in that Darkness \nit's just a lot of fun conceptually to run in  ",
+        "start": 2271.36,
+        "duration": 4.38
+    },
+    {
+        "text": "make melee attacks against enemies inside that \ndarkness and then stay there firing out beams from  ",
+        "start": 2275.74,
+        "duration": 4.74
+    },
+    {
+        "text": "within at level 5 in Baldur's Gate 3 warlocks get \ndeepened packed which strengthens our packed Boon  ",
+        "start": 2280.48,
+        "duration": 6.36
+    },
+    {
+        "text": "and gloriously in pg3 that means our pact of the \nblade grants us extra attack and that's perfect  ",
+        "start": 2286.84,
+        "duration": 5.58
+    },
+    {
+        "text": "we also get a third invocation at this level and I \nthink I'd probably go with repelling blast here so  ",
+        "start": 2292.42,
+        "duration": 7.32
+    },
+    {
+        "text": "that my Eldritch blast can knock enemies back 10 \nfeet you don't always need that turned on but you  ",
+        "start": 2299.74,
+        "duration": 5.88
+    },
+    {
+        "text": "can toggle it on and off and having the option \nto knock back is super fantastic when you've  ",
+        "start": 2305.62,
+        "duration": 4.32
+    },
+    {
+        "text": "got great reason to be pushing your targets off of \nthings or into things or if nothing else away from  ",
+        "start": 2309.94,
+        "duration": 5.7
+    },
+    {
+        "text": "you or a squishy Ally and we love warlock level \n5 because we also get third level spells here  ",
+        "start": 2315.64,
+        "duration": 6.12
+    },
+    {
+        "text": "now and fiends get both stinking cloud and the \nillustrious Fireball as options for some nice AOE  ",
+        "start": 2321.76,
+        "duration": 6.36
+    },
+    {
+        "text": "damage but you could also grab a strong control \noption like fear or hypnotic pattern I think I'd  ",
+        "start": 2328.12,
+        "duration": 5.4
+    },
+    {
+        "text": "be sure to grab hunger of Hadar as it's Unique \nto warlocks and it makes a big 20-foot radius of  ",
+        "start": 2333.52,
+        "duration": 4.74
+    },
+    {
+        "text": "Blackness on on the battlefield that does damage \nand blinds enemies inside and causes the ground  ",
+        "start": 2338.26,
+        "duration": 5.16
+    },
+    {
+        "text": "to be difficult to rain so it's just a nice way \nto make a bunch of enemies miserable if you can  ",
+        "start": 2343.42,
+        "duration": 4.68
+    },
+    {
+        "text": "get it on him but at level 6 it's time to leave \nwarlock behind because you see there's more to  ",
+        "start": 2348.1,
+        "duration": 6.9
+    },
+    {
+        "text": "being the blade of the frontier than just killing \nthings with sword and spell any old Adventurer  ",
+        "start": 2355.0,
+        "duration": 5.28
+    },
+    {
+        "text": "can do that what makes the blade the blade is the \nstories that grow up around this folk hero right  ",
+        "start": 2360.28,
+        "duration": 6.6
+    },
+    {
+        "text": "and what class excels at embellishing Grand \nstories that the common fault can look to and  ",
+        "start": 2366.88,
+        "duration": 4.98
+    },
+    {
+        "text": "receive inspiration from The Bard of course so yes \nwe're taking Bard levels here and honestly I feel  ",
+        "start": 2371.86,
+        "duration": 6.18
+    },
+    {
+        "text": "like doing so is way more on point thematically \nfor will than just staying straight warlock I  ",
+        "start": 2378.04,
+        "duration": 6.18
+    },
+    {
+        "text": "mean come on look at the way he's always trying to \nlike charm and sweet talk your other party members  ",
+        "start": 2384.22,
+        "duration": 4.8
+    },
+    {
+        "text": "during those like passive conversations that \nthey have with each other right as you're running  ",
+        "start": 2389.02,
+        "duration": 3.6
+    },
+    {
+        "text": "around the world the guy is probably more barred \nthan warlock he just accidentally got trapped into  ",
+        "start": 2392.62,
+        "duration": 5.16
+    },
+    {
+        "text": "a raw deal with a devil anyway as a Bard won then \nwe get first up Bardock inspiration this lets us  ",
+        "start": 2397.78,
+        "duration": 5.64
+    },
+    {
+        "text": "three times per long rest as opposed to Charisma \nmodifier times prolonged rest in d d use a bonus  ",
+        "start": 2403.42,
+        "duration": 6.0
+    },
+    {
+        "text": "action to inspire our allies they then have a D6 \nthat they can add to an ability check an attack  ",
+        "start": 2409.42,
+        "duration": 4.98
+    },
+    {
+        "text": "roll or a saving throw of their choice in the next \n10 minutes it's a fantastic support ability that  ",
+        "start": 2414.4,
+        "duration": 5.4
+    },
+    {
+        "text": "makes everyone better we do get Bard spells here \nas well and I'm just gonna say pick your favorite  ",
+        "start": 2419.8,
+        "duration": 4.32
+    },
+    {
+        "text": "vicious mockery unique to bards is a fun can trip \nto do a little damage and cause an enemy to have  ",
+        "start": 2424.12,
+        "duration": 5.4
+    },
+    {
+        "text": "disadvantage on their next attack roll if they \nfail their save against it it's worth using once  ",
+        "start": 2429.52,
+        "duration": 4.14
+    },
+    {
+        "text": "in a while if for no other reason than just to see \nthe awesome lines of dialogue that get shouted out  ",
+        "start": 2433.66,
+        "duration": 4.56
+    },
+    {
+        "text": "when you cast it they're hilarious I'd probably \ngrab healing word for some emergency healing maybe  ",
+        "start": 2438.22,
+        "duration": 4.92
+    },
+    {
+        "text": "fairy fire to give you Advantage outside of your \nDarkness especially if you went the great weapon  ",
+        "start": 2443.14,
+        "duration": 4.44
+    },
+    {
+        "text": "Master route but yeah nothing otherwise that I'm \ngonna plan on using regularly in combat so pyf  ",
+        "start": 2447.58,
+        "duration": 5.64
+    },
+    {
+        "text": "at level 7 we'd be a barred two and that means \nwe get a song of rest which is way better in b  ",
+        "start": 2453.22,
+        "duration": 5.64
+    },
+    {
+        "text": "3 then D and D as it just straight up gives us a \nthird short rest per day which is always handy we  ",
+        "start": 2458.86,
+        "duration": 5.52
+    },
+    {
+        "text": "also get Jack of all trades which is just such \na great feature especially for like our main PC  ",
+        "start": 2464.38,
+        "duration": 5.1
+    },
+    {
+        "text": "character I think since it just adds half of our \nproficiency bonus when we're making a check with  ",
+        "start": 2469.48,
+        "duration": 4.38
+    },
+    {
+        "text": "an ability that we're not proficient in at level \neight we would be a barred three and that means  ",
+        "start": 2473.86,
+        "duration": 4.68
+    },
+    {
+        "text": "we get our barred subclass our college and as the \nblade of the frontier of course we're going with  ",
+        "start": 2478.54,
+        "duration": 5.7
+    },
+    {
+        "text": "College of Swords we can't but go with College of \nSwords here and it's a fantastic subclass first  ",
+        "start": 2484.24,
+        "duration": 5.94
+    },
+    {
+        "text": "of all it gives us medium armor proficiency so \ngo ahead and grab your favorite medium armor now  ",
+        "start": 2490.18,
+        "duration": 4.86
+    },
+    {
+        "text": "then we also get a fighting style but there are \nonly two options available to swordsbards Dueling  ",
+        "start": 2495.04,
+        "duration": 5.28
+    },
+    {
+        "text": "and two weapon fighting since our packed weapon \ncan only apply to a single weapon at a time we're  ",
+        "start": 2500.32,
+        "duration": 5.52
+    },
+    {
+        "text": "going to be sticking with a single Rapier here and \nso we'll take the dueling fighting style giving us  ",
+        "start": 2505.84,
+        "duration": 4.38
+    },
+    {
+        "text": "an extra 2 damage with each hit that we make with \nthat Rapier nothing crazy but a nice little bump  ",
+        "start": 2510.22,
+        "duration": 4.92
+    },
+    {
+        "text": "more importantly we get Blade flourish at this \nlevel which functions kind of like Battle Master  ",
+        "start": 2515.14,
+        "duration": 5.28
+    },
+    {
+        "text": "Maneuvers we essentially get to spend a use of \nour bardic inspiration now if we wanted to not  ",
+        "start": 2520.42,
+        "duration": 5.16
+    },
+    {
+        "text": "to inspire our allies but to enhance our weapon \nattacks in one of three ways these are quite a bit  ",
+        "start": 2525.58,
+        "duration": 5.58
+    },
+    {
+        "text": "different than they are in D defensive flourish is \nnice it makes a weapon attack but then if it hits  ",
+        "start": 2531.16,
+        "duration": 5.1
+    },
+    {
+        "text": "it both adds your bardic inspiration die in damage \nand then increases your armor class by just a flat  ",
+        "start": 2536.26,
+        "duration": 5.7
+    },
+    {
+        "text": "four until your next turn it's not bad but it does \nhave to hit or you get no AC bump mobile flourish  ",
+        "start": 2541.96,
+        "duration": 6.24
+    },
+    {
+        "text": "pushes your target not five but a whopping 20 feet \naway if it hits that's kinda crazy and then after  ",
+        "start": 2548.2,
+        "duration": 7.02
+    },
+    {
+        "text": "you push them it lets you just teleport to them \nwithout having to spend a reaction or a bonus  ",
+        "start": 2555.22,
+        "duration": 4.5
+    },
+    {
+        "text": "action or anything slashing flourish maybe got the \nbiggest bump from its DND counterpart it just acts  ",
+        "start": 2559.72,
+        "duration": 6.66
+    },
+    {
+        "text": "like a full cleave it lets you do damage to two \nseparate targets and now here's the thing like in  ",
+        "start": 2566.38,
+        "duration": 5.34
+    },
+    {
+        "text": "DND in bg3 you can use these flourishes on ranged \nweapons but here since it just like lets you make  ",
+        "start": 2571.72,
+        "duration": 7.32
+    },
+    {
+        "text": "two attacks against enemies within range if \nyou're using a ranged weapon you could just  ",
+        "start": 2579.04,
+        "duration": 5.16
+    },
+    {
+        "text": "Target any second enemy that's within range \nof your ranged weapon they don't have to be  ",
+        "start": 2584.2,
+        "duration": 4.56
+    },
+    {
+        "text": "standing next to each other and yeah I mean if \nyou have the Sharpshooter feet that's kind of  ",
+        "start": 2588.76,
+        "duration": 4.14
+    },
+    {
+        "text": "crazy feels a little broken but maybe it's working \nas intended if so I'm sure I will have a ranged  ",
+        "start": 2592.9,
+        "duration": 5.52
+    },
+    {
+        "text": "swords Bard built out before too long we also get \nsecond level Bard spells here and while there are  ",
+        "start": 2598.42,
+        "duration": 5.04
+    },
+    {
+        "text": "a ton of great ones cloud of daggers hold person \ncrown of Madness lesser restoration invisibility  ",
+        "start": 2603.46,
+        "duration": 5.76
+    },
+    {
+        "text": "there's nothing I'm necessarily planning on using \nduring combat sticking probably with Darkness or  ",
+        "start": 2609.22,
+        "duration": 5.46
+    },
+    {
+        "text": "hex for concentration depending on how hard our \nenemies are to hit so go ahead and pick your  ",
+        "start": 2614.68,
+        "duration": 5.4
+    },
+    {
+        "text": "favorite at level 9 we would be a barred four and \nyeah I think at best if we just bump that Charisma  ",
+        "start": 2620.08,
+        "duration": 5.34
+    },
+    {
+        "text": "up to 20 here to make both our weapon attacks and \nour spells more potent if you went great weapon  ",
+        "start": 2625.42,
+        "duration": 5.82
+    },
+    {
+        "text": "Master last time you might want to consider taking \npole arm Master here once they fix the feet at  ",
+        "start": 2631.24,
+        "duration": 5.7
+    },
+    {
+        "text": "least so that you can make a great weapon master \ninfused bonus action attack with the butt of the  ",
+        "start": 2636.94,
+        "duration": 6.06
+    },
+    {
+        "text": "pole arm right it leaves us with a 16 Charisma all \nthis time if we went that route so I'd probably  ",
+        "start": 2643.0,
+        "duration": 5.64
+    },
+    {
+        "text": "advise against it unless you've got some gear \nthat's increasing your charisma or at least  ",
+        "start": 2648.64,
+        "duration": 4.08
+    },
+    {
+        "text": "your hit chance significantly but yeah at the time \nof this recording polar Masters broken it doesn't  ",
+        "start": 2652.72,
+        "duration": 5.22
+    },
+    {
+        "text": "apply the extra damage from great weapon Master \neven though you're using that same two-handed  ",
+        "start": 2657.94,
+        "duration": 3.84
+    },
+    {
+        "text": "weapon to make the attack it really should I hope \nlarion fixes it if not it's not a great feat for  ",
+        "start": 2661.78,
+        "duration": 5.58
+    },
+    {
+        "text": "this build at level 10 we would be a barred five \nand that means we get improved bardic inspiration  ",
+        "start": 2667.36,
+        "duration": 5.46
+    },
+    {
+        "text": "this tells us that our bardic inspiration is \nnow a d8 instead of a D6 nice little bump and  ",
+        "start": 2672.82,
+        "duration": 4.98
+    },
+    {
+        "text": "we also now get four of them per rest instead of \nthree but better yet we get font of inspiration  ",
+        "start": 2677.8,
+        "duration": 5.46
+    },
+    {
+        "text": "which resets those bartic Inspirations on a short \nrest now meaning lots more flourishes among other  ",
+        "start": 2683.26,
+        "duration": 5.22
+    },
+    {
+        "text": "things and that is but yeah this is the level \nthat just keeps on giving because we also get  ",
+        "start": 2688.48,
+        "duration": 6.12
+    },
+    {
+        "text": "third level Bard spells here hypnotic pattern and \nfear are probably the best option for some strong  ",
+        "start": 2694.6,
+        "duration": 5.34
+    },
+    {
+        "text": "control if you didn't grab them as a warlock and \nthe nice thing about pairing Bard and warlock here  ",
+        "start": 2699.94,
+        "duration": 4.8
+    },
+    {
+        "text": "of course is that both use Charisma as their spell \ncasting stat right so our Bard spells are going  ",
+        "start": 2704.74,
+        "duration": 4.74
+    },
+    {
+        "text": "to benefit from that Charisma just as much as our \nwarlock spells do anyway pick your favorites here  ",
+        "start": 2709.48,
+        "duration": 4.32
+    },
+    {
+        "text": "take the ones you think are best and then at \nlevel 11 we would be a Bard 6 and that means  ",
+        "start": 2713.8,
+        "duration": 4.98
+    },
+    {
+        "text": "as a swords bar we finally get extra attack wait \na second we already had extra attack from Back to  ",
+        "start": 2718.78,
+        "duration": 5.58
+    },
+    {
+        "text": "the blade right that's correct we did but again as \nof this recording at least extra attack from pact  ",
+        "start": 2724.36,
+        "duration": 6.6
+    },
+    {
+        "text": "the blade actually Stacks with extra attack from \nother sources so maybe it'll be patched out soon  ",
+        "start": 2730.96,
+        "duration": 6.12
+    },
+    {
+        "text": "maybe by the time this video comes out but if not \nenjoy lots of attacks on your turn now with three  ",
+        "start": 2737.08,
+        "duration": 6.6
+    },
+    {
+        "text": "attacks when you use your attack action speaking \nof three attacks at the exact same time level 11  ",
+        "start": 2743.68,
+        "duration": 5.94
+    },
+    {
+        "text": "here Eldritch blast will now fire three beams \nso regardless of whether you're making weapon  ",
+        "start": 2749.62,
+        "duration": 4.86
+    },
+    {
+        "text": "attacks or beam attacks you get three of them with \nyour action so good for level 12 just pick your  ",
+        "start": 2754.48,
+        "duration": 6.9
+    },
+    {
+        "text": "favorite class I mean you could go back to warlock \nto get the dark one's own luck feature from fiend  ",
+        "start": 2761.38,
+        "duration": 6.3
+    },
+    {
+        "text": "warlocks which just lets you add a d10 to an \nability check once per short rest not bad from a  ",
+        "start": 2767.68,
+        "duration": 4.92
+    },
+    {
+        "text": "utility perspective but Bard 7 would get us fourth \nlevel Bart spells and I think that's the better  ",
+        "start": 2772.6,
+        "duration": 5.4
+    },
+    {
+        "text": "route here that said I'm not necessarily dying \nto have any of those fourth level Bart spells  ",
+        "start": 2778.0,
+        "duration": 5.1
+    },
+    {
+        "text": "though they're all useful greater invisibility \nis worse than it should be unfortunately since  ",
+        "start": 2783.1,
+        "duration": 4.14
+    },
+    {
+        "text": "it forces you to make an increasingly difficult \nstealth check every time you cast a spell or make  ",
+        "start": 2787.24,
+        "duration": 5.28
+    },
+    {
+        "text": "an attack while you're invisible instead of just \nstraight up letting you stay invisible so yeah if  ",
+        "start": 2792.52,
+        "duration": 5.1
+    },
+    {
+        "text": "you're looking for Advantage just stay in your \nDarkness dimension door though is a great way  ",
+        "start": 2797.62,
+        "duration": 3.78
+    },
+    {
+        "text": "for a big teleport for you and a friend always \nnice to have in your back pocket polymorph does  ",
+        "start": 2801.4,
+        "duration": 4.92
+    },
+    {
+        "text": "not let you turn your best friend into a T-Rex \nlike it does in DND but it still can make your  ",
+        "start": 2806.32,
+        "duration": 6.36
+    },
+    {
+        "text": "enemy a sheep wait what is this world Warcraft \nanyway pick your favorite fourth level spell and  ",
+        "start": 2812.68,
+        "duration": 6.12
+    },
+    {
+        "text": "that is it for the blade of the frontier going \nthis route makes will a fantastic Gish I think  ",
+        "start": 2818.8,
+        "duration": 5.52
+    },
+    {
+        "text": "so if you love gishes feel free to use this on \nyour own character as well I'm confident that  ",
+        "start": 2824.32,
+        "duration": 4.68
+    },
+    {
+        "text": "you'll love it either way but that does it for \nthis week's video I hope you enjoyed it I really  ",
+        "start": 2829.0,
+        "duration": 5.52
+    },
+    {
+        "text": "hope that you'll turn in next week to part two \nwhere we will dive into asterian Lazelle and Gail  ",
+        "start": 2834.52,
+        "duration": 6.36
+    },
+    {
+        "text": "I love you guys thank you so much for all that \nyou do for me for this channel I hope you have  ",
+        "start": 2840.88,
+        "duration": 5.1
+    },
+    {
+        "text": "a fantastic day and a really great week and if \nyou don't hang in there but I hope you will also  ",
+        "start": 2845.98,
+        "duration": 5.94
+    },
+    {
+        "text": "be kind and stay safe and that I see you again \nvery soon but until then take care bye [Music]  ",
+        "start": 2851.92,
+        "duration": 8.8
+    },
+    {
+        "text": "spread the news cause there's an angel in \nManhattan call out the paparazzi and the  ",
+        "start": 2866.98,
+        "duration": 11.58
+    },
+    {
+        "text": "television Cruise and me I choose what a little \nfaith come to harm me print the headlines up in  ",
+        "start": 2878.56,
+        "duration": 12.6
+    },
+    {
+        "text": "the New York Daily News it was just another day \nlike any other other day A Tuesday afternoon",
+        "start": 2891.16,
+        "duration": 11.94
+    },
+    {
+        "text": "[Music]",
+        "start": 2908.82,
+        "duration": 1.0
+    },
+    {
+        "text": "Ellis Paul anybody he's a good one a nice kind \nof folky mellow musician I'm feeling that today  ",
+        "start": 2909.82,
+        "duration": 10.8
+    },
+    {
+        "text": "I'm feeling a little folky a little mellow um hey \ncheck out the silver play button I'm so excited  ",
+        "start": 2920.62,
+        "duration": 11.04
+    },
+    {
+        "text": "about it I can't not display it but I don't \nreally know where to put it I got rid of the fern  ",
+        "start": 2931.66,
+        "duration": 6.66
+    },
+    {
+        "text": "but that just feels a little awkward I don't \nknow interior decorators of the world let me  ",
+        "start": 2939.52,
+        "duration": 4.8
+    },
+    {
+        "text": "know where does this thing need to go it's like \nI can't I don't want to put it back there it's  ",
+        "start": 2944.32,
+        "duration": 3.54
+    },
+    {
+        "text": "gonna like reflect that light too much um maybe \nI'll just leave it where it's at if you use  ",
+        "start": 2947.86,
+        "duration": 4.56
+    },
+    {
+        "text": "the discount code if you use the discount \ncode if you use the discount code hmm hmm",
+        "start": 2952.42,
+        "duration": 8.22
+    },
+    {
+        "text": "the AC just came on can you guys hear that I \nhave a feeling that Mike's gonna pick that up  ",
+        "start": 2962.68,
+        "duration": 6.78
+    },
+    {
+        "text": "oh I can't turn it off though because then \nI will boil sorry about the background noise  ",
+        "start": 2971.14,
+        "duration": 4.68
+    },
+    {
+        "text": "time for part two but I can't just like do \nit in the exact same shirt with the exact  ",
+        "start": 2977.62,
+        "duration": 4.68
+    },
+    {
+        "text": "same hair I gotta make it seem like \nit's a different day I could just nah",
+        "start": 2982.3,
+        "duration": 7.5
+    },
+    {
+        "text": "oh I know",
+        "start": 2991.18,
+        "duration": 1.86
+    },
+    {
+        "text": "this oh shoot what should we do how about a \nnice like like yellow orange yeah there we go  ",
+        "start": 2996.1,
+        "duration": 9.36
+    },
+    {
+        "text": "that works that works with the maroon tea \nI think there we go totally different day",
+        "start": 3006.24,
+        "duration": 6.42
+    }
+]
