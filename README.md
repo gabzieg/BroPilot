@@ -12,7 +12,7 @@ O projeto é dividido em dois grandes motores:
    - `01_raw`: Arquivos HTML brutos e despejos de texto manual (`.txt`).
    - `02_trusted`: Arquivos convertidos para Markdown, limpos de tags HTML, lixos de interface e marcações de tempo.
    - `03_refined`: Matrizes de itens e mercadores (WIP).
-2. **Cérebro da IA (Save Parser + LLM):** Motor que extrai o JSON do *save* do jogo e alimenta um LLM com os dados estruturados para devolver respostas rápidas e precisas no terminal.
+2. **Cérebro da IA & Save Extractor:** Motor em Python (`BroPilot-SaveParser`) que extrai dados do *save* do jogo (`.lsv`, LSF, Osiris StorySave) + mod companion (`BroPilotExporter`) para alimentar o LLM (`bropilot.py`) com o estado da party em tempo real.
 
 ## 🚫 Reddit fora do pipeline
 O Reddit foi removido das fontes de dados do BroPilot. A API pública (`.json`) está bloqueada por Cloudflare para scraping automatizado (confirmado mesmo com `cloudscraper`), e a API oficial (OAuth) deixou de oferecer registro gratuito de apps para uso relacionado a tratamento por IA. Sem uma via viável e sustentável de acesso, decidimos não depender do Reddit como fonte.
@@ -26,14 +26,25 @@ Para fontes onde a extração automática falha (ex.: um vídeo do YouTube sem t
 ```text
 BroPilot/
 ├── bropilot.py                   # Orquestrador da IA (LLM Core)
-├── BroPilot-Knowledge/           # Base de dados (RAG)
+├── BroPilot-Knowledge/           # Base de dados de conhecimento (RAG)
 │   ├── data/
 │   │   ├── 01_raw/               # Dumps de HTML e textos puros (Ctrl+C)
 │   │   ├── 02_trusted/           # Textos curados em Markdown
-│   │   └── 03_refined/           # Matrizes e JSONs de itens
+│   │   └── 03_refined/           # Matrizes, JSONs de itens e índices (ex: dialog_index.json)
 │   ├── scripts/
 │   │   ├── wiki_scraper.py       # Crawler da Wiki oficial
 │   │   ├── text_cleaner.py       # Conversor HTML -> Markdown
-│   │   └── youtube_text_cleaner.py # Removedor de timestamps do YouTube
+│   │   ├── youtube_parser.py     # Extrator de transcripts do YouTube
+│   │   ├── youtube_text_cleaner.py # Removedor de timestamps do YouTube
+│   │   ├── forum_scraper.py      # Crawler do fórum oficial (forums.larian.com)
+│   │   ├── forum_text_cleaner.py # Conversor HTML -> Markdown dos tópicos do fórum
+│   │   ├── steam_guide_scraper.py  # Crawler de guias da comunidade Steam
+│   │   ├── steam_text_cleaner.py   # Conversor HTML -> Markdown dos guias da Steam
+│   │   └── moxifer_dialog_index.py # Índice pesquisável de diálogos (dialog.moxifer.com)
 │   └── _archive/reddit/          # Scripts e dados do Reddit (descontinuado)
+├── BroPilot-SaveParser/          # Motor de extração do Save Game (.lsv)
+│   ├── exporter/                 # Mod Lua (Script Extender) para exportação in-game
+│   ├── scripts/                  # Scripts CLI de depuração/inspeção do save
+│   └── src/bropilot/             # Parser Python nativo de LSF/LSPK e Osiris StorySave
 └── README.md
+```

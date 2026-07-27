@@ -12,3 +12,7 @@ __pycache__/
 
 # Arquivos de ambiente e chaves
 .env
+
+# Dumps locais de teste
+*_dump.json
+char_struct.json
