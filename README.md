@@ -31,6 +31,36 @@ A lib oferece dois contornos, e optamos por nenhum dos dois:
 
 Optamos por **paciência**: o script já é idempotente (pula vídeos já baixados em `01_raw`/`02_trusted`), então basta rodar `youtube_parser.py` aos poucos, espaçado ao longo de vários dias, até completar a lista curada. Mais lento, mas sem dependência de serviço pago nem risco de banir a conta usada nos cookies.
 
+## 💰 Análise de Custo & Monetização
+
+Análise completa de **custo de desenvolvimento + implementação + manutenção** cruzada com modelos de monetização, considerando o time de **4 sócios** (sem folha — dev é custo de oportunidade, não caixa).
+
+📊 **[Planilha completa (Google Sheets)](https://docs.google.com/spreadsheets/d/1AjFbbCcDz8IZqTZgOYPhCQ13x6nRUbC8/edit?usp=sharing&ouid=109391157338588128384&rtpof=true&sd=true)** — 7 abas com fórmulas vivas: premissas editáveis, custo unitário, CAPEX de tempo, TCO local vs API, veredito e monetização.
+
+### Achado principal
+
+A escolha de **RAG local** partiu da suposição de que era mais barato — e está certa para o **custo de caixa** (token = $0, roda na máquina do usuário). Mas a análise revelou que, dado o **uso baixo** (~40 consultas/usuário/mês) e a **KB pequena** (1,1M tokens medidos: 119 arquivos `.md`, 4.5 MB), a via **API também sairia baratíssima**:
+
+| Modelo (Fase 2) | Custo/usuário/mês | Custo/usuário/ano |
+|---|---|---|
+| Gemini Flash | ~$0.019 | ~$0.23 |
+| GPT-4o-mini | ~$0.038 | ~$0.46 |
+| Haiku 4.5 (pior caso) | ~$0.280 | ~$3.36 |
+| RAG local (MVP) | $0 | $0 |
+
+**Conclusão:** custo não é o critério que separa local de API aqui — ambos são baratos. A decisão real é **privacidade/offline** (local) vs. **qualidade de resposta + facilidade de instalação** (API). O "local" cobra o preço em **tempo de dev, suporte a hardware do usuário e atrito de instalação** (baixar Ollama + modelo ~5 GB), custos reais porém invisíveis no extrato.
+
+### O gargalo é tempo, não dinheiro
+
+Com 4 sócios sem folha, o custo de **caixa** do MVP local é mínimo — **~$215/ano** (code-signing Windows + domínio), coberto por **~21 vendas a $15**. O investimento pesado é **tempo**: estimadas **~230h restantes** até shippar = **~58h por sócio** (SaveParser, ETL e o scaffold do core RAG já estão escritos: ~4.550 LOC).
+
+### Recomendação
+
+- **Arquitetura:** manter o MVP local (já construído, com a abstração `LLMProvider` pronta), mas **antecipar a Fase 2 API** (Gemini Flash) como opção paralela — resolve o teto de qualidade e a barreira de instalação por ~$92/ano em 5k usuários. Deixe o jogador escolher: local (privado/grátis) ou cloud (melhor/mais fácil).
+- **Monetização:** **one-time a $10–15** na cultura de mods de BG3 (caixa coberto trivialmente), com **BYOK** para quem quiser a versão cloud sem o time pagar token. Evitar assinatura no MVP (churn de jogo single-player mata MRR); freemium só faz sentido depois da Fase 2 API.
+
+> ⚠️ Premissas de preço de token verificadas em jul/2026. A estimativa de 230h de dev restante é aproximada — ajuste a aba `CAPEX Dev (tempo)` na planilha conforme o escopo real.
+
 ## 📁 Estrutura de Pastas
 ```text
 BroPilot/
