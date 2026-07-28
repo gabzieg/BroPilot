@@ -101,6 +101,7 @@ class OllamaProvider:
         timeout_s: float = 120.0,
         embed_timeout_s: float = 300.0,
         embed_batch_size: int = 32,
+        num_ctx: int = 8192,
     ) -> None:
         """Guarda config. Ver docstring do módulo para a razão dos defaults
         (VRAM compartilhada com o BG3).
@@ -108,6 +109,13 @@ class OllamaProvider:
         embed_timeout_s é separado de timeout_s porque indexar a base manda
         lotes grandes para uma GPU que também roda o jogo — o teto de 120s que
         serve para uma geração interativa estoura numa fila de embeddings.
+
+        num_ctx é explícito porque o default do Ollama (medido: 4096, mesmo em
+        modelo que suporta 32768) trunca o prompt SEM AVISAR quando o RAG manda
+        vários chunks — e trunca pelo começo, que é onde está a persona. Um
+        orçamento de tokens no orquestrador só significa alguma coisa se a
+        janela real for conhecida. 8192 é folga para prompt + resposta sem
+        inchar a VRAM disputada com o BG3.
         """
         self._host = host.rstrip("/")
         self._chat_model = chat_model
@@ -115,6 +123,13 @@ class OllamaProvider:
         self._timeout_s = timeout_s
         self._embed_timeout_s = embed_timeout_s
         self._embed_batch_size = embed_batch_size
+        self._num_ctx = num_ctx
+
+    @property
+    def num_ctx(self) -> int:
+        """Janela de contexto pedida ao Ollama. O orquestrador usa isto para
+        dimensionar o orçamento do prompt."""
+        return self._num_ctx
 
     @property
     def embed_model(self) -> str:
@@ -174,6 +189,7 @@ class OllamaProvider:
                     {"role": "user", "content": user},
                 ],
                 "stream": False,
+                "options": {"num_ctx": self._num_ctx},
             },
             timeout_s=self._timeout_s,
             model=self._chat_model,
@@ -447,18 +463,24 @@ class OpenAIProvider:
         return True
 
 
-def create_provider(name: str | None = None) -> LLMProvider:
+def create_provider(
+    name: str | None = None, *, ollama_host: str | None = None
+) -> LLMProvider:
     """Escolhe o back-end de geração no boot: 'ollama' (default) ou 'openai'.
 
     `name` explícito tem prioridade; senão lê a env var BROPILOT_LLM; senão
     'ollama'. É este o ÚNICO ponto de seleção — quem constrói o Orchestrator
     (build_default_orchestrator / cli.py) chama isto antes de instanciar o
     Orchestrator, que continua recebendo o provider já pronto por injeção.
+
+    `ollama_host` só se aplica ao back-end local; é repassado aqui para que a
+    seleção continue num lugar só, em vez de o chamador instanciar o provider
+    na mão quando precisa mudar o host.
     """
     resolved = (name or os.environ.get("BROPILOT_LLM") or "ollama").strip().lower()
 
     if resolved == "ollama":
-        return OllamaProvider()
+        return OllamaProvider(host=ollama_host) if ollama_host else OllamaProvider()
     if resolved == "openai":
         return OpenAIProvider()
 

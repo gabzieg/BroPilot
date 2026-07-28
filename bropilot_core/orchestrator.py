@@ -20,10 +20,26 @@ from dataclasses import dataclass
 from pathlib import Path
 from typing import TYPE_CHECKING
 
+import tiktoken
+
+from .index.retriever import RetrievedChunk, Retriever
+from .llm import create_provider
+
 if TYPE_CHECKING:
     from bropilot import SaveContext
     from .llm import LLMProvider
-    from .index.retriever import Retriever
+
+
+# Mesma encoding usada em index/build.py e pela mesma razão: é aproximação para
+# o tokenizer do qwen, usada como MEDIDA DE TAMANHO para caber na janela, não
+# como contrato com o modelo. Errar para mais é seguro; o que não pode é o
+# prompt estourar a janela e ser truncado sem aviso.
+_ENCODING = tiktoken.get_encoding("cl100k_base")
+
+# Teto do prompt. Deixa folga dentro do num_ctx do provider (8192) para a
+# RESPOSTA — orçar o prompt inteiro até o limite da janela não deixaria espaço
+# para o modelo escrever.
+DEFAULT_MAX_PROMPT_TOKENS = 5000
 
 
 # Persona do BroPilot. Fica aqui, não hardcoded no meio da lógica, para ser fácil
@@ -39,6 +55,23 @@ SYSTEM_PERSONA = (
 )
 
 
+def _count_tokens(text: str) -> int:
+    return len(_ENCODING.encode(text))
+
+
+def _render_chunk(position: int, chunk: RetrievedChunk) -> str:
+    """Cada chunk vai rotulado com o arquivo de origem para o modelo poder
+    citar a fonte, e para a resposta ser auditável contra a base."""
+    return f"\n[{position}] fonte: {chunk.source_file}\n{chunk.text}"
+
+
+def _has_live_stats(ctx: "SaveContext") -> bool:
+    """Se o snapshot do mod alimentou este contexto. Sem o mod (macOS), o save
+    em disco só dá nível/raça/classe — a resposta é de fidelidade degradada e
+    o Answer precisa dizer isso."""
+    return bool(getattr(ctx, "dump", None))
+
+
 @dataclass
 class Answer:
     """Resposta do orquestrador + rastro para depuração/citação."""
@@ -50,20 +83,79 @@ class Answer:
 class Orchestrator:
     """Fachada única do sistema integrado. CLI e UI só conhecem esta classe."""
 
-    def __init__(self, llm: "LLMProvider", retriever: "Retriever") -> None:
+    def __init__(
+        self,
+        llm: "LLMProvider",
+        retriever: "Retriever",
+        *,
+        max_prompt_tokens: int = DEFAULT_MAX_PROMPT_TOKENS,
+        k: int = 6,
+    ) -> None:
         """Injeção de dependência de propósito: quem constrói o Orchestrator
         escolhe o provider (Ollama hoje, outro amanhã) e o retriever. O
-        orquestrador não instancia back-end nenhum — só os usa."""
-        raise NotImplementedError("scaffold")
+        orquestrador não instancia back-end nenhum — só os usa.
 
-    def ask(self, question: str, ctx: "SaveContext") -> Answer:
+        Públicos de propósito: o CLI precisa do provider para o health_check do
+        boot sem construir um segundo.
+        """
+        self.llm = llm
+        self.retriever = retriever
+        self.max_prompt_tokens = max_prompt_tokens
+        self.k = k
+
+    def ask(self, question: str, ctx: "SaveContext | None" = None) -> Answer:
         """O método principal. Executa os 5 passos do docstring do módulo.
 
-        `ctx` pode vir sem snapshot do mod: nesse caso a ficha da party é magra
-        (só nível/raça/classe) e `Answer.party_had_live_stats` sai False — o
-        sistema responde mesmo assim, degradando com honestidade.
+        `ctx` é OPCIONAL: sem save carregado o sistema responde igual, só com a
+        base de conhecimento (é o modo desta fase). Com save sem snapshot do
+        mod, a ficha da party é magra (só nível/raça/classe) e
+        `Answer.party_had_live_stats` sai False — degradando com honestidade,
+        nunca inventando stats.
         """
-        raise NotImplementedError("scaffold")
+        chunks = self.retriever.search(question, k=self.k)
+
+        # A ficha da party e os signals entram quando serialize.py existir; até
+        # lá, ctx só decide o flag de fidelidade.
+        party_text = ""
+
+        used = self._fit_chunks(chunks, party_text, question)
+        system, user = self._build_prompt(question, party_text, used)
+        text = self.llm.generate(system, user)
+
+        # Fontes = o que REALMENTE alimentou o prompt (pós-corte), deduplicado
+        # preservando a ordem de relevância. Citar um arquivo que foi cortado
+        # por orçamento seria mentir sobre o que embasou a resposta.
+        sources = list(dict.fromkeys(c.source_file for c in used))
+
+        return Answer(
+            text=text,
+            sources=sources,
+            party_had_live_stats=False if ctx is None else _has_live_stats(ctx),
+        )
+
+    def _fit_chunks(
+        self, chunks: list[RetrievedChunk], party_text: str, question: str
+    ) -> list[RetrievedChunk]:
+        """Quais chunks cabem no orçamento, do mais relevante para o menos.
+
+        Corta pelo FIM (os chunks vêm ordenados por score), então o que se
+        perde é sempre o menos relevante. O estado da party e a pergunta nunca
+        são cortados — se só eles já estouram o teto, seguem mesmo assim, sem
+        chunk nenhum: é melhor responder com a party e sem contexto do que
+        descartar o estado do jogador.
+        """
+        fixed = self._render_prompt(question, party_text, [])
+        budget = self.max_prompt_tokens - _count_tokens(fixed)
+
+        used: list[RetrievedChunk] = []
+        spent = 0
+        for chunk in chunks:
+            cost = _count_tokens(_render_chunk(len(used) + 1, chunk))
+            if spent + cost > budget:
+                break
+            used.append(chunk)
+            spent += cost
+        return used
 
     def _build_prompt(
         self, question: str, party_text: str, chunks: list
@@ -71,7 +163,34 @@ class Orchestrator:
         """Monta (system, user) final. Ponto onde o orçamento de contexto é
         respeitado: se party_text + chunks + pergunta passar do teto do modelo
         local, corta chunks pela relevância (nunca corta o estado da party)."""
-        raise NotImplementedError("scaffold")
+        used = self._fit_chunks(chunks, party_text, question)
+        return SYSTEM_PERSONA, self._render_prompt(question, party_text, used)
+
+    def _render_prompt(
+        self, question: str, party_text: str, chunks: list[RetrievedChunk]
+    ) -> str:
+        """Serializa a mensagem do usuário. Seções bem demarcadas para o modelo
+        distinguir o que é material recuperado, o que é estado do jogo e o que
+        é a pergunta — misturar os três é o caminho curto para o modelo tratar
+        a pergunta como contexto."""
+        blocks = ["=== CONTEXTO RECUPERADO DA BASE ==="]
+        if chunks:
+            blocks.extend(
+                _render_chunk(i, c) for i, c in enumerate(chunks, start=1)
+            )
+        else:
+            blocks.append("(nada recuperado para esta pergunta)")
+
+        blocks.append("\n=== ESTADO DA PARTY ===")
+        blocks.append(
+            party_text
+            or "(nenhum save carregado — responda de forma geral e não invente "
+               "detalhes da party)"
+        )
+
+        blocks.append("\n=== PERGUNTA ===")
+        blocks.append(question)
+        return "\n".join(blocks)
 
 
 def build_default_orchestrator(
@@ -79,6 +198,7 @@ def build_default_orchestrator(
     llm_provider: str | None = None,
     ollama_host: str = "http://localhost:11434",
     store_dir: Path | None = None,
+    llm: "LLMProvider | None" = None,
 ) -> "Orchestrator":
     """Monta o Orchestrator com os defaults do MVP (Ollama local + LanceDB).
 
@@ -88,5 +208,10 @@ def build_default_orchestrator(
     `llm.create_provider()` — é aqui, e só aqui, que a etapa 2 (modelo de
     custo baixo via API) se pluga; o Orchestrator continua recebendo o
     provider já pronto por injeção, sem saber qual back-end é.
+
+    `llm` já construído pode ser passado para evitar instanciar dois providers
+    quando o chamador precisou de um antes (o CLI faz health_check no boot).
     """
-    raise NotImplementedError("scaffold")
+    provider = llm or create_provider(llm_provider, ollama_host=ollama_host)
+    retriever = Retriever(provider, store_dir) if store_dir else Retriever(provider)
+    return Orchestrator(provider, retriever)
