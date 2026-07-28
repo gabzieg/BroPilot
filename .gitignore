@@ -19,3 +19,4 @@ char_struct.json
 
 # Staging de empacotamento do mod
 BroPilot-SaveParser/build/
+.claude/

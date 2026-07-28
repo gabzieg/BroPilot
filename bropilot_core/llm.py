@@ -18,11 +18,15 @@ implementação PRECISA respeitar (setup "mesma máquina do BG3"):
 
 Etapa 2: OpenAIProvider (GPT-4o-mini via API oficial da OpenAI). Selecionável
 no boot pela env var BROPILOT_LLM=ollama|openai (default ollama) via
-`create_provider()` — ver essa função no fim do módulo. Importante: embed()
-do OpenAIProvider NÃO usa a OpenAI, continua delegando ao Ollama/nomic-embed-
-text, porque o índice vetorial já existente foi construído com esse modelo
-(ver DECISION.md e index/build.py). Geração e embedding têm back-ends
-independentes nesta etapa.
+`create_provider()` — ver essa função no fim do módulo.
+
+Decisão de MVP revista para full-cloud (DECISION.md/README.md ainda descrevem
+a versão anterior, local-only, e precisam de atualização): embed() do
+OpenAIProvider usa de verdade a API de embeddings da OpenAI
+(text-embedding-3-small) — não delega mais ao Ollama. Geração e embedding
+compartilham o mesmo back-end nesta etapa. Um índice já construído com
+nomic-embed-text é incompatível com este espaço vetorial e precisa ser
+reconstruído (`build_index(rebuild=True)`) antes do retriever poder usá-lo.
 """
 
 from __future__ import annotations
@@ -93,42 +97,40 @@ class OllamaProvider:
 
 
 class OpenAIProvider:
-    """Implementação em nuvem do LLMProvider (Fase 2 do roadmap): geração via
-    GPT-4o-mini pela API oficial da OpenAI, chamada via HTTP puro (`requests`)
-    — mesmo estilo do OllamaProvider, sem adicionar o SDK `openai` como
-    dependência nova.
+    """Implementação em nuvem do LLMProvider: geração via GPT-4o-mini e
+    embeddings via text-embedding-3-small, ambos pela API oficial da OpenAI,
+    chamados via HTTP puro (`requests`) — mesmo estilo do OllamaProvider, sem
+    adicionar o SDK `openai` como dependência nova.
 
-    embed() NÃO usa a OpenAI. O índice vetorial existente foi construído com
-    nomic-embed-text via Ollama (ver `index/build.py` e `DECISION.md`); trocar
-    o modelo de embedding aqui produziria um espaço vetorial incompatível e o
-    retrieval voltaria lixo sem erro nenhum. Por isso embed() delega a um
-    LLMProvider local injetado (default: OllamaProvider com os defaults de
-    sempre) — geração e embedding têm back-ends independentes nesta fase.
+    embed() usa o MESMO modelo (embed_model, default text-embedding-3-small)
+    que index/build.py usa para indexar a base — build e query PRECISAM
+    concordar, senão o espaço vetorial não bate e o retrieval volta lixo sem
+    erro nenhum. Por isso não existe um segundo caminho de embedding no
+    projeto: tudo passa por este método.
     """
 
     _DEFAULT_BASE_URL = "https://api.openai.com/v1"
+    _EMBED_BATCH_SIZE = 100  # textos por request; folga generosa sob o limite de 2048 itens/lote da OpenAI
 
     def __init__(
         self,
         *,
         api_key: str | None = None,
         chat_model: str = "gpt-4o-mini",
+        embed_model: str = "text-embedding-3-small",
         base_url: str = _DEFAULT_BASE_URL,
         timeout_s: float = 60.0,
-        embed_provider: "LLMProvider | None" = None,
     ) -> None:
         """Guarda config; não faz chamada de rede aqui (ver health_check).
 
         api_key vem de OPENAI_API_KEY quando não passada explicitamente —
-        nunca hardcode a chave. embed_provider é construído sob demanda (lazy,
-        em embed()) para não instanciar/tocar o Ollama só porque alguém criou
-        um OpenAIProvider para gerar texto.
+        nunca hardcode a chave.
         """
         self._api_key = api_key or os.environ.get("OPENAI_API_KEY")
         self._chat_model = chat_model
+        self._embed_model = embed_model
         self._base_url = base_url.rstrip("/")
         self._timeout_s = timeout_s
-        self._embed_provider = embed_provider
 
     def _require_api_key(self, context: str) -> str:
         if not self._api_key:
@@ -186,11 +188,56 @@ class OpenAIProvider:
         return response.json()["choices"][0]["message"]["content"]
 
     def embed(self, texts: Sequence[str]) -> list[list[float]]:
-        """Delega ao embed_provider local (Ollama/nomic-embed-text) — ver a
-        docstring da classe para a razão de não usar embeddings da OpenAI."""
-        if self._embed_provider is None:
-            self._embed_provider = OllamaProvider()
-        return self._embed_provider.embed(texts)
+        """POST {base_url}/embeddings em lotes de até _EMBED_BATCH_SIZE
+        textos. Retorna um vetor por texto, na mesma ordem de entrada.
+
+        Mesmo tratamento de erro de generate(): key ausente/errada (401),
+        API fora do ar, timeout — nunca stack trace cru.
+        """
+        if not texts:
+            return []
+
+        api_key = self._require_api_key("gerar embeddings")
+        vectors: list[list[float]] = []
+
+        for start in range(0, len(texts), self._EMBED_BATCH_SIZE):
+            batch = texts[start : start + self._EMBED_BATCH_SIZE]
+
+            try:
+                response = requests.post(
+                    f"{self._base_url}/embeddings",
+                    headers={"Authorization": f"Bearer {api_key}"},
+                    json={"model": self._embed_model, "input": batch},
+                    timeout=self._timeout_s,
+                )
+            except requests.exceptions.Timeout as exc:
+                raise RuntimeError(
+                    f"OpenAI não respondeu em {self._timeout_s}s ao gerar "
+                    "embeddings. Tente de novo ou aumente timeout_s."
+                ) from exc
+            except requests.exceptions.ConnectionError as exc:
+                raise RuntimeError(
+                    f"Não foi possível conectar em {self._base_url} — confira "
+                    "a rede ou o base_url configurado."
+                ) from exc
+
+            if response.status_code == 401:
+                raise RuntimeError(
+                    "OpenAI recusou a OPENAI_API_KEY (401). Confira se a "
+                    f"chave é válida e tem acesso ao modelo "
+                    f"'{self._embed_model}'."
+                )
+            if not response.ok:
+                raise RuntimeError(
+                    f"Erro na API da OpenAI ({response.status_code}): "
+                    f"{response.text[:500]}"
+                )
+
+            # a API não garante ordem de retorno == ordem de entrada; "index" reordena
+            data = sorted(response.json()["data"], key=lambda item: item["index"])
+            vectors.extend(item["embedding"] for item in data)
+
+        return vectors
 
     def health_check(self) -> bool:
         """API key configurada e a API responde? Chamado no boot do CLI para

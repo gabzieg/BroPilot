@@ -1,8 +1,9 @@
 """Testes mínimos do OpenAIProvider e da seleção de back-end (create_provider).
 
 Não há suíte de testes no repo ainda (ver CLAUDE.md) — este arquivo cobre só o
-que foi pedido ao adicionar o back-end OpenAI: health_check falhando com
-mensagem clara sem tocar rede de verdade, e o default de back-end permanecendo
+que foi pedido ao adicionar o back-end OpenAI: health_check e embed()
+falhando com mensagem clara sem tocar rede de verdade, o batching de embed()
+respeitando o teto de itens por request, e o default de back-end permanecendo
 Ollama quando BROPILOT_LLM não está setada.
 """
 
@@ -45,6 +46,55 @@ class OpenAIProviderHealthCheckTest(unittest.TestCase):
         # Sem key, nem tenta HTTP — falha antes, mensagem clara.
         mock_get.assert_not_called()
         self.assertIn("OPENAI_API_KEY", str(ctx.exception))
+
+
+class OpenAIProviderEmbedTest(unittest.TestCase):
+    @patch("bropilot_core.llm.requests.post")
+    def test_embed_batches_requests_by_batch_size(self, mock_post):
+        provider = OpenAIProvider(api_key="sk-fake")
+        provider._EMBED_BATCH_SIZE = 2  # facilita forçar múltiplos lotes no teste
+
+        def fake_response(texts):
+            resp = MagicMock()
+            resp.status_code = 200
+            resp.ok = True
+            resp.json.return_value = {
+                "data": [
+                    {"index": i, "embedding": [float(i)]} for i, _ in enumerate(texts)
+                ]
+            }
+            return resp
+
+        mock_post.side_effect = [
+            fake_response(["a", "b"]),
+            fake_response(["c"]),
+        ]
+
+        vectors = provider.embed(["a", "b", "c"])
+
+        self.assertEqual(mock_post.call_count, 2)
+        self.assertEqual(vectors, [[0.0], [1.0], [0.0]])
+        first_call_body = mock_post.call_args_list[0].kwargs["json"]
+        self.assertEqual(first_call_body["model"], "text-embedding-3-small")
+        self.assertEqual(first_call_body["input"], ["a", "b"])
+
+    @patch("bropilot_core.llm.requests.post")
+    def test_embed_fails_clearly_on_bad_key(self, mock_post):
+        mock_response = MagicMock()
+        mock_response.status_code = 401
+        mock_response.ok = False
+        mock_post.return_value = mock_response
+
+        provider = OpenAIProvider(api_key="sk-fake-nao-existe")
+
+        with self.assertRaises(RuntimeError) as ctx:
+            provider.embed(["algum texto"])
+
+        self.assertIn("401", str(ctx.exception))
+
+    def test_embed_returns_empty_list_without_any_call(self):
+        provider = OpenAIProvider(api_key="sk-fake")
+        self.assertEqual(provider.embed([]), [])
 
 
 class CreateProviderDefaultTest(unittest.TestCase):
