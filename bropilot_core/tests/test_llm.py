@@ -13,7 +13,9 @@ import os
 import unittest
 from unittest.mock import MagicMock, patch
 
-from bropilot_core.llm import OpenAIProvider, create_provider
+import requests
+
+from bropilot_core.llm import OllamaProvider, OpenAIProvider, create_provider
 
 
 class OpenAIProviderHealthCheckTest(unittest.TestCase):
@@ -97,19 +99,122 @@ class OpenAIProviderEmbedTest(unittest.TestCase):
         self.assertEqual(provider.embed([]), [])
 
 
+class OllamaProviderTest(unittest.TestCase):
+    """Todos os testes mockam requests — nenhuma chamada real ao Ollama."""
+
+    @staticmethod
+    def _ok(payload):
+        response = MagicMock()
+        response.status_code = 200
+        response.ok = True
+        response.json.return_value = payload
+        return response
+
+    @patch("bropilot_core.llm.requests.post")
+    def test_generate_extracts_text_from_chat_response(self, mock_post):
+        mock_post.return_value = self._ok(
+            {"model": "qwen2.5", "message": {"role": "assistant", "content": "Tavern Brawler."}, "done": True}
+        )
+
+        answer = OllamaProvider().generate("persona", "qual feat?")
+
+        self.assertEqual(answer, "Tavern Brawler.")
+        body = mock_post.call_args.kwargs["json"]
+        self.assertIs(body["stream"], False)
+        self.assertEqual(
+            [m["role"] for m in body["messages"]], ["system", "user"]
+        )
+
+    @patch("bropilot_core.llm.requests.post")
+    def test_embed_preserves_input_order_across_batches(self, mock_post):
+        provider = OllamaProvider(embed_batch_size=2)
+        texts = ["a", "b", "c", "d", "e"]
+
+        # cada vetor carrega o texto que o gerou, pra provar o alinhamento
+        # texto->vetor mesmo com a resposta chegando em 3 lotes distintos.
+        def respond(url, json, timeout):
+            return self._ok(
+                {"embeddings": [[float(ord(t))] for t in json["input"]]}
+            )
+
+        mock_post.side_effect = respond
+
+        vectors = provider.embed(texts)
+
+        self.assertEqual(mock_post.call_count, 3)  # 2 + 2 + 1
+        self.assertEqual(vectors, [[float(ord(t))] for t in texts])
+
+    @patch("bropilot_core.llm.requests.post")
+    def test_embed_rejects_response_with_mismatched_length(self, mock_post):
+        # se o Ollama devolvesse menos vetores que textos, gravar assim
+        # desalinharia texto e vetor no índice silenciosamente.
+        mock_post.return_value = self._ok({"embeddings": [[0.1]]})
+
+        with self.assertRaises(RuntimeError) as ctx:
+            OllamaProvider().embed(["a", "b"])
+
+        self.assertIn("desalinhado", str(ctx.exception))
+
+    @patch("bropilot_core.llm.requests.post")
+    def test_generate_reports_missing_model_with_pull_command(self, mock_post):
+        response = MagicMock()
+        response.status_code = 404
+        response.ok = False
+        mock_post.return_value = response
+
+        with self.assertRaises(RuntimeError) as ctx:
+            OllamaProvider(chat_model="qwen2.5:7b-instruct-q4_K_M").generate("s", "u")
+
+        self.assertIn("ollama pull qwen2.5:7b-instruct-q4_K_M", str(ctx.exception))
+
+    @patch("bropilot_core.llm.requests.get")
+    def test_health_check_when_ollama_is_down(self, mock_get):
+        mock_get.side_effect = requests.exceptions.ConnectionError()
+
+        with self.assertRaises(RuntimeError) as ctx:
+            OllamaProvider().health_check()
+
+        self.assertIn("ollama serve", str(ctx.exception))
+
+    @patch("bropilot_core.llm.requests.get")
+    def test_health_check_reports_which_model_is_missing(self, mock_get):
+        # chat instalado, embed faltando
+        mock_get.return_value = self._ok(
+            {"models": [{"name": "qwen2.5:7b-instruct-q4_K_M"}]}
+        )
+
+        with self.assertRaises(RuntimeError) as ctx:
+            OllamaProvider().health_check()
+
+        message = str(ctx.exception)
+        self.assertIn("ollama pull bge-m3", message)
+        self.assertNotIn("ollama pull qwen2.5", message)  # esse está instalado
+
+    @patch("bropilot_core.llm.requests.get")
+    def test_health_check_accepts_latest_tag_for_untagged_model(self, mock_get):
+        # /api/tags devolve "bge-m3:latest"; o config diz "bge-m3".
+        # Sem normalizar, reportaria falta do que existe.
+        mock_get.return_value = self._ok(
+            {
+                "models": [
+                    {"name": "bge-m3:latest"},
+                    {"name": "qwen2.5:7b-instruct-q4_K_M"},
+                ]
+            }
+        )
+
+        self.assertTrue(OllamaProvider().health_check())
+
+
 class CreateProviderDefaultTest(unittest.TestCase):
     def test_default_backend_is_still_ollama_when_env_unset(self):
         with patch.dict(os.environ, {}, clear=False):
             os.environ.pop("BROPILOT_LLM", None)
 
-            # OllamaProvider ainda é scaffold (__init__ levanta
-            # NotImplementedError) — isso É a prova de que create_provider()
-            # tentou construir Ollama, e não OpenAI, quando BROPILOT_LLM não
-            # está setada. Se o default tivesse virado "openai" sem querer,
-            # esta linha não levantaria nada (OpenAIProvider() não falha
-            # eager no __init__ mesmo sem key).
-            with self.assertRaises(NotImplementedError):
-                create_provider()
+            # Antes o OllamaProvider era scaffold e este teste provava o
+            # default via NotImplementedError; agora que ele está implementado,
+            # a prova é o tipo devolvido.
+            self.assertIsInstance(create_provider(), OllamaProvider)
 
     def test_explicit_openai_selection_returns_openai_provider(self):
         provider = create_provider("openai")

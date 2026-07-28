@@ -11,8 +11,12 @@ MVP: OllamaProvider, tudo local, mesma GPU do jogo. Implicações que a
 implementação PRECISA respeitar (setup "mesma máquina do BG3"):
 - Modelo de geração pequeno/quantizado (ex.: qwen2.5:7b-instruct-q4_K_M) para
   não brigar por VRAM com o jogo aberto.
-- Embeddings via nomic-embed-text (também no Ollama) — zero dependência nova, um
-  runtime só serve LLM e embeddings.
+- Embeddings via bge-m3 (também no Ollama) — zero dependência nova, um runtime
+  só serve LLM e embeddings. bge-m3 e não nomic-embed-text porque a base é
+  quase toda em inglês mas as perguntas vêm em português: medido, o nomic dá
+  similaridade 0.443 entre "dano desarmado" e "unarmed damage" contra 0.380 de
+  um par não-relacionado — separação perto de zero, retrieval vira sorteio. O
+  bge-m3 é multilíngue e leva o mesmo par a 0.723 contra 0.282 do controle.
 - Host configurável (default http://localhost:11434); a etapa 2 aponta o mesmo
   método para um endpoint remoto sem tocar no resto.
 
@@ -58,6 +62,28 @@ class LLMProvider(Protocol):
         vetorial não bate."""
         ...
 
+    @property
+    def embed_model(self) -> str:
+        """Identidade do modelo de embedding, exposta para que o índice possa
+        REGISTRAR com que espaço vetorial foi construído e o retriever possa
+        RECUSAR consultá-lo com outro (ver index/build.py:
+        assert_embedding_compatible). Sem isso, indexar com um modelo e
+        consultar com outro devolve resultados errados sem erro nenhum — o
+        modo de falha mais caro do RAG, porque parece que funciona."""
+        ...
+
+
+def _model_is_installed(model: str, installed: set[str]) -> bool:
+    """O /api/tags devolve o nome COM tag ("nomic-embed-text:latest"), mas o
+    usuário configura sem tag ("nomic-embed-text"). Comparar string crua
+    reportaria "modelo faltando" com o modelo instalado — daí a normalização:
+    sem tag configurada, casa contra o nome base do que está instalado."""
+    if model in installed:
+        return True
+    if ":" in model:
+        return False
+    return any(name.split(":", 1)[0] == model for name in installed)
+
 
 class OllamaProvider:
     """Implementação local do LLMProvider via API HTTP do Ollama.
@@ -71,29 +97,172 @@ class OllamaProvider:
         *,
         host: str = "http://localhost:11434",
         chat_model: str = "qwen2.5:7b-instruct-q4_K_M",
-        embed_model: str = "nomic-embed-text",
+        embed_model: str = "bge-m3",
         timeout_s: float = 120.0,
+        embed_timeout_s: float = 300.0,
+        embed_batch_size: int = 32,
     ) -> None:
         """Guarda config. Ver docstring do módulo para a razão dos defaults
-        (VRAM compartilhada com o BG3)."""
-        raise NotImplementedError("scaffold")
+        (VRAM compartilhada com o BG3).
+
+        embed_timeout_s é separado de timeout_s porque indexar a base manda
+        lotes grandes para uma GPU que também roda o jogo — o teto de 120s que
+        serve para uma geração interativa estoura numa fila de embeddings.
+        """
+        self._host = host.rstrip("/")
+        self._chat_model = chat_model
+        self._embed_model = embed_model
+        self._timeout_s = timeout_s
+        self._embed_timeout_s = embed_timeout_s
+        self._embed_batch_size = embed_batch_size
+
+    @property
+    def embed_model(self) -> str:
+        return self._embed_model
+
+    def _post(
+        self, path: str, payload: dict, *, timeout_s: float, model: str, context: str
+    ) -> dict:
+        """POST + tratamento de erro comum a generate() e embed().
+
+        Centralizado porque os três modos de falha (Ollama fora do ar, modelo
+        não baixado, timeout) são idênticos nos dois métodos e cada um precisa
+        virar mensagem acionável, nunca stack trace cru.
+        """
+        try:
+            response = requests.post(
+                f"{self._host}{path}", json=payload, timeout=timeout_s
+            )
+        except requests.exceptions.Timeout as exc:
+            raise RuntimeError(
+                f"Ollama não respondeu em {timeout_s}s ao {context}. Modelo "
+                "local é lento na primeira chamada (carrega na VRAM); tente de "
+                "novo ou aumente o timeout."
+            ) from exc
+        except requests.exceptions.ConnectionError as exc:
+            raise RuntimeError(
+                f"Não foi possível conectar no Ollama em {self._host}. "
+                "Suba o serviço com `ollama serve` e tente de novo."
+            ) from exc
+
+        # 404 no Ollama = modelo não baixado; é o erro mais comum no primeiro uso.
+        if response.status_code == 404:
+            raise RuntimeError(
+                f"Ollama não encontrou o modelo '{model}'. "
+                f"Baixe com: ollama pull {model}"
+            )
+        if not response.ok:
+            raise RuntimeError(
+                f"Erro na API do Ollama ({response.status_code}) ao {context}: "
+                f"{response.text[:500]}"
+            )
+
+        return response.json()
 
     def generate(self, system: str, user: str) -> str:
         """POST /api/chat com messages=[system, user]. Retorna o texto da resposta.
 
-        Deve tratar: Ollama offline (erro claro "suba o ollama serve"), modelo
-        não baixado (erro "rode ollama pull <model>"), e timeout.
+        stream=False porque o CLI de MVP consome a resposta inteira de uma vez
+        (ver docstring do Protocol).
         """
-        raise NotImplementedError("scaffold")
+        payload = self._post(
+            "/api/chat",
+            {
+                "model": self._chat_model,
+                "messages": [
+                    {"role": "system", "content": system},
+                    {"role": "user", "content": user},
+                ],
+                "stream": False,
+            },
+            timeout_s=self._timeout_s,
+            model=self._chat_model,
+            context="gerar uma resposta",
+        )
+        return payload["message"]["content"]
 
     def embed(self, texts: Sequence[str]) -> list[list[float]]:
-        """POST /api/embed em lote. Retorna um vetor por texto, na mesma ordem."""
-        raise NotImplementedError("scaffold")
+        """POST /api/embed em lote. Retorna um vetor por texto, na mesma ordem.
+
+        /api/embed aceita uma lista em `input` e devolve `embeddings` na mesma
+        ordem, mas mandar milhares de chunks de uma vez (um doc grande da base)
+        vira um request gigante numa GPU compartilhada com o jogo. Por isso
+        fatia em lotes de embed_batch_size e imprime progresso quando há mais
+        de um lote — indexar a base não é instantâneo e o usuário precisa ver
+        que anda. Uma query solta (1 texto) não imprime nada.
+        """
+        if not texts:
+            return []
+
+        vectors: list[list[float]] = []
+        total_batches = (len(texts) + self._embed_batch_size - 1) // self._embed_batch_size
+
+        for batch_number, start in enumerate(
+            range(0, len(texts), self._embed_batch_size), start=1
+        ):
+            batch = list(texts[start : start + self._embed_batch_size])
+
+            payload = self._post(
+                "/api/embed",
+                {"model": self._embed_model, "input": batch},
+                timeout_s=self._embed_timeout_s,
+                model=self._embed_model,
+                context="gerar embeddings",
+            )
+
+            embeddings = payload["embeddings"]
+            if len(embeddings) != len(batch):
+                raise RuntimeError(
+                    "Ollama devolveu "
+                    f"{len(embeddings)} embeddings para {len(batch)} textos — "
+                    "resposta inconsistente, o índice ficaria desalinhado."
+                )
+            vectors.extend(embeddings)
+
+            if total_batches > 1:
+                print(
+                    f"  embeddings: lote {batch_number}/{total_batches} "
+                    f"({len(vectors)}/{len(texts)} textos)"
+                )
+
+        return vectors
 
     def health_check(self) -> bool:
         """Ollama no ar e ambos os modelos disponíveis? Chamado no boot do CLI
         para falhar cedo com mensagem útil, em vez de estourar no meio da query."""
-        raise NotImplementedError("scaffold")
+        try:
+            response = requests.get(f"{self._host}/api/tags", timeout=self._timeout_s)
+        except requests.exceptions.Timeout as exc:
+            raise RuntimeError(
+                f"Ollama não respondeu em {self._timeout_s}s no health check "
+                f"({self._host})."
+            ) from exc
+        except requests.exceptions.ConnectionError as exc:
+            raise RuntimeError(
+                f"Ollama não está no ar em {self._host}. "
+                "Suba o serviço com `ollama serve` e tente de novo."
+            ) from exc
+
+        if not response.ok:
+            raise RuntimeError(
+                f"Health check do Ollama falhou ({response.status_code}): "
+                f"{response.text[:500]}"
+            )
+
+        installed = {model.get("name", "") for model in response.json().get("models", [])}
+        missing = [
+            model
+            for model in (self._chat_model, self._embed_model)
+            if not _model_is_installed(model, installed)
+        ]
+        if missing:
+            comandos = "\n".join(f"  ollama pull {model}" for model in missing)
+            raise RuntimeError(
+                "Modelo(s) não baixado(s) no Ollama: "
+                f"{', '.join(missing)}.\nBaixe com:\n{comandos}"
+            )
+
+        return True
 
 
 class OpenAIProvider:
@@ -131,6 +300,10 @@ class OpenAIProvider:
         self._embed_model = embed_model
         self._base_url = base_url.rstrip("/")
         self._timeout_s = timeout_s
+
+    @property
+    def embed_model(self) -> str:
+        return self._embed_model
 
     def _require_api_key(self, context: str) -> str:
         if not self._api_key:

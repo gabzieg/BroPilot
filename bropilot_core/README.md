@@ -56,7 +56,7 @@ modelo enxerga a party) e como sinal (dirige o retrieval). É o design
 
 - **Vector store: LanceDB** — embarcado, leve, sem servidor. Isolado atrás do
   `Retriever`, então trocar depois é local a `index/`.
-- **Embeddings: `nomic-embed-text` via Ollama** — mesmo runtime do LLM, zero
+- **Embeddings: `bge-m3` via Ollama** — mesmo runtime do LLM, zero
   dependência nova. Mesmo modelo na indexação e no runtime (senão o espaço
   vetorial não bate).
 - **Chat model default: `qwen2.5:7b-instruct-q4_K_M`** — quantizado para não
@@ -80,7 +80,7 @@ modelo enxerga a party) e como sinal (dirige o retrieval). É o design
 # 1. suba o Ollama e baixe os modelos
 ollama serve
 ollama pull qwen2.5:7b-instruct-q4_K_M
-ollama pull nomic-embed-text
+ollama pull bge-m3
 
 # 2. indexe a base (uma vez, jogo fechado)
 python -m bropilot_core.index.build

@@ -13,7 +13,7 @@ O --dump permite testar no Mac com um snapshot salvo do mod, sem o jogo aberto
 
 Back-end de LLM selecionável via env var BROPILOT_LLM=ollama|openai (default
 ollama) — ver `llm.create_provider()`. A escolha só afeta generate(); os
-embeddings do RAG continuam vindo do Ollama/nomic-embed-text independente do
+embeddings do RAG continuam vindo do Ollama/bge-m3 independente do
 back-end de geração (ver DECISION.md).
 """
 

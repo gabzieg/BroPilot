@@ -37,7 +37,16 @@ class Retriever:
     def __init__(self, llm: "LLMProvider", store_dir: Path = STORE_DIR) -> None:
         """Guarda o provider (para embedar a query) e abre o índice em modo
         leitura. Falha cedo com mensagem útil se o índice não existe ("rode
-        python -m bropilot_core.index.build primeiro")."""
+        python -m bropilot_core.index.build primeiro").
+
+        OBRIGATÓRIO ao implementar: chamar `assert_embedding_compatible(llm,
+        store_dir)` (de .build) antes de servir qualquer query. Ela compara o
+        modelo de embedding gravado no manifest do índice com o do provider
+        que vetorizará a query, e falha alto se divergirem. Sem essa trava,
+        indexar com um modelo e consultar com outro não dá erro — só devolve
+        os chunks errados, que é o modo de falha mais caro do RAG porque
+        parece que está funcionando.
+        """
         raise NotImplementedError("scaffold")
 
     def search(

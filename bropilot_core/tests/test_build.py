@@ -6,19 +6,43 @@ tudo roda contra .md sintéticos em diretórios temporários.
 
 from __future__ import annotations
 
+import json
+import os
 import tempfile
 import unittest
 from pathlib import Path
 from unittest.mock import patch
 
+import lancedb
+
 from bropilot_core.index.build import (
     _MAX_CHUNK_TOKENS,
-    _OVERLAP_TOKENS,
     _count_tokens,
+    assert_embedding_compatible,
     build_index,
     chunk_document,
     classify_source,
 )
+
+
+class _FakeProvider:
+    """LLMProvider de mentira: embed determinístico, sem rede. Existe para
+    injetar uma identidade de embed_model diferente e exercitar as travas de
+    compatibilidade do índice."""
+
+    def __init__(self, embed_model: str, dim: int = 2) -> None:
+        self._embed_model = embed_model
+        self._dim = dim
+
+    @property
+    def embed_model(self) -> str:
+        return self._embed_model
+
+    def embed(self, texts):
+        return [[float(i)] * self._dim for i, _ in enumerate(texts)]
+
+    def generate(self, system: str, user: str) -> str:
+        raise NotImplementedError
 
 
 class ClassifySourceTest(unittest.TestCase):
@@ -153,22 +177,27 @@ class BuildIndexTest(unittest.TestCase):
 
     @staticmethod
     def _fake_embed(self, texts):
-        # assinatura bate com OpenAIProvider.embed (self, texts) porque é
-        # usado como side_effect de um patch no método da classe.
+        # assinatura bate com <Provider>.embed (self, texts) porque é usado
+        # como side_effect de um patch autospec no método da classe.
         return [[float(i), float(len(text))] for i, text in enumerate(texts)]
 
-    def test_build_index_creates_table_with_expected_schema_and_row_count(self):
-        with patch(
-            "bropilot_core.llm.OpenAIProvider.embed",
+    def _patch_ollama_embed(self):
+        """Mocka o embed do provider DEFAULT (Ollama). Nenhuma rede real."""
+        return patch(
+            "bropilot_core.llm.OllamaProvider.embed",
             autospec=True,
             side_effect=self._fake_embed,
-        ) as mock_embed:
+        )
+
+    def _read_manifest(self):
+        return json.loads((self.store_dir / "manifest.json").read_text(encoding="utf-8"))
+
+    def test_build_index_creates_table_with_expected_schema_and_row_count(self):
+        with self._patch_ollama_embed() as mock_embed:
             n = build_index(trusted_dir=self.trusted_dir, store_dir=self.store_dir, rebuild=False)
 
         mock_embed.assert_called()  # embed foi chamado (mockado) — nunca requests real
         self.assertEqual(n, self.expected_chunk_count)
-
-        import lancedb
 
         db = lancedb.connect(str(self.store_dir))
         table = db.open_table("chunks")
@@ -177,22 +206,132 @@ class BuildIndexTest(unittest.TestCase):
         self.assertEqual(table.count_rows(), self.expected_chunk_count)
 
     def test_rebuild_true_does_not_duplicate_rows_across_runs(self):
-        with patch(
-            "bropilot_core.llm.OpenAIProvider.embed",
-            autospec=True,
-            side_effect=self._fake_embed,
-        ):
+        with self._patch_ollama_embed():
             n1 = build_index(trusted_dir=self.trusted_dir, store_dir=self.store_dir, rebuild=True)
             n2 = build_index(trusted_dir=self.trusted_dir, store_dir=self.store_dir, rebuild=True)
 
         self.assertEqual(n1, self.expected_chunk_count)
         self.assertEqual(n2, self.expected_chunk_count)  # rebuild reprocessa tudo de novo, não é 0
 
-        import lancedb
-
         db = lancedb.connect(str(self.store_dir))
         table = db.open_table("chunks")
         self.assertEqual(table.count_rows(), self.expected_chunk_count)  # não duplicou
+
+    def test_uses_ollama_by_default_when_env_unset(self):
+        with patch.dict(os.environ, {}, clear=False):
+            os.environ.pop("BROPILOT_LLM", None)
+
+            with self._patch_ollama_embed() as ollama_embed, patch(
+                "bropilot_core.llm.OpenAIProvider.embed",
+                autospec=True,
+                side_effect=AssertionError("OpenAI não deveria ser usado no default"),
+            ) as openai_embed:
+                build_index(trusted_dir=self.trusted_dir, store_dir=self.store_dir, rebuild=True)
+
+        ollama_embed.assert_called()
+        openai_embed.assert_not_called()
+        self.assertEqual(self._read_manifest()["embed_model"], "bge-m3")
+
+    def test_manifest_records_embed_model_and_dim(self):
+        with self._patch_ollama_embed():
+            build_index(trusted_dir=self.trusted_dir, store_dir=self.store_dir, rebuild=True)
+
+        manifest = self._read_manifest()
+        self.assertEqual(manifest["embed_model"], "bge-m3")
+        self.assertEqual(manifest["embed_dim"], 2)  # _fake_embed devolve vetores de 2 posições
+        self.assertEqual(set(manifest["files"]), {"build_a.md", "forum_b.md", "steam_c.md"})
+
+    def test_incremental_is_refused_when_embed_model_changed(self):
+        with self._patch_ollama_embed():
+            build_index(trusted_dir=self.trusted_dir, store_dir=self.store_dir, rebuild=True)
+
+        outro_modelo = _FakeProvider(embed_model="text-embedding-3-small")
+
+        with self.assertRaises(RuntimeError) as ctx:
+            build_index(
+                trusted_dir=self.trusted_dir,
+                store_dir=self.store_dir,
+                rebuild=False,
+                llm=outro_modelo,
+            )
+
+        message = str(ctx.exception)
+        self.assertIn("bge-m3", message)
+        self.assertIn("text-embedding-3-small", message)
+        self.assertIn("--rebuild", message)
+        # e não escreveu nada com o modelo novo por cima do índice antigo
+        self.assertEqual(self._read_manifest()["embed_model"], "bge-m3")
+
+    def test_incremental_is_refused_when_manifest_is_lost(self):
+        with self._patch_ollama_embed():
+            build_index(trusted_dir=self.trusted_dir, store_dir=self.store_dir, rebuild=True)
+
+        (self.store_dir / "manifest.json").unlink()  # tabela fica, manifest some
+
+        with self._patch_ollama_embed():
+            with self.assertRaises(RuntimeError) as ctx:
+                build_index(
+                    trusted_dir=self.trusted_dir, store_dir=self.store_dir, rebuild=False
+                )
+
+        self.assertIn("--rebuild", str(ctx.exception))
+        # índice intacto, não duplicou
+        table = lancedb.connect(str(self.store_dir)).open_table("chunks")
+        self.assertEqual(table.count_rows(), self.expected_chunk_count)
+
+    def test_rebuild_is_allowed_after_embed_model_changed(self):
+        with self._patch_ollama_embed():
+            build_index(trusted_dir=self.trusted_dir, store_dir=self.store_dir, rebuild=True)
+
+        outro_modelo = _FakeProvider(embed_model="text-embedding-3-small", dim=3)
+        n = build_index(
+            trusted_dir=self.trusted_dir,
+            store_dir=self.store_dir,
+            rebuild=True,
+            llm=outro_modelo,
+        )
+
+        self.assertEqual(n, self.expected_chunk_count)
+        manifest = self._read_manifest()
+        self.assertEqual(manifest["embed_model"], "text-embedding-3-small")
+        self.assertEqual(manifest["embed_dim"], 3)
+
+
+class AssertEmbeddingCompatibleTest(unittest.TestCase):
+    """A trava que o Retriever vai chamar no __init__ (ver docstring dele)."""
+
+    def setUp(self):
+        self._tmp = tempfile.TemporaryDirectory()
+        self.addCleanup(self._tmp.cleanup)
+        self.store_dir = Path(self._tmp.name) / "store"
+        self.store_dir.mkdir()
+
+    def _write_manifest(self, embed_model):
+        (self.store_dir / "manifest.json").write_text(
+            json.dumps({"embed_model": embed_model, "embed_dim": 2, "files": {}}),
+            encoding="utf-8",
+        )
+
+    def test_passes_when_models_match(self):
+        self._write_manifest("nomic-embed-text")
+        assert_embedding_compatible(_FakeProvider("nomic-embed-text"), self.store_dir)
+
+    def test_raises_actionable_error_when_models_diverge(self):
+        self._write_manifest("nomic-embed-text")
+
+        with self.assertRaises(RuntimeError) as ctx:
+            assert_embedding_compatible(
+                _FakeProvider("text-embedding-3-small"), self.store_dir
+            )
+
+        message = str(ctx.exception)
+        self.assertIn("nomic-embed-text", message)
+        self.assertIn("text-embedding-3-small", message)
+        self.assertIn("--rebuild", message)
+
+    def test_silent_when_there_is_no_index_yet(self):
+        # sem manifest, quem abre o índice é que trata a ausência
+        assert_embedding_compatible(_FakeProvider("qualquer"), self.store_dir)
 
 
 if __name__ == "__main__":
