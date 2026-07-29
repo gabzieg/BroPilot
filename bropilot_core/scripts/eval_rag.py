@@ -19,6 +19,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
 import sys
 import time
 from datetime import datetime
@@ -558,10 +559,14 @@ def gerar_relatorio_showcase(resultados: list[dict], meta: dict) -> str:
         "## Setup",
         "",
         f"- Data: **{agora}**",
-        f"- Modelo de geração: `{meta['chat_model']}`",
+        f"- Backend de geração: **{meta.get('gen_backend', 'ollama')}** | "
+        f"Modelo de geração: `{meta['chat_model']}`",
         f"- Temperature: **{meta['temperature']}** | seed: **{meta['seed']}** "
         f"(0 = decodificação gulosa/determinística, não é sorteio)",
-        f"- Modelo de embedding: `{meta['embed_model']}` (dim {meta['embed_dim']})",
+        f"- Backend de embedding: **{meta.get('embed_backend', 'ollama')}** "
+        f"(SEMPRE local, fixo — é o espaço vetorial com que o índice foi "
+        f"construído) | Modelo de embedding: `{meta['embed_model']}` "
+        f"(dim {meta['embed_dim']})",
         f"- Índice: **{meta['chunks']} chunks** de {meta['arquivos']} arquivos",
         # meta['save'] já vem de carregar_save() como frase pronta ("Save
         # carregado: X.lsv" ou o aviso de falha) — sem prefixo aqui, senão
@@ -607,6 +612,31 @@ def gerar_relatorio_showcase(resultados: list[dict], meta: dict) -> str:
         out.append("")
 
     return "\n".join(out)
+
+
+def _resolve_gen_provider(gen_provider_name: str | None, embed_provider):
+    """Escolhe o provider de GERAÇÃO, independente do de EMBEDDING.
+
+    `embed_provider` é sempre o que o Retriever usa para `embed()` — esta
+    função NUNCA o toca nem o substitui. É essa garantia que sustenta a
+    variável única do run com nuvem (ver ACCURACY_TRACKING): o índice LanceDB
+    foi construído com bge-m3 (1024 dim); embedar a query com outro modelo
+    (ex.: OpenAI text-embedding-3-small, 1536 dim) faria a busca voltar lixo
+    ou quebrar por incompatibilidade de dimensão — ver
+    index.build.assert_embedding_compatible, que o Retriever já chama no
+    __init__ contra QUALQUER provider que receba.
+
+    Sem `gen_provider_name` (nem --gen-provider nem BROPILOT_GEN_LLM):
+    devolve o PRÓPRIO `embed_provider`, preservando byte a byte o
+    comportamento anterior (um único provider, tudo-Ollama, geração e
+    embedding pelo mesmo objeto). Só com um nome explícito um provider
+    SEPARADO é instanciado — e só para a geração.
+    """
+    if not gen_provider_name:
+        return embed_provider
+    gen_provider = create_provider(gen_provider_name)
+    gen_provider.health_check()
+    return gen_provider
 
 
 def main(argv: list[str] | None = None) -> int:
@@ -662,6 +692,20 @@ def main(argv: list[str] | None = None) -> int:
              "completa, fontes, latência e um campo 'veredito' vazio para "
              "preenchimento humano). Incompatível com --sem-geracao.",
     )
+    parser.add_argument(
+        "--gen-provider",
+        choices=["ollama", "openai"],
+        default=None,
+        help="provedor de GERAÇÃO, independente do de EMBEDDING. O embedding "
+             "continua SEMPRE em Ollama/bge-m3 — é o espaço vetorial com que "
+             "o índice foi construído; embedar a query com outro modelo "
+             "(ex.: OpenAI) faria a busca voltar lixo ou quebrar por "
+             "incompatibilidade de dimensão. Default: env var "
+             "BROPILOT_GEN_LLM, senão o mesmo provider do embedding "
+             "(comportamento anterior, tudo-Ollama). Ex.: --gen-provider "
+             "openai roda a GERAÇÃO no gpt-4o-mini via OpenAI (precisa de "
+             "OPENAI_API_KEY) mantendo o retrieval intacto em bge-m3 local.",
+    )
     args = parser.parse_args(argv)
 
     if args.showcase and args.sem_geracao:
@@ -676,20 +720,28 @@ def main(argv: list[str] | None = None) -> int:
     store_dir = Path(args.store) if args.store else STORE_DIR
 
     try:
+        # `provider` SEMPRE embeda a query no Retriever — ver
+        # _resolve_gen_provider — para o índice (bge-m3, 1024 dim) nunca
+        # receber uma query embedada com outro modelo.
         provider = create_provider()
         provider.health_check()
         retriever = Retriever(
             provider, store_dir, vector_weight=args.peso_vetorial
         )
         meta = _metadados_indice(store_dir)
+
+        gen_provider_name = args.gen_provider or os.environ.get("BROPILOT_GEN_LLM")
+        gen_provider = _resolve_gen_provider(gen_provider_name, provider)
     except (RuntimeError, ValueError) as exc:
         print(f"erro: {exc}", file=sys.stderr)
         return 1
 
     meta["vector_weight"] = args.peso_vetorial
-    meta["chat_model"] = provider.chat_model
-    meta["temperature"] = getattr(provider, "temperature", "?")
-    meta["seed"] = getattr(provider, "seed", "?")
+    meta["chat_model"] = gen_provider.chat_model
+    meta["temperature"] = getattr(gen_provider, "temperature", "?")
+    meta["seed"] = getattr(gen_provider, "seed", "?")
+    meta["gen_backend"] = (gen_provider_name or "ollama").strip().lower()
+    meta["embed_backend"] = "ollama"  # SEMPRE — ver _resolve_gen_provider
     ctx = None
     meta["signals"] = "**None** — sem save, o boost state-aware não age"
     meta["has_live_stats"] = False
@@ -715,10 +767,13 @@ def main(argv: list[str] | None = None) -> int:
         meta["has_live_stats"] = bool(sinais.get("has_live_stats"))
 
     spy = _RecordingRetriever(retriever)
-    orchestrator = Orchestrator(provider, spy, k=args.k)
+    orchestrator = Orchestrator(gen_provider, spy, k=args.k)
 
     print(f"Índice: {meta['chunks']} chunks / {meta['arquivos']} arquivos "
           f"({meta['embed_model']})")
+    if meta["gen_backend"] != "ollama":
+        print(f"Geração via '{meta['gen_backend']}' ({meta['chat_model']}) — "
+              f"embedding/retrieval seguem em Ollama/bge-m3 (fixo).")
     if meta["aviso"]:
         # Mesmo aviso do topo do relatório: avaliar índice desatualizado sem
         # saber disso é pior que esperar a reindexação.

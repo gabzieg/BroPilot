@@ -114,6 +114,68 @@ class OpenAIProviderEmbedTest(unittest.TestCase):
         self.assertEqual(provider.embed([]), [])
 
 
+class OpenAIProviderGenerateTest(unittest.TestCase):
+    """Cobre o run #5 (geração via nuvem): gpt-4o-mini + temperature=0 por
+    default, e nada disso depende de rede de verdade — tudo mockado."""
+
+    @patch("bropilot_core.llm.requests.post")
+    def test_generate_uses_gpt4o_mini_and_temperature_zero_by_default(self, mock_post):
+        response = MagicMock()
+        response.status_code = 200
+        response.ok = True
+        response.json.return_value = {
+            "choices": [{"message": {"content": "Tavern Brawler."}}]
+        }
+        mock_post.return_value = response
+
+        with patch.dict(os.environ, {}, clear=False):
+            os.environ.pop("BROPILOT_CHAT_MODEL", None)
+            os.environ.pop("BROPILOT_TEMPERATURE", None)
+            os.environ.pop("BROPILOT_SEED", None)
+            provider = OpenAIProvider(api_key="sk-fake")
+
+        answer = provider.generate("persona", "melhor feat pra monge?")
+
+        self.assertEqual(answer, "Tavern Brawler.")
+        body = mock_post.call_args.kwargs["json"]
+        self.assertEqual(body["model"], "gpt-4o-mini")
+        self.assertEqual(body["temperature"], 0.0)
+        self.assertEqual(body["seed"], 42)
+        self.assertEqual(
+            [m["role"] for m in body["messages"]], ["system", "user"]
+        )
+
+    @patch("bropilot_core.llm.requests.post")
+    def test_generate_fails_clearly_on_bad_key(self, mock_post):
+        response = MagicMock()
+        response.status_code = 401
+        response.ok = False
+        mock_post.return_value = response
+
+        with self.assertRaises(RuntimeError) as ctx:
+            OpenAIProvider(api_key="sk-fake-nao-existe").generate("s", "u")
+
+        self.assertIn("401", str(ctx.exception))
+
+    @patch("bropilot_core.llm.requests.post")
+    def test_generate_reports_offline_api_before_returning_anything(self, mock_post):
+        mock_post.side_effect = requests.exceptions.ConnectionError()
+
+        with self.assertRaises(RuntimeError) as ctx:
+            OpenAIProvider(api_key="sk-fake").generate("s", "u")
+
+        self.assertIn("api.openai.com", str(ctx.exception))
+
+    @patch("bropilot_core.llm.requests.post")
+    def test_generate_reports_timeout_clearly(self, mock_post):
+        mock_post.side_effect = requests.exceptions.Timeout()
+
+        with self.assertRaises(RuntimeError) as ctx:
+            OpenAIProvider(api_key="sk-fake").generate("s", "u")
+
+        self.assertIn("não respondeu", str(ctx.exception))
+
+
 class OpenAIProviderGenerateStreamTest(unittest.TestCase):
     @patch("bropilot_core.llm.requests.post")
     def test_generate_stream_is_a_single_chunk_fallback(self, mock_post):
