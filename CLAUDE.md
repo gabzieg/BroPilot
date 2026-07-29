@@ -57,11 +57,13 @@ All scrapers are idempotent — they skip any output file that already exists �
 **`moxifer_dialog_index.py` is the odd one out**: `dialog.moxifer.com` hosts ~9,000 raw dialogue-engine exports (UUIDs, `.lsf`/`.lsx` paths, engine metadata) rather than prose. Instead of bulk-downloading all of them into `02_trusted`, this script only pulls the searchable manifest into `data/03_refined/dialog_index.json` (path/speaker lookup table), for on-demand fetching later rather than upfront ETL. Keep that distinction if adding to it.
 
 ### Save parser (`BroPilot-SaveParser/`)
-Pure-stdlib Python, no venv/dependencies needed:
+Needs **two third-party packages** — `lspk.py` imports `lz4.block`, `lz4.frame` and `zstandard` to decompress the `.lsv` container, so the package fails to import without them. Everything else in `src/bropilot/` is stdlib. There is no `requirements.txt` here; install into whichever venv will import the parser (the root `venv/` is what `bropilot_core` uses):
 ```bash
+pip install lz4 zstandard
 python BroPilot-SaveParser/scripts/parse_save.py
 ```
-- `save.py`'s `DEFAULT_SAVE_ROOT` is hardcoded to the Windows save path (`%LOCALAPPDATA%/Larian Studios/Baldur's Gate 3/PlayerProfiles/Public/Savegames/Story`). On macOS/Linux you must pass an explicit path to `find_saves()`/`SaveGame()`.
+- Save location resolves **per platform** via `save.py`'s `default_save_root()`, which is what `find_saves()`/`latest_save()` use when no path is passed: `MACOS_SAVE_ROOT` (`~/Documents/Larian Studios/Baldur's Gate 3/PlayerProfiles/Public/Savegames/Story` — verified against a real install) on macOS, `DEFAULT_SAVE_ROOT` (the `%LOCALAPPDATA%` path) everywhere else, which is also the least-bad guess for Linux under Proton. `DEFAULT_SAVE_ROOT` is still exported and still the Windows value — don't repoint it. Override either with the `BROPILOT_SAVE_ROOT` env var.
+- **`SaveInfo.json`'s "Active Party" includes summons**, not just player characters — a conjured elemental or dryad shows up as a "character". They're distinguishable by `Classes` being null; real members always have a class (with `Sub` empty until level 3). `bropilot_core/serialize.py` filters on that.
 - The package (`src/bropilot/`) reads `.lsv` (LSPK container) → `SaveInfo.json`, `meta.lsf`, `Globals.lsf`, `StorySave.bin` (Osiris quest/fact database) — all reverse-engineered binary formats, parsed natively (`lspk.py`, `lsf.py`, `osiris_parser.py`/`osiris_nodes.py`/`osiris_common.py`). `SaveContext` (`models.py`) is the high-level façade over party/quest/item state.
 - **Static save data alone only gives level, race, classes and position per character** — no UUID, stats, equipment or inventory. Everything richer (`Equipment`, `Items`, `BuildStats`/abilities/HP/AC/proficiency, `ActionResource` spell slots, passives, resistances) comes from the companion mod's live snapshot; `SaveContext.party`/`SaveContext.items` merge it in via `_apply_dump` when present, and `_match_dump` joins save-side `Origin` (e.g. `"Laezel"`) against the snapshot's `Template` field since `SaveInfo.json` never exposes character UUIDs directly.
 
