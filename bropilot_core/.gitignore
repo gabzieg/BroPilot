@@ -1,3 +1,7 @@
 # Índice vetorial gerado localmente — reconstruível via `python -m bropilot_core.index.build`.
 # Não versionar: é grande, binário e derivado da base .md (que já está no git).
 index/store/
+# store_* = índices de experimento (ex.: store_denso), mesmo motivo.
+index/store_*/
+# Relatórios da bateria de avaliação: derivados, grandes e com timestamp.
+eval/

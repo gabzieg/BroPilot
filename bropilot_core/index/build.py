@@ -296,6 +296,7 @@ def build_index(
     *,
     rebuild: bool = False,
     llm: "LLMProvider | None" = None,
+    include_source_types: set[str] | None = None,
 ) -> int:
     """Pipeline completo: lê .md -> chunk -> embed (via LLMProvider.embed)
     -> grava no LanceDB em store_dir. Retorna o nº de chunks indexados NESTA
@@ -313,6 +314,13 @@ def build_index(
     se o modelo de embedding mudou desde a construção do índice — misturar dois
     espaços vetoriais na mesma tabela é pior que reindexar tudo.
 
+    `include_source_types` restringe o corpus a certos source_type (ver
+    classify_source), ex.: {"wiki", "build"} para indexar só material curado e
+    denso, deixando transcrição de fora. None = tudo, comportamento inalterado.
+    O filtro passa a fazer parte da identidade do índice (gravado no manifest),
+    pela mesma razão do embed_model: rodar incremental depois sem o filtro
+    mudaria o corpus em silêncio.
+
     Segurança do incremental: o manifest (hash por arquivo) só é gravado em
     disco DEPOIS que as linhas daquele arquivo já foram escritas no LanceDB.
     Se o processo cair no meio, no pior caso um arquivo fica sem reindexar
@@ -321,6 +329,7 @@ def build_index(
     """
     provider = llm if llm is not None else create_provider()
     embed_model = provider.embed_model
+    tipos = sorted(include_source_types) if include_source_types else None
     store_dir.mkdir(parents=True, exist_ok=True)
     db = lancedb.connect(str(store_dir))
 
@@ -337,12 +346,22 @@ def build_index(
             "  python -m bropilot_core.index.build --rebuild"
         )
 
+    if not rebuild and manifest.get("source_types", tipos) != tipos:
+        raise RuntimeError(
+            f"Índice em {store_dir} foi construído com source_types="
+            f"{manifest.get('source_types')}, mas esta execução pede {tipos}. "
+            "Indexar por cima misturaria dois corpora diferentes na mesma "
+            "tabela.\nReconstrua do zero:\n"
+            "  python -m bropilot_core.index.build --rebuild"
+        )
+
     if rebuild:
         if _TABLE_NAME in existing_tables:
             db.drop_table(_TABLE_NAME)
         manifest = {"embed_model": embed_model, "embed_dim": None, "files": {}}
 
     manifest["embed_model"] = embed_model
+    manifest["source_types"] = tipos
     files = manifest["files"]
 
     table = None
@@ -362,6 +381,13 @@ def build_index(
             )
 
     source_files = sorted(trusted_dir.glob("*.md"))
+    if include_source_types is not None:
+        # Mesma classify_source do resto do módulo — uma lógica de
+        # classificação só, senão o filtro e o metadado gravado divergem.
+        source_files = [
+            p for p in source_files
+            if classify_source(p.name) in include_source_types
+        ]
     current_names = {p.name for p in source_files}
 
     if table is not None:
@@ -445,12 +471,38 @@ if __name__ == "__main__":
         action="store_true",
         help="Apaga o índice existente e reindexa tudo do zero.",
     )
+    parser.add_argument(
+        "--store",
+        metavar="CAMINHO",
+        help=f"Diretório do índice (default: {STORE_DIR}). Use um diretório "
+             "separado para experimentos, para não destruir o índice atual.",
+    )
+    parser.add_argument(
+        "--only-types",
+        metavar="LISTA",
+        help="Indexa só estes source_type, separados por vírgula "
+             f"(ex.: wiki,build). Válidos: {','.join(sorted(_SOURCE_PREFIXES + ('wiki',)))}.",
+    )
     args = parser.parse_args()
+
+    tipos = None
+    if args.only_types:
+        tipos = {t.strip() for t in args.only_types.split(",") if t.strip()}
+        validos = set(_SOURCE_PREFIXES) | {"wiki"}
+        if not tipos <= validos:
+            sys.exit(
+                f"erro: source_type inválido: {', '.join(sorted(tipos - validos))}. "
+                f"Válidos: {', '.join(sorted(validos))}"
+            )
 
     # As falhas previstas aqui (índice incompatível, Ollama fora do ar, modelo
     # não baixado) são condições que o usuário resolve — merecem a mensagem, não
     # um traceback.
     try:
-        build_index(rebuild=args.rebuild)
+        build_index(
+            store_dir=Path(args.store) if args.store else STORE_DIR,
+            rebuild=args.rebuild,
+            include_source_types=tipos,
+        )
     except RuntimeError as exc:
         sys.exit(f"\nerro: {exc}")
