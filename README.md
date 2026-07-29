@@ -61,6 +61,29 @@ Com 4 sócios sem folha, o custo de **caixa** do MVP local é mínimo — **~$21
 
 > ⚠️ Premissas de preço de token verificadas em jul/2026. A estimativa de 230h de dev restante é aproximada — ajuste a aba `CAPEX Dev (tempo)` na planilha conforme o escopo real.
 
+## 🎯 Acurácia (avaliação honesta)
+
+O BroPilot foi avaliado com uma bateria de **10 perguntas rodadas contra a stack real** (Ollama local + índice híbrido + save de verdade), sem cherry-pick — as perguntas incluem, de propósito, casos que expõem limites conhecidos. Os vereditos foram dados por um **juiz externo mais forte** (não o próprio modelo de geração se autoavaliando).
+
+📋 **[Relatório completo com as 10 perguntas, respostas verbatim, fontes e vereditos](docs/ACCURACY_REPORT.md)**
+
+**Placar (n=10, um retrato — não uma taxa estatística):**
+
+| Veredito | Total |
+|---|---|
+| ✅ Correto / recusou fora-de-escopo | 2 |
+| 🟡 Parcial (núcleo certo, com erro ou vago) | 3 |
+| ❌ Alucinou regra de BG3 | 5 |
+
+### O que funciona, e o que é o teto atual
+
+A divisão é limpa e diagnóstica:
+
+- **O pipeline funciona.** Nos 10 casos, o retrieval híbrido recuperou os arquivos certos e o parser leu a party corretamente (classes, subclasses, níveis). **Lookup de fato único** (ex.: "quantos dados de Superioridade um Battle Master tem no nível 5?") e **recusa de fora-de-escopo** (perguntar sobre outro jogo) são confiáveis.
+- **O teto é a geração.** As falhas se concentram no modelo local (`qwen2.5:7b` quantizado) ao **sintetizar conselho de build** — o caso de uso central: inventa feats que não existem, aplica feats que não funcionam na build (ex.: Great Weapon Master em golpe desarmado), e troca features entre classes. Duas falhas de honestidade também apareceram: fabricar atributos que não estão na ficha, e trocar de idioma no meio da resposta.
+
+**Conclusão acionável:** o investimento em RAG (busca híbrida, dedup, save-aware, raspagem de subclasses) pagou — o encanamento entrega o contexto certo. O próximo passo indicado é um **modelo de geração mais forte** (nuvem — Haiku/GPT-4o-mini — ou um local bem maior), medido de novo contra esta mesma bateria para um antes/depois honesto.
+
 ## 📁 Estrutura de Pastas
 ```text
 BroPilot/
