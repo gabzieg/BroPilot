@@ -50,6 +50,34 @@ _OVERLAP_TOKENS = 64
 _SOURCE_PREFIXES = ("forum", "youtube", "steam", "build")
 _HEADER_RE = re.compile(r"^#{1,6}\s+.+$")
 
+# --- Índice FTS (BM25), o segundo índice desta base -------------------------
+#
+# Ver bropilot_core/DECISION_hybrid_search.md: a similaridade densa não
+# discrimina em corpus mono-domínio (tudo é BG3), e o sinal que falta é
+# LEXICAL — "Superiority Dice" como string literal. O FTS nativo do LanceDB
+# (lance-index/BM25) fornece esse sinal.
+#
+# Ele é criado sobre a coluna `text` DENTRO de build_index, nunca em passo
+# separado: um índice vetorial sem FTS faria a híbrida degradar em silêncio
+# para vetorial pura, que é o modo de falha que esta decisão existe para
+# evitar. O manifest registra a existência (ver _FTS_MANIFEST) para que o
+# Retriever detecte a ausência e falhe cedo, em vez de servir busca pior sem
+# avisar.
+_FTS_COLUMN = "text"
+# Inglês porque o corpus é ~97% inglês (medido em 28/07: 146 de 150 arquivos).
+# Stemming + stop words em inglês fazem "dice"/"dices" e "Battle Master"
+# casarem; um tokenizer neutro perderia isso.
+_FTS_LANGUAGE = "English"
+# Versão do CONFIG do FTS acima. Subir quando o tokenizer/idioma mudar: é o
+# gancho para detectar "índice FTS existe, mas foi construído com outra
+# configuração" sem depender de inspecionar o índice por dentro.
+_FTS_VERSION = 1
+_FTS_MANIFEST = {
+    "column": _FTS_COLUMN,
+    "language": _FTS_LANGUAGE,
+    "version": _FTS_VERSION,
+}
+
 
 @dataclass
 class Chunk:
@@ -214,6 +242,7 @@ def _load_manifest(store_dir: Path) -> dict:
     """Manifest do índice: identidade do embedding + hash por arquivo-fonte.
 
     Formato: {"embed_model": str|None, "embed_dim": int|None,
+              "fts": {"column": str, "language": str, "version": int}|None,
               "files": {nome_do_arquivo: sha256}}.
 
     embed_model/embed_dim existem para tornar DETECTÁVEL a incompatibilidade
@@ -221,14 +250,21 @@ def _load_manifest(store_dir: Path) -> dict:
     modelos (bge-m3=1024 vs text-embedding-3-small=1536, que o LanceDB
     rejeitaria por schema), mas dois modelos de mesma dimensão passariam
     silenciosamente — a checagem explícita não depende dessa sorte.
+
+    `fts` existe pela MESMA razão, um nível acima: um índice construído antes
+    da busca híbrida tem vetores válidos e nenhum índice FTS. Sem registro,
+    a híbrida rodaria com o lado lexical vazio e devolveria silenciosamente o
+    ranking vetorial puro — o problema que a decisão existe para consertar.
+    None = índice pré-híbrida, precisa de rebuild.
     """
     manifest_path = store_dir / _MANIFEST_NAME
     if not manifest_path.exists():
-        return {"embed_model": None, "embed_dim": None, "files": {}}
+        return {"embed_model": None, "embed_dim": None, "fts": None, "files": {}}
 
     manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
     manifest.setdefault("embed_model", None)
     manifest.setdefault("embed_dim", None)
+    manifest.setdefault("fts", None)
     manifest.setdefault("files", {})
     return manifest
 
@@ -272,6 +308,111 @@ def assert_embedding_compatible(
             "Reconstrua o índice com o modelo atual:\n"
             "  python -m bropilot_core.index.build --rebuild"
         )
+
+
+def index_fts_config(store_dir: Path = STORE_DIR) -> dict | None:
+    """Configuração do índice FTS registrada no manifest, ou None se o índice
+    foi construído antes da busca híbrida (ou sem FTS)."""
+    return _load_manifest(store_dir).get("fts")
+
+
+def assert_fts_available(table, store_dir: Path = STORE_DIR) -> None:
+    """Falha ALTO se o índice vetorial existe mas o FTS não.
+
+    Gêmea de `assert_embedding_compatible`, e pela mesma lógica: o LanceDB
+    aceita `query_type="hybrid"` numa tabela sem índice FTS — o lado lexical
+    apenas volta vazio e o reranker devolve o ranking vetorial puro. Ou seja,
+    a busca híbrida "funcionaria", só que sem híbrida nenhuma, e nada no
+    resultado denunciaria isso. Um índice antigo (pré-decisão) cairia
+    exatamente nesse buraco.
+
+    Confere as DUAS pontas — o registro no manifest e o índice de verdade na
+    tabela — porque cada uma pega uma falha diferente: manifest sem `fts`
+    revela índice antigo; tabela sem índice FTS revela manifest que ficou
+    para trás (store copiado pela metade, índice removido à mão).
+    """
+    if index_fts_config(store_dir) is None:
+        raise RuntimeError(
+            f"O índice em {store_dir} não registra um índice FTS (busca "
+            "lexical/BM25) no manifest — provavelmente foi construído antes "
+            "da busca híbrida. A híbrida rodaria só com o lado vetorial e "
+            "devolveria resultados piores sem acusar erro.\n"
+            "Reconstrua o índice:\n"
+            "  python -m bropilot_core.index.build --rebuild"
+        )
+
+    colunas_fts = {
+        coluna
+        for indice in table.list_indices()
+        if str(indice.index_type).upper().endswith("FTS")
+        for coluna in indice.columns
+    }
+    if _FTS_COLUMN not in colunas_fts:
+        raise RuntimeError(
+            f"O manifest de {store_dir} diz que existe um índice FTS sobre "
+            f"'{_FTS_COLUMN}', mas a tabela '{_TABLE_NAME}' não tem esse "
+            "índice. O manifest e o índice estão fora de sincronia.\n"
+            "Reconstrua o índice:\n"
+            "  python -m bropilot_core.index.build --rebuild"
+        )
+
+
+def ensure_fts_index(table) -> dict:
+    """Cria o índice FTS sobre a coluna `text` e incorpora as linhas escritas
+    depois da última criação.
+
+    Chamar SEMPRE no fim do build (rebuild e incremental) é o que mantém FTS e
+    vetores em sincronia sem um passo separado que possa ser esquecido.
+
+    Duas armadilhas medidas neste setup, e a razão de esta função existir em
+    vez de um `create_fts_index` solto:
+
+    1. Criar o índice ANTES de escrever as linhas indexa ZERO linhas. O
+       índice existe, `list_indices()` o mostra, a busca FTS até devolve
+       resultados — por um caminho de varredura sobre as linhas não indexadas,
+       com pontuação BM25 diferente da do índice. Medido na base real: com as
+       4409 linhas fora do índice, a wiki sumiu do top-6 de TODOS os pesos e o
+       recall de Monge caiu de 4/5 para 1/5. Ou seja, falha silenciosa que
+       parece funcionar — daí a checagem explícita de `num_unindexed_rows`.
+    2. Todo `table.add` posterior cai num delta não indexado. `optimize()` é
+       o que o incorpora ao índice.
+
+    Devolve o descritor para o manifest. O CHAMADOR só deve gravá-lo depois
+    desta função retornar: manifest que promete um FTS inexistente é pior que
+    manifest desatualizado, porque a checagem de falha-cedo passaria.
+    """
+    colunas_fts = {
+        coluna
+        for indice in table.list_indices()
+        if str(indice.index_type).upper().endswith("FTS")
+        for coluna in indice.columns
+    }
+    if _FTS_COLUMN not in colunas_fts:
+        table.create_fts_index(
+            _FTS_COLUMN,
+            use_tantivy=False,
+            language=_FTS_LANGUAGE,
+            stem=True,              # "dice"/"dices", "maneuver"/"maneuvers"
+            remove_stop_words=True,
+            lower_case=True,
+            ascii_folding=True,
+            replace=True,
+        )
+        print(f"índice FTS criado sobre '{_FTS_COLUMN}' (idioma {_FTS_LANGUAGE}).")
+
+    # Folda o delta (linhas gravadas depois da criação do índice) para dentro
+    # dele. Barato quando não há delta.
+    table.optimize()
+
+    restantes = table.index_stats("text_idx").num_unindexed_rows
+    if restantes:
+        raise RuntimeError(
+            f"O índice FTS ficou com {restantes} linha(s) fora dele mesmo "
+            "depois de optimize(). A busca híbrida pontuaria essas linhas por "
+            "um caminho diferente do resto da base.\nReconstrua do zero:\n"
+            "  python -m bropilot_core.index.build --rebuild"
+        )
+    return dict(_FTS_MANIFEST)
 
 
 def _table_schema(dim: int) -> pa.Schema:
@@ -358,7 +499,9 @@ def build_index(
     if rebuild:
         if _TABLE_NAME in existing_tables:
             db.drop_table(_TABLE_NAME)
-        manifest = {"embed_model": embed_model, "embed_dim": None, "files": {}}
+        manifest = {
+            "embed_model": embed_model, "embed_dim": None, "fts": None, "files": {}
+        }
 
     manifest["embed_model"] = embed_model
     manifest["source_types"] = tipos
@@ -450,6 +593,18 @@ def build_index(
 
         indexed_chunks += len(records)
         print(f"[{i}/{total}] {path.name}: {len(records)} chunks indexados.")
+
+    if table is not None:
+        # DEPOIS de todas as escritas, nunca antes: criar o índice FTS numa
+        # tabela vazia indexa zero linhas (ver ensure_fts_index). É também o
+        # que incorpora, no incremental, as linhas deste build.
+        #
+        # A ordem também é o que preserva a garantia do manifest: `fts` só é
+        # gravado depois de o índice existir de verdade e cobrir tudo. Uma
+        # queda no meio do laço deixa o manifest SEM `fts` — o Retriever
+        # recusa a busca e pede rebuild, em vez de servir híbrida meio-boca.
+        manifest["fts"] = ensure_fts_index(table)
+        _save_manifest(store_dir, manifest)
 
     total_rows = table.count_rows() if table is not None else 0
     print(

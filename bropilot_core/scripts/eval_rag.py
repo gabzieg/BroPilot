@@ -27,7 +27,7 @@ from pathlib import Path
 import lancedb
 
 from ..index.build import STORE_DIR, TRUSTED_DIR, classify_source
-from ..index.retriever import RetrievedChunk, Retriever
+from ..index.retriever import _DEFAULT_VECTOR_WEIGHT, RetrievedChunk, Retriever
 from ..llm import create_provider
 from ..orchestrator import Orchestrator
 from ..serialize import extract_signals
@@ -73,6 +73,45 @@ PERGUNTAS = [
     # (g) ambígua — deve pedir contexto em vez de chutar
     {"id": "g1", "categoria": "ambígua", "grupo": None,
      "texto": "qual a melhor classe?"},
+]
+
+# Mesmas 12 perguntas, mesmos id/categoria/grupo — só `texto` traduzido para
+# inglês natural com os termos do jogo nativos. Existe para medir se o
+# IDIOMA DA QUERY (não do corpus, que já é ~97% inglês) muda acurácia e
+# estabilidade do retrieval. Ver `bropilot_core/scripts/compare_language.py`
+# para a bateria de controle de idioma e o relatório comparativo — este
+# módulo só expõe a lista para reuso, não a bateria completa em EN.
+PERGUNTAS_EN = [
+    {"id": "a1", "categoria": "build/otimização", "grupo": "monge_pt",
+     "texto": "which Monk subclass is best for unarmed damage?"},
+    {"id": "a2", "categoria": "build/otimização", "grupo": None,
+     "texto": "how do I build a Rogue focused on damage per turn?"},
+
+    {"id": "b1", "categoria": "action economy", "grupo": None,
+     "texto": "how does action economy work with Dual Wielder?"},
+    {"id": "b2", "categoria": "action economy", "grupo": None,
+     "texto": "is it worth spending a Bonus Action to disengage or attack?"},
+
+    {"id": "c1", "categoria": "regra factual", "grupo": None,
+     "texto": "how many Superiority Dice does a Battle Master have at level 5?"},
+
+    {"id": "d1", "categoria": "paráfrase", "grupo": "parafrase_monge",
+     "texto": "best monk build"},
+    {"id": "d2", "categoria": "paráfrase", "grupo": "parafrase_monge",
+     "texto": "how do I optimize an Open Hand Monk in BG3?"},
+    {"id": "d3", "categoria": "paráfrase", "grupo": "parafrase_monge",
+     "texto": "open hand monk build guide"},
+
+    {"id": "e1", "categoria": "cross-lingual", "grupo": "monge_en",
+     "texto": "which is the best Monk subclass for unarmed damage?"},
+
+    {"id": "f1", "categoria": "fora de escopo", "grupo": "fora_escopo",
+     "texto": "what's the best Elden Ring build?"},
+    {"id": "f2", "categoria": "fora de escopo", "grupo": "fora_escopo",
+     "texto": "who won the 2022 World Cup?"},
+
+    {"id": "g1", "categoria": "ambígua", "grupo": None,
+     "texto": "what's the best class?"},
 ]
 
 # Marcadores de "não sei / não está na base". Heurística de SUBSTRING, reportada
@@ -188,6 +227,7 @@ def executar(
     ctx=None,
     *,
     sem_geracao: bool = False,
+    perguntas: list[dict] | None = None,
 ) -> list[dict]:
     """Roda a bateria. Uma pergunta que falhar vira registro de erro e a
     bateria continua — perder as 11 seguintes por causa de uma seria pior.
@@ -195,11 +235,17 @@ def executar(
     `sem_geracao=True` faz só a busca. A geração local responde por ~95% do
     tempo da bateria e não influencia nenhuma métrica de retrieval, então
     medir retrieval com ela ligada é pagar horas por nada.
-    """
-    resultados = []
-    total = len(PERGUNTAS)
 
-    for i, pergunta in enumerate(PERGUNTAS, start=1):
+    `perguntas` default PERGUNTAS (PT) — passar PERGUNTAS_EN, a bateria de
+    controle de idioma, ou qualquer lista no mesmo formato reusa esta função
+    sem duplicar o laço.
+    """
+    if perguntas is None:
+        perguntas = PERGUNTAS
+    resultados = []
+    total = len(perguntas)
+
+    for i, pergunta in enumerate(perguntas, start=1):
         print(f"[{i}/{total}] ({pergunta['categoria']}) {pergunta['texto']}",
               flush=True)
         spy.ultima_busca = []
@@ -235,6 +281,8 @@ def executar(
                 "source_type": c.source_type,
                 "score": c.score,
                 "base_score": c.base_score,
+                "vector_score": c.vector_score,
+                "fts_score": c.fts_score,
                 "boost_reasons": list(c.boost_reasons),
                 "trecho": _fmt_trecho(c.text),
             }
@@ -335,6 +383,7 @@ def _checagens_mecanicas(resultados: list[dict]) -> list[str]:
 
 def gerar_relatorio(resultados: list[dict], meta: dict, k: int) -> str:
     agora = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    peso = meta.get("vector_weight", _DEFAULT_VECTOR_WEIGHT)
     out = ["# Relatório de avaliação do RAG — BroPilot", ""]
 
     # Antes de qualquer número: se o índice não cobre a base, o leitor precisa
@@ -364,7 +413,9 @@ def gerar_relatorio(resultados: list[dict], meta: dict, k: int) -> str:
         f"({meta['arquivos_no_disco']} elegíveis em `{TRUSTED_DIR}`)",
         f"- Filtro de corpus: {meta['source_types'] or 'nenhum (todos os tipos)'}",
         f"- Embeddings: `{meta['embed_model']}` (dim {meta['embed_dim']})",
+        f"- Busca híbrida: peso vetorial **{peso:.2f}** / FTS {1 - peso:.2f}",
         f"- k (chunks por pergunta): **{k}**",
+        f"- Idioma da bateria: **{meta.get('lang', 'pt')}**",
         f"- `signals`: {meta['signals']}",
         "",
         "---",
@@ -394,15 +445,22 @@ def gerar_relatorio(resultados: list[dict], meta: dict, k: int) -> str:
             # base_score e score separados: hoje são iguais (signals=None), mas
             # quando o boost state-aware ligar é a diferença entre as duas
             # colunas que mostra o que o estado da party fez com o ranking.
-            out.append("| # | base_score | score | boost | arquivo | tipo | trecho |")
-            out.append("|---|---|---|---|---|---|---|")
+            # base_score é a relevância HÍBRIDA fundida; `vec` e `fts` são as
+            # duas pernas cruas que a fusão combinou — sem elas não dá para
+            # dizer se um chunk entrou pelo sentido ou pelo termo literal.
+            # "—" em fts = o chunk não apareceu no lado BM25.
+            out.append("| # | vec | fts | base_score | score | boost | arquivo | tipo | trecho |")
+            out.append("|---|---|---|---|---|---|---|---|---|")
             for i, c in enumerate(r["chunks"], start=1):
                 trecho = c["trecho"].replace("|", "\\|")
                 delta = c["score"] - c["base_score"]
                 razoes = "; ".join(c["boost_reasons"]).replace("|", "\\|")
                 boost = f"+{delta:.3f} ({razoes})" if delta else "—"
+                vec = "—" if c.get("vector_score") is None else f"{c['vector_score']:.3f}"
+                fts = "—" if c.get("fts_score") is None else f"{c['fts_score']:.2f}"
                 out.append(
-                    f"| {i} | {c['base_score']:.3f} | {c['score']:.3f} | {boost} | "
+                    f"| {i} | {vec} | {fts} | "
+                    f"{c['base_score']:.3f} | {c['score']:.3f} | {boost} | "
                     f"`{c['source_file']}` | {c['source_type']} | {trecho} |"
                 )
         else:
@@ -455,19 +513,40 @@ def main(argv: list[str] | None = None) -> int:
         help="só busca, sem chamar o LLM. A geração local é ~95%% do tempo da "
              "bateria e não afeta métrica de retrieval nenhuma.",
     )
+    parser.add_argument(
+        "--peso-vetorial",
+        type=float,
+        default=_DEFAULT_VECTOR_WEIGHT,
+        metavar="P",
+        help="peso do lado vetorial na fusão híbrida (0-1); o FTS/BM25 fica "
+             f"com 1-P. Default {_DEFAULT_VECTOR_WEIGHT}. P=1.0 "
+             "reproduz a busca vetorial pura (o baseline pré-híbrida) pelo "
+             "MESMO caminho de código; P=0.0 é BM25 puro. Para varrer vários "
+             "pesos de uma vez, ver `compare_hybrid.py`.",
+    )
+    parser.add_argument(
+        "--lang", choices=["en", "pt"], default="pt",
+        help="idioma das 12 perguntas (default pt). 'en' roda PERGUNTAS_EN — "
+             "mesmos id/categoria/grupo, texto traduzido. Não muta a bateria "
+             "PT nem o relatório baseline existente.",
+    )
     args = parser.parse_args(argv)
 
+    perguntas = PERGUNTAS_EN if args.lang == "en" else PERGUNTAS
     store_dir = Path(args.store) if args.store else STORE_DIR
 
     try:
         provider = create_provider()
         provider.health_check()
-        retriever = Retriever(provider, store_dir)
+        retriever = Retriever(
+            provider, store_dir, vector_weight=args.peso_vetorial
+        )
         meta = _metadados_indice(store_dir)
-    except RuntimeError as exc:
+    except (RuntimeError, ValueError) as exc:
         print(f"erro: {exc}", file=sys.stderr)
         return 1
 
+    meta["vector_weight"] = args.peso_vetorial
     ctx = None
     meta["signals"] = "**None** — sem save, o boost state-aware não age"
     if args.com_save:
@@ -500,18 +579,22 @@ def main(argv: list[str] | None = None) -> int:
         # saber disso é pior que esperar a reindexação.
         print(f"\n  ⚠️  ÍNDICE DESATUALIZADO: {meta['aviso']}\n", file=sys.stderr)
     meta["sem_geracao"] = args.sem_geracao
+    meta["lang"] = args.lang
     if args.sem_geracao:
-        print(f"Rodando {len(PERGUNTAS)} perguntas — só busca, sem geração.\n")
+        print(f"Rodando {len(perguntas)} perguntas ({args.lang}) — só busca, sem geração.\n")
     else:
-        print(f"Rodando {len(PERGUNTAS)} perguntas com geração local — vai demorar.\n")
+        print(f"Rodando {len(perguntas)} perguntas ({args.lang}) com geração local — vai demorar.\n")
 
-    resultados = executar(orchestrator, spy, ctx, sem_geracao=args.sem_geracao)
+    resultados = executar(
+        orchestrator, spy, ctx, sem_geracao=args.sem_geracao, perguntas=perguntas
+    )
 
     destino = Path(
         args.output
         or f"bropilot_core/eval/rag_eval_"
            f"{'com_save' if args.com_save else 'sem_save'}_"
            f"{'retrieval_' if args.sem_geracao else ''}"
+           f"{'en_' if args.lang == 'en' else ''}"
            f"{datetime.now():%Y%m%d_%H%M%S}.md"
     )
     destino.parent.mkdir(parents=True, exist_ok=True)

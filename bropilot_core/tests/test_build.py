@@ -152,7 +152,11 @@ class ChunkDocumentGiantOutlierTest(unittest.TestCase):
         self.assertGreater(overlapping_pairs, len(chunks) * 0.5)
 
 
-class BuildIndexTest(unittest.TestCase):
+class _BuildIndexFixture(unittest.TestCase):
+    """Base sem testes: só a base de 3 .md, o embed mockado e os leitores do
+    índice. Compartilhada por `BuildIndexTest` e `FtsIndexStaysInSyncTest` —
+    herdar de uma classe COM testes faria a suíte rodar os dela duas vezes."""
+
     def setUp(self):
         self._tmp = tempfile.TemporaryDirectory()
         self.addCleanup(self._tmp.cleanup)
@@ -192,6 +196,8 @@ class BuildIndexTest(unittest.TestCase):
     def _read_manifest(self):
         return json.loads((self.store_dir / "manifest.json").read_text(encoding="utf-8"))
 
+
+class BuildIndexTest(_BuildIndexFixture):
     def test_build_index_creates_table_with_expected_schema_and_row_count(self):
         with self._patch_ollama_embed() as mock_embed:
             n = build_index(trusted_dir=self.trusted_dir, store_dir=self.store_dir, rebuild=False)
@@ -295,6 +301,114 @@ class BuildIndexTest(unittest.TestCase):
         manifest = self._read_manifest()
         self.assertEqual(manifest["embed_model"], "text-embedding-3-small")
         self.assertEqual(manifest["embed_dim"], 3)
+
+
+class FtsIndexStaysInSyncTest(_BuildIndexFixture):
+    """O custo estrutural da busca híbrida é um SEGUNDO índice (FTS/BM25) que
+    pode sair de sincronia com o vetorial. A decisão fecha essa porta criando-o
+    dentro do mesmo `build_index` — estes testes são o que garante que ela
+    continua fechada nos dois caminhos (rebuild e incremental)."""
+
+    def _colunas_fts(self):
+        table = lancedb.connect(str(self.store_dir)).open_table("chunks")
+        return {
+            coluna
+            for indice in table.list_indices()
+            if str(indice.index_type).upper().endswith("FTS")
+            for coluna in indice.columns
+        }
+
+    def _stats_fts(self):
+        table = lancedb.connect(str(self.store_dir)).open_table("chunks")
+        return table.index_stats("text_idx")
+
+    def test_every_row_is_actually_inside_the_fts_index(self):
+        """A armadilha que custou uma bateria inteira: criar o índice FTS
+        antes de escrever as linhas deixa `num_indexed_rows=0`. Nada falha —
+        `list_indices()` mostra o índice e a busca FTS até responde, por uma
+        varredura das linhas não indexadas com pontuação BM25 diferente. Na
+        base real isso derrubou o recall de Monge de 4/5 para 1/5. Conferir a
+        EXISTÊNCIA do índice não pega isso; só conferir a COBERTURA pega."""
+        with self._patch_ollama_embed():
+            build_index(trusted_dir=self.trusted_dir, store_dir=self.store_dir,
+                        rebuild=True)
+
+        stats = self._stats_fts()
+        self.assertEqual(stats.num_unindexed_rows, 0)
+        self.assertEqual(stats.num_indexed_rows, self.expected_chunk_count)
+
+    def test_incremental_folds_new_rows_into_the_fts_index(self):
+        """Mesma cobertura, no caminho incremental: todo `table.add` posterior
+        cai num delta fora do índice até alguém incorporá-lo."""
+        with self._patch_ollama_embed():
+            build_index(trusted_dir=self.trusted_dir, store_dir=self.store_dir,
+                        rebuild=True)
+        (self.trusted_dir / "forum_novo.md").write_text(
+            "# Novo\n\nzorblaxian cascade\n", encoding="utf-8"
+        )
+        with self._patch_ollama_embed():
+            build_index(trusted_dir=self.trusted_dir, store_dir=self.store_dir,
+                        rebuild=False)
+
+        self.assertEqual(self._stats_fts().num_unindexed_rows, 0)
+
+    def test_rebuild_creates_the_fts_index_and_records_it(self):
+        with self._patch_ollama_embed():
+            build_index(trusted_dir=self.trusted_dir, store_dir=self.store_dir,
+                        rebuild=True)
+
+        self.assertIn("text", self._colunas_fts())
+        self.assertEqual(self._read_manifest()["fts"]["column"], "text")
+        # inglês, não o default neutro: o corpus é ~97% inglês e o stemming
+        # é o que faz "dice"/"dices" casarem.
+        self.assertEqual(self._read_manifest()["fts"]["language"], "English")
+
+    def test_incremental_backfills_fts_into_a_pre_hybrid_index(self):
+        """O caso real de migração: um índice construído ANTES da decisão tem
+        vetores e nenhum FTS. Rodar o incremental tem que consertá-lo, sem
+        exigir um rebuild completo e sem re-embedar nada."""
+        with self._patch_ollama_embed():
+            build_index(trusted_dir=self.trusted_dir, store_dir=self.store_dir,
+                        rebuild=True)
+
+        # desfaz a híbrida, simulando o índice legado
+        table = lancedb.connect(str(self.store_dir)).open_table("chunks")
+        table.drop_index("text_idx")
+        manifest = self._read_manifest()
+        manifest["fts"] = None
+        (self.store_dir / "manifest.json").write_text(json.dumps(manifest))
+        self.assertEqual(self._colunas_fts(), set())
+
+        with self._patch_ollama_embed() as mock_embed:
+            n = build_index(trusted_dir=self.trusted_dir, store_dir=self.store_dir,
+                            rebuild=False)
+
+        self.assertEqual(n, 0)  # nenhum arquivo mudou: nada reindexado
+        mock_embed.assert_not_called()  # e nada re-embedado
+        self.assertIn("text", self._colunas_fts())  # mas o FTS voltou
+        self.assertEqual(self._read_manifest()["fts"]["column"], "text")
+
+    def test_fts_covers_rows_added_after_the_index_was_created(self):
+        """O incremental adiciona linhas DEPOIS de o índice FTS existir. Se o
+        FTS não acompanhasse as escritas, o doc novo ficaria invisível para a
+        perna lexical — sincronia quebrada sem nenhum erro."""
+        with self._patch_ollama_embed():
+            build_index(trusted_dir=self.trusted_dir, store_dir=self.store_dir,
+                        rebuild=True)
+
+        (self.trusted_dir / "forum_novo.md").write_text(
+            "# Novo\n\nzorblaxian cascade zorblaxian\n", encoding="utf-8"
+        )
+        with self._patch_ollama_embed():
+            build_index(trusted_dir=self.trusted_dir, store_dir=self.store_dir,
+                        rebuild=False)
+
+        table = lancedb.connect(str(self.store_dir)).open_table("chunks")
+        achados = (
+            table.search("zorblaxian", query_type="fts")
+            .limit(5).to_arrow().to_pylist()
+        )
+        self.assertEqual([r["source_file"] for r in achados], ["forum_novo.md"])
 
 
 class AssertEmbeddingCompatibleTest(unittest.TestCase):
