@@ -1,0 +1,2702 @@
+[
+    {
+        "text": "hello dear friends and welcome for",
+        "start": 0.06,
+        "duration": 4.32
+    },
+    {
+        "text": "today's bg3 guide we have my first",
+        "start": 2.1,
+        "duration": 4.62
+    },
+    {
+        "text": "companion build and we'll be going with",
+        "start": 4.38,
+        "duration": 5.58
+    },
+    {
+        "text": "Shadow heart as a very powerful cleric",
+        "start": 6.72,
+        "duration": 5.879
+    },
+    {
+        "text": "tank you'll be able to achieve 34",
+        "start": 9.96,
+        "duration": 5.94
+    },
+    {
+        "text": "long-lasting AC or even up to 36 of",
+        "start": 12.599,
+        "duration": 5.341
+    },
+    {
+        "text": "course with haste to the point she'll",
+        "start": 15.9,
+        "duration": 4.56
+    },
+    {
+        "text": "easily be able to avoid almost every",
+        "start": 17.94,
+        "duration": 4.64
+    },
+    {
+        "text": "single attack enemies throw at her",
+        "start": 20.46,
+        "duration": 4.979
+    },
+    {
+        "text": "including on tactician mode even at late",
+        "start": 22.58,
+        "duration": 5.8
+    },
+    {
+        "text": "game together with a very special cleric",
+        "start": 25.439,
+        "duration": 6.18
+    },
+    {
+        "text": "ability with infinite users to help you",
+        "start": 28.38,
+        "duration": 5.339
+    },
+    {
+        "text": "force disadvantage on enemies as to",
+        "start": 31.619,
+        "duration": 4.561
+    },
+    {
+        "text": "avoid attacks that would hit you",
+        "start": 33.719,
+        "duration": 4.441
+    },
+    {
+        "text": "and if that was not enough we'll still",
+        "start": 36.18,
+        "duration": 3.899
+    },
+    {
+        "text": "get to achieve enormous resistances",
+        "start": 38.16,
+        "duration": 4.62
+    },
+    {
+        "text": "right we have full resistance against",
+        "start": 40.079,
+        "duration": 5.581
+    },
+    {
+        "text": "most damage types that's 50 less damage",
+        "start": 42.78,
+        "duration": 5.099
+    },
+    {
+        "text": "taken including physical together with",
+        "start": 45.66,
+        "duration": 4.62
+    },
+    {
+        "text": "amazing effects on healing after all we",
+        "start": 47.879,
+        "duration": 5.041
+    },
+    {
+        "text": "are the best thing possible when healing",
+        "start": 50.28,
+        "duration": 5.099
+    },
+    {
+        "text": "allies including yourself as early as",
+        "start": 52.92,
+        "duration": 5.279
+    },
+    {
+        "text": "act 1 even you'll be able to apply many",
+        "start": 55.379,
+        "duration": 5.281
+    },
+    {
+        "text": "powerful effects such as Blast for",
+        "start": 58.199,
+        "duration": 4.86
+    },
+    {
+        "text": "higher attack pros and saving throws a",
+        "start": 60.66,
+        "duration": 4.98
+    },
+    {
+        "text": "minor amount of temporary hit points and",
+        "start": 63.059,
+        "duration": 4.441
+    },
+    {
+        "text": "even blade wired for full physical",
+        "start": 65.64,
+        "duration": 4.799
+    },
+    {
+        "text": "resistance lastly you'll still have some",
+        "start": 67.5,
+        "duration": 5.159
+    },
+    {
+        "text": "very nice area of effect attacks",
+        "start": 70.439,
+        "duration": 4.86
+    },
+    {
+        "text": "centered on yourself to further your",
+        "start": 72.659,
+        "duration": 5.161
+    },
+    {
+        "text": "role as the best tank so without further",
+        "start": 75.299,
+        "duration": 4.46
+    },
+    {
+        "text": "Ado let us get into our shadow heart",
+        "start": 77.82,
+        "duration": 5.88
+    },
+    {
+        "text": "tank build first with character creation",
+        "start": 79.759,
+        "duration": 5.921
+    },
+    {
+        "text": "and build progression of course later",
+        "start": 83.7,
+        "duration": 4.32
+    },
+    {
+        "text": "we'll cover gear",
+        "start": 85.68,
+        "duration": 4.5
+    },
+    {
+        "text": "of course you'll be keeping Shadow heart",
+        "start": 88.02,
+        "duration": 3.54
+    },
+    {
+        "text": "as a cleric",
+        "start": 90.18,
+        "duration": 4.5
+    },
+    {
+        "text": "and we get to pick our subclass right at",
+        "start": 91.56,
+        "duration": 5.699
+    },
+    {
+        "text": "level 1. trickery her default domain is",
+        "start": 94.68,
+        "duration": 4.32
+    },
+    {
+        "text": "not really good for our tanking",
+        "start": 97.259,
+        "duration": 4.261
+    },
+    {
+        "text": "character what we actually want is light",
+        "start": 99.0,
+        "duration": 5.4
+    },
+    {
+        "text": "more like Light Heart Right while it is",
+        "start": 101.52,
+        "duration": 6.239
+    },
+    {
+        "text": "true light lacks heavy armor proficiency",
+        "start": 104.4,
+        "duration": 7.14
+    },
+    {
+        "text": "unlike live domain and also War",
+        "start": 107.759,
+        "duration": 5.82
+    },
+    {
+        "text": "this doesn't really matter because we",
+        "start": 111.54,
+        "duration": 4.32
+    },
+    {
+        "text": "can easily acquire multiple armors in",
+        "start": 113.579,
+        "duration": 4.561
+    },
+    {
+        "text": "the game that are medium and let us",
+        "start": 115.86,
+        "duration": 4.799
+    },
+    {
+        "text": "apply our full dexterity modifier to AC",
+        "start": 118.14,
+        "duration": 4.619
+    },
+    {
+        "text": "so you can still achieve very high",
+        "start": 120.659,
+        "duration": 4.201
+    },
+    {
+        "text": "amounts but anyways the most important",
+        "start": 122.759,
+        "duration": 4.381
+    },
+    {
+        "text": "part about light is its special ability",
+        "start": 124.86,
+        "duration": 5.039
+    },
+    {
+        "text": "gain right at level 1 called warding",
+        "start": 127.14,
+        "duration": 3.899
+    },
+    {
+        "text": "flare",
+        "start": 129.899,
+        "duration": 4.381
+    },
+    {
+        "text": "absolutely amazing for tanking what it",
+        "start": 131.039,
+        "duration": 6.42
+    },
+    {
+        "text": "does is if the enemies attack was about",
+        "start": 134.28,
+        "duration": 6.12
+    },
+    {
+        "text": "to hit you you can as a reaction",
+        "start": 137.459,
+        "duration": 5.161
+    },
+    {
+        "text": "impulse disadvantage on their attack",
+        "start": 140.4,
+        "duration": 3.9
+    },
+    {
+        "text": "which of course highly increases the",
+        "start": 142.62,
+        "duration": 4.199
+    },
+    {
+        "text": "chances of it missing instead amazingly",
+        "start": 144.3,
+        "duration": 4.799
+    },
+    {
+        "text": "enough this has an infinite amount of",
+        "start": 146.819,
+        "duration": 4.861
+    },
+    {
+        "text": "uses right unlike the tabletop version",
+        "start": 149.099,
+        "duration": 4.921
+    },
+    {
+        "text": "but of course by virtual being a",
+        "start": 151.68,
+        "duration": 5.1
+    },
+    {
+        "text": "reaction it is limited to once per turn",
+        "start": 154.02,
+        "duration": 4.92
+    },
+    {
+        "text": "another great part is the game won't",
+        "start": 156.78,
+        "duration": 4.02
+    },
+    {
+        "text": "keep asking you to activate it because",
+        "start": 158.94,
+        "duration": 4.74
+    },
+    {
+        "text": "you only get the prompt if the enemies",
+        "start": 160.8,
+        "duration": 5.159
+    },
+    {
+        "text": "attack was going to hit you right if",
+        "start": 163.68,
+        "duration": 4.5
+    },
+    {
+        "text": "they were going to miss anyways you",
+        "start": 165.959,
+        "duration": 5.841
+    },
+    {
+        "text": "won't be asked to activate this",
+        "start": 168.18,
+        "duration": 3.62
+    },
+    {
+        "text": "the benefits of light cleric don't stop",
+        "start": 173.099,
+        "duration": 4.621
+    },
+    {
+        "text": "there however as right at the second",
+        "start": 175.319,
+        "duration": 4.861
+    },
+    {
+        "text": "level you'll also gain the very powerful",
+        "start": 177.72,
+        "duration": 5.82
+    },
+    {
+        "text": "Radiance of the Dawn ability it hits an",
+        "start": 180.18,
+        "duration": 5.52
+    },
+    {
+        "text": "absolutely massive area around your",
+        "start": 183.54,
+        "duration": 4.38
+    },
+    {
+        "text": "character great for tanks so we'll be",
+        "start": 185.7,
+        "duration": 4.8
+    },
+    {
+        "text": "always surrounded by enemies and deals",
+        "start": 187.92,
+        "duration": 4.26
+    },
+    {
+        "text": "by default to shoot the 10 plus 1",
+        "start": 190.5,
+        "duration": 3.78
+    },
+    {
+        "text": "Radiance damage which increases on",
+        "start": 192.18,
+        "duration": 4.32
+    },
+    {
+        "text": "further levels two enemies only no",
+        "start": 194.28,
+        "duration": 4.739
+    },
+    {
+        "text": "friendly fire with a constitution saving",
+        "start": 196.5,
+        "duration": 4.5
+    },
+    {
+        "text": "throw for half the damage is quite",
+        "start": 199.019,
+        "duration": 3.481
+    },
+    {
+        "text": "powerful for early game including on",
+        "start": 201.0,
+        "duration": 3.78
+    },
+    {
+        "text": "tactician because it will hit pretty",
+        "start": 202.5,
+        "duration": 4.56
+    },
+    {
+        "text": "much the entire enemy pack",
+        "start": 204.78,
+        "duration": 4.679
+    },
+    {
+        "text": "it also only costs a channel Divinity",
+        "start": 207.06,
+        "duration": 5.039
+    },
+    {
+        "text": "use you start with just one but it is",
+        "start": 209.459,
+        "duration": 4.56
+    },
+    {
+        "text": "recharged on a short rest right so you",
+        "start": 212.099,
+        "duration": 4.201
+    },
+    {
+        "text": "have three uses per long rest later",
+        "start": 214.019,
+        "duration": 4.14
+    },
+    {
+        "text": "you'll have two users meaning six",
+        "start": 216.3,
+        "duration": 4.2
+    },
+    {
+        "text": "instead I'd much rather use this an",
+        "start": 218.159,
+        "duration": 4.201
+    },
+    {
+        "text": "attack with your normal weapon hit",
+        "start": 220.5,
+        "duration": 3.9
+    },
+    {
+        "text": "because a light cleric is stuck forever",
+        "start": 222.36,
+        "duration": 3.9
+    },
+    {
+        "text": "with just one attack per round anyways",
+        "start": 224.4,
+        "duration": 4.919
+    },
+    {
+        "text": "at level 3 you'll get shoe unique spells",
+        "start": 226.26,
+        "duration": 4.74
+    },
+    {
+        "text": "not accessible to clerics by default",
+        "start": 229.319,
+        "duration": 3.601
+    },
+    {
+        "text": "blaming sphere which can help because",
+        "start": 231.0,
+        "duration": 3.72
+    },
+    {
+        "text": "it's a summon that can also tank for you",
+        "start": 232.92,
+        "duration": 4.319
+    },
+    {
+        "text": "with full resistance against most damage",
+        "start": 234.72,
+        "duration": 4.92
+    },
+    {
+        "text": "and at level 5 you even get the classic",
+        "start": 237.239,
+        "duration": 5.28
+    },
+    {
+        "text": "Fireball spell meanwhile at level 6 your",
+        "start": 239.64,
+        "duration": 4.92
+    },
+    {
+        "text": "warding flare will upgrade through the",
+        "start": 242.519,
+        "duration": 4.921
+    },
+    {
+        "text": "improved variant which also works on",
+        "start": 244.56,
+        "duration": 5.399
+    },
+    {
+        "text": "allies right so now you can also spend a",
+        "start": 247.44,
+        "duration": 5.4
+    },
+    {
+        "text": "reaction to Forex disadvantage on an",
+        "start": 249.959,
+        "duration": 4.92
+    },
+    {
+        "text": "enemy attack against an ally it's not",
+        "start": 252.84,
+        "duration": 3.239
+    },
+    {
+        "text": "just on yourself",
+        "start": 254.879,
+        "duration": 4.26
+    },
+    {
+        "text": "then at level 7 wall of fire amazing",
+        "start": 256.079,
+        "duration": 4.741
+    },
+    {
+        "text": "especially for tanks because with this",
+        "start": 259.139,
+        "duration": 3.361
+    },
+    {
+        "text": "you can force the enemies to stay close",
+        "start": 260.82,
+        "duration": 4.86
+    },
+    {
+        "text": "to you level 8 is your last Light cleric",
+        "start": 262.5,
+        "duration": 5.22
+    },
+    {
+        "text": "special ability called potent",
+        "start": 265.68,
+        "duration": 3.66
+    },
+    {
+        "text": "spellcasting it's not really good at",
+        "start": 267.72,
+        "duration": 3.78
+    },
+    {
+        "text": "least not for this type of character it",
+        "start": 269.34,
+        "duration": 4.32
+    },
+    {
+        "text": "will increase your cantrip damage by",
+        "start": 271.5,
+        "duration": 4.199
+    },
+    {
+        "text": "your wisdom modifier but it's not like",
+        "start": 273.66,
+        "duration": 3.539
+    },
+    {
+        "text": "we'll be using can trips for attacking",
+        "start": 275.699,
+        "duration": 4.381
+    },
+    {
+        "text": "rather for buffing and so on",
+        "start": 277.199,
+        "duration": 4.801
+    },
+    {
+        "text": "now let me know by light's domain is so",
+        "start": 280.08,
+        "duration": 3.839
+    },
+    {
+        "text": "busted for a tank let's get into the",
+        "start": 282.0,
+        "duration": 4.08
+    },
+    {
+        "text": "rest of our build progression first with",
+        "start": 283.919,
+        "duration": 5.461
+    },
+    {
+        "text": "our stats 16 wisdom is more than enough",
+        "start": 286.08,
+        "duration": 5.7
+    },
+    {
+        "text": "as this character won't exactly be",
+        "start": 289.38,
+        "duration": 4.2
+    },
+    {
+        "text": "focused into difficulty class spells",
+        "start": 291.78,
+        "duration": 3.62
+    },
+    {
+        "text": "whether your spells are mostly for",
+        "start": 293.58,
+        "duration": 4.86
+    },
+    {
+        "text": "buffing and healing allies Charisma is",
+        "start": 295.4,
+        "duration": 5.2
+    },
+    {
+        "text": "easily dumpable the same for",
+        "start": 298.44,
+        "duration": 4.259
+    },
+    {
+        "text": "intelligence your second most important",
+        "start": 300.6,
+        "duration": 4.74
+    },
+    {
+        "text": "stat is dexterity as I said you can",
+        "start": 302.699,
+        "duration": 4.801
+    },
+    {
+        "text": "fully apply it to your AC with certain",
+        "start": 305.34,
+        "duration": 4.859
+    },
+    {
+        "text": "medium armors for maximum tanking",
+        "start": 307.5,
+        "duration": 4.74
+    },
+    {
+        "text": "dexterity has of course other great",
+        "start": 310.199,
+        "duration": 3.72
+    },
+    {
+        "text": "benefits to you especially initiative",
+        "start": 312.24,
+        "duration": 3.78
+    },
+    {
+        "text": "which can help a tank because if you",
+        "start": 313.919,
+        "duration": 3.361
+    },
+    {
+        "text": "move first",
+        "start": 316.02,
+        "duration": 3.42
+    },
+    {
+        "text": "well you increase the chances of getting",
+        "start": 317.28,
+        "duration": 4.08
+    },
+    {
+        "text": "where you want so enemies will Target",
+        "start": 319.44,
+        "duration": 4.68
+    },
+    {
+        "text": "you instead of allies anyways it also",
+        "start": 321.36,
+        "duration": 4.559
+    },
+    {
+        "text": "helps with spell saving trolls for",
+        "start": 324.12,
+        "duration": 4.799
+    },
+    {
+        "text": "damage effects and finessible and ranged",
+        "start": 325.919,
+        "duration": 5.22
+    },
+    {
+        "text": "weapons too it's quite stacked I'd much",
+        "start": 328.919,
+        "duration": 3.84
+    },
+    {
+        "text": "rather eat than strength now if you're",
+        "start": 331.139,
+        "duration": 3.361
+    },
+    {
+        "text": "planning on using Shadow heart as your",
+        "start": 332.759,
+        "duration": 4.321
+    },
+    {
+        "text": "main origin character then you should",
+        "start": 334.5,
+        "duration": 4.74
+    },
+    {
+        "text": "start with 7th indexterity because you",
+        "start": 337.08,
+        "duration": 5.04
+    },
+    {
+        "text": "can then accept the hex gift at act 1",
+        "start": 339.24,
+        "duration": 5.82
+    },
+    {
+        "text": "for a plus one so that just at level 4",
+        "start": 342.12,
+        "duration": 5.4
+    },
+    {
+        "text": "if you already become a 20 and yes this",
+        "start": 345.06,
+        "duration": 4.199
+    },
+    {
+        "text": "build does work for the main character",
+        "start": 347.52,
+        "duration": 4.5
+    },
+    {
+        "text": "as a cleric tank too otherwise for a",
+        "start": 349.259,
+        "duration": 4.321
+    },
+    {
+        "text": "normal Shadow heart companion 16",
+        "start": 352.02,
+        "duration": 3.84
+    },
+    {
+        "text": "dexterity is more than enough then be",
+        "start": 353.58,
+        "duration": 4.98
+    },
+    {
+        "text": "sure to go for 15 Constitution because",
+        "start": 355.86,
+        "duration": 5.16
+    },
+    {
+        "text": "yoga should turn this into 16 very soon",
+        "start": 358.56,
+        "duration": 5.22
+    },
+    {
+        "text": "for even more hit points as a tank",
+        "start": 361.02,
+        "duration": 5.16
+    },
+    {
+        "text": "the other stat is up to you I prefer",
+        "start": 363.78,
+        "duration": 3.72
+    },
+    {
+        "text": "strength because if anything it",
+        "start": 366.18,
+        "duration": 3.12
+    },
+    {
+        "text": "increases your carrying capacity",
+        "start": 367.5,
+        "duration": 3.96
+    },
+    {
+        "text": "and show hits chance with weapons that",
+        "start": 369.3,
+        "duration": 4.32
+    },
+    {
+        "text": "aren't finishable including the best",
+        "start": 371.46,
+        "duration": 3.9
+    },
+    {
+        "text": "weapon for tanking",
+        "start": 373.62,
+        "duration": 3.299
+    },
+    {
+        "text": "skills don't matter much for shadow",
+        "start": 375.36,
+        "duration": 4.32
+    },
+    {
+        "text": "heart just go with medicine and",
+        "start": 376.919,
+        "duration": 5.461
+    },
+    {
+        "text": "persuasion or history",
+        "start": 379.68,
+        "duration": 4.5
+    },
+    {
+        "text": "as far as your can trips and spell",
+        "start": 382.38,
+        "duration": 3.78
+    },
+    {
+        "text": "selection please be sure to check my",
+        "start": 384.18,
+        "duration": 4.139
+    },
+    {
+        "text": "recently released best spells guide for",
+        "start": 386.16,
+        "duration": 4.86
+    },
+    {
+        "text": "pg3 but anyways",
+        "start": 388.319,
+        "duration": 5.581
+    },
+    {
+        "text": "blade water is a must-have because it's",
+        "start": 391.02,
+        "duration": 4.92
+    },
+    {
+        "text": "50 less damage taken from physical",
+        "start": 393.9,
+        "duration": 5.28
+    },
+    {
+        "text": "attacks at two turns no concentration",
+        "start": 395.94,
+        "duration": 5.4
+    },
+    {
+        "text": "meaning you Cannon should also prep buff",
+        "start": 399.18,
+        "duration": 4.56
+    },
+    {
+        "text": "with it before battle starts guidance is",
+        "start": 401.34,
+        "duration": 5.34
+    },
+    {
+        "text": "amazing two buff allies but it's a",
+        "start": 403.74,
+        "duration": 4.56
+    },
+    {
+        "text": "concentration effect so ideally you",
+        "start": 406.68,
+        "duration": 3.06
+    },
+    {
+        "text": "would have another character use",
+        "start": 408.3,
+        "duration": 3.179
+    },
+    {
+        "text": "guidance on the main phase of the party",
+        "start": 409.74,
+        "duration": 3.959
+    },
+    {
+        "text": "for dialogue checks and so on besides",
+        "start": 411.479,
+        "duration": 4.321
+    },
+    {
+        "text": "that we already have light for free as a",
+        "start": 413.699,
+        "duration": 3.961
+    },
+    {
+        "text": "light cleric and you might as well go",
+        "start": 415.8,
+        "duration": 4.739
+    },
+    {
+        "text": "with sacred flame here it does offer a",
+        "start": 417.66,
+        "duration": 4.62
+    },
+    {
+        "text": "saving troll which is annoying",
+        "start": 420.539,
+        "duration": 3.961
+    },
+    {
+        "text": "but at the very least you can cast it",
+        "start": 422.28,
+        "duration": 4.74
+    },
+    {
+        "text": "even at melee range without incurring",
+        "start": 424.5,
+        "duration": 5.34
+    },
+    {
+        "text": "penalties or just pick thermaturgy if",
+        "start": 427.02,
+        "duration": 4.2
+    },
+    {
+        "text": "you want Shadow art to intimidate",
+        "start": 429.84,
+        "duration": 3.78
+    },
+    {
+        "text": "enemies better as for spells definitely",
+        "start": 431.22,
+        "duration": 4.259
+    },
+    {
+        "text": "healing Ward because its cast as a bonus",
+        "start": 433.62,
+        "duration": 2.82
+    },
+    {
+        "text": "action",
+        "start": 435.479,
+        "duration": 3.0
+    },
+    {
+        "text": "and as I explained we have some nice",
+        "start": 436.44,
+        "duration": 4.62
+    },
+    {
+        "text": "Auto Buffs applied on healing together",
+        "start": 438.479,
+        "duration": 4.981
+    },
+    {
+        "text": "with should of Faith the main tank",
+        "start": 441.06,
+        "duration": 4.56
+    },
+    {
+        "text": "buffing spell in the game for plus two",
+        "start": 443.46,
+        "duration": 4.799
+    },
+    {
+        "text": "AC until long rest it does require a",
+        "start": 445.62,
+        "duration": 4.26
+    },
+    {
+        "text": "concentration however so we'll clash",
+        "start": 448.259,
+        "duration": 3.901
+    },
+    {
+        "text": "with other effects like for example the",
+        "start": 449.88,
+        "duration": 4.74
+    },
+    {
+        "text": "very useful blasts protection from Evo",
+        "start": 452.16,
+        "duration": 4.62
+    },
+    {
+        "text": "and good can be useful too against some",
+        "start": 454.62,
+        "duration": 5.1
+    },
+    {
+        "text": "enemies most importantly Undead",
+        "start": 456.78,
+        "duration": 5.039
+    },
+    {
+        "text": "to force his advantage on attacks and",
+        "start": 459.72,
+        "duration": 4.74
+    },
+    {
+        "text": "that's mostly it for level 1.",
+        "start": 461.819,
+        "duration": 5.521
+    },
+    {
+        "text": "at level 3 don't forget to prepare eight",
+        "start": 464.46,
+        "duration": 4.44
+    },
+    {
+        "text": "always because it's one of the best",
+        "start": 467.34,
+        "duration": 3.479
+    },
+    {
+        "text": "Buffs in the game to increase the max",
+        "start": 468.9,
+        "duration": 4.26
+    },
+    {
+        "text": "hit points of all party members and you",
+        "start": 470.819,
+        "duration": 4.44
+    },
+    {
+        "text": "should always cast this once you get",
+        "start": 473.16,
+        "duration": 4.439
+    },
+    {
+        "text": "higher spell levels for even more hit",
+        "start": 475.259,
+        "duration": 4.56
+    },
+    {
+        "text": "points warding bond is here because it's",
+        "start": 477.599,
+        "duration": 4.261
+    },
+    {
+        "text": "quite the handy spell to have it's just",
+        "start": 479.819,
+        "duration": 3.961
+    },
+    {
+        "text": "that because it works on the LI you cast",
+        "start": 481.86,
+        "duration": 4.739
+    },
+    {
+        "text": "it on you don't need to memorize it with",
+        "start": 483.78,
+        "duration": 4.74
+    },
+    {
+        "text": "your Shadow heart herself while this",
+        "start": 486.599,
+        "duration": 3.781
+    },
+    {
+        "text": "spell does it simple it will grant full",
+        "start": 488.52,
+        "duration": 4.26
+    },
+    {
+        "text": "resistance against all damage types that",
+        "start": 490.38,
+        "duration": 5.7
+    },
+    {
+        "text": "is 50 less damage taken together with",
+        "start": 492.78,
+        "duration": 5.039
+    },
+    {
+        "text": "even a very nice plus one bonus you AC",
+        "start": 496.08,
+        "duration": 4.14
+    },
+    {
+        "text": "and saving throws all onto a long rest",
+        "start": 497.819,
+        "duration": 5.401
+    },
+    {
+        "text": "and without concentration true the",
+        "start": 500.22,
+        "duration": 4.68
+    },
+    {
+        "text": "reason this spell is here is because",
+        "start": 503.22,
+        "duration": 3.479
+    },
+    {
+        "text": "well there's something cheesy you can do",
+        "start": 504.9,
+        "duration": 3.96
+    },
+    {
+        "text": "right you can for example go to your",
+        "start": 506.699,
+        "duration": 5.58
+    },
+    {
+        "text": "Camp after resting then have a mercenary",
+        "start": 508.86,
+        "duration": 6.66
+    },
+    {
+        "text": "or a party member that's not part of",
+        "start": 512.279,
+        "duration": 4.741
+    },
+    {
+        "text": "your active group",
+        "start": 515.52,
+        "duration": 4.379
+    },
+    {
+        "text": "cast it on Shadow heart as a tank then",
+        "start": 517.02,
+        "duration": 5.04
+    },
+    {
+        "text": "you remove them from party get the other",
+        "start": 519.899,
+        "duration": 4.32
+    },
+    {
+        "text": "main Ally and go dungeoning and",
+        "start": 522.06,
+        "duration": 4.26
+    },
+    {
+        "text": "exploring right because guarding Bond",
+        "start": 524.219,
+        "duration": 4.261
+    },
+    {
+        "text": "will remain in effect what it doesn't",
+        "start": 526.32,
+        "duration": 4.44
+    },
+    {
+        "text": "tell you here is that the Castro will",
+        "start": 528.48,
+        "duration": 5.039
+    },
+    {
+        "text": "share damage taken with the wire that",
+        "start": 530.76,
+        "duration": 4.019
+    },
+    {
+        "text": "Ally",
+        "start": 533.519,
+        "duration": 3.601
+    },
+    {
+        "text": "the thing is because our Caster stays at",
+        "start": 534.779,
+        "duration": 4.381
+    },
+    {
+        "text": "Camp they'll still take damage right",
+        "start": 537.12,
+        "duration": 3.659
+    },
+    {
+        "text": "but it's not like they will be in any",
+        "start": 539.16,
+        "duration": 3.06
+    },
+    {
+        "text": "danger",
+        "start": 540.779,
+        "duration": 3.781
+    },
+    {
+        "text": "further danger anyways and you can",
+        "start": 542.22,
+        "duration": 4.679
+    },
+    {
+        "text": "always just maximize their hit points by",
+        "start": 544.56,
+        "duration": 5.459
+    },
+    {
+        "text": "investing Constitution and HP feeds and",
+        "start": 546.899,
+        "duration": 5.041
+    },
+    {
+        "text": "while they're just there to cast this on",
+        "start": 550.019,
+        "duration": 3.901
+    },
+    {
+        "text": "you anyways they aren't an active member",
+        "start": 551.94,
+        "duration": 4.32
+    },
+    {
+        "text": "during battle cheesy but definitely very",
+        "start": 553.92,
+        "duration": 5.58
+    },
+    {
+        "text": "fun and effective",
+        "start": 556.26,
+        "duration": 5.639
+    },
+    {
+        "text": "at level 4 pick any cantrip here they",
+        "start": 559.5,
+        "duration": 4.2
+    },
+    {
+        "text": "don't matter much and as far as your",
+        "start": 561.899,
+        "duration": 3.12
+    },
+    {
+        "text": "first feat you have a few different",
+        "start": 563.7,
+        "duration": 3.24
+    },
+    {
+        "text": "options my preferred pick now is",
+        "start": 565.019,
+        "duration": 4.44
+    },
+    {
+        "text": "resilient which is part of why we went",
+        "start": 566.94,
+        "duration": 4.26
+    },
+    {
+        "text": "with 15 Constitution because you can now",
+        "start": 569.459,
+        "duration": 4.741
+    },
+    {
+        "text": "increase it to 16 for more HP but most",
+        "start": 571.2,
+        "duration": 4.98
+    },
+    {
+        "text": "importantly this also grants you",
+        "start": 574.2,
+        "duration": 4.079
+    },
+    {
+        "text": "Proficiency in Constitution saving",
+        "start": 576.18,
+        "duration": 4.62
+    },
+    {
+        "text": "throws by default clerics only have it",
+        "start": 578.279,
+        "duration": 4.861
+    },
+    {
+        "text": "in wisdom and charisma",
+        "start": 580.8,
+        "duration": 5.7
+    },
+    {
+        "text": "the higher your Constitution saves the",
+        "start": 583.14,
+        "duration": 5.58
+    },
+    {
+        "text": "easier it is to make concentration",
+        "start": 586.5,
+        "duration": 5.22
+    },
+    {
+        "text": "checks which matter a lot for a cleric",
+        "start": 588.72,
+        "duration": 4.559
+    },
+    {
+        "text": "because most of your powerful effects",
+        "start": 591.72,
+        "duration": 3.84
+    },
+    {
+        "text": "require concentration and you don't want",
+        "start": 593.279,
+        "duration": 3.601
+    },
+    {
+        "text": "them to disappear in the middle of",
+        "start": 595.56,
+        "duration": 3.48
+    },
+    {
+        "text": "battle when you need them the most",
+        "start": 596.88,
+        "duration": 4.62
+    },
+    {
+        "text": "something else you can do is go for war",
+        "start": 599.04,
+        "duration": 5.82
+    },
+    {
+        "text": "caster which instead of proficiency will",
+        "start": 601.5,
+        "duration": 5.88
+    },
+    {
+        "text": "grant you advantage on concentration",
+        "start": 604.86,
+        "duration": 4.5
+    },
+    {
+        "text": "checks only it's not all Constitution",
+        "start": 607.38,
+        "duration": 4.079
+    },
+    {
+        "text": "checks and also won't increase your hit",
+        "start": 609.36,
+        "duration": 5.099
+    },
+    {
+        "text": "points I'd rather resilient at level 5",
+        "start": 611.459,
+        "duration": 4.861
+    },
+    {
+        "text": "be sure to prepare",
+        "start": 614.459,
+        "duration": 4.021
+    },
+    {
+        "text": "Spirit Guardians which is amazing for",
+        "start": 616.32,
+        "duration": 4.62
+    },
+    {
+        "text": "area of effect damage together with mass",
+        "start": 618.48,
+        "duration": 4.44
+    },
+    {
+        "text": "healing words the area of effect version",
+        "start": 620.94,
+        "duration": 4.14
+    },
+    {
+        "text": "of healing Ward animates that can help",
+        "start": 622.92,
+        "duration": 4.56
+    },
+    {
+        "text": "you to get more summons for tanking and",
+        "start": 625.08,
+        "duration": 4.68
+    },
+    {
+        "text": "of course rear vivifi but you can use it",
+        "start": 627.48,
+        "duration": 5.1
+    },
+    {
+        "text": "from Scrolls early at level 6 we get our",
+        "start": 629.76,
+        "duration": 6.32
+    },
+    {
+        "text": "improved flare for allies",
+        "start": 632.58,
+        "duration": 3.5
+    },
+    {
+        "text": "and as far as level 4 spells gained at",
+        "start": 636.12,
+        "duration": 4.62
+    },
+    {
+        "text": "level 7. therefore art can help because",
+        "start": 638.279,
+        "duration": 5.281
+    },
+    {
+        "text": "well it will prevent death and leave you",
+        "start": 640.74,
+        "duration": 5.099
+    },
+    {
+        "text": "with one hit points once doesn't require",
+        "start": 643.56,
+        "duration": 4.44
+    },
+    {
+        "text": "concentration and lasts pretty much",
+        "start": 645.839,
+        "duration": 3.24
+    },
+    {
+        "text": "forever",
+        "start": 648.0,
+        "duration": 3.3
+    },
+    {
+        "text": "so it's perfect for a tank although I",
+        "start": 649.079,
+        "duration": 4.681
+    },
+    {
+        "text": "don't think you'll ever be in any danger",
+        "start": 651.3,
+        "duration": 4.14
+    },
+    {
+        "text": "with this build at least not through the",
+        "start": 653.76,
+        "duration": 3.6
+    },
+    {
+        "text": "point of time",
+        "start": 655.44,
+        "duration": 3.66
+    },
+    {
+        "text": "especially at the point you get this",
+        "start": 657.36,
+        "duration": 2.94
+    },
+    {
+        "text": "level 7",
+        "start": 659.1,
+        "duration": 3.78
+    },
+    {
+        "text": "but it is something to consider or level",
+        "start": 660.3,
+        "duration": 5.219
+    },
+    {
+        "text": "weight we get our second feat but what I",
+        "start": 662.88,
+        "duration": 4.26
+    },
+    {
+        "text": "would rather get now is an ability",
+        "start": 665.519,
+        "duration": 3.0
+    },
+    {
+        "text": "Improvement right",
+        "start": 667.14,
+        "duration": 4.74
+    },
+    {
+        "text": "to maximize our dexterity because as",
+        "start": 668.519,
+        "duration": 5.341
+    },
+    {
+        "text": "I've said it will be fully applied to",
+        "start": 671.88,
+        "duration": 4.62
+    },
+    {
+        "text": "our AC sugar of course is financiable",
+        "start": 673.86,
+        "duration": 5.58
+    },
+    {
+        "text": "and ranged weapons and initiative very",
+        "start": 676.5,
+        "duration": 4.98
+    },
+    {
+        "text": "important for a tank now if this Shadow",
+        "start": 679.44,
+        "duration": 4.079
+    },
+    {
+        "text": "heart is your main character or you are",
+        "start": 681.48,
+        "duration": 3.539
+    },
+    {
+        "text": "playing a main character with dispute",
+        "start": 683.519,
+        "duration": 4.141
+    },
+    {
+        "text": "you could already get 20 right at this",
+        "start": 685.019,
+        "duration": 4.681
+    },
+    {
+        "text": "point right by starting with 17 and",
+        "start": 687.66,
+        "duration": 4.2
+    },
+    {
+        "text": "accepting the hex gift as I explained",
+        "start": 689.7,
+        "duration": 4.56
+    },
+    {
+        "text": "before while your first level 5 spells",
+        "start": 691.86,
+        "duration": 5.039
+    },
+    {
+        "text": "honestly mostly Mass cure wounds the",
+        "start": 694.26,
+        "duration": 5.579
+    },
+    {
+        "text": "orders aren't that necessary for dispute",
+        "start": 696.899,
+        "duration": 5.341
+    },
+    {
+        "text": "just go with upcast versions of earlier",
+        "start": 699.839,
+        "duration": 5.341
+    },
+    {
+        "text": "great spells like 8. and spirit",
+        "start": 702.24,
+        "duration": 5.88
+    },
+    {
+        "text": "Guardians at level 10 as with any cleric",
+        "start": 705.18,
+        "duration": 4.56
+    },
+    {
+        "text": "you get the quite unique divine",
+        "start": 708.12,
+        "duration": 3.54
+    },
+    {
+        "text": "intervention ability which amazingly",
+        "start": 709.74,
+        "duration": 4.5
+    },
+    {
+        "text": "enough only works once per campaign",
+        "start": 711.66,
+        "duration": 5.1
+    },
+    {
+        "text": "right it's not once per short rest or",
+        "start": 714.24,
+        "duration": 5.039
+    },
+    {
+        "text": "long rest is once per game",
+        "start": 716.76,
+        "duration": 5.1
+    },
+    {
+        "text": "the best effect to me is to get you a",
+        "start": 719.279,
+        "duration": 4.5
+    },
+    {
+        "text": "legendary weapon that can help a tank a",
+        "start": 721.86,
+        "duration": 4.08
+    },
+    {
+        "text": "bit for healing but you can always use",
+        "start": 723.779,
+        "duration": 4.321
+    },
+    {
+        "text": "the healing and revive effect too just",
+        "start": 725.94,
+        "duration": 4.139
+    },
+    {
+        "text": "remember it's once per game",
+        "start": 728.1,
+        "duration": 4.919
+    },
+    {
+        "text": "any other can trip as for your first",
+        "start": 730.079,
+        "duration": 6.721
+    },
+    {
+        "text": "level 6 spells mostly Heroes Feast which",
+        "start": 733.019,
+        "duration": 5.82
+    },
+    {
+        "text": "works just like eight together with",
+        "start": 736.8,
+        "duration": 4.08
+    },
+    {
+        "text": "planar Ally for a very fitting and quite",
+        "start": 738.839,
+        "duration": 4.381
+    },
+    {
+        "text": "powerful Angel summon as for your last",
+        "start": 740.88,
+        "duration": 5.399
+    },
+    {
+        "text": "feat at level 12 hide honestly just max",
+        "start": 743.22,
+        "duration": 5.76
+    },
+    {
+        "text": "saw the dexterity instead but if you did",
+        "start": 746.279,
+        "duration": 4.321
+    },
+    {
+        "text": "so before",
+        "start": 748.98,
+        "duration": 4.2
+    },
+    {
+        "text": "another very nice feat you have is lucky",
+        "start": 750.6,
+        "duration": 4.62
+    },
+    {
+        "text": "because just like rewarding flare",
+        "start": 753.18,
+        "duration": 4.62
+    },
+    {
+        "text": "ability it will help you avoid enemy",
+        "start": 755.22,
+        "duration": 4.859
+    },
+    {
+        "text": "hits and can be used three times per",
+        "start": 757.8,
+        "duration": 3.719
+    },
+    {
+        "text": "long rest",
+        "start": 760.079,
+        "duration": 3.421
+    },
+    {
+        "text": "so you'll really maximize your defenses",
+        "start": 761.519,
+        "duration": 3.841
+    },
+    {
+        "text": "because even if the enemies",
+        "start": 763.5,
+        "duration": 4.62
+    },
+    {
+        "text": "somehow managed to get past your AC they",
+        "start": 765.36,
+        "duration": 4.44
+    },
+    {
+        "text": "have should deal with both farting flare",
+        "start": 768.12,
+        "duration": 3.54
+    },
+    {
+        "text": "and lucky there's even something to",
+        "start": 769.8,
+        "duration": 3.96
+    },
+    {
+        "text": "increase hit points you like tough but I",
+        "start": 771.66,
+        "duration": 3.119
+    },
+    {
+        "text": "don't think it's as good as the",
+        "start": 773.76,
+        "duration": 3.42
+    },
+    {
+        "text": "dexterity increases or lucky",
+        "start": 774.779,
+        "duration": 4.321
+    },
+    {
+        "text": "all right now let's discover gear for",
+        "start": 777.18,
+        "duration": 4.14
+    },
+    {
+        "text": "our ultimate shadowheart tank",
+        "start": 779.1,
+        "duration": 4.979
+    },
+    {
+        "text": "when it comes to helmet the best one is",
+        "start": 781.32,
+        "duration": 4.92
+    },
+    {
+        "text": "without adopt the legendary Helm of",
+        "start": 784.079,
+        "duration": 5.7
+    },
+    {
+        "text": "balduran straight from Baldur's Gate 1.",
+        "start": 786.24,
+        "duration": 5.76
+    },
+    {
+        "text": "it has many powerful effects first",
+        "start": 789.779,
+        "duration": 3.841
+    },
+    {
+        "text": "you'll become immune to Critical Hits",
+        "start": 792.0,
+        "duration": 3.959
+    },
+    {
+        "text": "amazing for a tank second you cannot be",
+        "start": 793.62,
+        "duration": 4.62
+    },
+    {
+        "text": "stunned third and most importantly a",
+        "start": 795.959,
+        "duration": 4.68
+    },
+    {
+        "text": "plus one bonus to AC and saving throws",
+        "start": 798.24,
+        "duration": 5.46
+    },
+    {
+        "text": "and the best part is mpg3 all of the",
+        "start": 800.639,
+        "duration": 5.041
+    },
+    {
+        "text": "gear that grants you increases to AC and",
+        "start": 803.7,
+        "duration": 3.9
+    },
+    {
+        "text": "saving trolls well they stack with other",
+        "start": 805.68,
+        "duration": 4.32
+    },
+    {
+        "text": "sources right lastly you'll also be",
+        "start": 807.6,
+        "duration": 4.5
+    },
+    {
+        "text": "healed for two hit points as a minor",
+        "start": 810.0,
+        "duration": 4.26
+    },
+    {
+        "text": "regeneration effect at the beginning of",
+        "start": 812.1,
+        "duration": 4.44
+    },
+    {
+        "text": "every turn which can help because it",
+        "start": 814.26,
+        "duration": 4.8
+    },
+    {
+        "text": "will proc certain on-heal benefits as",
+        "start": 816.54,
+        "duration": 4.62
+    },
+    {
+        "text": "I'll soon explained and earlier in the",
+        "start": 819.06,
+        "duration": 5.219
+    },
+    {
+        "text": "game as this Helm is act 3 only you can",
+        "start": 821.16,
+        "duration": 6.299
+    },
+    {
+        "text": "go with wapira's crown right so that",
+        "start": 824.279,
+        "duration": 5.521
+    },
+    {
+        "text": "whenever you heal an ally you'll regain",
+        "start": 827.459,
+        "duration": 4.861
+    },
+    {
+        "text": "one to six hit points yourself for",
+        "start": 829.8,
+        "duration": 4.44
+    },
+    {
+        "text": "clothes earlier the cloak of protection",
+        "start": 832.32,
+        "duration": 4.98
+    },
+    {
+        "text": "for another plus one Tracy and saves but",
+        "start": 834.24,
+        "duration": 5.7
+    },
+    {
+        "text": "you can also go with the very powerful",
+        "start": 837.3,
+        "duration": 4.5
+    },
+    {
+        "text": "cloak of displacement it will reduce",
+        "start": 839.94,
+        "duration": 4.98
+    },
+    {
+        "text": "right your AC by -1 but their benefit is",
+        "start": 841.8,
+        "duration": 5.58
+    },
+    {
+        "text": "extremely powerful as your Force",
+        "start": 844.92,
+        "duration": 5.58
+    },
+    {
+        "text": "disadvantage on enemy attacks lasting",
+        "start": 847.38,
+        "duration": 5.519
+    },
+    {
+        "text": "until you take damage which well is not",
+        "start": 850.5,
+        "duration": 4.079
+    },
+    {
+        "text": "gonna be often when you have such high",
+        "start": 852.899,
+        "duration": 3.661
+    },
+    {
+        "text": "stack of defenses",
+        "start": 854.579,
+        "duration": 4.26
+    },
+    {
+        "text": "so either displacement which I think is",
+        "start": 856.56,
+        "duration": 4.2
+    },
+    {
+        "text": "more efficient or the cloak of",
+        "start": 858.839,
+        "duration": 4.981
+    },
+    {
+        "text": "protection for armor earlier just go",
+        "start": 860.76,
+        "duration": 4.86
+    },
+    {
+        "text": "with any median armor that's Enchanted",
+        "start": 863.82,
+        "duration": 4.259
+    },
+    {
+        "text": "but as early as X2 you can already find",
+        "start": 865.62,
+        "duration": 5.88
+    },
+    {
+        "text": "very nice armors that are medium but",
+        "start": 868.079,
+        "duration": 6.541
+    },
+    {
+        "text": "allow you to apply your full dexterity",
+        "start": 871.5,
+        "duration": 5.639
+    },
+    {
+        "text": "modifier to AC which is part of why I",
+        "start": 874.62,
+        "duration": 4.68
+    },
+    {
+        "text": "went with high dexterity such as the",
+        "start": 877.139,
+        "duration": 3.961
+    },
+    {
+        "text": "humanity scale male the first I believe",
+        "start": 879.3,
+        "duration": 4.26
+    },
+    {
+        "text": "but ultimately during act 3 you can get",
+        "start": 881.1,
+        "duration": 5.28
+    },
+    {
+        "text": "the armor of agility for even higher AC",
+        "start": 883.56,
+        "duration": 5.519
+    },
+    {
+        "text": "together with a plus shoe to all saves",
+        "start": 886.38,
+        "duration": 4.079
+    },
+    {
+        "text": "quite stacked",
+        "start": 889.079,
+        "duration": 3.481
+    },
+    {
+        "text": "four gloves if you want the highest AC",
+        "start": 890.459,
+        "duration": 5.82
+    },
+    {
+        "text": "the wondrous gloves or plus one or my",
+        "start": 892.56,
+        "duration": 5.519
+    },
+    {
+        "text": "preferred pick would be the Reviving",
+        "start": 896.279,
+        "duration": 4.5
+    },
+    {
+        "text": "hands whenever you heal a creature it",
+        "start": 898.079,
+        "duration": 4.741
+    },
+    {
+        "text": "automatically gains blade wart which of",
+        "start": 900.779,
+        "duration": 3.961
+    },
+    {
+        "text": "course means half damage taken from all",
+        "start": 902.82,
+        "duration": 4.379
+    },
+    {
+        "text": "physical attacks and this also works on",
+        "start": 904.74,
+        "duration": 4.38
+    },
+    {
+        "text": "yourself plus whenever you revive a",
+        "start": 907.199,
+        "duration": 3.781
+    },
+    {
+        "text": "creature they'll gain the f word to",
+        "start": 909.12,
+        "duration": 3.959
+    },
+    {
+        "text": "ensure they remain alive even with low",
+        "start": 910.98,
+        "duration": 4.859
+    },
+    {
+        "text": "hit points from Reviving together with",
+        "start": 913.079,
+        "duration": 4.56
+    },
+    {
+        "text": "an extra cast of the main Resurrection",
+        "start": 915.839,
+        "duration": 4.321
+    },
+    {
+        "text": "spelling the game review 5.",
+        "start": 917.639,
+        "duration": 4.801
+    },
+    {
+        "text": "these gloves also have a minor variant",
+        "start": 920.16,
+        "duration": 5.039
+    },
+    {
+        "text": "you can find as early as act one from",
+        "start": 922.44,
+        "duration": 5.399
+    },
+    {
+        "text": "the main tiffling guy at the Tweet Grove",
+        "start": 925.199,
+        "duration": 4.861
+    },
+    {
+        "text": "which comes by preventing the Tweet",
+        "start": 927.839,
+        "duration": 3.661
+    },
+    {
+        "text": "ritual right and they are called",
+        "start": 930.06,
+        "duration": 3.6
+    },
+    {
+        "text": "hellrider Sprite whenever you heal",
+        "start": 931.5,
+        "duration": 4.199
+    },
+    {
+        "text": "another creature it will gain the same",
+        "start": 933.66,
+        "duration": 3.72
+    },
+    {
+        "text": "as the first effect of the revived",
+        "start": 935.699,
+        "duration": 3.601
+    },
+    {
+        "text": "gloves full resistance to physical",
+        "start": 937.38,
+        "duration": 4.38
+    },
+    {
+        "text": "attacks do note that it does not work on",
+        "start": 939.3,
+        "duration": 4.74
+    },
+    {
+        "text": "yourself however unlike the Reviving",
+        "start": 941.76,
+        "duration": 4.56
+    },
+    {
+        "text": "hands together with plus one choose",
+        "start": 944.04,
+        "duration": 4.26
+    },
+    {
+        "text": "strength saving throws the Luminous",
+        "start": 946.32,
+        "duration": 4.199
+    },
+    {
+        "text": "gloves are also another choice",
+        "start": 948.3,
+        "duration": 4.08
+    },
+    {
+        "text": "because whenever we do Radiance damage",
+        "start": 950.519,
+        "duration": 4.62
+    },
+    {
+        "text": "such as for example your wages of the",
+        "start": 952.38,
+        "duration": 4.92
+    },
+    {
+        "text": "Dawn ability or the spirit Guardians",
+        "start": 955.139,
+        "duration": 4.2
+    },
+    {
+        "text": "spell you inflict all enemies with",
+        "start": 957.3,
+        "duration": 3.779
+    },
+    {
+        "text": "radiating orb which can highly reduce",
+        "start": 959.339,
+        "duration": 4.5
+    },
+    {
+        "text": "their attack roles for Boots the evasive",
+        "start": 961.079,
+        "duration": 4.681
+    },
+    {
+        "text": "shoes for the further boost shoe Armor",
+        "start": 963.839,
+        "duration": 4.321
+    },
+    {
+        "text": "class but there's also the Bulls of",
+        "start": 965.76,
+        "duration": 5.22
+    },
+    {
+        "text": "Aiden Comfort earlier so that whenever",
+        "start": 968.16,
+        "duration": 4.679
+    },
+    {
+        "text": "you and Ally they'll gain three",
+        "start": 970.98,
+        "duration": 3.599
+    },
+    {
+        "text": "temporary hit points it's just that",
+        "start": 972.839,
+        "duration": 3.201
+    },
+    {
+        "text": "later",
+        "start": 974.579,
+        "duration": 4.141
+    },
+    {
+        "text": "this amount will become kind of minor",
+        "start": 976.04,
+        "duration": 4.479
+    },
+    {
+        "text": "right so it won't be as useful as",
+        "start": 978.72,
+        "duration": 3.059
+    },
+    {
+        "text": "earlier in the game",
+        "start": 980.519,
+        "duration": 3.481
+    },
+    {
+        "text": "for amulets ultimately greater health",
+        "start": 981.779,
+        "duration": 4.68
+    },
+    {
+        "text": "because the effect is quite stacked it",
+        "start": 984.0,
+        "duration": 4.56
+    },
+    {
+        "text": "simply sets your Constitution to 23",
+        "start": 986.459,
+        "duration": 4.5
+    },
+    {
+        "text": "right which of course means a big boost",
+        "start": 988.56,
+        "duration": 5.219
+    },
+    {
+        "text": "to your maximum hit points",
+        "start": 990.959,
+        "duration": 6.361
+    },
+    {
+        "text": "this is act 3 only however before that I",
+        "start": 993.779,
+        "duration": 4.92
+    },
+    {
+        "text": "would settle for the Amulet of",
+        "start": 997.32,
+        "duration": 4.939
+    },
+    {
+        "text": "regeneration which provides free casts",
+        "start": 998.699,
+        "duration": 7.08
+    },
+    {
+        "text": "once per long rest of both Mass healing",
+        "start": 1002.259,
+        "duration": 5.08
+    },
+    {
+        "text": "Ward and also the normal healing word",
+        "start": 1005.779,
+        "duration": 3.901
+    },
+    {
+        "text": "spell who doesn't want extra casts of",
+        "start": 1007.339,
+        "duration": 4.201
+    },
+    {
+        "text": "powerful spells especially when we have",
+        "start": 1009.68,
+        "duration": 3.959
+    },
+    {
+        "text": "gear to boost them even further with",
+        "start": 1011.54,
+        "duration": 4.08
+    },
+    {
+        "text": "other Buffs 4 Rings the ring of",
+        "start": 1013.639,
+        "duration": 4.14
+    },
+    {
+        "text": "protection also available at act 1 from",
+        "start": 1015.62,
+        "duration": 3.42
+    },
+    {
+        "text": "what I recall",
+        "start": 1017.779,
+        "duration": 2.661
+    },
+    {
+        "text": "foreign",
+        "start": 1019.04,
+        "duration": 4.799
+    },
+    {
+        "text": "saves and you should definitely combine",
+        "start": 1020.44,
+        "duration": 5.499
+    },
+    {
+        "text": "it with the whispering promise also act",
+        "start": 1023.839,
+        "duration": 4.5
+    },
+    {
+        "text": "1 which makes it so that whenever you",
+        "start": 1025.939,
+        "duration": 3.62
+    },
+    {
+        "text": "heal a creature including yourself",
+        "start": 1028.339,
+        "duration": 4.021
+    },
+    {
+        "text": "they'll be automatically blessed so plus",
+        "start": 1029.559,
+        "duration": 4.541
+    },
+    {
+        "text": "one the four bonus shoe attacks and",
+        "start": 1032.36,
+        "duration": 4.02
+    },
+    {
+        "text": "saves for two turns the best part is",
+        "start": 1034.1,
+        "duration": 4.14
+    },
+    {
+        "text": "unlike the normal blast spell this does",
+        "start": 1036.38,
+        "duration": 4.02
+    },
+    {
+        "text": "not require concentration at all as it's",
+        "start": 1038.24,
+        "duration": 4.5
+    },
+    {
+        "text": "coming from an item you can also go with",
+        "start": 1040.4,
+        "duration": 4.74
+    },
+    {
+        "text": "the coruscation ring which provides a",
+        "start": 1042.74,
+        "duration": 5.4
+    },
+    {
+        "text": "similar effect to the Luminous gloves",
+        "start": 1045.14,
+        "duration": 5.4
+    },
+    {
+        "text": "now let us cover weapons",
+        "start": 1048.14,
+        "duration": 4.5
+    },
+    {
+        "text": "for the main hand I really enjoyed the",
+        "start": 1050.54,
+        "duration": 4.259
+    },
+    {
+        "text": "Defenders flail because it's pretty much",
+        "start": 1052.64,
+        "duration": 3.899
+    },
+    {
+        "text": "the only weapon that further increases",
+        "start": 1054.799,
+        "duration": 4.201
+    },
+    {
+        "text": "your AC by plus one together with",
+        "start": 1056.539,
+        "duration": 4.861
+    },
+    {
+        "text": "reducing physical damage by one which",
+        "start": 1059.0,
+        "duration": 5.16
+    },
+    {
+        "text": "does have nice Synergy with",
+        "start": 1061.4,
+        "duration": 5.159
+    },
+    {
+        "text": "your blade wired or wardening bone",
+        "start": 1064.16,
+        "duration": 4.2
+    },
+    {
+        "text": "spells which already Grant resistance",
+        "start": 1066.559,
+        "duration": 3.841
+    },
+    {
+        "text": "there are a few other choices too",
+        "start": 1068.36,
+        "duration": 4.679
+    },
+    {
+        "text": "because the flail is not a finesseable",
+        "start": 1070.4,
+        "duration": 4.86
+    },
+    {
+        "text": "weapon right which means your dexterity",
+        "start": 1073.039,
+        "duration": 3.901
+    },
+    {
+        "text": "modifier is kind of wasted as far as",
+        "start": 1075.26,
+        "duration": 3.84
+    },
+    {
+        "text": "physical blows well look your Shadow",
+        "start": 1076.94,
+        "duration": 3.84
+    },
+    {
+        "text": "heart has other ways of dealing damage",
+        "start": 1079.1,
+        "duration": 4.02
+    },
+    {
+        "text": "right the light cleric archetype grants",
+        "start": 1080.78,
+        "duration": 4.92
+    },
+    {
+        "text": "her area of effect abilities including",
+        "start": 1083.12,
+        "duration": 4.2
+    },
+    {
+        "text": "Radiance of the Dawn which is amazing",
+        "start": 1085.7,
+        "duration": 3.599
+    },
+    {
+        "text": "and you can even go with finessible",
+        "start": 1087.32,
+        "duration": 3.599
+    },
+    {
+        "text": "weapons like the ritual dagger for",
+        "start": 1089.299,
+        "duration": 3.961
+    },
+    {
+        "text": "example I'd rather the extra boost to AC",
+        "start": 1090.919,
+        "duration": 5.581
+    },
+    {
+        "text": "together with the devil teammates",
+        "start": 1093.26,
+        "duration": 5.76
+    },
+    {
+        "text": "because of its healing incense Aura",
+        "start": 1096.5,
+        "duration": 6.0
+    },
+    {
+        "text": "after all as a bonus action you can heal",
+        "start": 1099.02,
+        "duration": 6.72
+    },
+    {
+        "text": "pretty much your entire party at once",
+        "start": 1102.5,
+        "duration": 5.58
+    },
+    {
+        "text": "while it won't work on the round you",
+        "start": 1105.74,
+        "duration": 5.34
+    },
+    {
+        "text": "cast it because it requires analyze turn",
+        "start": 1108.08,
+        "duration": 4.5
+    },
+    {
+        "text": "to come",
+        "start": 1111.08,
+        "duration": 4.56
+    },
+    {
+        "text": "once they start healing right well your",
+        "start": 1112.58,
+        "duration": 6.0
+    },
+    {
+        "text": "whole party besides Undead will now have",
+        "start": 1115.64,
+        "duration": 5.399
+    },
+    {
+        "text": "all of our nice on-heel Buffs such as",
+        "start": 1118.58,
+        "duration": 4.14
+    },
+    {
+        "text": "temporary hit points plus and blade",
+        "start": 1121.039,
+        "duration": 3.901
+    },
+    {
+        "text": "white because you can truly heat all of",
+        "start": 1122.72,
+        "duration": 4.079
+    },
+    {
+        "text": "your parking summons as the other",
+        "start": 1124.94,
+        "duration": 4.38
+    },
+    {
+        "text": "healing cleric spells that hit an RF",
+        "start": 1126.799,
+        "duration": 5.041
+    },
+    {
+        "text": "effect Mass cure wounds and mass healing",
+        "start": 1129.32,
+        "duration": 4.02
+    },
+    {
+        "text": "Ward well they have a Target limitation",
+        "start": 1131.84,
+        "duration": 4.14
+    },
+    {
+        "text": "wires they will not hit everyone besides",
+        "start": 1133.34,
+        "duration": 4.079
+    },
+    {
+        "text": "that we also have the blood of the",
+        "start": 1135.98,
+        "duration": 4.38
+    },
+    {
+        "text": "Thunder it has a nice on death revive",
+        "start": 1137.419,
+        "duration": 5.221
+    },
+    {
+        "text": "but most importantly for the talkable",
+        "start": 1140.36,
+        "duration": 5.939
+    },
+    {
+        "text": "left Fender's light feature it will of",
+        "start": 1142.64,
+        "duration": 5.22
+    },
+    {
+        "text": "course first create light which helps",
+        "start": 1146.299,
+        "duration": 3.061
+    },
+    {
+        "text": "fight against some creatures but most",
+        "start": 1147.86,
+        "duration": 4.439
+    },
+    {
+        "text": "importantly things are not bad standing",
+        "start": 1149.36,
+        "duration": 5.28
+    },
+    {
+        "text": "inside will be automatically blinded",
+        "start": 1152.299,
+        "duration": 4.321
+    },
+    {
+        "text": "unless they make a constitution safe so",
+        "start": 1154.64,
+        "duration": 4.14
+    },
+    {
+        "text": "you can help against his enemy types as",
+        "start": 1156.62,
+        "duration": 4.5
+    },
+    {
+        "text": "far as Shields ultimately the legendary",
+        "start": 1158.78,
+        "duration": 4.32
+    },
+    {
+        "text": "Shield viconius walking Fortress for",
+        "start": 1161.12,
+        "duration": 3.78
+    },
+    {
+        "text": "plus three to AC",
+        "start": 1163.1,
+        "duration": 4.68
+    },
+    {
+        "text": "and most importantly magic resistance",
+        "start": 1164.9,
+        "duration": 5.04
+    },
+    {
+        "text": "that is you'll have advantage on all",
+        "start": 1167.78,
+        "duration": 4.86
+    },
+    {
+        "text": "saving rules against spells together",
+        "start": 1169.94,
+        "duration": 4.979
+    },
+    {
+        "text": "with disadvantage when the enemies try",
+        "start": 1172.64,
+        "duration": 4.2
+    },
+    {
+        "text": "to hit you with their spell attack Rose",
+        "start": 1174.919,
+        "duration": 4.14
+    },
+    {
+        "text": "so you combine both maximum tanking",
+        "start": 1176.84,
+        "duration": 4.38
+    },
+    {
+        "text": "Armor class wise for physical attacks",
+        "start": 1179.059,
+        "duration": 4.62
+    },
+    {
+        "text": "and spells wise too for the earlier",
+        "start": 1181.22,
+        "duration": 4.26
+    },
+    {
+        "text": "parts of the game there's plenty of plus",
+        "start": 1183.679,
+        "duration": 4.021
+    },
+    {
+        "text": "two Shields including the Safeguard",
+        "start": 1185.48,
+        "duration": 3.84
+    },
+    {
+        "text": "Shield that also increases your saving",
+        "start": 1187.7,
+        "duration": 4.08
+    },
+    {
+        "text": "trolls by plus one plus three Shields",
+        "start": 1189.32,
+        "duration": 4.08
+    },
+    {
+        "text": "though kinda only start appearing at act",
+        "start": 1191.78,
+        "duration": 4.44
+    },
+    {
+        "text": "3. when you can't get viconians anyways",
+        "start": 1193.4,
+        "duration": 4.62
+    },
+    {
+        "text": "as well as the ranged weapon anything",
+        "start": 1196.22,
+        "duration": 4.8
+    },
+    {
+        "text": "goes here I'm up for suggestions too I",
+        "start": 1198.02,
+        "duration": 4.8
+    },
+    {
+        "text": "like the darkfire short bow because we",
+        "start": 1201.02,
+        "duration": 3.84
+    },
+    {
+        "text": "do have proficiency with it and it lets",
+        "start": 1202.82,
+        "duration": 3.66
+    },
+    {
+        "text": "you cast the haze spell which is great",
+        "start": 1204.86,
+        "duration": 4.5
+    },
+    {
+        "text": "but most importantly full resistance to",
+        "start": 1206.48,
+        "duration": 5.22
+    },
+    {
+        "text": "Fire and codes damage fire being the",
+        "start": 1209.36,
+        "duration": 3.96
+    },
+    {
+        "text": "most important as it's the most common",
+        "start": 1211.7,
+        "duration": 3.78
+    },
+    {
+        "text": "area of effect type well of course with",
+        "start": 1213.32,
+        "duration": 3.66
+    },
+    {
+        "text": "farting Bond on and all of your",
+        "start": 1215.48,
+        "duration": 3.0
+    },
+    {
+        "text": "resistances you don't need it as much",
+        "start": 1216.98,
+        "duration": 3.72
+    },
+    {
+        "text": "well alright friends so this was it from",
+        "start": 1218.48,
+        "duration": 4.559
+    },
+    {
+        "text": "my shadow heart tank guide if you found",
+        "start": 1220.7,
+        "duration": 3.96
+    },
+    {
+        "text": "it useful as always please remember to",
+        "start": 1223.039,
+        "duration": 3.0
+    },
+    {
+        "text": "like subscribe and also consider",
+        "start": 1224.66,
+        "duration": 3.18
+    },
+    {
+        "text": "becoming a channel member if you can I",
+        "start": 1226.039,
+        "duration": 3.841
+    },
+    {
+        "text": "really appreciate your support thank you",
+        "start": 1227.84,
+        "duration": 3.36
+    },
+    {
+        "text": "for watching and see you next time",
+        "start": 1229.88,
+        "duration": 3.56
+    },
+    {
+        "text": "friends",
+        "start": 1231.2,
+        "duration": 2.24
+    }
+]

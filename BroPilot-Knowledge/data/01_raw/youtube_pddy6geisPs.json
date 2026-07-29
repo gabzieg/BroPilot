@@ -1,0 +1,2577 @@
+[
+    {
+        "text": "hello there friends and welcome for",
+        "start": 0.06,
+        "duration": 4.56
+    },
+    {
+        "text": "today's bg3 guide we have all about an",
+        "start": 2.04,
+        "duration": 5.46
+    },
+    {
+        "text": "updated and stronger version of My",
+        "start": 4.62,
+        "duration": 5.46
+    },
+    {
+        "text": "ultimate Eldritch Blaster build after",
+        "start": 7.5,
+        "duration": 5.82
+    },
+    {
+        "text": "all the recently released patch 3 nerfed",
+        "start": 10.08,
+        "duration": 5.219
+    },
+    {
+        "text": "quite a lot of extra damage sources you",
+        "start": 13.32,
+        "duration": 3.48
+    },
+    {
+        "text": "got with dispute",
+        "start": 15.299,
+        "duration": 4.381
+    },
+    {
+        "text": "but as you can see we are still able of",
+        "start": 16.8,
+        "duration": 5.399
+    },
+    {
+        "text": "achieving enormous damage definitely",
+        "start": 19.68,
+        "duration": 5.7
+    },
+    {
+        "text": "even higher than 700 per turn and this",
+        "start": 22.199,
+        "duration": 4.92
+    },
+    {
+        "text": "time you'll also be stacking critical",
+        "start": 25.38,
+        "duration": 4.139
+    },
+    {
+        "text": "boosts to the max to the point our",
+        "start": 27.119,
+        "duration": 4.801
+    },
+    {
+        "text": "character will achieve even close enough",
+        "start": 29.519,
+        "duration": 5.581
+    },
+    {
+        "text": "to 50 critical chance and the best part",
+        "start": 31.92,
+        "duration": 5.819
+    },
+    {
+        "text": "of course is by virtue of being a can",
+        "start": 35.1,
+        "duration": 4.92
+    },
+    {
+        "text": "trip you can cast your Eldritch blast",
+        "start": 37.739,
+        "duration": 4.441
+    },
+    {
+        "text": "and infinite amount of times as early as",
+        "start": 40.02,
+        "duration": 4.559
+    },
+    {
+        "text": "level 1. without having to spend any",
+        "start": 42.18,
+        "duration": 4.559
+    },
+    {
+        "text": "important resource so without further",
+        "start": 44.579,
+        "duration": 4.32
+    },
+    {
+        "text": "Ado let us get started into our updated",
+        "start": 46.739,
+        "duration": 6.541
+    },
+    {
+        "text": "ultimate Eldritch Blaster critical build",
+        "start": 48.899,
+        "duration": 6.66
+    },
+    {
+        "text": "when it comes to race there's three that",
+        "start": 53.28,
+        "duration": 4.14
+    },
+    {
+        "text": "stand out the classic half elf because",
+        "start": 55.559,
+        "duration": 3.5
+    },
+    {
+        "text": "you have a lot of Stack benefits",
+        "start": 57.42,
+        "duration": 4.319
+    },
+    {
+        "text": "including free Shield proficiency which",
+        "start": 59.059,
+        "duration": 4.421
+    },
+    {
+        "text": "can help increase your AC by a bit",
+        "start": 61.739,
+        "duration": 4.081
+    },
+    {
+        "text": "higher movement speed",
+        "start": 63.48,
+        "duration": 4.98
+    },
+    {
+        "text": "and also dark vision",
+        "start": 65.82,
+        "duration": 5.1
+    },
+    {
+        "text": "halflings can be great as well if only",
+        "start": 68.46,
+        "duration": 4.56
+    },
+    {
+        "text": "because they will never fail",
+        "start": 70.92,
+        "duration": 4.32
+    },
+    {
+        "text": "automatically if they roll a one and",
+        "start": 73.02,
+        "duration": 3.9
+    },
+    {
+        "text": "with an Eldritch blast field because",
+        "start": 75.24,
+        "duration": 4.199
+    },
+    {
+        "text": "each individual Ray has an attack row",
+        "start": 76.92,
+        "duration": 4.379
+    },
+    {
+        "text": "and you fire multiple per cast",
+        "start": 79.439,
+        "duration": 3.841
+    },
+    {
+        "text": "eventually while you'll be rolling a lot",
+        "start": 81.299,
+        "duration": 4.68
+    },
+    {
+        "text": "however there are ways to overcome this",
+        "start": 83.28,
+        "duration": 4.68
+    },
+    {
+        "text": "mostly with Advantage although hey you",
+        "start": 85.979,
+        "duration": 4.68
+    },
+    {
+        "text": "can always roll one twice halfling will",
+        "start": 87.96,
+        "duration": 5.159
+    },
+    {
+        "text": "help you avoid that",
+        "start": 90.659,
+        "duration": 4.681
+    },
+    {
+        "text": "and lastly just gnome",
+        "start": 93.119,
+        "duration": 4.621
+    },
+    {
+        "text": "for The Gnome cunning ability to make",
+        "start": 95.34,
+        "duration": 3.599
+    },
+    {
+        "text": "you quite stanky when it comes to",
+        "start": 97.74,
+        "duration": 3.419
+    },
+    {
+        "text": "avoiding enemy crowd control effects but",
+        "start": 98.939,
+        "duration": 3.661
+    },
+    {
+        "text": "just as I would just be blasting them",
+        "start": 101.159,
+        "duration": 3.121
+    },
+    {
+        "text": "into submission before they can do that",
+        "start": 102.6,
+        "duration": 4.379
+    },
+    {
+        "text": "anyways but you know any other race will",
+        "start": 104.28,
+        "duration": 4.799
+    },
+    {
+        "text": "work as well don't feel restricted by",
+        "start": 106.979,
+        "duration": 4.081
+    },
+    {
+        "text": "these choices",
+        "start": 109.079,
+        "duration": 4.201
+    },
+    {
+        "text": "as for class you absolutely want to",
+        "start": 111.06,
+        "duration": 4.199
+    },
+    {
+        "text": "start as a wire lock after all we do",
+        "start": 113.28,
+        "duration": 4.68
+    },
+    {
+        "text": "need our Eldritch blast the main force",
+        "start": 115.259,
+        "duration": 5.101
+    },
+    {
+        "text": "behind our build as I said before it is",
+        "start": 117.96,
+        "duration": 5.159
+    },
+    {
+        "text": "a can trip so it has infinite users and",
+        "start": 120.36,
+        "duration": 6.18
+    },
+    {
+        "text": "will scale in power based on your total",
+        "start": 123.119,
+        "duration": 5.34
+    },
+    {
+        "text": "character level it's not just warlock",
+        "start": 126.54,
+        "duration": 4.98
+    },
+    {
+        "text": "levels with up to 3 Rays fired at level",
+        "start": 128.459,
+        "duration": 6.0
+    },
+    {
+        "text": "10 and two at the second level 4 can",
+        "start": 131.52,
+        "duration": 4.68
+    },
+    {
+        "text": "trips and spells please remember as",
+        "start": 134.459,
+        "duration": 3.301
+    },
+    {
+        "text": "always I already have a best spells",
+        "start": 136.2,
+        "duration": 3.539
+    },
+    {
+        "text": "guide you can check to the side here but",
+        "start": 137.76,
+        "duration": 4.68
+    },
+    {
+        "text": "I should put it simply helbish Blast Of",
+        "start": 139.739,
+        "duration": 4.441
+    },
+    {
+        "text": "course and also blade Ward for extra",
+        "start": 142.44,
+        "duration": 4.14
+    },
+    {
+        "text": "defenses be sure to prep both of this if",
+        "start": 144.18,
+        "duration": 4.559
+    },
+    {
+        "text": "you needed don't bother wasting actions",
+        "start": 146.58,
+        "duration": 4.5
+    },
+    {
+        "text": "in battle doing so for your Warlock",
+        "start": 148.739,
+        "duration": 3.601
+    },
+    {
+        "text": "subclass",
+        "start": 151.08,
+        "duration": 3.12
+    },
+    {
+        "text": "for the early parts of the game the",
+        "start": 152.34,
+        "duration": 3.3
+    },
+    {
+        "text": "fiend is definitely the best choice",
+        "start": 154.2,
+        "duration": 3.78
+    },
+    {
+        "text": "because you'll get temporary hit points",
+        "start": 155.64,
+        "duration": 4.319
+    },
+    {
+        "text": "whenever you kill an enemy with anything",
+        "start": 157.98,
+        "duration": 4.619
+    },
+    {
+        "text": "including your very own Eldritch blasts",
+        "start": 159.959,
+        "duration": 4.801
+    },
+    {
+        "text": "later however because you'll be stacking",
+        "start": 162.599,
+        "duration": 3.901
+    },
+    {
+        "text": "loads and loads of extra critical chance",
+        "start": 164.76,
+        "duration": 4.259
+    },
+    {
+        "text": "on this build the Great old one will",
+        "start": 166.5,
+        "duration": 5.04
+    },
+    {
+        "text": "start shining because whenever you score",
+        "start": 169.019,
+        "duration": 4.86
+    },
+    {
+        "text": "a critical hit against an enemy that's",
+        "start": 171.54,
+        "duration": 5.22
+    },
+    {
+        "text": "Target and also nearby foes will be",
+        "start": 173.879,
+        "duration": 4.201
+    },
+    {
+        "text": "frightened",
+        "start": 176.76,
+        "duration": 3.24
+    },
+    {
+        "text": "which is one of the best debuffs because",
+        "start": 178.08,
+        "duration": 4.34
+    },
+    {
+        "text": "it forces disadvantage on attack Rouse",
+        "start": 180.0,
+        "duration": 4.739
+    },
+    {
+        "text": "personally I would only respect into",
+        "start": 182.42,
+        "duration": 4.48
+    },
+    {
+        "text": "great old one warlock at around the",
+        "start": 184.739,
+        "duration": 3.961
+    },
+    {
+        "text": "second act because that is when you",
+        "start": 186.9,
+        "duration": 3.78
+    },
+    {
+        "text": "start getting critical hit boosting gear",
+        "start": 188.7,
+        "duration": 5.16
+    },
+    {
+        "text": "so something like level 6 level 7 and so",
+        "start": 190.68,
+        "duration": 5.339
+    },
+    {
+        "text": "on your warlock spells don't really",
+        "start": 193.86,
+        "duration": 4.92
+    },
+    {
+        "text": "matter outside of hex to increase your",
+        "start": 196.019,
+        "duration": 4.561
+    },
+    {
+        "text": "Eldritch blast damage especially good",
+        "start": 198.78,
+        "duration": 3.78
+    },
+    {
+        "text": "early on because its cast as a bonus",
+        "start": 200.58,
+        "duration": 4.019
+    },
+    {
+        "text": "action and also quite handy when it",
+        "start": 202.56,
+        "duration": 3.84
+    },
+    {
+        "text": "comes to powerful single Target enemies",
+        "start": 204.599,
+        "duration": 3.42
+    },
+    {
+        "text": "like let's say bosses",
+        "start": 206.4,
+        "duration": 4.08
+    },
+    {
+        "text": "because each Ray fired from Elders blast",
+        "start": 208.019,
+        "duration": 5.521
+    },
+    {
+        "text": "will get this extra bonus of course as",
+        "start": 210.48,
+        "duration": 5.28
+    },
+    {
+        "text": "you get levels into sorcerer for the",
+        "start": 213.54,
+        "duration": 4.68
+    },
+    {
+        "text": "Quicken Spell ability because it also",
+        "start": 215.76,
+        "duration": 5.399
+    },
+    {
+        "text": "costs a bonus action sometimes you might",
+        "start": 218.22,
+        "duration": 4.98
+    },
+    {
+        "text": "prefer to use quickening set of hex but",
+        "start": 221.159,
+        "duration": 4.5
+    },
+    {
+        "text": "hex will still remain useful as far as",
+        "start": 223.2,
+        "duration": 3.84
+    },
+    {
+        "text": "the other spell pick anything you want",
+        "start": 225.659,
+        "duration": 3.481
+    },
+    {
+        "text": "something like protection from you when",
+        "start": 227.04,
+        "duration": 4.259
+    },
+    {
+        "text": "good can help because at least it's not",
+        "start": 229.14,
+        "duration": 5.04
+    },
+    {
+        "text": "reliant on levels for scaling",
+        "start": 231.299,
+        "duration": 4.981
+    },
+    {
+        "text": "now when it comes to your ability scores",
+        "start": 234.18,
+        "duration": 4.559
+    },
+    {
+        "text": "and stats Charisma is your main",
+        "start": 236.28,
+        "duration": 5.76
+    },
+    {
+        "text": "attribute because you'll soon get an",
+        "start": 238.739,
+        "duration": 5.341
+    },
+    {
+        "text": "ability that empowers your Eldritch",
+        "start": 242.04,
+        "duration": 4.88
+    },
+    {
+        "text": "blast damage per Ray fired",
+        "start": 244.08,
+        "duration": 4.799
+    },
+    {
+        "text": "eco-chiocharismal modifier which can",
+        "start": 246.92,
+        "duration": 4.06
+    },
+    {
+        "text": "even become double through a certain",
+        "start": 248.879,
+        "duration": 3.841
+    },
+    {
+        "text": "robe you'll find at a second act",
+        "start": 250.98,
+        "duration": 5.039
+    },
+    {
+        "text": "therefore be sure to start with 17 if it",
+        "start": 252.72,
+        "duration": 4.979
+    },
+    {
+        "text": "is the main character",
+        "start": 256.019,
+        "duration": 3.84
+    },
+    {
+        "text": "for party members six things more than",
+        "start": 257.699,
+        "duration": 4.681
+    },
+    {
+        "text": "enough plus Charisma also has amazing",
+        "start": 259.859,
+        "duration": 4.321
+    },
+    {
+        "text": "Synergy when it comes to the source",
+        "start": 262.38,
+        "duration": 3.48
+    },
+    {
+        "text": "remotely class we'll be getting soon",
+        "start": 264.18,
+        "duration": 4.799
+    },
+    {
+        "text": "enough be sure to dump intelligence also",
+        "start": 265.86,
+        "duration": 4.5
+    },
+    {
+        "text": "strength",
+        "start": 268.979,
+        "duration": 3.541
+    },
+    {
+        "text": "and the dexterity as always will be your",
+        "start": 270.36,
+        "duration": 4.44
+    },
+    {
+        "text": "second most important stat you want 16",
+        "start": 272.52,
+        "duration": 5.34
+    },
+    {
+        "text": "the higher your initiative well the",
+        "start": 274.8,
+        "duration": 4.44
+    },
+    {
+        "text": "faster you can blast enemies into",
+        "start": 277.86,
+        "duration": 2.94
+    },
+    {
+        "text": "submission before they can do anything",
+        "start": 279.24,
+        "duration": 3.959
+    },
+    {
+        "text": "at all besides that the classic 14",
+        "start": 280.8,
+        "duration": 5.04
+    },
+    {
+        "text": "Constitution for nice hit points",
+        "start": 283.199,
+        "duration": 4.741
+    },
+    {
+        "text": "and the remaining points are up to you",
+        "start": 285.84,
+        "duration": 4.62
+    },
+    {
+        "text": "wisdom can always help",
+        "start": 287.94,
+        "duration": 4.979
+    },
+    {
+        "text": "for insight and perception checks and",
+        "start": 290.46,
+        "duration": 4.019
+    },
+    {
+        "text": "also to resist enemy crowd control",
+        "start": 292.919,
+        "duration": 4.381
+    },
+    {
+        "text": "effects fart skus you certainly want to",
+        "start": 294.479,
+        "duration": 4.201
+    },
+    {
+        "text": "go with the dialogue ones so",
+        "start": 297.3,
+        "duration": 3.78
+    },
+    {
+        "text": "intimidation persuasion and deception",
+        "start": 298.68,
+        "duration": 4.44
+    },
+    {
+        "text": "because we have high Charisma perfect",
+        "start": 301.08,
+        "duration": 4.14
+    },
+    {
+        "text": "for the main character as the party face",
+        "start": 303.12,
+        "duration": 5.34
+    },
+    {
+        "text": "because warlocks can only get deception",
+        "start": 305.22,
+        "duration": 6.12
+    },
+    {
+        "text": "and intimidation grab a background that",
+        "start": 308.46,
+        "duration": 5.519
+    },
+    {
+        "text": "provides persuasion such as Guild",
+        "start": 311.34,
+        "duration": 4.859
+    },
+    {
+        "text": "Artisan as always for insight and",
+        "start": 313.979,
+        "duration": 5.521
+    },
+    {
+        "text": "persuasion any and from the second level",
+        "start": 316.199,
+        "duration": 5.101
+    },
+    {
+        "text": "onwards I'll be continuing as a human",
+        "start": 319.5,
+        "duration": 4.44
+    },
+    {
+        "text": "just to show you any race worked",
+        "start": 321.3,
+        "duration": 5.1
+    },
+    {
+        "text": "any other spell you want now",
+        "start": 323.94,
+        "duration": 5.46
+    },
+    {
+        "text": "such as armor of agathis and for the",
+        "start": 326.4,
+        "duration": 5.34
+    },
+    {
+        "text": "first invocations always agonizing blast",
+        "start": 329.4,
+        "duration": 4.44
+    },
+    {
+        "text": "to increase your Eldridge blast damage",
+        "start": 331.74,
+        "duration": 4.679
+    },
+    {
+        "text": "equals your charisma modifier which of",
+        "start": 333.84,
+        "duration": 4.079
+    },
+    {
+        "text": "course is even better because it applies",
+        "start": 336.419,
+        "duration": 4.081
+    },
+    {
+        "text": "individually to each instance of",
+        "start": 337.919,
+        "duration": 5.641
+    },
+    {
+        "text": "Eldritch blast fired and later you fire",
+        "start": 340.5,
+        "duration": 5.16
+    },
+    {
+        "text": "multiple Rays per single cast",
+        "start": 343.56,
+        "duration": 4.139
+    },
+    {
+        "text": "and for the second one repelling blast",
+        "start": 345.66,
+        "duration": 3.9
+    },
+    {
+        "text": "is the way to go to push enemies away",
+        "start": 347.699,
+        "duration": 4.081
+    },
+    {
+        "text": "into dangerous areas of effect or even",
+        "start": 349.56,
+        "duration": 4.079
+    },
+    {
+        "text": "into the void for instant cues and by",
+        "start": 351.78,
+        "duration": 4.139
+    },
+    {
+        "text": "the way you can turn this on and off at",
+        "start": 353.639,
+        "duration": 4.801
+    },
+    {
+        "text": "will so you aren't forced into always",
+        "start": 355.919,
+        "duration": 3.961
+    },
+    {
+        "text": "pushing enemies away in case you don't",
+        "start": 358.44,
+        "duration": 3.36
+    },
+    {
+        "text": "want to while there's something to be",
+        "start": 359.88,
+        "duration": 3.9
+    },
+    {
+        "text": "said about Devil's side and the Darkness",
+        "start": 361.8,
+        "duration": 4.08
+    },
+    {
+        "text": "spell you only get that at level 3 and",
+        "start": 363.78,
+        "duration": 3.66
+    },
+    {
+        "text": "well we are kind of multi-glassing away",
+        "start": 365.88,
+        "duration": 3.72
+    },
+    {
+        "text": "from warlock now as I've just said from",
+        "start": 367.44,
+        "duration": 4.199
+    },
+    {
+        "text": "Level 3 on Mars you don't want to remain",
+        "start": 369.6,
+        "duration": 4.08
+    },
+    {
+        "text": "a warlock unusually enough in my",
+        "start": 371.639,
+        "duration": 3.84
+    },
+    {
+        "text": "previous Eldritch blast guide I was",
+        "start": 373.68,
+        "duration": 5.22
+    },
+    {
+        "text": "mostly a pure warlock because it was for",
+        "start": 375.479,
+        "duration": 5.461
+    },
+    {
+        "text": "the main warlock guide and you weren't",
+        "start": 378.9,
+        "duration": 3.66
+    },
+    {
+        "text": "exactly much of our warlock with just",
+        "start": 380.94,
+        "duration": 3.18
+    },
+    {
+        "text": "two levels but",
+        "start": 382.56,
+        "duration": 3.72
+    },
+    {
+        "text": "because Eldritch blast with scale",
+        "start": 384.12,
+        "duration": 3.96
+    },
+    {
+        "text": "regardless based on total character",
+        "start": 386.28,
+        "duration": 4.44
+    },
+    {
+        "text": "level instead like I said before it is",
+        "start": 388.08,
+        "duration": 4.02
+    },
+    {
+        "text": "the way to go if you want to enhance",
+        "start": 390.72,
+        "duration": 4.5
+    },
+    {
+        "text": "your EB damage to the max",
+        "start": 392.1,
+        "duration": 5.34
+    },
+    {
+        "text": "and what we want now is to get started",
+        "start": 395.22,
+        "duration": 4.8
+    },
+    {
+        "text": "into sorcerer levels mostly for the",
+        "start": 397.44,
+        "duration": 4.08
+    },
+    {
+        "text": "Quicken spell meta magic for more",
+        "start": 400.02,
+        "duration": 4.26
+    },
+    {
+        "text": "Eldridge blasts per turn you can go with",
+        "start": 401.52,
+        "duration": 4.32
+    },
+    {
+        "text": "any can trips because you already have",
+        "start": 404.28,
+        "duration": 4.08
+    },
+    {
+        "text": "Elders blasts for damage I'd rather",
+        "start": 405.84,
+        "duration": 4.56
+    },
+    {
+        "text": "focus into the utility ones such as",
+        "start": 408.36,
+        "duration": 4.02
+    },
+    {
+        "text": "light friends",
+        "start": 410.4,
+        "duration": 4.62
+    },
+    {
+        "text": "Mage hand and true strike or minor",
+        "start": 412.38,
+        "duration": 5.039
+    },
+    {
+        "text": "illusion for the sorcery spells be sure",
+        "start": 415.02,
+        "duration": 4.32
+    },
+    {
+        "text": "to pick shield for extra defenses and",
+        "start": 417.419,
+        "duration": 4.381
+    },
+    {
+        "text": "anything else you want fog Cloud can be",
+        "start": 419.34,
+        "duration": 4.799
+    },
+    {
+        "text": "quite fun if you are playing a race that",
+        "start": 421.8,
+        "duration": 4.5
+    },
+    {
+        "text": "has dark vision as well as the",
+        "start": 424.139,
+        "duration": 4.981
+    },
+    {
+        "text": "sorcerer's subclasses draconic bloodline",
+        "start": 426.3,
+        "duration": 5.899
+    },
+    {
+        "text": "used to be a lot better before patch 3",
+        "start": 429.12,
+        "duration": 6.18
+    },
+    {
+        "text": "especially the Lightning Dragon because",
+        "start": 432.199,
+        "duration": 5.021
+    },
+    {
+        "text": "you could enhance Lightning Charge",
+        "start": 435.3,
+        "duration": 4.38
+    },
+    {
+        "text": "damage by a lot nowadays that's been",
+        "start": 437.22,
+        "duration": 4.199
+    },
+    {
+        "text": "nerfed it won't apply to lightning",
+        "start": 439.68,
+        "duration": 4.019
+    },
+    {
+        "text": "charge anymore and by default Eldritch",
+        "start": 441.419,
+        "duration": 4.801
+    },
+    {
+        "text": "blast is force damage which none of the",
+        "start": 443.699,
+        "duration": 5.22
+    },
+    {
+        "text": "Bloodlines in power however for the few",
+        "start": 446.22,
+        "duration": 4.259
+    },
+    {
+        "text": "levels into Source we'll be getting",
+        "start": 448.919,
+        "duration": 3.741
+    },
+    {
+        "text": "draconic is still the best investment",
+        "start": 450.479,
+        "duration": 5.641
+    },
+    {
+        "text": "this way we get Mage Armor for free for",
+        "start": 452.66,
+        "duration": 6.4
+    },
+    {
+        "text": "higher base AC and of course slightly",
+        "start": 456.12,
+        "duration": 5.04
+    },
+    {
+        "text": "higher hit points if you want to fly",
+        "start": 459.06,
+        "duration": 3.84
+    },
+    {
+        "text": "with storm sorcerer well you have better",
+        "start": 461.16,
+        "duration": 4.02
+    },
+    {
+        "text": "uses for your bonus actions and you can",
+        "start": 462.9,
+        "duration": 4.079
+    },
+    {
+        "text": "always just teleport with the Misty step",
+        "start": 465.18,
+        "duration": 3.78
+    },
+    {
+        "text": "spell anyways and as far as without",
+        "start": 466.979,
+        "duration": 3.541
+    },
+    {
+        "text": "magic it's rather disappointing",
+        "start": 468.96,
+        "duration": 3.0
+    },
+    {
+        "text": "especially when you compare it to the",
+        "start": 470.52,
+        "duration": 4.56
+    },
+    {
+        "text": "god mode that was in Baldur's Gate 2. so",
+        "start": 471.96,
+        "duration": 5.4
+    },
+    {
+        "text": "anyway sorcerer Dragon bloodline",
+        "start": 475.08,
+        "duration": 3.899
+    },
+    {
+        "text": "and you can go with any of the",
+        "start": 477.36,
+        "duration": 3.66
+    },
+    {
+        "text": "Bloodlines you want now because the",
+        "start": 478.979,
+        "duration": 4.261
+    },
+    {
+        "text": "extra Elemental damage at level 6",
+        "start": 481.02,
+        "duration": 3.78
+    },
+    {
+        "text": "sorcerer won't matter for this build",
+        "start": 483.24,
+        "duration": 3.48
+    },
+    {
+        "text": "anymore you might as well pick something",
+        "start": 484.8,
+        "duration": 4.38
+    },
+    {
+        "text": "that provides a spell you want armor of",
+        "start": 486.72,
+        "duration": 4.08
+    },
+    {
+        "text": "fagat is for example which is by default",
+        "start": 489.18,
+        "duration": 4.139
+    },
+    {
+        "text": "warlock exclusive from White Dragon",
+        "start": 490.8,
+        "duration": 5.22
+    },
+    {
+        "text": "or bronze for fog Cloud for free so you",
+        "start": 493.319,
+        "duration": 4.981
+    },
+    {
+        "text": "can then learn another Spirit Level 1",
+        "start": 496.02,
+        "duration": 4.739
+    },
+    {
+        "text": "besides Shield honestly just go with",
+        "start": 498.3,
+        "duration": 4.32
+    },
+    {
+        "text": "whatever you want and by the way you can",
+        "start": 500.759,
+        "duration": 3.961
+    },
+    {
+        "text": "always change the color of your scales",
+        "start": 502.62,
+        "duration": 6.6
+    },
+    {
+        "text": "regardless of the Dragon you pick",
+        "start": 504.72,
+        "duration": 7.08
+    },
+    {
+        "text": "any other spirit level 4 you truly will",
+        "start": 509.22,
+        "duration": 4.8
+    },
+    {
+        "text": "only be using the sorcery slots well for",
+        "start": 511.8,
+        "duration": 4.44
+    },
+    {
+        "text": "basically two things one one they should",
+        "start": 514.02,
+        "duration": 5.699
+    },
+    {
+        "text": "spell for extra defenses or just more",
+        "start": 516.24,
+        "duration": 5.82
+    },
+    {
+        "text": "sorcery points so you can then spam the",
+        "start": 519.719,
+        "duration": 4.44
+    },
+    {
+        "text": "quick and spell meta magic more",
+        "start": 522.06,
+        "duration": 4.68
+    },
+    {
+        "text": "besides the haste spell of course and",
+        "start": 524.159,
+        "duration": 4.86
+    },
+    {
+        "text": "speaking about metamagic we get to pick",
+        "start": 526.74,
+        "duration": 4.8
+    },
+    {
+        "text": "some now but the one we want only comes",
+        "start": 529.019,
+        "duration": 4.44
+    },
+    {
+        "text": "at the next level in any case twin spell",
+        "start": 531.54,
+        "duration": 4.02
+    },
+    {
+        "text": "can be amazing when you combine this",
+        "start": 533.459,
+        "duration": 3.541
+    },
+    {
+        "text": "with haste well it's basically a game",
+        "start": 535.56,
+        "duration": 2.94
+    },
+    {
+        "text": "winner by itself and I'm usually enough",
+        "start": 537.0,
+        "duration": 4.8
+    },
+    {
+        "text": "it will fire two Eldritch blasts until",
+        "start": 538.5,
+        "duration": 5.279
+    },
+    {
+        "text": "you reach level 5 because that is when",
+        "start": 541.8,
+        "duration": 4.14
+    },
+    {
+        "text": "you already have two by default for the",
+        "start": 543.779,
+        "duration": 3.841
+    },
+    {
+        "text": "second meta magic anything you want like",
+        "start": 545.94,
+        "duration": 3.66
+    },
+    {
+        "text": "distant spell you'll still want to",
+        "start": 547.62,
+        "duration": 4.2
+    },
+    {
+        "text": "remain a sorcerer until Level 3 at least",
+        "start": 549.6,
+        "duration": 4.859
+    },
+    {
+        "text": "at level 5 because this is when you get",
+        "start": 551.82,
+        "duration": 4.8
+    },
+    {
+        "text": "at long last quick and spell meta magic",
+        "start": 554.459,
+        "duration": 4.201
+    },
+    {
+        "text": "this way you can cast yet another",
+        "start": 556.62,
+        "duration": 4.5
+    },
+    {
+        "text": "Eldritch blast per turn as a bonus",
+        "start": 558.66,
+        "duration": 4.799
+    },
+    {
+        "text": "action for the second level spells",
+        "start": 561.12,
+        "duration": 4.56
+    },
+    {
+        "text": "definitely miss this step and you can",
+        "start": 563.459,
+        "duration": 3.781
+    },
+    {
+        "text": "also choose to replace a previous",
+        "start": 565.68,
+        "duration": 4.14
+    },
+    {
+        "text": "useless value pick before anything so",
+        "start": 567.24,
+        "duration": 4.98
+    },
+    {
+        "text": "long as it's not shield and grab another",
+        "start": 569.82,
+        "duration": 4.98
+    },
+    {
+        "text": "level to spell for example mirror image",
+        "start": 572.22,
+        "duration": 4.559
+    },
+    {
+        "text": "for higher defenses the seamless blur",
+        "start": 574.8,
+        "duration": 4.2
+    },
+    {
+        "text": "cloud of Daggers by this point is not",
+        "start": 576.779,
+        "duration": 5.221
+    },
+    {
+        "text": "that useful but can still work",
+        "start": 579.0,
+        "duration": 5.04
+    },
+    {
+        "text": "especially when you combine it with the",
+        "start": 582.0,
+        "duration": 3.42
+    },
+    {
+        "text": "pushing blast",
+        "start": 584.04,
+        "duration": 3.96
+    },
+    {
+        "text": "and even scorching Ray or I suppose the",
+        "start": 585.42,
+        "duration": 4.5
+    },
+    {
+        "text": "darkness spell in which case you might",
+        "start": 588.0,
+        "duration": 3.42
+    },
+    {
+        "text": "consider picking the devil's sighting",
+        "start": 589.92,
+        "duration": 3.599
+    },
+    {
+        "text": "vocation at this point but I'd still",
+        "start": 591.42,
+        "duration": 4.68
+    },
+    {
+        "text": "much rather repelling",
+        "start": 593.519,
+        "duration": 4.681
+    },
+    {
+        "text": "you'll have a choice at level 6 you can",
+        "start": 596.1,
+        "duration": 3.72
+    },
+    {
+        "text": "keep your character as a sorcerer for",
+        "start": 598.2,
+        "duration": 3.66
+    },
+    {
+        "text": "the next few levels which is what I",
+        "start": 599.82,
+        "duration": 3.72
+    },
+    {
+        "text": "prefer because you'll get not only the",
+        "start": 601.86,
+        "duration": 4.32
+    },
+    {
+        "text": "haste spells soon enough but also an",
+        "start": 603.54,
+        "duration": 4.979
+    },
+    {
+        "text": "extra feat you can of course already",
+        "start": 606.18,
+        "duration": 4.92
+    },
+    {
+        "text": "multi-class now into other options such",
+        "start": 608.519,
+        "duration": 4.44
+    },
+    {
+        "text": "as Fighter for Action search more",
+        "start": 611.1,
+        "duration": 5.1
+    },
+    {
+        "text": "Eldridge blasts or Rogue and Thief for",
+        "start": 612.959,
+        "duration": 5.221
+    },
+    {
+        "text": "the extra bonus action also more",
+        "start": 616.2,
+        "duration": 4.5
+    },
+    {
+        "text": "Eldritch blasts as quickened but as I",
+        "start": 618.18,
+        "duration": 4.32
+    },
+    {
+        "text": "said I'd much rather keep ourselves as a",
+        "start": 620.7,
+        "duration": 3.24
+    },
+    {
+        "text": "sorcerer",
+        "start": 622.5,
+        "duration": 4.92
+    },
+    {
+        "text": "any can trip any spells and for the feet",
+        "start": 623.94,
+        "duration": 5.1
+    },
+    {
+        "text": "you also have a few different options",
+        "start": 627.42,
+        "duration": 3.479
+    },
+    {
+        "text": "you can already pick ability Improvement",
+        "start": 629.04,
+        "duration": 4.56
+    },
+    {
+        "text": "and Max your charisma out because at",
+        "start": 630.899,
+        "duration": 4.021
+    },
+    {
+        "text": "this point you would already have a plus",
+        "start": 633.6,
+        "duration": 3.6
+    },
+    {
+        "text": "one from the hag boss fight attacked one",
+        "start": 634.92,
+        "duration": 5.46
+    },
+    {
+        "text": "for 20 total and this build gets double",
+        "start": 637.2,
+        "duration": 5.52
+    },
+    {
+        "text": "Charisma to damage with your Eldritch",
+        "start": 640.38,
+        "duration": 4.56
+    },
+    {
+        "text": "blasts there's always a lot to ensure",
+        "start": 642.72,
+        "duration": 4.98
+    },
+    {
+        "text": "you will 100 always act before any enemy",
+        "start": 644.94,
+        "duration": 4.74
+    },
+    {
+        "text": "but my Preferred Choice is something",
+        "start": 647.7,
+        "duration": 4.62
+    },
+    {
+        "text": "different this time we'll be going for",
+        "start": 649.68,
+        "duration": 5.339
+    },
+    {
+        "text": "spell sniper because it's finally being",
+        "start": 652.32,
+        "duration": 5.28
+    },
+    {
+        "text": "fixed which means it will now increase",
+        "start": 655.019,
+        "duration": 4.32
+    },
+    {
+        "text": "the critical range of your Eldritch",
+        "start": 657.6,
+        "duration": 4.32
+    },
+    {
+        "text": "blasts and this can be very powerful for",
+        "start": 659.339,
+        "duration": 4.321
+    },
+    {
+        "text": "this type of build because as I said",
+        "start": 661.92,
+        "duration": 2.58
+    },
+    {
+        "text": "before",
+        "start": 663.66,
+        "duration": 3.179
+    },
+    {
+        "text": "each cast at this level of Eldritch",
+        "start": 664.5,
+        "duration": 4.62
+    },
+    {
+        "text": "blast will fire to race each of these",
+        "start": 666.839,
+        "duration": 5.101
+    },
+    {
+        "text": "Rays can individually critical later it",
+        "start": 669.12,
+        "duration": 5.159
+    },
+    {
+        "text": "will be three race per blast and you can",
+        "start": 671.94,
+        "duration": 4.68
+    },
+    {
+        "text": "get something like 15 whole race per",
+        "start": 674.279,
+        "duration": 4.68
+    },
+    {
+        "text": "turn but as I said you can also go with",
+        "start": 676.62,
+        "duration": 4.08
+    },
+    {
+        "text": "the other options I mentioned if you",
+        "start": 678.959,
+        "duration": 3.12
+    },
+    {
+        "text": "prefer",
+        "start": 680.7,
+        "duration": 3.18
+    },
+    {
+        "text": "you can go for any country because it",
+        "start": 682.079,
+        "duration": 3.541
+    },
+    {
+        "text": "doesn't matter we already have our blast",
+        "start": 683.88,
+        "duration": 4.62
+    },
+    {
+        "text": "and that's it for level 6.",
+        "start": 685.62,
+        "duration": 4.56
+    },
+    {
+        "text": "now I would definitely keep our",
+        "start": 688.5,
+        "duration": 4.5
+    },
+    {
+        "text": "character a sorcerer until Level 7 so 5",
+        "start": 690.18,
+        "duration": 5.46
+    },
+    {
+        "text": "levels of it because it's when we at",
+        "start": 693.0,
+        "duration": 4.44
+    },
+    {
+        "text": "last get the haste spell as I mentioned",
+        "start": 695.64,
+        "duration": 4.439
+    },
+    {
+        "text": "before when you have the twin metamagic",
+        "start": 697.44,
+        "duration": 6.0
+    },
+    {
+        "text": "and also the haste spell yoga to cast it",
+        "start": 700.079,
+        "duration": 5.581
+    },
+    {
+        "text": "on double the amount of allies which by",
+        "start": 703.44,
+        "duration": 5.339
+    },
+    {
+        "text": "itself is a game breaker trust me it is",
+        "start": 705.66,
+        "duration": 5.04
+    },
+    {
+        "text": "that good and certainly worth the",
+        "start": 708.779,
+        "duration": 4.141
+    },
+    {
+        "text": "investment more sorcerer levels also",
+        "start": 710.7,
+        "duration": 4.8
+    },
+    {
+        "text": "mean more sorcery points for twin and",
+        "start": 712.92,
+        "duration": 4.5
+    },
+    {
+        "text": "quick and spell metamagic",
+        "start": 715.5,
+        "duration": 4.38
+    },
+    {
+        "text": "without having to rest a lot now level 8",
+        "start": 717.42,
+        "duration": 4.26
+    },
+    {
+        "text": "on Mars is when I would multi-class away",
+        "start": 719.88,
+        "duration": 3.42
+    },
+    {
+        "text": "from sorcerer because we already have",
+        "start": 721.68,
+        "duration": 3.54
+    },
+    {
+        "text": "everything we want and as I said before",
+        "start": 723.3,
+        "duration": 4.32
+    },
+    {
+        "text": "the extra Elemental damage you get at",
+        "start": 725.22,
+        "duration": 4.739
+    },
+    {
+        "text": "this point doesn't matter because it has",
+        "start": 727.62,
+        "duration": 4.38
+    },
+    {
+        "text": "been nerfed for lightning and don't",
+        "start": 729.959,
+        "duration": 3.661
+    },
+    {
+        "text": "forget at the previous level you can",
+        "start": 732.0,
+        "duration": 4.92
+    },
+    {
+        "text": "also replace another spell for",
+        "start": 733.62,
+        "duration": 5.76
+    },
+    {
+        "text": "example let's say scorching Ray for",
+        "start": 736.92,
+        "duration": 5.22
+    },
+    {
+        "text": "counter spell anyways you have once",
+        "start": 739.38,
+        "duration": 4.62
+    },
+    {
+        "text": "again two options now either fighter or",
+        "start": 742.14,
+        "duration": 3.96
+    },
+    {
+        "text": "Rogue I'd much rather fight her because",
+        "start": 744.0,
+        "duration": 4.62
+    },
+    {
+        "text": "the bonus that is action surge",
+        "start": 746.1,
+        "duration": 5.16
+    },
+    {
+        "text": "well it helps you more Rogue and see if",
+        "start": 748.62,
+        "duration": 4.32
+    },
+    {
+        "text": "you only provide you with an extra bonus",
+        "start": 751.26,
+        "duration": 4.019
+    },
+    {
+        "text": "action which costs sorcery points as",
+        "start": 752.94,
+        "duration": 4.68
+    },
+    {
+        "text": "metamagic fighter does not you just get",
+        "start": 755.279,
+        "duration": 5.821
+    },
+    {
+        "text": "to blast the enemy one more time",
+        "start": 757.62,
+        "duration": 6.48
+    },
+    {
+        "text": "any fighting style goes and at level 9",
+        "start": 761.1,
+        "duration": 5.039
+    },
+    {
+        "text": "will at least get action search quite",
+        "start": 764.1,
+        "duration": 2.88
+    },
+    {
+        "text": "fun",
+        "start": 766.139,
+        "duration": 3.361
+    },
+    {
+        "text": "for more blessing I would still remain a",
+        "start": 766.98,
+        "duration": 3.96
+    },
+    {
+        "text": "fighter until Level 3 because this is",
+        "start": 769.5,
+        "duration": 3.12
+    },
+    {
+        "text": "when we get our subclass and ideally",
+        "start": 770.94,
+        "duration": 4.079
+    },
+    {
+        "text": "Champion as the extra critical range",
+        "start": 772.62,
+        "duration": 5.279
+    },
+    {
+        "text": "boost will stack with everything else we",
+        "start": 775.019,
+        "duration": 5.221
+    },
+    {
+        "text": "have including the spell sniper feet and",
+        "start": 777.899,
+        "duration": 4.921
+    },
+    {
+        "text": "yes it does apply to Elbridge blast as a",
+        "start": 780.24,
+        "duration": 4.56
+    },
+    {
+        "text": "matter of fact I would even keep this",
+        "start": 782.82,
+        "duration": 5.16
+    },
+    {
+        "text": "character up until Level 4 Fighter for",
+        "start": 784.8,
+        "duration": 6.36
+    },
+    {
+        "text": "the X repeat of course you could ignore",
+        "start": 787.98,
+        "duration": 6.419
+    },
+    {
+        "text": "the fighter subclass and go with",
+        "start": 791.16,
+        "duration": 4.38
+    },
+    {
+        "text": "well",
+        "start": 794.399,
+        "duration": 3.24
+    },
+    {
+        "text": "three levels of Rogan Thief as I said",
+        "start": 795.54,
+        "duration": 3.66
+    },
+    {
+        "text": "before I just don't think it's necessary",
+        "start": 797.639,
+        "duration": 3.421
+    },
+    {
+        "text": "because look you have more than enough",
+        "start": 799.2,
+        "duration": 4.8
+    },
+    {
+        "text": "blasts with dispute as it is one normal",
+        "start": 801.06,
+        "duration": 6.36
+    },
+    {
+        "text": "another from haste three from action",
+        "start": 804.0,
+        "duration": 6.3
+    },
+    {
+        "text": "surge far from the elixir of bloodlust",
+        "start": 807.42,
+        "duration": 6.539
+    },
+    {
+        "text": "and 5 from the Quicken spell metamagic",
+        "start": 810.3,
+        "duration": 7.68
+    },
+    {
+        "text": "that's 15 individual race fired per turn",
+        "start": 813.959,
+        "duration": 6.06
+    },
+    {
+        "text": "do you really need more just saying you",
+        "start": 817.98,
+        "duration": 3.84
+    },
+    {
+        "text": "can do it if you want I don't think it's",
+        "start": 820.019,
+        "duration": 4.62
+    },
+    {
+        "text": "worth it anyways for me I'd rather be a",
+        "start": 821.82,
+        "duration": 4.38
+    },
+    {
+        "text": "fighter for defeat and at last stability",
+        "start": 824.639,
+        "duration": 4.981
+    },
+    {
+        "text": "Improvement to maximize our Charisma of",
+        "start": 826.2,
+        "duration": 4.92
+    },
+    {
+        "text": "course you can also do this way earlier",
+        "start": 829.62,
+        "duration": 4.08
+    },
+    {
+        "text": "as I said before and for the last level",
+        "start": 831.12,
+        "duration": 4.38
+    },
+    {
+        "text": "there's no point in being a fighter",
+        "start": 833.7,
+        "duration": 3.96
+    },
+    {
+        "text": "because the extra attack means nothing",
+        "start": 835.5,
+        "duration": 4.32
+    },
+    {
+        "text": "for our type of build",
+        "start": 837.66,
+        "duration": 4.919
+    },
+    {
+        "text": "you can of course go Warlock for the",
+        "start": 839.82,
+        "duration": 4.139
+    },
+    {
+        "text": "packed Boon which also doesn't matter",
+        "start": 842.579,
+        "duration": 3.121
+    },
+    {
+        "text": "much I mean pact of the chain provides",
+        "start": 843.959,
+        "duration": 4.141
+    },
+    {
+        "text": "you with a summon but at this point who",
+        "start": 845.7,
+        "duration": 4.319
+    },
+    {
+        "text": "cares the same for the second level",
+        "start": 848.1,
+        "duration": 4.26
+    },
+    {
+        "text": "warlock slots and yes you could get",
+        "start": 850.019,
+        "duration": 4.021
+    },
+    {
+        "text": "three levels into warlock while as early",
+        "start": 852.36,
+        "duration": 3.659
+    },
+    {
+        "text": "as level 3 but that would delay",
+        "start": 854.04,
+        "duration": 4.02
+    },
+    {
+        "text": "progression of your fighter and also",
+        "start": 856.019,
+        "duration": 4.141
+    },
+    {
+        "text": "sorcerer abilities you might as well",
+        "start": 858.06,
+        "duration": 3.779
+    },
+    {
+        "text": "just grab the last level into sorcerer",
+        "start": 860.16,
+        "duration": 3.299
+    },
+    {
+        "text": "because at least you'll get more sorcery",
+        "start": 861.839,
+        "duration": 5.341
+    },
+    {
+        "text": "points and more spell slots",
+        "start": 863.459,
+        "duration": 5.82
+    },
+    {
+        "text": "alright and let us cover gear for our",
+        "start": 867.18,
+        "duration": 4.68
+    },
+    {
+        "text": "ultimate Eldritch Blaster highest",
+        "start": 869.279,
+        "duration": 4.74
+    },
+    {
+        "text": "criticals viewed for the helmet during",
+        "start": 871.86,
+        "duration": 3.419
+    },
+    {
+        "text": "act 1 you don't really have anything",
+        "start": 874.019,
+        "duration": 3.481
+    },
+    {
+        "text": "important but for the second act there's",
+        "start": 875.279,
+        "duration": 5.581
+    },
+    {
+        "text": "two choices as usual the covert Kalo or",
+        "start": 877.5,
+        "duration": 5.519
+    },
+    {
+        "text": "the dark Justice your helmet both will",
+        "start": 880.86,
+        "duration": 4.44
+    },
+    {
+        "text": "provide you with increases your critical",
+        "start": 883.019,
+        "duration": 4.56
+    },
+    {
+        "text": "range you do have to be obscured but",
+        "start": 885.3,
+        "duration": 4.32
+    },
+    {
+        "text": "this is super easy to do for a ranged",
+        "start": 887.579,
+        "duration": 4.32
+    },
+    {
+        "text": "build just don't stand next to a",
+        "start": 889.62,
+        "duration": 4.92
+    },
+    {
+        "text": "character that has the light can't drip",
+        "start": 891.899,
+        "duration": 5.821
+    },
+    {
+        "text": "cast on them for X3 however you can go",
+        "start": 894.54,
+        "duration": 5.28
+    },
+    {
+        "text": "with the birthright helmet to increase",
+        "start": 897.72,
+        "duration": 4.44
+    },
+    {
+        "text": "your charisma even further because this",
+        "start": 899.82,
+        "duration": 4.44
+    },
+    {
+        "text": "build gets double your charisma modifier",
+        "start": 902.16,
+        "duration": 4.799
+    },
+    {
+        "text": "to each individual instance of Eldritch",
+        "start": 904.26,
+        "duration": 6.24
+    },
+    {
+        "text": "blast well your mind prefer to have this",
+        "start": 906.959,
+        "duration": 5.461
+    },
+    {
+        "text": "as opposed to the critical boosting",
+        "start": 910.5,
+        "duration": 3.779
+    },
+    {
+        "text": "helmets it's up to you and you can of",
+        "start": 912.42,
+        "duration": 3.359
+    },
+    {
+        "text": "course also go with set of Vox horn",
+        "start": 914.279,
+        "duration": 3.781
+    },
+    {
+        "text": "helmet for the same purpose there's not",
+        "start": 915.779,
+        "duration": 4.261
+    },
+    {
+        "text": "really any special cloak besides the",
+        "start": 918.06,
+        "duration": 3.839
+    },
+    {
+        "text": "shades layer for even more critical",
+        "start": 920.04,
+        "duration": 4.919
+    },
+    {
+        "text": "range yes it only works when hiding but",
+        "start": 921.899,
+        "duration": 5.101
+    },
+    {
+        "text": "you are arranged built so at least you",
+        "start": 924.959,
+        "duration": 4.261
+    },
+    {
+        "text": "can always hide and fire your blasts",
+        "start": 927.0,
+        "duration": 4.26
+    },
+    {
+        "text": "without being detected at least for the",
+        "start": 929.22,
+        "duration": 4.08
+    },
+    {
+        "text": "initial of a strike for the ropes",
+        "start": 931.26,
+        "duration": 4.319
+    },
+    {
+        "text": "ultimately adapt to the potent rope the",
+        "start": 933.3,
+        "duration": 4.8
+    },
+    {
+        "text": "best in slot by far because it's one of",
+        "start": 935.579,
+        "duration": 5.221
+    },
+    {
+        "text": "the sources of extra Charisma modifier",
+        "start": 938.1,
+        "duration": 4.799
+    },
+    {
+        "text": "through your cantrip damage including",
+        "start": 940.8,
+        "duration": 4.62
+    },
+    {
+        "text": "Eldritch blast and for the First Act you",
+        "start": 942.899,
+        "duration": 4.5
+    },
+    {
+        "text": "can always use the classic proc tacti",
+        "start": 945.42,
+        "duration": 4.56
+    },
+    {
+        "text": "spark swallow or gloves ultimately spell",
+        "start": 947.399,
+        "duration": 4.8
+    },
+    {
+        "text": "mind of course to highly increase the",
+        "start": 949.98,
+        "duration": 4.74
+    },
+    {
+        "text": "damage of your Eldritch blasts it does",
+        "start": 952.199,
+        "duration": 4.861
+    },
+    {
+        "text": "have a penalty to the attack roll but it",
+        "start": 954.72,
+        "duration": 3.66
+    },
+    {
+        "text": "doesn't matter you have sources of",
+        "start": 957.06,
+        "duration": 3.719
+    },
+    {
+        "text": "Advantage especially by the time you can",
+        "start": 958.38,
+        "duration": 6.36
+    },
+    {
+        "text": "find these gloves act 3. for the earlier",
+        "start": 960.779,
+        "duration": 6.841
+    },
+    {
+        "text": "acts just a classic gloves of missile",
+        "start": 964.74,
+        "duration": 5.76
+    },
+    {
+        "text": "snaring should prevent range damage",
+        "start": 967.62,
+        "duration": 4.8
+    },
+    {
+        "text": "the boots don't really matter I just",
+        "start": 970.5,
+        "duration": 3.6
+    },
+    {
+        "text": "have the disintegrating light Walkers",
+        "start": 972.42,
+        "duration": 3.359
+    },
+    {
+        "text": "here for free miss this step but you can",
+        "start": 974.1,
+        "duration": 3.479
+    },
+    {
+        "text": "always guess that as a sorcerer or",
+        "start": 975.779,
+        "duration": 4.261
+    },
+    {
+        "text": "warlock immunity to a lot of ground",
+        "start": 977.579,
+        "duration": 5.221
+    },
+    {
+        "text": "effects can be nice however the amulets",
+        "start": 980.04,
+        "duration": 4.56
+    },
+    {
+        "text": "can be anything you want I have surgeon",
+        "start": 982.8,
+        "duration": 3.96
+    },
+    {
+        "text": "subjugation for a free paralyzed effect",
+        "start": 984.6,
+        "duration": 5.16
+    },
+    {
+        "text": "which can wreck almost any boss just",
+        "start": 986.76,
+        "duration": 5.16
+    },
+    {
+        "text": "remember to get the three Critical Hits",
+        "start": 989.76,
+        "duration": 4.98
+    },
+    {
+        "text": "From parallelization you'll need to be",
+        "start": 991.92,
+        "duration": 5.94
+    },
+    {
+        "text": "close to the enemy whenever firing your",
+        "start": 994.74,
+        "duration": 5.88
+    },
+    {
+        "text": "blasts Paul Rings is the classic package",
+        "start": 997.86,
+        "duration": 5.46
+    },
+    {
+        "text": "for extra damage careless glow because",
+        "start": 1000.62,
+        "duration": 4.079
+    },
+    {
+        "text": "it's one of the few sources that",
+        "start": 1003.32,
+        "duration": 4.86
+    },
+    {
+        "text": "enhances spell damage and of course the",
+        "start": 1004.699,
+        "duration": 5.221
+    },
+    {
+        "text": "risky ring for the easiest way of",
+        "start": 1008.18,
+        "duration": 3.779
+    },
+    {
+        "text": "getting advantage on all attacks",
+        "start": 1009.92,
+        "duration": 4.26
+    },
+    {
+        "text": "including Eldritch blast which by the",
+        "start": 1011.959,
+        "duration": 4.921
+    },
+    {
+        "text": "way also highly increases the chances of",
+        "start": 1014.18,
+        "duration": 4.68
+    },
+    {
+        "text": "you getting critical hits with your",
+        "start": 1016.88,
+        "duration": 3.78
+    },
+    {
+        "text": "blasts especially the higher your",
+        "start": 1018.86,
+        "duration": 4.2
+    },
+    {
+        "text": "critical range which is part of why we",
+        "start": 1020.66,
+        "duration": 5.1
+    },
+    {
+        "text": "invested so much in all sorts of",
+        "start": 1023.06,
+        "duration": 4.44
+    },
+    {
+        "text": "different critical boosting abilities",
+        "start": 1025.76,
+        "duration": 4.26
+    },
+    {
+        "text": "and speaking about criticals let's cover",
+        "start": 1027.5,
+        "duration": 5.72
+    },
+    {
+        "text": "weapons and quick slots",
+        "start": 1030.02,
+        "duration": 3.2
+    },
+    {
+        "text": "for act one just go with the classic",
+        "start": 1033.38,
+        "duration": 4.5
+    },
+    {
+        "text": "spell sparkler for some decent enough",
+        "start": 1035.419,
+        "duration": 4.321
+    },
+    {
+        "text": "lightning damage whenever hitting the",
+        "start": 1037.88,
+        "duration": 4.14
+    },
+    {
+        "text": "enemies before a blasts because we can",
+        "start": 1039.74,
+        "duration": 4.74
+    },
+    {
+        "text": "fire multiple per round from the second",
+        "start": 1042.02,
+        "duration": 4.62
+    },
+    {
+        "text": "act onwards however you might as well",
+        "start": 1044.48,
+        "duration": 3.839
+    },
+    {
+        "text": "change into different weapons because",
+        "start": 1046.64,
+        "duration": 4.919
+    },
+    {
+        "text": "like I said patch 3 nerfed a lot of the",
+        "start": 1048.319,
+        "duration": 5.581
+    },
+    {
+        "text": "extra bonuses to damage you could add to",
+        "start": 1051.559,
+        "duration": 4.801
+    },
+    {
+        "text": "your lightning charges the knife of the",
+        "start": 1053.9,
+        "duration": 4.2
+    },
+    {
+        "text": "under Mountain King definitely stands",
+        "start": 1056.36,
+        "duration": 4.26
+    },
+    {
+        "text": "out it's act one even at the githianki",
+        "start": 1058.1,
+        "duration": 5.88
+    },
+    {
+        "text": "crash area for well higher criticals and",
+        "start": 1060.62,
+        "duration": 5.64
+    },
+    {
+        "text": "later during act 3 you can dual wield",
+        "start": 1063.98,
+        "duration": 5.46
+    },
+    {
+        "text": "this with either the bloodthirst blade",
+        "start": 1066.26,
+        "duration": 6.12
+    },
+    {
+        "text": "for more critical range increases or my",
+        "start": 1069.44,
+        "duration": 5.46
+    },
+    {
+        "text": "preferred pick the rap city dagger",
+        "start": 1072.38,
+        "duration": 4.5
+    },
+    {
+        "text": "whenever you kill an enemy with Rhapsody",
+        "start": 1074.9,
+        "duration": 3.84
+    },
+    {
+        "text": "it even works if you destroy objects",
+        "start": 1076.88,
+        "duration": 4.919
+    },
+    {
+        "text": "you'll get option plus 3 to attack Rose",
+        "start": 1078.74,
+        "duration": 5.76
+    },
+    {
+        "text": "damage and spell safety C",
+        "start": 1081.799,
+        "duration": 4.981
+    },
+    {
+        "text": "because of how many blasts we fire it's",
+        "start": 1084.5,
+        "duration": 4.919
+    },
+    {
+        "text": "plus 3 to what 15 different instances of",
+        "start": 1086.78,
+        "duration": 5.279
+    },
+    {
+        "text": "Elders blast eventually before patch 3",
+        "start": 1089.419,
+        "duration": 5.041
+    },
+    {
+        "text": "you could just keep the buff even if you",
+        "start": 1092.059,
+        "duration": 5.161
+    },
+    {
+        "text": "switch out of Rhapsody unequipped",
+        "start": 1094.46,
+        "duration": 5.219
+    },
+    {
+        "text": "something else no longer now however",
+        "start": 1097.22,
+        "duration": 4.5
+    },
+    {
+        "text": "which is why I have it equipped on my",
+        "start": 1099.679,
+        "duration": 4.5
+    },
+    {
+        "text": "character and don't forget at least one",
+        "start": 1101.72,
+        "duration": 4.199
+    },
+    {
+        "text": "of your party members should definitely",
+        "start": 1104.179,
+        "duration": 4.201
+    },
+    {
+        "text": "consider having the Fowler a luve sword",
+        "start": 1105.919,
+        "duration": 4.921
+    },
+    {
+        "text": "equipped for its very powerful shriek",
+        "start": 1108.38,
+        "duration": 5.22
+    },
+    {
+        "text": "ability which will highly increase the",
+        "start": 1110.84,
+        "duration": 5.579
+    },
+    {
+        "text": "damage of each Eldritch blast fired",
+        "start": 1113.6,
+        "duration": 5.579
+    },
+    {
+        "text": "while lightning charges were nerfed this",
+        "start": 1116.419,
+        "duration": 4.921
+    },
+    {
+        "text": "still gets lots of extra damage added on",
+        "start": 1119.179,
+        "duration": 4.141
+    },
+    {
+        "text": "top of it but who knows for how long",
+        "start": 1121.34,
+        "duration": 3.959
+    },
+    {
+        "text": "right might as well make use of it while",
+        "start": 1123.32,
+        "duration": 4.8
+    },
+    {
+        "text": "it's still hot 4 balls just that classic",
+        "start": 1125.299,
+        "duration": 5.821
+    },
+    {
+        "text": "that shot later once again for more",
+        "start": 1128.12,
+        "duration": 4.919
+    },
+    {
+        "text": "criticals after all this character has",
+        "start": 1131.12,
+        "duration": 5.22
+    },
+    {
+        "text": "what 6 extra sources of criticals the",
+        "start": 1133.039,
+        "duration": 5.161
+    },
+    {
+        "text": "helmet the cloak",
+        "start": 1136.34,
+        "duration": 5.04
+    },
+    {
+        "text": "double weapons the bow the fighter",
+        "start": 1138.2,
+        "duration": 5.099
+    },
+    {
+        "text": "multi-class and also the spell sniper",
+        "start": 1141.38,
+        "duration": 2.82
+    },
+    {
+        "text": "feet",
+        "start": 1143.299,
+        "duration": 3.541
+    },
+    {
+        "text": "criticals will really fly and for the",
+        "start": 1144.2,
+        "duration": 5.58
+    },
+    {
+        "text": "first acts just the bow of awareness for",
+        "start": 1146.84,
+        "duration": 5.52
+    },
+    {
+        "text": "higher initiative and for consumables",
+        "start": 1149.78,
+        "duration": 4.38
+    },
+    {
+        "text": "don't forget the classic elixir of",
+        "start": 1152.36,
+        "duration": 4.14
+    },
+    {
+        "text": "bloodlust for even more Elders blasts",
+        "start": 1154.16,
+        "duration": 3.42
+    },
+    {
+        "text": "per turn",
+        "start": 1156.5,
+        "duration": 3.059
+    },
+    {
+        "text": "well alright friends so this was it for",
+        "start": 1157.58,
+        "duration": 4.14
+    },
+    {
+        "text": "my ultimate Eldridge Blaster built fully",
+        "start": 1159.559,
+        "duration": 4.74
+    },
+    {
+        "text": "updated for patch 3. plus if you found",
+        "start": 1161.72,
+        "duration": 3.72
+    },
+    {
+        "text": "this guide useful as always please",
+        "start": 1164.299,
+        "duration": 3.481
+    },
+    {
+        "text": "remember to like subscribe and also",
+        "start": 1165.44,
+        "duration": 3.84
+    },
+    {
+        "text": "consider becoming a channel member if",
+        "start": 1167.78,
+        "duration": 3.899
+    },
+    {
+        "text": "you can I always appreciate your support",
+        "start": 1169.28,
+        "duration": 4.5
+    },
+    {
+        "text": "thank you for watching and see you next",
+        "start": 1171.679,
+        "duration": 4.581
+    },
+    {
+        "text": "time friends",
+        "start": 1173.78,
+        "duration": 2.48
+    }
+]

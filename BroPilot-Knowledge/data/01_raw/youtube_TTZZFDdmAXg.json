@@ -1,0 +1,7347 @@
+[
+    {
+        "text": "Hello my friends and welcome back to",
+        "start": 0.64,
+        "duration": 3.6
+    },
+    {
+        "text": "another Balders's Gate 3 mechanics deep",
+        "start": 2.32,
+        "duration": 3.92
+    },
+    {
+        "text": "dive and guide. Hope you're all doing",
+        "start": 4.24,
+        "duration": 4.16
+    },
+    {
+        "text": "well. Today we'll be covering the wild",
+        "start": 6.24,
+        "duration": 5.279
+    },
+    {
+        "text": "shape forms. Druids are an incredibly",
+        "start": 8.4,
+        "duration": 5.279
+    },
+    {
+        "text": "powerful class at all stages of the",
+        "start": 11.519,
+        "duration": 4.481
+    },
+    {
+        "text": "game. And a big chunk of that power,",
+        "start": 13.679,
+        "duration": 4.961
+    },
+    {
+        "text": "especially early on, is access to the",
+        "start": 16.0,
+        "duration": 5.68
+    },
+    {
+        "text": "awesome strength of wild shape. Uh but",
+        "start": 18.64,
+        "duration": 5.28
+    },
+    {
+        "text": "all of the wild shapes are not created",
+        "start": 21.68,
+        "duration": 4.08
+    },
+    {
+        "text": "equal, and it can be hard to use the",
+        "start": 23.92,
+        "duration": 3.679
+    },
+    {
+        "text": "right ones in the right situations.",
+        "start": 25.76,
+        "duration": 3.679
+    },
+    {
+        "text": "There's a lot of complexity to the",
+        "start": 27.599,
+        "duration": 4.241
+    },
+    {
+        "text": "decisions around wild shaping. There's",
+        "start": 29.439,
+        "duration": 4.321
+    },
+    {
+        "text": "just a lot of different options as well,",
+        "start": 31.84,
+        "duration": 3.52
+    },
+    {
+        "text": "so it can be hard to figure out which",
+        "start": 33.76,
+        "duration": 4.56
+    },
+    {
+        "text": "ones are the best. There's also a ton of",
+        "start": 35.36,
+        "duration": 5.359
+    },
+    {
+        "text": "weird rules interactions with wild",
+        "start": 38.32,
+        "duration": 4.399
+    },
+    {
+        "text": "shape. So, knowing what actually will",
+        "start": 40.719,
+        "duration": 4.401
+    },
+    {
+        "text": "work and what won't uh can be pretty",
+        "start": 42.719,
+        "duration": 4.241
+    },
+    {
+        "text": "difficult and it's not really explained",
+        "start": 45.12,
+        "duration": 3.759
+    },
+    {
+        "text": "anywhere in game. So, we're going to be",
+        "start": 46.96,
+        "duration": 4.24
+    },
+    {
+        "text": "covering all of that as well. So today",
+        "start": 48.879,
+        "duration": 3.921
+    },
+    {
+        "text": "I'm going to be going through each wild",
+        "start": 51.2,
+        "duration": 4.16
+    },
+    {
+        "text": "shape at every level uh that you get",
+        "start": 52.8,
+        "duration": 4.56
+    },
+    {
+        "text": "access to it and as it improves. And",
+        "start": 55.36,
+        "duration": 3.359
+    },
+    {
+        "text": "we'll talk about their strengths and",
+        "start": 57.36,
+        "duration": 3.76
+    },
+    {
+        "text": "weaknesses, when to use that wild shape",
+        "start": 58.719,
+        "duration": 5.041
+    },
+    {
+        "text": "form, what they actually do, and how to",
+        "start": 61.12,
+        "duration": 4.88
+    },
+    {
+        "text": "get the best use out of them. Now,",
+        "start": 63.76,
+        "duration": 3.6
+    },
+    {
+        "text": "before I begin, I do want to take a",
+        "start": 66.0,
+        "duration": 3.119
+    },
+    {
+        "text": "quick moment to say thank you so much to",
+        "start": 67.36,
+        "duration": 4.24
+    },
+    {
+        "text": "John Yuten for the extremely generous",
+        "start": 69.119,
+        "duration": 6.32
+    },
+    {
+        "text": "$100 donation, Tarantula for the $20,",
+        "start": 71.6,
+        "duration": 6.8
+    },
+    {
+        "text": "David Ramos for the $2, and Peaceful Oz",
+        "start": 75.439,
+        "duration": 4.881
+    },
+    {
+        "text": "and Christy Cutter for becoming channel",
+        "start": 78.4,
+        "duration": 3.52
+    },
+    {
+        "text": "members. Thank you so much, my friends.",
+        "start": 80.32,
+        "duration": 3.68
+    },
+    {
+        "text": "It really means so much to me. I I",
+        "start": 81.92,
+        "duration": 4.4
+    },
+    {
+        "text": "really appreciate it. All right, let's",
+        "start": 84.0,
+        "duration": 5.119
+    },
+    {
+        "text": "talk Wild Shapes. So, first, just a",
+        "start": 86.32,
+        "duration": 4.56
+    },
+    {
+        "text": "quick overview of how Wild Shape",
+        "start": 89.119,
+        "duration": 3.201
+    },
+    {
+        "text": "actually functions when you use it in",
+        "start": 90.88,
+        "duration": 3.52
+    },
+    {
+        "text": "game. You get wild shape at level two of",
+        "start": 92.32,
+        "duration": 5.04
+    },
+    {
+        "text": "druid. Uh, and if you are a moon druid,",
+        "start": 94.4,
+        "duration": 5.359
+    },
+    {
+        "text": "it takes a bonus action to activate. If",
+        "start": 97.36,
+        "duration": 4.16
+    },
+    {
+        "text": "you're any other form of druid, it takes",
+        "start": 99.759,
+        "duration": 3.841
+    },
+    {
+        "text": "your full action to activate. When you",
+        "start": 101.52,
+        "duration": 4.0
+    },
+    {
+        "text": "do, you choose one of your available",
+        "start": 103.6,
+        "duration": 4.96
+    },
+    {
+        "text": "wild shaped forms and you turn into uh",
+        "start": 105.52,
+        "duration": 5.68
+    },
+    {
+        "text": "that beast. Turning into a beast does a",
+        "start": 108.56,
+        "duration": 4.559
+    },
+    {
+        "text": "whole bunch of things, but most",
+        "start": 111.2,
+        "duration": 4.48
+    },
+    {
+        "text": "importantly, it gives you the hit points",
+        "start": 113.119,
+        "duration": 4.481
+    },
+    {
+        "text": "and physical attributes of that",
+        "start": 115.68,
+        "duration": 4.24
+    },
+    {
+        "text": "creature. So, you replace your physical",
+        "start": 117.6,
+        "duration": 3.92
+    },
+    {
+        "text": "attributes, your strength, dexterity,",
+        "start": 119.92,
+        "duration": 3.6
+    },
+    {
+        "text": "and constitution with those of the",
+        "start": 121.52,
+        "duration": 4.48
+    },
+    {
+        "text": "animal, and also replace your hit points",
+        "start": 123.52,
+        "duration": 4.32
+    },
+    {
+        "text": "with those of the animal. When you lose",
+        "start": 126.0,
+        "duration": 3.759
+    },
+    {
+        "text": "all of those hit points, you just uh",
+        "start": 127.84,
+        "duration": 4.16
+    },
+    {
+        "text": "revert back to your normal form with",
+        "start": 129.759,
+        "duration": 4.001
+    },
+    {
+        "text": "whatever hit points you had before you",
+        "start": 132.0,
+        "duration": 4.0
+    },
+    {
+        "text": "wild shaped. Meaning that druids,",
+        "start": 133.76,
+        "duration": 4.32
+    },
+    {
+        "text": "because they get two wild shaped charges",
+        "start": 136.0,
+        "duration": 5.52
+    },
+    {
+        "text": "per short rest, have many more times the",
+        "start": 138.08,
+        "duration": 5.68
+    },
+    {
+        "text": "effective hit point pool than other",
+        "start": 141.52,
+        "duration": 4.56
+    },
+    {
+        "text": "characters, making them surprisingly",
+        "start": 143.76,
+        "duration": 5.04
+    },
+    {
+        "text": "incredibly tanky. Uh, druids will be",
+        "start": 146.08,
+        "duration": 6.08
+    },
+    {
+        "text": "able to uh full heal in combat when they",
+        "start": 148.8,
+        "duration": 5.28
+    },
+    {
+        "text": "drop out of wild shape form by wild",
+        "start": 152.16,
+        "duration": 3.84
+    },
+    {
+        "text": "shaping again. And it's not on a long",
+        "start": 154.08,
+        "duration": 3.76
+    },
+    {
+        "text": "cooldown. You get two of them per short",
+        "start": 156.0,
+        "duration": 4.239
+    },
+    {
+        "text": "rest. So you can use this to tank a ton",
+        "start": 157.84,
+        "duration": 4.479
+    },
+    {
+        "text": "of incoming damage, especially as a moon",
+        "start": 160.239,
+        "duration": 4.561
+    },
+    {
+        "text": "druid who can do it as a bonus action.",
+        "start": 162.319,
+        "duration": 4.321
+    },
+    {
+        "text": "Also, in wild shape, you lose the",
+        "start": 164.8,
+        "duration": 4.0
+    },
+    {
+        "text": "ability to use most of your activated",
+        "start": 166.64,
+        "duration": 3.76
+    },
+    {
+        "text": "class abilities, and you lose the",
+        "start": 168.8,
+        "duration": 4.159
+    },
+    {
+        "text": "ability to cast spells or benefit from",
+        "start": 170.4,
+        "duration": 4.8
+    },
+    {
+        "text": "most items in the game. But there are",
+        "start": 172.959,
+        "duration": 4.321
+    },
+    {
+        "text": "some things that work while you're in",
+        "start": 175.2,
+        "duration": 5.44
+    },
+    {
+        "text": "wild shape. Firstly, most class and feat",
+        "start": 177.28,
+        "duration": 6.8
+    },
+    {
+        "text": "passives will still work. So feats like",
+        "start": 180.64,
+        "duration": 7.76
+    },
+    {
+        "text": "uh alert will still function. Uh racial",
+        "start": 184.08,
+        "duration": 7.6
+    },
+    {
+        "text": "passives like halflings ability to roll",
+        "start": 188.4,
+        "duration": 5.28
+    },
+    {
+        "text": "ones will still function and class",
+        "start": 191.68,
+        "duration": 4.559
+    },
+    {
+        "text": "passives like barbarians fast movement",
+        "start": 193.68,
+        "duration": 4.32
+    },
+    {
+        "text": "will still function while you're in wild",
+        "start": 196.239,
+        "duration": 5.521
+    },
+    {
+        "text": "shape. Some other feats um that have",
+        "start": 198.0,
+        "duration": 5.68
+    },
+    {
+        "text": "activated abilities won't work. You",
+        "start": 201.76,
+        "duration": 3.68
+    },
+    {
+        "text": "can't use the charger feat while you're",
+        "start": 203.68,
+        "duration": 3.52
+    },
+    {
+        "text": "in Wild Shape, but anything that has a",
+        "start": 205.44,
+        "duration": 4.48
+    },
+    {
+        "text": "passive bonus will work. The most",
+        "start": 207.2,
+        "duration": 5.28
+    },
+    {
+        "text": "important of these is Tavern Brawler",
+        "start": 209.92,
+        "duration": 4.64
+    },
+    {
+        "text": "because most wild shapes attack with",
+        "start": 212.48,
+        "duration": 4.72
+    },
+    {
+        "text": "their unarmed strikes uh with unarmed",
+        "start": 214.56,
+        "duration": 5.039
+    },
+    {
+        "text": "attacks and benefit from the full value",
+        "start": 217.2,
+        "duration": 4.399
+    },
+    {
+        "text": "of Tavern Brawler, doubling their",
+        "start": 219.599,
+        "duration": 3.92
+    },
+    {
+        "text": "strength bonus to hit and damage,",
+        "start": 221.599,
+        "duration": 3.92
+    },
+    {
+        "text": "increasing your Wild Shape form's damage",
+        "start": 223.519,
+        "duration": 4.561
+    },
+    {
+        "text": "output dramatically. So, most characters",
+        "start": 225.519,
+        "duration": 4.561
+    },
+    {
+        "text": "that are going to focus on wild shape",
+        "start": 228.08,
+        "duration": 4.0
+    },
+    {
+        "text": "will be using Tavern Brawler. A couple",
+        "start": 230.08,
+        "duration": 3.84
+    },
+    {
+        "text": "other things work uh if you activate",
+        "start": 232.08,
+        "duration": 4.4
+    },
+    {
+        "text": "them before you enter wild shape. If you",
+        "start": 233.92,
+        "duration": 5.039
+    },
+    {
+        "text": "rage first as a barbarian, you keep the",
+        "start": 236.48,
+        "duration": 4.319
+    },
+    {
+        "text": "benefits of the rage while in wild",
+        "start": 238.959,
+        "duration": 4.801
+    },
+    {
+        "text": "shape. If you are concentrating on a",
+        "start": 240.799,
+        "duration": 5.52
+    },
+    {
+        "text": "spell, you don't lose concentration on",
+        "start": 243.76,
+        "duration": 4.8
+    },
+    {
+        "text": "that spell. Uh you can't cast a new",
+        "start": 246.319,
+        "duration": 4.48
+    },
+    {
+        "text": "spell, but you can keep concentrating on",
+        "start": 248.56,
+        "duration": 5.599
+    },
+    {
+        "text": "a spell while you're in wild shape. Um",
+        "start": 250.799,
+        "duration": 5.921
+    },
+    {
+        "text": "most items don't function, but a couple",
+        "start": 254.159,
+        "duration": 4.8
+    },
+    {
+        "text": "do, and usually they'll list that they",
+        "start": 256.72,
+        "duration": 4.479
+    },
+    {
+        "text": "function. Uh, there's a full list of",
+        "start": 258.959,
+        "duration": 3.841
+    },
+    {
+        "text": "everything that works in Wild Shape on",
+        "start": 261.199,
+        "duration": 3.681
+    },
+    {
+        "text": "the Balders's Gate 3 wiki, which I will",
+        "start": 262.8,
+        "duration": 4.08
+    },
+    {
+        "text": "link below. But what you should know",
+        "start": 264.88,
+        "duration": 3.599
+    },
+    {
+        "text": "basically is that when you enter Wild",
+        "start": 266.88,
+        "duration": 3.12
+    },
+    {
+        "text": "Shape, you're going to keep your mental",
+        "start": 268.479,
+        "duration": 3.041
+    },
+    {
+        "text": "attributes. You're going to get a whole",
+        "start": 270.0,
+        "duration": 3.28
+    },
+    {
+        "text": "bunch of new health, and you're going to",
+        "start": 271.52,
+        "duration": 3.679
+    },
+    {
+        "text": "be using the animals abilities rather",
+        "start": 273.28,
+        "duration": 5.12
+    },
+    {
+        "text": "than your own. Um, except for passives",
+        "start": 275.199,
+        "duration": 5.841
+    },
+    {
+        "text": "from classes and feats. Those you mostly",
+        "start": 278.4,
+        "duration": 5.519
+    },
+    {
+        "text": "carry over. I'm also going to mention",
+        "start": 281.04,
+        "duration": 4.879
+    },
+    {
+        "text": "before we jump into examining the",
+        "start": 283.919,
+        "duration": 5.121
+    },
+    {
+        "text": "individual wild shape forms that um",
+        "start": 285.919,
+        "duration": 5.121
+    },
+    {
+        "text": "while you can get a pretty significant",
+        "start": 289.04,
+        "duration": 3.92
+    },
+    {
+        "text": "advantage by changing your wild shape",
+        "start": 291.04,
+        "duration": 3.68
+    },
+    {
+        "text": "forms depending on the situation and",
+        "start": 292.96,
+        "duration": 3.44
+    },
+    {
+        "text": "learning what they all do is still very",
+        "start": 294.72,
+        "duration": 3.759
+    },
+    {
+        "text": "useful. If you're just looking for a",
+        "start": 296.4,
+        "duration": 4.72
+    },
+    {
+        "text": "very very quick huristic as to what wild",
+        "start": 298.479,
+        "duration": 4.0
+    },
+    {
+        "text": "shapes you should be using at what",
+        "start": 301.12,
+        "duration": 5.359
+    },
+    {
+        "text": "level, um, then it's hard to go wrong by",
+        "start": 302.479,
+        "duration": 6.401
+    },
+    {
+        "text": "turning into a spider up until level six",
+        "start": 306.479,
+        "duration": 4.401
+    },
+    {
+        "text": "and then turning into an owl bear from",
+        "start": 308.88,
+        "duration": 4.4
+    },
+    {
+        "text": "level six until level 10 and then if",
+        "start": 310.88,
+        "duration": 4.159
+    },
+    {
+        "text": "you're a moon druid, turning into an",
+        "start": 313.28,
+        "duration": 4.08
+    },
+    {
+        "text": "earth murmon starting at level 10 and if",
+        "start": 315.039,
+        "duration": 4.401
+    },
+    {
+        "text": "you're not a moon druid continuing to",
+        "start": 317.36,
+        "duration": 5.44
+    },
+    {
+        "text": "turn into an owl bear. uh while you can",
+        "start": 319.44,
+        "duration": 5.199
+    },
+    {
+        "text": "uh use a lot of the other wild shape",
+        "start": 322.8,
+        "duration": 4.64
+    },
+    {
+        "text": "forms uh to optimize further than that,",
+        "start": 324.639,
+        "duration": 5.12
+    },
+    {
+        "text": "that's a solid baseline. And so if",
+        "start": 327.44,
+        "duration": 3.759
+    },
+    {
+        "text": "you're just looking for a quick hit or",
+        "start": 329.759,
+        "duration": 3.521
+    },
+    {
+        "text": "TLDDR, then that will serve you",
+        "start": 331.199,
+        "duration": 4.801
+    },
+    {
+        "text": "reasonably well. So when you first get",
+        "start": 333.28,
+        "duration": 5.199
+    },
+    {
+        "text": "access to wild shape at level two, you",
+        "start": 336.0,
+        "duration": 5.52
+    },
+    {
+        "text": "have access to four wild shapes: badger,",
+        "start": 338.479,
+        "duration": 5.681
+    },
+    {
+        "text": "spider, wolf, and cat. And then if",
+        "start": 341.52,
+        "duration": 4.88
+    },
+    {
+        "text": "you're a moon druid, you also have bear",
+        "start": 344.16,
+        "duration": 5.2
+    },
+    {
+        "text": "wild shape. Hson has one unique wild",
+        "start": 346.4,
+        "duration": 5.2
+    },
+    {
+        "text": "shape as well. He has his cave bear wild",
+        "start": 349.36,
+        "duration": 4.24
+    },
+    {
+        "text": "shape uh which works very slightly",
+        "start": 351.6,
+        "duration": 3.76
+    },
+    {
+        "text": "differently. So I'll talk about that a",
+        "start": 353.6,
+        "duration": 4.879
+    },
+    {
+        "text": "little bit more in a second. Uh these",
+        "start": 355.36,
+        "duration": 5.279
+    },
+    {
+        "text": "wild shaped forms have a certain number",
+        "start": 358.479,
+        "duration": 4.481
+    },
+    {
+        "text": "of hit points and th those hit points",
+        "start": 360.639,
+        "duration": 5.601
+    },
+    {
+        "text": "will go up every two druid levels as",
+        "start": 362.96,
+        "duration": 5.6
+    },
+    {
+        "text": "will some of their damaging abilities",
+        "start": 366.24,
+        "duration": 4.88
+    },
+    {
+        "text": "but mostly by very small amounts. And so",
+        "start": 368.56,
+        "duration": 4.32
+    },
+    {
+        "text": "while the damage will increase, mostly",
+        "start": 371.12,
+        "duration": 3.12
+    },
+    {
+        "text": "you're going to be looking at the base",
+        "start": 372.88,
+        "duration": 3.68
+    },
+    {
+        "text": "damage in order to decide whether this",
+        "start": 374.24,
+        "duration": 5.04
+    },
+    {
+        "text": "um whether this wild shape form does",
+        "start": 376.56,
+        "duration": 4.8
+    },
+    {
+        "text": "adequate damage. The way that the hit",
+        "start": 379.28,
+        "duration": 4.639
+    },
+    {
+        "text": "points increase is a little bit odd.",
+        "start": 381.36,
+        "duration": 4.8
+    },
+    {
+        "text": "Instead of uh increasing linearly,",
+        "start": 383.919,
+        "duration": 4.241
+    },
+    {
+        "text": "gaining say eight hit points every two",
+        "start": 386.16,
+        "duration": 5.28
+    },
+    {
+        "text": "levels, they increase um nonlinearly,",
+        "start": 388.16,
+        "duration": 5.759
+    },
+    {
+        "text": "gaining a percentage of their previous",
+        "start": 391.44,
+        "duration": 4.72
+    },
+    {
+        "text": "hit points every two levels, and that",
+        "start": 393.919,
+        "duration": 4.321
+    },
+    {
+        "text": "percentage compounds. So, for the spider",
+        "start": 396.16,
+        "duration": 6.24
+    },
+    {
+        "text": "form, uh, the spider gains 30% rounded",
+        "start": 398.24,
+        "duration": 6.079
+    },
+    {
+        "text": "down of its previous hit points every",
+        "start": 402.4,
+        "duration": 4.16
+    },
+    {
+        "text": "two levels. So, at level two, it has 20",
+        "start": 404.319,
+        "duration": 4.401
+    },
+    {
+        "text": "hit points. At level four, it has 26,",
+        "start": 406.56,
+        "duration": 6.56
+    },
+    {
+        "text": "and at level six, it has 34. Uh, gaining",
+        "start": 408.72,
+        "duration": 6.88
+    },
+    {
+        "text": "more hit points each time. What that",
+        "start": 413.12,
+        "duration": 4.799
+    },
+    {
+        "text": "means is that the the wild shape forms",
+        "start": 415.6,
+        "duration": 4.319
+    },
+    {
+        "text": "that start with small amounts of hit",
+        "start": 417.919,
+        "duration": 5.041
+    },
+    {
+        "text": "points are going to have a a much much",
+        "start": 419.919,
+        "duration": 5.441
+    },
+    {
+        "text": "lower HP in the end game than the ones",
+        "start": 422.96,
+        "duration": 4.079
+    },
+    {
+        "text": "that start with a higher total because",
+        "start": 425.36,
+        "duration": 4.399
+    },
+    {
+        "text": "it's multiplicative rather than additive",
+        "start": 427.039,
+        "duration": 4.481
+    },
+    {
+        "text": "um increasing the hit points. So a",
+        "start": 429.759,
+        "duration": 3.84
+    },
+    {
+        "text": "badger starts with only 13 compared to",
+        "start": 431.52,
+        "duration": 5.28
+    },
+    {
+        "text": "the spider's 20. They both scale at 30%",
+        "start": 433.599,
+        "duration": 5.201
+    },
+    {
+        "text": "and so the badger will have a lot less",
+        "start": 436.8,
+        "duration": 4.959
+    },
+    {
+        "text": "HP than the spider um by the time you",
+        "start": 438.8,
+        "duration": 5.44
+    },
+    {
+        "text": "reach level 12. The one exception uh is",
+        "start": 441.759,
+        "duration": 4.961
+    },
+    {
+        "text": "the wolf, which scales at 40%, so while",
+        "start": 444.24,
+        "duration": 4.72
+    },
+    {
+        "text": "it starts with only 18 hit points, it's",
+        "start": 446.72,
+        "duration": 3.44
+    },
+    {
+        "text": "going to end up with the highest hit",
+        "start": 448.96,
+        "duration": 4.239
+    },
+    {
+        "text": "point total at level 12. The first wild",
+        "start": 450.16,
+        "duration": 5.2
+    },
+    {
+        "text": "shaped form is the badger form, who's",
+        "start": 453.199,
+        "duration": 4.56
+    },
+    {
+        "text": "extremely cute, but unfortunately not",
+        "start": 455.36,
+        "duration": 5.36
+    },
+    {
+        "text": "very strong. The badger form has 13 base",
+        "start": 457.759,
+        "duration": 6.081
+    },
+    {
+        "text": "HP and increases that by 30% every two",
+        "start": 460.72,
+        "duration": 6.16
+    },
+    {
+        "text": "levels up to 49 health at level 12,",
+        "start": 463.84,
+        "duration": 4.4
+    },
+    {
+        "text": "making it the lowest health of the",
+        "start": 466.88,
+        "duration": 4.48
+    },
+    {
+        "text": "combat forms. It also only has 10 armor",
+        "start": 468.24,
+        "duration": 5.44
+    },
+    {
+        "text": "class base. You can increase this with",
+        "start": 471.36,
+        "duration": 4.72
+    },
+    {
+        "text": "mage armor or bark skin similar effects,",
+        "start": 473.68,
+        "duration": 4.239
+    },
+    {
+        "text": "but in general, it's going to have the",
+        "start": 476.08,
+        "duration": 4.399
+    },
+    {
+        "text": "lowest AC and lowest HP of the combat",
+        "start": 477.919,
+        "duration": 4.641
+    },
+    {
+        "text": "wild shape forms and thus be pretty",
+        "start": 480.479,
+        "duration": 4.961
+    },
+    {
+        "text": "squishy. You can use that in order to",
+        "start": 482.56,
+        "duration": 5.199
+    },
+    {
+        "text": "deliberately attract enemy attacks. If",
+        "start": 485.44,
+        "duration": 3.92
+    },
+    {
+        "text": "you have a a party member that you",
+        "start": 487.759,
+        "duration": 2.961
+    },
+    {
+        "text": "really don't want to get hit, like",
+        "start": 489.36,
+        "duration": 3.44
+    },
+    {
+        "text": "they're concentrating on haste, um you",
+        "start": 490.72,
+        "duration": 3.84
+    },
+    {
+        "text": "can use badger form for that. But",
+        "start": 492.8,
+        "duration": 4.32
+    },
+    {
+        "text": "primarily as a defensive tool, badger",
+        "start": 494.56,
+        "duration": 4.319
+    },
+    {
+        "text": "form is going to be outclassed by the",
+        "start": 497.12,
+        "duration": 3.359
+    },
+    {
+        "text": "other wild shaped forms that have more",
+        "start": 498.879,
+        "duration": 4.0
+    },
+    {
+        "text": "armor, class, and health. Offensively,",
+        "start": 500.479,
+        "duration": 5.041
+    },
+    {
+        "text": "it has three different actions. You have",
+        "start": 502.879,
+        "duration": 6.16
+    },
+    {
+        "text": "the bite action for 2d4 plus two damage,",
+        "start": 505.52,
+        "duration": 5.28
+    },
+    {
+        "text": "and then this will also get some bonus",
+        "start": 509.039,
+        "duration": 4.641
+    },
+    {
+        "text": "damage as you level up. Uh, at level",
+        "start": 510.8,
+        "duration": 4.96
+    },
+    {
+        "text": "four, it gets an extra d6 of damage on",
+        "start": 513.68,
+        "duration": 4.64
+    },
+    {
+        "text": "top of that. And then that goes up to an",
+        "start": 515.76,
+        "duration": 7.199
+    },
+    {
+        "text": "extra d8 at uh level eight, I believe.",
+        "start": 518.32,
+        "duration": 7.68
+    },
+    {
+        "text": "Um, and then that becomes an extra d10",
+        "start": 522.959,
+        "duration": 6.641
+    },
+    {
+        "text": "at uh, level 12. But mostly the marginal",
+        "start": 526.0,
+        "duration": 5.04
+    },
+    {
+        "text": "increase in damage is not going to be",
+        "start": 529.6,
+        "duration": 4.16
+    },
+    {
+        "text": "that significant. Um, so its melee",
+        "start": 531.04,
+        "duration": 6.64
+    },
+    {
+        "text": "attack is also not great. Um, 2d4 plus",
+        "start": 533.76,
+        "duration": 7.6
+    },
+    {
+        "text": "two is sort of equivalent to what a",
+        "start": 537.68,
+        "duration": 5.52
+    },
+    {
+        "text": "marshall character would be doing with",
+        "start": 541.36,
+        "duration": 3.919
+    },
+    {
+        "text": "just their normal attacks at this level,",
+        "start": 543.2,
+        "duration": 5.12
+    },
+    {
+        "text": "but it's nothing super spectacular. The",
+        "start": 545.279,
+        "duration": 5.361
+    },
+    {
+        "text": "claws ability is basically the same. It",
+        "start": 548.32,
+        "duration": 4.32
+    },
+    {
+        "text": "has exactly the same damage except you",
+        "start": 550.64,
+        "duration": 4.08
+    },
+    {
+        "text": "also get to push the enemy back 5 ft.",
+        "start": 552.64,
+        "duration": 3.36
+    },
+    {
+        "text": "They have to make a strength saving",
+        "start": 554.72,
+        "duration": 2.88
+    },
+    {
+        "text": "throw or they get knocked 5 ft",
+        "start": 556.0,
+        "duration": 4.399
+    },
+    {
+        "text": "backwards. Uh so which of these you're",
+        "start": 557.6,
+        "duration": 5.28
+    },
+    {
+        "text": "going to be using is mostly dependent on",
+        "start": 560.399,
+        "duration": 4.481
+    },
+    {
+        "text": "whether you want to knock enemies 5 ft",
+        "start": 562.88,
+        "duration": 4.72
+    },
+    {
+        "text": "backwards or not. You usually will",
+        "start": 564.88,
+        "duration": 4.32
+    },
+    {
+        "text": "because there are lots of times where",
+        "start": 567.6,
+        "duration": 3.52
+    },
+    {
+        "text": "being able to reposition enemies is",
+        "start": 569.2,
+        "duration": 5.28
+    },
+    {
+        "text": "going to be uh helpful and so the claws",
+        "start": 571.12,
+        "duration": 5.44
+    },
+    {
+        "text": "ability having a knockback associated",
+        "start": 574.48,
+        "duration": 3.84
+    },
+    {
+        "text": "with it can be fine. The fact that it's",
+        "start": 576.56,
+        "duration": 4.0
+    },
+    {
+        "text": "only a five foot knockback really does",
+        "start": 578.32,
+        "duration": 4.4
+    },
+    {
+        "text": "hold it back though. Finally, you have",
+        "start": 580.56,
+        "duration": 5.36
+    },
+    {
+        "text": "the burrow ability, um, which lets you",
+        "start": 582.72,
+        "duration": 5.2
+    },
+    {
+        "text": "spend 20 feet of your movement speed.",
+        "start": 585.92,
+        "duration": 4.0
+    },
+    {
+        "text": "So, if you,",
+        "start": 587.92,
+        "duration": 5.76
+    },
+    {
+        "text": "uh, use burrow, you spend, um, a little,",
+        "start": 589.92,
+        "duration": 5.52
+    },
+    {
+        "text": "uh, you spend 2/3 of your movement",
+        "start": 593.68,
+        "duration": 3.52
+    },
+    {
+        "text": "speed, or if you're in because he has",
+        "start": 595.44,
+        "duration": 3.839
+    },
+    {
+        "text": "the bonus wood elf movement speed, a",
+        "start": 597.2,
+        "duration": 4.72
+    },
+    {
+        "text": "little bit less than that. Uh, in order",
+        "start": 599.279,
+        "duration": 6.161
+    },
+    {
+        "text": "to go 40 ft, so it's a a teleport. Uh,",
+        "start": 601.92,
+        "duration": 6.0
+    },
+    {
+        "text": "it takes your action and then enemies",
+        "start": 605.44,
+        "duration": 5.92
+    },
+    {
+        "text": "near the area, not allies, only enemies",
+        "start": 607.92,
+        "duration": 5.52
+    },
+    {
+        "text": "near the area have to make a dexterity",
+        "start": 611.36,
+        "duration": 4.479
+    },
+    {
+        "text": "save or um be knocked prone. You can see",
+        "start": 613.44,
+        "duration": 5.76
+    },
+    {
+        "text": "here if we do burrow, it says nearby",
+        "start": 615.839,
+        "duration": 5.761
+    },
+    {
+        "text": "creatures. Um, but that's actually a",
+        "start": 619.2,
+        "duration": 5.84
+    },
+    {
+        "text": "lie. Our allies don't have to uh be",
+        "start": 621.6,
+        "duration": 5.6
+    },
+    {
+        "text": "don't have to make the saving throw. Uh,",
+        "start": 625.04,
+        "duration": 4.16
+    },
+    {
+        "text": "now being able to knock enemies prone in",
+        "start": 627.2,
+        "duration": 4.16
+    },
+    {
+        "text": "an AoE is always good. But the problem",
+        "start": 629.2,
+        "duration": 4.24
+    },
+    {
+        "text": "with this is that it's a dexterity save",
+        "start": 631.36,
+        "duration": 5.28
+    },
+    {
+        "text": "and most wild shape forms have use the",
+        "start": 633.44,
+        "duration": 5.12
+    },
+    {
+        "text": "druids saving throw in order to",
+        "start": 636.64,
+        "duration": 4.48
+    },
+    {
+        "text": "calculate the save DCs of their",
+        "start": 638.56,
+        "duration": 4.8
+    },
+    {
+        "text": "abilities. But the burrow ability for",
+        "start": 641.12,
+        "duration": 5.36
+    },
+    {
+        "text": "the badger is fixed at DC13 and so",
+        "start": 643.36,
+        "duration": 5.52
+    },
+    {
+        "text": "enemies will almost always pass it. So,",
+        "start": 646.48,
+        "duration": 4.32
+    },
+    {
+        "text": "unfortunately, the Badger is stuck in a",
+        "start": 648.88,
+        "duration": 3.84
+    },
+    {
+        "text": "kind of awkward situation where it has",
+        "start": 650.8,
+        "duration": 4.64
+    },
+    {
+        "text": "the worst defenses, um, not great",
+        "start": 652.72,
+        "duration": 5.52
+    },
+    {
+        "text": "attacks and because of some bugs, it's",
+        "start": 655.44,
+        "duration": 6.639
+    },
+    {
+        "text": "act it's only sort of, uh, attractive",
+        "start": 658.24,
+        "duration": 6.24
+    },
+    {
+        "text": "ability doesn't work the way that it's",
+        "start": 662.079,
+        "duration": 4.401
+    },
+    {
+        "text": "supposed to. And so, usually, I would",
+        "start": 664.48,
+        "duration": 4.24
+    },
+    {
+        "text": "suggest avoiding the badger unless you",
+        "start": 666.48,
+        "duration": 4.56
+    },
+    {
+        "text": "want to use it to draw to deliberately",
+        "start": 668.72,
+        "duration": 4.4
+    },
+    {
+        "text": "draw attacks by tanking your armor class",
+        "start": 671.04,
+        "duration": 4.32
+    },
+    {
+        "text": "as low as possible in order to protect,",
+        "start": 673.12,
+        "duration": 4.48
+    },
+    {
+        "text": "say, a character concentrating on haste.",
+        "start": 675.36,
+        "duration": 3.84
+    },
+    {
+        "text": "Also, one other thing worth mentioning",
+        "start": 677.6,
+        "duration": 4.799
+    },
+    {
+        "text": "is if you're a moon druid, all uh wild",
+        "start": 679.2,
+        "duration": 5.6
+    },
+    {
+        "text": "shape forms come with this uh lunar mend",
+        "start": 682.399,
+        "duration": 4.241
+    },
+    {
+        "text": "ability, which lets you as a bonus",
+        "start": 684.8,
+        "duration": 3.84
+    },
+    {
+        "text": "action spend your hit points uh spend",
+        "start": 686.64,
+        "duration": 6.08
+    },
+    {
+        "text": "your uh spell slots to recover 1d8 HP",
+        "start": 688.64,
+        "duration": 7.28
+    },
+    {
+        "text": "per spell slot level that you spend. Uh",
+        "start": 692.72,
+        "duration": 5.679
+    },
+    {
+        "text": "this can save you in an emergency, but",
+        "start": 695.92,
+        "duration": 4.159
+    },
+    {
+        "text": "your wild shape hit points are mostly",
+        "start": 698.399,
+        "duration": 3.68
+    },
+    {
+        "text": "there to protect your real hit points.",
+        "start": 700.079,
+        "duration": 4.081
+    },
+    {
+        "text": "So, generally, I wouldn't suggest using",
+        "start": 702.079,
+        "duration": 4.481
+    },
+    {
+        "text": "lunar men that often unless you really",
+        "start": 704.16,
+        "duration": 4.48
+    },
+    {
+        "text": "need to stay in wild shape form. Uh,",
+        "start": 706.56,
+        "duration": 3.6
+    },
+    {
+        "text": "just use a bonus action on your next",
+        "start": 708.64,
+        "duration": 4.24
+    },
+    {
+        "text": "turn to re wild shape.",
+        "start": 710.16,
+        "duration": 5.44
+    },
+    {
+        "text": "Next up, the spider form. So, the spider",
+        "start": 712.88,
+        "duration": 6.48
+    },
+    {
+        "text": "form has 20 HP um and 14 armor class,",
+        "start": 715.6,
+        "duration": 6.16
+    },
+    {
+        "text": "which isn't bad for level one. The AC is",
+        "start": 719.36,
+        "duration": 4.24
+    },
+    {
+        "text": "obviously a little bit low, but you're",
+        "start": 721.76,
+        "duration": 4.0
+    },
+    {
+        "text": "basically or level two, excuse me. The",
+        "start": 723.6,
+        "duration": 3.919
+    },
+    {
+        "text": "AC is obviously a little bit low, but",
+        "start": 725.76,
+        "duration": 3.36
+    },
+    {
+        "text": "you're basically a fighter in terms of",
+        "start": 727.519,
+        "duration": 3.44
+    },
+    {
+        "text": "your tankiness at this level, and",
+        "start": 729.12,
+        "duration": 3.76
+    },
+    {
+        "text": "enemies will have kind of a hard time",
+        "start": 730.959,
+        "duration": 4.081
+    },
+    {
+        "text": "getting through your 20 health in order",
+        "start": 732.88,
+        "duration": 4.16
+    },
+    {
+        "text": "to get at your actual hit points. So,",
+        "start": 735.04,
+        "duration": 4.16
+    },
+    {
+        "text": "spider form is pretty survivable. You",
+        "start": 737.04,
+        "duration": 5.12
+    },
+    {
+        "text": "gain 30% of your HP uh every two levels,",
+        "start": 739.2,
+        "duration": 6.24
+    },
+    {
+        "text": "going up to 74 by level 12, which again",
+        "start": 742.16,
+        "duration": 6.88
+    },
+    {
+        "text": "isn't amazing, but uh is still a",
+        "start": 745.44,
+        "duration": 5.839
+    },
+    {
+        "text": "reasonable quantity of hit points that",
+        "start": 749.04,
+        "duration": 4.16
+    },
+    {
+        "text": "enemies have to get through before they",
+        "start": 751.279,
+        "duration": 4.24
+    },
+    {
+        "text": "can actually hurt your character. So the",
+        "start": 753.2,
+        "duration": 5.12
+    },
+    {
+        "text": "the spider um despite having really low",
+        "start": 755.519,
+        "duration": 4.481
+    },
+    {
+        "text": "armor class in the late game cuz that",
+        "start": 758.32,
+        "duration": 5.519
+    },
+    {
+        "text": "doesn't improve uh still is relatively",
+        "start": 760.0,
+        "duration": 6.24
+    },
+    {
+        "text": "uh tanky in terms of how much damage you",
+        "start": 763.839,
+        "duration": 4.081
+    },
+    {
+        "text": "can absorb before you need to use your",
+        "start": 766.24,
+        "duration": 4.64
+    },
+    {
+        "text": "actual health. It also comes with a few",
+        "start": 767.92,
+        "duration": 5.12
+    },
+    {
+        "text": "offensive abilities. You have venomous",
+        "start": 770.88,
+        "duration": 4.56
+    },
+    {
+        "text": "bite which does a d8 plus three piercing",
+        "start": 773.04,
+        "duration": 4.479
+    },
+    {
+        "text": "damage and then it gets an extra d6 at",
+        "start": 775.44,
+        "duration": 3.92
+    },
+    {
+        "text": "level four and that grows at the same",
+        "start": 777.519,
+        "duration": 4.56
+    },
+    {
+        "text": "rate as the badger one. The damage on",
+        "start": 779.36,
+        "duration": 5.44
+    },
+    {
+        "text": "this is quite low. a d8 plus3 uh at",
+        "start": 782.079,
+        "duration": 5.44
+    },
+    {
+        "text": "level two. Uh well, it a d8 plus 3 at",
+        "start": 784.8,
+        "duration": 4.88
+    },
+    {
+        "text": "level two is fine, but it doesn't scale",
+        "start": 787.519,
+        "duration": 4.0
+    },
+    {
+        "text": "that well over the course of the levels.",
+        "start": 789.68,
+        "duration": 4.8
+    },
+    {
+        "text": "Um but it also comes with a DC13",
+        "start": 791.519,
+        "duration": 5.041
+    },
+    {
+        "text": "constitution save or the enemy becomes",
+        "start": 794.48,
+        "duration": 4.159
+    },
+    {
+        "text": "poisoned, getting disadvantage on all of",
+        "start": 796.56,
+        "duration": 5.36
+    },
+    {
+        "text": "their attack roles. Uh the the poison is",
+        "start": 798.639,
+        "duration": 5.041
+    },
+    {
+        "text": "unlikely to happen that frequently.",
+        "start": 801.92,
+        "duration": 3.44
+    },
+    {
+        "text": "Enemies will typically have pretty good",
+        "start": 803.68,
+        "duration": 3.76
+    },
+    {
+        "text": "con saves and so you won't be able to",
+        "start": 805.36,
+        "duration": 4.96
+    },
+    {
+        "text": "apply poison that often. Um but when it",
+        "start": 807.44,
+        "duration": 5.839
+    },
+    {
+        "text": "comes up, it's definitely nice. The real",
+        "start": 810.32,
+        "duration": 5.92
+    },
+    {
+        "text": "bonus for the spider though is that it",
+        "start": 813.279,
+        "duration": 6.8
+    },
+    {
+        "text": "has web. And the spider can, as a bonus",
+        "start": 816.24,
+        "duration": 6.88
+    },
+    {
+        "text": "action, activate web and fire a web with",
+        "start": 820.079,
+        "duration": 6.721
+    },
+    {
+        "text": "a 15 ft radius, so 30 ft across a huge",
+        "start": 823.12,
+        "duration": 5.76
+    },
+    {
+        "text": "difficult terrain surface. This is a",
+        "start": 826.8,
+        "duration": 4.08
+    },
+    {
+        "text": "bonus action that you can activate every",
+        "start": 828.88,
+        "duration": 4.16
+    },
+    {
+        "text": "turn while you're in combat, giving you",
+        "start": 830.88,
+        "duration": 4.48
+    },
+    {
+        "text": "incredible early game crowd control. And",
+        "start": 833.04,
+        "duration": 4.239
+    },
+    {
+        "text": "the webs here remain relevant throughout",
+        "start": 835.36,
+        "duration": 4.719
+    },
+    {
+        "text": "the entire game. The save DC against the",
+        "start": 837.279,
+        "duration": 5.281
+    },
+    {
+        "text": "web is a dexterity save and it uses your",
+        "start": 840.079,
+        "duration": 5.12
+    },
+    {
+        "text": "druid's spell save DC, so enemies will",
+        "start": 842.56,
+        "duration": 5.279
+    },
+    {
+        "text": "fail pretty frequently. And weirdly, the",
+        "start": 845.199,
+        "duration": 5.121
+    },
+    {
+        "text": "spiders web, the the wild shaped spiders",
+        "start": 847.839,
+        "duration": 4.481
+    },
+    {
+        "text": "web is a deck save to break out instead",
+        "start": 850.32,
+        "duration": 3.68
+    },
+    {
+        "text": "of a strength save. Most webs are",
+        "start": 852.32,
+        "duration": 3.44
+    },
+    {
+        "text": "strength saves to break out. This one's",
+        "start": 854.0,
+        "duration": 4.0
+    },
+    {
+        "text": "a dexterity save. And since being webbed",
+        "start": 855.76,
+        "duration": 4.319
+    },
+    {
+        "text": "gives you disadvantage on dexterity",
+        "start": 858.0,
+        "duration": 3.839
+    },
+    {
+        "text": "saves, they will have disadvantage",
+        "start": 860.079,
+        "duration": 3.601
+    },
+    {
+        "text": "trying to break out of this web. So, it",
+        "start": 861.839,
+        "duration": 4.641
+    },
+    {
+        "text": "works um even better than you might",
+        "start": 863.68,
+        "duration": 4.56
+    },
+    {
+        "text": "think it does. uh in order to keep",
+        "start": 866.48,
+        "duration": 4.4
+    },
+    {
+        "text": "enemies trapped. In addition to that",
+        "start": 868.24,
+        "duration": 4.88
+    },
+    {
+        "text": "incredible crowd control, you also have",
+        "start": 870.88,
+        "duration": 5.6
+    },
+    {
+        "text": "the arachnid jump feature uh which is a",
+        "start": 873.12,
+        "duration": 6.719
+    },
+    {
+        "text": "a uh bonus action to jump 37 ft, but it",
+        "start": 876.48,
+        "duration": 4.96
+    },
+    {
+        "text": "doesn't take any of your movement speed",
+        "start": 879.839,
+        "duration": 6.081
+    },
+    {
+        "text": "to activate it. So, the the spider is",
+        "start": 881.44,
+        "duration": 7.12
+    },
+    {
+        "text": "extremely mobile and can actually get up",
+        "start": 885.92,
+        "duration": 4.56
+    },
+    {
+        "text": "on high ground and move around very",
+        "start": 888.56,
+        "duration": 4.32
+    },
+    {
+        "text": "easily while also keeping enemies",
+        "start": 890.48,
+        "duration": 4.24
+    },
+    {
+        "text": "trapped in place. This is what makes it",
+        "start": 892.88,
+        "duration": 3.92
+    },
+    {
+        "text": "the best overall combat form for the",
+        "start": 894.72,
+        "duration": 5.119
+    },
+    {
+        "text": "early game. Uh, when in doubt, go spider",
+        "start": 896.8,
+        "duration": 4.719
+    },
+    {
+        "text": "because you have decent damage, you have",
+        "start": 899.839,
+        "duration": 3.201
+    },
+    {
+        "text": "decent survivability, and you have",
+        "start": 901.519,
+        "duration": 4.56
+    },
+    {
+        "text": "incredible crowd control. Next up, wolf",
+        "start": 903.04,
+        "duration": 5.2
+    },
+    {
+        "text": "form. And this is the damage form for",
+        "start": 906.079,
+        "duration": 5.2
+    },
+    {
+        "text": "early levels for druids. So, wolf form",
+        "start": 908.24,
+        "duration": 5.68
+    },
+    {
+        "text": "has uh 18 hit points, two less than the",
+        "start": 911.279,
+        "duration": 5.521
+    },
+    {
+        "text": "spider, and also 14 armor class. So, the",
+        "start": 913.92,
+        "duration": 5.919
+    },
+    {
+        "text": "the same AC, but slightly fewer HP.",
+        "start": 916.8,
+        "duration": 6.24
+    },
+    {
+        "text": "However, the wolf form uh scales at 40%",
+        "start": 919.839,
+        "duration": 5.841
+    },
+    {
+        "text": "of its base HP every two levels and so",
+        "start": 923.04,
+        "duration": 4.56
+    },
+    {
+        "text": "ends up with higher hit points than the",
+        "start": 925.68,
+        "duration": 6.0
+    },
+    {
+        "text": "spider. Um it by level six you have 35",
+        "start": 927.6,
+        "duration": 6.64
+    },
+    {
+        "text": "to the spider's 34 and by level 12 you",
+        "start": 931.68,
+        "duration": 6.159
+    },
+    {
+        "text": "have 97 to their 74. Um so the wolf will",
+        "start": 934.24,
+        "duration": 5.44
+    },
+    {
+        "text": "scale its hit points a little bit better",
+        "start": 937.839,
+        "duration": 4.8
+    },
+    {
+        "text": "than the spider will. Uh that doesn't",
+        "start": 939.68,
+        "duration": 5.279
+    },
+    {
+        "text": "make a huge difference. Um, mostly the",
+        "start": 942.639,
+        "duration": 3.841
+    },
+    {
+        "text": "low armor class is still going to get",
+        "start": 944.959,
+        "duration": 3.601
+    },
+    {
+        "text": "this character hit pretty frequently,",
+        "start": 946.48,
+        "duration": 4.159
+    },
+    {
+        "text": "but um, having some extra hit points",
+        "start": 948.56,
+        "duration": 4.32
+    },
+    {
+        "text": "does make you a little more survivable.",
+        "start": 950.639,
+        "duration": 4.56
+    },
+    {
+        "text": "Uh, you also do the best damage of the",
+        "start": 952.88,
+        "duration": 4.879
+    },
+    {
+        "text": "early game wild shape forms with 2d6",
+        "start": 955.199,
+        "duration": 5.361
+    },
+    {
+        "text": "plus three on your bite, which is a",
+        "start": 957.759,
+        "duration": 4.801
+    },
+    {
+        "text": "pretty good damaging boost. This is the",
+        "start": 960.56,
+        "duration": 3.68
+    },
+    {
+        "text": "same as a great sword attack at level",
+        "start": 962.56,
+        "duration": 5.519
+    },
+    {
+        "text": "two. Uh, and you also have the exposing",
+        "start": 964.24,
+        "duration": 6.08
+    },
+    {
+        "text": "bite ability, which when you hit an",
+        "start": 968.079,
+        "duration": 5.281
+    },
+    {
+        "text": "enemy and if they get hit, the next",
+        "start": 970.32,
+        "duration": 5.36
+    },
+    {
+        "text": "attack against them from within 5 ft",
+        "start": 973.36,
+        "duration": 4.88
+    },
+    {
+        "text": "will be an automatic critical. Automatic",
+        "start": 975.68,
+        "duration": 4.399
+    },
+    {
+        "text": "criticals are incredibly powerful and",
+        "start": 978.24,
+        "duration": 3.279
+    },
+    {
+        "text": "remain relevant throughout the game.",
+        "start": 980.079,
+        "duration": 3.521
+    },
+    {
+        "text": "Exposing bite is very good, even in the",
+        "start": 981.519,
+        "duration": 3.921
+    },
+    {
+        "text": "late game. All it requires is that you",
+        "start": 983.6,
+        "duration": 3.28
+    },
+    {
+        "text": "hit your attack. You don't have to",
+        "start": 985.44,
+        "duration": 3.519
+    },
+    {
+        "text": "actually um they don't have to make a",
+        "start": 986.88,
+        "duration": 3.92
+    },
+    {
+        "text": "saving throw or anything, and you just",
+        "start": 988.959,
+        "duration": 3.761
+    },
+    {
+        "text": "get a guaranteed critical from your next",
+        "start": 990.8,
+        "duration": 3.599
+    },
+    {
+        "text": "character. You're usually gonna want to",
+        "start": 992.72,
+        "duration": 3.119
+    },
+    {
+        "text": "use this with a different character",
+        "start": 994.399,
+        "duration": 5.041
+    },
+    {
+        "text": "because a a critical bite on uh you know",
+        "start": 995.839,
+        "duration": 5.201
+    },
+    {
+        "text": "using exposing bite and then getting a",
+        "start": 999.44,
+        "duration": 3.92
+    },
+    {
+        "text": "critical bite with the wolf isn't that",
+        "start": 1001.04,
+        "duration": 4.799
+    },
+    {
+        "text": "exciting. But if you have a rogue there",
+        "start": 1003.36,
+        "duration": 4.479
+    },
+    {
+        "text": "or a paladin there, you can guarantee a",
+        "start": 1005.839,
+        "duration": 4.721
+    },
+    {
+        "text": "gigantic damage boost. And so this uh",
+        "start": 1007.839,
+        "duration": 4.8
+    },
+    {
+        "text": "exposing bite ability works extremely",
+        "start": 1010.56,
+        "duration": 4.8
+    },
+    {
+        "text": "well in high melee damage parties.",
+        "start": 1012.639,
+        "duration": 4.961
+    },
+    {
+        "text": "Inciting howl is the wolf's other",
+        "start": 1015.36,
+        "duration": 5.599
+    },
+    {
+        "text": "ability. It lets you as an action give",
+        "start": 1017.6,
+        "duration": 5.52
+    },
+    {
+        "text": "uh allies 10 feet of extra movement",
+        "start": 1020.959,
+        "duration": 4.08
+    },
+    {
+        "text": "during their next turn. Uh activating",
+        "start": 1023.12,
+        "duration": 4.079
+    },
+    {
+        "text": "this before combat starts is pretty",
+        "start": 1025.039,
+        "duration": 4.721
+    },
+    {
+        "text": "good. Um it just gives you a little bit",
+        "start": 1027.199,
+        "duration": 4.48
+    },
+    {
+        "text": "of extra mobility to get on top of",
+        "start": 1029.76,
+        "duration": 4.079
+    },
+    {
+        "text": "enemies. It recharges every battle. So",
+        "start": 1031.679,
+        "duration": 5.36
+    },
+    {
+        "text": "this is just a a turn one movement boost",
+        "start": 1033.839,
+        "duration": 5.521
+    },
+    {
+        "text": "um available if you're in wolf form.",
+        "start": 1037.039,
+        "duration": 4.081
+    },
+    {
+        "text": "Overall, the wolf is pretty good if you",
+        "start": 1039.36,
+        "duration": 3.679
+    },
+    {
+        "text": "just want high damage. So if you're",
+        "start": 1041.12,
+        "duration": 3.839
+    },
+    {
+        "text": "looking for crowd control, go spider. If",
+        "start": 1043.039,
+        "duration": 3.681
+    },
+    {
+        "text": "your party has a lot of that but needs",
+        "start": 1044.959,
+        "duration": 4.321
+    },
+    {
+        "text": "more damage output, then wolf is pretty",
+        "start": 1046.72,
+        "duration": 4.24
+    },
+    {
+        "text": "good. And against encounters where",
+        "start": 1049.28,
+        "duration": 4.08
+    },
+    {
+        "text": "damage is premium, like you need to kill",
+        "start": 1050.96,
+        "duration": 4.88
+    },
+    {
+        "text": "an enemy mage really quickly, then wolf",
+        "start": 1053.36,
+        "duration": 4.72
+    },
+    {
+        "text": "form can be better.",
+        "start": 1055.84,
+        "duration": 5.68
+    },
+    {
+        "text": "Cat form. Cat form has two HP and uh I",
+        "start": 1058.08,
+        "duration": 5.92
+    },
+    {
+        "text": "think 10 armor class. I've actually 12",
+        "start": 1061.52,
+        "duration": 4.0
+    },
+    {
+        "text": "armor class. I've actually really never",
+        "start": 1064.0,
+        "duration": 3.76
+    },
+    {
+        "text": "looked at the AC on the cat form cuz you",
+        "start": 1065.52,
+        "duration": 4.0
+    },
+    {
+        "text": "don't use it in combat. It doesn't scale",
+        "start": 1067.76,
+        "duration": 3.76
+    },
+    {
+        "text": "its hit points. It's an outof combat",
+        "start": 1069.52,
+        "duration": 4.32
+    },
+    {
+        "text": "exploration form and it comes with one",
+        "start": 1071.52,
+        "duration": 5.12
+    },
+    {
+        "text": "ability, meow, which lets you distract",
+        "start": 1073.84,
+        "duration": 4.8
+    },
+    {
+        "text": "uh nearby creatures. So when you meow,",
+        "start": 1076.64,
+        "duration": 4.96
+    },
+    {
+        "text": "things will come running over. Um this",
+        "start": 1078.64,
+        "duration": 5.279
+    },
+    {
+        "text": "is basically the same as if you had cast",
+        "start": 1081.6,
+        "duration": 4.319
+    },
+    {
+        "text": "minor illusion or started playing an",
+        "start": 1083.919,
+        "duration": 4.481
+    },
+    {
+        "text": "instrument. So you can gather characters",
+        "start": 1085.919,
+        "duration": 5.201
+    },
+    {
+        "text": "and then steal stuff or whatever. Uh,",
+        "start": 1088.4,
+        "duration": 4.56
+    },
+    {
+        "text": "also because it's a small creature, you",
+        "start": 1091.12,
+        "duration": 3.36
+    },
+    {
+        "text": "can go through pipes, but of course this",
+        "start": 1092.96,
+        "duration": 4.16
+    },
+    {
+        "text": "is for out of combat exploration and um",
+        "start": 1094.48,
+        "duration": 4.48
+    },
+    {
+        "text": "you can go through pipes and fissures.",
+        "start": 1097.12,
+        "duration": 4.16
+    },
+    {
+        "text": "Uh, mostly for the distracting ability,",
+        "start": 1098.96,
+        "duration": 4.48
+    },
+    {
+        "text": "you'd rather use minor illusion, but cat",
+        "start": 1101.28,
+        "duration": 4.88
+    },
+    {
+        "text": "form is just fun to run around in. If",
+        "start": 1103.44,
+        "duration": 4.72
+    },
+    {
+        "text": "you're a moon druid, you also have",
+        "start": 1106.16,
+        "duration": 4.96
+    },
+    {
+        "text": "access to polar bear form. The polar",
+        "start": 1108.16,
+        "duration": 6.639
+    },
+    {
+        "text": "bear uh has 30 hit points and 12 armor",
+        "start": 1111.12,
+        "duration": 6.16
+    },
+    {
+        "text": "class, which does at early levels make",
+        "start": 1114.799,
+        "duration": 5.921
+    },
+    {
+        "text": "it tankier than the spider or wolf form",
+        "start": 1117.28,
+        "duration": 5.6
+    },
+    {
+        "text": "because the the hit points matter more",
+        "start": 1120.72,
+        "duration": 4.72
+    },
+    {
+        "text": "than the AC. At later levels, uh, just",
+        "start": 1122.88,
+        "duration": 4.64
+    },
+    {
+        "text": "getting hit 10% more of the time is",
+        "start": 1125.44,
+        "duration": 5.44
+    },
+    {
+        "text": "going to make the the bear often die",
+        "start": 1127.52,
+        "duration": 5.76
+    },
+    {
+        "text": "faster, even though it has more HP. But",
+        "start": 1130.88,
+        "duration": 5.76
+    },
+    {
+        "text": "it does scale up to having 111 HP at",
+        "start": 1133.28,
+        "duration": 7.12
+    },
+    {
+        "text": "maximum level at level 12, which is uh",
+        "start": 1136.64,
+        "duration": 5.68
+    },
+    {
+        "text": "almost always going to be a full turn of",
+        "start": 1140.4,
+        "duration": 3.76
+    },
+    {
+        "text": "attacks, even from powerful enemies,",
+        "start": 1142.32,
+        "duration": 3.76
+    },
+    {
+        "text": "just to get through your bare form's hit",
+        "start": 1144.16,
+        "duration": 4.16
+    },
+    {
+        "text": "points. And so this can save you a lot",
+        "start": 1146.08,
+        "duration": 4.16
+    },
+    {
+        "text": "of health. And also because it has",
+        "start": 1148.32,
+        "duration": 5.04
+    },
+    {
+        "text": "really low HP or low AC, uh it can",
+        "start": 1150.24,
+        "duration": 6.48
+    },
+    {
+        "text": "distract enemies into attacking the bear",
+        "start": 1153.36,
+        "duration": 5.679
+    },
+    {
+        "text": "form instead of your more vulnerable",
+        "start": 1156.72,
+        "duration": 4.48
+    },
+    {
+        "text": "allies. So this is sort of the premium",
+        "start": 1159.039,
+        "duration": 3.921
+    },
+    {
+        "text": "distraction form. It's better than the",
+        "start": 1161.2,
+        "duration": 4.96
+    },
+    {
+        "text": "badger for this uh for this usage",
+        "start": 1162.96,
+        "duration": 5.68
+    },
+    {
+        "text": "because it",
+        "start": 1166.16,
+        "duration": 5.84
+    },
+    {
+        "text": "um be because enemies will because of",
+        "start": 1168.64,
+        "duration": 5.52
+    },
+    {
+        "text": "its high HP, enemies will take a lot",
+        "start": 1172.0,
+        "duration": 3.919
+    },
+    {
+        "text": "longer to kill it. I stumbled a little",
+        "start": 1174.16,
+        "duration": 4.399
+    },
+    {
+        "text": "over that one. Offensively, it's okay.",
+        "start": 1175.919,
+        "duration": 5.361
+    },
+    {
+        "text": "It does 2d4 plus4 slashing damage. So, a",
+        "start": 1178.559,
+        "duration": 4.24
+    },
+    {
+        "text": "little better than the badger, a little",
+        "start": 1181.28,
+        "duration": 5.759
+    },
+    {
+        "text": "worse than the wolf. Uh, and um that",
+        "start": 1182.799,
+        "duration": 6.88
+    },
+    {
+        "text": "again goes up uh a little bit over the",
+        "start": 1187.039,
+        "duration": 5.041
+    },
+    {
+        "text": "levels, but it scales a little less uh",
+        "start": 1189.679,
+        "duration": 6.24
+    },
+    {
+        "text": "each level than the others. The other uh",
+        "start": 1192.08,
+        "duration": 6.24
+    },
+    {
+        "text": "wild shaped forms get an extra d6 at",
+        "start": 1195.919,
+        "duration": 4.0
+    },
+    {
+        "text": "level four. The bear form only gets an",
+        "start": 1198.32,
+        "duration": 4.16
+    },
+    {
+        "text": "extra d4 at level four.",
+        "start": 1199.919,
+        "duration": 4.561
+    },
+    {
+        "text": "It also comes with the goating roar",
+        "start": 1202.48,
+        "duration": 4.64
+    },
+    {
+        "text": "ability, which you might remember from",
+        "start": 1204.48,
+        "duration": 5.84
+    },
+    {
+        "text": "the bear companion uh from the Beast",
+        "start": 1207.12,
+        "duration": 6.32
+    },
+    {
+        "text": "Master Ranger video. Going roar is a",
+        "start": 1210.32,
+        "duration": 5.2
+    },
+    {
+        "text": "weird ability that doesn't work at all",
+        "start": 1213.44,
+        "duration": 4.8
+    },
+    {
+        "text": "the way that it says it does. So, uh",
+        "start": 1215.52,
+        "duration": 4.48
+    },
+    {
+        "text": "what it says it does is it's going to",
+        "start": 1218.24,
+        "duration": 4.08
+    },
+    {
+        "text": "force enemies to attack this character.",
+        "start": 1220.0,
+        "duration": 4.799
+    },
+    {
+        "text": "Uh what it does uh what it doesn't do at",
+        "start": 1222.32,
+        "duration": 5.2
+    },
+    {
+        "text": "all is that enemy AI when hit by goating",
+        "start": 1224.799,
+        "duration": 4.24
+    },
+    {
+        "text": "roar doesn't change at all. They're",
+        "start": 1227.52,
+        "duration": 3.44
+    },
+    {
+        "text": "going to mostly act normally. But what",
+        "start": 1229.039,
+        "duration": 4.081
+    },
+    {
+        "text": "it does do is give them disadvantage on",
+        "start": 1230.96,
+        "duration": 4.56
+    },
+    {
+        "text": "all of their attack roles, including",
+        "start": 1233.12,
+        "duration": 5.84
+    },
+    {
+        "text": "against the bear uh uh the the",
+        "start": 1235.52,
+        "duration": 8.08
+    },
+    {
+        "text": "originator. And so having a large AoE uh",
+        "start": 1238.96,
+        "duration": 6.24
+    },
+    {
+        "text": "disadvantage on all of their attack",
+        "start": 1243.6,
+        "duration": 2.959
+    },
+    {
+        "text": "roles, they have to make a wisdom save",
+        "start": 1245.2,
+        "duration": 3.839
+    },
+    {
+        "text": "against the druid save DC. Um otherwise,",
+        "start": 1246.559,
+        "duration": 4.081
+    },
+    {
+        "text": "they're affected by this. And there's no",
+        "start": 1249.039,
+        "duration": 3.201
+    },
+    {
+        "text": "save on subsequent turns, even though",
+        "start": 1250.64,
+        "duration": 3.36
+    },
+    {
+        "text": "the tool tip says there is going to be",
+        "start": 1252.24,
+        "duration": 5.6
+    },
+    {
+        "text": "one. Um so a a wisdom save or AoE",
+        "start": 1254.0,
+        "duration": 6.32
+    },
+    {
+        "text": "disadvantage is pretty powerful. And",
+        "start": 1257.84,
+        "duration": 4.4
+    },
+    {
+        "text": "since this is a form that you're going",
+        "start": 1260.32,
+        "duration": 4.08
+    },
+    {
+        "text": "to go into if you're trying to prevent",
+        "start": 1262.24,
+        "duration": 4.08
+    },
+    {
+        "text": "enemies from damaging your squishier",
+        "start": 1264.4,
+        "duration": 4.639
+    },
+    {
+        "text": "allies, um this is a really nice ability",
+        "start": 1266.32,
+        "duration": 5.28
+    },
+    {
+        "text": "to have. So if you need a tank, bear",
+        "start": 1269.039,
+        "duration": 4.561
+    },
+    {
+        "text": "form is great. If you need damage, wolf",
+        "start": 1271.6,
+        "duration": 3.52
+    },
+    {
+        "text": "form is great. And if you need crowd",
+        "start": 1273.6,
+        "duration": 4.64
+    },
+    {
+        "text": "control, spider form is perfect. Next",
+        "start": 1275.12,
+        "duration": 6.08
+    },
+    {
+        "text": "up, Hson's cave bear wild shape, which",
+        "start": 1278.24,
+        "duration": 5.36
+    },
+    {
+        "text": "is a unique wild shape only available to",
+        "start": 1281.2,
+        "duration": 4.719
+    },
+    {
+        "text": "Hson. and aside from the [clears throat]",
+        "start": 1283.6,
+        "duration": 4.72
+    },
+    {
+        "text": "role- playinging implications is also",
+        "start": 1285.919,
+        "duration": 5.12
+    },
+    {
+        "text": "extremely uh interesting mechanically.",
+        "start": 1288.32,
+        "duration": 5.44
+    },
+    {
+        "text": "The cave bear wild shape has 36 HP",
+        "start": 1291.039,
+        "duration": 4.721
+    },
+    {
+        "text": "compared to the bear's normal 30, but",
+        "start": 1293.76,
+        "duration": 3.919
+    },
+    {
+        "text": "only 10 armor class compared to the",
+        "start": 1295.76,
+        "duration": 4.159
+    },
+    {
+        "text": "bear's 12. That means you'll probably",
+        "start": 1297.679,
+        "duration": 4.801
+    },
+    {
+        "text": "die at about the same rate at low levels",
+        "start": 1299.919,
+        "duration": 4.721
+    },
+    {
+        "text": "and even a little bit faster at high",
+        "start": 1302.48,
+        "duration": 5.12
+    },
+    {
+        "text": "levels. The cave bear uh just has six",
+        "start": 1304.64,
+        "duration": 4.88
+    },
+    {
+        "text": "more HP than the normal bear at every",
+        "start": 1307.6,
+        "duration": 4.24
+    },
+    {
+        "text": "level. It does. It has the bear's same",
+        "start": 1309.52,
+        "duration": 4.48
+    },
+    {
+        "text": "HP per level scaling. So, you'll end up",
+        "start": 1311.84,
+        "duration": 4.64
+    },
+    {
+        "text": "with 117 at level 12 compared to the",
+        "start": 1314.0,
+        "duration": 5.76
+    },
+    {
+        "text": "normal bear's uh 111. The main",
+        "start": 1316.48,
+        "duration": 5.6
+    },
+    {
+        "text": "difference though is the attacks. You",
+        "start": 1319.76,
+        "duration": 6.08
+    },
+    {
+        "text": "have uh 2d6 plus 5 on your claw attack,",
+        "start": 1322.08,
+        "duration": 6.32
+    },
+    {
+        "text": "which is really high at early levels.",
+        "start": 1325.84,
+        "duration": 5.36
+    },
+    {
+        "text": "Um, and this also again increases as you",
+        "start": 1328.4,
+        "duration": 6.96
+    },
+    {
+        "text": "uh level up. Um, gaining an extra d4,",
+        "start": 1331.2,
+        "duration": 6.64
+    },
+    {
+        "text": "which then becomes a d6 and then a d8.",
+        "start": 1335.36,
+        "duration": 5.12
+    },
+    {
+        "text": "Uh by the time you uh get Hson in your",
+        "start": 1337.84,
+        "duration": 5.12
+    },
+    {
+        "text": "party, you probably have the extra D4 on",
+        "start": 1340.48,
+        "duration": 3.84
+    },
+    {
+        "text": "this because you'll usually get him",
+        "start": 1342.96,
+        "duration": 2.959
+    },
+    {
+        "text": "around level four, unless you're really",
+        "start": 1344.32,
+        "duration": 5.04
+    },
+    {
+        "text": "rushing. Um and then also once per",
+        "start": 1345.919,
+        "duration": 5.601
+    },
+    {
+        "text": "battle, you get to use multiattack,",
+        "start": 1349.36,
+        "duration": 6.88
+    },
+    {
+        "text": "which does uh 2d6 plus 5 and a d8 plus 5",
+        "start": 1351.52,
+        "duration": 7.279
+    },
+    {
+        "text": "uh damage against the enemy. And so this",
+        "start": 1356.24,
+        "duration": 4.559
+    },
+    {
+        "text": "is a really high damage attack. the",
+        "start": 1358.799,
+        "duration": 4.401
+    },
+    {
+        "text": "multi-attack. Uh obviously cooling uh",
+        "start": 1360.799,
+        "duration": 4.401
+    },
+    {
+        "text": "having a once per battle cooldown is",
+        "start": 1363.2,
+        "duration": 3.599
+    },
+    {
+        "text": "pretty bad, but the fact that it adds",
+        "start": 1365.2,
+        "duration": 3.76
+    },
+    {
+        "text": "your strength twice. And remember with",
+        "start": 1366.799,
+        "duration": 3.841
+    },
+    {
+        "text": "Tavern Brawler, this plus five is going",
+        "start": 1368.96,
+        "duration": 5.44
+    },
+    {
+        "text": "to be doubled to a plus 10. Um the the",
+        "start": 1370.64,
+        "duration": 5.44
+    },
+    {
+        "text": "fact that it adds your strength twice",
+        "start": 1374.4,
+        "duration": 4.24
+    },
+    {
+        "text": "over makes this an incredibly high burst",
+        "start": 1376.08,
+        "duration": 4.479
+    },
+    {
+        "text": "damage attack. Uh when you've given",
+        "start": 1378.64,
+        "duration": 4.96
+    },
+    {
+        "text": "Tavern Roller to Halson and so",
+        "start": 1380.559,
+        "duration": 4.801
+    },
+    {
+        "text": "multiattack can end up being",
+        "start": 1383.6,
+        "duration": 3.76
+    },
+    {
+        "text": "ridiculously high damage. The chance to",
+        "start": 1385.36,
+        "duration": 5.28
+    },
+    {
+        "text": "hit is okay as well. um especially again",
+        "start": 1387.36,
+        "duration": 5.199
+    },
+    {
+        "text": "with tavern brawler. And so this ends up",
+        "start": 1390.64,
+        "duration": 7.12
+    },
+    {
+        "text": "being a very offensively oriented",
+        "start": 1392.559,
+        "duration": 7.761
+    },
+    {
+        "text": "um uh wild shape form in terms of its",
+        "start": 1397.76,
+        "duration": 4.56
+    },
+    {
+        "text": "damage output that can also soak a ton",
+        "start": 1400.32,
+        "duration": 4.479
+    },
+    {
+        "text": "of damage and enemies will tend to",
+        "start": 1402.32,
+        "duration": 4.8
+    },
+    {
+        "text": "target you because of your extremely low",
+        "start": 1404.799,
+        "duration": 4.721
+    },
+    {
+        "text": "armor class. So, while it's not as good",
+        "start": 1407.12,
+        "duration": 4.08
+    },
+    {
+        "text": "at tanking because it doesn't come with",
+        "start": 1409.52,
+        "duration": 4.88
+    },
+    {
+        "text": "goad, it's um I think overall if you're",
+        "start": 1411.2,
+        "duration": 5.359
+    },
+    {
+        "text": "using housein, you're usually going to",
+        "start": 1414.4,
+        "duration": 4.32
+    },
+    {
+        "text": "want to use the cave bear over the polar",
+        "start": 1416.559,
+        "duration": 5.6
+    },
+    {
+        "text": "bear in general because um the extra",
+        "start": 1418.72,
+        "duration": 5.199
+    },
+    {
+        "text": "damage is quite valuable. And this is a",
+        "start": 1422.159,
+        "duration": 3.441
+    },
+    {
+        "text": "a wild shape form that actually does",
+        "start": 1423.919,
+        "duration": 4.321
+    },
+    {
+        "text": "really good damage. Another weird thing",
+        "start": 1425.6,
+        "duration": 5.199
+    },
+    {
+        "text": "about the cave bear form for Hson is",
+        "start": 1428.24,
+        "duration": 4.72
+    },
+    {
+        "text": "that he always knows it cuz it's it's",
+        "start": 1430.799,
+        "duration": 4.641
+    },
+    {
+        "text": "unique to him. He can only use it if he",
+        "start": 1432.96,
+        "duration": 4.56
+    },
+    {
+        "text": "has a wild shape charge. So, you can't",
+        "start": 1435.44,
+        "duration": 4.96
+    },
+    {
+        "text": "use it if you are a character that",
+        "start": 1437.52,
+        "duration": 4.56
+    },
+    {
+        "text": "doesn't get wild shape charges. Though,",
+        "start": 1440.4,
+        "duration": 3.68
+    },
+    {
+        "text": "there is an item that can give you a",
+        "start": 1442.08,
+        "duration": 3.76
+    },
+    {
+        "text": "wild shape charge even if you aren't a",
+        "start": 1444.08,
+        "duration": 3.599
+    },
+    {
+        "text": "druid. And then he can still turn into a",
+        "start": 1445.84,
+        "duration": 5.04
+    },
+    {
+        "text": "cave bear. Uh, and it's always a bonus",
+        "start": 1447.679,
+        "duration": 5.201
+    },
+    {
+        "text": "action whether or not he's a moon druid.",
+        "start": 1450.88,
+        "duration": 3.919
+    },
+    {
+        "text": "So, if he's a circle of the land druid,",
+        "start": 1452.88,
+        "duration": 4.08
+    },
+    {
+        "text": "for example, he can wild shape either",
+        "start": 1454.799,
+        "duration": 4.48
+    },
+    {
+        "text": "with an action into the other forms or",
+        "start": 1456.96,
+        "duration": 4.719
+    },
+    {
+        "text": "with a bonus action into cave bear. the",
+        "start": 1459.279,
+        "duration": 4.4
+    },
+    {
+        "text": "only way in the game to get wild shape",
+        "start": 1461.679,
+        "duration": 4.401
+    },
+    {
+        "text": "on either action type. Uh, which is",
+        "start": 1463.679,
+        "duration": 3.761
+    },
+    {
+        "text": "actually quite useful because it lets",
+        "start": 1466.08,
+        "duration": 2.88
+    },
+    {
+        "text": "you chain your actions a little bit",
+        "start": 1467.44,
+        "duration": 3.52
+    },
+    {
+        "text": "better. So, some unique interactions for",
+        "start": 1468.96,
+        "duration": 4.48
+    },
+    {
+        "text": "house specifically and a very solid wild",
+        "start": 1470.96,
+        "duration": 5.92
+    },
+    {
+        "text": "shape form, the deep ro. So, at level",
+        "start": 1473.44,
+        "duration": 5.76
+    },
+    {
+        "text": "four, you get access to a new wild shape",
+        "start": 1476.88,
+        "duration": 4.88
+    },
+    {
+        "text": "form, the deep ro, uh, which is this",
+        "start": 1479.2,
+        "duration": 6.479
+    },
+    {
+        "text": "guy. And this has 23 hit points and 10",
+        "start": 1481.76,
+        "duration": 7.12
+    },
+    {
+        "text": "armor class which is uh significantly",
+        "start": 1485.679,
+        "duration": 5.041
+    },
+    {
+        "text": "lower armor class of course than most",
+        "start": 1488.88,
+        "duration": 5.039
+    },
+    {
+        "text": "other wild shaped forms and uh lower hit",
+        "start": 1490.72,
+        "duration": 5.52
+    },
+    {
+        "text": "points at this level than the spider or",
+        "start": 1493.919,
+        "duration": 4.401
+    },
+    {
+        "text": "wolf and significantly lower hit points",
+        "start": 1496.24,
+        "duration": 4.16
+    },
+    {
+        "text": "than the bear. So the deeper ro for",
+        "start": 1498.32,
+        "duration": 3.599
+    },
+    {
+        "text": "level four is definitely on the",
+        "start": 1500.4,
+        "duration": 3.2
+    },
+    {
+        "text": "squishier side. On the other hand,",
+        "start": 1501.919,
+        "duration": 4.961
+    },
+    {
+        "text": "offensively it's extremely strong. Um,",
+        "start": 1503.6,
+        "duration": 7.76
+    },
+    {
+        "text": "its gore attack does 3d4 plus 1d6 plus",
+        "start": 1506.88,
+        "duration": 6.399
+    },
+    {
+        "text": "your strength modifier in damage and",
+        "start": 1511.36,
+        "duration": 4.16
+    },
+    {
+        "text": "then will also do additional strength",
+        "start": 1513.279,
+        "duration": 6.081
+    },
+    {
+        "text": "modifier if you have a tavern brawler.",
+        "start": 1515.52,
+        "duration": 5.759
+    },
+    {
+        "text": "And so you can see that even with a",
+        "start": 1519.36,
+        "duration": 3.76
+    },
+    {
+        "text": "level four character attacking a level",
+        "start": 1521.279,
+        "duration": 3.681
+    },
+    {
+        "text": "12 character, we've chunked them pretty",
+        "start": 1523.12,
+        "duration": 5.439
+    },
+    {
+        "text": "well. Uh, you also get the charge",
+        "start": 1524.96,
+        "duration": 5.44
+    },
+    {
+        "text": "ability which does a smaller amount of",
+        "start": 1528.559,
+        "duration": 5.12
+    },
+    {
+        "text": "damage but takes your action um and uses",
+        "start": 1530.4,
+        "duration": 6.639
+    },
+    {
+        "text": "your movement speed and knocks uh all",
+        "start": 1533.679,
+        "duration": 7.201
+    },
+    {
+        "text": "enemies in the area uh or attacks all",
+        "start": 1537.039,
+        "duration": 5.841
+    },
+    {
+        "text": "enemies along the way and they make a",
+        "start": 1540.88,
+        "duration": 4.56
+    },
+    {
+        "text": "strength save against your druid's spell",
+        "start": 1542.88,
+        "duration": 5.039
+    },
+    {
+        "text": "DC or get knocked prone. Uh,",
+        "start": 1545.44,
+        "duration": 4.96
+    },
+    {
+        "text": "importantly, this is a two turnprone",
+        "start": 1547.919,
+        "duration": 4.961
+    },
+    {
+        "text": "duration, and that matters because if",
+        "start": 1550.4,
+        "duration": 3.84
+    },
+    {
+        "text": "you have a way to prevent them from",
+        "start": 1552.88,
+        "duration": 3.52
+    },
+    {
+        "text": "moving, say, for example, if they're in",
+        "start": 1554.24,
+        "duration": 3.52
+    },
+    {
+        "text": "an entangle spell that you're",
+        "start": 1556.4,
+        "duration": 3.68
+    },
+    {
+        "text": "concentrating on, uh, then they won't be",
+        "start": 1557.76,
+        "duration": 4.48
+    },
+    {
+        "text": "able to act at all because characters",
+        "start": 1560.08,
+        "duration": 3.76
+    },
+    {
+        "text": "that are prone for multiple turns and",
+        "start": 1562.24,
+        "duration": 3.679
+    },
+    {
+        "text": "have no movement speed don't get up and",
+        "start": 1563.84,
+        "duration": 4.719
+    },
+    {
+        "text": "just effectively stay stunned. Uh, and",
+        "start": 1565.919,
+        "duration": 5.201
+    },
+    {
+        "text": "because it uses your move speed, um,",
+        "start": 1568.559,
+        "duration": 4.72
+    },
+    {
+        "text": "when you are hasted or if you have long",
+        "start": 1571.12,
+        "duration": 3.6
+    },
+    {
+        "text": "strider on you, which of course you're a",
+        "start": 1573.279,
+        "duration": 3.601
+    },
+    {
+        "text": "druid, so you should, uh, you're going",
+        "start": 1574.72,
+        "duration": 3.839
+    },
+    {
+        "text": "to be able to actually hit a lot of",
+        "start": 1576.88,
+        "duration": 3.279
+    },
+    {
+        "text": "enemies with this. So, this is a pretty",
+        "start": 1578.559,
+        "duration": 4.881
+    },
+    {
+        "text": "powerful uh, tool in a party that is",
+        "start": 1580.159,
+        "duration": 6.4
+    },
+    {
+        "text": "capable of um, handing out movement",
+        "start": 1583.44,
+        "duration": 5.44
+    },
+    {
+        "text": "penalties. So if you're working with say",
+        "start": 1586.559,
+        "duration": 4.961
+    },
+    {
+        "text": "a tiger barbarian that's going to be",
+        "start": 1588.88,
+        "duration": 4.56
+    },
+    {
+        "text": "knocking, you know, knocking enemies",
+        "start": 1591.52,
+        "duration": 3.92
+    },
+    {
+        "text": "prone and then immobilizing them with",
+        "start": 1593.44,
+        "duration": 3.839
+    },
+    {
+        "text": "the bleed combination from tiger",
+        "start": 1595.44,
+        "duration": 4.64
+    },
+    {
+        "text": "barbarian. Uh then the deep ro can be",
+        "start": 1597.279,
+        "duration": 5.361
+    },
+    {
+        "text": "extremely powerful in that sort of",
+        "start": 1600.08,
+        "duration": 4.719
+    },
+    {
+        "text": "setup. The downside is it's squishy, but",
+        "start": 1602.64,
+        "duration": 4.399
+    },
+    {
+        "text": "offensively it's quite good. If you're",
+        "start": 1604.799,
+        "duration": 4.24
+    },
+    {
+        "text": "not a moon druid, this is your best",
+        "start": 1607.039,
+        "duration": 4.801
+    },
+    {
+        "text": "damage option at this level. Uh whereas",
+        "start": 1609.039,
+        "duration": 5.361
+    },
+    {
+        "text": "uh or rather if you're not, excuse me,",
+        "start": 1611.84,
+        "duration": 4.4
+    },
+    {
+        "text": "this is your best damage option at this",
+        "start": 1614.4,
+        "duration": 5.279
+    },
+    {
+        "text": "level. and that can be um pretty",
+        "start": 1616.24,
+        "duration": 6.24
+    },
+    {
+        "text": "powerful. I still generally prefer the",
+        "start": 1619.679,
+        "duration": 5.441
+    },
+    {
+        "text": "wolf as a damage oriented character or",
+        "start": 1622.48,
+        "duration": 4.24
+    },
+    {
+        "text": "damage oriented wild shape because",
+        "start": 1625.12,
+        "duration": 3.36
+    },
+    {
+        "text": "setting up criticals for your allies is",
+        "start": 1626.72,
+        "duration": 3.439
+    },
+    {
+        "text": "going to be so much damage. But the",
+        "start": 1628.48,
+        "duration": 3.84
+    },
+    {
+        "text": "roth's ability to knock enemies prone,",
+        "start": 1630.159,
+        "duration": 5.601
+    },
+    {
+        "text": "do AOE damage, and have an extremely",
+        "start": 1632.32,
+        "duration": 5.52
+    },
+    {
+        "text": "strong single target attack makes still",
+        "start": 1635.76,
+        "duration": 4.159
+    },
+    {
+        "text": "makes it quite solid for killing enemies",
+        "start": 1637.84,
+        "duration": 5.28
+    },
+    {
+        "text": "quickly. As a moon druid, you also get",
+        "start": 1639.919,
+        "duration": 5.521
+    },
+    {
+        "text": "dire raven form at level four, which",
+        "start": 1643.12,
+        "duration": 4.64
+    },
+    {
+        "text": "lets you transform into a flying uh",
+        "start": 1645.44,
+        "duration": 6.16
+    },
+    {
+        "text": "raven with 13 HP and important and 16",
+        "start": 1647.76,
+        "duration": 5.919
+    },
+    {
+        "text": "armor class, which is uh better armor",
+        "start": 1651.6,
+        "duration": 3.84
+    },
+    {
+        "text": "class than other wild shape forms, but",
+        "start": 1653.679,
+        "duration": 4.721
+    },
+    {
+        "text": "still not great um at this level. And 13",
+        "start": 1655.44,
+        "duration": 5.04
+    },
+    {
+        "text": "HP is obviously terrible. Importantly,",
+        "start": 1658.4,
+        "duration": 4.159
+    },
+    {
+        "text": "also the health of the Dire Raven does",
+        "start": 1660.48,
+        "duration": 4.079
+    },
+    {
+        "text": "not increase as you level up, so it's",
+        "start": 1662.559,
+        "duration": 4.48
+    },
+    {
+        "text": "always going to be 13 HP. It comes with",
+        "start": 1664.559,
+        "duration": 4.561
+    },
+    {
+        "text": "two attacks. the beak attack which does",
+        "start": 1667.039,
+        "duration": 4.721
+    },
+    {
+        "text": "okay damage and the rend vision attack",
+        "start": 1669.12,
+        "duration": 4.64
+    },
+    {
+        "text": "which can do a little less damage and",
+        "start": 1671.76,
+        "duration": 3.919
+    },
+    {
+        "text": "have a chance to blind enemies but",
+        "start": 1673.76,
+        "duration": 4.399
+    },
+    {
+        "text": "because this uh wild shape form has such",
+        "start": 1675.679,
+        "duration": 5.521
+    },
+    {
+        "text": "low hit points and doesn't scale its HP",
+        "start": 1678.159,
+        "duration": 5.201
+    },
+    {
+        "text": "this is like the cat mostly for out of",
+        "start": 1681.2,
+        "duration": 4.479
+    },
+    {
+        "text": "combat exploration uh just when you need",
+        "start": 1683.36,
+        "duration": 4.559
+    },
+    {
+        "text": "to be able to fly the ability to spend a",
+        "start": 1685.679,
+        "duration": 4.24
+    },
+    {
+        "text": "wild shape form to do that is very",
+        "start": 1687.919,
+        "duration": 4.801
+    },
+    {
+        "text": "helpful starting at level six you get",
+        "start": 1689.919,
+        "duration": 5.041
+    },
+    {
+        "text": "two new wild shaped forms the first of",
+        "start": 1692.72,
+        "duration": 5.199
+    },
+    {
+        "text": "which is the panther form panther has 45",
+        "start": 1694.96,
+        "duration": 5.599
+    },
+    {
+        "text": "HP at base and 14 armor class. And this",
+        "start": 1697.919,
+        "duration": 5.601
+    },
+    {
+        "text": "goes up to 68 HP at level 12. So, it's",
+        "start": 1700.559,
+        "duration": 5.6
+    },
+    {
+        "text": "definitely on the squishier side. Um, it",
+        "start": 1703.52,
+        "duration": 5.36
+    },
+    {
+        "text": "will not be a sustained brawler uh the",
+        "start": 1706.159,
+        "duration": 5.041
+    },
+    {
+        "text": "way that many of the higher health wild",
+        "start": 1708.88,
+        "duration": 5.2
+    },
+    {
+        "text": "shape forms will, but it's survivable",
+        "start": 1711.2,
+        "duration": 5.12
+    },
+    {
+        "text": "enough at level six that you will be",
+        "start": 1714.08,
+        "duration": 4.24
+    },
+    {
+        "text": "able to take an attack before losing",
+        "start": 1716.32,
+        "duration": 3.68
+    },
+    {
+        "text": "wild shape form. And it comes with a few",
+        "start": 1718.32,
+        "duration": 4.719
+    },
+    {
+        "text": "ways to get out of bad situations. It",
+        "start": 1720.0,
+        "duration": 5.2
+    },
+    {
+        "text": "also has really really high damage,",
+        "start": 1723.039,
+        "duration": 3.441
+    },
+    {
+        "text": "which is the main thing that you want",
+        "start": 1725.2,
+        "duration": 5.68
+    },
+    {
+        "text": "panther form for. 3d6 uh plus a d4 plus",
+        "start": 1726.48,
+        "duration": 6.16
+    },
+    {
+        "text": "uh your strength modifier piercing",
+        "start": 1730.88,
+        "duration": 4.24
+    },
+    {
+        "text": "damage just on the basic attack. And at",
+        "start": 1732.64,
+        "duration": 5.2
+    },
+    {
+        "text": "this point, you're um druid level six,",
+        "start": 1735.12,
+        "duration": 4.799
+    },
+    {
+        "text": "so you will have the extra wild shape",
+        "start": 1737.84,
+        "duration": 3.76
+    },
+    {
+        "text": "attack. So you'll be able to attack uh",
+        "start": 1739.919,
+        "duration": 5.76
+    },
+    {
+        "text": "twice in a turn. Um and so you can use",
+        "start": 1741.6,
+        "duration": 8.0
+    },
+    {
+        "text": "the panther form attacks multiple times.",
+        "start": 1745.679,
+        "duration": 8.161
+    },
+    {
+        "text": "Um, you also have jugular strike, which",
+        "start": 1749.6,
+        "duration": 6.319
+    },
+    {
+        "text": "allows you to do even more damage",
+        "start": 1753.84,
+        "duration": 4.48
+    },
+    {
+        "text": "against prone enemies. And this also is",
+        "start": 1755.919,
+        "duration": 4.161
+    },
+    {
+        "text": "just an attack. So against a prone",
+        "start": 1758.32,
+        "duration": 4.239
+    },
+    {
+        "text": "creature, you're doing 3d6 uh plus",
+        "start": 1760.08,
+        "duration": 5.04
+    },
+    {
+        "text": "double your strength modifier plus a d4.",
+        "start": 1762.559,
+        "duration": 4.881
+    },
+    {
+        "text": "And so you get a lot of additional",
+        "start": 1765.12,
+        "duration": 4.559
+    },
+    {
+        "text": "damage um against the enemy, especially",
+        "start": 1767.44,
+        "duration": 4.4
+    },
+    {
+        "text": "when you have tavern roller and that",
+        "start": 1769.679,
+        "duration": 5.12
+    },
+    {
+        "text": "strength damage is being uh multiplied.",
+        "start": 1771.84,
+        "duration": 5.04
+    },
+    {
+        "text": "Uh to knock enemies prone, you have",
+        "start": 1774.799,
+        "duration": 5.041
+    },
+    {
+        "text": "pounce, which is a once per turn ability",
+        "start": 1776.88,
+        "duration": 6.24
+    },
+    {
+        "text": "that lets you jump uh hit an enemy for",
+        "start": 1779.84,
+        "duration": 5.839
+    },
+    {
+        "text": "uh pretty similar damage to your bite",
+        "start": 1783.12,
+        "duration": 5.6
+    },
+    {
+        "text": "attack. The 2d8 plus 1d6 plus your",
+        "start": 1785.679,
+        "duration": 5.041
+    },
+    {
+        "text": "strength is pretty similar to your basic",
+        "start": 1788.72,
+        "duration": 4.079
+    },
+    {
+        "text": "attack here. Um but then they also have",
+        "start": 1790.72,
+        "duration": 3.439
+    },
+    {
+        "text": "to make a strength save against your",
+        "start": 1792.799,
+        "duration": 3.521
+    },
+    {
+        "text": "druid save DC or they get knocked",
+        "start": 1794.159,
+        "duration": 4.88
+    },
+    {
+        "text": "thrown. Now pounce is a full action. It",
+        "start": 1796.32,
+        "duration": 4.8
+    },
+    {
+        "text": "doesn't use an attack action. So, you",
+        "start": 1799.039,
+        "duration": 4.481
+    },
+    {
+        "text": "can't do this and then jugular strike in",
+        "start": 1801.12,
+        "duration": 4.4
+    },
+    {
+        "text": "the same turn. So, usually you're going",
+        "start": 1803.52,
+        "duration": 3.519
+    },
+    {
+        "text": "to need something else to knock the",
+        "start": 1805.52,
+        "duration": 3.2
+    },
+    {
+        "text": "enemy prone to make use of jugular",
+        "start": 1807.039,
+        "duration": 3.841
+    },
+    {
+        "text": "strike unless you have uh unless you're",
+        "start": 1808.72,
+        "duration": 5.28
+    },
+    {
+        "text": "hasted on this uh creature. But if you",
+        "start": 1810.88,
+        "duration": 5.44
+    },
+    {
+        "text": "again have a lot of synergy with prone,",
+        "start": 1814.0,
+        "duration": 4.159
+    },
+    {
+        "text": "the ability to make multiple jugular",
+        "start": 1816.32,
+        "duration": 3.92
+    },
+    {
+        "text": "strikes in a turn can be a ridiculous",
+        "start": 1818.159,
+        "duration": 4.081
+    },
+    {
+        "text": "amount of damage. And knocking enemies",
+        "start": 1820.24,
+        "duration": 5.2
+    },
+    {
+        "text": "prone with pounce is also quite good.",
+        "start": 1822.24,
+        "duration": 5.919
+    },
+    {
+        "text": "Finally, you have the prowl ability,",
+        "start": 1825.44,
+        "duration": 4.719
+    },
+    {
+        "text": "which uh it doesn't say this in the",
+        "start": 1828.159,
+        "duration": 3.681
+    },
+    {
+        "text": "description, but it's once per short",
+        "start": 1830.159,
+        "duration": 3.921
+    },
+    {
+        "text": "rest. You can activate this to turn",
+        "start": 1831.84,
+        "duration": 3.92
+    },
+    {
+        "text": "invisible.",
+        "start": 1834.08,
+        "duration": 5.28
+    },
+    {
+        "text": "Um, and then you will be able to deal an",
+        "start": 1835.76,
+        "duration": 5.68
+    },
+    {
+        "text": "extra D8 damage on your first attack.",
+        "start": 1839.36,
+        "duration": 3.76
+    },
+    {
+        "text": "So, obviously, this lets you avoid",
+        "start": 1841.44,
+        "duration": 3.44
+    },
+    {
+        "text": "taking damage, get into position, and",
+        "start": 1843.12,
+        "duration": 3.84
+    },
+    {
+        "text": "doing more damage. Now, unfortunately,",
+        "start": 1844.88,
+        "duration": 4.32
+    },
+    {
+        "text": "this ability is heavily bugged, and",
+        "start": 1846.96,
+        "duration": 4.88
+    },
+    {
+        "text": "starting at druid level 8, it basically",
+        "start": 1849.2,
+        "duration": 5.199
+    },
+    {
+        "text": "stops working. If you activate prowl uh",
+        "start": 1851.84,
+        "duration": 4.48
+    },
+    {
+        "text": "on a level eight character and then",
+        "start": 1854.399,
+        "duration": 4.481
+    },
+    {
+        "text": "move, it just breaks the prowl. Um, so",
+        "start": 1856.32,
+        "duration": 4.16
+    },
+    {
+        "text": "for some reason there's a there are",
+        "start": 1858.88,
+        "duration": 3.919
+    },
+    {
+        "text": "severe bugs with this ability. Uh, and",
+        "start": 1860.48,
+        "duration": 5.199
+    },
+    {
+        "text": "you also lose the extra d8 of damage. It",
+        "start": 1862.799,
+        "duration": 4.48
+    },
+    {
+        "text": "doesn't do the bonus damage starting at",
+        "start": 1865.679,
+        "duration": 3.6
+    },
+    {
+        "text": "level eight. So at level six and seven,",
+        "start": 1867.279,
+        "duration": 3.681
+    },
+    {
+        "text": "this is a pretty nice ability, but",
+        "start": 1869.279,
+        "duration": 3.76
+    },
+    {
+        "text": "thanks to some bugs, it ceases working",
+        "start": 1870.96,
+        "duration": 4.8
+    },
+    {
+        "text": "pretty quickly. The second wild shape",
+        "start": 1873.039,
+        "duration": 5.281
+    },
+    {
+        "text": "form that you get at level six is owl",
+        "start": 1875.76,
+        "duration": 4.56
+    },
+    {
+        "text": "bear form. And this is in many ways the",
+        "start": 1878.32,
+        "duration": 4.64
+    },
+    {
+        "text": "king of the wild shapes. Owl bear form",
+        "start": 1880.32,
+        "duration": 6.32
+    },
+    {
+        "text": "has 65 base hit points. Um, and then",
+        "start": 1882.96,
+        "duration": 7.92
+    },
+    {
+        "text": "those will increase up to uh 112 at",
+        "start": 1886.64,
+        "duration": 6.8
+    },
+    {
+        "text": "level 12. So, it has a huge amount of uh",
+        "start": 1890.88,
+        "duration": 6.0
+    },
+    {
+        "text": "HP. And it also has 15 armor class. So,",
+        "start": 1893.44,
+        "duration": 6.0
+    },
+    {
+        "text": "its armor class is uh better than most",
+        "start": 1896.88,
+        "duration": 4.639
+    },
+    {
+        "text": "other wild shape forms even though this",
+        "start": 1899.44,
+        "duration": 4.56
+    },
+    {
+        "text": "is quite low. Um, and you can increase",
+        "start": 1901.519,
+        "duration": 5.04
+    },
+    {
+        "text": "it a little bit further with some uh",
+        "start": 1904.0,
+        "duration": 4.799
+    },
+    {
+        "text": "spell effects and stuff like that. But",
+        "start": 1906.559,
+        "duration": 3.921
+    },
+    {
+        "text": "even though this is quite low, the owl",
+        "start": 1908.799,
+        "duration": 5.36
+    },
+    {
+        "text": "bear is pretty tanky uh with 15 AC and",
+        "start": 1910.48,
+        "duration": 6.48
+    },
+    {
+        "text": "65 hit points at this level. And 112 hit",
+        "start": 1914.159,
+        "duration": 5.041
+    },
+    {
+        "text": "points is obviously a pretty significant",
+        "start": 1916.96,
+        "duration": 4.559
+    },
+    {
+        "text": "amount. The real uh thing that the Owl",
+        "start": 1919.2,
+        "duration": 5.12
+    },
+    {
+        "text": "Bear has going for it though is that it",
+        "start": 1921.519,
+        "duration": 5.441
+    },
+    {
+        "text": "is really strong offensively and",
+        "start": 1924.32,
+        "duration": 4.719
+    },
+    {
+        "text": "extremely mobile and extremely easy to",
+        "start": 1926.96,
+        "duration": 5.36
+    },
+    {
+        "text": "use. Um and it also",
+        "start": 1929.039,
+        "duration": 5.281
+    },
+    {
+        "text": "uh has some other defensive abilities.",
+        "start": 1932.32,
+        "duration": 4.32
+    },
+    {
+        "text": "The first and uh one that you kind of",
+        "start": 1934.32,
+        "duration": 5.52
+    },
+    {
+        "text": "have to look at is enrage here because",
+        "start": 1936.64,
+        "duration": 5.519
+    },
+    {
+        "text": "the owl bear's base damage is going to",
+        "start": 1939.84,
+        "duration": 4.88
+    },
+    {
+        "text": "be much higher in actual combat because",
+        "start": 1942.159,
+        "duration": 3.921
+    },
+    {
+        "text": "you're almost always going to be",
+        "start": 1944.72,
+        "duration": 3.679
+    },
+    {
+        "text": "enraged. Uh, you can use this as a bonus",
+        "start": 1946.08,
+        "duration": 4.88
+    },
+    {
+        "text": "action and the owl bear comes with rage",
+        "start": 1948.399,
+        "duration": 4.961
+    },
+    {
+        "text": "charges just like a barbarian and gain",
+        "start": 1950.96,
+        "duration": 5.28
+    },
+    {
+        "text": "strength, gain extra uh temporary hit",
+        "start": 1953.36,
+        "duration": 6.24
+    },
+    {
+        "text": "points and uh make every nearby enemy",
+        "start": 1956.24,
+        "duration": 5.6
+    },
+    {
+        "text": "make a constitution save against your",
+        "start": 1959.6,
+        "duration": 4.799
+    },
+    {
+        "text": "druids spell DC or they become fearful",
+        "start": 1961.84,
+        "duration": 4.719
+    },
+    {
+        "text": "and run away. Now, this works on every",
+        "start": 1964.399,
+        "duration": 4.321
+    },
+    {
+        "text": "nearby creature. It's not just enemies.",
+        "start": 1966.559,
+        "duration": 4.401
+    },
+    {
+        "text": "So, you can accidentally uh fear your",
+        "start": 1968.72,
+        "duration": 4.4
+    },
+    {
+        "text": "allies. It's also funny that it's a",
+        "start": 1970.96,
+        "duration": 4.24
+    },
+    {
+        "text": "constitution save to become to avoid",
+        "start": 1973.12,
+        "duration": 4.24
+    },
+    {
+        "text": "becoming fearful. most mental conditions",
+        "start": 1975.2,
+        "duration": 4.16
+    },
+    {
+        "text": "or a wisdom save, but this one you",
+        "start": 1977.36,
+        "duration": 4.319
+    },
+    {
+        "text": "resist with your muscles. Um, and",
+        "start": 1979.36,
+        "duration": 4.0
+    },
+    {
+        "text": "because it increases your strength, you",
+        "start": 1981.679,
+        "duration": 4.801
+    },
+    {
+        "text": "get double that bonus to the uh you get",
+        "start": 1983.36,
+        "duration": 5.439
+    },
+    {
+        "text": "double the extra strength when you have",
+        "start": 1986.48,
+        "duration": 4.88
+    },
+    {
+        "text": "Tavern Brawler. So, Owl Bear Rage uh",
+        "start": 1988.799,
+        "duration": 4.561
+    },
+    {
+        "text": "works extremely well with Tavern",
+        "start": 1991.36,
+        "duration": 3.76
+    },
+    {
+        "text": "Brawler, and it already has really high",
+        "start": 1993.36,
+        "duration": 3.199
+    },
+    {
+        "text": "strength. So, Tavern Brawler is",
+        "start": 1995.12,
+        "duration": 5.36
+    },
+    {
+        "text": "incredible um for this wild shape form.",
+        "start": 1996.559,
+        "duration": 5.6
+    },
+    {
+        "text": "That means that you're usually going to",
+        "start": 2000.48,
+        "duration": 5.439
+    },
+    {
+        "text": "be doing 2d8 plus a d4 plus 12 base",
+        "start": 2002.159,
+        "duration": 5.681
+    },
+    {
+        "text": "damage with your claw attacks, which is",
+        "start": 2005.919,
+        "duration": 4.48
+    },
+    {
+        "text": "a huge amount of damage. Uh, at level",
+        "start": 2007.84,
+        "duration": 5.04
+    },
+    {
+        "text": "six, um, the damage goes up just a",
+        "start": 2010.399,
+        "duration": 4.721
+    },
+    {
+        "text": "little bit every level. Uh, but you get",
+        "start": 2012.88,
+        "duration": 5.679
+    },
+    {
+        "text": "an extra d4 or an extra uh the the d4",
+        "start": 2015.12,
+        "duration": 5.679
+    },
+    {
+        "text": "becomes a d6 starting at level eight and",
+        "start": 2018.559,
+        "duration": 4.401
+    },
+    {
+        "text": "then uh becomes a d8 starting at level",
+        "start": 2020.799,
+        "duration": 4.48
+    },
+    {
+        "text": "12. So, it's a reasonable amount of",
+        "start": 2022.96,
+        "duration": 5.439
+    },
+    {
+        "text": "extra damage, but not or a little bit of",
+        "start": 2025.279,
+        "duration": 5.841
+    },
+    {
+        "text": "extra damage, but nothing major. Um, but",
+        "start": 2028.399,
+        "duration": 4.481
+    },
+    {
+        "text": "the base damage on this is already",
+        "start": 2031.12,
+        "duration": 4.72
+    },
+    {
+        "text": "really good. You also have crushing",
+        "start": 2032.88,
+        "duration": 5.84
+    },
+    {
+        "text": "flight, uh, which lets you jump, uh,",
+        "start": 2035.84,
+        "duration": 4.64
+    },
+    {
+        "text": "using your bonus action. So, you can do",
+        "start": 2038.72,
+        "duration": 4.079
+    },
+    {
+        "text": "this and then still make an attack. Uh,",
+        "start": 2040.48,
+        "duration": 5.039
+    },
+    {
+        "text": "and you can jump a massive distance with",
+        "start": 2042.799,
+        "duration": 4.161
+    },
+    {
+        "text": "crushing flight because of the owl",
+        "start": 2045.519,
+        "duration": 3.441
+    },
+    {
+        "text": "bear's really high strength, even higher",
+        "start": 2046.96,
+        "duration": 4.639
+    },
+    {
+        "text": "when you're raging. uh and then deal uh",
+        "start": 2048.96,
+        "duration": 5.36
+    },
+    {
+        "text": "2d8 plus 1d4 budgeoning damage again",
+        "start": 2051.599,
+        "duration": 6.24
+    },
+    {
+        "text": "going up to a d6 and then a d8 um to",
+        "start": 2054.32,
+        "duration": 5.279
+    },
+    {
+        "text": "nearby creatures and they have to make a",
+        "start": 2057.839,
+        "duration": 4.161
+    },
+    {
+        "text": "strength save or they get knocked prone.",
+        "start": 2059.599,
+        "duration": 4.32
+    },
+    {
+        "text": "Prone as a bonus action of course is",
+        "start": 2062.0,
+        "duration": 3.44
+    },
+    {
+        "text": "great. It means you'll often be making",
+        "start": 2063.919,
+        "duration": 3.68
+    },
+    {
+        "text": "your attacks with advantage cuz you'll",
+        "start": 2065.44,
+        "duration": 4.0
+    },
+    {
+        "text": "knock the enemies prone and of course it",
+        "start": 2067.599,
+        "duration": 4.8
+    },
+    {
+        "text": "has all of the the normal uh beneficial",
+        "start": 2069.44,
+        "duration": 5.52
+    },
+    {
+        "text": "effects that knocking things prone has.",
+        "start": 2072.399,
+        "duration": 6.0
+    },
+    {
+        "text": "Also um this can be used to deal falling",
+        "start": 2074.96,
+        "duration": 5.52
+    },
+    {
+        "text": "damage. Now, I've I've shown a few",
+        "start": 2078.399,
+        "duration": 3.921
+    },
+    {
+        "text": "builds that work with crushing flight,",
+        "start": 2080.48,
+        "duration": 3.599
+    },
+    {
+        "text": "of course, and many people have seen the",
+        "start": 2082.32,
+        "duration": 4.48
+    },
+    {
+        "text": "the owl bear off the top rope uh videos",
+        "start": 2084.079,
+        "duration": 4.32
+    },
+    {
+        "text": "and stuff like that, but when you",
+        "start": 2086.8,
+        "duration": 3.76
+    },
+    {
+        "text": "crushing flight down onto an enemy from",
+        "start": 2088.399,
+        "duration": 4.96
+    },
+    {
+        "text": "high up, your owl bear's uh massive",
+        "start": 2090.56,
+        "duration": 5.519
+    },
+    {
+        "text": "weight, cuz owl bears are very heavy, uh",
+        "start": 2093.359,
+        "duration": 5.281
+    },
+    {
+        "text": "will allow you to deal extra damage. You",
+        "start": 2096.079,
+        "duration": 4.081
+    },
+    {
+        "text": "won't take damage cuz you're jumping,",
+        "start": 2098.64,
+        "duration": 5.28
+    },
+    {
+        "text": "but owl bears weigh over 1,000 lbs um by",
+        "start": 2100.16,
+        "duration": 6.24
+    },
+    {
+        "text": "default. And then if you're using uh",
+        "start": 2103.92,
+        "duration": 5.679
+    },
+    {
+        "text": "enlarge effects or colossus elixirs,",
+        "start": 2106.4,
+        "duration": 5.679
+    },
+    {
+        "text": "that multiplies your weight by 10. And",
+        "start": 2109.599,
+        "duration": 4.561
+    },
+    {
+        "text": "so you're going to end up weighing uh",
+        "start": 2112.079,
+        "duration": 4.561
+    },
+    {
+        "text": "100,000 lbs and being able to one-shot",
+        "start": 2114.16,
+        "duration": 4.64
+    },
+    {
+        "text": "everything. Even if you're not using the",
+        "start": 2116.64,
+        "duration": 4.479
+    },
+    {
+        "text": "crushing flight one-shot tools, owl bear",
+        "start": 2118.8,
+        "duration": 5.039
+    },
+    {
+        "text": "form is still incredible. You also have",
+        "start": 2121.119,
+        "duration": 5.041
+    },
+    {
+        "text": "uh a rupture, which is AoE damage and a",
+        "start": 2123.839,
+        "duration": 4.24
+    },
+    {
+        "text": "knock back. Again, this can hit your",
+        "start": 2126.16,
+        "duration": 3.28
+    },
+    {
+        "text": "allies, so you do have to be a little",
+        "start": 2128.079,
+        "duration": 3.361
+    },
+    {
+        "text": "careful with the owl bear positioning,",
+        "start": 2129.44,
+        "duration": 4.96
+    },
+    {
+        "text": "but uh AoE knockback is pretty helpful.",
+        "start": 2131.44,
+        "duration": 5.12
+    },
+    {
+        "text": "Strength saver be knocked back 10 ft,",
+        "start": 2134.4,
+        "duration": 3.92
+    },
+    {
+        "text": "and that can throw a bunch of enemies",
+        "start": 2136.56,
+        "duration": 3.92
+    },
+    {
+        "text": "off the cliff and off cliffs or",
+        "start": 2138.32,
+        "duration": 3.36
+    },
+    {
+        "text": "something. And remember, you can",
+        "start": 2140.48,
+        "duration": 2.879
+    },
+    {
+        "text": "crushing flight to put yourself in a",
+        "start": 2141.68,
+        "duration": 4.32
+    },
+    {
+        "text": "good position in order to do it. One",
+        "start": 2143.359,
+        "duration": 4.321
+    },
+    {
+        "text": "other important thing with owl bears",
+        "start": 2146.0,
+        "duration": 3.52
+    },
+    {
+        "text": "though is that if they're following your",
+        "start": 2147.68,
+        "duration": 4.0
+    },
+    {
+        "text": "character and and you jump, so if",
+        "start": 2149.52,
+        "duration": 4.559
+    },
+    {
+        "text": "they're just on autofollow here, uh, and",
+        "start": 2151.68,
+        "duration": 4.64
+    },
+    {
+        "text": "they jump, uh, they will use crushing",
+        "start": 2154.079,
+        "duration": 4.801
+    },
+    {
+        "text": "flight by default as their jump. So, be",
+        "start": 2156.32,
+        "duration": 4.799
+    },
+    {
+        "text": "really careful with an owl bear in a",
+        "start": 2158.88,
+        "duration": 4.32
+    },
+    {
+        "text": "city because it's going to accidentally",
+        "start": 2161.119,
+        "duration": 4.801
+    },
+    {
+        "text": "squash NPCs as it walks past and that",
+        "start": 2163.2,
+        "duration": 5.12
+    },
+    {
+        "text": "can get you in trouble with the guards.",
+        "start": 2165.92,
+        "duration": 4.96
+    },
+    {
+        "text": "At level eight, if you're a moon druid,",
+        "start": 2168.32,
+        "duration": 4.799
+    },
+    {
+        "text": "you also get access to the saber-tooth",
+        "start": 2170.88,
+        "duration": 4.719
+    },
+    {
+        "text": "tiger form, which is very similar to the",
+        "start": 2173.119,
+        "duration": 4.96
+    },
+    {
+        "text": "panther form, uh, but generally",
+        "start": 2175.599,
+        "duration": 4.641
+    },
+    {
+        "text": "speaking, better overall. You don't get",
+        "start": 2178.079,
+        "duration": 4.161
+    },
+    {
+        "text": "the ability to pounce and and knock",
+        "start": 2180.24,
+        "duration": 3.92
+    },
+    {
+        "text": "enemies prone, but you get all of the",
+        "start": 2182.24,
+        "duration": 3.599
+    },
+    {
+        "text": "other abilities of the panther, the",
+        "start": 2184.16,
+        "duration": 4.4
+    },
+    {
+        "text": "bite, um, which does really really good",
+        "start": 2185.839,
+        "duration": 4.881
+    },
+    {
+        "text": "damage, the jugular strike, so against",
+        "start": 2188.56,
+        "duration": 4.0
+    },
+    {
+        "text": "enemies that are prone, you have",
+        "start": 2190.72,
+        "duration": 4.08
+    },
+    {
+        "text": "incredible damage, uh, against, uh,",
+        "start": 2192.56,
+        "duration": 4.64
+    },
+    {
+        "text": "prone enemies. Um, and you also",
+        "start": 2194.8,
+        "duration": 5.279
+    },
+    {
+        "text": "passively regenerate 2d8 hit points",
+        "start": 2197.2,
+        "duration": 5.12
+    },
+    {
+        "text": "every turn. So that means that even",
+        "start": 2200.079,
+        "duration": 6.0
+    },
+    {
+        "text": "though you only have 62 um only have 62",
+        "start": 2202.32,
+        "duration": 6.0
+    },
+    {
+        "text": "HP and only 13 armor class, which is",
+        "start": 2206.079,
+        "duration": 5.76
+    },
+    {
+        "text": "definitely on the low side, uh the the",
+        "start": 2208.32,
+        "duration": 5.68
+    },
+    {
+        "text": "saber-tooth tiger can usually survive a",
+        "start": 2211.839,
+        "duration": 3.841
+    },
+    {
+        "text": "couple hits before you lose your hit",
+        "start": 2214.0,
+        "duration": 4.079
+    },
+    {
+        "text": "points and have to rewild shape. Um,",
+        "start": 2215.68,
+        "duration": 5.12
+    },
+    {
+        "text": "which makes it a fairly powerful option.",
+        "start": 2218.079,
+        "duration": 4.961
+    },
+    {
+        "text": "The uh other ability that it has is",
+        "start": 2220.8,
+        "duration": 5.2
+    },
+    {
+        "text": "shred armor, which uh lets you hit an",
+        "start": 2223.04,
+        "duration": 4.88
+    },
+    {
+        "text": "enemy and if you hit it reduces their",
+        "start": 2226.0,
+        "duration": 4.0
+    },
+    {
+        "text": "armor class by two for two turns. The",
+        "start": 2227.92,
+        "duration": 3.6
+    },
+    {
+        "text": "tool tip here says one, but it's",
+        "start": 2230.0,
+        "duration": 4.8
+    },
+    {
+        "text": "actually two. Um this is not usually a",
+        "start": 2231.52,
+        "duration": 5.2
+    },
+    {
+        "text": "particularly powerful ability and not",
+        "start": 2234.8,
+        "duration": 3.92
+    },
+    {
+        "text": "not usually worth using your attack on.",
+        "start": 2236.72,
+        "duration": 3.76
+    },
+    {
+        "text": "I'd rather just do more damage most of",
+        "start": 2238.72,
+        "duration": 4.24
+    },
+    {
+        "text": "the time. Um but if there's an enemy",
+        "start": 2240.48,
+        "duration": 4.32
+    },
+    {
+        "text": "that you know a fight is going to go",
+        "start": 2242.96,
+        "duration": 3.6
+    },
+    {
+        "text": "long against and you want to debuff",
+        "start": 2244.8,
+        "duration": 3.6
+    },
+    {
+        "text": "them, this is an okay way to do it.",
+        "start": 2246.56,
+        "duration": 3.519
+    },
+    {
+        "text": "Mostly this is just an upgrade that",
+        "start": 2248.4,
+        "duration": 4.4
+    },
+    {
+        "text": "keeps panther form relevant um at level",
+        "start": 2250.079,
+        "duration": 4.801
+    },
+    {
+        "text": "eight, especially because the stalk",
+        "start": 2252.8,
+        "duration": 4.64
+    },
+    {
+        "text": "ability is bugged uh and so you can't",
+        "start": 2254.88,
+        "duration": 4.64
+    },
+    {
+        "text": "turn invisible. Uh this just increases",
+        "start": 2257.44,
+        "duration": 4.24
+    },
+    {
+        "text": "the damage and survivability of panther",
+        "start": 2259.52,
+        "duration": 5.36
+    },
+    {
+        "text": "form. At druid level 10, you get access",
+        "start": 2261.68,
+        "duration": 5.76
+    },
+    {
+        "text": "to the Dilophosaurus form, which looks",
+        "start": 2264.88,
+        "duration": 5.199
+    },
+    {
+        "text": "awesome. I love the model for this guy.",
+        "start": 2267.44,
+        "duration": 4.96
+    },
+    {
+        "text": "um and is a really interesting capstone",
+        "start": 2270.079,
+        "duration": 3.921
+    },
+    {
+        "text": "form because you'd expect something that",
+        "start": 2272.4,
+        "duration": 3.6
+    },
+    {
+        "text": "would just be a combat powerhouse, but",
+        "start": 2274.0,
+        "duration": 4.4
+    },
+    {
+        "text": "this is kind of a cross between a really",
+        "start": 2276.0,
+        "duration": 4.96
+    },
+    {
+        "text": "high damage uh wild shape form and a",
+        "start": 2278.4,
+        "duration": 4.88
+    },
+    {
+        "text": "utility form. Um but not very tanky,",
+        "start": 2280.96,
+        "duration": 4.32
+    },
+    {
+        "text": "which means that it's more of a",
+        "start": 2283.28,
+        "duration": 4.559
+    },
+    {
+        "text": "sidegrade to the owl bear that gives you",
+        "start": 2285.28,
+        "duration": 4.96
+    },
+    {
+        "text": "some alternative options, especially in",
+        "start": 2287.839,
+        "duration": 4.641
+    },
+    {
+        "text": "longer fights than just a script strict",
+        "start": 2290.24,
+        "duration": 4.56
+    },
+    {
+        "text": "upgrade, which I actually think is more",
+        "start": 2292.48,
+        "duration": 4.8
+    },
+    {
+        "text": "fun cuz you get more decisions to make.",
+        "start": 2294.8,
+        "duration": 4.96
+    },
+    {
+        "text": "The Dilophosaurus has 74 hit points",
+        "start": 2297.28,
+        "duration": 6.48
+    },
+    {
+        "text": "going up to 96 at level 12. Um, and 14",
+        "start": 2299.76,
+        "duration": 5.599
+    },
+    {
+        "text": "armor class, which makes it relatively",
+        "start": 2303.76,
+        "duration": 3.68
+    },
+    {
+        "text": "squishy. You're definitely going to die",
+        "start": 2305.359,
+        "duration": 5.281
+    },
+    {
+        "text": "pretty quickly on the",
+        "start": 2307.44,
+        "duration": 5.28
+    },
+    {
+        "text": "Dilophosaurus if enemies target you, and",
+        "start": 2310.64,
+        "duration": 3.76
+    },
+    {
+        "text": "they'll target you pretty frequently.",
+        "start": 2312.72,
+        "duration": 2.879
+    },
+    {
+        "text": "But while they're doing that, you're",
+        "start": 2314.4,
+        "duration": 3.12
+    },
+    {
+        "text": "going to be dishing out great damage.",
+        "start": 2315.599,
+        "duration": 6.321
+    },
+    {
+        "text": "The bite attack uh is 1d10 plus 2d8, 1d8",
+        "start": 2317.52,
+        "duration": 6.16
+    },
+    {
+        "text": "of which is acid, plus your strength,",
+        "start": 2321.92,
+        "duration": 4.4
+    },
+    {
+        "text": "which again benefiting from tavern. Uh,",
+        "start": 2323.68,
+        "duration": 5.04
+    },
+    {
+        "text": "and because you have improved wild",
+        "start": 2326.32,
+        "duration": 4.4
+    },
+    {
+        "text": "strike, uh, at level 10, you're going to",
+        "start": 2328.72,
+        "duration": 4.24
+    },
+    {
+        "text": "be able to do this three times in a",
+        "start": 2330.72,
+        "duration": 4.56
+    },
+    {
+        "text": "turn, which is a pretty incredible",
+        "start": 2332.96,
+        "duration": 5.04
+    },
+    {
+        "text": "amount of damage. Um, getting to hit",
+        "start": 2335.28,
+        "duration": 4.64
+    },
+    {
+        "text": "with all of these attacks is like 60",
+        "start": 2338.0,
+        "duration": 5.04
+    },
+    {
+        "text": "damage, which is not bad at all. You",
+        "start": 2339.92,
+        "duration": 5.28
+    },
+    {
+        "text": "also have pounce. Uh, this is a bonus",
+        "start": 2343.04,
+        "duration": 5.6
+    },
+    {
+        "text": "action which is 2d6 plus 1d8 plus",
+        "start": 2345.2,
+        "duration": 6.8
+    },
+    {
+        "text": "strength damage knocking an enemy prone",
+        "start": 2348.64,
+        "duration": 5.439
+    },
+    {
+        "text": "um with a strength save against your",
+        "start": 2352.0,
+        "duration": 4.64
+    },
+    {
+        "text": "druid's spell DC. So, they're very",
+        "start": 2354.079,
+        "duration": 4.241
+    },
+    {
+        "text": "likely to get knocked prone here. And",
+        "start": 2356.64,
+        "duration": 2.959
+    },
+    {
+        "text": "that can mean that you're making all of",
+        "start": 2358.32,
+        "duration": 2.96
+    },
+    {
+        "text": "your bite attacks with advantage,",
+        "start": 2359.599,
+        "duration": 4.24
+    },
+    {
+        "text": "possibly critically hitting as well. In",
+        "start": 2361.28,
+        "duration": 4.559
+    },
+    {
+        "text": "addition to this really powerful offense",
+        "start": 2363.839,
+        "duration": 4.0
+    },
+    {
+        "text": "where you're making, you know, four good",
+        "start": 2365.839,
+        "duration": 4.881
+    },
+    {
+        "text": "attacks in a turn, you also have a a",
+        "start": 2367.839,
+        "duration": 6.161
+    },
+    {
+        "text": "weird ranged action, Corrosive Spit.",
+        "start": 2370.72,
+        "duration": 6.24
+    },
+    {
+        "text": "Corrosive Spit is a 60 ft range",
+        "start": 2374.0,
+        "duration": 6.079
+    },
+    {
+        "text": "constitution save uh for 2d8 uh or",
+        "start": 2376.96,
+        "duration": 5.68
+    },
+    {
+        "text": "sorry, for 3d8 acid damage, it goes up",
+        "start": 2380.079,
+        "duration": 6.241
+    },
+    {
+        "text": "to 2d8 plus a d10 at level 12. Um, and",
+        "start": 2382.64,
+        "duration": 6.4
+    },
+    {
+        "text": "when an enemy is hit by it, their AC",
+        "start": 2386.32,
+        "duration": 6.48
+    },
+    {
+        "text": "decreases by one at the uh uh at the",
+        "start": 2389.04,
+        "duration": 5.76
+    },
+    {
+        "text": "beginning of each of their turns to a",
+        "start": 2392.8,
+        "duration": 5.279
+    },
+    {
+        "text": "maximum penalty of minus5. So, in really",
+        "start": 2394.8,
+        "duration": 6.16
+    },
+    {
+        "text": "long fights, minus 5 AC is a lot. And",
+        "start": 2398.079,
+        "duration": 4.881
+    },
+    {
+        "text": "while this isn't uh of course a great",
+        "start": 2400.96,
+        "duration": 4.08
+    },
+    {
+        "text": "action, you it it's not an attack, it's",
+        "start": 2402.96,
+        "duration": 3.6
+    },
+    {
+        "text": "an action, so you have to spend your",
+        "start": 2405.04,
+        "duration": 3.6
+    },
+    {
+        "text": "entire turn on it. Um, and while this",
+        "start": 2406.56,
+        "duration": 4.48
+    },
+    {
+        "text": "isn't like a great attack and a a great",
+        "start": 2408.64,
+        "duration": 4.4
+    },
+    {
+        "text": "ranged action, it does give a wild shape",
+        "start": 2411.04,
+        "duration": 4.16
+    },
+    {
+        "text": "form a ranged action, which is something",
+        "start": 2413.04,
+        "duration": 5.84
+    },
+    {
+        "text": "that they usually don't have. Um, and",
+        "start": 2415.2,
+        "duration": 5.6
+    },
+    {
+        "text": "that can be pretty powerful to give",
+        "start": 2418.88,
+        "duration": 3.6
+    },
+    {
+        "text": "yourself the ability to attack from",
+        "start": 2420.8,
+        "duration": 4.319
+    },
+    {
+        "text": "range and be relevant even uh at the",
+        "start": 2422.48,
+        "duration": 4.16
+    },
+    {
+        "text": "beginning of a fight before you might be",
+        "start": 2425.119,
+        "duration": 3.201
+    },
+    {
+        "text": "able to get into place. Now, of course,",
+        "start": 2426.64,
+        "duration": 3.36
+    },
+    {
+        "text": "you also have pounce, so you're likely",
+        "start": 2428.32,
+        "duration": 4.24
+    },
+    {
+        "text": "to be able to jump to enemies, but uh",
+        "start": 2430.0,
+        "duration": 4.079
+    },
+    {
+        "text": "this is still a pretty helpful thing to",
+        "start": 2432.56,
+        "duration": 3.519
+    },
+    {
+        "text": "have. And in longer boss fights, it can",
+        "start": 2434.079,
+        "duration": 4.801
+    },
+    {
+        "text": "be pretty nice. So, the owl bear form I",
+        "start": 2436.079,
+        "duration": 4.881
+    },
+    {
+        "text": "think is better generally speaking, but",
+        "start": 2438.88,
+        "duration": 5.28
+    },
+    {
+        "text": "the Dilophosaurus form uh Oh. Oh, yeah.",
+        "start": 2440.96,
+        "duration": 5.76
+    },
+    {
+        "text": "And of course, you take the the uh",
+        "start": 2444.16,
+        "duration": 4.32
+    },
+    {
+        "text": "corrosive spit does additional damage",
+        "start": 2446.72,
+        "duration": 4.24
+    },
+    {
+        "text": "and continuously decreases your armor",
+        "start": 2448.48,
+        "duration": 4.24
+    },
+    {
+        "text": "class. Uh does damage every turn and",
+        "start": 2450.96,
+        "duration": 3.92
+    },
+    {
+        "text": "continuously decreases your armor class,",
+        "start": 2452.72,
+        "duration": 6.32
+    },
+    {
+        "text": "excuse me. Um so, in longer fights, the",
+        "start": 2454.88,
+        "duration": 6.56
+    },
+    {
+        "text": "especially against bosses, the",
+        "start": 2459.04,
+        "duration": 5.12
+    },
+    {
+        "text": "Dilophosaurus can actually be a pretty",
+        "start": 2461.44,
+        "duration": 4.8
+    },
+    {
+        "text": "powerful tool. Owl Bear is more",
+        "start": 2464.16,
+        "duration": 4.64
+    },
+    {
+        "text": "generically uh applicable in other",
+        "start": 2466.24,
+        "duration": 4.96
+    },
+    {
+        "text": "fights, but in boss fights, the",
+        "start": 2468.8,
+        "duration": 5.6
+    },
+    {
+        "text": "Dilophosaurus is great. Also, at level",
+        "start": 2471.2,
+        "duration": 5.6
+    },
+    {
+        "text": "10, if you're a Moon Druid, you get",
+        "start": 2474.4,
+        "duration": 4.8
+    },
+    {
+        "text": "access to the four elemental Merrmadon",
+        "start": 2476.8,
+        "duration": 4.319
+    },
+    {
+        "text": "forms. Now, these are unique in that",
+        "start": 2479.2,
+        "duration": 3.919
+    },
+    {
+        "text": "they consume both of your Wild Shape",
+        "start": 2481.119,
+        "duration": 5.121
+    },
+    {
+        "text": "charges uh to use. you can't use them to",
+        "start": 2483.119,
+        "duration": 6.561
+    },
+    {
+        "text": "to absorb hit point damage as easily as",
+        "start": 2486.24,
+        "duration": 6.16
+    },
+    {
+        "text": "you can uh the other wild shape forms",
+        "start": 2489.68,
+        "duration": 5.12
+    },
+    {
+        "text": "cuz those you get twice as many uses of.",
+        "start": 2492.4,
+        "duration": 5.36
+    },
+    {
+        "text": "Uh but the double uh charge for the",
+        "start": 2494.8,
+        "duration": 5.84
+    },
+    {
+        "text": "Mermodon wild shapes are absolutely",
+        "start": 2497.76,
+        "duration": 5.68
+    },
+    {
+        "text": "worth it. These forms are incredibly",
+        "start": 2500.64,
+        "duration": 4.959
+    },
+    {
+        "text": "powerful, especially because of some of",
+        "start": 2503.44,
+        "duration": 3.76
+    },
+    {
+        "text": "the interactions that they have with the",
+        "start": 2505.599,
+        "duration": 3.681
+    },
+    {
+        "text": "fact that you're a player character. Um,",
+        "start": 2507.2,
+        "duration": 3.919
+    },
+    {
+        "text": "I did my summons tier list and talked",
+        "start": 2509.28,
+        "duration": 5.36
+    },
+    {
+        "text": "about a lot of the abilities of these uh",
+        "start": 2511.119,
+        "duration": 5.841
+    },
+    {
+        "text": "of these units already, but some of the",
+        "start": 2514.64,
+        "duration": 4.959
+    },
+    {
+        "text": "things that they do as summons are",
+        "start": 2516.96,
+        "duration": 4.96
+    },
+    {
+        "text": "significantly stronger when you do them",
+        "start": 2519.599,
+        "duration": 4.48
+    },
+    {
+        "text": "as a player. First up, let's look at the",
+        "start": 2521.92,
+        "duration": 5.36
+    },
+    {
+        "text": "Earth Mermadon. So you get uh a bunch of",
+        "start": 2524.079,
+        "duration": 5.201
+    },
+    {
+        "text": "damage resistances, immunity to poison",
+        "start": 2527.28,
+        "duration": 4.799
+    },
+    {
+        "text": "and resistance to non-magical physical",
+        "start": 2529.28,
+        "duration": 4.559
+    },
+    {
+        "text": "damage",
+        "start": 2532.079,
+        "duration": 3.52
+    },
+    {
+        "text": "uh which is very helpful for maintaining",
+        "start": 2533.839,
+        "duration": 4.401
+    },
+    {
+        "text": "your wild shape hit points of course and",
+        "start": 2535.599,
+        "duration": 5.201
+    },
+    {
+        "text": "staying in wild shape form. You have 103",
+        "start": 2538.24,
+        "duration": 6.4
+    },
+    {
+        "text": "hit points going up to 124 at level four",
+        "start": 2540.8,
+        "duration": 6.4
+    },
+    {
+        "text": "and 18 armor class which is also",
+        "start": 2544.64,
+        "duration": 5.36
+    },
+    {
+        "text": "relatively uh tanky at this level. 18",
+        "start": 2547.2,
+        "duration": 4.8
+    },
+    {
+        "text": "isn't an incredible armor class, but",
+        "start": 2550.0,
+        "duration": 3.76
+    },
+    {
+        "text": "it's enough that enemies won't hit you",
+        "start": 2552.0,
+        "duration": 3.92
+    },
+    {
+        "text": "incredibly reliably. Uh, you know, they",
+        "start": 2553.76,
+        "duration": 3.839
+    },
+    {
+        "text": "won't hit you every single time, and",
+        "start": 2555.92,
+        "duration": 3.679
+    },
+    {
+        "text": "combined with a decent hit point total,",
+        "start": 2557.599,
+        "duration": 3.76
+    },
+    {
+        "text": "you're going to be pretty tanky. You can",
+        "start": 2559.599,
+        "duration": 4.48
+    },
+    {
+        "text": "also increase your armor class with the",
+        "start": 2561.359,
+        "duration": 5.76
+    },
+    {
+        "text": "muck to metal ability. Um, you spend 20",
+        "start": 2564.079,
+        "duration": 4.641
+    },
+    {
+        "text": "ft of your movement speed and you get",
+        "start": 2567.119,
+        "duration": 4.641
+    },
+    {
+        "text": "plus two AC. Uh, and it says that it",
+        "start": 2568.72,
+        "duration": 5.119
+    },
+    {
+        "text": "reduces your move speed by 20 ft every",
+        "start": 2571.76,
+        "duration": 4.0
+    },
+    {
+        "text": "subsequent turn. It doesn't. So the",
+        "start": 2573.839,
+        "duration": 3.921
+    },
+    {
+        "text": "Earth Mermadon in actual combat will",
+        "start": 2575.76,
+        "duration": 4.319
+    },
+    {
+        "text": "have 20 AC basically all the time. You",
+        "start": 2577.76,
+        "duration": 4.079
+    },
+    {
+        "text": "just spend the initial move speed on the",
+        "start": 2580.079,
+        "duration": 3.681
+    },
+    {
+        "text": "first cast of this and then you have",
+        "start": 2581.839,
+        "duration": 4.0
+    },
+    {
+        "text": "full move speed for the rest of the four",
+        "start": 2583.76,
+        "duration": 4.48
+    },
+    {
+        "text": "turn duration of the effect. The Earth",
+        "start": 2585.839,
+        "duration": 5.52
+    },
+    {
+        "text": "Merrmadon also has Burrow as a bonus",
+        "start": 2588.24,
+        "duration": 6.24
+    },
+    {
+        "text": "action allowing you to uh do 2d8",
+        "start": 2591.359,
+        "duration": 4.881
+    },
+    {
+        "text": "bludgeoning damage with a deck save for",
+        "start": 2594.48,
+        "duration": 4.4
+    },
+    {
+        "text": "half to nearby enemies. Uh this being a",
+        "start": 2596.24,
+        "duration": 4.4
+    },
+    {
+        "text": "bonus action means that it's going to be",
+        "start": 2598.88,
+        "duration": 3.6
+    },
+    {
+        "text": "basically free damage and it's a",
+        "start": 2600.64,
+        "duration": 4.24
+    },
+    {
+        "text": "teleport so it can let you reposition.",
+        "start": 2602.48,
+        "duration": 4.24
+    },
+    {
+        "text": "uh which is pretty helpful. You also",
+        "start": 2604.88,
+        "duration": 3.84
+    },
+    {
+        "text": "like every Mervdon have the elemental",
+        "start": 2606.72,
+        "duration": 4.32
+    },
+    {
+        "text": "warp teleport which is basically at will",
+        "start": 2608.72,
+        "duration": 6.08
+    },
+    {
+        "text": "misty step also extremely powerful. You",
+        "start": 2611.04,
+        "duration": 6.4
+    },
+    {
+        "text": "also have sludgy sling which does a",
+        "start": 2614.8,
+        "duration": 5.519
+    },
+    {
+        "text": "small amount of damage to creatures in",
+        "start": 2617.44,
+        "duration": 4.8
+    },
+    {
+        "text": "the radius including friendly creatures",
+        "start": 2620.319,
+        "duration": 4.961
+    },
+    {
+        "text": "and creates a mud surface. Um this is",
+        "start": 2622.24,
+        "duration": 6.4
+    },
+    {
+        "text": "also bugged and the the save DC in order",
+        "start": 2625.28,
+        "duration": 5.6
+    },
+    {
+        "text": "to avoid the damage which is only 2d6",
+        "start": 2628.64,
+        "duration": 5.76
+    },
+    {
+        "text": "damage anyways uh is locked at DC13. it",
+        "start": 2630.88,
+        "duration": 7.28
+    },
+    {
+        "text": "doesn't use the um doesn't use the druid",
+        "start": 2634.4,
+        "duration": 6.959
+    },
+    {
+        "text": "save DC. So, you wouldn't be activating",
+        "start": 2638.16,
+        "duration": 5.12
+    },
+    {
+        "text": "this ability anyways cuz it really just",
+        "start": 2641.359,
+        "duration": 3.601
+    },
+    {
+        "text": "doesn't do enough to justify spending an",
+        "start": 2643.28,
+        "duration": 3.36
+    },
+    {
+        "text": "action on, but especially not because",
+        "start": 2644.96,
+        "duration": 4.24
+    },
+    {
+        "text": "it's bugged. The real benefit of the",
+        "start": 2646.64,
+        "duration": 5.439
+    },
+    {
+        "text": "Earth Merrmadon though is its basic",
+        "start": 2649.2,
+        "duration": 6.159
+    },
+    {
+        "text": "attack is ridiculous. Grounded Thunder",
+        "start": 2652.079,
+        "duration": 7.28
+    },
+    {
+        "text": "Strike um does uh 1d10 plus your",
+        "start": 2655.359,
+        "duration": 6.801
+    },
+    {
+        "text": "strength modifier damage plus 3d10",
+        "start": 2659.359,
+        "duration": 5.201
+    },
+    {
+        "text": "thunder. the the tool tip here is wrong.",
+        "start": 2662.16,
+        "duration": 6.8
+    },
+    {
+        "text": "It does 3d10 thunder damage. Um and uh",
+        "start": 2664.56,
+        "duration": 6.799
+    },
+    {
+        "text": "enemies have to uh make a saving throw",
+        "start": 2668.96,
+        "duration": 5.68
+    },
+    {
+        "text": "or be knocked prone. Uh remember that as",
+        "start": 2671.359,
+        "duration": 6.48
+    },
+    {
+        "text": "a druid you have improved wild strike at",
+        "start": 2674.64,
+        "duration": 5.12
+    },
+    {
+        "text": "this point and so you can attack three",
+        "start": 2677.839,
+        "duration": 5.041
+    },
+    {
+        "text": "times in a single round. So the amount",
+        "start": 2679.76,
+        "duration": 4.88
+    },
+    {
+        "text": "of damage that you can dish out as an",
+        "start": 2682.88,
+        "duration": 5.199
+    },
+    {
+        "text": "earth madon is ridiculous. It also is",
+        "start": 2684.64,
+        "duration": 6.0
+    },
+    {
+        "text": "bugged in addition to that because uh",
+        "start": 2688.079,
+        "duration": 4.641
+    },
+    {
+        "text": "the tavern brawler damage and of course",
+        "start": 2690.64,
+        "duration": 3.52
+    },
+    {
+        "text": "you have tavern brawler if you're going",
+        "start": 2692.72,
+        "duration": 4.16
+    },
+    {
+        "text": "for this uh gets applied to both the",
+        "start": 2694.16,
+        "duration": 4.959
+    },
+    {
+        "text": "bludgeoning damage and the thunder",
+        "start": 2696.88,
+        "duration": 3.68
+    },
+    {
+        "text": "damage. So you get to double dip on",
+        "start": 2699.119,
+        "duration": 3.281
+    },
+    {
+        "text": "tavern brawler in addition to how much",
+        "start": 2700.56,
+        "duration": 4.4
+    },
+    {
+        "text": "tavern brawler already insanely improves",
+        "start": 2702.4,
+        "duration": 5.12
+    },
+    {
+        "text": "your damaging output. And so an Earth",
+        "start": 2704.96,
+        "duration": 5.28
+    },
+    {
+        "text": "Mermadon because it's attacking um three",
+        "start": 2707.52,
+        "duration": 5.28
+    },
+    {
+        "text": "times in a turn with an absurd amount of",
+        "start": 2710.24,
+        "duration": 5.92
+    },
+    {
+        "text": "uh additional damage just dishes out the",
+        "start": 2712.8,
+        "duration": 5.84
+    },
+    {
+        "text": "most damage that a wild shape form can",
+        "start": 2716.16,
+        "duration": 4.8
+    },
+    {
+        "text": "do while also being incredibly tanky.",
+        "start": 2718.64,
+        "duration": 4.88
+    },
+    {
+        "text": "Most moon druids who have access to",
+        "start": 2720.96,
+        "duration": 4.48
+    },
+    {
+        "text": "earthmadon form are going to use this as",
+        "start": 2723.52,
+        "duration": 4.96
+    },
+    {
+        "text": "their main combat form um because the",
+        "start": 2725.44,
+        "duration": 5.28
+    },
+    {
+        "text": "sheer amount of damage output that you",
+        "start": 2728.48,
+        "duration": 5.599
+    },
+    {
+        "text": "do is unbelievably powerful.",
+        "start": 2730.72,
+        "duration": 5.52
+    },
+    {
+        "text": "The water marmadon. So, the water",
+        "start": 2734.079,
+        "duration": 5.601
+    },
+    {
+        "text": "Mermadon uh has 90 hit points and 18",
+        "start": 2736.24,
+        "duration": 5.68
+    },
+    {
+        "text": "armor class. So, a little bit less tanky",
+        "start": 2739.68,
+        "duration": 3.919
+    },
+    {
+        "text": "than the earth Mermadon, especially",
+        "start": 2741.92,
+        "duration": 3.52
+    },
+    {
+        "text": "because you can't raise its armor class",
+        "start": 2743.599,
+        "duration": 3.921
+    },
+    {
+        "text": "with an ability. It also comes with",
+        "start": 2745.44,
+        "duration": 4.8
+    },
+    {
+        "text": "damage resistances, has acid resistance,",
+        "start": 2747.52,
+        "duration": 6.72
+    },
+    {
+        "text": "and is immune to poison. um and uh can",
+        "start": 2750.24,
+        "duration": 6.32
+    },
+    {
+        "text": "fly permanently, which is very helpful,",
+        "start": 2754.24,
+        "duration": 4.24
+    },
+    {
+        "text": "of course, because it gives you even",
+        "start": 2756.56,
+        "duration": 5.92
+    },
+    {
+        "text": "more mobility in addition to the uh the",
+        "start": 2758.48,
+        "duration": 6.48
+    },
+    {
+        "text": "elemental warp teleport that all of the",
+        "start": 2762.48,
+        "duration": 5.599
+    },
+    {
+        "text": "Mermadons already come with. Uh the",
+        "start": 2764.96,
+        "duration": 6.0
+    },
+    {
+        "text": "water Mermadon's main hand attack uh is",
+        "start": 2768.079,
+        "duration": 5.361
+    },
+    {
+        "text": "useless because it has a strictly better",
+        "start": 2770.96,
+        "duration": 4.32
+    },
+    {
+        "text": "other attack. The main hand attack is",
+        "start": 2773.44,
+        "duration": 4.399
+    },
+    {
+        "text": "just a a small damaging attack with",
+        "start": 2775.28,
+        "duration": 5.039
+    },
+    {
+        "text": "cold, but you can use HYL strike here,",
+        "start": 2777.839,
+        "duration": 4.801
+    },
+    {
+        "text": "which is also an attack action and does",
+        "start": 2780.319,
+        "duration": 4.241
+    },
+    {
+        "text": "more damage and has a chance to chill",
+        "start": 2782.64,
+        "duration": 3.52
+    },
+    {
+        "text": "enemies. So, there's no reason to ever",
+        "start": 2784.56,
+        "duration": 4.4
+    },
+    {
+        "text": "use the main hand attack. Um, hyamel",
+        "start": 2786.16,
+        "duration": 5.84
+    },
+    {
+        "text": "strike has uh can be used three times a",
+        "start": 2788.96,
+        "duration": 4.48
+    },
+    {
+        "text": "turn because you have improved wild",
+        "start": 2792.0,
+        "duration": 4.24
+    },
+    {
+        "text": "strike, of course, and does a d8 plus a",
+        "start": 2793.44,
+        "duration": 5.36
+    },
+    {
+        "text": "d6 plus a d10, and some of that is cold",
+        "start": 2796.24,
+        "duration": 5.44
+    },
+    {
+        "text": "damage, plus a bunch of damage from your",
+        "start": 2798.8,
+        "duration": 5.68
+    },
+    {
+        "text": "weapon attacks. Now, importantly, the",
+        "start": 2801.68,
+        "duration": 5.12
+    },
+    {
+        "text": "water Mermodon is not unarmed. So, while",
+        "start": 2804.48,
+        "duration": 4.879
+    },
+    {
+        "text": "the Earth Mermadon uses Tavern Brawler,",
+        "start": 2806.8,
+        "duration": 4.96
+    },
+    {
+        "text": "the other three Mermadons don't benefit",
+        "start": 2809.359,
+        "duration": 4.0
+    },
+    {
+        "text": "from Tavern Brawler because they're",
+        "start": 2811.76,
+        "duration": 3.76
+    },
+    {
+        "text": "actually using a weapon. Uh, although",
+        "start": 2813.359,
+        "duration": 4.0
+    },
+    {
+        "text": "they can benefit from a couple passive",
+        "start": 2815.52,
+        "duration": 4.72
+    },
+    {
+        "text": "abilities that improve weapon attacks.",
+        "start": 2817.359,
+        "duration": 4.321
+    },
+    {
+        "text": "U, but you're going to give up some",
+        "start": 2820.24,
+        "duration": 4.24
+    },
+    {
+        "text": "accuracy and some damage compared to the",
+        "start": 2821.68,
+        "duration": 4.32
+    },
+    {
+        "text": "Earth Mermadon because you don't have",
+        "start": 2824.48,
+        "duration": 3.839
+    },
+    {
+        "text": "Tavern Roller. What you do have is the",
+        "start": 2826.0,
+        "duration": 4.64
+    },
+    {
+        "text": "ability to apply vulnerability against",
+        "start": 2828.319,
+        "duration": 5.52
+    },
+    {
+        "text": "cold damage. Um when you hit with Himal",
+        "start": 2830.64,
+        "duration": 5.84
+    },
+    {
+        "text": "Strike, enemies have to make a",
+        "start": 2833.839,
+        "duration": 6.641
+    },
+    {
+        "text": "constitution save um or become uh",
+        "start": 2836.48,
+        "duration": 5.52
+    },
+    {
+        "text": "chilled and that gives them",
+        "start": 2840.48,
+        "duration": 3.839
+    },
+    {
+        "text": "vulnerability to cold damage. So in a",
+        "start": 2842.0,
+        "duration": 5.119
+    },
+    {
+        "text": "cold damage focused party, three saving",
+        "start": 2844.319,
+        "duration": 5.841
+    },
+    {
+        "text": "throws against uh vulnerability is",
+        "start": 2847.119,
+        "duration": 4.72
+    },
+    {
+        "text": "really powerful. Now, of course, you can",
+        "start": 2850.16,
+        "duration": 3.6
+    },
+    {
+        "text": "apply vulnerability without a saving",
+        "start": 2851.839,
+        "duration": 4.401
+    },
+    {
+        "text": "throw using create water or throwing a",
+        "start": 2853.76,
+        "duration": 4.079
+    },
+    {
+        "text": "water bottle, but the fact that this",
+        "start": 2856.24,
+        "duration": 3.599
+    },
+    {
+        "text": "also does consistent damage while you're",
+        "start": 2857.839,
+        "duration": 4.0
+    },
+    {
+        "text": "doing it is pretty nice. In addition to",
+        "start": 2859.839,
+        "duration": 5.201
+    },
+    {
+        "text": "that, you have explosive icicle, a range",
+        "start": 2861.839,
+        "duration": 5.841
+    },
+    {
+        "text": "um attack that fires essentially three",
+        "start": 2865.04,
+        "duration": 6.319
+    },
+    {
+        "text": "chromatic orbs. So, it does decent range",
+        "start": 2867.68,
+        "duration": 7.12
+    },
+    {
+        "text": "damage, 3d8 cold damage um and creates",
+        "start": 2871.359,
+        "duration": 5.441
+    },
+    {
+        "text": "three ice surfaces. And because you're a",
+        "start": 2874.8,
+        "duration": 3.76
+    },
+    {
+        "text": "druid, those ice surfaces will use your",
+        "start": 2876.8,
+        "duration": 4.0
+    },
+    {
+        "text": "spell safe DC. So enemies will fall",
+        "start": 2878.56,
+        "duration": 4.16
+    },
+    {
+        "text": "prone on the ice surface pretty",
+        "start": 2880.8,
+        "duration": 4.08
+    },
+    {
+        "text": "frequently. And you have healing vapors,",
+        "start": 2882.72,
+        "duration": 4.639
+    },
+    {
+        "text": "which in combat can be constant steady",
+        "start": 2884.88,
+        "duration": 4.239
+    },
+    {
+        "text": "healing for your summons and your",
+        "start": 2887.359,
+        "duration": 4.401
+    },
+    {
+        "text": "allies. Um, it can only be used in",
+        "start": 2889.119,
+        "duration": 4.641
+    },
+    {
+        "text": "combat, but it creates a 30ft radius",
+        "start": 2891.76,
+        "duration": 3.68
+    },
+    {
+        "text": "area where everything inside of it",
+        "start": 2893.76,
+        "duration": 3.76
+    },
+    {
+        "text": "heals. If you're poisoned, uh, they take",
+        "start": 2895.44,
+        "duration": 4.08
+    },
+    {
+        "text": "damage. That's mostly not relevant. That",
+        "start": 2897.52,
+        "duration": 4.72
+    },
+    {
+        "text": "doesn't come up very frequently. Um, but",
+        "start": 2899.52,
+        "duration": 5.36
+    },
+    {
+        "text": "the extra healing that you can do uh for",
+        "start": 2902.24,
+        "duration": 4.72
+    },
+    {
+        "text": "an army of summons, which since you're a",
+        "start": 2904.88,
+        "duration": 3.439
+    },
+    {
+        "text": "druid, there's a good chance you have at",
+        "start": 2906.96,
+        "duration": 3.44
+    },
+    {
+        "text": "least a few of those kicking around, uh,",
+        "start": 2908.319,
+        "duration": 4.161
+    },
+    {
+        "text": "can be very helpful as well. Primarily,",
+        "start": 2910.4,
+        "duration": 4.719
+    },
+    {
+        "text": "I would use the water marmodon in a very",
+        "start": 2912.48,
+        "duration": 5.52
+    },
+    {
+        "text": "cold focused party um, in order to",
+        "start": 2915.119,
+        "duration": 4.881
+    },
+    {
+        "text": "minimize the number of water bottles and",
+        "start": 2918.0,
+        "duration": 3.76
+    },
+    {
+        "text": "stuff that you have to throw. I will say",
+        "start": 2920.0,
+        "duration": 4.559
+    },
+    {
+        "text": "that as a wild shape form, this is less",
+        "start": 2921.76,
+        "duration": 7.12
+    },
+    {
+        "text": "exciting than as a summon because um you",
+        "start": 2924.559,
+        "duration": 6.0
+    },
+    {
+        "text": "don't get the benefits of tavern",
+        "start": 2928.88,
+        "duration": 3.36
+    },
+    {
+        "text": "brawler. So, you give up some of what",
+        "start": 2930.559,
+        "duration": 3.441
+    },
+    {
+        "text": "makes wild shape forms incredibly",
+        "start": 2932.24,
+        "duration": 5.28
+    },
+    {
+        "text": "strong. And you also uh and applying",
+        "start": 2934.0,
+        "duration": 6.16
+    },
+    {
+        "text": "vulnerability for cold damage is less",
+        "start": 2937.52,
+        "duration": 5.039
+    },
+    {
+        "text": "exciting uh when it requires your actual",
+        "start": 2940.16,
+        "duration": 4.0
+    },
+    {
+        "text": "character doing it because they could",
+        "start": 2942.559,
+        "duration": 3.361
+    },
+    {
+        "text": "have just thrown a water bottle if you",
+        "start": 2944.16,
+        "duration": 3.04
+    },
+    {
+        "text": "were going to spend a character action",
+        "start": 2945.92,
+        "duration": 3.439
+    },
+    {
+        "text": "on it. Obviously, this does damage as",
+        "start": 2947.2,
+        "duration": 3.919
+    },
+    {
+        "text": "well uh and is still pretty powerful,",
+        "start": 2949.359,
+        "duration": 4.081
+    },
+    {
+        "text": "but I think that the water Mermadon as a",
+        "start": 2951.119,
+        "duration": 4.72
+    },
+    {
+        "text": "wild shaped form is generally going to",
+        "start": 2953.44,
+        "duration": 4.24
+    },
+    {
+        "text": "be a little bit overshadowed by the",
+        "start": 2955.839,
+        "duration": 4.961
+    },
+    {
+        "text": "other ones. The Air Mermadon. So, the",
+        "start": 2957.68,
+        "duration": 5.679
+    },
+    {
+        "text": "Air Mermadon uh uses a weapon, so it",
+        "start": 2960.8,
+        "duration": 4.16
+    },
+    {
+        "text": "doesn't benefit from Tavern Brawler, but",
+        "start": 2963.359,
+        "duration": 3.76
+    },
+    {
+        "text": "despite this, that weapon is so powerful",
+        "start": 2964.96,
+        "duration": 5.2
+    },
+    {
+        "text": "that the Air Mermadon is awesome. Uh",
+        "start": 2967.119,
+        "duration": 5.121
+    },
+    {
+        "text": "just like uh the other non-earth",
+        "start": 2970.16,
+        "duration": 4.08
+    },
+    {
+        "text": "Mermadons, it has permanent flying and",
+        "start": 2972.24,
+        "duration": 4.72
+    },
+    {
+        "text": "it has resistance to non-magical",
+        "start": 2974.24,
+        "duration": 5.119
+    },
+    {
+        "text": "physical damage and also resistance to",
+        "start": 2976.96,
+        "duration": 4.08
+    },
+    {
+        "text": "thunder and lightning which in some",
+        "start": 2979.359,
+        "duration": 3.361
+    },
+    {
+        "text": "encounters are pretty powerful and",
+        "start": 2981.04,
+        "duration": 4.559
+    },
+    {
+        "text": "immunity to poison. It has 90 HP going",
+        "start": 2982.72,
+        "duration": 6.0
+    },
+    {
+        "text": "up to 108 at character level 12 and 18",
+        "start": 2985.599,
+        "duration": 5.041
+    },
+    {
+        "text": "armor class which again is moderately",
+        "start": 2988.72,
+        "duration": 5.119
+    },
+    {
+        "text": "tanky. Remember also that with the um if",
+        "start": 2990.64,
+        "duration": 5.36
+    },
+    {
+        "text": "you're a moon druid in order to wild",
+        "start": 2993.839,
+        "duration": 3.841
+    },
+    {
+        "text": "shape into these forms, you have lunar",
+        "start": 2996.0,
+        "duration": 4.0
+    },
+    {
+        "text": "mend and repairing the hit points of",
+        "start": 2997.68,
+        "duration": 5.439
+    },
+    {
+        "text": "your Merurmadons's forms in combat uh is",
+        "start": 3000.0,
+        "duration": 4.88
+    },
+    {
+        "text": "a lot more exciting than repairing the",
+        "start": 3003.119,
+        "duration": 3.761
+    },
+    {
+        "text": "HP of your other wild shape forms cuz",
+        "start": 3004.88,
+        "duration": 4.08
+    },
+    {
+        "text": "you want to stay in Merurmadon form as",
+        "start": 3006.88,
+        "duration": 5.28
+    },
+    {
+        "text": "long as possible. Uh, the Air Ramadan",
+        "start": 3008.96,
+        "duration": 4.639
+    },
+    {
+        "text": "also has once per short rest",
+        "start": 3012.16,
+        "duration": 3.679
+    },
+    {
+        "text": "invisibility, which of course is pretty",
+        "start": 3013.599,
+        "duration": 4.72
+    },
+    {
+        "text": "helpful for starting combats by surprise",
+        "start": 3015.839,
+        "duration": 4.561
+    },
+    {
+        "text": "and uh, positioning yourself before",
+        "start": 3018.319,
+        "duration": 5.601
+    },
+    {
+        "text": "combat starts. Um, and has the raging",
+        "start": 3020.4,
+        "duration": 6.8
+    },
+    {
+        "text": "vortex ability, which lets you summon a",
+        "start": 3023.92,
+        "duration": 6.08
+    },
+    {
+        "text": "gigantic AoE that silences and does",
+        "start": 3027.2,
+        "duration": 4.8
+    },
+    {
+        "text": "damage every turn. There's no save on",
+        "start": 3030.0,
+        "duration": 5.359
+    },
+    {
+        "text": "this effect. So, uh, a big AoE silence",
+        "start": 3032.0,
+        "duration": 5.359
+    },
+    {
+        "text": "is pretty powerful, especially to have",
+        "start": 3035.359,
+        "duration": 4.881
+    },
+    {
+        "text": "on a a wild shape form that's otherwise",
+        "start": 3037.359,
+        "duration": 5.041
+    },
+    {
+        "text": "an incredible brawler. You also have",
+        "start": 3040.24,
+        "duration": 3.76
+    },
+    {
+        "text": "permanent flying, and you have elemental",
+        "start": 3042.4,
+        "duration": 4.32
+    },
+    {
+        "text": "warp for even more uh mobility, so you",
+        "start": 3044.0,
+        "duration": 4.319
+    },
+    {
+        "text": "can make your way around the map very",
+        "start": 3046.72,
+        "duration": 4.399
+    },
+    {
+        "text": "easily. your basic attack. Again,",
+        "start": 3048.319,
+        "duration": 4.881
+    },
+    {
+        "text": "there's not really a reason to use your",
+        "start": 3051.119,
+        "duration": 4.161
+    },
+    {
+        "text": "basic attack on this character because",
+        "start": 3053.2,
+        "duration": 4.159
+    },
+    {
+        "text": "it's just a d8 of lightning damage on",
+        "start": 3055.28,
+        "duration": 4.72
+    },
+    {
+        "text": "top of a minor attack, but you also have",
+        "start": 3057.359,
+        "duration": 5.76
+    },
+    {
+        "text": "the electrified flail uh flail ability",
+        "start": 3060.0,
+        "duration": 6.079
+    },
+    {
+        "text": "which does more damage um with extra",
+        "start": 3063.119,
+        "duration": 5.2
+    },
+    {
+        "text": "lightning damage and enemies have to",
+        "start": 3066.079,
+        "duration": 4.161
+    },
+    {
+        "text": "make a saving throw. Uh it's locked at",
+        "start": 3068.319,
+        "duration": 4.641
+    },
+    {
+        "text": "DC13. Uh it doesn't use your druid spell",
+        "start": 3070.24,
+        "duration": 5.76
+    },
+    {
+        "text": "DC, but a DC-13 con save or they become",
+        "start": 3072.96,
+        "duration": 5.44
+    },
+    {
+        "text": "stunned. you can use electrified flail",
+        "start": 3076.0,
+        "duration": 6.48
+    },
+    {
+        "text": "multiple times in a turn um because",
+        "start": 3078.4,
+        "duration": 6.88
+    },
+    {
+        "text": "of having improved wild strike. And so",
+        "start": 3082.48,
+        "duration": 6.16
+    },
+    {
+        "text": "that lets you have three uh rolls to",
+        "start": 3085.28,
+        "duration": 5.839
+    },
+    {
+        "text": "stun an enemy while dishing out",
+        "start": 3088.64,
+        "duration": 5.12
+    },
+    {
+        "text": "incredible damage every single turn.",
+        "start": 3091.119,
+        "duration": 4.881
+    },
+    {
+        "text": "That's very very powerful. Enemies are",
+        "start": 3093.76,
+        "duration": 3.92
+    },
+    {
+        "text": "going to fail this even though the save",
+        "start": 3096.0,
+        "duration": 5.04
+    },
+    {
+        "text": "DC is pretty low. you're making a lot of",
+        "start": 3097.68,
+        "duration": 5.28
+    },
+    {
+        "text": "you're making them roll a lot of dice",
+        "start": 3101.04,
+        "duration": 4.0
+    },
+    {
+        "text": "and so you can keep a lot of enemies",
+        "start": 3102.96,
+        "duration": 4.24
+    },
+    {
+        "text": "stunned or one particularly dangerous",
+        "start": 3105.04,
+        "duration": 4.24
+    },
+    {
+        "text": "enemy stunned pretty consistently by",
+        "start": 3107.2,
+        "duration": 3.68
+    },
+    {
+        "text": "just hitting them three times with",
+        "start": 3109.28,
+        "duration": 4.079
+    },
+    {
+        "text": "electrified flail. Obviously, this also",
+        "start": 3110.88,
+        "duration": 4.56
+    },
+    {
+        "text": "does really solid damage and that damage",
+        "start": 3113.359,
+        "duration": 3.841
+    },
+    {
+        "text": "gets increased even further against",
+        "start": 3115.44,
+        "duration": 4.72
+    },
+    {
+        "text": "enemies who are wet. Um, which if you",
+        "start": 3117.2,
+        "duration": 4.56
+    },
+    {
+        "text": "have a druid in the party, there's a",
+        "start": 3120.16,
+        "duration": 2.8
+    },
+    {
+        "text": "good chance that you're building at",
+        "start": 3121.76,
+        "duration": 3.2
+    },
+    {
+        "text": "least somewhat around wet effects. So,",
+        "start": 3122.96,
+        "duration": 3.68
+    },
+    {
+        "text": "the lightning damage is likely to be",
+        "start": 3124.96,
+        "duration": 4.399
+    },
+    {
+        "text": "doubled. Uh, so electrified flail just",
+        "start": 3126.64,
+        "duration": 4.56
+    },
+    {
+        "text": "spamming out the attack and stunning",
+        "start": 3129.359,
+        "duration": 3.76
+    },
+    {
+        "text": "enemies over and over is pretty",
+        "start": 3131.2,
+        "duration": 3.6
+    },
+    {
+        "text": "powerful. This is one of the Merrmadons",
+        "start": 3133.119,
+        "duration": 4.48
+    },
+    {
+        "text": "that gets a massive bonus from being a",
+        "start": 3134.8,
+        "duration": 4.319
+    },
+    {
+        "text": "player character and getting three",
+        "start": 3137.599,
+        "duration": 3.841
+    },
+    {
+        "text": "attacks with an attack that's really",
+        "start": 3139.119,
+        "duration": 4.72
+    },
+    {
+        "text": "supposed to only happen once per turn.",
+        "start": 3141.44,
+        "duration": 5.04
+    },
+    {
+        "text": "Um, because you can dish out just so",
+        "start": 3143.839,
+        "duration": 5.041
+    },
+    {
+        "text": "many stuns with the Air Mermadon.",
+        "start": 3146.48,
+        "duration": 4.16
+    },
+    {
+        "text": "Generally, the Earth Mermadon is better",
+        "start": 3148.88,
+        "duration": 3.52
+    },
+    {
+        "text": "at brawling and so it's still going to",
+        "start": 3150.64,
+        "duration": 4.16
+    },
+    {
+        "text": "be the preferred option for most",
+        "start": 3152.4,
+        "duration": 4.719
+    },
+    {
+        "text": "combats. But if there are combats where",
+        "start": 3154.8,
+        "duration": 4.08
+    },
+    {
+        "text": "you're worried about enemies taking an",
+        "start": 3157.119,
+        "duration": 4.0
+    },
+    {
+        "text": "action and you just want to consistently",
+        "start": 3158.88,
+        "duration": 4.64
+    },
+    {
+        "text": "lock them down, this is a great way to",
+        "start": 3161.119,
+        "duration": 5.681
+    },
+    {
+        "text": "have a nocost way uh to constantly be",
+        "start": 3163.52,
+        "duration": 5.12
+    },
+    {
+        "text": "stunning enemies, costing them action",
+        "start": 3166.8,
+        "duration": 3.44
+    },
+    {
+        "text": "economy.",
+        "start": 3168.64,
+        "duration": 4.479
+    },
+    {
+        "text": "The fire marmadon. So the fire marmadon",
+        "start": 3170.24,
+        "duration": 6.079
+    },
+    {
+        "text": "has some really cool interactions uh",
+        "start": 3173.119,
+        "duration": 5.2
+    },
+    {
+        "text": "that are very much worth knowing about,",
+        "start": 3176.319,
+        "duration": 5.601
+    },
+    {
+        "text": "especially in honor mode um with being a",
+        "start": 3178.319,
+        "duration": 5.921
+    },
+    {
+        "text": "player character.",
+        "start": 3181.92,
+        "duration": 4.8
+    },
+    {
+        "text": "Firstly, it has a bunch of resistances,",
+        "start": 3184.24,
+        "duration": 4.72
+    },
+    {
+        "text": "but is also completely immune to fire",
+        "start": 3186.72,
+        "duration": 4.16
+    },
+    {
+        "text": "damage, which is very relevant. There's",
+        "start": 3188.96,
+        "duration": 3.68
+    },
+    {
+        "text": "a lot of fights, even in the late game",
+        "start": 3190.88,
+        "duration": 3.52
+    },
+    {
+        "text": "with lots of fire damage, and being",
+        "start": 3192.64,
+        "duration": 3.6
+    },
+    {
+        "text": "completely immune means that you can",
+        "start": 3194.4,
+        "duration": 4.08
+    },
+    {
+        "text": "become a fire Merurmadon and safely wade",
+        "start": 3196.24,
+        "duration": 3.52
+    },
+    {
+        "text": "through those fights without any",
+        "start": 3198.48,
+        "duration": 3.359
+    },
+    {
+        "text": "problem. Poison immunity also relevant",
+        "start": 3199.76,
+        "duration": 4.0
+    },
+    {
+        "text": "in some encounters, even in the late",
+        "start": 3201.839,
+        "duration": 4.24
+    },
+    {
+        "text": "game. It has the same HP and armor class",
+        "start": 3203.76,
+        "duration": 4.64
+    },
+    {
+        "text": "as the other non-earth Mermadons, 18",
+        "start": 3206.079,
+        "duration": 6.081
+    },
+    {
+        "text": "armor class and uh 90 HP going up to 108",
+        "start": 3208.4,
+        "duration": 6.08
+    },
+    {
+        "text": "at level 12. Uh and it has the same",
+        "start": 3212.16,
+        "duration": 4.08
+    },
+    {
+        "text": "thing where its main hand attack is",
+        "start": 3214.48,
+        "duration": 3.599
+    },
+    {
+        "text": "relatively weak, but it also has a",
+        "start": 3216.24,
+        "duration": 3.68
+    },
+    {
+        "text": "special weapon action with no cool down.",
+        "start": 3218.079,
+        "duration": 4.161
+    },
+    {
+        "text": "So, you can just use this instead. Uh",
+        "start": 3219.92,
+        "duration": 5.28
+    },
+    {
+        "text": "the scorching strike attack um is a",
+        "start": 3222.24,
+        "duration": 4.64
+    },
+    {
+        "text": "little bit lower damage and a little bit",
+        "start": 3225.2,
+        "duration": 4.159
+    },
+    {
+        "text": "lower impact than the other Merrmadons",
+        "start": 3226.88,
+        "duration": 6.16
+    },
+    {
+        "text": "attacks um but uh still does pretty good",
+        "start": 3229.359,
+        "duration": 7.441
+    },
+    {
+        "text": "damage. 2d6 plus 1d10 plus 7 is not bad.",
+        "start": 3233.04,
+        "duration": 6.0
+    },
+    {
+        "text": "Burning a target is obviously worse than",
+        "start": 3236.8,
+        "duration": 4.48
+    },
+    {
+        "text": "chilling or stunning or especially than",
+        "start": 3239.04,
+        "duration": 4.24
+    },
+    {
+        "text": "stunning them. Uh but the extra little",
+        "start": 3241.28,
+        "duration": 4.96
+    },
+    {
+        "text": "bit of burning damage can be okay. Uh",
+        "start": 3243.28,
+        "duration": 5.76
+    },
+    {
+        "text": "cinderous swipe is an attack in a cone,",
+        "start": 3246.24,
+        "duration": 5.2
+    },
+    {
+        "text": "but this takes your entire action. It is",
+        "start": 3249.04,
+        "duration": 4.88
+    },
+    {
+        "text": "not just a weapon attack. And so you",
+        "start": 3251.44,
+        "duration": 4.399
+    },
+    {
+        "text": "will usually get more damage just by",
+        "start": 3253.92,
+        "duration": 4.0
+    },
+    {
+        "text": "attacking three times with scorching",
+        "start": 3255.839,
+        "duration": 4.161
+    },
+    {
+        "text": "strike than using cinderous swipe. I",
+        "start": 3257.92,
+        "duration": 5.36
+    },
+    {
+        "text": "would rarely uh want to use this. The",
+        "start": 3260.0,
+        "duration": 4.96
+    },
+    {
+        "text": "main thing that's important to know",
+        "start": 3263.28,
+        "duration": 3.44
+    },
+    {
+        "text": "about the fire Mermadon is that",
+        "start": 3264.96,
+        "duration": 3.92
+    },
+    {
+        "text": "Mermadon's immulation, which is a",
+        "start": 3266.72,
+        "duration": 5.28
+    },
+    {
+        "text": "self-haste ability, um, which hastes you",
+        "start": 3268.88,
+        "duration": 5.12
+    },
+    {
+        "text": "for three turns, and you you concentrate",
+        "start": 3272.0,
+        "duration": 3.76
+    },
+    {
+        "text": "on it for three turns, getting the full",
+        "start": 3274.0,
+        "duration": 3.76
+    },
+    {
+        "text": "value of haste, makes you incredibly",
+        "start": 3275.76,
+        "duration": 3.92
+    },
+    {
+        "text": "mobile, of course, cuz it it increases",
+        "start": 3277.76,
+        "duration": 4.0
+    },
+    {
+        "text": "your movement speed and lets you get",
+        "start": 3279.68,
+        "duration": 4.72
+    },
+    {
+        "text": "close to enemies much more easily. but",
+        "start": 3281.76,
+        "duration": 7.44
+    },
+    {
+        "text": "also uh it is unique on honor mode in",
+        "start": 3284.4,
+        "duration": 7.76
+    },
+    {
+        "text": "that it is a haste uh form of haste that",
+        "start": 3289.2,
+        "duration": 6.159
+    },
+    {
+        "text": "works with improved wild strike. Um so",
+        "start": 3292.16,
+        "duration": 5.6
+    },
+    {
+        "text": "when you cast Mermadon's immulation uh",
+        "start": 3295.359,
+        "duration": 4.48
+    },
+    {
+        "text": "if you hasted yourself you would only",
+        "start": 3297.76,
+        "duration": 4.319
+    },
+    {
+        "text": "get one extra attack on honor mode or",
+        "start": 3299.839,
+        "duration": 3.681
+    },
+    {
+        "text": "three extra attacks on lower",
+        "start": 3302.079,
+        "duration": 3.04
+    },
+    {
+        "text": "difficulties the because of the way that",
+        "start": 3303.52,
+        "duration": 4.0
+    },
+    {
+        "text": "haste works differently on honor mode.",
+        "start": 3305.119,
+        "duration": 4.401
+    },
+    {
+        "text": "If you use Mermodon's immulation on",
+        "start": 3307.52,
+        "duration": 4.079
+    },
+    {
+        "text": "yourself, even on honor mode, you get",
+        "start": 3309.52,
+        "duration": 4.72
+    },
+    {
+        "text": "the full uh three extra attacks. So,",
+        "start": 3311.599,
+        "duration": 4.96
+    },
+    {
+        "text": "you're going to get six attacks in a",
+        "start": 3314.24,
+        "duration": 5.599
+    },
+    {
+        "text": "given turn um with scorching strike. And",
+        "start": 3316.559,
+        "duration": 6.161
+    },
+    {
+        "text": "that can be a lot of additional damage.",
+        "start": 3319.839,
+        "duration": 6.561
+    },
+    {
+        "text": "Nope, we uh uh broke concentration and",
+        "start": 3322.72,
+        "duration": 5.2
+    },
+    {
+        "text": "stunned myself there as I was trying to",
+        "start": 3326.4,
+        "duration": 3.679
+    },
+    {
+        "text": "demo demo that uh because of the return",
+        "start": 3327.92,
+        "duration": 3.6
+    },
+    {
+        "text": "damage. You do have to be careful of",
+        "start": 3330.079,
+        "duration": 3.28
+    },
+    {
+        "text": "that. Uh that's kind of funny, but that",
+        "start": 3331.52,
+        "duration": 3.599
+    },
+    {
+        "text": "can be a huge amount of additional",
+        "start": 3333.359,
+        "duration": 4.72
+    },
+    {
+        "text": "damage. And since it is at will ha uh",
+        "start": 3335.119,
+        "duration": 5.921
+    },
+    {
+        "text": "self haste, um you get to make uh six",
+        "start": 3338.079,
+        "duration": 5.28
+    },
+    {
+        "text": "attacks basically every turn of combat",
+        "start": 3341.04,
+        "duration": 4.72
+    },
+    {
+        "text": "when playing this character.",
+        "start": 3343.359,
+        "duration": 4.561
+    },
+    {
+        "text": "Uh it's still going to be lower damage",
+        "start": 3345.76,
+        "duration": 4.24
+    },
+    {
+        "text": "than the earthmadon's three attacks cuz",
+        "start": 3347.92,
+        "duration": 4.48
+    },
+    {
+        "text": "those individual attacks hit so hard and",
+        "start": 3350.0,
+        "duration": 4.72
+    },
+    {
+        "text": "so accurately. But if you need extra",
+        "start": 3352.4,
+        "duration": 5.84
+    },
+    {
+        "text": "mobility um with the fire Mermadon or if",
+        "start": 3354.72,
+        "duration": 7.28
+    },
+    {
+        "text": "the fire immunity is relevant, this uh",
+        "start": 3358.24,
+        "duration": 6.879
+    },
+    {
+        "text": "wild shape form does comparable damage",
+        "start": 3362.0,
+        "duration": 4.799
+    },
+    {
+        "text": "to the earth Mermadon because it makes",
+        "start": 3365.119,
+        "duration": 3.921
+    },
+    {
+        "text": "just so many attacks. Also, because",
+        "start": 3366.799,
+        "duration": 4.32
+    },
+    {
+        "text": "you're making six attacks per turn, it's",
+        "start": 3369.04,
+        "duration": 3.759
+    },
+    {
+        "text": "fairly likely that like one or two of",
+        "start": 3371.119,
+        "duration": 3.44
+    },
+    {
+        "text": "them will critical as well and so you",
+        "start": 3372.799,
+        "duration": 4.241
+    },
+    {
+        "text": "get even more damage. Um, and so the the",
+        "start": 3374.559,
+        "duration": 5.681
+    },
+    {
+        "text": "the Fire Mermadon ends up being uh what",
+        "start": 3377.04,
+        "duration": 4.88
+    },
+    {
+        "text": "you would kind of expect it to be, a",
+        "start": 3380.24,
+        "duration": 3.92
+    },
+    {
+        "text": "mobile striker where if you need a",
+        "start": 3381.92,
+        "duration": 4.24
+    },
+    {
+        "text": "specific enemy that's hard to reach",
+        "start": 3384.16,
+        "duration": 3.919
+    },
+    {
+        "text": "dead, uh, you can get to it with the",
+        "start": 3386.16,
+        "duration": 3.76
+    },
+    {
+        "text": "Fire Mermaidon thanks to its incredible",
+        "start": 3388.079,
+        "duration": 4.401
+    },
+    {
+        "text": "mobility and kill it uh, almost",
+        "start": 3389.92,
+        "duration": 4.72
+    },
+    {
+        "text": "certainly thanks to its absurd damage",
+        "start": 3392.48,
+        "duration": 3.92
+    },
+    {
+        "text": "output with six attacks in a given",
+        "start": 3394.64,
+        "duration": 3.36
+    },
+    {
+        "text": "round.",
+        "start": 3396.4,
+        "duration": 2.719
+    },
+    {
+        "text": ">> All right, my friends. I hope that",
+        "start": 3398.0,
+        "duration": 2.48
+    },
+    {
+        "text": "you've enjoyed this look at the wild",
+        "start": 3399.119,
+        "duration": 3.2
+    },
+    {
+        "text": "shape forms for druid and I hope it",
+        "start": 3400.48,
+        "duration": 4.24
+    },
+    {
+        "text": "helps you pick which uh form to wild",
+        "start": 3402.319,
+        "duration": 4.401
+    },
+    {
+        "text": "shape into. Like I said at the",
+        "start": 3404.72,
+        "duration": 4.96
+    },
+    {
+        "text": "beginning, a very solid heristic is use",
+        "start": 3406.72,
+        "duration": 5.68
+    },
+    {
+        "text": "spider until level six, use owl bear",
+        "start": 3409.68,
+        "duration": 4.879
+    },
+    {
+        "text": "until level 10, then use earthmadon",
+        "start": 3412.4,
+        "duration": 4.399
+    },
+    {
+        "text": "form. But there's a lot of extra value",
+        "start": 3414.559,
+        "duration": 4.641
+    },
+    {
+        "text": "that you can get out of swapping in",
+        "start": 3416.799,
+        "duration": 3.921
+    },
+    {
+        "text": "between forms depending on the",
+        "start": 3419.2,
+        "duration": 3.919
+    },
+    {
+        "text": "encounter. For longer boss fights,",
+        "start": 3420.72,
+        "duration": 4.72
+    },
+    {
+        "text": "Dilophosaurus or Air Mermdon are very",
+        "start": 3423.119,
+        "duration": 5.601
+    },
+    {
+        "text": "helpful. Um, deeper can work very very",
+        "start": 3425.44,
+        "duration": 5.2
+    },
+    {
+        "text": "well with parties that have a lot of",
+        "start": 3428.72,
+        "duration": 3.839
+    },
+    {
+        "text": "prone synergy. And so there's a lot of",
+        "start": 3430.64,
+        "duration": 4.24
+    },
+    {
+        "text": "different forms that you can uh and wolf",
+        "start": 3432.559,
+        "duration": 3.921
+    },
+    {
+        "text": "makes a really good early game damage",
+        "start": 3434.88,
+        "duration": 3.439
+    },
+    {
+        "text": "source. There's a lot of different forms",
+        "start": 3436.48,
+        "duration": 3.599
+    },
+    {
+        "text": "that you can swap into depending on what",
+        "start": 3438.319,
+        "duration": 3.28
+    },
+    {
+        "text": "your party needs. And you can get some",
+        "start": 3440.079,
+        "duration": 3.601
+    },
+    {
+        "text": "advantages by wild shaping into the",
+        "start": 3441.599,
+        "duration": 4.321
+    },
+    {
+        "text": "appropriate animal. It's not quite as",
+        "start": 3443.68,
+        "duration": 5.04
+    },
+    {
+        "text": "balanced as the uh beast master",
+        "start": 3445.92,
+        "duration": 5.12
+    },
+    {
+        "text": "companions. Uh I think that some wild",
+        "start": 3448.72,
+        "duration": 4.24
+    },
+    {
+        "text": "shape forms definitely are better than",
+        "start": 3451.04,
+        "duration": 3.2
+    },
+    {
+        "text": "others. you know, the ones that I",
+        "start": 3452.96,
+        "duration": 3.2
+    },
+    {
+        "text": "mentioned as being particularly good,",
+        "start": 3454.24,
+        "duration": 3.44
+    },
+    {
+        "text": "but even the ones that are less",
+        "start": 3456.16,
+        "duration": 3.52
+    },
+    {
+        "text": "generally applicable can be really good",
+        "start": 3457.68,
+        "duration": 4.32
+    },
+    {
+        "text": "in certain circumstances.",
+        "start": 3459.68,
+        "duration": 4.08
+    },
+    {
+        "text": "As always, of course, if you've enjoyed",
+        "start": 3462.0,
+        "duration": 3.52
+    },
+    {
+        "text": "the video, then feel free to leave a",
+        "start": 3463.76,
+        "duration": 3.2
+    },
+    {
+        "text": "comment. Let me know if there's anything",
+        "start": 3465.52,
+        "duration": 3.599
+    },
+    {
+        "text": "I wasn't considering about any of these",
+        "start": 3466.96,
+        "duration": 3.92
+    },
+    {
+        "text": "wild shape forms that you think uh",
+        "start": 3469.119,
+        "duration": 3.761
+    },
+    {
+        "text": "deserves to be in the conversation. And",
+        "start": 3470.88,
+        "duration": 3.679
+    },
+    {
+        "text": "of course, you can hit the like button",
+        "start": 3472.88,
+        "duration": 3.36
+    },
+    {
+        "text": "uh which helps me out with the",
+        "start": 3474.559,
+        "duration": 3.76
+    },
+    {
+        "text": "algorithm. So, I appreciate you taking",
+        "start": 3476.24,
+        "duration": 4.4
+    },
+    {
+        "text": "the time to do that. And as always, you",
+        "start": 3478.319,
+        "duration": 4.0
+    },
+    {
+        "text": "can subscribe to my channel for more",
+        "start": 3480.64,
+        "duration": 4.24
+    },
+    {
+        "text": "Balders's Gate 3 and other strategy game",
+        "start": 3482.319,
+        "duration": 6.321
+    },
+    {
+        "text": "analysis. Cheers, folks.",
+        "start": 3484.88,
+        "duration": 3.76
+    }
+]

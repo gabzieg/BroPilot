@@ -1,0 +1,3262 @@
+[
+    {
+        "text": "Hello my friends and welcome back to",
+        "start": 0.4,
+        "duration": 3.36
+    },
+    {
+        "text": "another Baldur's Gate 3 character",
+        "start": 2.16,
+        "duration": 3.24
+    },
+    {
+        "text": "building guide. Hope you're all doing",
+        "start": 3.76,
+        "duration": 3.52
+    },
+    {
+        "text": "well. Today, you might think we're",
+        "start": 5.4,
+        "duration": 3.64
+    },
+    {
+        "text": "making a character, but this character",
+        "start": 7.28,
+        "duration": 4.8
+    },
+    {
+        "text": "is actually four dogs, seen here posing",
+        "start": 9.04,
+        "duration": 5.56
+    },
+    {
+        "text": "for the cover of their newest album. At",
+        "start": 12.08,
+        "duration": 4.84
+    },
+    {
+        "text": "its heart, Baldur's Gate 3 is a pretty",
+        "start": 14.6,
+        "duration": 5.72
+    },
+    {
+        "text": "dark story, one of love, loss, and",
+        "start": 16.92,
+        "duration": 5.68
+    },
+    {
+        "text": "resilience in the face of overwhelming",
+        "start": 20.32,
+        "duration": 4.56
+    },
+    {
+        "text": "tragedy. But, I think the people of this",
+        "start": 22.6,
+        "duration": 4.88
+    },
+    {
+        "text": "world deserve happiness, and what better",
+        "start": 24.88,
+        "duration": 4.32
+    },
+    {
+        "text": "way to bring it to them than a pack of",
+        "start": 27.48,
+        "duration": 3.76
+    },
+    {
+        "text": "very good boys and girls running around",
+        "start": 29.2,
+        "duration": 3.28
+    },
+    {
+        "text": "Faerun.",
+        "start": 31.24,
+        "duration": 2.6
+    },
+    {
+        "text": "If you've ever thought that things would",
+        "start": 32.48,
+        "duration": 4.36
+    },
+    {
+        "text": "be just a lot easier and simpler if you",
+        "start": 33.84,
+        "duration": 5.16
+    },
+    {
+        "text": "were actually four dogs, or if you've",
+        "start": 36.84,
+        "duration": 4.0
+    },
+    {
+        "text": "ever thought Karlach really deserves a",
+        "start": 39.0,
+        "duration": 4.52
+    },
+    {
+        "text": "friend who's actually four dogs, or if",
+        "start": 40.84,
+        "duration": 4.76
+    },
+    {
+        "text": "you just want to spook Shadowheart, this",
+        "start": 43.52,
+        "duration": 3.68
+    },
+    {
+        "text": "is the build for you.",
+        "start": 45.6,
+        "duration": 3.08
+    },
+    {
+        "text": "Now, before I begin, I have a quick",
+        "start": 47.2,
+        "duration": 4.0
+    },
+    {
+        "text": "announcement that I want to cover. So,",
+        "start": 48.68,
+        "duration": 5.36
+    },
+    {
+        "text": "either just before or soon after this",
+        "start": 51.2,
+        "duration": 5.44
+    },
+    {
+        "text": "video is posted, uh we'll most likely",
+        "start": 54.04,
+        "duration": 4.76
+    },
+    {
+        "text": "have hit 100,000",
+        "start": 56.64,
+        "duration": 4.8
+    },
+    {
+        "text": "subscribers, which is a truly",
+        "start": 58.8,
+        "duration": 5.719
+    },
+    {
+        "text": "mind-blowing number. Um genuinely, I",
+        "start": 61.44,
+        "duration": 4.96
+    },
+    {
+        "text": "can't thank you all enough for the",
+        "start": 64.519,
+        "duration": 3.761
+    },
+    {
+        "text": "incredible support that you've shown",
+        "start": 66.4,
+        "duration": 4.6
+    },
+    {
+        "text": "over the last few years. Uh whether",
+        "start": 68.28,
+        "duration": 4.32
+    },
+    {
+        "text": "you're just joining now or whether",
+        "start": 71.0,
+        "duration": 3.0
+    },
+    {
+        "text": "you've been with me for that entire",
+        "start": 72.6,
+        "duration": 3.96
+    },
+    {
+        "text": "journey, it truly means so much to me",
+        "start": 74.0,
+        "duration": 4.52
+    },
+    {
+        "text": "that people have enjoyed what I've been",
+        "start": 76.56,
+        "duration": 4.04
+    },
+    {
+        "text": "doing here, and it's changed my life for",
+        "start": 78.52,
+        "duration": 4.96
+    },
+    {
+        "text": "the better in so many ways, both large",
+        "start": 80.6,
+        "duration": 5.48
+    },
+    {
+        "text": "and small. Um I'm I'm going to be doing",
+        "start": 83.48,
+        "duration": 4.28
+    },
+    {
+        "text": "a couple things to celebrate over the",
+        "start": 86.08,
+        "duration": 3.56
+    },
+    {
+        "text": "next couple weeks, but for one of them,",
+        "start": 87.76,
+        "duration": 3.52
+    },
+    {
+        "text": "I'll be doing an AMA, uh an",
+        "start": 89.64,
+        "duration": 3.8
+    },
+    {
+        "text": "ask-me-anything video. So, if you have",
+        "start": 91.28,
+        "duration": 4.36
+    },
+    {
+        "text": "any questions for me, whether about",
+        "start": 93.44,
+        "duration": 5.08
+    },
+    {
+        "text": "games, um about the experience of making",
+        "start": 95.64,
+        "duration": 5.12
+    },
+    {
+        "text": "YouTube videos uh for the past 2 and 1/2",
+        "start": 98.52,
+        "duration": 5.68
+    },
+    {
+        "text": "years, um or any personal questions, uh",
+        "start": 100.76,
+        "duration": 5.6
+    },
+    {
+        "text": "please post them in the comments of this",
+        "start": 104.2,
+        "duration": 4.64
+    },
+    {
+        "text": "video or in the comments of the text",
+        "start": 106.36,
+        "duration": 4.92
+    },
+    {
+        "text": "post that I'll also be doing about this.",
+        "start": 108.84,
+        "duration": 4.6
+    },
+    {
+        "text": "Um and I will answer as many of those as",
+        "start": 111.28,
+        "duration": 4.92
+    },
+    {
+        "text": "I can. And uh once again, I just want to",
+        "start": 113.44,
+        "duration": 4.84
+    },
+    {
+        "text": "say thank you so much, everyone. This is",
+        "start": 116.2,
+        "duration": 4.56
+    },
+    {
+        "text": "truly amazing. It feels a little silly",
+        "start": 118.28,
+        "duration": 5.76
+    },
+    {
+        "text": "to be doing a such a heartfelt message",
+        "start": 120.76,
+        "duration": 6.6
+    },
+    {
+        "text": "during the April Fools video, and you",
+        "start": 124.04,
+        "duration": 4.88
+    },
+    {
+        "text": "know, I apologize for taking some time",
+        "start": 127.36,
+        "duration": 3.24
+    },
+    {
+        "text": "to gush here, but I really feel like",
+        "start": 128.92,
+        "duration": 4.32
+    },
+    {
+        "text": "100,000 is a milestone very much worth",
+        "start": 130.6,
+        "duration": 4.24
+    },
+    {
+        "text": "celebrating.",
+        "start": 133.24,
+        "duration": 3.32
+    },
+    {
+        "text": "And finally, before we jump in, I also",
+        "start": 134.84,
+        "duration": 3.56
+    },
+    {
+        "text": "want to say thank you so much to HC",
+        "start": 136.56,
+        "duration": 4.0
+    },
+    {
+        "text": "Sympatagia for the €5 donation,",
+        "start": 138.4,
+        "duration": 4.92
+    },
+    {
+        "text": "Tarantula for the $5, Portia Bill for",
+        "start": 140.56,
+        "duration": 5.48
+    },
+    {
+        "text": "the super generous $50, and Stacy",
+        "start": 143.32,
+        "duration": 5.08
+    },
+    {
+        "text": "Cargill, Rain Country, and John Walker",
+        "start": 146.04,
+        "duration": 4.0
+    },
+    {
+        "text": "for becoming channel members. Thank you",
+        "start": 148.4,
+        "duration": 3.88
+    },
+    {
+        "text": "so much, my friends. It really means so",
+        "start": 150.04,
+        "duration": 5.32
+    },
+    {
+        "text": "much to me. All right, let's become some",
+        "start": 152.28,
+        "duration": 5.32
+    },
+    {
+        "text": "dogs.",
+        "start": 155.36,
+        "duration": 3.68
+    },
+    {
+        "text": "I'm using this custom Githyanki",
+        "start": 157.6,
+        "duration": 3.16
+    },
+    {
+        "text": "character as the example character here,",
+        "start": 159.04,
+        "duration": 3.08
+    },
+    {
+        "text": "because of course we're going to want",
+        "start": 160.76,
+        "duration": 4.04
+    },
+    {
+        "text": "Scratch as part of our pack, and it's",
+        "start": 162.12,
+        "duration": 4.64
+    },
+    {
+        "text": "easiest to bond him to your main",
+        "start": 164.8,
+        "duration": 4.08
+    },
+    {
+        "text": "character. I also think that Githyanki",
+        "start": 166.76,
+        "duration": 3.76
+    },
+    {
+        "text": "makes an excellent choice for the four",
+        "start": 168.88,
+        "duration": 4.24
+    },
+    {
+        "text": "dogs build, uh because their long",
+        "start": 170.52,
+        "duration": 4.92
+    },
+    {
+        "text": "pointed ears predispose them to being",
+        "start": 173.12,
+        "duration": 5.16
+    },
+    {
+        "text": "good at being four dogs. Other great",
+        "start": 175.44,
+        "duration": 4.799
+    },
+    {
+        "text": "options include wood elf for half wood",
+        "start": 178.28,
+        "duration": 3.72
+    },
+    {
+        "text": "elf, which get the same ear-based",
+        "start": 180.239,
+        "duration": 4.961
+    },
+    {
+        "text": "benefits, but also get extra uh movement",
+        "start": 182.0,
+        "duration": 5.32
+    },
+    {
+        "text": "speed, which can let you bite enemies",
+        "start": 185.2,
+        "duration": 4.12
+    },
+    {
+        "text": "from further away, chase sticks further,",
+        "start": 187.32,
+        "duration": 4.04
+    },
+    {
+        "text": "and maybe finally catch the cart that",
+        "start": 189.32,
+        "duration": 3.6
+    },
+    {
+        "text": "you've been following.",
+        "start": 191.36,
+        "duration": 2.92
+    },
+    {
+        "text": "At first level, we're going to be",
+        "start": 192.92,
+        "duration": 3.52
+    },
+    {
+        "text": "starting with a level of druid, uh",
+        "start": 194.28,
+        "duration": 3.84
+    },
+    {
+        "text": "because of course we want to unlock our",
+        "start": 196.44,
+        "duration": 3.72
+    },
+    {
+        "text": "doggy powers as soon as possible. And",
+        "start": 198.12,
+        "duration": 4.08
+    },
+    {
+        "text": "druids also get speak with animals,",
+        "start": 200.16,
+        "duration": 3.88
+    },
+    {
+        "text": "which will allow us to communicate with",
+        "start": 202.2,
+        "duration": 4.12
+    },
+    {
+        "text": "our fellow beasts, and begin creating",
+        "start": 204.04,
+        "duration": 4.68
+    },
+    {
+        "text": "the ultimate canine community as quickly",
+        "start": 206.32,
+        "duration": 4.76
+    },
+    {
+        "text": "as possible. For our cantrip selection,",
+        "start": 208.72,
+        "duration": 3.84
+    },
+    {
+        "text": "we're going to be going with guidance.",
+        "start": 211.08,
+        "duration": 4.76
+    },
+    {
+        "text": "Of course, guide dogs are uh a very",
+        "start": 212.56,
+        "duration": 5.64
+    },
+    {
+        "text": "well-known subclass of dogs, so it would",
+        "start": 215.84,
+        "duration": 4.6
+    },
+    {
+        "text": "make sense for us to be able to do that,",
+        "start": 218.2,
+        "duration": 4.52
+    },
+    {
+        "text": "and it's a spell that every party should",
+        "start": 220.44,
+        "duration": 5.24
+    },
+    {
+        "text": "have, and poison spray. Poison spray",
+        "start": 222.72,
+        "duration": 5.04
+    },
+    {
+        "text": "isn't usual in optimized character",
+        "start": 225.68,
+        "duration": 4.24
+    },
+    {
+        "text": "builds, but necessary for the dog build.",
+        "start": 227.76,
+        "duration": 4.84
+    },
+    {
+        "text": "Projecting a puff of noxious gas, as any",
+        "start": 229.92,
+        "duration": 4.8
+    },
+    {
+        "text": "dog owner can tell you, is one of their",
+        "start": 232.6,
+        "duration": 5.6
+    },
+    {
+        "text": "most iconic abilities and fundamental to",
+        "start": 234.72,
+        "duration": 5.88
+    },
+    {
+        "text": "the power of this character.",
+        "start": 238.2,
+        "duration": 4.16
+    },
+    {
+        "text": "For our ability score selection, we're",
+        "start": 240.6,
+        "duration": 3.84
+    },
+    {
+        "text": "going to be taking a somewhat unusual",
+        "start": 242.36,
+        "duration": 4.04
+    },
+    {
+        "text": "attribute split. Firstly, we're going to",
+        "start": 244.44,
+        "duration": 4.48
+    },
+    {
+        "text": "be taking 16 wisdom. Now, obviously,",
+        "start": 246.4,
+        "duration": 4.76
+    },
+    {
+        "text": "dogs are not generally known for their",
+        "start": 248.92,
+        "duration": 4.56
+    },
+    {
+        "text": "wisdom, but I think they have a kind of",
+        "start": 251.16,
+        "duration": 4.0
+    },
+    {
+        "text": "wisdom to them. Any creature that",
+        "start": 253.48,
+        "duration": 4.8
+    },
+    {
+        "text": "content, I feel, must be in some ways",
+        "start": 255.16,
+        "duration": 5.639
+    },
+    {
+        "text": "wise. We're also going to be taking 16",
+        "start": 258.28,
+        "duration": 4.88
+    },
+    {
+        "text": "charisma. The obviously, you don't need",
+        "start": 260.799,
+        "duration": 4.521
+    },
+    {
+        "text": "an explanation for that, and it will let",
+        "start": 263.16,
+        "duration": 3.759
+    },
+    {
+        "text": "us use our sorcerer spells more",
+        "start": 265.32,
+        "duration": 4.2
+    },
+    {
+        "text": "effectively. We'll be taking a 14 in",
+        "start": 266.919,
+        "duration": 4.761
+    },
+    {
+        "text": "constitution, and then only 12 in",
+        "start": 269.52,
+        "duration": 4.24
+    },
+    {
+        "text": "dexterity. Now, normally, 12 dexterity",
+        "start": 271.68,
+        "duration": 4.08
+    },
+    {
+        "text": "would be a problem in Baldur's Gate 3,",
+        "start": 273.76,
+        "duration": 3.68
+    },
+    {
+        "text": "where dexterity is very important, but",
+        "start": 275.76,
+        "duration": 2.84
+    },
+    {
+        "text": "for this character, we're going to be",
+        "start": 277.44,
+        "duration": 3.68
+    },
+    {
+        "text": "spending almost all of our time in dog",
+        "start": 278.6,
+        "duration": 4.96
+    },
+    {
+        "text": "form, replacing our physical attribute",
+        "start": 281.12,
+        "duration": 4.6
+    },
+    {
+        "text": "scores with that of the wolf form, so",
+        "start": 283.56,
+        "duration": 4.24
+    },
+    {
+        "text": "our actual character's dexterity doesn't",
+        "start": 285.72,
+        "duration": 4.16
+    },
+    {
+        "text": "really matter that much. For our skill",
+        "start": 287.8,
+        "duration": 3.56
+    },
+    {
+        "text": "selection, we're going to be taking",
+        "start": 289.88,
+        "duration": 3.4
+    },
+    {
+        "text": "animal handling and perception. Of",
+        "start": 291.36,
+        "duration": 3.8
+    },
+    {
+        "text": "course, we have an amazing sense of",
+        "start": 293.28,
+        "duration": 4.52
+    },
+    {
+        "text": "smell, and animal handling is of",
+        "start": 295.16,
+        "duration": 5.48
+    },
+    {
+        "text": "obviously necessary to be the leader of",
+        "start": 297.8,
+        "duration": 4.16
+    },
+    {
+        "text": "our pack.",
+        "start": 300.64,
+        "duration": 2.84
+    },
+    {
+        "text": "Other than that, we don't have any major",
+        "start": 301.96,
+        "duration": 3.64
+    },
+    {
+        "text": "decisions to make at level one, so let's",
+        "start": 303.48,
+        "duration": 4.08
+    },
+    {
+        "text": "move on to level two.",
+        "start": 305.6,
+        "duration": 3.96
+    },
+    {
+        "text": "At character level two, we're taking our",
+        "start": 307.56,
+        "duration": 3.8
+    },
+    {
+        "text": "second level of druid so that we can",
+        "start": 309.56,
+        "duration": 4.16
+    },
+    {
+        "text": "enter our true form. Of course, at level",
+        "start": 311.36,
+        "duration": 4.32
+    },
+    {
+        "text": "two druid, you get wild shape for the",
+        "start": 313.72,
+        "duration": 4.88
+    },
+    {
+        "text": "all-important wild shape wolf. For our",
+        "start": 315.68,
+        "duration": 4.72
+    },
+    {
+        "text": "druid sub class, we're going to be",
+        "start": 318.6,
+        "duration": 4.96
+    },
+    {
+        "text": "taking the circle of the moon druid, um",
+        "start": 320.4,
+        "duration": 4.8
+    },
+    {
+        "text": "because we want to be able to wild shape",
+        "start": 323.56,
+        "duration": 4.28
+    },
+    {
+        "text": "as a bonus action after casting a spell",
+        "start": 325.2,
+        "duration": 5.04
+    },
+    {
+        "text": "for the times that we're not in dog form",
+        "start": 327.84,
+        "duration": 3.84
+    },
+    {
+        "text": "already.",
+        "start": 330.24,
+        "duration": 3.76
+    },
+    {
+        "text": "Uh this way, we can haste ourselves and",
+        "start": 331.68,
+        "duration": 4.48
+    },
+    {
+        "text": "all of our canine companions, and then",
+        "start": 334.0,
+        "duration": 5.2
+    },
+    {
+        "text": "still be a dog during the actual fight.",
+        "start": 336.16,
+        "duration": 4.92
+    },
+    {
+        "text": "For our prepared spells, as well, it's",
+        "start": 339.2,
+        "duration": 3.48
+    },
+    {
+        "text": "important, of course, that we have speak",
+        "start": 341.08,
+        "duration": 3.76
+    },
+    {
+        "text": "with animals, um and we're also going to",
+        "start": 342.68,
+        "duration": 3.84
+    },
+    {
+        "text": "pick pick long strider, which you can",
+        "start": 344.84,
+        "duration": 4.36
+    },
+    {
+        "text": "use freely on all of your buddies.",
+        "start": 346.52,
+        "duration": 6.52
+    },
+    {
+        "text": "Enhance leap as well works on every one",
+        "start": 349.2,
+        "duration": 5.92
+    },
+    {
+        "text": "of the dogs that's capable of jumping",
+        "start": 353.04,
+        "duration": 4.08
+    },
+    {
+        "text": "and so they can compete in like the",
+        "start": 355.12,
+        "duration": 4.24
+    },
+    {
+        "text": "Westminster dog show if you want them",
+        "start": 357.12,
+        "duration": 3.8
+    },
+    {
+        "text": "to. And then we can pick up some",
+        "start": 359.36,
+        "duration": 3.72
+    },
+    {
+        "text": "concentration spells like entangle and",
+        "start": 360.92,
+        "duration": 4.2
+    },
+    {
+        "text": "fog cloud that we can concentrate on",
+        "start": 363.08,
+        "duration": 4.56
+    },
+    {
+        "text": "while we're in wild shape form.",
+        "start": 365.12,
+        "duration": 4.24
+    },
+    {
+        "text": "At character level three, we've already",
+        "start": 367.64,
+        "duration": 3.16
+    },
+    {
+        "text": "gotten everything that we need from",
+        "start": 369.36,
+        "duration": 3.28
+    },
+    {
+        "text": "druid. So we're immediately going to",
+        "start": 370.8,
+        "duration": 3.76
+    },
+    {
+        "text": "multi class and start taking levels of",
+        "start": 372.64,
+        "duration": 4.08
+    },
+    {
+        "text": "ranger to unlock our second canine",
+        "start": 374.56,
+        "duration": 4.6
+    },
+    {
+        "text": "companion. For our favored enemy here,",
+        "start": 376.72,
+        "duration": 4.56
+    },
+    {
+        "text": "we're going to take ranger knight. Heavy",
+        "start": 379.16,
+        "duration": 4.28
+    },
+    {
+        "text": "armor proficiency is still pretty useful",
+        "start": 381.28,
+        "duration": 4.08
+    },
+    {
+        "text": "to this character",
+        "start": 383.44,
+        "duration": 3.88
+    },
+    {
+        "text": "because there will be times when we get",
+        "start": 385.36,
+        "duration": 4.04
+    },
+    {
+        "text": "knocked out of dog form and we want to",
+        "start": 387.32,
+        "duration": 5.0
+    },
+    {
+        "text": "be in heavy armor in those cases because",
+        "start": 389.4,
+        "duration": 4.96
+    },
+    {
+        "text": "we're going to have we want to stay",
+        "start": 392.32,
+        "duration": 4.0
+    },
+    {
+        "text": "alive so that we can re-wild shape as",
+        "start": 394.36,
+        "duration": 4.88
+    },
+    {
+        "text": "quickly as possible. And thanks to our",
+        "start": 396.32,
+        "duration": 5.04
+    },
+    {
+        "text": "low dexterity, we get more benefit from",
+        "start": 399.24,
+        "duration": 3.8
+    },
+    {
+        "text": "heavy armor than most characters cuz it",
+        "start": 401.36,
+        "duration": 3.44
+    },
+    {
+        "text": "doesn't interfere with our armor class",
+        "start": 403.04,
+        "duration": 5.68
+    },
+    {
+        "text": "as much. For our natural explorer, we're",
+        "start": 404.8,
+        "duration": 5.8
+    },
+    {
+        "text": "going to go ahead and take wasteland",
+        "start": 408.72,
+        "duration": 5.56
+    },
+    {
+        "text": "wanderer cold cuz if you look at the",
+        "start": 410.6,
+        "duration": 6.16
+    },
+    {
+        "text": "wolf wild shape form, it has a really",
+        "start": 414.28,
+        "duration": 4.68
+    },
+    {
+        "text": "big thick fur coat and so it doesn't",
+        "start": 416.76,
+        "duration": 3.76
+    },
+    {
+        "text": "make sense that it's taking full damage",
+        "start": 418.96,
+        "duration": 3.56
+    },
+    {
+        "text": "from cold. So obviously we need to fix",
+        "start": 420.52,
+        "duration": 5.04
+    },
+    {
+        "text": "that. For our ability here, we get to",
+        "start": 422.52,
+        "duration": 6.28
+    },
+    {
+        "text": "add an additional skill and here I'm",
+        "start": 425.56,
+        "duration": 6.4
+    },
+    {
+        "text": "going to suggest that we take survival.",
+        "start": 428.8,
+        "duration": 5.119
+    },
+    {
+        "text": "I don't think that dogs are particularly",
+        "start": 431.96,
+        "duration": 3.88
+    },
+    {
+        "text": "stealthy typically unless they're",
+        "start": 433.919,
+        "duration": 4.321
+    },
+    {
+        "text": "stealing a chicken off the counter,",
+        "start": 435.84,
+        "duration": 4.12
+    },
+    {
+        "text": "but survival makes a lot of sense cuz",
+        "start": 438.24,
+        "duration": 3.84
+    },
+    {
+        "text": "you can sniff out food pretty much",
+        "start": 439.96,
+        "duration": 4.12
+    },
+    {
+        "text": "anywhere.",
+        "start": 442.08,
+        "duration": 3.6
+    },
+    {
+        "text": "At character level four, we're taking",
+        "start": 444.08,
+        "duration": 3.92
+    },
+    {
+        "text": "our second level of ranger, which gets",
+        "start": 445.68,
+        "duration": 4.28
+    },
+    {
+        "text": "us two spells. Here of course we're",
+        "start": 448.0,
+        "duration": 4.04
+    },
+    {
+        "text": "going to take hunter's mark because we",
+        "start": 449.96,
+        "duration": 5.12
+    },
+    {
+        "text": "are dogged in pursuit and also ensnaring",
+        "start": 452.04,
+        "duration": 4.12
+    },
+    {
+        "text": "strike",
+        "start": 455.08,
+        "duration": 2.76
+    },
+    {
+        "text": "because it's the most powerful option",
+        "start": 456.16,
+        "duration": 3.68
+    },
+    {
+        "text": "for when you happen to not be in dog",
+        "start": 457.84,
+        "duration": 4.6
+    },
+    {
+        "text": "form in terms of combat capability. For",
+        "start": 459.84,
+        "duration": 4.24
+    },
+    {
+        "text": "our fighting style, we're going to take",
+        "start": 462.44,
+        "duration": 3.32
+    },
+    {
+        "text": "defense fighting style. If you're",
+        "start": 464.08,
+        "duration": 4.04
+    },
+    {
+        "text": "wearing armor before you transform, you",
+        "start": 465.76,
+        "duration": 4.68
+    },
+    {
+        "text": "do keep the defense fighting style bonus",
+        "start": 468.12,
+        "duration": 4.48
+    },
+    {
+        "text": "during wild shape. So, it will give us",
+        "start": 470.44,
+        "duration": 5.6
+    },
+    {
+        "text": "an extra armor class while we're a wolf.",
+        "start": 472.6,
+        "duration": 5.28
+    },
+    {
+        "text": "At character level five, we get to take",
+        "start": 476.04,
+        "duration": 4.0
+    },
+    {
+        "text": "our third level of Ranger to become a",
+        "start": 477.88,
+        "duration": 5.12
+    },
+    {
+        "text": "beast master Ranger, unlocking our",
+        "start": 480.04,
+        "duration": 6.56
+    },
+    {
+        "text": "second dog companion. Um with the",
+        "start": 483.0,
+        "duration": 5.0
+    },
+    {
+        "text": "Ranger's companion feature, of course,",
+        "start": 486.6,
+        "duration": 3.68
+    },
+    {
+        "text": "we can summon the wolf, which is exactly",
+        "start": 488.0,
+        "duration": 4.64
+    },
+    {
+        "text": "what we need to be able to do. We also",
+        "start": 490.28,
+        "duration": 3.92
+    },
+    {
+        "text": "get an additional spell. Here, we're",
+        "start": 492.64,
+        "duration": 3.72
+    },
+    {
+        "text": "going to take enhance sleep. Uh while",
+        "start": 494.2,
+        "duration": 4.28
+    },
+    {
+        "text": "obviously druids also have access to",
+        "start": 496.36,
+        "duration": 3.8
+    },
+    {
+        "text": "this, this effectively gives it to us",
+        "start": 498.48,
+        "duration": 4.76
+    },
+    {
+        "text": "always prepared, um which means that we",
+        "start": 500.16,
+        "duration": 4.8
+    },
+    {
+        "text": "no longer have to use a druid spell",
+        "start": 503.24,
+        "duration": 4.36
+    },
+    {
+        "text": "preparation slot on that and can uh",
+        "start": 504.96,
+        "duration": 5.08
+    },
+    {
+        "text": "prepare something else instead. Other",
+        "start": 507.6,
+        "duration": 4.0
+    },
+    {
+        "text": "than that, no decisions to make at",
+        "start": 510.04,
+        "duration": 3.76
+    },
+    {
+        "text": "Ranger level three. So, let's move on to",
+        "start": 511.6,
+        "duration": 4.28
+    },
+    {
+        "text": "character level six.",
+        "start": 513.8,
+        "duration": 3.56
+    },
+    {
+        "text": "At character level six, we're going to",
+        "start": 515.88,
+        "duration": 3.839
+    },
+    {
+        "text": "multi-class yet again and take a level",
+        "start": 517.36,
+        "duration": 4.92
+    },
+    {
+        "text": "of sorcerer because in patch eight, the",
+        "start": 519.719,
+        "duration": 4.801
+    },
+    {
+        "text": "shadow magic sorcerer was added, giving",
+        "start": 522.28,
+        "duration": 4.64
+    },
+    {
+        "text": "us yet another dog for our arsenal. It",
+        "start": 524.52,
+        "duration": 3.88
+    },
+    {
+        "text": "also gives us some pretty powerful",
+        "start": 526.92,
+        "duration": 4.919
+    },
+    {
+        "text": "bonuses. Um for example, superior dark",
+        "start": 528.4,
+        "duration": 5.84
+    },
+    {
+        "text": "vision is really nice for this character",
+        "start": 531.839,
+        "duration": 4.561
+    },
+    {
+        "text": "because while dogs generally don't have",
+        "start": 534.24,
+        "duration": 4.16
+    },
+    {
+        "text": "great night vision, they do have",
+        "start": 536.4,
+        "duration": 4.24
+    },
+    {
+        "text": "excellent senses of smell and can easily",
+        "start": 538.4,
+        "duration": 4.16
+    },
+    {
+        "text": "find things even if they can't see them.",
+        "start": 540.64,
+        "duration": 3.76
+    },
+    {
+        "text": "So, superior dark vision gives you a",
+        "start": 542.56,
+        "duration": 3.52
+    },
+    {
+        "text": "great way to represent that. You can",
+        "start": 544.4,
+        "duration": 4.72
+    },
+    {
+        "text": "still find enemies or allies even if you",
+        "start": 546.08,
+        "duration": 5.2
+    },
+    {
+        "text": "can't see them at night.",
+        "start": 549.12,
+        "duration": 4.0
+    },
+    {
+        "text": "For our cantrip selection here, we're",
+        "start": 551.28,
+        "duration": 4.84
+    },
+    {
+        "text": "going to take minor illusion. Of course,",
+        "start": 553.12,
+        "duration": 4.12
+    },
+    {
+        "text": "um",
+        "start": 556.12,
+        "duration": 2.8
+    },
+    {
+        "text": "one thing that I know having lived",
+        "start": 557.24,
+        "duration": 4.36
+    },
+    {
+        "text": "around dogs much of my life is that",
+        "start": 558.92,
+        "duration": 4.44
+    },
+    {
+        "text": "they're incredible at creating a",
+        "start": 561.6,
+        "duration": 4.32
+    },
+    {
+        "text": "distraction, and minor illusion gives us",
+        "start": 563.36,
+        "duration": 4.44
+    },
+    {
+        "text": "that option. It also gives us a cat to",
+        "start": 565.92,
+        "duration": 3.919
+    },
+    {
+        "text": "chase around whenever we want. Of",
+        "start": 567.8,
+        "duration": 3.44
+    },
+    {
+        "text": "course, we're going to take friends",
+        "start": 569.839,
+        "duration": 4.481
+    },
+    {
+        "text": "because we are man's or humanoid's best",
+        "start": 571.24,
+        "duration": 6.96
+    },
+    {
+        "text": "friend. Uh and we'll take mage hand.",
+        "start": 574.32,
+        "duration": 5.84
+    },
+    {
+        "text": "Um, this I think is going to be",
+        "start": 578.2,
+        "duration": 4.28
+    },
+    {
+        "text": "basically the perfect toy to play with",
+        "start": 580.16,
+        "duration": 4.76
+    },
+    {
+        "text": "and it can throw stuff for us to fetch.",
+        "start": 582.48,
+        "duration": 4.2
+    },
+    {
+        "text": "And then finally, uh, in addition to",
+        "start": 584.92,
+        "duration": 3.52
+    },
+    {
+        "text": "that, we're also going to take blade",
+        "start": 586.68,
+        "duration": 3.64
+    },
+    {
+        "text": "ward. Blade ward can help keep you in",
+        "start": 588.44,
+        "duration": 3.92
+    },
+    {
+        "text": "dog form for longer cuz you can cast it",
+        "start": 590.32,
+        "duration": 4.04
+    },
+    {
+        "text": "before you wild shape and then keep the",
+        "start": 592.36,
+        "duration": 4.84
+    },
+    {
+        "text": "blade bar wait blade ward buff for one",
+        "start": 594.36,
+        "duration": 3.84
+    },
+    {
+        "text": "turn,",
+        "start": 597.2,
+        "duration": 3.2
+    },
+    {
+        "text": "um, giving you damage resistance to stop",
+        "start": 598.2,
+        "duration": 4.44
+    },
+    {
+        "text": "enemies from knocking you back out of",
+        "start": 600.4,
+        "duration": 3.96
+    },
+    {
+        "text": "wild shape form.",
+        "start": 602.64,
+        "duration": 4.0
+    },
+    {
+        "text": "Uh, for our spell selection here, we're",
+        "start": 604.36,
+        "duration": 4.48
+    },
+    {
+        "text": "going to go ahead and take mage armor.",
+        "start": 606.64,
+        "duration": 4.88
+    },
+    {
+        "text": "The wolf companion has a fairly low base",
+        "start": 608.84,
+        "duration": 5.0
+    },
+    {
+        "text": "armor class, so mage armor will actually",
+        "start": 611.52,
+        "duration": 4.8
+    },
+    {
+        "text": "increase our armor class by one. Uh, and",
+        "start": 613.84,
+        "duration": 4.44
+    },
+    {
+        "text": "we're going to take false life as well.",
+        "start": 616.32,
+        "duration": 3.64
+    },
+    {
+        "text": "Uh, the temporary hit points we will",
+        "start": 618.28,
+        "duration": 4.08
+    },
+    {
+        "text": "keep after transforming into wild shape",
+        "start": 619.96,
+        "duration": 4.96
+    },
+    {
+        "text": "form. So again, this can keep us in dog",
+        "start": 622.36,
+        "duration": 5.16
+    },
+    {
+        "text": "form for a little bit longer.",
+        "start": 624.92,
+        "duration": 4.28
+    },
+    {
+        "text": "At character level seven, we're taking",
+        "start": 627.52,
+        "duration": 3.48
+    },
+    {
+        "text": "our second level of sorcerer, which gets",
+        "start": 629.2,
+        "duration": 3.84
+    },
+    {
+        "text": "us another spell. Here we're going to",
+        "start": 631.0,
+        "duration": 4.56
+    },
+    {
+        "text": "take expeditious retreat. This is",
+        "start": 633.04,
+        "duration": 4.52
+    },
+    {
+        "text": "another benefit that we can keep while",
+        "start": 635.56,
+        "duration": 3.64
+    },
+    {
+        "text": "in wild shape form as long as we don't",
+        "start": 637.56,
+        "duration": 4.68
+    },
+    {
+        "text": "lose concentration on it. And you do get",
+        "start": 639.2,
+        "duration": 5.76
+    },
+    {
+        "text": "to dash as a bonus action while in wild",
+        "start": 642.24,
+        "duration": 4.28
+    },
+    {
+        "text": "shape form if you have expeditious",
+        "start": 644.96,
+        "duration": 3.68
+    },
+    {
+        "text": "retreat. This can let you run further",
+        "start": 646.52,
+        "duration": 3.56
+    },
+    {
+        "text": "either to get hordes or away from",
+        "start": 648.64,
+        "duration": 3.72
+    },
+    {
+        "text": "enemies or for example to pull a sled",
+        "start": 650.08,
+        "duration": 4.4
+    },
+    {
+        "text": "across the frozen tundra.",
+        "start": 652.36,
+        "duration": 5.72
+    },
+    {
+        "text": "Uh, we also get meta magic and here",
+        "start": 654.48,
+        "duration": 5.08
+    },
+    {
+        "text": "we're going to take twin spell. This",
+        "start": 658.08,
+        "duration": 3.4
+    },
+    {
+        "text": "will be extremely useful to haste",
+        "start": 659.56,
+        "duration": 5.48
+    },
+    {
+        "text": "multiple of our dog companions. Uh, and",
+        "start": 661.48,
+        "duration": 5.359
+    },
+    {
+        "text": "extended spell for the same reason.",
+        "start": 665.04,
+        "duration": 3.72
+    },
+    {
+        "text": "Extended haste is something that we can",
+        "start": 666.839,
+        "duration": 4.761
+    },
+    {
+        "text": "use to, uh, give ourselves enormous",
+        "start": 668.76,
+        "duration": 5.0
+    },
+    {
+        "text": "buffs that last potentially for multiple",
+        "start": 671.6,
+        "duration": 4.16
+    },
+    {
+        "text": "encounters if you run quickly between",
+        "start": 673.76,
+        "duration": 5.2
+    },
+    {
+        "text": "them uh, and don't pause to to stop and",
+        "start": 675.76,
+        "duration": 5.32
+    },
+    {
+        "text": "do other stuff. You can often keep keep",
+        "start": 678.96,
+        "duration": 4.4
+    },
+    {
+        "text": "haste going for multiple encounters if",
+        "start": 681.08,
+        "duration": 4.64
+    },
+    {
+        "text": "you have it extended.",
+        "start": 683.36,
+        "duration": 4.04
+    },
+    {
+        "text": "At level eight, we're taking our third",
+        "start": 685.72,
+        "duration": 4.08
+    },
+    {
+        "text": "level of sorcerer here, um, which gives",
+        "start": 687.4,
+        "duration": 4.72
+    },
+    {
+        "text": "us access to second level sorcerer",
+        "start": 689.8,
+        "duration": 4.84
+    },
+    {
+        "text": "spells as well as the ability to see in",
+        "start": 692.12,
+        "duration": 4.64
+    },
+    {
+        "text": "the dark when we use eyes of the dark",
+        "start": 694.64,
+        "duration": 5.36
+    },
+    {
+        "text": "darkness. This of course represents our",
+        "start": 696.76,
+        "duration": 5.24
+    },
+    {
+        "text": "sense of smell getting increasingly",
+        "start": 700.0,
+        "duration": 4.48
+    },
+    {
+        "text": "keen, especially as we add more and more",
+        "start": 702.0,
+        "duration": 4.56
+    },
+    {
+        "text": "dogs into the pack. They can all be",
+        "start": 704.48,
+        "duration": 3.84
+    },
+    {
+        "text": "smelling things or just running around",
+        "start": 706.56,
+        "duration": 3.56
+    },
+    {
+        "text": "finding stuff for us. So being able to",
+        "start": 708.32,
+        "duration": 3.72
+    },
+    {
+        "text": "see in the dark, I think makes perfect",
+        "start": 710.12,
+        "duration": 4.36
+    },
+    {
+        "text": "sense for this character. Um darkness",
+        "start": 712.04,
+        "duration": 4.8
+    },
+    {
+        "text": "can also of course prevent protect us",
+        "start": 714.48,
+        "duration": 4.04
+    },
+    {
+        "text": "from enemy ranged attacks, which are one",
+        "start": 716.84,
+        "duration": 4.16
+    },
+    {
+        "text": "of the easiest ways for our dogs to be",
+        "start": 718.52,
+        "duration": 4.24
+    },
+    {
+        "text": "at risk or for us to get knocked out of",
+        "start": 721.0,
+        "duration": 5.16
+    },
+    {
+        "text": "wild shape form. We also get to take",
+        "start": 722.76,
+        "duration": 5.88
+    },
+    {
+        "text": "level two spells and the spell that",
+        "start": 726.16,
+        "duration": 3.84
+    },
+    {
+        "text": "we're going to take at this level is",
+        "start": 728.64,
+        "duration": 3.76
+    },
+    {
+        "text": "misty step. If there's again one thing",
+        "start": 730.0,
+        "duration": 4.12
+    },
+    {
+        "text": "that I've learned living around dogs,",
+        "start": 732.4,
+        "duration": 3.76
+    },
+    {
+        "text": "it's that they appear where you weren't",
+        "start": 734.12,
+        "duration": 4.2
+    },
+    {
+        "text": "expecting them extremely frequently,",
+        "start": 736.16,
+        "duration": 4.16
+    },
+    {
+        "text": "usually right behind you on the stairs.",
+        "start": 738.32,
+        "duration": 4.04
+    },
+    {
+        "text": "So we want to represent that as best as",
+        "start": 740.32,
+        "duration": 4.52
+    },
+    {
+        "text": "possible. We're also going to take",
+        "start": 742.36,
+        "duration": 4.52
+    },
+    {
+        "text": "quickened spell as our meta magic. Of",
+        "start": 744.84,
+        "duration": 3.56
+    },
+    {
+        "text": "course, quickened spell lets us cast",
+        "start": 746.88,
+        "duration": 3.2
+    },
+    {
+        "text": "multiple spells in our turn so that we",
+        "start": 748.4,
+        "duration": 3.72
+    },
+    {
+        "text": "can use our powerful sorcerer spells and",
+        "start": 750.08,
+        "duration": 5.0
+    },
+    {
+        "text": "later on our wizard spells",
+        "start": 752.12,
+        "duration": 3.68
+    },
+    {
+        "text": "um",
+        "start": 755.08,
+        "duration": 3.2
+    },
+    {
+        "text": "alongside other spell casting or other",
+        "start": 755.8,
+        "duration": 4.44
+    },
+    {
+        "text": "actions that we might need to take. Now",
+        "start": 758.28,
+        "duration": 5.4
+    },
+    {
+        "text": "as a circle of the moon druid, you will",
+        "start": 760.24,
+        "duration": 5.04
+    },
+    {
+        "text": "be using your main action to cast a",
+        "start": 763.68,
+        "duration": 3.4
+    },
+    {
+        "text": "spell and then your bonus action to wild",
+        "start": 765.28,
+        "duration": 3.32
+    },
+    {
+        "text": "shape. So you won't need to quicken",
+        "start": 767.08,
+        "duration": 3.24
+    },
+    {
+        "text": "spells in order to wild shape in the",
+        "start": 768.6,
+        "duration": 4.04
+    },
+    {
+        "text": "same turn. But quickened spell is still",
+        "start": 770.32,
+        "duration": 3.92
+    },
+    {
+        "text": "very useful for when you want to cast",
+        "start": 772.64,
+        "duration": 4.44
+    },
+    {
+        "text": "multiple spells.",
+        "start": 774.24,
+        "duration": 4.64
+    },
+    {
+        "text": "At level nine, we're taking our fourth",
+        "start": 777.08,
+        "duration": 4.48
+    },
+    {
+        "text": "level of sorcerer here and we get an",
+        "start": 778.88,
+        "duration": 4.72
+    },
+    {
+        "text": "additional can trip and here we're going",
+        "start": 781.56,
+        "duration": 4.2
+    },
+    {
+        "text": "to take booming blade. It's the loudest",
+        "start": 783.6,
+        "duration": 5.64
+    },
+    {
+        "text": "can trip and unexplained booms are also",
+        "start": 785.76,
+        "duration": 7.079
+    },
+    {
+        "text": "of course a constant when any dogs are",
+        "start": 789.24,
+        "duration": 6.44
+    },
+    {
+        "text": "around. Um and then we're also going to",
+        "start": 792.839,
+        "duration": 5.161
+    },
+    {
+        "text": "take another spell here and here we're",
+        "start": 795.68,
+        "duration": 5.24
+    },
+    {
+        "text": "going to take invisibility. This will",
+        "start": 798.0,
+        "duration": 5.28
+    },
+    {
+        "text": "let us get out of combats that we don't",
+        "start": 800.92,
+        "duration": 4.28
+    },
+    {
+        "text": "want to be in. And of course, you don't",
+        "start": 803.28,
+        "duration": 3.88
+    },
+    {
+        "text": "want anyone to see your shame if you get",
+        "start": 805.2,
+        "duration": 4.2
+    },
+    {
+        "text": "knocked out of dog form and back into",
+        "start": 807.16,
+        "duration": 4.8
+    },
+    {
+        "text": "icky humanoid form. Uh so being able to",
+        "start": 809.4,
+        "duration": 5.12
+    },
+    {
+        "text": "turn invisible and run away um will",
+        "start": 811.96,
+        "duration": 5.16
+    },
+    {
+        "text": "prevent the social ostracization that",
+        "start": 814.52,
+        "duration": 4.48
+    },
+    {
+        "text": "would result from that. We also get an",
+        "start": 817.12,
+        "duration": 3.6
+    },
+    {
+        "text": "additional feat here, and of course",
+        "start": 819.0,
+        "duration": 3.64
+    },
+    {
+        "text": "we're going to take alert uh so that we",
+        "start": 820.72,
+        "duration": 3.72
+    },
+    {
+        "text": "can more easily sense approaching",
+        "start": 822.64,
+        "duration": 5.68
+    },
+    {
+        "text": "mailmen or bark when the doorbell rings.",
+        "start": 824.44,
+        "duration": 5.28
+    },
+    {
+        "text": "At character level 10, we're going to",
+        "start": 828.32,
+        "duration": 3.48
+    },
+    {
+        "text": "take our fifth level of sorcerer,",
+        "start": 829.72,
+        "duration": 4.28
+    },
+    {
+        "text": "getting access to third level spells.",
+        "start": 831.8,
+        "duration": 3.48
+    },
+    {
+        "text": "And of course we've already talked",
+        "start": 834.0,
+        "duration": 3.44
+    },
+    {
+        "text": "extensively about the main third level",
+        "start": 835.28,
+        "duration": 4.12
+    },
+    {
+        "text": "spell that this character is going to be",
+        "start": 837.44,
+        "duration": 4.72
+    },
+    {
+        "text": "using, which is of course haste. Uh with",
+        "start": 839.4,
+        "duration": 5.0
+    },
+    {
+        "text": "twinned haste, you can haste yourself",
+        "start": 842.16,
+        "duration": 4.96
+    },
+    {
+        "text": "and one of your other doggy companions,",
+        "start": 844.4,
+        "duration": 4.64
+    },
+    {
+        "text": "and you can maintain concentration on",
+        "start": 847.12,
+        "duration": 4.12
+    },
+    {
+        "text": "haste while in wild shape. Not only does",
+        "start": 849.04,
+        "duration": 3.84
+    },
+    {
+        "text": "it give you extra mobility, it gives you",
+        "start": 851.24,
+        "duration": 3.48
+    },
+    {
+        "text": "extra armor class, which makes it easier",
+        "start": 852.88,
+        "duration": 3.6
+    },
+    {
+        "text": "to stay in wild shape even with the very",
+        "start": 854.72,
+        "duration": 3.08
+    },
+    {
+        "text": "low hit points that you're going to",
+        "start": 856.48,
+        "duration": 3.92
+    },
+    {
+        "text": "have. Uh and if you have another party",
+        "start": 857.8,
+        "duration": 4.4
+    },
+    {
+        "text": "member capable of casting haste, you",
+        "start": 860.4,
+        "duration": 4.52
+    },
+    {
+        "text": "could be a a pack of four dogs all",
+        "start": 862.2,
+        "duration": 4.36
+    },
+    {
+        "text": "hasted running around at the speed of",
+        "start": 864.92,
+        "duration": 3.72
+    },
+    {
+        "text": "light, which is basically as good as",
+        "start": 866.56,
+        "duration": 4.56
+    },
+    {
+        "text": "sticking your head out of a car window.",
+        "start": 868.64,
+        "duration": 4.6
+    },
+    {
+        "text": "We also get to replace one of our spells",
+        "start": 871.12,
+        "duration": 4.8
+    },
+    {
+        "text": "because expeditious retreat more or less",
+        "start": 873.24,
+        "duration": 4.24
+    },
+    {
+        "text": "fills the same function that haste would",
+        "start": 875.92,
+        "duration": 2.8
+    },
+    {
+        "text": "have been. We're almost always going to",
+        "start": 877.48,
+        "duration": 3.32
+    },
+    {
+        "text": "be using our concentration on haste",
+        "start": 878.72,
+        "duration": 4.52
+    },
+    {
+        "text": "instead uh in wild shape form, so we no",
+        "start": 880.8,
+        "duration": 4.52
+    },
+    {
+        "text": "longer really need expeditious retreat",
+        "start": 883.24,
+        "duration": 3.8
+    },
+    {
+        "text": "and can replace that. There's a lot of",
+        "start": 885.32,
+        "duration": 3.24
+    },
+    {
+        "text": "options here. You can take counter",
+        "start": 887.04,
+        "duration": 3.52
+    },
+    {
+        "text": "spell, always of course an extremely",
+        "start": 888.56,
+        "duration": 3.96
+    },
+    {
+        "text": "powerful option, though not usable in",
+        "start": 890.56,
+        "duration": 4.36
+    },
+    {
+        "text": "wild shape. You can take a damage spell",
+        "start": 892.52,
+        "duration": 4.56
+    },
+    {
+        "text": "or control spell like sleet storm or",
+        "start": 894.92,
+        "duration": 4.28
+    },
+    {
+        "text": "fireball or lightning bolt yourself",
+        "start": 897.08,
+        "duration": 3.8
+    },
+    {
+        "text": "something to do when you do get knocked",
+        "start": 899.2,
+        "duration": 3.6
+    },
+    {
+        "text": "out of wild shape form. But for my",
+        "start": 900.88,
+        "duration": 4.12
+    },
+    {
+        "text": "money, the best pick here is hold person",
+        "start": 902.8,
+        "duration": 4.76
+    },
+    {
+        "text": "to represent the classic dog maneuver of",
+        "start": 905.0,
+        "duration": 4.4
+    },
+    {
+        "text": "leaning their entire body weight against",
+        "start": 907.56,
+        "duration": 3.64
+    },
+    {
+        "text": "your leg so that if you move even",
+        "start": 909.4,
+        "duration": 3.8
+    },
+    {
+        "text": "slightly, they fall over, trapping you",
+        "start": 911.2,
+        "duration": 4.32
+    },
+    {
+        "text": "in place completely.",
+        "start": 913.2,
+        "duration": 4.68
+    },
+    {
+        "text": "And then at character level 11, we get",
+        "start": 915.52,
+        "duration": 5.24
+    },
+    {
+        "text": "to unlock our fourth dog, making this",
+        "start": 917.88,
+        "duration": 5.72
+    },
+    {
+        "text": "character fully four dogs at this point",
+        "start": 920.76,
+        "duration": 5.08
+    },
+    {
+        "text": "because of course by now we've",
+        "start": 923.6,
+        "duration": 4.92
+    },
+    {
+        "text": "added scratch as well. We take our sixth",
+        "start": 925.84,
+        "duration": 5.12
+    },
+    {
+        "text": "level of shadow sorcerer and get a",
+        "start": 928.52,
+        "duration": 4.76
+    },
+    {
+        "text": "summon Nimbus using three of our sorcery",
+        "start": 930.96,
+        "duration": 4.36
+    },
+    {
+        "text": "points. Typically you're going to want",
+        "start": 933.28,
+        "duration": 4.68
+    },
+    {
+        "text": "to put haste on Nimbus. This can easily",
+        "start": 935.32,
+        "duration": 5.48
+    },
+    {
+        "text": "give you sorcery points back and with",
+        "start": 937.96,
+        "duration": 4.4
+    },
+    {
+        "text": "your party members providing the",
+        "start": 940.8,
+        "duration": 4.72
+    },
+    {
+        "text": "appropriate damage types for the omens",
+        "start": 942.36,
+        "duration": 4.92
+    },
+    {
+        "text": "Nimbus attacking multiple times and",
+        "start": 945.52,
+        "duration": 3.48
+    },
+    {
+        "text": "applying multiple omens is very",
+        "start": 947.28,
+        "duration": 4.2
+    },
+    {
+        "text": "powerful. So this way you can re-summon",
+        "start": 949.0,
+        "duration": 3.88
+    },
+    {
+        "text": "Nimbus if",
+        "start": 951.48,
+        "duration": 4.32
+    },
+    {
+        "text": "they happen to fall and this will give",
+        "start": 952.88,
+        "duration": 7.2
+    },
+    {
+        "text": "you another glorious dog companion. We",
+        "start": 955.8,
+        "duration": 6.32
+    },
+    {
+        "text": "also get an additional level three spell",
+        "start": 960.08,
+        "duration": 4.16
+    },
+    {
+        "text": "here and there's again a lot of options",
+        "start": 962.12,
+        "duration": 4.56
+    },
+    {
+        "text": "but once again representing a classic",
+        "start": 964.24,
+        "duration": 4.28
+    },
+    {
+        "text": "dog maneuver we're going to take",
+        "start": 966.68,
+        "duration": 4.76
+    },
+    {
+        "text": "stinking cloud.",
+        "start": 968.52,
+        "duration": 6.0
+    },
+    {
+        "text": "Finally at character level 12 we already",
+        "start": 971.44,
+        "duration": 6.36
+    },
+    {
+        "text": "have all of our dog related bonuses from",
+        "start": 974.52,
+        "duration": 4.76
+    },
+    {
+        "text": "class levels.",
+        "start": 977.8,
+        "duration": 4.04
+    },
+    {
+        "text": "So our last level we're pretty open as",
+        "start": 979.28,
+        "duration": 4.68
+    },
+    {
+        "text": "to what we're going to do. There's a lot",
+        "start": 981.84,
+        "duration": 3.76
+    },
+    {
+        "text": "of different options here. You can take",
+        "start": 983.96,
+        "duration": 3.48
+    },
+    {
+        "text": "a fourth level of Ranger for an extra",
+        "start": 985.6,
+        "duration": 3.8
+    },
+    {
+        "text": "feat, a seventh level of sorcerer for",
+        "start": 987.44,
+        "duration": 3.96
+    },
+    {
+        "text": "more sorcery points and access to fourth",
+        "start": 989.4,
+        "duration": 3.76
+    },
+    {
+        "text": "level spells",
+        "start": 991.4,
+        "duration": 3.56
+    },
+    {
+        "text": "but what we're going to do here is take",
+        "start": 993.16,
+        "duration": 3.92
+    },
+    {
+        "text": "a level of wizard. This character",
+        "start": 994.96,
+        "duration": 4.96
+    },
+    {
+        "text": "actually has 10 total caster levels",
+        "start": 997.08,
+        "duration": 4.48
+    },
+    {
+        "text": "after the level of wizard giving us",
+        "start": 999.92,
+        "duration": 4.24
+    },
+    {
+        "text": "fifth level wizard spells and although",
+        "start": 1001.56,
+        "duration": 4.44
+    },
+    {
+        "text": "we have low intelligence we can use the",
+        "start": 1004.16,
+        "duration": 3.92
+    },
+    {
+        "text": "warped headband of intellect to prepare",
+        "start": 1006.0,
+        "duration": 3.92
+    },
+    {
+        "text": "a few wizard spells and get access to",
+        "start": 1008.08,
+        "duration": 4.36
+    },
+    {
+        "text": "higher level spell casting",
+        "start": 1009.92,
+        "duration": 4.96
+    },
+    {
+        "text": "meaning that even if you actually want",
+        "start": 1012.44,
+        "duration": 3.72
+    },
+    {
+        "text": "to play this build you can take the",
+        "start": 1014.88,
+        "duration": 3.28
+    },
+    {
+        "text": "level of wizard a little bit earlier and",
+        "start": 1016.16,
+        "duration": 3.76
+    },
+    {
+        "text": "be a totally functional character",
+        "start": 1018.16,
+        "duration": 3.56
+    },
+    {
+        "text": "throughout the entire game or you can",
+        "start": 1019.92,
+        "duration": 3.919
+    },
+    {
+        "text": "just play this in the end game running",
+        "start": 1021.72,
+        "duration": 4.4
+    },
+    {
+        "text": "around with decent casting as well as",
+        "start": 1023.839,
+        "duration": 4.841
+    },
+    {
+        "text": "being four dogs. Being a wizard of",
+        "start": 1026.12,
+        "duration": 5.04
+    },
+    {
+        "text": "course also lets us learn three more",
+        "start": 1028.68,
+        "duration": 4.96
+    },
+    {
+        "text": "cantrips and we finally get to learn",
+        "start": 1031.16,
+        "duration": 4.2
+    },
+    {
+        "text": "true strike to annoy people in the",
+        "start": 1033.64,
+        "duration": 3.36
+    },
+    {
+        "text": "YouTube comments.",
+        "start": 1035.36,
+        "duration": 4.24
+    },
+    {
+        "text": "We'll also take dancing lights because",
+        "start": 1037.0,
+        "duration": 4.16
+    },
+    {
+        "text": "it'll I",
+        "start": 1039.6,
+        "duration": 4.56
+    },
+    {
+        "text": "potentially attract cats or geckos for",
+        "start": 1041.16,
+        "duration": 5.4
+    },
+    {
+        "text": "us to chase around.",
+        "start": 1044.16,
+        "duration": 5.44
+    },
+    {
+        "text": "And let's take bursting sinew just",
+        "start": 1046.56,
+        "duration": 5.8
+    },
+    {
+        "text": "because the imagery is funny. We also",
+        "start": 1049.6,
+        "duration": 4.84
+    },
+    {
+        "text": "get some spells here. Of course, you're",
+        "start": 1052.36,
+        "duration": 3.64
+    },
+    {
+        "text": "going to be able to learn a bunch of",
+        "start": 1054.44,
+        "duration": 3.0
+    },
+    {
+        "text": "spells from scrolls. So, we're just",
+        "start": 1056.0,
+        "duration": 3.0
+    },
+    {
+        "text": "going to learn the spells that you can't",
+        "start": 1057.44,
+        "duration": 3.52
+    },
+    {
+        "text": "learn from scrolls, shield and find",
+        "start": 1059.0,
+        "duration": 3.84
+    },
+    {
+        "text": "familiar. Everything else here you can",
+        "start": 1060.96,
+        "duration": 4.2
+    },
+    {
+        "text": "pick up from a scroll, but other good",
+        "start": 1062.84,
+        "duration": 4.32
+    },
+    {
+        "text": "options include protection from good and",
+        "start": 1065.16,
+        "duration": 4.6
+    },
+    {
+        "text": "evil, which you can concentrate on and",
+        "start": 1067.16,
+        "duration": 4.2
+    },
+    {
+        "text": "you know, you want your dog protected",
+        "start": 1069.76,
+        "duration": 2.76
+    },
+    {
+        "text": "from evil.",
+        "start": 1071.36,
+        "duration": 4.32
+    },
+    {
+        "text": "Sleep, which of course is one of our",
+        "start": 1072.52,
+        "duration": 5.2
+    },
+    {
+        "text": "very favorite things and a great use for",
+        "start": 1075.68,
+        "duration": 4.24
+    },
+    {
+        "text": "our high-level spell slots to make sure",
+        "start": 1077.72,
+        "duration": 4.92
+    },
+    {
+        "text": "that everyone enjoys a good nap.",
+        "start": 1079.92,
+        "duration": 5.4
+    },
+    {
+        "text": "Feather fall because you know, dogs",
+        "start": 1082.64,
+        "duration": 4.16
+    },
+    {
+        "text": "always land on their feet. Is that how",
+        "start": 1085.32,
+        "duration": 3.96
+    },
+    {
+        "text": "the saying goes? And then finally,",
+        "start": 1086.8,
+        "duration": 4.84
+    },
+    {
+        "text": "disguise self again to hide your shame",
+        "start": 1089.28,
+        "duration": 5.88
+    },
+    {
+        "text": "if you do get caught out in human form.",
+        "start": 1091.64,
+        "duration": 5.04
+    },
+    {
+        "text": "All right, my friends. That is the build",
+        "start": 1095.16,
+        "duration": 3.04
+    },
+    {
+        "text": "and I hope that you've enjoyed it and I",
+        "start": 1096.68,
+        "duration": 4.24
+    },
+    {
+        "text": "hope it helps you in all of your deeply",
+        "start": 1098.2,
+        "duration": 4.84
+    },
+    {
+        "text": "serious honor mode runs. But of course,",
+        "start": 1100.92,
+        "duration": 4.12
+    },
+    {
+        "text": "we can make ourselves even more powerful",
+        "start": 1103.04,
+        "duration": 5.76
+    },
+    {
+        "text": "with items. So, let's talk about those.",
+        "start": 1105.04,
+        "duration": 5.48
+    },
+    {
+        "text": "For items for this character, because",
+        "start": 1108.8,
+        "duration": 4.0
+    },
+    {
+        "text": "we're a wild shaping character, there's",
+        "start": 1110.52,
+        "duration": 4.6
+    },
+    {
+        "text": "only a few items in the game that work",
+        "start": 1112.8,
+        "duration": 4.48
+    },
+    {
+        "text": "while you're wild shaped. So, primarily",
+        "start": 1115.12,
+        "duration": 4.28
+    },
+    {
+        "text": "we're going to be working with those.",
+        "start": 1117.28,
+        "duration": 4.0
+    },
+    {
+        "text": "The first and most important of these",
+        "start": 1119.4,
+        "duration": 3.92
+    },
+    {
+        "text": "for our character is the armor of moon",
+        "start": 1121.28,
+        "duration": 4.12
+    },
+    {
+        "text": "basking. This is going to give us extra",
+        "start": 1123.32,
+        "duration": 4.68
+    },
+    {
+        "text": "temporary hit points and reduce all",
+        "start": 1125.4,
+        "duration": 4.8
+    },
+    {
+        "text": "incoming damage by one when we wild",
+        "start": 1128.0,
+        "duration": 4.48
+    },
+    {
+        "text": "shape. It also increases our armor class",
+        "start": 1130.2,
+        "duration": 3.96
+    },
+    {
+        "text": "and gives us advantage on saving throws",
+        "start": 1132.48,
+        "duration": 4.88
+    },
+    {
+        "text": "against spells. This is a pretty massive",
+        "start": 1134.16,
+        "duration": 6.56
+    },
+    {
+        "text": "bonus to the low health",
+        "start": 1137.36,
+        "duration": 5.92
+    },
+    {
+        "text": "dog form of this character because with",
+        "start": 1140.72,
+        "duration": 4.52
+    },
+    {
+        "text": "only two levels in druid, our wild shape",
+        "start": 1143.28,
+        "duration": 3.56
+    },
+    {
+        "text": "form is very low health. So, the armor",
+        "start": 1145.24,
+        "duration": 4.64
+    },
+    {
+        "text": "of moon basking kind of doubles our",
+        "start": 1146.84,
+        "duration": 5.48
+    },
+    {
+        "text": "effective health on this character.",
+        "start": 1149.88,
+        "duration": 4.76
+    },
+    {
+        "text": "There are also a few more items that",
+        "start": 1152.32,
+        "duration": 4.8
+    },
+    {
+        "text": "still work in wild shape. The",
+        "start": 1154.64,
+        "duration": 5.8
+    },
+    {
+        "text": "shapeshifter's boon ring will give you a",
+        "start": 1157.12,
+        "duration": 4.96
+    },
+    {
+        "text": "bonus to all of your checks while you're",
+        "start": 1160.44,
+        "duration": 3.64
+    },
+    {
+        "text": "wild shaped. Now, mostly this won't come",
+        "start": 1162.08,
+        "duration": 3.88
+    },
+    {
+        "text": "up because",
+        "start": 1164.08,
+        "duration": 3.4
+    },
+    {
+        "text": "you don't make a lot of skill checks in",
+        "start": 1165.96,
+        "duration": 3.96
+    },
+    {
+        "text": "wild shape form, but it can happen. And",
+        "start": 1167.48,
+        "duration": 4.4
+    },
+    {
+        "text": "we also do have disguise self, so the",
+        "start": 1169.92,
+        "duration": 4.08
+    },
+    {
+        "text": "shapeshifter's boon ring will give us",
+        "start": 1171.88,
+        "duration": 4.6
+    },
+    {
+        "text": "that bonus in that case. The boots of",
+        "start": 1174.0,
+        "duration": 4.32
+    },
+    {
+        "text": "striding are another pretty important",
+        "start": 1176.48,
+        "duration": 3.52
+    },
+    {
+        "text": "one for this character.",
+        "start": 1178.32,
+        "duration": 4.36
+    },
+    {
+        "text": "If you are wearing these before you wild",
+        "start": 1180.0,
+        "duration": 4.96
+    },
+    {
+        "text": "shape and concentrating on a spell, you",
+        "start": 1182.68,
+        "duration": 4.08
+    },
+    {
+        "text": "keep the prone immunity while you're",
+        "start": 1184.96,
+        "duration": 4.16
+    },
+    {
+        "text": "wild shaped. And in fact, you keep the",
+        "start": 1186.76,
+        "duration": 5.12
+    },
+    {
+        "text": "prone immunity until wild shape ends,",
+        "start": 1189.12,
+        "duration": 4.56
+    },
+    {
+        "text": "even if you lose concentration on the",
+        "start": 1191.88,
+        "duration": 4.16
+    },
+    {
+        "text": "spell or the spell duration ends. So,",
+        "start": 1193.68,
+        "duration": 5.2
+    },
+    {
+        "text": "you can become perfectly immune to prone",
+        "start": 1196.04,
+        "duration": 4.64
+    },
+    {
+        "text": "while constant",
+        "start": 1198.88,
+        "duration": 3.36
+    },
+    {
+        "text": "by putting on the boots of striding",
+        "start": 1200.68,
+        "duration": 4.56
+    },
+    {
+        "text": "before you enter wild shape. The corvid",
+        "start": 1202.24,
+        "duration": 5.68
+    },
+    {
+        "text": "token also works while you're polymorph",
+        "start": 1205.24,
+        "duration": 4.56
+    },
+    {
+        "text": "or wild shape, giving you feather fall",
+        "start": 1207.92,
+        "duration": 5.04
+    },
+    {
+        "text": "and giving you additional jump speed.",
+        "start": 1209.8,
+        "duration": 5.84
+    },
+    {
+        "text": "And that is, of course, really helpful",
+        "start": 1212.96,
+        "duration": 3.72
+    },
+    {
+        "text": "for",
+        "start": 1215.64,
+        "duration": 3.8
+    },
+    {
+        "text": "bounding along with your doggie buddies.",
+        "start": 1216.68,
+        "duration": 4.52
+    },
+    {
+        "text": "And another one that works",
+        "start": 1219.44,
+        "duration": 4.16
+    },
+    {
+        "text": "in wild shape is the true love's caress",
+        "start": 1221.2,
+        "duration": 5.04
+    },
+    {
+        "text": "and true love's embrace rings. These",
+        "start": 1223.6,
+        "duration": 4.6
+    },
+    {
+        "text": "work in either direction. If you cast",
+        "start": 1226.24,
+        "duration": 3.92
+    },
+    {
+        "text": "the warding bond before entering wild",
+        "start": 1228.2,
+        "duration": 4.56
+    },
+    {
+        "text": "shape, you can either pass damage from",
+        "start": 1230.16,
+        "duration": 5.36
+    },
+    {
+        "text": "one of your dog companions to you",
+        "start": 1232.76,
+        "duration": 4.12
+    },
+    {
+        "text": "Well, they can't they can't wear rings.",
+        "start": 1235.52,
+        "duration": 3.24
+    },
+    {
+        "text": "From one of your allies to you, excuse",
+        "start": 1236.88,
+        "duration": 2.88
+    },
+    {
+        "text": "me.",
+        "start": 1238.76,
+        "duration": 3.56
+    },
+    {
+        "text": "Or from you to one of your allies with",
+        "start": 1239.76,
+        "duration": 3.92
+    },
+    {
+        "text": "the true love's embrace. You can, of",
+        "start": 1242.32,
+        "duration": 3.44
+    },
+    {
+        "text": "course, have them wear rings if you use",
+        "start": 1243.68,
+        "duration": 4.4
+    },
+    {
+        "text": "various item glitches that can let them",
+        "start": 1245.76,
+        "duration": 4.0
+    },
+    {
+        "text": "use items.",
+        "start": 1248.08,
+        "duration": 3.16
+    },
+    {
+        "text": "But, typically that's not what you're",
+        "start": 1249.76,
+        "duration": 3.52
+    },
+    {
+        "text": "going to be going for.",
+        "start": 1251.24,
+        "duration": 3.96
+    },
+    {
+        "text": "In addition to that, there's another",
+        "start": 1253.28,
+        "duration": 3.84
+    },
+    {
+        "text": "couple sets of items that are pretty",
+        "start": 1255.2,
+        "duration": 3.76
+    },
+    {
+        "text": "useful for this character. Good heavy",
+        "start": 1257.12,
+        "duration": 3.8
+    },
+    {
+        "text": "armor, like the armor of persistence. Of",
+        "start": 1258.96,
+        "duration": 4.48
+    },
+    {
+        "text": "course, we have heavy armor proficiency",
+        "start": 1260.92,
+        "duration": 4.28
+    },
+    {
+        "text": "thanks to the ranger knight ability. So,",
+        "start": 1263.44,
+        "duration": 3.56
+    },
+    {
+        "text": "this can keep us alive even if we get",
+        "start": 1265.2,
+        "duration": 3.6
+    },
+    {
+        "text": "knocked out of wild shape form. So, the",
+        "start": 1267.0,
+        "duration": 3.28
+    },
+    {
+        "text": "Helldusk Armor or the Armor of",
+        "start": 1268.8,
+        "duration": 3.68
+    },
+    {
+        "text": "Persistence are great options. You don't",
+        "start": 1270.28,
+        "duration": 3.64
+    },
+    {
+        "text": "need heavy armor proficiency for the",
+        "start": 1272.48,
+        "duration": 2.8
+    },
+    {
+        "text": "Helldusk Armor, but it's still just",
+        "start": 1273.92,
+        "duration": 3.8
+    },
+    {
+        "text": "great end game heavy armor. The Warped",
+        "start": 1275.28,
+        "duration": 4.2
+    },
+    {
+        "text": "Headband of Intellect I talked about",
+        "start": 1277.72,
+        "duration": 3.6
+    },
+    {
+        "text": "during the character build as well. Of",
+        "start": 1279.48,
+        "duration": 3.32
+    },
+    {
+        "text": "course, we want to be able to prepare",
+        "start": 1281.32,
+        "duration": 3.76
+    },
+    {
+        "text": "our wizard spells and with only one",
+        "start": 1282.8,
+        "duration": 4.12
+    },
+    {
+        "text": "wizard level and eight intelligence, the",
+        "start": 1285.08,
+        "duration": 3.6
+    },
+    {
+        "text": "Warped Headband is the easiest way to do",
+        "start": 1286.92,
+        "duration": 3.76
+    },
+    {
+        "text": "it, especially because this character",
+        "start": 1288.68,
+        "duration": 3.84
+    },
+    {
+        "text": "can't easily make use of other helmet",
+        "start": 1290.68,
+        "duration": 3.88
+    },
+    {
+        "text": "slot items thanks to being a wild",
+        "start": 1292.52,
+        "duration": 3.32
+    },
+    {
+        "text": "shaping character.",
+        "start": 1294.56,
+        "duration": 3.04
+    },
+    {
+        "text": "Now, this does have one kind of weird",
+        "start": 1295.84,
+        "duration": 4.24
+    },
+    {
+        "text": "interaction because you actually lose",
+        "start": 1297.6,
+        "duration": 4.48
+    },
+    {
+        "text": "the intelligence when you wild shape",
+        "start": 1300.08,
+        "duration": 3.84
+    },
+    {
+        "text": "while wearing the Warped Headband. You",
+        "start": 1302.08,
+        "duration": 5.04
+    },
+    {
+        "text": "will lose the the spell slots and it",
+        "start": 1303.92,
+        "duration": 5.6
+    },
+    {
+        "text": "will unprepare your spells.",
+        "start": 1307.12,
+        "duration": 4.04
+    },
+    {
+        "text": "Um that won't matter a lot, but you will",
+        "start": 1309.52,
+        "duration": 3.8
+    },
+    {
+        "text": "have to re-prepare your wizard spells",
+        "start": 1311.16,
+        "duration": 4.56
+    },
+    {
+        "text": "whenever you exit wild shape. And if",
+        "start": 1313.32,
+        "duration": 4.36
+    },
+    {
+        "text": "there's a spell you particularly want to",
+        "start": 1315.72,
+        "duration": 4.08
+    },
+    {
+        "text": "have available in combat, make sure that",
+        "start": 1317.68,
+        "duration": 4.68
+    },
+    {
+        "text": "it's prepared in this first spell slot",
+        "start": 1319.8,
+        "duration": 4.52
+    },
+    {
+        "text": "here uh when you prepare your spells",
+        "start": 1322.36,
+        "duration": 3.6
+    },
+    {
+        "text": "because that's the one that you'll still",
+        "start": 1324.32,
+        "duration": 3.32
+    },
+    {
+        "text": "have prepared when you get knocked out",
+        "start": 1325.96,
+        "duration": 3.96
+    },
+    {
+        "text": "of wild shape form. And since you can't",
+        "start": 1327.64,
+        "duration": 4.04
+    },
+    {
+        "text": "prepare spells in combat, that's the one",
+        "start": 1329.92,
+        "duration": 4.2
+    },
+    {
+        "text": "that you'll be able to cast.",
+        "start": 1331.68,
+        "duration": 4.44
+    },
+    {
+        "text": "Um in addition to that, the Gloves of",
+        "start": 1334.12,
+        "duration": 4.4
+    },
+    {
+        "text": "Dexterity. With our low dexterity, these",
+        "start": 1336.12,
+        "duration": 4.08
+    },
+    {
+        "text": "can help you",
+        "start": 1338.52,
+        "duration": 4.28
+    },
+    {
+        "text": "uh have higher initiative alongside",
+        "start": 1340.2,
+        "duration": 4.72
+    },
+    {
+        "text": "alert in order to go first when entering",
+        "start": 1342.8,
+        "duration": 4.96
+    },
+    {
+        "text": "combat in your humanoid form. And of",
+        "start": 1344.92,
+        "duration": 4.2
+    },
+    {
+        "text": "course, the Helldusk Gloves are just",
+        "start": 1347.76,
+        "duration": 3.6
+    },
+    {
+        "text": "good for any uh spell caster. So, if",
+        "start": 1349.12,
+        "duration": 3.96
+    },
+    {
+        "text": "you're casting more offensive wizard",
+        "start": 1351.36,
+        "duration": 3.56
+    },
+    {
+        "text": "spells, the Helldusk Gloves or anything",
+        "start": 1353.08,
+        "duration": 3.64
+    },
+    {
+        "text": "that increases your save DC can be",
+        "start": 1354.92,
+        "duration": 4.2
+    },
+    {
+        "text": "solid. Um but another option worth",
+        "start": 1356.72,
+        "duration": 3.84
+    },
+    {
+        "text": "mentioning of course is the Abyss",
+        "start": 1359.12,
+        "duration": 3.48
+    },
+    {
+        "text": "Beckoners, which give all of your",
+        "start": 1360.56,
+        "duration": 5.56
+    },
+    {
+        "text": "summoned creatures resistance uh to all",
+        "start": 1362.6,
+        "duration": 5.56
+    },
+    {
+        "text": "damage except psychic damage, but drives",
+        "start": 1366.12,
+        "duration": 4.44
+    },
+    {
+        "text": "them mad. So, while you can't benefit",
+        "start": 1368.16,
+        "duration": 4.56
+    },
+    {
+        "text": "from these in wild shape form, if you're",
+        "start": 1370.56,
+        "duration": 4.56
+    },
+    {
+        "text": "in humanoid form, you can be a pack of",
+        "start": 1372.72,
+        "duration": 4.48
+    },
+    {
+        "text": "rabid dogs running around uh which",
+        "start": 1375.12,
+        "duration": 3.72
+    },
+    {
+        "text": "changes the flavor of the build",
+        "start": 1377.2,
+        "duration": 3.76
+    },
+    {
+        "text": "somewhat, but is a fun option to mention",
+        "start": 1378.84,
+        "duration": 3.88
+    },
+    {
+        "text": "as well. Finally, of course, because",
+        "start": 1380.96,
+        "duration": 3.12
+    },
+    {
+        "text": "we're a wizard, we're going to want to",
+        "start": 1382.72,
+        "duration": 3.84
+    },
+    {
+        "text": "keep an eye out for powerful combat",
+        "start": 1384.08,
+        "duration": 4.92
+    },
+    {
+        "text": "scrolls, and especially the secret",
+        "start": 1386.56,
+        "duration": 5.12
+    },
+    {
+        "text": "wizard scrolls like artistry of war, cuz",
+        "start": 1389.0,
+        "duration": 4.44
+    },
+    {
+        "text": "of course dogs are always digging up",
+        "start": 1391.68,
+        "duration": 5.44
+    },
+    {
+        "text": "hidden things, and you are no exception.",
+        "start": 1393.44,
+        "duration": 4.88
+    },
+    {
+        "text": "All right, my friends. I hope that you",
+        "start": 1397.12,
+        "duration": 2.84
+    },
+    {
+        "text": "have enjoyed this character that's",
+        "start": 1398.32,
+        "duration": 4.08
+    },
+    {
+        "text": "actually for dogs. And if you have",
+        "start": 1399.96,
+        "duration": 4.52
+    },
+    {
+        "text": "enjoyed the video, feel free to leave a",
+        "start": 1402.4,
+        "duration": 4.0
+    },
+    {
+        "text": "comment and hit like. I'll see how you",
+        "start": 1404.48,
+        "duration": 3.52
+    },
+    {
+        "text": "are doing with the algorithm, so I",
+        "start": 1406.4,
+        "duration": 3.16
+    },
+    {
+        "text": "really appreciate you taking the time to",
+        "start": 1408.0,
+        "duration": 3.04
+    },
+    {
+        "text": "do that. And of course, you can",
+        "start": 1409.56,
+        "duration": 3.56
+    },
+    {
+        "text": "subscribe to my channel for more",
+        "start": 1411.04,
+        "duration": 4.48
+    },
+    {
+        "text": "Baldur's Gate 3 build guides and other",
+        "start": 1413.12,
+        "duration": 5.56
+    },
+    {
+        "text": "strategy game analysis. Here's to folks.",
+        "start": 1415.52,
+        "duration": 6.16
+    },
+    {
+        "text": "I'll catch you next time.",
+        "start": 1418.68,
+        "duration": 3.0
+    }
+]

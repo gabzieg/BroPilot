@@ -1,0 +1,6442 @@
+[
+    {
+        "text": "Hello my friends and welcome back to",
+        "start": 0.4,
+        "duration": 4.08
+    },
+    {
+        "text": "another Balders's Gate 3 guide. Hope",
+        "start": 2.24,
+        "duration": 4.16
+    },
+    {
+        "text": "you're all doing well. Today we're going",
+        "start": 4.48,
+        "duration": 4.0
+    },
+    {
+        "text": "to be talking about the Beastmaster",
+        "start": 6.4,
+        "duration": 4.96
+    },
+    {
+        "text": "companions. So in my recent video on",
+        "start": 8.48,
+        "duration": 5.52
+    },
+    {
+        "text": "underrated subasses, I mentioned that",
+        "start": 11.36,
+        "duration": 5.2
+    },
+    {
+        "text": "Beastmaster Ranger is very powerful and",
+        "start": 14.0,
+        "duration": 4.88
+    },
+    {
+        "text": "extremely fun to play. And I got a lot",
+        "start": 16.56,
+        "duration": 3.92
+    },
+    {
+        "text": "of questions from people who weren't",
+        "start": 18.88,
+        "duration": 4.639
+    },
+    {
+        "text": "sure how best to use the companions.",
+        "start": 20.48,
+        "duration": 4.639
+    },
+    {
+        "text": "They're saying that theirs might die",
+        "start": 23.519,
+        "duration": 3.201
+    },
+    {
+        "text": "every fight without accomplishing",
+        "start": 25.119,
+        "duration": 3.281
+    },
+    {
+        "text": "anything or that they don't know which",
+        "start": 26.72,
+        "duration": 3.84
+    },
+    {
+        "text": "one to use or whether you should change",
+        "start": 28.4,
+        "duration": 3.92
+    },
+    {
+        "text": "which one you're using depending on your",
+        "start": 30.56,
+        "duration": 3.999
+    },
+    {
+        "text": "level or the fight that you're in. So,",
+        "start": 32.32,
+        "duration": 4.079
+    },
+    {
+        "text": "today we're going to go over each beast",
+        "start": 34.559,
+        "duration": 3.84
+    },
+    {
+        "text": "at every level that they get something",
+        "start": 36.399,
+        "duration": 3.84
+    },
+    {
+        "text": "new. Talk about their strengths and",
+        "start": 38.399,
+        "duration": 3.84
+    },
+    {
+        "text": "weaknesses, how to use their abilities",
+        "start": 40.239,
+        "duration": 4.32
+    },
+    {
+        "text": "for the best effect, and which ones will",
+        "start": 42.239,
+        "duration": 4.401
+    },
+    {
+        "text": "be strongest in which fights so that you",
+        "start": 44.559,
+        "duration": 4.641
+    },
+    {
+        "text": "know exactly how to choose which beast",
+        "start": 46.64,
+        "duration": 5.36
+    },
+    {
+        "text": "you're bringing for the best results.",
+        "start": 49.2,
+        "duration": 4.32
+    },
+    {
+        "text": "Before I begin, I do want to take a",
+        "start": 52.0,
+        "duration": 3.199
+    },
+    {
+        "text": "quick moment to say thank you so much to",
+        "start": 53.52,
+        "duration": 4.559
+    },
+    {
+        "text": "Tarantula for the $5 donation, Tortilla",
+        "start": 55.199,
+        "duration": 6.16
+    },
+    {
+        "text": "Bill for the $10, Rejieve Alexander for",
+        "start": 58.079,
+        "duration": 6.8
+    },
+    {
+        "text": "the $5, Wanda Husbando for the £5, and",
+        "start": 61.359,
+        "duration": 5.681
+    },
+    {
+        "text": "Big Terry Funker and Daniel Krunky for",
+        "start": 64.879,
+        "duration": 3.761
+    },
+    {
+        "text": "becoming channel members. Thank you so",
+        "start": 67.04,
+        "duration": 3.2
+    },
+    {
+        "text": "much, my friends. I really appreciate",
+        "start": 68.64,
+        "duration": 3.839
+    },
+    {
+        "text": "your support. It really means so much to",
+        "start": 70.24,
+        "duration": 5.84
+    },
+    {
+        "text": "me. All right, let's get beastly. So,",
+        "start": 72.479,
+        "duration": 6.241
+    },
+    {
+        "text": "when you select Beastmaster Ranger, you",
+        "start": 76.08,
+        "duration": 5.28
+    },
+    {
+        "text": "get the rers's companion ability that",
+        "start": 78.72,
+        "duration": 4.48
+    },
+    {
+        "text": "lets you summon a beast companion once",
+        "start": 81.36,
+        "duration": 4.0
+    },
+    {
+        "text": "every short rest. Now, this coming back",
+        "start": 83.2,
+        "duration": 4.32
+    },
+    {
+        "text": "on a short rest means that you don't",
+        "start": 85.36,
+        "duration": 3.84
+    },
+    {
+        "text": "actually have to keep your companions",
+        "start": 87.52,
+        "duration": 3.599
+    },
+    {
+        "text": "alive. Obviously, the longer you keep",
+        "start": 89.2,
+        "duration": 4.16
+    },
+    {
+        "text": "them alive in combat, the more useful",
+        "start": 91.119,
+        "duration": 4.801
+    },
+    {
+        "text": "they'll be, but if they die, it's only a",
+        "start": 93.36,
+        "duration": 4.56
+    },
+    {
+        "text": "short rest cool down to bring them back.",
+        "start": 95.92,
+        "duration": 5.04
+    },
+    {
+        "text": "So, you don't have to worry too much if",
+        "start": 97.92,
+        "duration": 5.36
+    },
+    {
+        "text": "your beast goes down. you probably will",
+        "start": 100.96,
+        "duration": 4.159
+    },
+    {
+        "text": "lose your beast a few times over the",
+        "start": 103.28,
+        "duration": 3.119
+    },
+    {
+        "text": "course of the playthrough and that's",
+        "start": 105.119,
+        "duration": 4.0
+    },
+    {
+        "text": "totally okay. Um, you can simply bring",
+        "start": 106.399,
+        "duration": 5.121
+    },
+    {
+        "text": "it back on a short rest. The other thing",
+        "start": 109.119,
+        "duration": 4.161
+    },
+    {
+        "text": "that this being a short rest ability",
+        "start": 111.52,
+        "duration": 4.08
+    },
+    {
+        "text": "gives you is that you can swap which",
+        "start": 113.28,
+        "duration": 4.24
+    },
+    {
+        "text": "beast you're using depending on the",
+        "start": 115.6,
+        "duration": 3.92
+    },
+    {
+        "text": "encounter very easily without losing",
+        "start": 117.52,
+        "duration": 4.959
+    },
+    {
+        "text": "very much. So, the ranger, the beast",
+        "start": 119.52,
+        "duration": 5.599
+    },
+    {
+        "text": "master ranger will often want to change",
+        "start": 122.479,
+        "duration": 4.96
+    },
+    {
+        "text": "out which beast you're using in order to",
+        "start": 125.119,
+        "duration": 4.801
+    },
+    {
+        "text": "fit the encounter appropriately. Now, of",
+        "start": 127.439,
+        "duration": 4.001
+    },
+    {
+        "text": "course, if you want to roleplay just",
+        "start": 129.92,
+        "duration": 2.88
+    },
+    {
+        "text": "having the same beast companion",
+        "start": 131.44,
+        "duration": 2.879
+    },
+    {
+        "text": "throughout the entire game and having",
+        "start": 132.8,
+        "duration": 3.92
+    },
+    {
+        "text": "that just be your guy, then that's still",
+        "start": 134.319,
+        "duration": 4.64
+    },
+    {
+        "text": "totally viable. All five of the beasts",
+        "start": 136.72,
+        "duration": 5.519
+    },
+    {
+        "text": "are strong and and absolutely playable.",
+        "start": 138.959,
+        "duration": 4.961
+    },
+    {
+        "text": "Um, but they all have their different",
+        "start": 142.239,
+        "duration": 3.041
+    },
+    {
+        "text": "strengths and different weaknesses,",
+        "start": 143.92,
+        "duration": 2.56
+    },
+    {
+        "text": "which makes them good in certain",
+        "start": 145.28,
+        "duration": 3.12
+    },
+    {
+        "text": "encounters. So, if you want to optimize",
+        "start": 146.48,
+        "duration": 3.44
+    },
+    {
+        "text": "your playthrough a little more and get",
+        "start": 148.4,
+        "duration": 3.36
+    },
+    {
+        "text": "the most value out of it, you'll",
+        "start": 149.92,
+        "duration": 3.76
+    },
+    {
+        "text": "probably be changing. There are five",
+        "start": 151.76,
+        "duration": 4.88
+    },
+    {
+        "text": "beasts, of course, the bear, the boar,",
+        "start": 153.68,
+        "duration": 6.24
+    },
+    {
+        "text": "the spider, the raven, and the wolf. And",
+        "start": 156.64,
+        "duration": 6.56
+    },
+    {
+        "text": "for the TLDDR, the bear is good for",
+        "start": 159.92,
+        "duration": 5.679
+    },
+    {
+        "text": "absorbing enemy attacks. The boar is",
+        "start": 163.2,
+        "duration": 4.48
+    },
+    {
+        "text": "good for killing weak and low health",
+        "start": 165.599,
+        "duration": 4.881
+    },
+    {
+        "text": "enemies very quickly. The spider is good",
+        "start": 167.68,
+        "duration": 5.199
+    },
+    {
+        "text": "for locking down large groups of melee",
+        "start": 170.48,
+        "duration": 4.96
+    },
+    {
+        "text": "enemies. The Raven is the most",
+        "start": 172.879,
+        "duration": 4.881
+    },
+    {
+        "text": "survivable and generally the most broken",
+        "start": 175.44,
+        "duration": 4.24
+    },
+    {
+        "text": "late game, just a very good allrounder",
+        "start": 177.76,
+        "duration": 3.92
+    },
+    {
+        "text": "that gives you a lot of flexibility. And",
+        "start": 179.68,
+        "duration": 4.24
+    },
+    {
+        "text": "the wolf is always a good choice. It's",
+        "start": 181.68,
+        "duration": 4.72
+    },
+    {
+        "text": "just a very solid allrounder animal as",
+        "start": 183.92,
+        "duration": 6.16
+    },
+    {
+        "text": "well. Um, if you want a rule of thumb",
+        "start": 186.4,
+        "duration": 4.96
+    },
+    {
+        "text": "and you don't want to have to think",
+        "start": 190.08,
+        "duration": 3.6
+    },
+    {
+        "text": "about it, use the spider for levels",
+        "start": 191.36,
+        "duration": 4.08
+    },
+    {
+        "text": "three and four and then switch to the",
+        "start": 193.68,
+        "duration": 3.52
+    },
+    {
+        "text": "raven and use it for the rest of the",
+        "start": 195.44,
+        "duration": 3.92
+    },
+    {
+        "text": "game. And that will absolutely be a",
+        "start": 197.2,
+        "duration": 3.84
+    },
+    {
+        "text": "reasonable way to play the beast master",
+        "start": 199.36,
+        "duration": 3.84
+    },
+    {
+        "text": "ranger. But if you want to get the most",
+        "start": 201.04,
+        "duration": 3.76
+    },
+    {
+        "text": "value out of your beasts, you're going",
+        "start": 203.2,
+        "duration": 3.679
+    },
+    {
+        "text": "to be swapping pretty frequently. So,",
+        "start": 204.8,
+        "duration": 3.76
+    },
+    {
+        "text": "we're going to go over every one of the",
+        "start": 206.879,
+        "duration": 3.121
+    },
+    {
+        "text": "abilities that they get at each level",
+        "start": 208.56,
+        "duration": 2.88
+    },
+    {
+        "text": "and talk about the encounters that",
+        "start": 210.0,
+        "duration": 3.76
+    },
+    {
+        "text": "they're good for. Let's start with the",
+        "start": 211.44,
+        "duration": 5.04
+    },
+    {
+        "text": "level three bear. So, the game presents",
+        "start": 213.76,
+        "duration": 6.0
+    },
+    {
+        "text": "the bear as a tank, and that's sort of",
+        "start": 216.48,
+        "duration": 5.52
+    },
+    {
+        "text": "true in that it will often be targeted",
+        "start": 219.76,
+        "duration": 4.08
+    },
+    {
+        "text": "by enemies thanks to its low armor",
+        "start": 222.0,
+        "duration": 4.56
+    },
+    {
+        "text": "class, but it is much less survivable",
+        "start": 223.84,
+        "duration": 4.72
+    },
+    {
+        "text": "than you might expect for, you know, a",
+        "start": 226.56,
+        "duration": 3.92
+    },
+    {
+        "text": "gigantic bear and something that the",
+        "start": 228.56,
+        "duration": 4.0
+    },
+    {
+        "text": "game calls a tank. You actually have to",
+        "start": 230.48,
+        "duration": 3.839
+    },
+    {
+        "text": "be fairly careful with the bear with",
+        "start": 232.56,
+        "duration": 4.399
+    },
+    {
+        "text": "only 11 armor class and 19 hit points in",
+        "start": 234.319,
+        "duration": 5.681
+    },
+    {
+        "text": "the early game. Um, the goblins and nles",
+        "start": 236.959,
+        "duration": 4.48
+    },
+    {
+        "text": "that you're fighting will probably take",
+        "start": 240.0,
+        "duration": 4.08
+    },
+    {
+        "text": "it down in three or maximum four attacks",
+        "start": 241.439,
+        "duration": 5.041
+    },
+    {
+        "text": "on average. So, while you can use it to",
+        "start": 244.08,
+        "duration": 4.64
+    },
+    {
+        "text": "absorb some enemy attacks and keep your",
+        "start": 246.48,
+        "duration": 4.72
+    },
+    {
+        "text": "more vulnerable party members alive,",
+        "start": 248.72,
+        "duration": 4.159
+    },
+    {
+        "text": "it's going to be much more vulnerable",
+        "start": 251.2,
+        "duration": 3.36
+    },
+    {
+        "text": "than most of your characters. Notice",
+        "start": 252.879,
+        "duration": 4.48
+    },
+    {
+        "text": "that level three Minsk here has 31 HP",
+        "start": 254.56,
+        "duration": 4.799
+    },
+    {
+        "text": "and much better armor class at this",
+        "start": 257.359,
+        "duration": 4.72
+    },
+    {
+        "text": "level as well. Um, so the bear is going",
+        "start": 259.359,
+        "duration": 4.721
+    },
+    {
+        "text": "to be taking a lot of enemy attacks",
+        "start": 262.079,
+        "duration": 4.4
+    },
+    {
+        "text": "thanks to having low AC, but can't",
+        "start": 264.08,
+        "duration": 4.64
+    },
+    {
+        "text": "actually uh receive that many. So, you",
+        "start": 266.479,
+        "duration": 3.681
+    },
+    {
+        "text": "do need to be a little bit careful with",
+        "start": 268.72,
+        "duration": 4.72
+    },
+    {
+        "text": "its HP. On offense, it has its claws,",
+        "start": 270.16,
+        "duration": 6.319
+    },
+    {
+        "text": "which have uh 1d8 plus two damage, and",
+        "start": 273.44,
+        "duration": 5.28
+    },
+    {
+        "text": "this will do an extra d6 damage to a",
+        "start": 276.479,
+        "duration": 4.081
+    },
+    {
+        "text": "target that's hunter marked because the",
+        "start": 278.72,
+        "duration": 4.16
+    },
+    {
+        "text": "beast master ranger, all your pets do",
+        "start": 280.56,
+        "duration": 4.48
+    },
+    {
+        "text": "extra damage to your hunter marked",
+        "start": 282.88,
+        "duration": 5.2
+    },
+    {
+        "text": "target um with only a plus two to hit",
+        "start": 285.04,
+        "duration": 5.2
+    },
+    {
+        "text": "though. So you can see we're going to be",
+        "start": 288.08,
+        "duration": 4.24
+    },
+    {
+        "text": "uh making this attack. You only have a",
+        "start": 290.24,
+        "duration": 3.6
+    },
+    {
+        "text": "plus two to hit thanks to having no",
+        "start": 292.32,
+        "duration": 3.28
+    },
+    {
+        "text": "proficiency bonus. You will not be",
+        "start": 293.84,
+        "duration": 3.68
+    },
+    {
+        "text": "hitting very frequently with your claws",
+        "start": 295.6,
+        "duration": 4.0
+    },
+    {
+        "text": "either. So altogether at the early",
+        "start": 297.52,
+        "duration": 3.84
+    },
+    {
+        "text": "levels, I don't think the bear is a very",
+        "start": 299.6,
+        "duration": 4.64
+    },
+    {
+        "text": "attractive package except that it also",
+        "start": 301.36,
+        "duration": 5.44
+    },
+    {
+        "text": "comes with goating roar. And this",
+        "start": 304.24,
+        "duration": 5.36
+    },
+    {
+        "text": "ability is very good. Going roar is a",
+        "start": 306.8,
+        "duration": 6.08
+    },
+    {
+        "text": "large AoE ability. It's a wisdom save.",
+        "start": 309.6,
+        "duration": 5.76
+    },
+    {
+        "text": "Um, and enemies who fail it for two",
+        "start": 312.88,
+        "duration": 4.96
+    },
+    {
+        "text": "turns will have disadvantage on every",
+        "start": 315.36,
+        "duration": 4.399
+    },
+    {
+        "text": "single one of their attacks. Now, the",
+        "start": 317.84,
+        "duration": 3.919
+    },
+    {
+        "text": "tool tip on this is fairly misleading",
+        "start": 319.759,
+        "duration": 4.481
+    },
+    {
+        "text": "because it says that they are forced to",
+        "start": 321.759,
+        "duration": 4.72
+    },
+    {
+        "text": "attack the character. Um, and that's not",
+        "start": 324.24,
+        "duration": 3.6
+    },
+    {
+        "text": "true. It doesn't actually change the",
+        "start": 326.479,
+        "duration": 3.44
+    },
+    {
+        "text": "enemy AI. They'll usually attack the",
+        "start": 327.84,
+        "duration": 3.6
+    },
+    {
+        "text": "bear anyways cuz that's what they were",
+        "start": 329.919,
+        "duration": 4.081
+    },
+    {
+        "text": "going to do regardless. But if they",
+        "start": 331.44,
+        "duration": 5.039
+    },
+    {
+        "text": "break line of sight or leave the area,",
+        "start": 334.0,
+        "duration": 4.479
+    },
+    {
+        "text": "they will just choose another target cuz",
+        "start": 336.479,
+        "duration": 4.16
+    },
+    {
+        "text": "the goating roar does not affect the",
+        "start": 338.479,
+        "duration": 4.801
+    },
+    {
+        "text": "enemy's AI at all. Um, but what it does",
+        "start": 340.639,
+        "duration": 4.961
+    },
+    {
+        "text": "do is give them disadvantage on every",
+        "start": 343.28,
+        "duration": 4.32
+    },
+    {
+        "text": "attack that they make, including against",
+        "start": 345.6,
+        "duration": 3.92
+    },
+    {
+        "text": "the bear. Again, the tool tip here is a",
+        "start": 347.6,
+        "duration": 3.76
+    },
+    {
+        "text": "little bit misleading. An AoE",
+        "start": 349.52,
+        "duration": 3.92
+    },
+    {
+        "text": "disadvantage effect in the early game on",
+        "start": 351.36,
+        "duration": 3.839
+    },
+    {
+        "text": "a wisdom save, which a lot of early game",
+        "start": 353.44,
+        "duration": 4.319
+    },
+    {
+        "text": "enemies will fail, uh, is actually",
+        "start": 355.199,
+        "duration": 4.401
+    },
+    {
+        "text": "really strong. So, what you're using the",
+        "start": 357.759,
+        "duration": 4.961
+    },
+    {
+        "text": "bear for mostly in the early game is",
+        "start": 359.6,
+        "duration": 5.439
+    },
+    {
+        "text": "casting goating roar and then running",
+        "start": 362.72,
+        "duration": 4.8
+    },
+    {
+        "text": "away so that enemies just have two turns",
+        "start": 365.039,
+        "duration": 4.641
+    },
+    {
+        "text": "of disadvantage on all of their attacks,",
+        "start": 367.52,
+        "duration": 4.0
+    },
+    {
+        "text": "which is really, really powerful. This",
+        "start": 369.68,
+        "duration": 4.239
+    },
+    {
+        "text": "type of control is really good against",
+        "start": 371.52,
+        "duration": 4.48
+    },
+    {
+        "text": "um fights with lots of weak enemies who",
+        "start": 373.919,
+        "duration": 4.321
+    },
+    {
+        "text": "are likely to miss the save. It's like",
+        "start": 376.0,
+        "duration": 5.28
+    },
+    {
+        "text": "casting fairy fire except that they um",
+        "start": 378.24,
+        "duration": 6.48
+    },
+    {
+        "text": "it it just will work on a even larger",
+        "start": 381.28,
+        "duration": 5.359
+    },
+    {
+        "text": "area. There's no concentration and you",
+        "start": 384.72,
+        "duration": 3.52
+    },
+    {
+        "text": "didn't have to spend a character's",
+        "start": 386.639,
+        "duration": 3.601
+    },
+    {
+        "text": "action in order to do it. So goating",
+        "start": 388.24,
+        "duration": 4.32
+    },
+    {
+        "text": "roar is the main use of for the bear in",
+        "start": 390.24,
+        "duration": 3.84
+    },
+    {
+        "text": "the early game. And then you can have it",
+        "start": 392.56,
+        "duration": 3.359
+    },
+    {
+        "text": "tank one or two attacks before needing",
+        "start": 394.08,
+        "duration": 4.559
+    },
+    {
+        "text": "to retreat to heal back up. The boar at",
+        "start": 395.919,
+        "duration": 4.881
+    },
+    {
+        "text": "level three I wouldn't recommend. I",
+        "start": 398.639,
+        "duration": 3.601
+    },
+    {
+        "text": "think it is the weakest of the",
+        "start": 400.8,
+        "duration": 4.32
+    },
+    {
+        "text": "companions at level three. It has 11 HP",
+        "start": 402.24,
+        "duration": 5.519
+    },
+    {
+        "text": "and 11 AC, meaning that it's going to",
+        "start": 405.12,
+        "duration": 5.04
+    },
+    {
+        "text": "die in two hits from most enemies. Um,",
+        "start": 407.759,
+        "duration": 4.56
+    },
+    {
+        "text": "and with 11 AC and low health, they're",
+        "start": 410.16,
+        "duration": 4.319
+    },
+    {
+        "text": "going to target it pretty frequently. It",
+        "start": 412.319,
+        "duration": 4.72
+    },
+    {
+        "text": "also, um, despite being the damage",
+        "start": 414.479,
+        "duration": 4.641
+    },
+    {
+        "text": "oriented companion, is very bad at",
+        "start": 417.039,
+        "duration": 3.841
+    },
+    {
+        "text": "actually doing damage in the early game",
+        "start": 419.12,
+        "duration": 4.56
+    },
+    {
+        "text": "because it does this 1d6 plus one tusk",
+        "start": 420.88,
+        "duration": 5.84
+    },
+    {
+        "text": "attack. Uh, but with only a plus one to",
+        "start": 423.68,
+        "duration": 4.959
+    },
+    {
+        "text": "hit, it's going to miss almost every",
+        "start": 426.72,
+        "duration": 4.479
+    },
+    {
+        "text": "single attack because the boar has low",
+        "start": 428.639,
+        "duration": 4.641
+    },
+    {
+        "text": "strength, lower even than the it only",
+        "start": 431.199,
+        "duration": 3.921
+    },
+    {
+        "text": "has 13 strength, so it's lower even than",
+        "start": 433.28,
+        "duration": 4.08
+    },
+    {
+        "text": "the bear. Uh, and no proficiency bonus",
+        "start": 435.12,
+        "duration": 4.479
+    },
+    {
+        "text": "in the early levels. It's going to miss",
+        "start": 437.36,
+        "duration": 4.08
+    },
+    {
+        "text": "all of these attacks. And even if they",
+        "start": 439.599,
+        "duration": 4.0
+    },
+    {
+        "text": "hit, they're not that incredible. So,",
+        "start": 441.44,
+        "duration": 3.599
+    },
+    {
+        "text": "you're better off using a different",
+        "start": 443.599,
+        "duration": 4.16
+    },
+    {
+        "text": "companion for the most part. Bore charge",
+        "start": 445.039,
+        "duration": 6.16
+    },
+    {
+        "text": "is an okay ability. Um, it does have",
+        "start": 447.759,
+        "duration": 6.641
+    },
+    {
+        "text": "some AoE uh attacks associated with it,",
+        "start": 451.199,
+        "duration": 5.521
+    },
+    {
+        "text": "so you can use it in order to hit a",
+        "start": 454.4,
+        "duration": 4.72
+    },
+    {
+        "text": "bunch of things. Um, but unfortunately",
+        "start": 456.72,
+        "duration": 4.879
+    },
+    {
+        "text": "the saving throw against it is very very",
+        "start": 459.12,
+        "duration": 7.04
+    },
+    {
+        "text": "low. Um, the save DC is nine. So, I",
+        "start": 461.599,
+        "duration": 7.921
+    },
+    {
+        "text": "guess this uh this civilian did fail the",
+        "start": 466.16,
+        "duration": 6.24
+    },
+    {
+        "text": "save here, but with a DC of nine on a",
+        "start": 469.52,
+        "duration": 4.72
+    },
+    {
+        "text": "strength save, a lot of enemies are",
+        "start": 472.4,
+        "duration": 3.76
+    },
+    {
+        "text": "going to pass that as well in the early",
+        "start": 474.24,
+        "duration": 3.84
+    },
+    {
+        "text": "game. So, while an AoE prone seems",
+        "start": 476.16,
+        "duration": 5.439
+    },
+    {
+        "text": "attractive, if you want to u debuff",
+        "start": 478.08,
+        "duration": 6.0
+    },
+    {
+        "text": "enemies in an AoE, the spider or the",
+        "start": 481.599,
+        "duration": 4.32
+    },
+    {
+        "text": "bear are usually going to be better. The",
+        "start": 484.08,
+        "duration": 4.16
+    },
+    {
+        "text": "boar is not completely useless, but is",
+        "start": 485.919,
+        "duration": 4.161
+    },
+    {
+        "text": "at level three, I would recommend one of",
+        "start": 488.24,
+        "duration": 4.959
+    },
+    {
+        "text": "the other companions, the spider. So,",
+        "start": 490.08,
+        "duration": 5.36
+    },
+    {
+        "text": "the spider is by far the strongest",
+        "start": 493.199,
+        "duration": 4.0
+    },
+    {
+        "text": "companion in the early game, and it's",
+        "start": 495.44,
+        "duration": 4.319
+    },
+    {
+        "text": "what turns Beastmaster Ranger into such",
+        "start": 497.199,
+        "duration": 4.641
+    },
+    {
+        "text": "a potent control character in the early",
+        "start": 499.759,
+        "duration": 3.84
+    },
+    {
+        "text": "game. your spider webbing things and",
+        "start": 501.84,
+        "duration": 4.079
+    },
+    {
+        "text": "then you shooting them with arrows will",
+        "start": 503.599,
+        "duration": 5.04
+    },
+    {
+        "text": "mostly win almost every early game",
+        "start": 505.919,
+        "duration": 4.801
+    },
+    {
+        "text": "encounter even without input from your",
+        "start": 508.639,
+        "duration": 3.76
+    },
+    {
+        "text": "teammates because this is such a strong",
+        "start": 510.72,
+        "duration": 3.679
+    },
+    {
+        "text": "combination of control and damage that",
+        "start": 512.399,
+        "duration": 4.08
+    },
+    {
+        "text": "you have within a single character",
+        "start": 514.399,
+        "duration": 3.601
+    },
+    {
+        "text": "thanks to basically having two",
+        "start": 516.479,
+        "duration": 3.841
+    },
+    {
+        "text": "characters acting one casting a pretty",
+        "start": 518.0,
+        "duration": 4.32
+    },
+    {
+        "text": "good spell every turn and one dealing",
+        "start": 520.32,
+        "duration": 4.639
+    },
+    {
+        "text": "great archery damage every turn as well.",
+        "start": 522.32,
+        "duration": 5.12
+    },
+    {
+        "text": "The spider has only 10 HP, so you do",
+        "start": 524.959,
+        "duration": 3.921
+    },
+    {
+        "text": "have to be pretty careful not to let it",
+        "start": 527.44,
+        "duration": 4.88
+    },
+    {
+        "text": "get hit. And with 14 armor class, it is",
+        "start": 528.88,
+        "duration": 5.28
+    },
+    {
+        "text": "uh certainly not immune to enemy",
+        "start": 532.32,
+        "duration": 4.16
+    },
+    {
+        "text": "attacks. 14 AC is definitely not enough",
+        "start": 534.16,
+        "duration": 4.0
+    },
+    {
+        "text": "that enemies won't hit it. So, you need",
+        "start": 536.48,
+        "duration": 3.039
+    },
+    {
+        "text": "to be pretty careful with the",
+        "start": 538.16,
+        "duration": 4.4
+    },
+    {
+        "text": "positioning on the spider. Um, but uh",
+        "start": 539.519,
+        "duration": 5.521
+    },
+    {
+        "text": "with 16 dexterity, it will at least",
+        "start": 542.56,
+        "duration": 4.719
+    },
+    {
+        "text": "often win initiative. So, it's going to",
+        "start": 545.04,
+        "duration": 5.84
+    },
+    {
+        "text": "go first and uh be able to lock enemies",
+        "start": 547.279,
+        "duration": 5.281
+    },
+    {
+        "text": "down before they can fight back against",
+        "start": 550.88,
+        "duration": 4.0
+    },
+    {
+        "text": "it. At this level, it has two attacks.",
+        "start": 552.56,
+        "duration": 4.64
+    },
+    {
+        "text": "It's got the venomous bite effect, which",
+        "start": 554.88,
+        "duration": 4.88
+    },
+    {
+        "text": "does the most damage um of any of the",
+        "start": 557.2,
+        "duration": 4.96
+    },
+    {
+        "text": "companion attacks at this level, 1d8",
+        "start": 559.76,
+        "duration": 5.28
+    },
+    {
+        "text": "plus three. Uh and also can apply poison",
+        "start": 562.16,
+        "duration": 6.16
+    },
+    {
+        "text": "if they fail the con save against it. Um",
+        "start": 565.04,
+        "duration": 5.44
+    },
+    {
+        "text": "and again, thanks to having 16",
+        "start": 568.32,
+        "duration": 4.16
+    },
+    {
+        "text": "dexterity, this has a plus three bonus",
+        "start": 570.48,
+        "duration": 3.919
+    },
+    {
+        "text": "to hit, which still isn't great. It's",
+        "start": 572.48,
+        "duration": 4.479
+    },
+    {
+        "text": "not going to hit super reliably. Um but",
+        "start": 574.399,
+        "duration": 5.201
+    },
+    {
+        "text": "it is better than most of the other",
+        "start": 576.959,
+        "duration": 5.281
+    },
+    {
+        "text": "companions at this level. The real uh",
+        "start": 579.6,
+        "duration": 4.96
+    },
+    {
+        "text": "prize here though is web. Every turn,",
+        "start": 582.24,
+        "duration": 5.92
+    },
+    {
+        "text": "the spider can use web. And um this is",
+        "start": 584.56,
+        "duration": 5.839
+    },
+    {
+        "text": "just an AoE control spell. It's like the",
+        "start": 588.16,
+        "duration": 4.799
+    },
+    {
+        "text": "web spell. Uh but you can cast it every",
+        "start": 590.399,
+        "duration": 5.12
+    },
+    {
+        "text": "turn for a 10-ft radius. Pretty good",
+        "start": 592.959,
+        "duration": 5.921
+    },
+    {
+        "text": "lockown effect that can stop enemy melee",
+        "start": 595.519,
+        "duration": 5.76
+    },
+    {
+        "text": "characters from going anywhere. U the",
+        "start": 598.88,
+        "duration": 4.24
+    },
+    {
+        "text": "save on this is dexterity based. So",
+        "start": 601.279,
+        "duration": 4.881
+    },
+    {
+        "text": "against uh enemy characters with good uh",
+        "start": 603.12,
+        "duration": 4.96
+    },
+    {
+        "text": "with with weak dexterity, this is going",
+        "start": 606.16,
+        "duration": 4.32
+    },
+    {
+        "text": "to shut them down completely. And even",
+        "start": 608.08,
+        "duration": 4.96
+    },
+    {
+        "text": "just outputting a bunch of webs turn",
+        "start": 610.48,
+        "duration": 4.72
+    },
+    {
+        "text": "after turn after turn can easily lock",
+        "start": 613.04,
+        "duration": 4.32
+    },
+    {
+        "text": "down whole encounters. You can see here",
+        "start": 615.2,
+        "duration": 5.44
+    },
+    {
+        "text": "that even um in this late game against",
+        "start": 617.36,
+        "duration": 6.719
+    },
+    {
+        "text": "some of these uh",
+        "start": 620.64,
+        "duration": 5.68
+    },
+    {
+        "text": "some of these level eight uh flaming",
+        "start": 624.079,
+        "duration": 4.481
+    },
+    {
+        "text": "fists, this level three spider, they",
+        "start": 626.32,
+        "duration": 4.48
+    },
+    {
+        "text": "still failed the save and became webbed.",
+        "start": 628.56,
+        "duration": 4.88
+    },
+    {
+        "text": "And so even um though this is a level",
+        "start": 630.8,
+        "duration": 4.96
+    },
+    {
+        "text": "three uh unit fighting against level",
+        "start": 633.44,
+        "duration": 3.76
+    },
+    {
+        "text": "eight enemies, it still did something",
+        "start": 635.76,
+        "duration": 3.84
+    },
+    {
+        "text": "very relevant. At appropriate levels, of",
+        "start": 637.2,
+        "duration": 4.079
+    },
+    {
+        "text": "course, it's even better, but the the",
+        "start": 639.6,
+        "duration": 3.84
+    },
+    {
+        "text": "web from the spider is going to shut",
+        "start": 641.279,
+        "duration": 4.641
+    },
+    {
+        "text": "down entire encounters pretty much on",
+        "start": 643.44,
+        "duration": 5.04
+    },
+    {
+        "text": "its own. Two other important things",
+        "start": 645.92,
+        "duration": 4.32
+    },
+    {
+        "text": "about the spider that make it a little",
+        "start": 648.48,
+        "duration": 4.56
+    },
+    {
+        "text": "easier to keep it alive. Um, it's immune",
+        "start": 650.24,
+        "duration": 5.44
+    },
+    {
+        "text": "to its own web, so you can have it just",
+        "start": 653.04,
+        "duration": 5.28
+    },
+    {
+        "text": "go across its webs freely, and enemies",
+        "start": 655.68,
+        "duration": 4.399
+    },
+    {
+        "text": "that try to follow it may get stuck in",
+        "start": 658.32,
+        "duration": 5.12
+    },
+    {
+        "text": "the web. And it also has hops, so the",
+        "start": 660.079,
+        "duration": 5.76
+    },
+    {
+        "text": "spider as a bonus action can jump up to",
+        "start": 663.44,
+        "duration": 6.72
+    },
+    {
+        "text": "18 ft here. And unlike for most uh units",
+        "start": 665.839,
+        "duration": 6.56
+    },
+    {
+        "text": "jumping, that doesn't require any of its",
+        "start": 670.16,
+        "duration": 4.16
+    },
+    {
+        "text": "movement speed. You see, we just use a",
+        "start": 672.399,
+        "duration": 3.601
+    },
+    {
+        "text": "little bit cuz I it didn't jump from",
+        "start": 674.32,
+        "duration": 3.84
+    },
+    {
+        "text": "exactly where I clicked it. But you can",
+        "start": 676.0,
+        "duration": 5.44
+    },
+    {
+        "text": "both move and jump in the same turn when",
+        "start": 678.16,
+        "duration": 7.119
+    },
+    {
+        "text": "you um with the spider without losing",
+        "start": 681.44,
+        "duration": 5.68
+    },
+    {
+        "text": "any movement speed, which gives it a lot",
+        "start": 685.279,
+        "duration": 3.921
+    },
+    {
+        "text": "of mobility and also a lot of possible",
+        "start": 687.12,
+        "duration": 4.32
+    },
+    {
+        "text": "verticality. So you can keep it alive",
+        "start": 689.2,
+        "duration": 4.16
+    },
+    {
+        "text": "against melee enemies very easily and",
+        "start": 691.44,
+        "duration": 4.079
+    },
+    {
+        "text": "then it can rain webs on them from the",
+        "start": 693.36,
+        "duration": 5.52
+    },
+    {
+        "text": "sky. The Raven. The Raven is just always",
+        "start": 695.519,
+        "duration": 5.681
+    },
+    {
+        "text": "a very solid choice and the same is true",
+        "start": 698.88,
+        "duration": 4.399
+    },
+    {
+        "text": "at level three, though this fighter",
+        "start": 701.2,
+        "duration": 3.759
+    },
+    {
+        "text": "being so powerful I think makes it",
+        "start": 703.279,
+        "duration": 3.521
+    },
+    {
+        "text": "usually the better pick. Um, but the",
+        "start": 704.959,
+        "duration": 4.721
+    },
+    {
+        "text": "Raven will almost always be an excellent",
+        "start": 706.8,
+        "duration": 5.2
+    },
+    {
+        "text": "choice at every level, and level three",
+        "start": 709.68,
+        "duration": 5.04
+    },
+    {
+        "text": "is no exception. It's the tankiest of",
+        "start": 712.0,
+        "duration": 4.64
+    },
+    {
+        "text": "the companions, the hardest to kill with",
+        "start": 714.72,
+        "duration": 4.239
+    },
+    {
+        "text": "13 health, which is six less than the",
+        "start": 716.64,
+        "duration": 4.879
+    },
+    {
+        "text": "bear, but five whole more armor class",
+        "start": 718.959,
+        "duration": 5.601
+    },
+    {
+        "text": "than the bear has with 16. And 16 AC and",
+        "start": 721.519,
+        "duration": 5.76
+    },
+    {
+        "text": "13 HP means that enemies will often need",
+        "start": 724.56,
+        "duration": 4.399
+    },
+    {
+        "text": "several attacks to take it down.",
+        "start": 727.279,
+        "duration": 3.521
+    },
+    {
+        "text": "Obviously, you can get unlucky and lose",
+        "start": 728.959,
+        "duration": 4.161
+    },
+    {
+        "text": "it in one hit, but you can put the raven",
+        "start": 730.8,
+        "duration": 4.8
+    },
+    {
+        "text": "in slightly more risky positions. You",
+        "start": 733.12,
+        "duration": 5.36
+    },
+    {
+        "text": "still don't want to be um really risky",
+        "start": 735.6,
+        "duration": 5.28
+    },
+    {
+        "text": "with it cuz again 13 health is not a",
+        "start": 738.48,
+        "duration": 4.72
+    },
+    {
+        "text": "lot, but this will sometimes have",
+        "start": 740.88,
+        "duration": 4.48
+    },
+    {
+        "text": "enemies misss against it and then you've",
+        "start": 743.2,
+        "duration": 4.48
+    },
+    {
+        "text": "just gained a free attack that the enemy",
+        "start": 745.36,
+        "duration": 5.36
+    },
+    {
+        "text": "didn't make against your party. Um the",
+        "start": 747.68,
+        "duration": 4.8
+    },
+    {
+        "text": "main thing with the Raven, of course, is",
+        "start": 750.72,
+        "duration": 4.32
+    },
+    {
+        "text": "its incredible mobility, which lets you",
+        "start": 752.48,
+        "duration": 4.799
+    },
+    {
+        "text": "position it such that enemies will",
+        "start": 755.04,
+        "duration": 4.799
+    },
+    {
+        "text": "attack it only if you want them to. And",
+        "start": 757.279,
+        "duration": 6.161
+    },
+    {
+        "text": "so when you start learning how to to use",
+        "start": 759.839,
+        "duration": 5.521
+    },
+    {
+        "text": "movement to your advantage, you can make",
+        "start": 763.44,
+        "duration": 3.839
+    },
+    {
+        "text": "sure that it's ending its turn out of",
+        "start": 765.36,
+        "duration": 4.159
+    },
+    {
+        "text": "range of enemies, you can have it go",
+        "start": 767.279,
+        "duration": 4.8
+    },
+    {
+        "text": "over uh hazardous areas so that they",
+        "start": 769.519,
+        "duration": 4.481
+    },
+    {
+        "text": "have to follow it in cuz it's flying, so",
+        "start": 772.079,
+        "duration": 5.2
+    },
+    {
+        "text": "it's immune to ground effects. Um and of",
+        "start": 774.0,
+        "duration": 5.36
+    },
+    {
+        "text": "course, it can fly 60 ft every turn",
+        "start": 777.279,
+        "duration": 5.601
+    },
+    {
+        "text": "using the fly action. Offensively,",
+        "start": 779.36,
+        "duration": 5.919
+    },
+    {
+        "text": "um at this level, it's not super",
+        "start": 782.88,
+        "duration": 4.16
+    },
+    {
+        "text": "special, though it is one of the better",
+        "start": 785.279,
+        "duration": 4.321
+    },
+    {
+        "text": "choices. 2d4 plus two damage on the beak",
+        "start": 787.04,
+        "duration": 4.799
+    },
+    {
+        "text": "attack. Um, plus an extra d6 to your",
+        "start": 789.6,
+        "duration": 4.56
+    },
+    {
+        "text": "hunter's mark target is good damage. Uh,",
+        "start": 791.839,
+        "duration": 4.081
+    },
+    {
+        "text": "with only a plus two to hit, it's not",
+        "start": 794.16,
+        "duration": 3.52
+    },
+    {
+        "text": "going to hit that frequently though. So,",
+        "start": 795.92,
+        "duration": 4.32
+    },
+    {
+        "text": "if you want to actually land damage with",
+        "start": 797.68,
+        "duration": 4.56
+    },
+    {
+        "text": "your attacks, the spider is usually",
+        "start": 800.24,
+        "duration": 3.76
+    },
+    {
+        "text": "still going to be a better option. But",
+        "start": 802.24,
+        "duration": 4.8
+    },
+    {
+        "text": "the real uh uh prize for the raven here",
+        "start": 804.0,
+        "duration": 6.959
+    },
+    {
+        "text": "is ren vision. Rend vision does 1d6 plus",
+        "start": 807.04,
+        "duration": 6.32
+    },
+    {
+        "text": "two damage um and then blinds the target",
+        "start": 810.959,
+        "duration": 4.961
+    },
+    {
+        "text": "for two turns. And you don't have they",
+        "start": 813.36,
+        "duration": 4.56
+    },
+    {
+        "text": "there is no saving throw against the",
+        "start": 815.92,
+        "duration": 3.76
+    },
+    {
+        "text": "blind. All you have to do is land the",
+        "start": 817.92,
+        "duration": 4.96
+    },
+    {
+        "text": "attack. So if you can boost the raven's",
+        "start": 819.68,
+        "duration": 6.48
+    },
+    {
+        "text": "attack using bless for example or giving",
+        "start": 822.88,
+        "duration": 5.6
+    },
+    {
+        "text": "the it advantage on attacks or giving",
+        "start": 826.16,
+        "duration": 4.0
+    },
+    {
+        "text": "the enemy disadvantage on attacks",
+        "start": 828.48,
+        "duration": 3.28
+    },
+    {
+        "text": "against it through various control",
+        "start": 830.16,
+        "duration": 4.08
+    },
+    {
+        "text": "effects um or of course things like hold",
+        "start": 831.76,
+        "duration": 5.28
+    },
+    {
+        "text": "person. You can land this blind very",
+        "start": 834.24,
+        "duration": 5.2
+    },
+    {
+        "text": "easily and that enemy will be blinded",
+        "start": 837.04,
+        "duration": 4.32
+    },
+    {
+        "text": "for two turns. Because it's a two-turn",
+        "start": 839.44,
+        "duration": 4.24
+    },
+    {
+        "text": "long blind. they will spend one of their",
+        "start": 841.36,
+        "duration": 4.0
+    },
+    {
+        "text": "turns with disadvantage on all their",
+        "start": 843.68,
+        "duration": 3.519
+    },
+    {
+        "text": "attacks. It'll shut off their ability to",
+        "start": 845.36,
+        "duration": 3.52
+    },
+    {
+        "text": "jump and all of the other great things",
+        "start": 847.199,
+        "duration": 3.44
+    },
+    {
+        "text": "that blind do. So, this is a very",
+        "start": 848.88,
+        "duration": 4.0
+    },
+    {
+        "text": "powerful debuff against enemies with low",
+        "start": 850.639,
+        "duration": 5.281
+    },
+    {
+        "text": "armor class. If you can land a hit or if",
+        "start": 852.88,
+        "duration": 4.8
+    },
+    {
+        "text": "you have a party set up around landing",
+        "start": 855.92,
+        "duration": 4.96
+    },
+    {
+        "text": "this effect. So, the raven is so far the",
+        "start": 857.68,
+        "duration": 5.279
+    },
+    {
+        "text": "second best choice after the after the",
+        "start": 860.88,
+        "duration": 4.399
+    },
+    {
+        "text": "spider in general of the ones we've",
+        "start": 862.959,
+        "duration": 4.721
+    },
+    {
+        "text": "looked at um just because this debuff is",
+        "start": 865.279,
+        "duration": 3.92
+    },
+    {
+        "text": "so powerful against some kinds of",
+        "start": 867.68,
+        "duration": 4.159
+    },
+    {
+        "text": "enemies. And finally, the level three",
+        "start": 869.199,
+        "duration": 6.0
+    },
+    {
+        "text": "wolf. With 13 AC and only 11 health, the",
+        "start": 871.839,
+        "duration": 5.921
+    },
+    {
+        "text": "wolf is also pretty squishy and uh",
+        "start": 875.199,
+        "duration": 4.481
+    },
+    {
+        "text": "pretty easy to take down for enemies.",
+        "start": 877.76,
+        "duration": 3.6
+    },
+    {
+        "text": "So, you do have to be careful with it.",
+        "start": 879.68,
+        "duration": 3.12
+    },
+    {
+        "text": "But, it makes up for it by being the",
+        "start": 881.36,
+        "duration": 3.68
+    },
+    {
+        "text": "highest damage pet and the most reliable",
+        "start": 882.8,
+        "duration": 4.719
+    },
+    {
+        "text": "for dealing damage. So, if you want a",
+        "start": 885.04,
+        "duration": 4.64
+    },
+    {
+        "text": "damage contributor at this level, the",
+        "start": 887.519,
+        "duration": 4.721
+    },
+    {
+        "text": "wolf is going to be the way to go. Um,",
+        "start": 889.68,
+        "duration": 5.519
+    },
+    {
+        "text": "the wolf has the bite action for 2d4",
+        "start": 892.24,
+        "duration": 4.88
+    },
+    {
+        "text": "plus two and it's also a plus two to",
+        "start": 895.199,
+        "duration": 4.32
+    },
+    {
+        "text": "hit. But thanks to its pack tactics",
+        "start": 897.12,
+        "duration": 5.279
+    },
+    {
+        "text": "passive, it has advantage on any attack",
+        "start": 899.519,
+        "duration": 5.68
+    },
+    {
+        "text": "against an enemy as long as another one",
+        "start": 902.399,
+        "duration": 5.44
+    },
+    {
+        "text": "of your allies is within 10 ft of that",
+        "start": 905.199,
+        "duration": 4.721
+    },
+    {
+        "text": "uh enemy or in fact against any target.",
+        "start": 907.839,
+        "duration": 3.921
+    },
+    {
+        "text": "As you see here, we we still get pack",
+        "start": 909.92,
+        "duration": 4.159
+    },
+    {
+        "text": "tactics when we're attacking an ally.",
+        "start": 911.76,
+        "duration": 5.519
+    },
+    {
+        "text": "Um, and having this automatic source of",
+        "start": 914.079,
+        "duration": 5.12
+    },
+    {
+        "text": "advantage means that the wolf is",
+        "start": 917.279,
+        "duration": 3.841
+    },
+    {
+        "text": "actually going to land its attacks. The",
+        "start": 919.199,
+        "duration": 4.08
+    },
+    {
+        "text": "other companions are very unreliable at",
+        "start": 921.12,
+        "duration": 4.48
+    },
+    {
+        "text": "doing this at low levels, but the wolf",
+        "start": 923.279,
+        "duration": 4.481
+    },
+    {
+        "text": "usually will, and it hits pretty hard",
+        "start": 925.6,
+        "duration": 4.479
+    },
+    {
+        "text": "when it does. 2d4 plus two plus an extra",
+        "start": 927.76,
+        "duration": 5.04
+    },
+    {
+        "text": "d6 is very meaningful damage at level",
+        "start": 930.079,
+        "duration": 4.241
+    },
+    {
+        "text": "three, and you can get that pretty",
+        "start": 932.8,
+        "duration": 5.2
+    },
+    {
+        "text": "reliably every turn. Um, lunging bite is",
+        "start": 934.32,
+        "duration": 7.04
+    },
+    {
+        "text": "also pretty nice. This will again have a",
+        "start": 938.0,
+        "duration": 6.16
+    },
+    {
+        "text": "decent chance of landing, and when you",
+        "start": 941.36,
+        "duration": 4.64
+    },
+    {
+        "text": "actually hit the enemy with lunging",
+        "start": 944.16,
+        "duration": 4.0
+    },
+    {
+        "text": "bite, they have to make a saving throw.",
+        "start": 946.0,
+        "duration": 5.519
+    },
+    {
+        "text": "It's only DC 10. Uh, but a lot of",
+        "start": 948.16,
+        "duration": 7.039
+    },
+    {
+        "text": "enemies at low levels. I also took out",
+        "start": 951.519,
+        "duration": 5.601
+    },
+    {
+        "text": "the wolf there because Gail had armor of",
+        "start": 955.199,
+        "duration": 3.601
+    },
+    {
+        "text": "Agatus on him. That's actually really",
+        "start": 957.12,
+        "duration": 4.24
+    },
+    {
+        "text": "funny. Um, but a lot of enemies at these",
+        "start": 958.8,
+        "duration": 4.32
+    },
+    {
+        "text": "low levels do have pretty low strength.",
+        "start": 961.36,
+        "duration": 3.36
+    },
+    {
+        "text": "You're fighting a lot of goblins and",
+        "start": 963.12,
+        "duration": 3.2
+    },
+    {
+        "text": "spiders and things which have low",
+        "start": 964.72,
+        "duration": 3.52
+    },
+    {
+        "text": "strength and so they'll fail the save",
+        "start": 966.32,
+        "duration": 4.319
+    },
+    {
+        "text": "against the prone pretty reliably. So",
+        "start": 968.24,
+        "duration": 5.44
+    },
+    {
+        "text": "you can use lunging bite to to knock",
+        "start": 970.639,
+        "duration": 5.12
+    },
+    {
+        "text": "enemies prone pretty frequently. So, if",
+        "start": 973.68,
+        "duration": 4.56
+    },
+    {
+        "text": "you want a damage dealer, the wolf is",
+        "start": 975.759,
+        "duration": 4.241
+    },
+    {
+        "text": "going to be the way to go. Though, I",
+        "start": 978.24,
+        "duration": 3.92
+    },
+    {
+        "text": "think that the spider does a pretty good",
+        "start": 980.0,
+        "duration": 3.759
+    },
+    {
+        "text": "job doing damage and has a lot of",
+        "start": 982.16,
+        "duration": 3.44
+    },
+    {
+        "text": "control. So, it's still usually what I'd",
+        "start": 983.759,
+        "duration": 5.2
+    },
+    {
+        "text": "recommend um at this low level. Uh but",
+        "start": 985.6,
+        "duration": 5.84
+    },
+    {
+        "text": "the wolf's damage can definitely",
+        "start": 988.959,
+        "duration": 4.081
+    },
+    {
+        "text": "contribute if you're in a low damage",
+        "start": 991.44,
+        "duration": 4.639
+    },
+    {
+        "text": "party. At level five, your beasts become",
+        "start": 993.04,
+        "duration": 5.76
+    },
+    {
+        "text": "much more effective, and there's also a",
+        "start": 996.079,
+        "duration": 4.481
+    },
+    {
+        "text": "lot more choices as to which one is",
+        "start": 998.8,
+        "duration": 3.44
+    },
+    {
+        "text": "going to be the best at this level and",
+        "start": 1000.56,
+        "duration": 3.12
+    },
+    {
+        "text": "which one you're going to use in which",
+        "start": 1002.24,
+        "duration": 3.599
+    },
+    {
+        "text": "encounter. At level five, they now",
+        "start": 1003.68,
+        "duration": 3.76
+    },
+    {
+        "text": "benefit from your proficiency bonus,",
+        "start": 1005.839,
+        "duration": 2.961
+    },
+    {
+        "text": "which of course because your level five",
+        "start": 1007.44,
+        "duration": 3.519
+    },
+    {
+        "text": "is plus three. So, they get uh your",
+        "start": 1008.8,
+        "duration": 4.399
+    },
+    {
+        "text": "proficiency bonus to their attacks as",
+        "start": 1010.959,
+        "duration": 4.32
+    },
+    {
+        "text": "well as to their armor class, making",
+        "start": 1013.199,
+        "duration": 4.0
+    },
+    {
+        "text": "them both much tankier and much more",
+        "start": 1015.279,
+        "duration": 3.441
+    },
+    {
+        "text": "likely to actually land their attacks",
+        "start": 1017.199,
+        "duration": 3.521
+    },
+    {
+        "text": "and do damage. In addition to this, it's",
+        "start": 1018.72,
+        "duration": 3.76
+    },
+    {
+        "text": "not listed on the tool tip, they all get",
+        "start": 1020.72,
+        "duration": 4.319
+    },
+    {
+        "text": "more health and additional abilities.",
+        "start": 1022.48,
+        "duration": 4.4
+    },
+    {
+        "text": "So, let's go over what those are and",
+        "start": 1025.039,
+        "duration": 4.241
+    },
+    {
+        "text": "talk about how to evaluate the",
+        "start": 1026.88,
+        "duration": 5.6
+    },
+    {
+        "text": "companions at level five. At level five,",
+        "start": 1029.28,
+        "duration": 5.12
+    },
+    {
+        "text": "you can see that our bear now has a",
+        "start": 1032.48,
+        "duration": 4.319
+    },
+    {
+        "text": "fancy helmet and is called Ursa Major.",
+        "start": 1034.4,
+        "duration": 4.96
+    },
+    {
+        "text": "Uh, and now has 15 armor class and 39",
+        "start": 1036.799,
+        "duration": 4.801
+    },
+    {
+        "text": "health, which makes it a lot tankier.",
+        "start": 1039.36,
+        "duration": 4.4
+    },
+    {
+        "text": "With 15 AC and 39 health, it's still",
+        "start": 1041.6,
+        "duration": 3.599
+    },
+    {
+        "text": "going to go down pretty fast under",
+        "start": 1043.76,
+        "duration": 3.52
+    },
+    {
+        "text": "focused enemy fire, but you can see its",
+        "start": 1045.199,
+        "duration": 4.321
+    },
+    {
+        "text": "health is caught up a lot to mince",
+        "start": 1047.28,
+        "duration": 4.96
+    },
+    {
+        "text": "health here. And uh, with 15 armor",
+        "start": 1049.52,
+        "duration": 5.039
+    },
+    {
+        "text": "class, enemies will occasionally miss",
+        "start": 1052.24,
+        "duration": 4.319
+    },
+    {
+        "text": "against it. So, the bear is much more",
+        "start": 1054.559,
+        "duration": 3.761
+    },
+    {
+        "text": "effective as a tank starting at level",
+        "start": 1056.559,
+        "duration": 5.201
+    },
+    {
+        "text": "five. Uh, in addition to that, it also",
+        "start": 1058.32,
+        "duration": 6.08
+    },
+    {
+        "text": "gets um an additional ability and its",
+        "start": 1061.76,
+        "duration": 4.4
+    },
+    {
+        "text": "old abilities get some extra effects.",
+        "start": 1064.4,
+        "duration": 4.159
+    },
+    {
+        "text": "So, its claws get the proficiency bonus",
+        "start": 1066.16,
+        "duration": 3.84
+    },
+    {
+        "text": "to hit. So, they're going to hit much",
+        "start": 1068.559,
+        "duration": 3.201
+    },
+    {
+        "text": "more frequently now with a plus five",
+        "start": 1070.0,
+        "duration": 6.16
+    },
+    {
+        "text": "bonus to hit um instead of the plus two",
+        "start": 1071.76,
+        "duration": 7.2
+    },
+    {
+        "text": "that we had before. Uh, and goating roar",
+        "start": 1076.16,
+        "duration": 5.68
+    },
+    {
+        "text": "has the save DC increased by three as",
+        "start": 1078.96,
+        "duration": 4.8
+    },
+    {
+        "text": "well. So, enemies are much more likely",
+        "start": 1081.84,
+        "duration": 4.719
+    },
+    {
+        "text": "to fail the save against this. We also",
+        "start": 1083.76,
+        "duration": 5.279
+    },
+    {
+        "text": "get the honeyed paws ability. And this",
+        "start": 1086.559,
+        "duration": 4.801
+    },
+    {
+        "text": "ability is really, really strong and",
+        "start": 1089.039,
+        "duration": 5.76
+    },
+    {
+        "text": "makes the bear pretty potent against uh",
+        "start": 1091.36,
+        "duration": 5.52
+    },
+    {
+        "text": "all kinds of enemies, especially weapon",
+        "start": 1094.799,
+        "duration": 4.0
+    },
+    {
+        "text": "attackers, cuz disarm is a really good",
+        "start": 1096.88,
+        "duration": 4.24
+    },
+    {
+        "text": "effect. Um, but any enemy that you can",
+        "start": 1098.799,
+        "duration": 4.481
+    },
+    {
+        "text": "reliably land this attack against is",
+        "start": 1101.12,
+        "duration": 4.16
+    },
+    {
+        "text": "going to be really good. You often see",
+        "start": 1103.28,
+        "duration": 4.16
+    },
+    {
+        "text": "this ability discussed as part of the",
+        "start": 1105.28,
+        "duration": 4.399
+    },
+    {
+        "text": "the easiest setup to get the silver",
+        "start": 1107.44,
+        "duration": 4.0
+    },
+    {
+        "text": "sword of the astral plane because it's a",
+        "start": 1109.679,
+        "duration": 3.921
+    },
+    {
+        "text": "no save disarm. So, as long as you can",
+        "start": 1111.44,
+        "duration": 3.76
+    },
+    {
+        "text": "guarantee landing the attack, you can",
+        "start": 1113.6,
+        "duration": 4.16
+    },
+    {
+        "text": "get the silver sword in act one. Um, you",
+        "start": 1115.2,
+        "duration": 4.479
+    },
+    {
+        "text": "can definitely look it up under the",
+        "start": 1117.76,
+        "duration": 3.68
+    },
+    {
+        "text": "silver sword entry on the wiki if you",
+        "start": 1119.679,
+        "duration": 3.681
+    },
+    {
+        "text": "want more info about that. But even",
+        "start": 1121.44,
+        "duration": 4.16
+    },
+    {
+        "text": "outside of that one sort of exploit,",
+        "start": 1123.36,
+        "duration": 4.96
+    },
+    {
+        "text": "this is just a very strong ability. It's",
+        "start": 1125.6,
+        "duration": 4.56
+    },
+    {
+        "text": "plus five to hit, which means it's not",
+        "start": 1128.32,
+        "duration": 3.599
+    },
+    {
+        "text": "going to hit incredibly reliably, but",
+        "start": 1130.16,
+        "duration": 3.68
+    },
+    {
+        "text": "again, you can boost it. And just like",
+        "start": 1131.919,
+        "duration": 4.721
+    },
+    {
+        "text": "the raven, this effect happens with no",
+        "start": 1133.84,
+        "duration": 4.64
+    },
+    {
+        "text": "saving throw as long as the attack",
+        "start": 1136.64,
+        "duration": 4.56
+    },
+    {
+        "text": "lands. So against any enemy with a",
+        "start": 1138.48,
+        "duration": 4.8
+    },
+    {
+        "text": "weapon, you can disarm them as long as",
+        "start": 1141.2,
+        "duration": 4.24
+    },
+    {
+        "text": "you can land the honeydeed paws attack.",
+        "start": 1143.28,
+        "duration": 4.24
+    },
+    {
+        "text": "And against any enemy without a weapon,",
+        "start": 1145.44,
+        "duration": 3.84
+    },
+    {
+        "text": "you can knock them prone as long as you",
+        "start": 1147.52,
+        "duration": 4.399
+    },
+    {
+        "text": "can land the attack. No save effects",
+        "start": 1149.28,
+        "duration": 5.279
+    },
+    {
+        "text": "that that debuff enemies like that are",
+        "start": 1151.919,
+        "duration": 5.041
+    },
+    {
+        "text": "really valuable. And being able to spam",
+        "start": 1154.559,
+        "duration": 4.561
+    },
+    {
+        "text": "this every turn or use goating roar",
+        "start": 1156.96,
+        "duration": 4.24
+    },
+    {
+        "text": "every second turn and then honeyed paws",
+        "start": 1159.12,
+        "duration": 4.24
+    },
+    {
+        "text": "every turn so enemies have disadvantage",
+        "start": 1161.2,
+        "duration": 3.76
+    },
+    {
+        "text": "in all their attacks and are often",
+        "start": 1163.36,
+        "duration": 3.76
+    },
+    {
+        "text": "disarmed or prone makes this a very",
+        "start": 1164.96,
+        "duration": 4.24
+    },
+    {
+        "text": "disruptive piece.",
+        "start": 1167.12,
+        "duration": 3.6
+    },
+    {
+        "text": "Generally, you're going to want to use",
+        "start": 1169.2,
+        "duration": 4.88
+    },
+    {
+        "text": "the the uh bear starting at level five",
+        "start": 1170.72,
+        "duration": 6.079
+    },
+    {
+        "text": "in fights where there are lots of",
+        "start": 1174.08,
+        "duration": 4.88
+    },
+    {
+        "text": "enemies with weak wisdom saves so that",
+        "start": 1176.799,
+        "duration": 4.561
+    },
+    {
+        "text": "the goating attack is good. But adding",
+        "start": 1178.96,
+        "duration": 4.959
+    },
+    {
+        "text": "honeyed paws into the mix means that you",
+        "start": 1181.36,
+        "duration": 5.04
+    },
+    {
+        "text": "can absorb a lot of damage. So, if",
+        "start": 1183.919,
+        "duration": 4.321
+    },
+    {
+        "text": "you're worried about enemy damage, say",
+        "start": 1186.4,
+        "duration": 3.76
+    },
+    {
+        "text": "against a an encounter with a lot of",
+        "start": 1188.24,
+        "duration": 3.92
+    },
+    {
+        "text": "archers, the bear makes a very good",
+        "start": 1190.16,
+        "duration": 5.12
+    },
+    {
+        "text": "choice. Level five is also when the boar",
+        "start": 1192.16,
+        "duration": 5.519
+    },
+    {
+        "text": "really comes into its own. Again, with",
+        "start": 1195.28,
+        "duration": 4.399
+    },
+    {
+        "text": "the addition of your proficiency bonus",
+        "start": 1197.679,
+        "duration": 4.0
+    },
+    {
+        "text": "to attacks, you can actually land your",
+        "start": 1199.679,
+        "duration": 4.641
+    },
+    {
+        "text": "damaging attacks pretty frequently and",
+        "start": 1201.679,
+        "duration": 4.961
+    },
+    {
+        "text": "the saving throw on bore charge being",
+        "start": 1204.32,
+        "duration": 4.479
+    },
+    {
+        "text": "increased means that this is now a much",
+        "start": 1206.64,
+        "duration": 4.8
+    },
+    {
+        "text": "more powerful ability. Bore charge also",
+        "start": 1208.799,
+        "duration": 4.561
+    },
+    {
+        "text": "benefits from the new abilities that you",
+        "start": 1211.44,
+        "duration": 5.68
+    },
+    {
+        "text": "get quite a bit because you have rage um",
+        "start": 1213.36,
+        "duration": 6.24
+    },
+    {
+        "text": "which allows you to just like a normal",
+        "start": 1217.12,
+        "duration": 5.28
+    },
+    {
+        "text": "character, a normal barbarian rage, gain",
+        "start": 1219.6,
+        "duration": 5.92
+    },
+    {
+        "text": "resistance to all physical damage. So,",
+        "start": 1222.4,
+        "duration": 5.6
+    },
+    {
+        "text": "you're 27 HP and 14 AC, you're still",
+        "start": 1225.52,
+        "duration": 4.8
+    },
+    {
+        "text": "pretty squishy. But against physical",
+        "start": 1228.0,
+        "duration": 4.88
+    },
+    {
+        "text": "attacking enemies, you have effectively",
+        "start": 1230.32,
+        "duration": 4.8
+    },
+    {
+        "text": "54 health, which is a much more",
+        "start": 1232.88,
+        "duration": 4.48
+    },
+    {
+        "text": "respectable total, and it multiplies",
+        "start": 1235.12,
+        "duration": 4.96
+    },
+    {
+        "text": "healing that um is being applied to you",
+        "start": 1237.36,
+        "duration": 4.559
+    },
+    {
+        "text": "and everything like that. Add two",
+        "start": 1240.08,
+        "duration": 4.479
+    },
+    {
+        "text": "slashing damage to each of your attacks.",
+        "start": 1241.919,
+        "duration": 5.041
+    },
+    {
+        "text": "Uh and also can use frenzied strike.",
+        "start": 1244.559,
+        "duration": 4.081
+    },
+    {
+        "text": "Frenzied strike is a bonus action",
+        "start": 1246.96,
+        "duration": 3.28
+    },
+    {
+        "text": "attack, which gives you effectively two",
+        "start": 1248.64,
+        "duration": 3.6
+    },
+    {
+        "text": "attacks in a turn as the boar. And",
+        "start": 1250.24,
+        "duration": 3.76
+    },
+    {
+        "text": "remember that all of your attacks apply",
+        "start": 1252.24,
+        "duration": 4.0
+    },
+    {
+        "text": "the hunter mark bonus damage from your",
+        "start": 1254.0,
+        "duration": 5.919
+    },
+    {
+        "text": "ranger as well. So um you can deal 1d6",
+        "start": 1256.24,
+        "duration": 7.2
+    },
+    {
+        "text": "plus four plus an extra d6 um with",
+        "start": 1259.919,
+        "duration": 5.681
+    },
+    {
+        "text": "frenzied strike as a bonus action. And",
+        "start": 1263.44,
+        "duration": 5.119
+    },
+    {
+        "text": "with your tusks you can deal also 2d6",
+        "start": 1265.6,
+        "duration": 7.6
+    },
+    {
+        "text": "plus 4 um damage as well. So 4d6 plus 8",
+        "start": 1268.559,
+        "duration": 6.961
+    },
+    {
+        "text": "uh in one turn is pretty respectable",
+        "start": 1273.2,
+        "duration": 4.16
+    },
+    {
+        "text": "given that this isn't even your actual",
+        "start": 1275.52,
+        "duration": 4.32
+    },
+    {
+        "text": "character acting. All of those bonuses",
+        "start": 1277.36,
+        "duration": 4.72
+    },
+    {
+        "text": "do apply to the bore charge as well. So,",
+        "start": 1279.84,
+        "duration": 5.839
+    },
+    {
+        "text": "you're going to get extra damage on the",
+        "start": 1282.08,
+        "duration": 5.599
+    },
+    {
+        "text": "uh and the rage bonus gets applied to",
+        "start": 1285.679,
+        "duration": 4.24
+    },
+    {
+        "text": "both the hunter mark bonus and the bore",
+        "start": 1287.679,
+        "duration": 4.161
+    },
+    {
+        "text": "charge bonus when you use that. So, you",
+        "start": 1289.919,
+        "duration": 4.081
+    },
+    {
+        "text": "kind of double count the rage bonus. So,",
+        "start": 1291.84,
+        "duration": 4.48
+    },
+    {
+        "text": "this uh the boar becomes fairly tanky",
+        "start": 1294.0,
+        "duration": 4.159
+    },
+    {
+        "text": "against physical damage dealers and",
+        "start": 1296.32,
+        "duration": 4.56
+    },
+    {
+        "text": "starts doing a lot of damage. Generally",
+        "start": 1298.159,
+        "duration": 5.201
+    },
+    {
+        "text": "speaking, I want to use the bore against",
+        "start": 1300.88,
+        "duration": 5.2
+    },
+    {
+        "text": "squishy enemies. Um, so I still prefer",
+        "start": 1303.36,
+        "duration": 4.72
+    },
+    {
+        "text": "it against spellcasters than against",
+        "start": 1306.08,
+        "duration": 4.24
+    },
+    {
+        "text": "physical damage dealers. But if you're",
+        "start": 1308.08,
+        "duration": 4.56
+    },
+    {
+        "text": "either in an encounter with only",
+        "start": 1310.32,
+        "duration": 5.28
+    },
+    {
+        "text": "physical damage, um, so the rage is at",
+        "start": 1312.64,
+        "duration": 6.0
+    },
+    {
+        "text": "its best or in an encounter against weak",
+        "start": 1315.6,
+        "duration": 5.04
+    },
+    {
+        "text": "spellcasters that the boar can just tear",
+        "start": 1318.64,
+        "duration": 3.6
+    },
+    {
+        "text": "to pieces and kill them before they can",
+        "start": 1320.64,
+        "duration": 3.84
+    },
+    {
+        "text": "cast. This is now a really potent",
+        "start": 1322.24,
+        "duration": 4.64
+    },
+    {
+        "text": "threat. So anytime you want lots and",
+        "start": 1324.48,
+        "duration": 4.64
+    },
+    {
+        "text": "lots of damage or against enemies who",
+        "start": 1326.88,
+        "duration": 4.64
+    },
+    {
+        "text": "are purely physical, you can break out",
+        "start": 1329.12,
+        "duration": 5.12
+    },
+    {
+        "text": "the bore starting at level five. At",
+        "start": 1331.52,
+        "duration": 5.039
+    },
+    {
+        "text": "level five, the spider mostly gets a lot",
+        "start": 1334.24,
+        "duration": 4.4
+    },
+    {
+        "text": "tankier. So, the consequences of",
+        "start": 1336.559,
+        "duration": 4.0
+    },
+    {
+        "text": "positioning it in the wrong place are a",
+        "start": 1338.64,
+        "duration": 4.56
+    },
+    {
+        "text": "lot lower. Um, because with 18 armor",
+        "start": 1340.559,
+        "duration": 5.761
+    },
+    {
+        "text": "class, it even a lot of enemies at level",
+        "start": 1343.2,
+        "duration": 4.719
+    },
+    {
+        "text": "five are going to miss their attacks",
+        "start": 1346.32,
+        "duration": 3.76
+    },
+    {
+        "text": "against it pretty reliably. And even if",
+        "start": 1347.919,
+        "duration": 4.64
+    },
+    {
+        "text": "they do hit, 24 HP should be enough to",
+        "start": 1350.08,
+        "duration": 4.88
+    },
+    {
+        "text": "survive one hit from most enemies. So,",
+        "start": 1352.559,
+        "duration": 4.081
+    },
+    {
+        "text": "you'll have time to heal it back up or",
+        "start": 1354.96,
+        "duration": 4.959
+    },
+    {
+        "text": "get it out of um a risky situation. So,",
+        "start": 1356.64,
+        "duration": 6.64
+    },
+    {
+        "text": "the spider is pretty difficult to kill.",
+        "start": 1359.919,
+        "duration": 5.601
+    },
+    {
+        "text": "um at level five still, especially given",
+        "start": 1363.28,
+        "duration": 3.84
+    },
+    {
+        "text": "its mobility and that it's going to be",
+        "start": 1365.52,
+        "duration": 4.32
+    },
+    {
+        "text": "locking down a lot of enemies. In terms",
+        "start": 1367.12,
+        "duration": 4.64
+    },
+    {
+        "text": "of its offensive capabilities, it",
+        "start": 1369.84,
+        "duration": 3.6
+    },
+    {
+        "text": "doesn't get that much at level five,",
+        "start": 1371.76,
+        "duration": 4.24
+    },
+    {
+        "text": "though. Uh so, Venomous Bite, of course,",
+        "start": 1373.44,
+        "duration": 4.719
+    },
+    {
+        "text": "hits a lot more reliably with your",
+        "start": 1376.0,
+        "duration": 4.32
+    },
+    {
+        "text": "proficiency bonus and because it now has",
+        "start": 1378.159,
+        "duration": 5.201
+    },
+    {
+        "text": "18 dexterity. That gives it plus uh",
+        "start": 1380.32,
+        "duration": 5.2
+    },
+    {
+        "text": "seven to hit with its attacks, which is",
+        "start": 1383.36,
+        "duration": 4.319
+    },
+    {
+        "text": "a pretty respectable bonus at this",
+        "start": 1385.52,
+        "duration": 5.6
+    },
+    {
+        "text": "level. Um, and so you can see here we",
+        "start": 1387.679,
+        "duration": 6.88
+    },
+    {
+        "text": "have our our full plus seven to hit. Um,",
+        "start": 1391.12,
+        "duration": 5.76
+    },
+    {
+        "text": "and the damage is still okay, though it",
+        "start": 1394.559,
+        "duration": 4.401
+    },
+    {
+        "text": "has started to fall off uh fairly",
+        "start": 1396.88,
+        "duration": 4.24
+    },
+    {
+        "text": "significantly at this point. Web is",
+        "start": 1398.96,
+        "duration": 4.8
+    },
+    {
+        "text": "still amazing, of course. Um, but the",
+        "start": 1401.12,
+        "duration": 4.96
+    },
+    {
+        "text": "cocoon ability that you get as your new",
+        "start": 1403.76,
+        "duration": 5.44
+    },
+    {
+        "text": "ability is mostly not that strong.",
+        "start": 1406.08,
+        "duration": 5.36
+    },
+    {
+        "text": "Cocoon is a pretty good debuff. stuns",
+        "start": 1409.2,
+        "duration": 4.88
+    },
+    {
+        "text": "the enemy completely, preventing them",
+        "start": 1411.44,
+        "duration": 5.92
+    },
+    {
+        "text": "from uh doing anything. So, they can't",
+        "start": 1414.08,
+        "duration": 6.079
+    },
+    {
+        "text": "move, act, react, or take uh bonus",
+        "start": 1417.36,
+        "duration": 4.64
+    },
+    {
+        "text": "actions or anything like that. But if",
+        "start": 1420.159,
+        "duration": 3.921
+    },
+    {
+        "text": "you deal damage to them, or they pass a",
+        "start": 1422.0,
+        "duration": 3.44
+    },
+    {
+        "text": "strength save, which they get at the",
+        "start": 1424.08,
+        "duration": 2.88
+    },
+    {
+        "text": "start of each of their turns, they break",
+        "start": 1425.44,
+        "duration": 3.76
+    },
+    {
+        "text": "out of it. Um and since it has both",
+        "start": 1426.96,
+        "duration": 4.719
+    },
+    {
+        "text": "dexterity saves uh to avoid it in the",
+        "start": 1429.2,
+        "duration": 4.16
+    },
+    {
+        "text": "first place, and strength saves to break",
+        "start": 1431.679,
+        "duration": 4.0
+    },
+    {
+        "text": "out, enemies will usually be able to",
+        "start": 1433.36,
+        "duration": 4.88
+    },
+    {
+        "text": "pass one of the two of those and avoid",
+        "start": 1435.679,
+        "duration": 4.721
+    },
+    {
+        "text": "falling for the cocoon. Also, it's a",
+        "start": 1438.24,
+        "duration": 4.16
+    },
+    {
+        "text": "melee single target disable as opposed",
+        "start": 1440.4,
+        "duration": 4.0
+    },
+    {
+        "text": "to a ranged AoE disable. So, you're",
+        "start": 1442.4,
+        "duration": 3.2
+    },
+    {
+        "text": "usually just going to want to use the",
+        "start": 1444.4,
+        "duration": 3.44
+    },
+    {
+        "text": "webs. The spider is still just very good",
+        "start": 1445.6,
+        "duration": 3.92
+    },
+    {
+        "text": "in the encounters it was already good",
+        "start": 1447.84,
+        "duration": 4.56
+    },
+    {
+        "text": "in. Um, and you you can definitely still",
+        "start": 1449.52,
+        "duration": 5.519
+    },
+    {
+        "text": "use it. It the stats get way better, but",
+        "start": 1452.4,
+        "duration": 4.48
+    },
+    {
+        "text": "it doesn't get a new play pattern at",
+        "start": 1455.039,
+        "duration": 4.24
+    },
+    {
+        "text": "this level. The Raven on the other hand",
+        "start": 1456.88,
+        "duration": 4.72
+    },
+    {
+        "text": "gets a ton of buffs at level five. So,",
+        "start": 1459.279,
+        "duration": 4.721
+    },
+    {
+        "text": "firstly, it becomes a very respectable",
+        "start": 1461.6,
+        "duration": 5.12
+    },
+    {
+        "text": "tank with 19 armor class. a lot of",
+        "start": 1464.0,
+        "duration": 4.0
+    },
+    {
+        "text": "enemies are going to miss attacks",
+        "start": 1466.72,
+        "duration": 3.839
+    },
+    {
+        "text": "against it. With only 21 HP, it will die",
+        "start": 1468.0,
+        "duration": 4.159
+    },
+    {
+        "text": "pretty quickly, but you can mitigate",
+        "start": 1470.559,
+        "duration": 3.521
+    },
+    {
+        "text": "this with healing and with aid to",
+        "start": 1472.159,
+        "duration": 4.321
+    },
+    {
+        "text": "increase its base HP, stuff like that.",
+        "start": 1474.08,
+        "duration": 5.04
+    },
+    {
+        "text": "Um, and a lot of enemies will miss their",
+        "start": 1476.48,
+        "duration": 5.439
+    },
+    {
+        "text": "attacks, so or just choose not to attack",
+        "start": 1479.12,
+        "duration": 5.12
+    },
+    {
+        "text": "it. So, the Raven is very survivable",
+        "start": 1481.919,
+        "duration": 4.561
+    },
+    {
+        "text": "thanks to its actually quite high armor",
+        "start": 1484.24,
+        "duration": 4.799
+    },
+    {
+        "text": "class at this level. It also gets an",
+        "start": 1486.48,
+        "duration": 4.4
+    },
+    {
+        "text": "increase to its base damage. None of the",
+        "start": 1489.039,
+        "duration": 4.24
+    },
+    {
+        "text": "other companions do this, but it goes",
+        "start": 1490.88,
+        "duration": 6.0
+    },
+    {
+        "text": "from uh 2d4 plus 2 to 3d4 plus two",
+        "start": 1493.279,
+        "duration": 6.161
+    },
+    {
+        "text": "damage on its beak attack, plus an extra",
+        "start": 1496.88,
+        "duration": 6.56
+    },
+    {
+        "text": "d6 with hunter mark. Um, and of course,",
+        "start": 1499.44,
+        "duration": 5.68
+    },
+    {
+        "text": "the ability to land your attacks more",
+        "start": 1503.44,
+        "duration": 3.599
+    },
+    {
+        "text": "reliably with your proficiency bonus",
+        "start": 1505.12,
+        "duration": 4.24
+    },
+    {
+        "text": "makes rend vision a very good ability at",
+        "start": 1507.039,
+        "duration": 4.64
+    },
+    {
+        "text": "this point. And the reliable blind",
+        "start": 1509.36,
+        "duration": 3.919
+    },
+    {
+        "text": "combined with your mobility and high",
+        "start": 1511.679,
+        "duration": 3.12
+    },
+    {
+        "text": "armor class means that this is going to",
+        "start": 1513.279,
+        "duration": 3.52
+    },
+    {
+        "text": "be debuffing the most dangerous enemy in",
+        "start": 1514.799,
+        "duration": 5.281
+    },
+    {
+        "text": "an encounter very reliably. The other",
+        "start": 1516.799,
+        "duration": 5.201
+    },
+    {
+        "text": "thing that you get is this bad omen",
+        "start": 1520.08,
+        "duration": 4.479
+    },
+    {
+        "text": "ability, which is a 30 foot range uh",
+        "start": 1522.0,
+        "duration": 5.2
+    },
+    {
+        "text": "ranged attack. Now, a 30-foot range",
+        "start": 1524.559,
+        "duration": 4.561
+    },
+    {
+        "text": "attack is fairly low, but remember that",
+        "start": 1527.2,
+        "duration": 4.88
+    },
+    {
+        "text": "you're a flying unit, so you can go",
+        "start": 1529.12,
+        "duration": 5.36
+    },
+    {
+        "text": "pretty much anywhere and you have 60 ft",
+        "start": 1532.08,
+        "duration": 4.959
+    },
+    {
+        "text": "base movement speed at this level. So,",
+        "start": 1534.48,
+        "duration": 5.76
+    },
+    {
+        "text": "you get a lot of extra move speed. Um,",
+        "start": 1537.039,
+        "duration": 6.24
+    },
+    {
+        "text": "and this is a saving throw, so it's a",
+        "start": 1540.24,
+        "duration": 5.679
+    },
+    {
+        "text": "wisdom save against this effect. uh",
+        "start": 1543.279,
+        "duration": 4.88
+    },
+    {
+        "text": "which a lot of enemies will be pretty",
+        "start": 1545.919,
+        "duration": 6.081
+    },
+    {
+        "text": "bad at uh passing. Um and even if they",
+        "start": 1548.159,
+        "duration": 6.64
+    },
+    {
+        "text": "do save, they still take half damage. So",
+        "start": 1552.0,
+        "duration": 5.52
+    },
+    {
+        "text": "this is uh a companion that has 100%",
+        "start": 1554.799,
+        "duration": 5.041
+    },
+    {
+        "text": "reliable damage. Um so you can use it to",
+        "start": 1557.52,
+        "duration": 4.24
+    },
+    {
+        "text": "finish off low enemies and thanks to its",
+        "start": 1559.84,
+        "duration": 4.4
+    },
+    {
+        "text": "range, you can do it very safely. Uh if",
+        "start": 1561.76,
+        "duration": 4.799
+    },
+    {
+        "text": "you land it, the enemy gets cursed,",
+        "start": 1564.24,
+        "duration": 3.919
+    },
+    {
+        "text": "which gives attack rolls against them",
+        "start": 1566.559,
+        "duration": 4.24
+    },
+    {
+        "text": "advantage. So, usually you're only going",
+        "start": 1568.159,
+        "duration": 4.321
+    },
+    {
+        "text": "to want to do that if you need the",
+        "start": 1570.799,
+        "duration": 4.401
+    },
+    {
+        "text": "reliable damage or if the enemy has",
+        "start": 1572.48,
+        "duration": 4.64
+    },
+    {
+        "text": "really high armor class at bad wisdom",
+        "start": 1575.2,
+        "duration": 4.32
+    },
+    {
+        "text": "saves. Bad omen is good. Um, or if you",
+        "start": 1577.12,
+        "duration": 4.72
+    },
+    {
+        "text": "want the range because attack rules will",
+        "start": 1579.52,
+        "duration": 4.08
+    },
+    {
+        "text": "have advantage against any enemy you hit",
+        "start": 1581.84,
+        "duration": 4.079
+    },
+    {
+        "text": "rend vision against. Um, but you can do",
+        "start": 1583.6,
+        "duration": 4.88
+    },
+    {
+        "text": "both uh to like curse it and then rend",
+        "start": 1585.919,
+        "duration": 4.081
+    },
+    {
+        "text": "vision it for example. So, this is",
+        "start": 1588.48,
+        "duration": 2.96
+    },
+    {
+        "text": "another really nice tool in your",
+        "start": 1590.0,
+        "duration": 3.52
+    },
+    {
+        "text": "arsenal. The raven at this point just",
+        "start": 1591.44,
+        "duration": 3.839
+    },
+    {
+        "text": "becomes a very strong and flexible",
+        "start": 1593.52,
+        "duration": 4.24
+    },
+    {
+        "text": "allrounder, very hard to kill and is",
+        "start": 1595.279,
+        "duration": 4.321
+    },
+    {
+        "text": "going to be useful in pretty much every",
+        "start": 1597.76,
+        "duration": 4.64
+    },
+    {
+        "text": "fight starting from level five. At level",
+        "start": 1599.6,
+        "duration": 4.8
+    },
+    {
+        "text": "five, the wolf continues the trend of",
+        "start": 1602.4,
+        "duration": 4.72
+    },
+    {
+        "text": "just being a solid allround pick. It's",
+        "start": 1604.4,
+        "duration": 5.04
+    },
+    {
+        "text": "got decent defenses with 16 armor class",
+        "start": 1607.12,
+        "duration": 4.88
+    },
+    {
+        "text": "and 31 HP, so it won't die in one hit to",
+        "start": 1609.44,
+        "duration": 4.32
+    },
+    {
+        "text": "most enemies, and some enemies will",
+        "start": 1612.0,
+        "duration": 3.76
+    },
+    {
+        "text": "still miss it. It doesn't have the",
+        "start": 1613.76,
+        "duration": 3.919
+    },
+    {
+        "text": "evasion tanking capabilities of the",
+        "start": 1615.76,
+        "duration": 4.08
+    },
+    {
+        "text": "Raven, but it's still going to be pretty",
+        "start": 1617.679,
+        "duration": 5.201
+    },
+    {
+        "text": "survivable overall. Offensively, it gets",
+        "start": 1619.84,
+        "duration": 6.56
+    },
+    {
+        "text": "a couple additional bonuses. So, um,",
+        "start": 1622.88,
+        "duration": 5.6
+    },
+    {
+        "text": "obviously the addition of the plus three",
+        "start": 1626.4,
+        "duration": 3.92
+    },
+    {
+        "text": "to hit makes lunging bite knocking",
+        "start": 1628.48,
+        "duration": 4.4
+    },
+    {
+        "text": "enemies prone more reliable. Uh, though",
+        "start": 1630.32,
+        "duration": 4.32
+    },
+    {
+        "text": "they do still get the strength save",
+        "start": 1632.88,
+        "duration": 4.48
+    },
+    {
+        "text": "against it. The save DC has gone up.",
+        "start": 1634.64,
+        "duration": 4.08
+    },
+    {
+        "text": "Usually, you're going to want to use",
+        "start": 1637.36,
+        "duration": 2.799
+    },
+    {
+        "text": "honeyed paws if you want to knock",
+        "start": 1638.72,
+        "duration": 3.36
+    },
+    {
+        "text": "enemies prone cuz the you just have to",
+        "start": 1640.159,
+        "duration": 4.241
+    },
+    {
+        "text": "land the attack. Um, but this is still a",
+        "start": 1642.08,
+        "duration": 4.959
+    },
+    {
+        "text": "pretty powerful debuffing effect. It",
+        "start": 1644.4,
+        "duration": 5.12
+    },
+    {
+        "text": "also replaces the base attack, though",
+        "start": 1647.039,
+        "duration": 4.961
+    },
+    {
+        "text": "you can still do the normal bite attack",
+        "start": 1649.52,
+        "duration": 5.44
+    },
+    {
+        "text": "uh for the wolf with infectious bite um",
+        "start": 1652.0,
+        "duration": 6.159
+    },
+    {
+        "text": "which does necrotic damage at base. So",
+        "start": 1654.96,
+        "duration": 5.199
+    },
+    {
+        "text": "uh some enemies will resist it, some",
+        "start": 1658.159,
+        "duration": 3.681
+    },
+    {
+        "text": "won't that would have resisted physical",
+        "start": 1660.159,
+        "duration": 3.361
+    },
+    {
+        "text": "damage. Having the option is always",
+        "start": 1661.84,
+        "duration": 4.319
+    },
+    {
+        "text": "nice. And if they then fail a con save",
+        "start": 1663.52,
+        "duration": 5.2
+    },
+    {
+        "text": "when you hit them, uh they become septic",
+        "start": 1666.159,
+        "duration": 5.52
+    },
+    {
+        "text": "for three turns. Uh this reduces their",
+        "start": 1668.72,
+        "duration": 4.88
+    },
+    {
+        "text": "constitution by one and gives them",
+        "start": 1671.679,
+        "duration": 4.321
+    },
+    {
+        "text": "disadvantage on con saves. An enemy",
+        "start": 1673.6,
+        "duration": 4.16
+    },
+    {
+        "text": "whose constitution is reduced if they",
+        "start": 1676.0,
+        "duration": 4.0
+    },
+    {
+        "text": "had an even number is going to lose",
+        "start": 1677.76,
+        "duration": 4.08
+    },
+    {
+        "text": "maximum health. So, this can actually do",
+        "start": 1680.0,
+        "duration": 3.679
+    },
+    {
+        "text": "a lot more damage than is listed on the",
+        "start": 1681.84,
+        "duration": 4.88
+    },
+    {
+        "text": "tool tip here. Um, and uh against",
+        "start": 1683.679,
+        "duration": 4.88
+    },
+    {
+        "text": "healing enemies can be pretty nice as",
+        "start": 1686.72,
+        "duration": 4.4
+    },
+    {
+        "text": "well. This isn't a huge upgrade. The big",
+        "start": 1688.559,
+        "duration": 4.401
+    },
+    {
+        "text": "thing that you get for the wolf is just",
+        "start": 1691.12,
+        "duration": 4.159
+    },
+    {
+        "text": "again solid stats and reliability",
+        "start": 1692.96,
+        "duration": 4.48
+    },
+    {
+        "text": "because of pack tactics, but it's a nice",
+        "start": 1695.279,
+        "duration": 4.4
+    },
+    {
+        "text": "option for potentially doing more damage",
+        "start": 1697.44,
+        "duration": 4.8
+    },
+    {
+        "text": "overall. So, if you know if we bite",
+        "start": 1699.679,
+        "duration": 4.321
+    },
+    {
+        "text": "mince here, you can see we do okay",
+        "start": 1702.24,
+        "duration": 3.679
+    },
+    {
+        "text": "damage. And now you can actually see",
+        "start": 1704.0,
+        "duration": 4.799
+    },
+    {
+        "text": "that our numbers on our attacks are",
+        "start": 1705.919,
+        "duration": 5.36
+    },
+    {
+        "text": "pretty good at this point. And Minsk,",
+        "start": 1708.799,
+        "duration": 5.041
+    },
+    {
+        "text": "having failed the saving throw, has lost",
+        "start": 1711.279,
+        "duration": 5.601
+    },
+    {
+        "text": "five maximum health from 49 to 44",
+        "start": 1713.84,
+        "duration": 4.88
+    },
+    {
+        "text": "because our constitution got reduced",
+        "start": 1716.88,
+        "duration": 5.039
+    },
+    {
+        "text": "from 16 to 15. So took more damage and",
+        "start": 1718.72,
+        "duration": 5.679
+    },
+    {
+        "text": "also lost max HP there, which is a",
+        "start": 1721.919,
+        "duration": 4.801
+    },
+    {
+        "text": "pretty nice debuff. At character level",
+        "start": 1724.399,
+        "duration": 4.721
+    },
+    {
+        "text": "seven, your animal companions gain some",
+        "start": 1726.72,
+        "duration": 5.04
+    },
+    {
+        "text": "extra abilities. So they can now dash,",
+        "start": 1729.12,
+        "duration": 5.12
+    },
+    {
+        "text": "disengage, and use the help action as a",
+        "start": 1731.76,
+        "duration": 4.24
+    },
+    {
+        "text": "bonus action. Dash, of course, lets you",
+        "start": 1734.24,
+        "duration": 3.679
+    },
+    {
+        "text": "double your movement speed. Dash as a",
+        "start": 1736.0,
+        "duration": 3.76
+    },
+    {
+        "text": "bonus action is super powerful. You know",
+        "start": 1737.919,
+        "duration": 4.161
+    },
+    {
+        "text": "this from rogues. Uh giving you a lot of",
+        "start": 1739.76,
+        "duration": 4.32
+    },
+    {
+        "text": "mobility and a lot of flexibility in",
+        "start": 1742.08,
+        "duration": 4.8
+    },
+    {
+        "text": "combat. Disengage is also nice because",
+        "start": 1744.08,
+        "duration": 4.88
+    },
+    {
+        "text": "the animal companions are often fairly",
+        "start": 1746.88,
+        "duration": 4.399
+    },
+    {
+        "text": "squishy. So the ability to avoid",
+        "start": 1748.96,
+        "duration": 4.4
+    },
+    {
+        "text": "opportunity attacks if you do get them",
+        "start": 1751.279,
+        "duration": 4.161
+    },
+    {
+        "text": "into a bad situation can be very",
+        "start": 1753.36,
+        "duration": 4.4
+    },
+    {
+        "text": "helpful. And having the help action as a",
+        "start": 1755.44,
+        "duration": 3.92
+    },
+    {
+        "text": "bonus action can be really nice for",
+        "start": 1757.76,
+        "duration": 3.84
+    },
+    {
+        "text": "helping up uh downed characters or",
+        "start": 1759.36,
+        "duration": 4.64
+    },
+    {
+        "text": "removing a bunch of um dangerous",
+        "start": 1761.6,
+        "duration": 4.319
+    },
+    {
+        "text": "effects, including sleeps, which are",
+        "start": 1764.0,
+        "duration": 4.399
+    },
+    {
+        "text": "complete disables in the late game. Just",
+        "start": 1765.919,
+        "duration": 4.961
+    },
+    {
+        "text": "having uh an animal companion waiting in",
+        "start": 1768.399,
+        "duration": 4.481
+    },
+    {
+        "text": "the wings to wake you up, can be",
+        "start": 1770.88,
+        "duration": 5.84
+    },
+    {
+        "text": "extremely helpful. Um my uh my cat is",
+        "start": 1772.88,
+        "duration": 5.76
+    },
+    {
+        "text": "here also while I'm recording this, very",
+        "start": 1776.72,
+        "duration": 4.319
+    },
+    {
+        "text": "appropriate. And obviously he loves to",
+        "start": 1778.64,
+        "duration": 4.96
+    },
+    {
+        "text": "wake me up, so that just makes sense. A",
+        "start": 1781.039,
+        "duration": 4.081
+    },
+    {
+        "text": "funny thing about having my cat watch",
+        "start": 1783.6,
+        "duration": 3.12
+    },
+    {
+        "text": "this is he doesn't care about anything",
+        "start": 1785.12,
+        "duration": 3.52
+    },
+    {
+        "text": "on the screen, but he loves the raven",
+        "start": 1786.72,
+        "duration": 3.76
+    },
+    {
+        "text": "companion. So, you have to imagine him",
+        "start": 1788.64,
+        "duration": 4.24
+    },
+    {
+        "text": "just like going after it every time the",
+        "start": 1790.48,
+        "duration": 5.28
+    },
+    {
+        "text": "raven companion appears on screen. U",
+        "start": 1792.88,
+        "duration": 4.56
+    },
+    {
+        "text": "although these abilities look like",
+        "start": 1795.76,
+        "duration": 2.88
+    },
+    {
+        "text": "they're going to affect all the",
+        "start": 1797.44,
+        "duration": 3.52
+    },
+    {
+        "text": "companions equally, dashes a bonus",
+        "start": 1798.64,
+        "duration": 4.24
+    },
+    {
+        "text": "action in particular is very different",
+        "start": 1800.96,
+        "duration": 4.319
+    },
+    {
+        "text": "for a couple of them. The raven benefits",
+        "start": 1802.88,
+        "duration": 4.72
+    },
+    {
+        "text": "tremendously from getting dash as a",
+        "start": 1805.279,
+        "duration": 4.561
+    },
+    {
+        "text": "bonus action because it has the 60 foot",
+        "start": 1807.6,
+        "duration": 4.799
+    },
+    {
+        "text": "fly speed. So that doubles to 120 ft,",
+        "start": 1809.84,
+        "duration": 5.04
+    },
+    {
+        "text": "making it incredibly mobile and very",
+        "start": 1812.399,
+        "duration": 4.481
+    },
+    {
+        "text": "hard for enemies to take down. And the",
+        "start": 1814.88,
+        "duration": 4.08
+    },
+    {
+        "text": "boar benefits the least from these cuz",
+        "start": 1816.88,
+        "duration": 4.32
+    },
+    {
+        "text": "it already has really good bonus actions",
+        "start": 1818.96,
+        "duration": 4.56
+    },
+    {
+        "text": "in the form of rage and frenzy attack.",
+        "start": 1821.2,
+        "duration": 3.839
+    },
+    {
+        "text": "So it's not going to be using these",
+        "start": 1823.52,
+        "duration": 4.159
+    },
+    {
+        "text": "abilities that frequently. Um, so this",
+        "start": 1825.039,
+        "duration": 4.961
+    },
+    {
+        "text": "again tilts the balance a little bit in",
+        "start": 1827.679,
+        "duration": 4.961
+    },
+    {
+        "text": "favor of the raven. At character level",
+        "start": 1830.0,
+        "duration": 4.48
+    },
+    {
+        "text": "eight, the companions all get a pretty",
+        "start": 1832.64,
+        "duration": 3.759
+    },
+    {
+        "text": "significant bonus. It's not listed here",
+        "start": 1834.48,
+        "duration": 3.84
+    },
+    {
+        "text": "in the level up screen, but they all get",
+        "start": 1836.399,
+        "duration": 4.16
+    },
+    {
+        "text": "additional health. This again seems like",
+        "start": 1838.32,
+        "duration": 4.239
+    },
+    {
+        "text": "it's going to affect them all equally,",
+        "start": 1840.559,
+        "duration": 3.681
+    },
+    {
+        "text": "but they all get different amounts of",
+        "start": 1842.559,
+        "duration": 4.081
+    },
+    {
+        "text": "extra HP, and it matters more for some",
+        "start": 1844.24,
+        "duration": 4.24
+    },
+    {
+        "text": "companions than others. So, I'll just",
+        "start": 1846.64,
+        "duration": 3.36
+    },
+    {
+        "text": "quickly take you through their new base",
+        "start": 1848.48,
+        "duration": 3.12
+    },
+    {
+        "text": "stats and talk about how that affects",
+        "start": 1850.0,
+        "duration": 3.84
+    },
+    {
+        "text": "their play pattern. At level eight, the",
+        "start": 1851.6,
+        "duration": 7.199
+    },
+    {
+        "text": "boar has 69 HP, going up 30 from 39, um,",
+        "start": 1853.84,
+        "duration": 7.199
+    },
+    {
+        "text": "which puts it pretty much on par with a",
+        "start": 1858.799,
+        "duration": 4.401
+    },
+    {
+        "text": "party member in terms of its health. 16",
+        "start": 1861.039,
+        "duration": 4.321
+    },
+    {
+        "text": "AC is still pretty low for level eight,",
+        "start": 1863.2,
+        "duration": 4.719
+    },
+    {
+        "text": "of course, but this is now a respectable",
+        "start": 1865.36,
+        "duration": 5.28
+    },
+    {
+        "text": "amount of HP, and the bear can absorb",
+        "start": 1867.919,
+        "duration": 5.12
+    },
+    {
+        "text": "several hits before dropping, especially",
+        "start": 1870.64,
+        "duration": 4.639
+    },
+    {
+        "text": "in encounters with lower damage enemies,",
+        "start": 1873.039,
+        "duration": 3.921
+    },
+    {
+        "text": "making it still a pretty respectable",
+        "start": 1875.279,
+        "duration": 4.561
+    },
+    {
+        "text": "damage sponge. The boar, unfortunately,",
+        "start": 1876.96,
+        "duration": 4.56
+    },
+    {
+        "text": "does start to fall behind a little bit",
+        "start": 1879.84,
+        "duration": 3.839
+    },
+    {
+        "text": "at level eight. It only gets 24 health",
+        "start": 1881.52,
+        "duration": 5.2
+    },
+    {
+        "text": "and 1 AC just like the bear. Um, which",
+        "start": 1883.679,
+        "duration": 7.521
+    },
+    {
+        "text": "takes it up to 51 HP and 15 AC against",
+        "start": 1886.72,
+        "duration": 6.88
+    },
+    {
+        "text": "physical damage enemies. So, enemies who",
+        "start": 1891.2,
+        "duration": 4.479
+    },
+    {
+        "text": "the rage gives you damage resistance",
+        "start": 1893.6,
+        "duration": 4.959
+    },
+    {
+        "text": "against. This is still pretty tanky, but",
+        "start": 1895.679,
+        "duration": 4.48
+    },
+    {
+        "text": "those encounters are getting a little",
+        "start": 1898.559,
+        "duration": 3.201
+    },
+    {
+        "text": "rarer starting at level eight where",
+        "start": 1900.159,
+        "duration": 3.921
+    },
+    {
+        "text": "enemies have no way to deal non-physical",
+        "start": 1901.76,
+        "duration": 5.279
+    },
+    {
+        "text": "damage. Um, and the low AC and HP do",
+        "start": 1904.08,
+        "duration": 4.959
+    },
+    {
+        "text": "make the boar a little bit squishier.",
+        "start": 1907.039,
+        "duration": 4.961
+    },
+    {
+        "text": "So, can still be good to take down",
+        "start": 1909.039,
+        "duration": 4.801
+    },
+    {
+        "text": "really weak enemies thanks to its very",
+        "start": 1912.0,
+        "duration": 4.08
+    },
+    {
+        "text": "high damage, but just not getting quite",
+        "start": 1913.84,
+        "duration": 4.559
+    },
+    {
+        "text": "as many stats as the other companions at",
+        "start": 1916.08,
+        "duration": 4.4
+    },
+    {
+        "text": "level 8 does hold it back a little bit",
+        "start": 1918.399,
+        "duration": 5.361
+    },
+    {
+        "text": "for the end game. The spider gains 1 AC",
+        "start": 1920.48,
+        "duration": 6.799
+    },
+    {
+        "text": "up from 18 to 19 and also 18 health",
+        "start": 1923.76,
+        "duration": 6.399
+    },
+    {
+        "text": "going from 24 to 42. At this point in",
+        "start": 1927.279,
+        "duration": 4.961
+    },
+    {
+        "text": "the game, 19 AC is a lot less exciting",
+        "start": 1930.159,
+        "duration": 4.321
+    },
+    {
+        "text": "than it was at level five. At level",
+        "start": 1932.24,
+        "duration": 4.88
+    },
+    {
+        "text": "eight, enemies will still hit 19 AC a",
+        "start": 1934.48,
+        "duration": 4.4
+    },
+    {
+        "text": "reasonable percentage of the time,",
+        "start": 1937.12,
+        "duration": 3.12
+    },
+    {
+        "text": "though they'll still miss some of the",
+        "start": 1938.88,
+        "duration": 3.44
+    },
+    {
+        "text": "time. And the spider won't fold like",
+        "start": 1940.24,
+        "duration": 4.159
+    },
+    {
+        "text": "paper. It'll usually be able to take",
+        "start": 1942.32,
+        "duration": 4.32
+    },
+    {
+        "text": "like two or three attacks from enemies.",
+        "start": 1944.399,
+        "duration": 4.4
+    },
+    {
+        "text": "Some of them will miss. One usually",
+        "start": 1946.64,
+        "duration": 5.279
+    },
+    {
+        "text": "won't be enough to do 40 damage. Um, but",
+        "start": 1948.799,
+        "duration": 5.36
+    },
+    {
+        "text": "it is still going to be mostly sitting",
+        "start": 1951.919,
+        "duration": 4.561
+    },
+    {
+        "text": "at range spamming webs at this point.",
+        "start": 1954.159,
+        "duration": 4.0
+    },
+    {
+        "text": "And the webs have gotten a lot less",
+        "start": 1956.48,
+        "duration": 4.0
+    },
+    {
+        "text": "effective by level eight. So, also",
+        "start": 1958.159,
+        "duration": 4.561
+    },
+    {
+        "text": "again, tends to fall off towards the end",
+        "start": 1960.48,
+        "duration": 6.0
+    },
+    {
+        "text": "game as the just raw stats of the spider",
+        "start": 1962.72,
+        "duration": 5.6
+    },
+    {
+        "text": "don't keep up quite as well as the other",
+        "start": 1966.48,
+        "duration": 3.52
+    },
+    {
+        "text": "companions. It can still be quite good.",
+        "start": 1968.32,
+        "duration": 3.12
+    },
+    {
+        "text": "You're just going to have to baby it a",
+        "start": 1970.0,
+        "duration": 3.12
+    },
+    {
+        "text": "little more and be a little more careful",
+        "start": 1971.44,
+        "duration": 4.16
+    },
+    {
+        "text": "with it. Also, just having good base",
+        "start": 1973.12,
+        "duration": 5.039
+    },
+    {
+        "text": "armor class means that aid is really",
+        "start": 1975.6,
+        "duration": 4.64
+    },
+    {
+        "text": "effective at this level on the spider.",
+        "start": 1978.159,
+        "duration": 3.841
+    },
+    {
+        "text": "So, if you if you have a character",
+        "start": 1980.24,
+        "duration": 3.6
+    },
+    {
+        "text": "casting aid in your party, which is very",
+        "start": 1982.0,
+        "duration": 4.799
+    },
+    {
+        "text": "good for the companions, um it can get a",
+        "start": 1983.84,
+        "duration": 5.679
+    },
+    {
+        "text": "lot tankier and start being a real uh",
+        "start": 1986.799,
+        "duration": 4.88
+    },
+    {
+        "text": "contributor to avoiding taking damage.",
+        "start": 1989.519,
+        "duration": 4.0
+    },
+    {
+        "text": "So, things do change a little bit if",
+        "start": 1991.679,
+        "duration": 4.961
+    },
+    {
+        "text": "you're boosting its base HP. The Raven",
+        "start": 1993.519,
+        "duration": 6.561
+    },
+    {
+        "text": "goes to 32 HP and 19 AC, so it gains no",
+        "start": 1996.64,
+        "duration": 5.279
+    },
+    {
+        "text": "additional armor class unlike the other",
+        "start": 2000.08,
+        "duration": 4.0
+    },
+    {
+        "text": "three uh that we've looked at so far,",
+        "start": 2001.919,
+        "duration": 4.721
+    },
+    {
+        "text": "and only 11 health. So, it gets very",
+        "start": 2004.08,
+        "duration": 4.88
+    },
+    {
+        "text": "little when you hit level eight. The 11",
+        "start": 2006.64,
+        "duration": 4.399
+    },
+    {
+        "text": "health is enough to push it over getting",
+        "start": 2008.96,
+        "duration": 3.839
+    },
+    {
+        "text": "one shot by most enemies, which is",
+        "start": 2011.039,
+        "duration": 3.681
+    },
+    {
+        "text": "important. Um, and thanks to its high",
+        "start": 2012.799,
+        "duration": 4.321
+    },
+    {
+        "text": "mobility, it usually shouldn't be super",
+        "start": 2014.72,
+        "duration": 4.48
+    },
+    {
+        "text": "vulnerable at this stage. Um, but the",
+        "start": 2017.12,
+        "duration": 4.08
+    },
+    {
+        "text": "Raven does get less of a level eight",
+        "start": 2019.2,
+        "duration": 4.64
+    },
+    {
+        "text": "boost than the other companions. Uh, in",
+        "start": 2021.2,
+        "duration": 3.92
+    },
+    {
+        "text": "general, you're going to want to make",
+        "start": 2023.84,
+        "duration": 2.719
+    },
+    {
+        "text": "use of the fact that you have bonus",
+        "start": 2025.12,
+        "duration": 3.679
+    },
+    {
+        "text": "action dash to move 120 ft. So, you can",
+        "start": 2026.559,
+        "duration": 4.401
+    },
+    {
+        "text": "have it dart in, make its attack, and",
+        "start": 2028.799,
+        "duration": 4.88
+    },
+    {
+        "text": "then disengage or dash away in order to",
+        "start": 2030.96,
+        "duration": 6.24
+    },
+    {
+        "text": "avoid enemies. And thanks to uh its",
+        "start": 2033.679,
+        "duration": 5.12
+    },
+    {
+        "text": "abilities, you can do that even though",
+        "start": 2037.2,
+        "duration": 3.52
+    },
+    {
+        "text": "its defenses at this point are somewhat",
+        "start": 2038.799,
+        "duration": 4.561
+    },
+    {
+        "text": "poor. The wolf probably gets the biggest",
+        "start": 2040.72,
+        "duration": 5.439
+    },
+    {
+        "text": "boost at uh level 8. It also gets an",
+        "start": 2043.36,
+        "duration": 5.36
+    },
+    {
+        "text": "extra armor class and it gets 30 HP just",
+        "start": 2046.159,
+        "duration": 5.52
+    },
+    {
+        "text": "like the bear, leaving it at only eight",
+        "start": 2048.72,
+        "duration": 5.28
+    },
+    {
+        "text": "less HP than the bear and one more AC.",
+        "start": 2051.679,
+        "duration": 5.521
+    },
+    {
+        "text": "So, it's pretty much as survivable as",
+        "start": 2054.0,
+        "duration": 6.159
+    },
+    {
+        "text": "the bear is against most enemy attacks.",
+        "start": 2057.2,
+        "duration": 6.08
+    },
+    {
+        "text": "and it does more damage overall and is",
+        "start": 2060.159,
+        "duration": 5.281
+    },
+    {
+        "text": "uh remains just the most solid and",
+        "start": 2063.28,
+        "duration": 4.24
+    },
+    {
+        "text": "reliable companion. Getting a decent",
+        "start": 2065.44,
+        "duration": 4.08
+    },
+    {
+        "text": "amount of extra health contributes to",
+        "start": 2067.52,
+        "duration": 4.48
+    },
+    {
+        "text": "that role. Um if you don't want to think",
+        "start": 2069.52,
+        "duration": 4.559
+    },
+    {
+        "text": "about it, the wolf remains an excellent",
+        "start": 2072.0,
+        "duration": 5.04
+    },
+    {
+        "text": "choice. And finally, at level 11, we get",
+        "start": 2074.079,
+        "duration": 5.76
+    },
+    {
+        "text": "our beast master capstone, giving our",
+        "start": 2077.04,
+        "duration": 5.359
+    },
+    {
+        "text": "pets extra attack. So doubling their",
+        "start": 2079.839,
+        "duration": 4.401
+    },
+    {
+        "text": "damage output, especially powerful for",
+        "start": 2082.399,
+        "duration": 3.76
+    },
+    {
+        "text": "the raven, whose attack scales as you",
+        "start": 2084.24,
+        "duration": 4.0
+    },
+    {
+        "text": "level. So, it's now doing uh pretty",
+        "start": 2086.159,
+        "duration": 4.161
+    },
+    {
+        "text": "significant damage even this late in the",
+        "start": 2088.24,
+        "duration": 4.72
+    },
+    {
+        "text": "game. Uh, and they all also get",
+        "start": 2090.32,
+        "duration": 5.359
+    },
+    {
+        "text": "extremely powerful capstone abilities",
+        "start": 2092.96,
+        "duration": 4.8
+    },
+    {
+        "text": "and increased stats. So, let's look at",
+        "start": 2095.679,
+        "duration": 6.241
+    },
+    {
+        "text": "those. At level 11, your bear now has 99",
+        "start": 2097.76,
+        "duration": 6.48
+    },
+    {
+        "text": "health and 18 armor class and is a",
+        "start": 2101.92,
+        "duration": 4.4
+    },
+    {
+        "text": "pretty solid tank and damage spun.",
+        "start": 2104.24,
+        "duration": 4.48
+    },
+    {
+        "text": "Overall, 99 health put it puts it",
+        "start": 2106.32,
+        "duration": 4.08
+    },
+    {
+        "text": "basically on par with your party",
+        "start": 2108.72,
+        "duration": 3.44
+    },
+    {
+        "text": "members, so it's like having a full",
+        "start": 2110.4,
+        "duration": 4.32
+    },
+    {
+        "text": "extra health bar. and 18 armor class is",
+        "start": 2112.16,
+        "duration": 4.08
+    },
+    {
+        "text": "a little on the low side, but you want",
+        "start": 2114.72,
+        "duration": 3.359
+    },
+    {
+        "text": "it taking damage because you can reummon",
+        "start": 2116.24,
+        "duration": 3.44
+    },
+    {
+        "text": "it on a short rest. So, you're pretty",
+        "start": 2118.079,
+        "duration": 3.921
+    },
+    {
+        "text": "happy when enemies focus damage on your",
+        "start": 2119.68,
+        "duration": 5.04
+    },
+    {
+        "text": "bear. The ability that you get also",
+        "start": 2122.0,
+        "duration": 5.2
+    },
+    {
+        "text": "contributes to that because you get sign",
+        "start": 2124.72,
+        "duration": 4.639
+    },
+    {
+        "text": "reinforcements, which lets you summon a",
+        "start": 2127.2,
+        "duration": 4.639
+    },
+    {
+        "text": "whole extra bear for 40 more health.",
+        "start": 2129.359,
+        "duration": 4.401
+    },
+    {
+        "text": "This is basically the the level seven",
+        "start": 2131.839,
+        "duration": 4.081
+    },
+    {
+        "text": "bear before you get the level 8 HP",
+        "start": 2133.76,
+        "duration": 5.68
+    },
+    {
+        "text": "upgrade. Uh, so it has 15 AC and um and",
+        "start": 2135.92,
+        "duration": 6.8
+    },
+    {
+        "text": "40 health. Uh, it is controllable. it it",
+        "start": 2139.44,
+        "duration": 6.399
+    },
+    {
+        "text": "sorry it is uncontrollable. Um so it's",
+        "start": 2142.72,
+        "duration": 4.8
+    },
+    {
+        "text": "going to act on its own in combat, but",
+        "start": 2145.839,
+        "duration": 3.201
+    },
+    {
+        "text": "you're mostly summoning it just as a",
+        "start": 2147.52,
+        "duration": 3.839
+    },
+    {
+        "text": "sack of hit points for enemies to attack",
+        "start": 2149.04,
+        "duration": 4.799
+    },
+    {
+        "text": "while you and your actual bear do all of",
+        "start": 2151.359,
+        "duration": 4.881
+    },
+    {
+        "text": "the work. But the ability to reummon",
+        "start": 2153.839,
+        "duration": 6.721
+    },
+    {
+        "text": "this bear um again uh every short rest",
+        "start": 2156.24,
+        "duration": 6.96
+    },
+    {
+        "text": "is going to give you even more tanking",
+        "start": 2160.56,
+        "duration": 5.92
+    },
+    {
+        "text": "ability. So at the late levels, the bear",
+        "start": 2163.2,
+        "duration": 5.04
+    },
+    {
+        "text": "companion becomes a really good damage",
+        "start": 2166.48,
+        "duration": 3.76
+    },
+    {
+        "text": "sponge. You can use it in any encounter",
+        "start": 2168.24,
+        "duration": 4.48
+    },
+    {
+        "text": "where you are worried that enemies are",
+        "start": 2170.24,
+        "duration": 4.32
+    },
+    {
+        "text": "going to burst down your party before",
+        "start": 2172.72,
+        "duration": 3.2
+    },
+    {
+        "text": "you can act. Like if you're going to",
+        "start": 2174.56,
+        "duration": 2.96
+    },
+    {
+        "text": "lose initiative or you don't think",
+        "start": 2175.92,
+        "duration": 3.199
+    },
+    {
+        "text": "you're going to kill them before they",
+        "start": 2177.52,
+        "duration": 3.68
+    },
+    {
+        "text": "get to go, you can have them focus a",
+        "start": 2179.119,
+        "duration": 3.761
+    },
+    {
+        "text": "bunch of damage on your bears and your",
+        "start": 2181.2,
+        "duration": 5.04
+    },
+    {
+        "text": "bear companions uh companions and that",
+        "start": 2182.88,
+        "duration": 6.0
+    },
+    {
+        "text": "will give you some extra health to play",
+        "start": 2186.24,
+        "duration": 4.24
+    },
+    {
+        "text": "with so that then you can turn the",
+        "start": 2188.88,
+        "duration": 4.239
+    },
+    {
+        "text": "encounter in your favor. The boar gets a",
+        "start": 2190.48,
+        "duration": 5.68
+    },
+    {
+        "text": "huge power spike when you hit level 11.",
+        "start": 2193.119,
+        "duration": 6.801
+    },
+    {
+        "text": "Um, it gets 85 health and 17 armor",
+        "start": 2196.16,
+        "duration": 6.0
+    },
+    {
+        "text": "class, which is definitely on the more",
+        "start": 2199.92,
+        "duration": 4.48
+    },
+    {
+        "text": "vulnerable side, but against enemies",
+        "start": 2202.16,
+        "duration": 4.48
+    },
+    {
+        "text": "that are primarily physical damage that",
+        "start": 2204.4,
+        "duration": 4.48
+    },
+    {
+        "text": "you can use the damage resistance from",
+        "start": 2206.64,
+        "duration": 6.16
+    },
+    {
+        "text": "rage that gives it effectively 170 HP.",
+        "start": 2208.88,
+        "duration": 6.0
+    },
+    {
+        "text": "Um, and then also of course multiplies",
+        "start": 2212.8,
+        "duration": 3.84
+    },
+    {
+        "text": "the value of any healing that you're",
+        "start": 2214.88,
+        "duration": 3.28
+    },
+    {
+        "text": "applying, any bonus health you're",
+        "start": 2216.64,
+        "duration": 3.199
+    },
+    {
+        "text": "applying with aid or heroes feast and",
+        "start": 2218.16,
+        "duration": 3.36
+    },
+    {
+        "text": "effects like that, which can make it",
+        "start": 2219.839,
+        "duration": 3.76
+    },
+    {
+        "text": "very tanky against physical damage",
+        "start": 2221.52,
+        "duration": 4.88
+    },
+    {
+        "text": "enemies. Again, the low AC here is more",
+        "start": 2223.599,
+        "duration": 5.041
+    },
+    {
+        "text": "of an advantage um because it's now",
+        "start": 2226.4,
+        "duration": 4.24
+    },
+    {
+        "text": "healthy enough to survive physical",
+        "start": 2228.64,
+        "duration": 4.24
+    },
+    {
+        "text": "damage attacks pretty easily. So, you",
+        "start": 2230.64,
+        "duration": 4.32
+    },
+    {
+        "text": "want them directed against the the boar,",
+        "start": 2232.88,
+        "duration": 4.0
+    },
+    {
+        "text": "but 17 isn't so low that it's",
+        "start": 2234.96,
+        "duration": 3.52
+    },
+    {
+        "text": "embarrassing and it'll just get hit by",
+        "start": 2236.88,
+        "duration": 3.6
+    },
+    {
+        "text": "everything. The other thing that it gets",
+        "start": 2238.48,
+        "duration": 4.32
+    },
+    {
+        "text": "at this level is kick up mud, which is a",
+        "start": 2240.48,
+        "duration": 4.4
+    },
+    {
+        "text": "really strong ability. So, this is an",
+        "start": 2242.8,
+        "duration": 5.6
+    },
+    {
+        "text": "AoE slow, like the spell slow, and it is",
+        "start": 2244.88,
+        "duration": 5.76
+    },
+    {
+        "text": "usable at will. So, as long as you have",
+        "start": 2248.4,
+        "duration": 4.56
+    },
+    {
+        "text": "actions, you can use kickup mud all the",
+        "start": 2250.64,
+        "duration": 5.52
+    },
+    {
+        "text": "time. Uh this gives them two turns of",
+        "start": 2252.96,
+        "duration": 5.6
+    },
+    {
+        "text": "the mud drenched effect which is",
+        "start": 2256.16,
+        "duration": 4.88
+    },
+    {
+        "text": "basically identical to the slow spell.",
+        "start": 2258.56,
+        "duration": 5.039
+    },
+    {
+        "text": "It removes their oralves their movement",
+        "start": 2261.04,
+        "duration": 4.64
+    },
+    {
+        "text": "speed reduces their AC and dexterity by",
+        "start": 2263.599,
+        "duration": 4.401
+    },
+    {
+        "text": "two prevents them from using extra",
+        "start": 2265.68,
+        "duration": 6.24
+    },
+    {
+        "text": "attack or um uh dashing and things like",
+        "start": 2268.0,
+        "duration": 6.8
+    },
+    {
+        "text": "that. Uh the only difference is that",
+        "start": 2271.92,
+        "duration": 5.52
+    },
+    {
+        "text": "slow prevents bonus actions um and",
+        "start": 2274.8,
+        "duration": 4.48
+    },
+    {
+        "text": "actions from both being used and kickup",
+        "start": 2277.44,
+        "duration": 3.36
+    },
+    {
+        "text": "mud doesn't. they can still use their",
+        "start": 2279.28,
+        "duration": 4.96
+    },
+    {
+        "text": "bonus action and their action. Uh, but",
+        "start": 2280.8,
+        "duration": 5.52
+    },
+    {
+        "text": "it otherwise applies all the effects of",
+        "start": 2284.24,
+        "duration": 3.92
+    },
+    {
+        "text": "slow, which is a pretty powerful debuff,",
+        "start": 2286.32,
+        "duration": 3.68
+    },
+    {
+        "text": "especially when you get it for free.",
+        "start": 2288.16,
+        "duration": 3.6
+    },
+    {
+        "text": "Given that the boar at this point is",
+        "start": 2290.0,
+        "duration": 3.839
+    },
+    {
+        "text": "more going to be a tank against physical",
+        "start": 2291.76,
+        "duration": 4.72
+    },
+    {
+        "text": "damage enemies, a dexterity save based",
+        "start": 2293.839,
+        "duration": 5.201
+    },
+    {
+        "text": "debuff that's very powerful is a really",
+        "start": 2296.48,
+        "duration": 4.4
+    },
+    {
+        "text": "nice ability to have. So you can use",
+        "start": 2299.04,
+        "duration": 4.48
+    },
+    {
+        "text": "this against uh encounters with lots of",
+        "start": 2300.88,
+        "duration": 6.08
+    },
+    {
+        "text": "physical damage and uh kick up mud every",
+        "start": 2303.52,
+        "duration": 6.079
+    },
+    {
+        "text": "turn in combination of course with uh",
+        "start": 2306.96,
+        "duration": 4.8
+    },
+    {
+        "text": "frenzied strike as a bonus action so you",
+        "start": 2309.599,
+        "duration": 3.76
+    },
+    {
+        "text": "don't drop your rage and are still",
+        "start": 2311.76,
+        "duration": 4.48
+    },
+    {
+        "text": "contributing damage. Uh makes the boar",
+        "start": 2313.359,
+        "duration": 5.521
+    },
+    {
+        "text": "very very good in those encounters. The",
+        "start": 2316.24,
+        "duration": 4.879
+    },
+    {
+        "text": "spider unfortunately does not get a lot",
+        "start": 2318.88,
+        "duration": 4.88
+    },
+    {
+        "text": "when you hit level 11. Uh the stats are",
+        "start": 2321.119,
+        "duration": 4.881
+    },
+    {
+        "text": "good of course 21 armor class is pretty",
+        "start": 2323.76,
+        "duration": 4.24
+    },
+    {
+        "text": "respectable at level 11. lots of party",
+        "start": 2326.0,
+        "duration": 4.48
+    },
+    {
+        "text": "members will have around that. And 60 HP",
+        "start": 2328.0,
+        "duration": 4.48
+    },
+    {
+        "text": "is not great, but not embarrassing. But",
+        "start": 2330.48,
+        "duration": 4.639
+    },
+    {
+        "text": "if you want high AC, um the Raven is",
+        "start": 2332.48,
+        "duration": 3.76
+    },
+    {
+        "text": "going to be better. And if you want",
+        "start": 2335.119,
+        "duration": 2.96
+    },
+    {
+        "text": "general tankiness, the boar or the wolf",
+        "start": 2336.24,
+        "duration": 4.56
+    },
+    {
+        "text": "are going to be the best overall. Um so",
+        "start": 2338.079,
+        "duration": 5.601
+    },
+    {
+        "text": "the stats don't matter that much on the",
+        "start": 2340.8,
+        "duration": 5.279
+    },
+    {
+        "text": "spider. The new ability that you get",
+        "start": 2343.68,
+        "duration": 4.88
+    },
+    {
+        "text": "also is not particularly exciting.",
+        "start": 2346.079,
+        "duration": 4.801
+    },
+    {
+        "text": "Bursting brood is a 30-foot ranged",
+        "start": 2348.56,
+        "duration": 5.76
+    },
+    {
+        "text": "attack. Um but unfortunately, uh that",
+        "start": 2350.88,
+        "duration": 6.56
+    },
+    {
+        "text": "does medium damage. 2d10 piercing damage",
+        "start": 2354.32,
+        "duration": 5.519
+    },
+    {
+        "text": "is okay, but not anything to write home",
+        "start": 2357.44,
+        "duration": 5.12
+    },
+    {
+        "text": "about at level 11. Uh, but unfortunately",
+        "start": 2359.839,
+        "duration": 5.52
+    },
+    {
+        "text": "is bugged and uses the spider's strength",
+        "start": 2362.56,
+        "duration": 5.12
+    },
+    {
+        "text": "to roll its hit chance instead of its",
+        "start": 2365.359,
+        "duration": 3.76
+    },
+    {
+        "text": "dexterity. So, you can see here we have",
+        "start": 2367.68,
+        "duration": 4.0
+    },
+    {
+        "text": "a 50% chance to hit with that 65 with",
+        "start": 2369.119,
+        "duration": 5.601
+    },
+    {
+        "text": "our dex based attack. Um, so you're just",
+        "start": 2371.68,
+        "duration": 5.439
+    },
+    {
+        "text": "very rarely going to be actually landing",
+        "start": 2374.72,
+        "duration": 4.879
+    },
+    {
+        "text": "bursting brood on enemies since the the",
+        "start": 2377.119,
+        "duration": 4.801
+    },
+    {
+        "text": "attack roll is bugged. Uh if you do",
+        "start": 2379.599,
+        "duration": 5.041
+    },
+    {
+        "text": "manage to land it on a character, um",
+        "start": 2381.92,
+        "duration": 4.48
+    },
+    {
+        "text": "we'll we'll just do this a couple times",
+        "start": 2384.64,
+        "duration": 5.76
+    },
+    {
+        "text": "here um then they do get infested. So",
+        "start": 2386.4,
+        "duration": 6.64
+    },
+    {
+        "text": "you can see here uh that they receive",
+        "start": 2390.4,
+        "duration": 5.12
+    },
+    {
+        "text": "the infested condition. And what that",
+        "start": 2393.04,
+        "duration": 6.559
+    },
+    {
+        "text": "will do is it will do um it'll do 1d6",
+        "start": 2395.52,
+        "duration": 7.28
+    },
+    {
+        "text": "piercing and 1d6 poison damage uh every",
+        "start": 2399.599,
+        "duration": 4.561
+    },
+    {
+        "text": "turn at the start of the character's",
+        "start": 2402.8,
+        "duration": 3.2
+    },
+    {
+        "text": "turn. They then get a dexterity save in",
+        "start": 2404.16,
+        "duration": 3.12
+    },
+    {
+        "text": "order to avoid that. The only",
+        "start": 2406.0,
+        "duration": 3.52
+    },
+    {
+        "text": "interesting thing about infested is that",
+        "start": 2407.28,
+        "duration": 4.48
+    },
+    {
+        "text": "if the character's hunter marked, then",
+        "start": 2409.52,
+        "duration": 5.2
+    },
+    {
+        "text": "they take the 1d4 plus 2d6 cuz it",
+        "start": 2411.76,
+        "duration": 5.2
+    },
+    {
+        "text": "applies the extra d6 hunter mark damage",
+        "start": 2414.72,
+        "duration": 4.56
+    },
+    {
+        "text": "from praise scent to both damage",
+        "start": 2416.96,
+        "duration": 4.8
+    },
+    {
+        "text": "components of infested. So that's an",
+        "start": 2419.28,
+        "duration": 4.559
+    },
+    {
+        "text": "okay damage overtime effect, but again",
+        "start": 2421.76,
+        "duration": 4.96
+    },
+    {
+        "text": "at level 11 really nothing to write home",
+        "start": 2423.839,
+        "duration": 4.161
+    },
+    {
+        "text": "about. And the fact that it's so",
+        "start": 2426.72,
+        "duration": 3.84
+    },
+    {
+        "text": "unreliable means that the spider sadly",
+        "start": 2428.0,
+        "duration": 4.56
+    },
+    {
+        "text": "does not get that much at the capstone",
+        "start": 2430.56,
+        "duration": 4.32
+    },
+    {
+        "text": "level. With the raven companion's",
+        "start": 2432.56,
+        "duration": 4.08
+    },
+    {
+        "text": "capstone abilities, you can pretty",
+        "start": 2434.88,
+        "duration": 3.84
+    },
+    {
+        "text": "clearly see which of the beast",
+        "start": 2436.64,
+        "duration": 4.479
+    },
+    {
+        "text": "companions was the developer's favorite.",
+        "start": 2438.72,
+        "duration": 4.639
+    },
+    {
+        "text": "The raven goes up to 22 armor class and",
+        "start": 2441.119,
+        "duration": 5.121
+    },
+    {
+        "text": "44 health. Now, 44 health is low, but 22",
+        "start": 2443.359,
+        "duration": 5.121
+    },
+    {
+        "text": "AC is pretty respectable at this point,",
+        "start": 2446.24,
+        "duration": 4.16
+    },
+    {
+        "text": "and aid and heroes feast and other",
+        "start": 2448.48,
+        "duration": 3.76
+    },
+    {
+        "text": "effects like that can fix your health,",
+        "start": 2450.4,
+        "duration": 4.24
+    },
+    {
+        "text": "making this character uh this companion",
+        "start": 2452.24,
+        "duration": 4.48
+    },
+    {
+        "text": "extremely tanky and very difficult to",
+        "start": 2454.64,
+        "duration": 4.32
+    },
+    {
+        "text": "take down. In addition to that, you get",
+        "start": 2456.72,
+        "duration": 5.119
+    },
+    {
+        "text": "not one, not two, but three new effects",
+        "start": 2458.96,
+        "duration": 4.8
+    },
+    {
+        "text": "when you hit level 11, unlike most of",
+        "start": 2461.839,
+        "duration": 3.921
+    },
+    {
+        "text": "the other characters. So, your damage",
+        "start": 2463.76,
+        "duration": 4.0
+    },
+    {
+        "text": "goes up again. It goes up uh only from",
+        "start": 2465.76,
+        "duration": 4.88
+    },
+    {
+        "text": "1d4 to 1d6 on the bonus damage. But",
+        "start": 2467.76,
+        "duration": 5.2
+    },
+    {
+        "text": "that's still pretty nice um because now",
+        "start": 2470.64,
+        "duration": 5.04
+    },
+    {
+        "text": "your attack is going to hit for 2d4 plus",
+        "start": 2472.96,
+        "duration": 7.2
+    },
+    {
+        "text": "2d6 plus two um if against a hunter's",
+        "start": 2475.68,
+        "duration": 6.399
+    },
+    {
+        "text": "marked enemy, which is a pretty",
+        "start": 2480.16,
+        "duration": 4.32
+    },
+    {
+        "text": "respectable just base attack given that",
+        "start": 2482.079,
+        "duration": 4.0
+    },
+    {
+        "text": "you can do it twice a turn thanks to",
+        "start": 2484.48,
+        "duration": 3.04
+    },
+    {
+        "text": "extra attack. And this isn't even",
+        "start": 2486.079,
+        "duration": 3.361
+    },
+    {
+        "text": "costing your actual character its",
+        "start": 2487.52,
+        "duration": 4.24
+    },
+    {
+        "text": "movement or costing the raven the main",
+        "start": 2489.44,
+        "duration": 4.56
+    },
+    {
+        "text": "things that it does at this point. The",
+        "start": 2491.76,
+        "duration": 4.96
+    },
+    {
+        "text": "raven also gets on black wings which",
+        "start": 2494.0,
+        "duration": 5.44
+    },
+    {
+        "text": "lets you summon two allied ravens. So",
+        "start": 2496.72,
+        "duration": 5.68
+    },
+    {
+        "text": "you get two extra ravens. These are",
+        "start": 2499.44,
+        "duration": 5.12
+    },
+    {
+        "text": "again uh these are the level three",
+        "start": 2502.4,
+        "duration": 4.959
+    },
+    {
+        "text": "ravens. So they're just 16 AC and 13 HP,",
+        "start": 2504.56,
+        "duration": 4.88
+    },
+    {
+        "text": "but they'll each absorb a hit. And of",
+        "start": 2507.359,
+        "duration": 4.401
+    },
+    {
+        "text": "course they can still blind enemies. Uh",
+        "start": 2509.44,
+        "duration": 4.24
+    },
+    {
+        "text": "all they have to do is land their rend",
+        "start": 2511.76,
+        "duration": 3.52
+    },
+    {
+        "text": "vision attack and they'll blind them.",
+        "start": 2513.68,
+        "duration": 3.28
+    },
+    {
+        "text": "Again, they're not controllable, but",
+        "start": 2515.28,
+        "duration": 4.0
+    },
+    {
+        "text": "they will use rend vision a reasonable",
+        "start": 2516.96,
+        "duration": 4.24
+    },
+    {
+        "text": "amount of the time. So, on black wings",
+        "start": 2519.28,
+        "duration": 3.839
+    },
+    {
+        "text": "is pretty good. But the big thing here",
+        "start": 2521.2,
+        "duration": 3.36
+    },
+    {
+        "text": "is that unlike the bearer",
+        "start": 2523.119,
+        "duration": 3.121
+    },
+    {
+        "text": "reinforcements, there's no cool down on",
+        "start": 2524.56,
+        "duration": 3.279
+    },
+    {
+        "text": "this. You can just recast it every",
+        "start": 2526.24,
+        "duration": 4.4
+    },
+    {
+        "text": "single turn. Um there's no no rest",
+        "start": 2527.839,
+        "duration": 4.401
+    },
+    {
+        "text": "requirement or anything. So, you can use",
+        "start": 2530.64,
+        "duration": 4.8
+    },
+    {
+        "text": "on black wings as often as you want. You",
+        "start": 2532.24,
+        "duration": 5.92
+    },
+    {
+        "text": "also uh get to upgrade your base",
+        "start": 2535.44,
+        "duration": 5.919
+    },
+    {
+        "text": "movement effect. So, your flight effect",
+        "start": 2538.16,
+        "duration": 6.56
+    },
+    {
+        "text": "now comes with a cloud of darkness. And",
+        "start": 2541.359,
+        "duration": 5.76
+    },
+    {
+        "text": "when you use your flight here, it's",
+        "start": 2544.72,
+        "duration": 4.56
+    },
+    {
+        "text": "going to leave a cloud of darkness",
+        "start": 2547.119,
+        "duration": 4.801
+    },
+    {
+        "text": "everywhere when you land. The raven also",
+        "start": 2549.28,
+        "duration": 4.4
+    },
+    {
+        "text": "has become immune to blindness, so it's",
+        "start": 2551.92,
+        "duration": 4.48
+    },
+    {
+        "text": "immune to its own darkness effects. And",
+        "start": 2553.68,
+        "duration": 5.28
+    },
+    {
+        "text": "you can do this as many times per turn",
+        "start": 2556.4,
+        "duration": 4.4
+    },
+    {
+        "text": "as you have movement. So you can",
+        "start": 2558.96,
+        "duration": 4.0
+    },
+    {
+        "text": "effectively cover the whole battlefield",
+        "start": 2560.8,
+        "duration": 5.36
+    },
+    {
+        "text": "in darkness very, very easily. Remember",
+        "start": 2562.96,
+        "duration": 5.359
+    },
+    {
+        "text": "when I mentioned that the raven also",
+        "start": 2566.16,
+        "duration": 4.08
+    },
+    {
+        "text": "benefits a lot from getting dash as a",
+        "start": 2568.319,
+        "duration": 4.081
+    },
+    {
+        "text": "bonus action? Use dash as a bonus",
+        "start": 2570.24,
+        "duration": 4.48
+    },
+    {
+        "text": "action. Use fly and you can cover the",
+        "start": 2572.4,
+        "duration": 5.12
+    },
+    {
+        "text": "entire battlefield in darkness over and",
+        "start": 2574.72,
+        "duration": 5.119
+    },
+    {
+        "text": "over and over again, leaving enemies",
+        "start": 2577.52,
+        "duration": 4.319
+    },
+    {
+        "text": "completely unable to act without being",
+        "start": 2579.839,
+        "duration": 4.24
+    },
+    {
+        "text": "blinded with no saving throw. Especially",
+        "start": 2581.839,
+        "duration": 4.721
+    },
+    {
+        "text": "powerful in parties with warlocks or",
+        "start": 2584.079,
+        "duration": 4.24
+    },
+    {
+        "text": "other sources of blind immunity like the",
+        "start": 2586.56,
+        "duration": 4.0
+    },
+    {
+        "text": "Eversight ring. But darkness preventing",
+        "start": 2588.319,
+        "duration": 4.0
+    },
+    {
+        "text": "enemy ranged attacks and just being",
+        "start": 2590.56,
+        "duration": 5.2
+    },
+    {
+        "text": "completely broken remains an extremely",
+        "start": 2592.319,
+        "duration": 5.841
+    },
+    {
+        "text": "powerful effect. And you can see just",
+        "start": 2595.76,
+        "duration": 5.52
+    },
+    {
+        "text": "how much blindness you can create. Also,",
+        "start": 2598.16,
+        "duration": 4.88
+    },
+    {
+        "text": "something that I uh failed to mention at",
+        "start": 2601.28,
+        "duration": 3.28
+    },
+    {
+        "text": "level five with the raven is that",
+        "start": 2603.04,
+        "duration": 3.2
+    },
+    {
+        "text": "because it's permanently flying, the",
+        "start": 2604.56,
+        "duration": 4.16
+    },
+    {
+        "text": "raven is uniquely powerful starting at",
+        "start": 2606.24,
+        "duration": 4.48
+    },
+    {
+        "text": "level five with spike growth, which",
+        "start": 2608.72,
+        "duration": 4.32
+    },
+    {
+        "text": "rangers get at level five cuz it can sit",
+        "start": 2610.72,
+        "duration": 4.08
+    },
+    {
+        "text": "on top of the spike growth. So, you can",
+        "start": 2613.04,
+        "duration": 4.319
+    },
+    {
+        "text": "combine spike growth with the darkness",
+        "start": 2614.8,
+        "duration": 4.48
+    },
+    {
+        "text": "to stop enemies from jumping out of it.",
+        "start": 2617.359,
+        "duration": 4.081
+    },
+    {
+        "text": "the raven will be immune to both effects",
+        "start": 2619.28,
+        "duration": 4.559
+    },
+    {
+        "text": "and that is just an easy way to win a",
+        "start": 2621.44,
+        "duration": 3.919
+    },
+    {
+        "text": "lot of fights which is what makes the",
+        "start": 2623.839,
+        "duration": 4.0
+    },
+    {
+        "text": "raven overall the most powerful endgame",
+        "start": 2625.359,
+        "duration": 6.641
+    },
+    {
+        "text": "companion because uh free darkness all",
+        "start": 2627.839,
+        "duration": 6.401
+    },
+    {
+        "text": "over the battle every single turn is",
+        "start": 2632.0,
+        "duration": 5.44
+    },
+    {
+        "text": "amazing. Um some free summons of course",
+        "start": 2634.24,
+        "duration": 5.76
+    },
+    {
+        "text": "are very very good. Uh and the fact that",
+        "start": 2637.44,
+        "duration": 4.08
+    },
+    {
+        "text": "it's overall the tankiest and most",
+        "start": 2640.0,
+        "duration": 2.96
+    },
+    {
+        "text": "mobile so it's always going to be doing",
+        "start": 2641.52,
+        "duration": 3.76
+    },
+    {
+        "text": "what you want just makes it an overall",
+        "start": 2642.96,
+        "duration": 5.68
+    },
+    {
+        "text": "incredible choice at level 11. The Wolf",
+        "start": 2645.28,
+        "duration": 5.28
+    },
+    {
+        "text": "Companion's main claim to fame at level",
+        "start": 2648.64,
+        "duration": 4.64
+    },
+    {
+        "text": "11 is just its overall extremely solid",
+        "start": 2650.56,
+        "duration": 6.0
+    },
+    {
+        "text": "stat line. It has 21 armor class and 91",
+        "start": 2653.28,
+        "duration": 5.2
+    },
+    {
+        "text": "HP, which makes it by default the",
+        "start": 2656.56,
+        "duration": 4.08
+    },
+    {
+        "text": "hardest of the companions to kill. Three",
+        "start": 2658.48,
+        "duration": 6.0
+    },
+    {
+        "text": "higher AC than the uh bear um and only",
+        "start": 2660.64,
+        "duration": 6.24
+    },
+    {
+        "text": "eight less HP means that enemies are",
+        "start": 2664.48,
+        "duration": 4.16
+    },
+    {
+        "text": "going to have a really hard time taking",
+        "start": 2666.88,
+        "duration": 4.08
+    },
+    {
+        "text": "down your wolf here. Uh, and of course",
+        "start": 2668.64,
+        "duration": 4.08
+    },
+    {
+        "text": "with 21 armor class, a totally",
+        "start": 2670.96,
+        "duration": 4.32
+    },
+    {
+        "text": "respectable number, even though it's not",
+        "start": 2672.72,
+        "duration": 5.359
+    },
+    {
+        "text": "22 like the Raven, it still uses extra",
+        "start": 2675.28,
+        "duration": 5.039
+    },
+    {
+        "text": "HP from Heroes Feast and Aid and effects",
+        "start": 2678.079,
+        "duration": 4.081
+    },
+    {
+        "text": "like that really, really well. So, the",
+        "start": 2680.319,
+        "duration": 3.601
+    },
+    {
+        "text": "Wolf Companion can be the tankiest and",
+        "start": 2682.16,
+        "duration": 3.679
+    },
+    {
+        "text": "hardest to take down. In terms of",
+        "start": 2683.92,
+        "duration": 4.32
+    },
+    {
+        "text": "defensive capabilities, it's almost",
+        "start": 2685.839,
+        "duration": 4.24
+    },
+    {
+        "text": "identical to having a full extra",
+        "start": 2688.24,
+        "duration": 5.04
+    },
+    {
+        "text": "character on the battle uh in in the",
+        "start": 2690.079,
+        "duration": 6.561
+    },
+    {
+        "text": "encounter. Um, the bonus ability,",
+        "start": 2693.28,
+        "duration": 5.28
+    },
+    {
+        "text": "unfortunately, is not that exciting.",
+        "start": 2696.64,
+        "duration": 4.8
+    },
+    {
+        "text": "Lupine slash is fine. 2d6 plus six force",
+        "start": 2698.56,
+        "duration": 5.84
+    },
+    {
+        "text": "damage in a 10-ft cone. And this is uh",
+        "start": 2701.44,
+        "duration": 4.879
+    },
+    {
+        "text": "it does work with extra attack. So you",
+        "start": 2704.4,
+        "duration": 3.6
+    },
+    {
+        "text": "can use it once and then you can use it",
+        "start": 2706.319,
+        "duration": 4.081
+    },
+    {
+        "text": "again. Also has a really cool animation.",
+        "start": 2708.0,
+        "duration": 4.16
+    },
+    {
+        "text": "So it does have that going for it. But",
+        "start": 2710.4,
+        "duration": 3.36
+    },
+    {
+        "text": "the amount of damage that you get from",
+        "start": 2712.16,
+        "duration": 4.08
+    },
+    {
+        "text": "this isn't wildly exciting. There are",
+        "start": 2713.76,
+        "duration": 4.319
+    },
+    {
+        "text": "cases where it can be pretty good. If",
+        "start": 2716.24,
+        "duration": 3.839
+    },
+    {
+        "text": "you're using like the black hole lithid",
+        "start": 2718.079,
+        "duration": 3.28
+    },
+    {
+        "text": "power to pull a bunch of enemies",
+        "start": 2720.079,
+        "duration": 3.121
+    },
+    {
+        "text": "together, then you can get a lot of",
+        "start": 2721.359,
+        "duration": 3.841
+    },
+    {
+        "text": "damage from this. But your animal",
+        "start": 2723.2,
+        "duration": 4.48
+    },
+    {
+        "text": "companions are mostly there for their uh",
+        "start": 2725.2,
+        "duration": 4.32
+    },
+    {
+        "text": "disruptive abilities more than their",
+        "start": 2727.68,
+        "duration": 5.28
+    },
+    {
+        "text": "damage. Um the wolf does a little bit of",
+        "start": 2729.52,
+        "duration": 5.68
+    },
+    {
+        "text": "both and remains a reasonable damage",
+        "start": 2732.96,
+        "duration": 4.24
+    },
+    {
+        "text": "threat, a pretty good tank, and a",
+        "start": 2735.2,
+        "duration": 4.639
+    },
+    {
+        "text": "reasonable disruptor uh with lunging",
+        "start": 2737.2,
+        "duration": 5.2
+    },
+    {
+        "text": "bite at this point. So is still uh as",
+        "start": 2739.839,
+        "duration": 5.201
+    },
+    {
+        "text": "always a very solid middle-of the road",
+        "start": 2742.4,
+        "duration": 4.64
+    },
+    {
+        "text": "choice. If you're looking for a",
+        "start": 2745.04,
+        "duration": 3.84
+    },
+    {
+        "text": "companion that just is going to be good",
+        "start": 2747.04,
+        "duration": 4.24
+    },
+    {
+        "text": "no matter what, the wolf remains a very",
+        "start": 2748.88,
+        "duration": 5.68
+    },
+    {
+        "text": "solid pick. So, just to quickly sum up",
+        "start": 2751.28,
+        "duration": 5.36
+    },
+    {
+        "text": "when you use each of these companions",
+        "start": 2754.56,
+        "duration": 4.08
+    },
+    {
+        "text": "once again, the bear is really good",
+        "start": 2756.64,
+        "duration": 4.719
+    },
+    {
+        "text": "against high damage encounters. So,",
+        "start": 2758.64,
+        "duration": 4.719
+    },
+    {
+        "text": "enemies who are making lots of attacks,",
+        "start": 2761.359,
+        "duration": 5.361
+    },
+    {
+        "text": "who you want to not kill your valuable",
+        "start": 2763.359,
+        "duration": 5.281
+    },
+    {
+        "text": "party members, having them deal damage",
+        "start": 2766.72,
+        "duration": 5.68
+    },
+    {
+        "text": "to the bear or be disrupted by its AoE",
+        "start": 2768.64,
+        "duration": 6.24
+    },
+    {
+        "text": "uh attack disadvantage is very helpful.",
+        "start": 2772.4,
+        "duration": 4.08
+    },
+    {
+        "text": "It's much weaker against enemy",
+        "start": 2774.88,
+        "duration": 3.52
+    },
+    {
+        "text": "spellcasters because they'll just fry it",
+        "start": 2776.48,
+        "duration": 5.119
+    },
+    {
+        "text": "in an AoE. Um, and it doesn't have a lot",
+        "start": 2778.4,
+        "duration": 4.959
+    },
+    {
+        "text": "of offensive capability, so you're",
+        "start": 2781.599,
+        "duration": 3.281
+    },
+    {
+        "text": "usually going to use it against weapon",
+        "start": 2783.359,
+        "duration": 3.041
+    },
+    {
+        "text": "attackers where you're worried that",
+        "start": 2784.88,
+        "duration": 2.959
+    },
+    {
+        "text": "they're going to do a lot of damage to",
+        "start": 2786.4,
+        "duration": 4.32
+    },
+    {
+        "text": "your party. The bore is incredibly",
+        "start": 2787.839,
+        "duration": 4.881
+    },
+    {
+        "text": "strong against physical damage",
+        "start": 2790.72,
+        "duration": 4.16
+    },
+    {
+        "text": "encounters, so enemies that have only",
+        "start": 2792.72,
+        "duration": 3.68
+    },
+    {
+        "text": "bludgeoning, piercing, or slashing",
+        "start": 2794.88,
+        "duration": 3.6
+    },
+    {
+        "text": "damage starting at level five. Never use",
+        "start": 2796.4,
+        "duration": 4.24
+    },
+    {
+        "text": "it before level five, but after that,",
+        "start": 2798.48,
+        "duration": 3.839
+    },
+    {
+        "text": "the boar is pretty good against physical",
+        "start": 2800.64,
+        "duration": 3.36
+    },
+    {
+        "text": "damage encounters. It's also good",
+        "start": 2802.319,
+        "duration": 3.52
+    },
+    {
+        "text": "against encounters with lots of squishy",
+        "start": 2804.0,
+        "duration": 3.76
+    },
+    {
+        "text": "enemies that it can kill quickly thanks",
+        "start": 2805.839,
+        "duration": 4.321
+    },
+    {
+        "text": "to its really high damage and in the end",
+        "start": 2807.76,
+        "duration": 4.559
+    },
+    {
+        "text": "game becomes really good against groups",
+        "start": 2810.16,
+        "duration": 5.199
+    },
+    {
+        "text": "of melee enemies with the uh AoE slow",
+        "start": 2812.319,
+        "duration": 5.201
+    },
+    {
+        "text": "effect that you can spam every turn",
+        "start": 2815.359,
+        "duration": 3.921
+    },
+    {
+        "text": "where it becomes a pretty powerful",
+        "start": 2817.52,
+        "duration": 4.16
+    },
+    {
+        "text": "debuffing and damage threat that's also",
+        "start": 2819.28,
+        "duration": 5.12
+    },
+    {
+        "text": "extremely hard to kill. The spider is",
+        "start": 2821.68,
+        "duration": 4.96
+    },
+    {
+        "text": "the king of the early game. It's going",
+        "start": 2824.4,
+        "duration": 4.88
+    },
+    {
+        "text": "to be excellent for the first like seven",
+        "start": 2826.64,
+        "duration": 4.959
+    },
+    {
+        "text": "levels or so and will absolutely",
+        "start": 2829.28,
+        "duration": 4.72
+    },
+    {
+        "text": "obliterate melee encounters. It tends to",
+        "start": 2831.599,
+        "duration": 4.961
+    },
+    {
+        "text": "fall off later in the game um because",
+        "start": 2834.0,
+        "duration": 4.24
+    },
+    {
+        "text": "enemies will start passing the saves",
+        "start": 2836.56,
+        "duration": 4.08
+    },
+    {
+        "text": "against the webs, but early on the the",
+        "start": 2838.24,
+        "duration": 5.2
+    },
+    {
+        "text": "spider rules the roost. The raven is",
+        "start": 2840.64,
+        "duration": 5.04
+    },
+    {
+        "text": "just a great pick all of the time. Um,",
+        "start": 2843.44,
+        "duration": 4.399
+    },
+    {
+        "text": "but especially in the end game just gets",
+        "start": 2845.68,
+        "duration": 5.52
+    },
+    {
+        "text": "so much for from the level 11 capstone",
+        "start": 2847.839,
+        "duration": 5.681
+    },
+    {
+        "text": "uh that starting at level 11, the raven,",
+        "start": 2851.2,
+        "duration": 4.159
+    },
+    {
+        "text": "it's very hard to go wrong with it,",
+        "start": 2853.52,
+        "duration": 3.52
+    },
+    {
+        "text": "especially if you're a darkness focused",
+        "start": 2855.359,
+        "duration": 3.601
+    },
+    {
+        "text": "party. But it's also just going to be",
+        "start": 2857.04,
+        "duration": 4.72
+    },
+    {
+        "text": "really good for parties that want to go",
+        "start": 2858.96,
+        "duration": 4.639
+    },
+    {
+        "text": "longer without resting cuz it's rarely",
+        "start": 2861.76,
+        "duration": 4.319
+    },
+    {
+        "text": "going to die. And if there are enemies",
+        "start": 2863.599,
+        "duration": 4.401
+    },
+    {
+        "text": "that are hard to reach or that you're",
+        "start": 2866.079,
+        "duration": 4.24
+    },
+    {
+        "text": "worried about uh one specific strong",
+        "start": 2868.0,
+        "duration": 4.24
+    },
+    {
+        "text": "enemy, you can blind it over and over",
+        "start": 2870.319,
+        "duration": 3.76
+    },
+    {
+        "text": "again and take it out of the fight. So,",
+        "start": 2872.24,
+        "duration": 4.0
+    },
+    {
+        "text": "it's good against boss fights. It's good",
+        "start": 2874.079,
+        "duration": 3.681
+    },
+    {
+        "text": "uh if you're worried your companion's",
+        "start": 2876.24,
+        "duration": 4.079
+    },
+    {
+        "text": "going to die the and generically just",
+        "start": 2877.76,
+        "duration": 4.64
+    },
+    {
+        "text": "very strong overall. And finally, the",
+        "start": 2880.319,
+        "duration": 4.881
+    },
+    {
+        "text": "wolf is just a great allrounder pick. It",
+        "start": 2882.4,
+        "duration": 5.199
+    },
+    {
+        "text": "doesn't shine specifically in any",
+        "start": 2885.2,
+        "duration": 4.159
+    },
+    {
+        "text": "specific encounters, but it's very",
+        "start": 2887.599,
+        "duration": 3.681
+    },
+    {
+        "text": "reliable for just doing a little bit of",
+        "start": 2889.359,
+        "duration": 4.641
+    },
+    {
+        "text": "damage, taking a little bit of damage um",
+        "start": 2891.28,
+        "duration": 5.44
+    },
+    {
+        "text": "and always contributing thanks to all of",
+        "start": 2894.0,
+        "duration": 4.72
+    },
+    {
+        "text": "its abilities giving it much more",
+        "start": 2896.72,
+        "duration": 4.0
+    },
+    {
+        "text": "reliable stats. And it's just very good",
+        "start": 2898.72,
+        "duration": 4.8
+    },
+    {
+        "text": "base stats overall. So you can use it uh",
+        "start": 2900.72,
+        "duration": 5.2
+    },
+    {
+        "text": "as a good all-rounder choice if one of",
+        "start": 2903.52,
+        "duration": 4.079
+    },
+    {
+        "text": "the other companions doesn't fit that",
+        "start": 2905.92,
+        "duration": 4.08
+    },
+    {
+        "text": "encounter or if if you just want a",
+        "start": 2907.599,
+        "duration": 3.76
+    },
+    {
+        "text": "companion that will last you throughout",
+        "start": 2910.0,
+        "duration": 3.76
+    },
+    {
+        "text": "the game. The wolf or the raven are",
+        "start": 2911.359,
+        "duration": 4.72
+    },
+    {
+        "text": "going to be probably the best picks",
+        "start": 2913.76,
+        "duration": 5.04
+    },
+    {
+        "text": "overall, though any of them can work.",
+        "start": 2916.079,
+        "duration": 3.921
+    },
+    {
+        "text": "All right, my friends. I hope that",
+        "start": 2918.8,
+        "duration": 2.88
+    },
+    {
+        "text": "you've enjoyed this look at the beast",
+        "start": 2920.0,
+        "duration": 3.839
+    },
+    {
+        "text": "master companions. Uh definitely let me",
+        "start": 2921.68,
+        "duration": 4.72
+    },
+    {
+        "text": "know if you like this type of deep dive",
+        "start": 2923.839,
+        "duration": 4.801
+    },
+    {
+        "text": "into a specific mechanic. I've started",
+        "start": 2926.4,
+        "duration": 4.08
+    },
+    {
+        "text": "doing a few more videos like this",
+        "start": 2928.64,
+        "duration": 3.679
+    },
+    {
+        "text": "because people have been enjoying them.",
+        "start": 2930.48,
+        "duration": 4.0
+    },
+    {
+        "text": "But, um, let me know if this is the type",
+        "start": 2932.319,
+        "duration": 3.52
+    },
+    {
+        "text": "of thing that you would like to see more",
+        "start": 2934.48,
+        "duration": 3.2
+    },
+    {
+        "text": "of. I'm very open to doing it. And let",
+        "start": 2935.839,
+        "duration": 3.121
+    },
+    {
+        "text": "me know if it's not the type of thing",
+        "start": 2937.68,
+        "duration": 3.36
+    },
+    {
+        "text": "you want to see more of. If you prefer,",
+        "start": 2938.96,
+        "duration": 4.159
+    },
+    {
+        "text": "uh, standard build guides. I'm",
+        "start": 2941.04,
+        "duration": 4.0
+    },
+    {
+        "text": "interested in that feedback as well. As",
+        "start": 2943.119,
+        "duration": 3.361
+    },
+    {
+        "text": "always, of course, if you've enjoyed the",
+        "start": 2945.04,
+        "duration": 3.279
+    },
+    {
+        "text": "video, then feel free to leave a comment",
+        "start": 2946.48,
+        "duration": 3.44
+    },
+    {
+        "text": "and hit the like button. Helps me out",
+        "start": 2948.319,
+        "duration": 3.441
+    },
+    {
+        "text": "with the algorithm, so I appreciate you",
+        "start": 2949.92,
+        "duration": 3.52
+    },
+    {
+        "text": "taking the time to do that. And of",
+        "start": 2951.76,
+        "duration": 3.2
+    },
+    {
+        "text": "course, you can subscribe to my channel",
+        "start": 2953.44,
+        "duration": 4.0
+    },
+    {
+        "text": "for more Boulders Gate 3 guides and",
+        "start": 2954.96,
+        "duration": 4.879
+    },
+    {
+        "text": "other strategy game analysis. Cheers,",
+        "start": 2957.44,
+        "duration": 4.879
+    },
+    {
+        "text": "folks.",
+        "start": 2959.839,
+        "duration": 2.48
+    }
+]

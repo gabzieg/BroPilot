@@ -1,0 +1,5537 @@
+[
+    {
+        "text": "hello my friends and welcome back to",
+        "start": 0.48,
+        "duration": 3.28
+    },
+    {
+        "text": "another balers Gate 3 build guide hope",
+        "start": 1.88,
+        "duration": 3.439
+    },
+    {
+        "text": "you're all doing well today we're",
+        "start": 3.76,
+        "duration": 3.519
+    },
+    {
+        "text": "covering my pick for the best cleric in",
+        "start": 5.319,
+        "duration": 4.681
+    },
+    {
+        "text": "balers Gate 3 this is an update video to",
+        "start": 7.279,
+        "duration": 4.881
+    },
+    {
+        "text": "the my previous video of the same name",
+        "start": 10.0,
+        "duration": 3.88
+    },
+    {
+        "text": "which is the most popular video on my",
+        "start": 12.16,
+        "duration": 4.24
+    },
+    {
+        "text": "channel but was done almost 6 months ago",
+        "start": 13.88,
+        "duration": 4.28
+    },
+    {
+        "text": "and contained some information that is",
+        "start": 16.4,
+        "duration": 3.639
+    },
+    {
+        "text": "no longer true because of patches and",
+        "start": 18.16,
+        "duration": 3.32
+    },
+    {
+        "text": "various other things that I wanted to",
+        "start": 20.039,
+        "duration": 3.721
+    },
+    {
+        "text": "update so I wanted to cover this topic",
+        "start": 21.48,
+        "duration": 4.879
+    },
+    {
+        "text": "again in order to really modernize that",
+        "start": 23.76,
+        "duration": 5.04
+    },
+    {
+        "text": "build guide and bring it into the honor",
+        "start": 26.359,
+        "duration": 4.801
+    },
+    {
+        "text": "mode era as well as updating it for",
+        "start": 28.8,
+        "duration": 3.639
+    },
+    {
+        "text": "things that we've learned over the last",
+        "start": 31.16,
+        "duration": 4.12
+    },
+    {
+        "text": "six months of balder's gate this will be",
+        "start": 32.439,
+        "duration": 5.761
+    },
+    {
+        "text": "a guide to my pick for the best cleric",
+        "start": 35.28,
+        "duration": 4.52
+    },
+    {
+        "text": "build and the best Shadow heart build in",
+        "start": 38.2,
+        "duration": 3.6
+    },
+    {
+        "text": "balers Gate 3 should be excellent for",
+        "start": 39.8,
+        "duration": 3.759
+    },
+    {
+        "text": "your honor mode playthroughs as well as",
+        "start": 41.8,
+        "duration": 3.56
+    },
+    {
+        "text": "for any lower difficulty playthroughs",
+        "start": 43.559,
+        "duration": 3.961
+    },
+    {
+        "text": "that you're intending to do this is also",
+        "start": 45.36,
+        "duration": 4.56
+    },
+    {
+        "text": "important I think because I of course",
+        "start": 47.52,
+        "duration": 4.039
+    },
+    {
+        "text": "have been building honor mode party",
+        "start": 49.92,
+        "duration": 3.319
+    },
+    {
+        "text": "guides for everyone and I wanted a build",
+        "start": 51.559,
+        "duration": 3.52
+    },
+    {
+        "text": "guide to link to for a cleric build",
+        "start": 53.239,
+        "duration": 3.921
+    },
+    {
+        "text": "because spoilers clerics feature pretty",
+        "start": 55.079,
+        "duration": 6.201
+    },
+    {
+        "text": "heavily in optimized honor mode parties",
+        "start": 57.16,
+        "duration": 5.8
+    },
+    {
+        "text": "before we begin let's talk a little bit",
+        "start": 61.28,
+        "duration": 3.68
+    },
+    {
+        "text": "about cleric as a class because I think",
+        "start": 62.96,
+        "duration": 3.68
+    },
+    {
+        "text": "cleric is actually pretty widely",
+        "start": 64.96,
+        "duration": 3.64
+    },
+    {
+        "text": "misunderstood at first glance it looks",
+        "start": 66.64,
+        "duration": 3.56
+    },
+    {
+        "text": "like it's purely intended to be a",
+        "start": 68.6,
+        "duration": 3.12
+    },
+    {
+        "text": "support class you have healing you have",
+        "start": 70.2,
+        "duration": 4.12
+    },
+    {
+        "text": "supporting spells and that is an element",
+        "start": 71.72,
+        "duration": 4.68
+    },
+    {
+        "text": "that clerics bring to the table but they",
+        "start": 74.32,
+        "duration": 4.04
+    },
+    {
+        "text": "actually do so much more than that",
+        "start": 76.4,
+        "duration": 4.0
+    },
+    {
+        "text": "clerics are one of the most well-rounded",
+        "start": 78.36,
+        "duration": 3.84
+    },
+    {
+        "text": "and Powerful classes in Dungeons and",
+        "start": 80.4,
+        "duration": 3.759
+    },
+    {
+        "text": "Dragons providing just about everything",
+        "start": 82.2,
+        "duration": 4.64
+    },
+    {
+        "text": "that a character needs to a party you",
+        "start": 84.159,
+        "duration": 4.801
+    },
+    {
+        "text": "get to tank you get to do damage you get",
+        "start": 86.84,
+        "duration": 4.4
+    },
+    {
+        "text": "to control enemy movement you get to",
+        "start": 88.96,
+        "duration": 4.28
+    },
+    {
+        "text": "support your allies and you do also do",
+        "start": 91.24,
+        "duration": 4.199
+    },
+    {
+        "text": "indeed get to heal but all of those",
+        "start": 93.24,
+        "duration": 3.839
+    },
+    {
+        "text": "things together make clerics an",
+        "start": 95.439,
+        "duration": 4.241
+    },
+    {
+        "text": "incredibly powerful uh character that",
+        "start": 97.079,
+        "duration": 4.881
+    },
+    {
+        "text": "brings basically everything that a party",
+        "start": 99.68,
+        "duration": 5.24
+    },
+    {
+        "text": "could need in a single package Shadow",
+        "start": 101.96,
+        "duration": 4.56
+    },
+    {
+        "text": "heart gets a little bit of a bad rap I",
+        "start": 104.92,
+        "duration": 3.199
+    },
+    {
+        "text": "think because her default setup is",
+        "start": 106.52,
+        "duration": 4.36
+    },
+    {
+        "text": "somewhat weak but we can optimize that",
+        "start": 108.119,
+        "duration": 5.64
+    },
+    {
+        "text": "and make her a core member of an",
+        "start": 110.88,
+        "duration": 5.68
+    },
+    {
+        "text": "optimized Party by increasing the power",
+        "start": 113.759,
+        "duration": 5.72
+    },
+    {
+        "text": "of her build so let's get into that and",
+        "start": 116.56,
+        "duration": 4.8
+    },
+    {
+        "text": "make one of the most powerful characters",
+        "start": 119.479,
+        "duration": 5.0
+    },
+    {
+        "text": "in the entire game the cleric I'm of",
+        "start": 121.36,
+        "duration": 4.96
+    },
+    {
+        "text": "course using shadowart as the example",
+        "start": 124.479,
+        "duration": 3.801
+    },
+    {
+        "text": "character here but clerics also make",
+        "start": 126.32,
+        "duration": 3.719
+    },
+    {
+        "text": "excellent main characters of course so",
+        "start": 128.28,
+        "duration": 3.4
+    },
+    {
+        "text": "if you want to build a custom character",
+        "start": 130.039,
+        "duration": 4.161
+    },
+    {
+        "text": "as a cleric then some of the best races",
+        "start": 131.68,
+        "duration": 4.0
+    },
+    {
+        "text": "that work with clerics are some of the",
+        "start": 134.2,
+        "duration": 3.56
+    },
+    {
+        "text": "ones that work best for just about any",
+        "start": 135.68,
+        "duration": 4.4
+    },
+    {
+        "text": "character build wood elf or half wood",
+        "start": 137.76,
+        "duration": 4.08
+    },
+    {
+        "text": "elf give you bonus movement speed which",
+        "start": 140.08,
+        "duration": 3.56
+    },
+    {
+        "text": "is incredibly powerful for a cleric",
+        "start": 141.84,
+        "duration": 3.16
+    },
+    {
+        "text": "especially because one of the things",
+        "start": 143.64,
+        "duration": 3.28
+    },
+    {
+        "text": "that we will be doing is Mo is dealing",
+        "start": 145.0,
+        "duration": 3.879
+    },
+    {
+        "text": "damage to enemies just by moving next to",
+        "start": 146.92,
+        "duration": 3.24
+    },
+    {
+        "text": "them so the additional move movement",
+        "start": 148.879,
+        "duration": 3.761
+    },
+    {
+        "text": "speed is very helpful halfling can allow",
+        "start": 150.16,
+        "duration": 5.079
+    },
+    {
+        "text": "you to roll ones which lets you maintain",
+        "start": 152.64,
+        "duration": 4.319
+    },
+    {
+        "text": "concentration on your spells much more",
+        "start": 155.239,
+        "duration": 3.321
+    },
+    {
+        "text": "easily as well as of course just not",
+        "start": 156.959,
+        "duration": 4.56
+    },
+    {
+        "text": "fail saves or Miss attack roles and",
+        "start": 158.56,
+        "duration": 5.36
+    },
+    {
+        "text": "gnome gets advantage on mental saving",
+        "start": 161.519,
+        "duration": 3.961
+    },
+    {
+        "text": "throws which means thanks to your high",
+        "start": 163.92,
+        "duration": 3.88
+    },
+    {
+        "text": "wisdom you'll almost never P fail a",
+        "start": 165.48,
+        "duration": 4.44
+    },
+    {
+        "text": "wisdom saving throw so you'll basically",
+        "start": 167.8,
+        "duration": 3.64
+    },
+    {
+        "text": "never be mind controlled or frightened",
+        "start": 169.92,
+        "duration": 4.28
+    },
+    {
+        "text": "or anything if you're a gnome um other",
+        "start": 171.44,
+        "duration": 5.2
+    },
+    {
+        "text": "options are also all viable it doesn't",
+        "start": 174.2,
+        "duration": 4.52
+    },
+    {
+        "text": "make an enormous difference so I would",
+        "start": 176.64,
+        "duration": 3.519
+    },
+    {
+        "text": "recommend going with whatever you think",
+        "start": 178.72,
+        "duration": 2.92
+    },
+    {
+        "text": "is most flavorful but those are some",
+        "start": 180.159,
+        "duration": 3.72
+    },
+    {
+        "text": "that are more optimal from a mechanical",
+        "start": 181.64,
+        "duration": 4.76
+    },
+    {
+        "text": "standpoint for shadow heart",
+        "start": 183.879,
+        "duration": 5.08
+    },
+    {
+        "text": "unfortunately High half elf isn't",
+        "start": 186.4,
+        "duration": 5.88
+    },
+    {
+        "text": "amazingly Synergy synergistic with a",
+        "start": 188.959,
+        "duration": 6.681
+    },
+    {
+        "text": "cleric because her bonus cant trip that",
+        "start": 192.28,
+        "duration": 5.16
+    },
+    {
+        "text": "she gets from being a high half health",
+        "start": 195.64,
+        "duration": 3.92
+    },
+    {
+        "text": "is based on her intelligence rather than",
+        "start": 197.44,
+        "duration": 3.64
+    },
+    {
+        "text": "her wisdom and we're going to want to",
+        "start": 199.56,
+        "duration": 3.84
+    },
+    {
+        "text": "reduce our intelligence this Firebolt",
+        "start": 201.08,
+        "duration": 4.92
+    },
+    {
+        "text": "doesn't actually do anything for us and",
+        "start": 203.4,
+        "duration": 4.16
+    },
+    {
+        "text": "the proficiencies that she gets from",
+        "start": 206.0,
+        "duration": 3.48
+    },
+    {
+        "text": "being a high half Health High half",
+        "start": 207.56,
+        "duration": 4.879
+    },
+    {
+        "text": "health are duplicated by her cleric",
+        "start": 209.48,
+        "duration": 5.759
+    },
+    {
+        "text": "levels in general anyways so her race",
+        "start": 212.439,
+        "duration": 4.401
+    },
+    {
+        "text": "doesn't fit extremely well with her",
+        "start": 215.239,
+        "duration": 3.28
+    },
+    {
+        "text": "class luckily that's not an enormous",
+        "start": 216.84,
+        "duration": 3.84
+    },
+    {
+        "text": "penalty but just a minor anti- Synergy",
+        "start": 218.519,
+        "duration": 4.881
+    },
+    {
+        "text": "to the character that exists that being",
+        "start": 220.68,
+        "duration": 5.24
+    },
+    {
+        "text": "said we can still make her an incredible",
+        "start": 223.4,
+        "duration": 5.119
+    },
+    {
+        "text": "uh Powerhouse so let's go ahead and do",
+        "start": 225.92,
+        "duration": 5.16
+    },
+    {
+        "text": "that the first things that we need to do",
+        "start": 228.519,
+        "duration": 5.241
+    },
+    {
+        "text": "are to pick our domain because that's",
+        "start": 231.08,
+        "duration": 5.359
+    },
+    {
+        "text": "the most important thing with cleric is",
+        "start": 233.76,
+        "duration": 4.16
+    },
+    {
+        "text": "choosing what kind of cleric you're",
+        "start": 236.439,
+        "duration": 4.041
+    },
+    {
+        "text": "going to be unlike almost every other",
+        "start": 237.92,
+        "duration": 4.959
+    },
+    {
+        "text": "class cleric gets their subass at level",
+        "start": 240.48,
+        "duration": 5.08
+    },
+    {
+        "text": "one which gives you an enormous amount",
+        "start": 242.879,
+        "duration": 4.681
+    },
+    {
+        "text": "of front-loaded power because you get",
+        "start": 245.56,
+        "duration": 4.399
+    },
+    {
+        "text": "both the powerful class abilities of",
+        "start": 247.56,
+        "duration": 4.2
+    },
+    {
+        "text": "cleric and the extremely powerful",
+        "start": 249.959,
+        "duration": 3.601
+    },
+    {
+        "text": "subclass abilities some of these",
+        "start": 251.76,
+        "duration": 3.839
+    },
+    {
+        "text": "subclasses are better than others though",
+        "start": 253.56,
+        "duration": 4.0
+    },
+    {
+        "text": "and so which one we pick will have a",
+        "start": 255.599,
+        "duration": 5.241
+    },
+    {
+        "text": "significant impact on how our character",
+        "start": 257.56,
+        "duration": 5.44
+    },
+    {
+        "text": "is going to come together these sub",
+        "start": 260.84,
+        "duration": 3.84
+    },
+    {
+        "text": "classes give you two different things",
+        "start": 263.0,
+        "duration": 3.12
+    },
+    {
+        "text": "they give you abilities which you can",
+        "start": 264.68,
+        "duration": 3.56
+    },
+    {
+        "text": "see from like the trickery clerics",
+        "start": 266.12,
+        "duration": 3.88
+    },
+    {
+        "text": "blessing of the trickster ability and",
+        "start": 268.24,
+        "duration": 4.44
+    },
+    {
+        "text": "then she'll get more as you level up and",
+        "start": 270.0,
+        "duration": 4.52
+    },
+    {
+        "text": "they also give you access to Unique",
+        "start": 272.68,
+        "duration": 4.56
+    },
+    {
+        "text": "spells uh many of which are not normally",
+        "start": 274.52,
+        "duration": 4.399
+    },
+    {
+        "text": "available to clerics so when you're",
+        "start": 277.24,
+        "duration": 3.64
+    },
+    {
+        "text": "looking at your subass your domain for a",
+        "start": 278.919,
+        "duration": 3.761
+    },
+    {
+        "text": "cleric you need to take into account two",
+        "start": 280.88,
+        "duration": 4.12
+    },
+    {
+        "text": "things one is how good the abilities are",
+        "start": 282.68,
+        "duration": 4.28
+    },
+    {
+        "text": "and two is how good the Spells you get",
+        "start": 285.0,
+        "duration": 3.88
+    },
+    {
+        "text": "are do does it give you spells that",
+        "start": 286.96,
+        "duration": 3.56
+    },
+    {
+        "text": "clerics don't normally get and how",
+        "start": 288.88,
+        "duration": 4.4
+    },
+    {
+        "text": "powerful are those spells unfortunately",
+        "start": 290.52,
+        "duration": 5.04
+    },
+    {
+        "text": "trickery domain Shadow heart's default",
+        "start": 293.28,
+        "duration": 4.24
+    },
+    {
+        "text": "cleric domain is the weakest of the",
+        "start": 295.56,
+        "duration": 4.24
+    },
+    {
+        "text": "seven domains because the abilities are",
+        "start": 297.52,
+        "duration": 4.2
+    },
+    {
+        "text": "quite weak and the Spell access is okay",
+        "start": 299.8,
+        "duration": 4.36
+    },
+    {
+        "text": "but not amazing but I think that there",
+        "start": 301.72,
+        "duration": 4.919
+    },
+    {
+        "text": "are really two domains that stand Head",
+        "start": 304.16,
+        "duration": 5.08
+    },
+    {
+        "text": "and Shoulders above the others so I'm",
+        "start": 306.639,
+        "duration": 4.321
+    },
+    {
+        "text": "going to talk about those two in",
+        "start": 309.24,
+        "duration": 3.32
+    },
+    {
+        "text": "particular and those are light domain",
+        "start": 310.96,
+        "duration": 3.799
+    },
+    {
+        "text": "and Tempest domain both of them get",
+        "start": 312.56,
+        "duration": 4.68
+    },
+    {
+        "text": "incredible Spell access giving you",
+        "start": 314.759,
+        "duration": 4.601
+    },
+    {
+        "text": "access to a bunch of offensive spells so",
+        "start": 317.24,
+        "duration": 4.32
+    },
+    {
+        "text": "they add damage that clerics normally uh",
+        "start": 319.36,
+        "duration": 4.399
+    },
+    {
+        "text": "don't get access to but also a ton of",
+        "start": 321.56,
+        "duration": 4.639
+    },
+    {
+        "text": "utility spells and both have incredibly",
+        "start": 323.759,
+        "duration": 5.56
+    },
+    {
+        "text": "powerful subass abilities as well light",
+        "start": 326.199,
+        "duration": 5.201
+    },
+    {
+        "text": "domain lets you defend yourself with",
+        "start": 329.319,
+        "duration": 4.201
+    },
+    {
+        "text": "warding Flare and Tempest domain lets",
+        "start": 331.4,
+        "duration": 4.28
+    },
+    {
+        "text": "you maximize lightning damage as well as",
+        "start": 333.52,
+        "duration": 3.72
+    },
+    {
+        "text": "wear heavy armor and use Marshall",
+        "start": 335.68,
+        "duration": 5.239
+    },
+    {
+        "text": "weapons I think the best by default for",
+        "start": 337.24,
+        "duration": 5.92
+    },
+    {
+        "text": "just sort of a a standard cleric that",
+        "start": 340.919,
+        "duration": 4.601
+    },
+    {
+        "text": "you really just want to do cleric stuff",
+        "start": 343.16,
+        "duration": 4.56
+    },
+    {
+        "text": "with is to take Tempest domain this",
+        "start": 345.52,
+        "duration": 3.56
+    },
+    {
+        "text": "gives you access to some of the most",
+        "start": 347.72,
+        "duration": 3.08
+    },
+    {
+        "text": "powerful spells in the game in addition",
+        "start": 349.08,
+        "duration": 4.28
+    },
+    {
+        "text": "to cleric's already incredible spell",
+        "start": 350.8,
+        "duration": 5.119
+    },
+    {
+        "text": "list and gives you access to a bunch of",
+        "start": 353.36,
+        "duration": 4.48
+    },
+    {
+        "text": "extra damage while giving you heavy",
+        "start": 355.919,
+        "duration": 4.56
+    },
+    {
+        "text": "armor so you can be as as defensively",
+        "start": 357.84,
+        "duration": 4.04
+    },
+    {
+        "text": "minded as possible something that",
+        "start": 360.479,
+        "duration": 3.641
+    },
+    {
+        "text": "clerics really want to do Tempest domain",
+        "start": 361.88,
+        "duration": 4.36
+    },
+    {
+        "text": "clerics get access to some of the be",
+        "start": 364.12,
+        "duration": 3.96
+    },
+    {
+        "text": "very best spells in the game and almost",
+        "start": 366.24,
+        "duration": 3.799
+    },
+    {
+        "text": "all of their spells are not already on",
+        "start": 368.08,
+        "duration": 3.64
+    },
+    {
+        "text": "the cleric spell list so you really",
+        "start": 370.039,
+        "duration": 3.921
+    },
+    {
+        "text": "widen your array of options by taking",
+        "start": 371.72,
+        "duration": 4.64
+    },
+    {
+        "text": "Tempest domain so I'm going to recommend",
+        "start": 373.96,
+        "duration": 5.079
+    },
+    {
+        "text": "that we take Tempest domain for uh",
+        "start": 376.36,
+        "duration": 5.08
+    },
+    {
+        "text": "shadowart as her domain and then we are",
+        "start": 379.039,
+        "duration": 4.201
+    },
+    {
+        "text": "also going to need to fix her ability",
+        "start": 381.44,
+        "duration": 4.319
+    },
+    {
+        "text": "scores because she starts with a very",
+        "start": 383.24,
+        "duration": 4.399
+    },
+    {
+        "text": "bad ability spread with a bunch of odd",
+        "start": 385.759,
+        "duration": 3.84
+    },
+    {
+        "text": "numbers and a bunch of points put in",
+        "start": 387.639,
+        "duration": 3.921
+    },
+    {
+        "text": "sort of nonsensical areas so we",
+        "start": 389.599,
+        "duration": 4.961
+    },
+    {
+        "text": "definitely need to fix that we want for",
+        "start": 391.56,
+        "duration": 5.759
+    },
+    {
+        "text": "her to have at least 16 wisdom because",
+        "start": 394.56,
+        "duration": 4.479
+    },
+    {
+        "text": "that's what clerics are based on and at",
+        "start": 397.319,
+        "duration": 3.921
+    },
+    {
+        "text": "least 16 Constitution because that",
+        "start": 399.039,
+        "duration": 4.521
+    },
+    {
+        "text": "increases your hit points and your",
+        "start": 401.24,
+        "duration": 4.2
+    },
+    {
+        "text": "concentration saves which are extremely",
+        "start": 403.56,
+        "duration": 4.28
+    },
+    {
+        "text": "important to have we also want at least",
+        "start": 405.44,
+        "duration": 5.599
+    },
+    {
+        "text": "14 dexterity because dexterity uh while",
+        "start": 407.84,
+        "duration": 5.24
+    },
+    {
+        "text": "it you won't be able to use it for Armor",
+        "start": 411.039,
+        "duration": 3.401
+    },
+    {
+        "text": "class because we're going to be wearing",
+        "start": 413.08,
+        "duration": 3.64
+    },
+    {
+        "text": "heavy armor we will use it for Rolling",
+        "start": 414.44,
+        "duration": 5.479
+    },
+    {
+        "text": "initiative roles going first is incred",
+        "start": 416.72,
+        "duration": 5.24
+    },
+    {
+        "text": "powerful so almost every character wants",
+        "start": 419.919,
+        "duration": 4.081
+    },
+    {
+        "text": "extremely high dexterity and you're",
+        "start": 421.96,
+        "duration": 4.16
+    },
+    {
+        "text": "going to need to increase this as much",
+        "start": 424.0,
+        "duration": 5.039
+    },
+    {
+        "text": "as possible in fact you can actually get",
+        "start": 426.12,
+        "duration": 5.919
+    },
+    {
+        "text": "really greedy with Shadow heart's stat",
+        "start": 429.039,
+        "duration": 5.44
+    },
+    {
+        "text": "attribute selection here and take 17",
+        "start": 432.039,
+        "duration": 4.961
+    },
+    {
+        "text": "wisdom and 15 dexterity to start with",
+        "start": 434.479,
+        "duration": 4.16
+    },
+    {
+        "text": "this doesn't give you an initial bonus",
+        "start": 437.0,
+        "duration": 3.72
+    },
+    {
+        "text": "but this allows you to at level four go",
+        "start": 438.639,
+        "duration": 4.601
+    },
+    {
+        "text": "up to 16 and 18 and is almost certainly",
+        "start": 440.72,
+        "duration": 4.8
+    },
+    {
+        "text": "the most optimized way to play if you",
+        "start": 443.24,
+        "duration": 4.639
+    },
+    {
+        "text": "really just want to minmax everything if",
+        "start": 445.52,
+        "duration": 4.119
+    },
+    {
+        "text": "you don't though and for this build",
+        "start": 447.879,
+        "duration": 3.16
+    },
+    {
+        "text": "which is sort of more intended as a",
+        "start": 449.639,
+        "duration": 4.801
+    },
+    {
+        "text": "general purpose uh guide um I recommend",
+        "start": 451.039,
+        "duration": 5.241
+    },
+    {
+        "text": "putting 12 points in strength because",
+        "start": 454.44,
+        "duration": 3.319
+    },
+    {
+        "text": "that will give you more carry weight and",
+        "start": 456.28,
+        "duration": 3.12
+    },
+    {
+        "text": "jump distance and make your playthrough",
+        "start": 457.759,
+        "duration": 3.28
+    },
+    {
+        "text": "just like more fun and smoother if",
+        "start": 459.4,
+        "duration": 4.28
+    },
+    {
+        "text": "you're not having to constantly move",
+        "start": 461.039,
+        "duration": 5.0
+    },
+    {
+        "text": "items off of your cleric because she's",
+        "start": 463.68,
+        "duration": 4.479
+    },
+    {
+        "text": "wearing heavy armor and is getting tired",
+        "start": 466.039,
+        "duration": 5.12
+    },
+    {
+        "text": "all the time so it for a just to",
+        "start": 468.159,
+        "duration": 5.681
+    },
+    {
+        "text": "reiterate that really quickly for a",
+        "start": 471.159,
+        "duration": 4.72
+    },
+    {
+        "text": "purely mid maxed attribute spread you",
+        "start": 473.84,
+        "duration": 6.039
+    },
+    {
+        "text": "want 15 16 17 and for a more general",
+        "start": 475.879,
+        "duration": 9.16
+    },
+    {
+        "text": "purpose spread you want 12 14 16 8 16 8",
+        "start": 479.879,
+        "duration": 6.841
+    },
+    {
+        "text": "we're going to go with that our skill",
+        "start": 485.039,
+        "duration": 3.88
+    },
+    {
+        "text": "selection uh mostly doesn't matter for",
+        "start": 486.72,
+        "duration": 5.0
+    },
+    {
+        "text": "clerics although it is worth if you are",
+        "start": 488.919,
+        "duration": 4.521
+    },
+    {
+        "text": "building a custom cleric taking a",
+        "start": 491.72,
+        "duration": 3.759
+    },
+    {
+        "text": "background that gives you or race or",
+        "start": 493.44,
+        "duration": 3.319
+    },
+    {
+        "text": "background that gives you perception",
+        "start": 495.479,
+        "duration": 3.4
+    },
+    {
+        "text": "checks clerics by default don't get",
+        "start": 496.759,
+        "duration": 3.761
+    },
+    {
+        "text": "these and perception is very important",
+        "start": 498.879,
+        "duration": 3.841
+    },
+    {
+        "text": "and also is based on your wisdom roles",
+        "start": 500.52,
+        "duration": 4.399
+    },
+    {
+        "text": "so cleric with naturally incredible",
+        "start": 502.72,
+        "duration": 4.8
+    },
+    {
+        "text": "wisdom will benefit very highly from",
+        "start": 504.919,
+        "duration": 4.801
+    },
+    {
+        "text": "their High perception attribute and will",
+        "start": 507.52,
+        "duration": 4.119
+    },
+    {
+        "text": "allow your party to spot hidden enemies",
+        "start": 509.72,
+        "duration": 3.92
+    },
+    {
+        "text": "and traps much more easily if you can",
+        "start": 511.639,
+        "duration": 4.241
+    },
+    {
+        "text": "get access to perception other than that",
+        "start": 513.64,
+        "duration": 3.92
+    },
+    {
+        "text": "it doesn't really matter what you take",
+        "start": 515.88,
+        "duration": 3.32
+    },
+    {
+        "text": "because your cleric is unlikely to be",
+        "start": 517.56,
+        "duration": 3.64
+    },
+    {
+        "text": "your main conversationalist and is not",
+        "start": 519.2,
+        "duration": 4.68
+    },
+    {
+        "text": "going to be uh starting conversations so",
+        "start": 521.2,
+        "duration": 4.4
+    },
+    {
+        "text": "you don't really need the Charisma",
+        "start": 523.88,
+        "duration": 3.6
+    },
+    {
+        "text": "skills and otherwise doesn't get access",
+        "start": 525.6,
+        "duration": 3.32
+    },
+    {
+        "text": "to things like stealth or slight of hand",
+        "start": 527.48,
+        "duration": 3.0
+    },
+    {
+        "text": "that you'd be using outside of combat so",
+        "start": 528.92,
+        "duration": 3.56
+    },
+    {
+        "text": "you can take skills mostly based on",
+        "start": 530.48,
+        "duration": 4.479
+    },
+    {
+        "text": "Flavor finally we have to select our",
+        "start": 532.48,
+        "duration": 4.799
+    },
+    {
+        "text": "cantrips because these are some of the",
+        "start": 534.959,
+        "duration": 3.601
+    },
+    {
+        "text": "most important things that you are going",
+        "start": 537.279,
+        "duration": 4.961
+    },
+    {
+        "text": "to do with your spellcaster at level one",
+        "start": 538.56,
+        "duration": 6.2
+    },
+    {
+        "text": "this is our main combat option as well",
+        "start": 542.24,
+        "duration": 5.159
+    },
+    {
+        "text": "as our uh main utility and one of the",
+        "start": 544.76,
+        "duration": 4.04
+    },
+    {
+        "text": "best things about clerics is the",
+        "start": 547.399,
+        "duration": 3.601
+    },
+    {
+        "text": "incredible can trips that they get the",
+        "start": 548.8,
+        "duration": 3.92
+    },
+    {
+        "text": "first and foremost among these and",
+        "start": 551.0,
+        "duration": 4.0
+    },
+    {
+        "text": "basically mandatory for every party is",
+        "start": 552.72,
+        "duration": 5.16
+    },
+    {
+        "text": "guidance what plus 1 D4 to skill checks",
+        "start": 555.0,
+        "duration": 4.68
+    },
+    {
+        "text": "ability checks that you can make and you",
+        "start": 557.88,
+        "duration": 5.6
+    },
+    {
+        "text": "can do this uh out of combat it's free",
+        "start": 559.68,
+        "duration": 5.56
+    },
+    {
+        "text": "so every conversation you're in every",
+        "start": 563.48,
+        "duration": 3.479
+    },
+    {
+        "text": "skill check you're in you can use",
+        "start": 565.24,
+        "duration": 3.48
+    },
+    {
+        "text": "Guidance the game will prompt you to",
+        "start": 566.959,
+        "duration": 3.88
+    },
+    {
+        "text": "roll it will add to it and this will",
+        "start": 568.72,
+        "duration": 5.04
+    },
+    {
+        "text": "convert hundreds of failed roles into",
+        "start": 570.839,
+        "duration": 4.721
+    },
+    {
+        "text": "successes over the course of the game",
+        "start": 573.76,
+        "duration": 3.72
+    },
+    {
+        "text": "guidance may be the single best spell in",
+        "start": 575.56,
+        "duration": 4.76
+    },
+    {
+        "text": "Boulders Gate 3 and is absolutely",
+        "start": 577.48,
+        "duration": 4.919
+    },
+    {
+        "text": "mandatory for every party in my opinion",
+        "start": 580.32,
+        "duration": 4.4
+    },
+    {
+        "text": "it's incredibly fun to use as well so",
+        "start": 582.399,
+        "duration": 4.361
+    },
+    {
+        "text": "you definitely want guidance we also",
+        "start": 584.72,
+        "duration": 3.88
+    },
+    {
+        "text": "need a main combat spell and so we're",
+        "start": 586.76,
+        "duration": 3.68
+    },
+    {
+        "text": "going to choose between either sacred",
+        "start": 588.6,
+        "duration": 5.32
+    },
+    {
+        "text": "flame or produce flame um if you're on",
+        "start": 590.44,
+        "duration": 5.839
+    },
+    {
+        "text": "Console I recommend taking sacred flame",
+        "start": 593.92,
+        "duration": 3.8
+    },
+    {
+        "text": "because the produce flame casting",
+        "start": 596.279,
+        "duration": 3.68
+    },
+    {
+        "text": "interface on console is terrible",
+        "start": 597.72,
+        "duration": 4.32
+    },
+    {
+        "text": "uh but on PC you should probably take",
+        "start": 599.959,
+        "duration": 3.521
+    },
+    {
+        "text": "produce flame because it's just a little",
+        "start": 602.04,
+        "duration": 3.52
+    },
+    {
+        "text": "bit more powerful it gives you a light",
+        "start": 603.48,
+        "duration": 3.88
+    },
+    {
+        "text": "as well as a weapon so it means that you",
+        "start": 605.56,
+        "duration": 5.719
+    },
+    {
+        "text": "then don't have to take light um but on",
+        "start": 607.36,
+        "duration": 5.479
+    },
+    {
+        "text": "Console I think sacred flame works",
+        "start": 611.279,
+        "duration": 3.721
+    },
+    {
+        "text": "better because the casting interface for",
+        "start": 612.839,
+        "duration": 4.24
+    },
+    {
+        "text": "produce flame is apparently awful on",
+        "start": 615.0,
+        "duration": 4.16
+    },
+    {
+        "text": "console that being said produce flame",
+        "start": 617.079,
+        "duration": 4.041
+    },
+    {
+        "text": "slightly better as a pick and will be",
+        "start": 619.16,
+        "duration": 3.56
+    },
+    {
+        "text": "your main damage Source this is going to",
+        "start": 621.12,
+        "duration": 4.08
+    },
+    {
+        "text": "be your main weapon you throw the fire",
+        "start": 622.72,
+        "duration": 4.32
+    },
+    {
+        "text": "using your wisdom so it's going to hit",
+        "start": 625.2,
+        "duration": 2.68
+    },
+    {
+        "text": "pretty",
+        "start": 627.04,
+        "duration": 3.799
+    },
+    {
+        "text": "regularly let you set the ground on Fire",
+        "start": 627.88,
+        "duration": 4.8
+    },
+    {
+        "text": "Light the area so it also has a ton of",
+        "start": 630.839,
+        "duration": 4.24
+    },
+    {
+        "text": "utility for our third cantrip slot we",
+        "start": 632.68,
+        "duration": 4.04
+    },
+    {
+        "text": "actually have a a couple choices you can",
+        "start": 635.079,
+        "duration": 2.88
+    },
+    {
+        "text": "take resistance because there's some",
+        "start": 636.72,
+        "duration": 3.16
+    },
+    {
+        "text": "story events where it's pretty good or",
+        "start": 637.959,
+        "duration": 4.241
+    },
+    {
+        "text": "you can take blade Ward for times when",
+        "start": 639.88,
+        "duration": 4.12
+    },
+    {
+        "text": "you get into an emergency and just need",
+        "start": 642.2,
+        "duration": 3.639
+    },
+    {
+        "text": "to defend yourself for a couple turns or",
+        "start": 644.0,
+        "duration": 3.8
+    },
+    {
+        "text": "times when you're trying to protect um",
+        "start": 645.839,
+        "duration": 3.521
+    },
+    {
+        "text": "temporary hit points and stuff you might",
+        "start": 647.8,
+        "duration": 3.0
+    },
+    {
+        "text": "have I'm going to suggest taking blade",
+        "start": 649.36,
+        "duration": 3.68
+    },
+    {
+        "text": "Ward but don't use this as a default",
+        "start": 650.8,
+        "duration": 5.24
+    },
+    {
+        "text": "action in combat use it only when you",
+        "start": 653.04,
+        "duration": 5.16
+    },
+    {
+        "text": "need your character to survive for an",
+        "start": 656.04,
+        "duration": 4.239
+    },
+    {
+        "text": "extra turn so that reinforcements can",
+        "start": 658.2,
+        "duration": 4.12
+    },
+    {
+        "text": "show up or if you have gotten yourself",
+        "start": 660.279,
+        "duration": 3.761
+    },
+    {
+        "text": "in a bad position and are surrounded by",
+        "start": 662.32,
+        "duration": 4.199
+    },
+    {
+        "text": "a lot of enemies normally this is a bad",
+        "start": 664.04,
+        "duration": 4.68
+    },
+    {
+        "text": "action if you're just uh compared to",
+        "start": 666.519,
+        "duration": 4.0
+    },
+    {
+        "text": "just doing damage but there are times",
+        "start": 668.72,
+        "duration": 3.799
+    },
+    {
+        "text": "when blade Ward comes up so I think it",
+        "start": 670.519,
+        "duration": 4.401
+    },
+    {
+        "text": "is and when it's good it's very good so",
+        "start": 672.519,
+        "duration": 5.161
+    },
+    {
+        "text": "it's worth having in those circumstances",
+        "start": 674.92,
+        "duration": 4.8
+    },
+    {
+        "text": "all right that is our level one build",
+        "start": 677.68,
+        "duration": 5.64
+    },
+    {
+        "text": "for a cleric let's move on to level",
+        "start": 679.72,
+        "duration": 6.76
+    },
+    {
+        "text": "two at character level two clerics get",
+        "start": 683.32,
+        "duration": 5.519
+    },
+    {
+        "text": "additional class and subclass abilities",
+        "start": 686.48,
+        "duration": 3.76
+    },
+    {
+        "text": "in this case because we're a tempest",
+        "start": 688.839,
+        "duration": 4.24
+    },
+    {
+        "text": "cleric we get uh destructive wrath so",
+        "start": 690.24,
+        "duration": 4.76
+    },
+    {
+        "text": "whenever we roll thunder or lightning",
+        "start": 693.079,
+        "duration": 3.841
+    },
+    {
+        "text": "damage we can use our Channel Divinity",
+        "start": 695.0,
+        "duration": 3.72
+    },
+    {
+        "text": "which we get one of per short rest",
+        "start": 696.92,
+        "duration": 4.4
+    },
+    {
+        "text": "currently um to deal maximum damage",
+        "start": 698.72,
+        "duration": 4.84
+    },
+    {
+        "text": "instead this is good for two reasons one",
+        "start": 701.32,
+        "duration": 4.04
+    },
+    {
+        "text": "it increases our damage when we're doing",
+        "start": 703.56,
+        "duration": 4.12
+    },
+    {
+        "text": "thunder and lightning damage and two it",
+        "start": 705.36,
+        "duration": 4.32
+    },
+    {
+        "text": "makes our damage very reliable so we",
+        "start": 707.68,
+        "duration": 3.92
+    },
+    {
+        "text": "know exactly how much damage we're going",
+        "start": 709.68,
+        "duration": 3.88
+    },
+    {
+        "text": "to be dealing with a spell or effect",
+        "start": 711.6,
+        "duration": 4.56
+    },
+    {
+        "text": "that deals uh this type of damage and",
+        "start": 713.56,
+        "duration": 4.6
+    },
+    {
+        "text": "can plan accordingly an enemy at eight",
+        "start": 716.16,
+        "duration": 3.6
+    },
+    {
+        "text": "hit points you know you have have an",
+        "start": 718.16,
+        "duration": 4.44
+    },
+    {
+        "text": "exactly eight damage attack that is very",
+        "start": 719.76,
+        "duration": 4.8
+    },
+    {
+        "text": "useful to be able to guarantee that you",
+        "start": 722.6,
+        "duration": 4.76
+    },
+    {
+        "text": "take them out of the fight for our spell",
+        "start": 724.56,
+        "duration": 4.56
+    },
+    {
+        "text": "list and I should mention of course what",
+        "start": 727.36,
+        "duration": 4.159
+    },
+    {
+        "text": "our default prepared spells are going to",
+        "start": 729.12,
+        "duration": 5.32
+    },
+    {
+        "text": "be uh you are going to want to go with",
+        "start": 731.519,
+        "duration": 5.12
+    },
+    {
+        "text": "healing word which is a bonus action",
+        "start": 734.44,
+        "duration": 3.959
+    },
+    {
+        "text": "that allows you to heal allies this is",
+        "start": 736.639,
+        "duration": 3.801
+    },
+    {
+        "text": "especially useful if an ally has dropped",
+        "start": 738.399,
+        "duration": 3.8
+    },
+    {
+        "text": "to zero hit points in combat and is",
+        "start": 740.44,
+        "duration": 3.32
+    },
+    {
+        "text": "making death saves it'll get them back",
+        "start": 742.199,
+        "duration": 3.361
+    },
+    {
+        "text": "on their feet instantly and doesn't cost",
+        "start": 743.76,
+        "duration": 4.879
+    },
+    {
+        "text": "you your action we also want bless which",
+        "start": 745.56,
+        "duration": 4.92
+    },
+    {
+        "text": "is one of the best things for us to be",
+        "start": 748.639,
+        "duration": 4.041
+    },
+    {
+        "text": "doing in the early game concentrating on",
+        "start": 750.48,
+        "duration": 4.599
+    },
+    {
+        "text": "bless on ourselves and our allies",
+        "start": 752.68,
+        "duration": 4.92
+    },
+    {
+        "text": "whichever allies are making attack roles",
+        "start": 755.079,
+        "duration": 5.0
+    },
+    {
+        "text": "bless is incredible remember when I said",
+        "start": 757.6,
+        "duration": 4.72
+    },
+    {
+        "text": "guidance is going to convert hundreds of",
+        "start": 760.079,
+        "duration": 5.081
+    },
+    {
+        "text": "skill checks to uh skill check failures",
+        "start": 762.32,
+        "duration": 5.079
+    },
+    {
+        "text": "to successes bless is exactly the same",
+        "start": 765.16,
+        "duration": 4.359
+    },
+    {
+        "text": "thing for attack roles and is going to",
+        "start": 767.399,
+        "duration": 3.761
+    },
+    {
+        "text": "massively improve the effectiveness of",
+        "start": 769.519,
+        "duration": 3.481
+    },
+    {
+        "text": "your party if you spend your turns",
+        "start": 771.16,
+        "duration": 4.08
+    },
+    {
+        "text": "concentrating on it in the early game so",
+        "start": 773.0,
+        "duration": 4.24
+    },
+    {
+        "text": "we want those two as great Support",
+        "start": 775.24,
+        "duration": 5.279
+    },
+    {
+        "text": "options we also want command because",
+        "start": 777.24,
+        "duration": 5.76
+    },
+    {
+        "text": "command is one of the best uh control",
+        "start": 780.519,
+        "duration": 4.521
+    },
+    {
+        "text": "spells in the entire game it will remain",
+        "start": 783.0,
+        "duration": 4.48
+    },
+    {
+        "text": "relevant all game for clerics because if",
+        "start": 785.04,
+        "duration": 5.08
+    },
+    {
+        "text": "you command an enemy to drop uh if you",
+        "start": 787.48,
+        "duration": 6.359
+    },
+    {
+        "text": "use command drop on an enemy they will",
+        "start": 790.12,
+        "duration": 5.959
+    },
+    {
+        "text": "fall to the ground and lose their next",
+        "start": 793.839,
+        "duration": 4.961
+    },
+    {
+        "text": "turn which is going to give your allies",
+        "start": 796.079,
+        "duration": 5.921
+    },
+    {
+        "text": "advantage on uh attacks against them and",
+        "start": 798.8,
+        "duration": 5.36
+    },
+    {
+        "text": "also is going to prevent them from",
+        "start": 802.0,
+        "duration": 4.079
+    },
+    {
+        "text": "spending a turn trading your turn for an",
+        "start": 804.16,
+        "duration": 3.799
+    },
+    {
+        "text": "enemy turn is typically a pretty good",
+        "start": 806.079,
+        "duration": 3.481
+    },
+    {
+        "text": "trade because you can decide decide when",
+        "start": 807.959,
+        "duration": 4.201
+    },
+    {
+        "text": "to use it and so being able to do this",
+        "start": 809.56,
+        "duration": 4.44
+    },
+    {
+        "text": "with command means that you can take",
+        "start": 812.16,
+        "duration": 5.56
+    },
+    {
+        "text": "powerful bosses out of the fight and uh",
+        "start": 814.0,
+        "duration": 6.36
+    },
+    {
+        "text": "completely one shot encounters because",
+        "start": 817.72,
+        "duration": 4.119
+    },
+    {
+        "text": "you're going to take an enemy out of the",
+        "start": 820.36,
+        "duration": 3.32
+    },
+    {
+        "text": "fight have advantage on all your attacks",
+        "start": 821.839,
+        "duration": 3.881
+    },
+    {
+        "text": "and they by the time they get their next",
+        "start": 823.68,
+        "duration": 4.56
+    },
+    {
+        "text": "turn they're going to be dead next up we",
+        "start": 825.72,
+        "duration": 4.44
+    },
+    {
+        "text": "are going to want to have Sanctuary",
+        "start": 828.24,
+        "duration": 3.68
+    },
+    {
+        "text": "which is also a bonus action like",
+        "start": 830.16,
+        "duration": 4.44
+    },
+    {
+        "text": "healing word and uh prevents enemies",
+        "start": 831.92,
+        "duration": 5.0
+    },
+    {
+        "text": "from attacking the targeted Ally this",
+        "start": 834.6,
+        "duration": 5.239
+    },
+    {
+        "text": "isn't concentration which is not because",
+        "start": 836.92,
+        "duration": 4.039
+    },
+    {
+        "text": "it means you can have it while",
+        "start": 839.839,
+        "duration": 3.041
+    },
+    {
+        "text": "concentrating on bless so you can use it",
+        "start": 840.959,
+        "duration": 4.521
+    },
+    {
+        "text": "to protect your bless concentration or",
+        "start": 842.88,
+        "duration": 4.04
+    },
+    {
+        "text": "you can just use it to protect an out of",
+        "start": 845.48,
+        "duration": 3.32
+    },
+    {
+        "text": "position Ally and it's a great panic",
+        "start": 846.92,
+        "duration": 4.8
+    },
+    {
+        "text": "button uh if somebody gets into trouble",
+        "start": 848.8,
+        "duration": 4.8
+    },
+    {
+        "text": "finally we want a good combat spell and",
+        "start": 851.72,
+        "duration": 3.44
+    },
+    {
+        "text": "we're going to take guiding bolt guiding",
+        "start": 853.6,
+        "duration": 3.56
+    },
+    {
+        "text": "bolts a great ranged attack and if you",
+        "start": 855.16,
+        "duration": 3.84
+    },
+    {
+        "text": "just really want one enemy dead it does",
+        "start": 857.16,
+        "duration": 4.239
+    },
+    {
+        "text": "the job reasonably well it's not as good",
+        "start": 859.0,
+        "duration": 4.68
+    },
+    {
+        "text": "a nuke as you will have from other",
+        "start": 861.399,
+        "duration": 4.041
+    },
+    {
+        "text": "characters at this level but it's a",
+        "start": 863.68,
+        "duration": 5.2
+    },
+    {
+        "text": "pretty solid uh damaging element to add",
+        "start": 865.44,
+        "duration": 6.24
+    },
+    {
+        "text": "to party I like guiding bolt more than",
+        "start": 868.88,
+        "duration": 4.44
+    },
+    {
+        "text": "inflict wounds even though inflict",
+        "start": 871.68,
+        "duration": 3.399
+    },
+    {
+        "text": "wounds does more damage just cuz I think",
+        "start": 873.32,
+        "duration": 4.72
+    },
+    {
+        "text": "that the range adds a little bit more uh",
+        "start": 875.079,
+        "duration": 6.161
+    },
+    {
+        "text": "flexibility to the",
+        "start": 878.04,
+        "duration": 3.2
+    },
+    {
+        "text": "spell at cleric level three we get",
+        "start": 882.0,
+        "duration": 4.639
+    },
+    {
+        "text": "access to level two spells and we also",
+        "start": 884.6,
+        "duration": 3.919
+    },
+    {
+        "text": "get shatter and gust of wind from our",
+        "start": 886.639,
+        "duration": 3.88
+    },
+    {
+        "text": "Tempest cleric levels these spells will",
+        "start": 888.519,
+        "duration": 3.68
+    },
+    {
+        "text": "always be prepared these two aren't",
+        "start": 890.519,
+        "duration": 3.801
+    },
+    {
+        "text": "going to be ones that come up that often",
+        "start": 892.199,
+        "duration": 3.841
+    },
+    {
+        "text": "although shatter when you can maximize",
+        "start": 894.32,
+        "duration": 5.56
+    },
+    {
+        "text": "the damage uh is going to do 24 damage",
+        "start": 896.04,
+        "duration": 6.56
+    },
+    {
+        "text": "with shatter uh plus your channel",
+        "start": 899.88,
+        "duration": 5.319
+    },
+    {
+        "text": "Divinity charge and 24 damage in an AOE",
+        "start": 902.6,
+        "duration": 4.44
+    },
+    {
+        "text": "is a pretty solid amount of damage that",
+        "start": 905.199,
+        "duration": 3.841
+    },
+    {
+        "text": "you can really use to bring down low",
+        "start": 907.04,
+        "duration": 5.12
+    },
+    {
+        "text": "enemies or uh take down a group pretty",
+        "start": 909.04,
+        "duration": 5.84
+    },
+    {
+        "text": "easily for our other prepared spells we",
+        "start": 912.16,
+        "duration": 4.88
+    },
+    {
+        "text": "are going to the only one that we're",
+        "start": 914.88,
+        "duration": 4.24
+    },
+    {
+        "text": "adding from level two at this level is",
+        "start": 917.04,
+        "duration": 4.28
+    },
+    {
+        "text": "going to be spiritual weapon which is",
+        "start": 919.12,
+        "duration": 4.76
+    },
+    {
+        "text": "another bonus action so you can use it",
+        "start": 921.32,
+        "duration": 5.199
+    },
+    {
+        "text": "and another thing in the uh and command",
+        "start": 923.88,
+        "duration": 6.16
+    },
+    {
+        "text": "or use it and bless in the same uh turn",
+        "start": 926.519,
+        "duration": 5.481
+    },
+    {
+        "text": "which is incredibly useful spiritual",
+        "start": 930.04,
+        "duration": 3.919
+    },
+    {
+        "text": "weapon is great for blocking doorways",
+        "start": 932.0,
+        "duration": 3.759
+    },
+    {
+        "text": "distracting enemies adding a little bit",
+        "start": 933.959,
+        "duration": 3.921
+    },
+    {
+        "text": "of extra damage to your party its",
+        "start": 935.759,
+        "duration": 4.481
+    },
+    {
+        "text": "disadvantage is that it's slow but if",
+        "start": 937.88,
+        "duration": 4.12
+    },
+    {
+        "text": "you can place it next to enemies who",
+        "start": 940.24,
+        "duration": 3.519
+    },
+    {
+        "text": "can't attack anything else they'll often",
+        "start": 942.0,
+        "duration": 3.48
+    },
+    {
+        "text": "get distracted by it or if you can place",
+        "start": 943.759,
+        "duration": 3.961
+    },
+    {
+        "text": "it next to enemies who are uh trying to",
+        "start": 945.48,
+        "duration": 4.88
+    },
+    {
+        "text": "go through a doorway or blocked up by an",
+        "start": 947.72,
+        "duration": 4.359
+    },
+    {
+        "text": "entangle or some other spell that's",
+        "start": 950.36,
+        "duration": 3.32
+    },
+    {
+        "text": "stopping them from moving it's going to",
+        "start": 952.079,
+        "duration": 3.641
+    },
+    {
+        "text": "add solid DPS and absorb hits that",
+        "start": 953.68,
+        "duration": 4.399
+    },
+    {
+        "text": "otherwise your party would be taking by",
+        "start": 955.72,
+        "duration": 6.479
+    },
+    {
+        "text": "default your of normal combat mode in um",
+        "start": 958.079,
+        "duration": 6.041
+    },
+    {
+        "text": "for a cleric is going to be to spend",
+        "start": 962.199,
+        "duration": 4.481
+    },
+    {
+        "text": "turn one of a fight casting bless and",
+        "start": 964.12,
+        "duration": 4.719
+    },
+    {
+        "text": "spiritual weapon or even casting bless",
+        "start": 966.68,
+        "duration": 3.719
+    },
+    {
+        "text": "before combat starts and then spending",
+        "start": 968.839,
+        "duration": 3.56
+    },
+    {
+        "text": "turn one casting spiritual weapon and",
+        "start": 970.399,
+        "duration": 4.401
+    },
+    {
+        "text": "command and then you'll command an enemy",
+        "start": 972.399,
+        "duration": 4.92
+    },
+    {
+        "text": "and then you will just plink with your",
+        "start": 974.8,
+        "duration": 4.24
+    },
+    {
+        "text": "produced flame for the rest of combat",
+        "start": 977.319,
+        "duration": 3.32
+    },
+    {
+        "text": "while your spiritual weapon beats down",
+        "start": 979.04,
+        "duration": 4.039
+    },
+    {
+        "text": "enemies cleric's play pattern is going",
+        "start": 980.639,
+        "duration": 4.401
+    },
+    {
+        "text": "to be to use a powerful concentration",
+        "start": 983.079,
+        "duration": 4.32
+    },
+    {
+        "text": "spell to win the fight and then spend",
+        "start": 985.04,
+        "duration": 4.08
+    },
+    {
+        "text": "the rest of the time playing cleanup and",
+        "start": 987.399,
+        "duration": 3.44
+    },
+    {
+        "text": "helping out their allies who are doing",
+        "start": 989.12,
+        "duration": 3.68
+    },
+    {
+        "text": "damage with weapon attacks that's one of",
+        "start": 990.839,
+        "duration": 3.48
+    },
+    {
+        "text": "the things that makes this character so",
+        "start": 992.8,
+        "duration": 4.32
+    },
+    {
+        "text": "powerful is that you get to do that uh",
+        "start": 994.319,
+        "duration": 4.76
+    },
+    {
+        "text": "unload all of your best spells in the",
+        "start": 997.12,
+        "duration": 4.0
+    },
+    {
+        "text": "first turn of combat by having all of",
+        "start": 999.079,
+        "duration": 4.68
+    },
+    {
+        "text": "those options",
+        "start": 1001.12,
+        "duration": 2.639
+    },
+    {
+        "text": "available at cleric level four we get",
+        "start": 1004.399,
+        "duration": 5.0
+    },
+    {
+        "text": "our first feat which is going to allow",
+        "start": 1006.8,
+        "duration": 5.2
+    },
+    {
+        "text": "us to increase our wisdom and this is",
+        "start": 1009.399,
+        "duration": 3.56
+    },
+    {
+        "text": "great because it's just going to",
+        "start": 1012.0,
+        "duration": 2.839
+    },
+    {
+        "text": "increase the saf DCS that enemies are",
+        "start": 1012.959,
+        "duration": 3.601
+    },
+    {
+        "text": "rolling against so our Command will be",
+        "start": 1014.839,
+        "duration": 3.44
+    },
+    {
+        "text": "more effective we'll hit more often with",
+        "start": 1016.56,
+        "duration": 5.16
+    },
+    {
+        "text": "our attack and so on um if you took the",
+        "start": 1018.279,
+        "duration": 6.121
+    },
+    {
+        "text": "15 16 17 split then you would even those",
+        "start": 1021.72,
+        "duration": 5.599
+    },
+    {
+        "text": "out and have 16 dexterity at this point",
+        "start": 1024.4,
+        "duration": 5.24
+    },
+    {
+        "text": "um but just increasing our wisdom is",
+        "start": 1027.319,
+        "duration": 4.48
+    },
+    {
+        "text": "going to be the best pick here as well a",
+        "start": 1029.64,
+        "duration": 5.24
+    },
+    {
+        "text": "couple other options if you are looking",
+        "start": 1031.799,
+        "duration": 4.721
+    },
+    {
+        "text": "for something else to do although I do",
+        "start": 1034.88,
+        "duration": 3.199
+    },
+    {
+        "text": "think that increasing your wisdom is the",
+        "start": 1036.52,
+        "duration": 4.08
+    },
+    {
+        "text": "best uh you could take War cter if",
+        "start": 1038.079,
+        "duration": 4.401
+    },
+    {
+        "text": "you're losing concentration on Spells a",
+        "start": 1040.6,
+        "duration": 3.92
+    },
+    {
+        "text": "Lot by getting hit warter saves you from",
+        "start": 1042.48,
+        "duration": 4.04
+    },
+    {
+        "text": "doing that and you could take alert so",
+        "start": 1044.52,
+        "duration": 4.44
+    },
+    {
+        "text": "to guarantee that you go first in combat",
+        "start": 1046.52,
+        "duration": 4.56
+    },
+    {
+        "text": "this is especially useful on honor mode",
+        "start": 1048.96,
+        "duration": 4.0
+    },
+    {
+        "text": "although I tend to like doing that at",
+        "start": 1051.08,
+        "duration": 4.8
+    },
+    {
+        "text": "level uh at later levels but alert even",
+        "start": 1052.96,
+        "duration": 5.16
+    },
+    {
+        "text": "at level four can be extremely powerful",
+        "start": 1055.88,
+        "duration": 4.48
+    },
+    {
+        "text": "as well we also get an additional Kent",
+        "start": 1058.12,
+        "duration": 3.439
+    },
+    {
+        "text": "trip and we're just going to take",
+        "start": 1060.36,
+        "duration": 2.679
+    },
+    {
+        "text": "resistance which is very useful in",
+        "start": 1061.559,
+        "duration": 4.641
+    },
+    {
+        "text": "certain story events in uh late act one",
+        "start": 1063.039,
+        "duration": 5.601
+    },
+    {
+        "text": "and in act two so it's just very nice to",
+        "start": 1066.2,
+        "duration": 4.92
+    },
+    {
+        "text": "have that",
+        "start": 1068.64,
+        "duration": 2.48
+    },
+    {
+        "text": "available at character level five we get",
+        "start": 1073.2,
+        "duration": 5.2
+    },
+    {
+        "text": "access to third level spells and this is",
+        "start": 1075.96,
+        "duration": 5.56
+    },
+    {
+        "text": "what makes cleric and especially Tempest",
+        "start": 1078.4,
+        "duration": 6.0
+    },
+    {
+        "text": "clerics so powerful cleric's third level",
+        "start": 1081.52,
+        "duration": 5.12
+    },
+    {
+        "text": "spells are incredible some of the best",
+        "start": 1084.4,
+        "duration": 4.96
+    },
+    {
+        "text": "in the game and uh that's saying a lot",
+        "start": 1086.64,
+        "duration": 4.44
+    },
+    {
+        "text": "because third level spells in general",
+        "start": 1089.36,
+        "duration": 3.52
+    },
+    {
+        "text": "are where a lot of characters really H",
+        "start": 1091.08,
+        "duration": 4.4
+    },
+    {
+        "text": "hit their power Spike we get some of the",
+        "start": 1092.88,
+        "duration": 4.32
+    },
+    {
+        "text": "best control spells and some of the best",
+        "start": 1095.48,
+        "duration": 3.88
+    },
+    {
+        "text": "damage spells and as well as the best",
+        "start": 1097.2,
+        "duration": 4.479
+    },
+    {
+        "text": "support spell in the game all at once at",
+        "start": 1099.36,
+        "duration": 4.799
+    },
+    {
+        "text": "this level by being a tempest cleric we",
+        "start": 1101.679,
+        "duration": 4.041
+    },
+    {
+        "text": "get access to call lightning which we",
+        "start": 1104.159,
+        "duration": 3.52
+    },
+    {
+        "text": "can concentrate on and just do very",
+        "start": 1105.72,
+        "duration": 4.12
+    },
+    {
+        "text": "solid damage just great consistent",
+        "start": 1107.679,
+        "duration": 4.681
+    },
+    {
+        "text": "damage um every turn of combat so if",
+        "start": 1109.84,
+        "duration": 4.319
+    },
+    {
+        "text": "combat's going to go long this is a a",
+        "start": 1112.36,
+        "duration": 3.96
+    },
+    {
+        "text": "great one to use and you'll usually want",
+        "start": 1114.159,
+        "duration": 4.121
+    },
+    {
+        "text": "to do this if you want to stay away from",
+        "start": 1116.32,
+        "duration": 4.719
+    },
+    {
+        "text": "enemies we also get sleet storm which is",
+        "start": 1118.28,
+        "duration": 6.12
+    },
+    {
+        "text": "a 30ft radius AOE an enormous AOE that",
+        "start": 1121.039,
+        "duration": 5.601
+    },
+    {
+        "text": "makes an ice surface ice surfaces in",
+        "start": 1124.4,
+        "duration": 4.24
+    },
+    {
+        "text": "balder's Gate are incredibly powerful",
+        "start": 1126.64,
+        "duration": 5.039
+    },
+    {
+        "text": "because if an enemy Falls over um they",
+        "start": 1128.64,
+        "duration": 5.0
+    },
+    {
+        "text": "lose their turn if they are walking on",
+        "start": 1131.679,
+        "duration": 4.041
+    },
+    {
+        "text": "the ice surface and fall over they just",
+        "start": 1133.64,
+        "duration": 4.0
+    },
+    {
+        "text": "skip the rest of their turn this makes",
+        "start": 1135.72,
+        "duration": 4.6
+    },
+    {
+        "text": "it a gigantic AO e stun that you can",
+        "start": 1137.64,
+        "duration": 5.399
+    },
+    {
+        "text": "apply to every enemy in a combat for",
+        "start": 1140.32,
+        "duration": 4.76
+    },
+    {
+        "text": "turn after turn after turn by",
+        "start": 1143.039,
+        "duration": 4.401
+    },
+    {
+        "text": "concentrating on sleet storm as well as",
+        "start": 1145.08,
+        "duration": 4.76
+    },
+    {
+        "text": "interrupting uh enemy spell cter cast",
+        "start": 1147.44,
+        "duration": 4.119
+    },
+    {
+        "text": "there's also a lot of really cool tricks",
+        "start": 1149.84,
+        "duration": 3.28
+    },
+    {
+        "text": "you can do with sleet storm but the big",
+        "start": 1151.559,
+        "duration": 3.081
+    },
+    {
+        "text": "thing is just that it knocks over every",
+        "start": 1153.12,
+        "duration": 3.96
+    },
+    {
+        "text": "enemy and completely wipes encounters",
+        "start": 1154.64,
+        "duration": 5.2
+    },
+    {
+        "text": "all on its own we also get to prepare a",
+        "start": 1157.08,
+        "duration": 4.839
+    },
+    {
+        "text": "couple great spells and the Spells that",
+        "start": 1159.84,
+        "duration": 3.8
+    },
+    {
+        "text": "we are going to prepare at this level",
+        "start": 1161.919,
+        "duration": 3.281
+    },
+    {
+        "text": "it's going to be Glyph of warding which",
+        "start": 1163.64,
+        "duration": 4.159
+    },
+    {
+        "text": "you can cast directly onto an enemy it",
+        "start": 1165.2,
+        "duration": 3.92
+    },
+    {
+        "text": "looks like it's supposed to be be a sort",
+        "start": 1167.799,
+        "duration": 3.521
+    },
+    {
+        "text": "of trap but you can cast it onto an",
+        "start": 1169.12,
+        "duration": 3.76
+    },
+    {
+        "text": "enemy it'll trigger immediately this",
+        "start": 1171.32,
+        "duration": 3.52
+    },
+    {
+        "text": "lets you do Elemental damage of any type",
+        "start": 1172.88,
+        "duration": 3.799
+    },
+    {
+        "text": "or put a bunch of enemies to sleep so",
+        "start": 1174.84,
+        "duration": 3.88
+    },
+    {
+        "text": "it's both control and damage in the same",
+        "start": 1176.679,
+        "duration": 5.081
+    },
+    {
+        "text": "spell uh we also want Mass healing word",
+        "start": 1178.72,
+        "duration": 5.16
+    },
+    {
+        "text": "which is great because we will probably",
+        "start": 1181.76,
+        "duration": 4.279
+    },
+    {
+        "text": "have items that buff our allies when we",
+        "start": 1183.88,
+        "duration": 4.2
+    },
+    {
+        "text": "heal them and this lets us apply those",
+        "start": 1186.039,
+        "duration": 4.601
+    },
+    {
+        "text": "Buffs to every Ally at once and we want",
+        "start": 1188.08,
+        "duration": 4.959
+    },
+    {
+        "text": "Spirit Guardians Spirit Guardians is",
+        "start": 1190.64,
+        "duration": 4.64
+    },
+    {
+        "text": "some of the best uh sustained damage in",
+        "start": 1193.039,
+        "duration": 4.081
+    },
+    {
+        "text": "the game it just does constant damage to",
+        "start": 1195.28,
+        "duration": 3.519
+    },
+    {
+        "text": "every enemy that's surrounding the",
+        "start": 1197.12,
+        "duration": 4.0
+    },
+    {
+        "text": "cleric and when you move around the",
+        "start": 1198.799,
+        "duration": 4.441
+    },
+    {
+        "text": "battlefield every enemy will take damage",
+        "start": 1201.12,
+        "duration": 4.4
+    },
+    {
+        "text": "which is why move uh movement options",
+        "start": 1203.24,
+        "duration": 4.16
+    },
+    {
+        "text": "are so helpful and that's going to be",
+        "start": 1205.52,
+        "duration": 3.68
+    },
+    {
+        "text": "one of the best things to concentrate on",
+        "start": 1207.4,
+        "duration": 4.0
+    },
+    {
+        "text": "just constantly dealing damage at this",
+        "start": 1209.2,
+        "duration": 4.2
+    },
+    {
+        "text": "level your play pattern is going to",
+        "start": 1211.4,
+        "duration": 5.2
+    },
+    {
+        "text": "shift a little bit to um choosing",
+        "start": 1213.4,
+        "duration": 5.399
+    },
+    {
+        "text": "between your three super powerful",
+        "start": 1216.6,
+        "duration": 4.8
+    },
+    {
+        "text": "concentration spells in spirit Guardians",
+        "start": 1218.799,
+        "duration": 4.961
+    },
+    {
+        "text": "if you want to do damage up close call",
+        "start": 1221.4,
+        "duration": 3.96
+    },
+    {
+        "text": "lightning from your Tempest cleric",
+        "start": 1223.76,
+        "duration": 4.279
+    },
+    {
+        "text": "levels if you want to do damage uh at a",
+        "start": 1225.36,
+        "duration": 5.0
+    },
+    {
+        "text": "distance or SLE storm if you want to",
+        "start": 1228.039,
+        "duration": 4.441
+    },
+    {
+        "text": "control a large group of enemies and of",
+        "start": 1230.36,
+        "duration": 4.16
+    },
+    {
+        "text": "course the play pattern of casting bless",
+        "start": 1232.48,
+        "duration": 3.6
+    },
+    {
+        "text": "and supporting your allies is still",
+        "start": 1234.52,
+        "duration": 3.72
+    },
+    {
+        "text": "extremely powerful as well at this point",
+        "start": 1236.08,
+        "duration": 3.959
+    },
+    {
+        "text": "you have a ton of different options and",
+        "start": 1238.24,
+        "duration": 3.36
+    },
+    {
+        "text": "you can adopt different strategic",
+        "start": 1240.039,
+        "duration": 3.88
+    },
+    {
+        "text": "postures depending on the encounter to",
+        "start": 1241.6,
+        "duration": 5.68
+    },
+    {
+        "text": "do exactly what you want to",
+        "start": 1243.919,
+        "duration": 3.361
+    },
+    {
+        "text": "do at cleric level six we get a",
+        "start": 1248.039,
+        "duration": 5.361
+    },
+    {
+        "text": "thunderbolt strike which allows us to",
+        "start": 1250.96,
+        "duration": 5.199
+    },
+    {
+        "text": "push enemies and Ally uh to push enemies",
+        "start": 1253.4,
+        "duration": 4.519
+    },
+    {
+        "text": "if we do thunder or lightning damage to",
+        "start": 1256.159,
+        "duration": 4.081
+    },
+    {
+        "text": "them the cool thing about this is that",
+        "start": 1257.919,
+        "duration": 4.681
+    },
+    {
+        "text": "this doesn't take an action of any kind",
+        "start": 1260.24,
+        "duration": 4.799
+    },
+    {
+        "text": "and works from any source of lightning",
+        "start": 1262.6,
+        "duration": 4.88
+    },
+    {
+        "text": "damage we do including a pool of water",
+        "start": 1265.039,
+        "duration": 4.801
+    },
+    {
+        "text": "that we've electrified so if you leave",
+        "start": 1267.48,
+        "duration": 4.28
+    },
+    {
+        "text": "if you have a big pool of water on the",
+        "start": 1269.84,
+        "duration": 3.719
+    },
+    {
+        "text": "ground which you can make cuz you're a",
+        "start": 1271.76,
+        "duration": 4.519
+    },
+    {
+        "text": "cleric with create water um and then hit",
+        "start": 1273.559,
+        "duration": 5.921
+    },
+    {
+        "text": "it with electricity damage then this",
+        "start": 1276.279,
+        "duration": 4.721
+    },
+    {
+        "text": "this damage will count for the",
+        "start": 1279.48,
+        "duration": 3.439
+    },
+    {
+        "text": "Thunderbolt strike and enemies walking",
+        "start": 1281.0,
+        "duration": 3.799
+    },
+    {
+        "text": "in that pool of electricity will get",
+        "start": 1282.919,
+        "duration": 3.961
+    },
+    {
+        "text": "ping ponged all over the map preventing",
+        "start": 1284.799,
+        "duration": 4.041
+    },
+    {
+        "text": "them from doing anything at all it's",
+        "start": 1286.88,
+        "duration": 5.12
+    },
+    {
+        "text": "also very funny um so this is actually a",
+        "start": 1288.84,
+        "duration": 5.24
+    },
+    {
+        "text": "an extremely powerful ability it also",
+        "start": 1292.0,
+        "duration": 3.799
+    },
+    {
+        "text": "works really well with your retaliation",
+        "start": 1294.08,
+        "duration": 3.079
+    },
+    {
+        "text": "damage that you have from being a",
+        "start": 1295.799,
+        "duration": 3.36
+    },
+    {
+        "text": "tempest cleric so when you get attacked",
+        "start": 1297.159,
+        "duration": 4.12
+    },
+    {
+        "text": "you can uh do the reaction damage to",
+        "start": 1299.159,
+        "duration": 4.041
+    },
+    {
+        "text": "them push the enemy backwards you can",
+        "start": 1301.279,
+        "duration": 3.921
+    },
+    {
+        "text": "also use it to push enemies off of",
+        "start": 1303.2,
+        "duration": 3.4
+    },
+    {
+        "text": "cliffs if they're standing near Cliff",
+        "start": 1305.2,
+        "duration": 4.68
+    },
+    {
+        "text": "edges uh get additional push distance",
+        "start": 1306.6,
+        "duration": 5.559
+    },
+    {
+        "text": "from stuff like Thunder Wave it's just a",
+        "start": 1309.88,
+        "duration": 4.679
+    },
+    {
+        "text": "super powerful and versatile ability and",
+        "start": 1312.159,
+        "duration": 4.561
+    },
+    {
+        "text": "because it's passive and always on it's",
+        "start": 1314.559,
+        "duration": 4.6
+    },
+    {
+        "text": "extremely helpful",
+        "start": 1316.72,
+        "duration": 4.92
+    },
+    {
+        "text": "for prepared Spells at this level we are",
+        "start": 1319.159,
+        "duration": 4.4
+    },
+    {
+        "text": "probably going to add in a utility spell",
+        "start": 1321.64,
+        "duration": 3.639
+    },
+    {
+        "text": "like create water which is very useful",
+        "start": 1323.559,
+        "duration": 4.441
+    },
+    {
+        "text": "to have as well one thing to note as",
+        "start": 1325.279,
+        "duration": 6.601
+    },
+    {
+        "text": "well on a cleric is that you have the",
+        "start": 1328.0,
+        "duration": 6.279
+    },
+    {
+        "text": "ability to swap out your Spells at any",
+        "start": 1331.88,
+        "duration": 5.48
+    },
+    {
+        "text": "point out of combat so you can um trade",
+        "start": 1334.279,
+        "duration": 4.721
+    },
+    {
+        "text": "out your spell list based on what you",
+        "start": 1337.36,
+        "duration": 3.24
+    },
+    {
+        "text": "think the scenario is going to be when",
+        "start": 1339.0,
+        "duration": 3.919
+    },
+    {
+        "text": "you're going into a fight or a social",
+        "start": 1340.6,
+        "duration": 4.319
+    },
+    {
+        "text": "encounter or whatever if you know",
+        "start": 1342.919,
+        "duration": 3.561
+    },
+    {
+        "text": "there's a skill check you really want to",
+        "start": 1344.919,
+        "duration": 4.0
+    },
+    {
+        "text": "make you can prepare enhance ability if",
+        "start": 1346.48,
+        "duration": 5.36
+    },
+    {
+        "text": "you know that you need to remove a a",
+        "start": 1348.919,
+        "duration": 4.841
+    },
+    {
+        "text": "disease or poison you can prepare lesser",
+        "start": 1351.84,
+        "duration": 3.52
+    },
+    {
+        "text": "restoration you can swap those out",
+        "start": 1353.76,
+        "duration": 3.2
+    },
+    {
+        "text": "during the day and do all kinds of",
+        "start": 1355.36,
+        "duration": 3.28
+    },
+    {
+        "text": "things as a result if you're going up",
+        "start": 1356.96,
+        "duration": 3.12
+    },
+    {
+        "text": "against spellcasters you can bring",
+        "start": 1358.64,
+        "duration": 3.279
+    },
+    {
+        "text": "silence to that encounter I'm just",
+        "start": 1360.08,
+        "duration": 3.8
+    },
+    {
+        "text": "giving you kind of a a solid default",
+        "start": 1361.919,
+        "duration": 4.36
+    },
+    {
+        "text": "spell list but um there's lots of",
+        "start": 1363.88,
+        "duration": 4.039
+    },
+    {
+        "text": "different options and cleric spells are",
+        "start": 1366.279,
+        "duration": 3.161
+    },
+    {
+        "text": "so good that you should definitely",
+        "start": 1367.919,
+        "duration": 4.76
+    },
+    {
+        "text": "experiment with using different",
+        "start": 1369.44,
+        "duration": 3.239
+    },
+    {
+        "text": "ones at cleric level seven we get access",
+        "start": 1373.36,
+        "duration": 5.64
+    },
+    {
+        "text": "to some more incredible spells freedom",
+        "start": 1376.52,
+        "duration": 4.8
+    },
+    {
+        "text": "of movement is great to have just uh",
+        "start": 1379.0,
+        "duration": 3.919
+    },
+    {
+        "text": "always prepared because it's not one",
+        "start": 1381.32,
+        "duration": 3.28
+    },
+    {
+        "text": "that you're going to use all the time",
+        "start": 1382.919,
+        "duration": 3.36
+    },
+    {
+        "text": "but when an ally gets stunned it's a",
+        "start": 1384.6,
+        "duration": 3.48
+    },
+    {
+        "text": "great panic button to have to break them",
+        "start": 1386.279,
+        "duration": 3.961
+    },
+    {
+        "text": "out of it we also get ice storm which",
+        "start": 1388.08,
+        "duration": 3.839
+    },
+    {
+        "text": "does a bunch of damage and creates",
+        "start": 1390.24,
+        "duration": 3.72
+    },
+    {
+        "text": "another ice surface just like with uh",
+        "start": 1391.919,
+        "duration": 4.841
+    },
+    {
+        "text": "sleet storm and that is going to again",
+        "start": 1393.96,
+        "duration": 4.4
+    },
+    {
+        "text": "knock over a bunch of enemies while",
+        "start": 1396.76,
+        "duration": 4.399
+    },
+    {
+        "text": "doing very solid damage to them for our",
+        "start": 1398.36,
+        "duration": 4.679
+    },
+    {
+        "text": "prepared Spells at this level we get to",
+        "start": 1401.159,
+        "duration": 4.041
+    },
+    {
+        "text": "add in a couple more powerful spells and",
+        "start": 1403.039,
+        "duration": 3.201
+    },
+    {
+        "text": "the one that I'm going to recommend",
+        "start": 1405.2,
+        "duration": 3.32
+    },
+    {
+        "text": "bringing is Guardian of Faith because",
+        "start": 1406.24,
+        "duration": 5.0
+    },
+    {
+        "text": "guardian of Faith makes an enormous uh",
+        "start": 1408.52,
+        "duration": 5.24
+    },
+    {
+        "text": "summoned Ally with 60 hit points that",
+        "start": 1411.24,
+        "duration": 4.28
+    },
+    {
+        "text": "does damage every time an enemy enters",
+        "start": 1413.76,
+        "duration": 4.36
+    },
+    {
+        "text": "its area the big thing about this is",
+        "start": 1415.52,
+        "duration": 5.08
+    },
+    {
+        "text": "that it's big and it can really block",
+        "start": 1418.12,
+        "duration": 5.36
+    },
+    {
+        "text": "doorways and prevent enemy movement very",
+        "start": 1420.6,
+        "duration": 5.12
+    },
+    {
+        "text": "effectively as well it's just a great",
+        "start": 1423.48,
+        "duration": 4.6
+    },
+    {
+        "text": "ratio of damage to spell level it's a",
+        "start": 1425.72,
+        "duration": 4.6
+    },
+    {
+        "text": "level four spell and it'll do 60 damage",
+        "start": 1428.08,
+        "duration": 4.0
+    },
+    {
+        "text": "and you can also uh increase its",
+        "start": 1430.32,
+        "duration": 4.359
+    },
+    {
+        "text": "longevity by casting Aid or warding Bond",
+        "start": 1432.08,
+        "duration": 5.12
+    },
+    {
+        "text": "on it uh spells that we get at level two",
+        "start": 1434.679,
+        "duration": 4.521
+    },
+    {
+        "text": "to keep it alive for longer but for the",
+        "start": 1437.2,
+        "duration": 3.68
+    },
+    {
+        "text": "most part it's just going to do amazing",
+        "start": 1439.2,
+        "duration": 4.56
+    },
+    {
+        "text": "damage and block up enemy movement very",
+        "start": 1440.88,
+        "duration": 4.96
+    },
+    {
+        "text": "well it doesn't take your concentration",
+        "start": 1443.76,
+        "duration": 4.519
+    },
+    {
+        "text": "so you can cast it before combat or cast",
+        "start": 1445.84,
+        "duration": 4.319
+    },
+    {
+        "text": "it uh during combat as well as",
+        "start": 1448.279,
+        "duration": 4.041
+    },
+    {
+        "text": "concentrating on something else it also",
+        "start": 1450.159,
+        "duration": 4.441
+    },
+    {
+        "text": "can't uh fall over or anything like that",
+        "start": 1452.32,
+        "duration": 4.239
+    },
+    {
+        "text": "so you can have it in a sleet storm and",
+        "start": 1454.6,
+        "duration": 3.52
+    },
+    {
+        "text": "just be hitting prone enemies with it",
+        "start": 1456.559,
+        "duration": 3.521
+    },
+    {
+        "text": "every turn it's got a lot of very",
+        "start": 1458.12,
+        "duration": 4.439
+    },
+    {
+        "text": "powerful",
+        "start": 1460.08,
+        "duration": 2.479
+    },
+    {
+        "text": "abilities at cleric level eight we get",
+        "start": 1463.24,
+        "duration": 5.36
+    },
+    {
+        "text": "access to another feat as well as divine",
+        "start": 1465.799,
+        "duration": 5.561
+    },
+    {
+        "text": "Thunder um we are not going to be making",
+        "start": 1468.6,
+        "duration": 5.52
+    },
+    {
+        "text": "melee attacks that often cleric's uh",
+        "start": 1471.36,
+        "duration": 4.76
+    },
+    {
+        "text": "this version of a cleric is much more",
+        "start": 1474.12,
+        "duration": 4.88
+    },
+    {
+        "text": "spellcasting oriented so the Divine",
+        "start": 1476.12,
+        "duration": 4.36
+    },
+    {
+        "text": "strike is not going to come up that",
+        "start": 1479.0,
+        "duration": 3.48
+    },
+    {
+        "text": "often uh because you would much rather",
+        "start": 1480.48,
+        "duration": 4.24
+    },
+    {
+        "text": "be using your cantrip spells or your",
+        "start": 1482.48,
+        "duration": 4.96
+    },
+    {
+        "text": "just normal spells in order to do damage",
+        "start": 1484.72,
+        "duration": 4.4
+    },
+    {
+        "text": "uh then make weapon",
+        "start": 1487.44,
+        "duration": 4.92
+    },
+    {
+        "text": "attacks um so I I wouldn't recommend",
+        "start": 1489.12,
+        "duration": 5.439
+    },
+    {
+        "text": "using this too frequently although it is",
+        "start": 1492.36,
+        "duration": 5.08
+    },
+    {
+        "text": "worth noting that clerics do can can use",
+        "start": 1494.559,
+        "duration": 4.641
+    },
+    {
+        "text": "a crossbow in the early game if you have",
+        "start": 1497.44,
+        "duration": 3.32
+    },
+    {
+        "text": "a light crossbow you can use that and",
+        "start": 1499.2,
+        "duration": 3.959
+    },
+    {
+        "text": "you'll have okay dexterity so you'll hit",
+        "start": 1500.76,
+        "duration": 3.76
+    },
+    {
+        "text": "sometimes it'll be better to do that",
+        "start": 1503.159,
+        "duration": 5.041
+    },
+    {
+        "text": "than to use uh your canant trip spell",
+        "start": 1504.52,
+        "duration": 6.0
+    },
+    {
+        "text": "for our feat here I am going to say if",
+        "start": 1508.2,
+        "duration": 3.64
+    },
+    {
+        "text": "you're on honor mode you should",
+        "start": 1510.52,
+        "duration": 3.36
+    },
+    {
+        "text": "definitely get alert it's very it's",
+        "start": 1511.84,
+        "duration": 3.8
+    },
+    {
+        "text": "extremely useful you maybe should have",
+        "start": 1513.88,
+        "duration": 4.159
+    },
+    {
+        "text": "gotten it at level four um but certainly",
+        "start": 1515.64,
+        "duration": 3.96
+    },
+    {
+        "text": "by level eight you should pick up alert",
+        "start": 1518.039,
+        "duration": 3.161
+    },
+    {
+        "text": "because going first is so important on",
+        "start": 1519.6,
+        "duration": 3.84
+    },
+    {
+        "text": "honor mode if you aren't on honor mode",
+        "start": 1521.2,
+        "duration": 3.959
+    },
+    {
+        "text": "I'm going to recommend taking warcaster",
+        "start": 1523.44,
+        "duration": 4.56
+    },
+    {
+        "text": "at this level uh our save DCS should be",
+        "start": 1525.159,
+        "duration": 4.921
+    },
+    {
+        "text": "pretty decent with 18 wisdom and we",
+        "start": 1528.0,
+        "duration": 3.88
+    },
+    {
+        "text": "should have some gear that improves our",
+        "start": 1530.08,
+        "duration": 4.56
+    },
+    {
+        "text": "safet DC at by this point so we don't",
+        "start": 1531.88,
+        "duration": 6.039
+    },
+    {
+        "text": "need the plus two wisdom as much and if",
+        "start": 1534.64,
+        "duration": 4.72
+    },
+    {
+        "text": "you are finding that you're dropping",
+        "start": 1537.919,
+        "duration": 3.64
+    },
+    {
+        "text": "concentration a lot warcaster will solve",
+        "start": 1539.36,
+        "duration": 3.799
+    },
+    {
+        "text": "that problem by giving you advantage on",
+        "start": 1541.559,
+        "duration": 4.441
+    },
+    {
+        "text": "the rooll alongside your 16 con and so",
+        "start": 1543.159,
+        "duration": 5.041
+    },
+    {
+        "text": "for players who are a little newer to",
+        "start": 1546.0,
+        "duration": 4.0
+    },
+    {
+        "text": "the game and and not used to just",
+        "start": 1548.2,
+        "duration": 4.16
+    },
+    {
+        "text": "winning fights before enemies get to act",
+        "start": 1550.0,
+        "duration": 4.52
+    },
+    {
+        "text": "warcaster is incredibly valuable there",
+        "start": 1552.36,
+        "duration": 4.679
+    },
+    {
+        "text": "as well so it's between those two Feats",
+        "start": 1554.52,
+        "duration": 4.92
+    },
+    {
+        "text": "depending on sort of whether you find",
+        "start": 1557.039,
+        "duration": 4.041
+    },
+    {
+        "text": "you're dropping concentration a lot or",
+        "start": 1559.44,
+        "duration": 3.359
+    },
+    {
+        "text": "not um but by default we're going to",
+        "start": 1561.08,
+        "duration": 5.76
+    },
+    {
+        "text": "take warcaster here uh not tough",
+        "start": 1562.799,
+        "duration": 4.041
+    },
+    {
+        "text": "warcaster at cleric level 9 we get two",
+        "start": 1571.6,
+        "duration": 4.88
+    },
+    {
+        "text": "more amazing SP or one more amazing",
+        "start": 1574.44,
+        "duration": 4.0
+    },
+    {
+        "text": "spell from Tempest cleric and this one",
+        "start": 1576.48,
+        "duration": 4.04
+    },
+    {
+        "text": "is only available to Tempest or light",
+        "start": 1578.44,
+        "duration": 4.0
+    },
+    {
+        "text": "clerics which is one of the reasons that",
+        "start": 1580.52,
+        "duration": 4.08
+    },
+    {
+        "text": "those are are uh some of the most",
+        "start": 1582.44,
+        "duration": 4.8
+    },
+    {
+        "text": "powerful domains destructive wave is a",
+        "start": 1584.6,
+        "duration": 4.72
+    },
+    {
+        "text": "great spell because it does great damage",
+        "start": 1587.24,
+        "duration": 5.319
+    },
+    {
+        "text": "just 5d6 Thunder plus 5d6 radiant in an",
+        "start": 1589.32,
+        "duration": 5.56
+    },
+    {
+        "text": "AOE and it doesn't hurt your allies you",
+        "start": 1592.559,
+        "duration": 5.281
+    },
+    {
+        "text": "can cast it in the middle of a melee and",
+        "start": 1594.88,
+        "duration": 5.2
+    },
+    {
+        "text": "it won't hit your allies just enemies",
+        "start": 1597.84,
+        "duration": 4.4
+    },
+    {
+        "text": "and it knocks enemies prone while doing",
+        "start": 1600.08,
+        "duration": 4.28
+    },
+    {
+        "text": "Thunder and radiant damage those are",
+        "start": 1602.24,
+        "duration": 3.76
+    },
+    {
+        "text": "very relevant damage types because you",
+        "start": 1604.36,
+        "duration": 3.64
+    },
+    {
+        "text": "can maximize the Thunder damage and",
+        "start": 1606.0,
+        "duration": 4.44
+    },
+    {
+        "text": "radiant damage will apply radiating orbs",
+        "start": 1608.0,
+        "duration": 4.44
+    },
+    {
+        "text": "which is a super powerful item effect",
+        "start": 1610.44,
+        "duration": 4.08
+    },
+    {
+        "text": "that you can get on a cleric as well as",
+        "start": 1612.44,
+        "duration": 4.239
+    },
+    {
+        "text": "Thunder applying reverberation um",
+        "start": 1614.52,
+        "duration": 4.039
+    },
+    {
+        "text": "something else that you can use so these",
+        "start": 1616.679,
+        "duration": 4.761
+    },
+    {
+        "text": "are incredibly relevant damage types as",
+        "start": 1618.559,
+        "duration": 4.921
+    },
+    {
+        "text": "well almost nothing resists Thunder",
+        "start": 1621.44,
+        "duration": 3.88
+    },
+    {
+        "text": "damage so it's just very useful to have",
+        "start": 1623.48,
+        "duration": 4.36
+    },
+    {
+        "text": "access to that as well um and it's just",
+        "start": 1625.32,
+        "duration": 4.16
+    },
+    {
+        "text": "good damage knocks enemies prone which",
+        "start": 1627.84,
+        "duration": 3.719
+    },
+    {
+        "text": "is an extremely powerful effect doesn't",
+        "start": 1629.48,
+        "duration": 3.76
+    },
+    {
+        "text": "hurt your allies just a great spell",
+        "start": 1631.559,
+        "duration": 4.401
+    },
+    {
+        "text": "overall uh an excellent action if you",
+        "start": 1633.24,
+        "duration": 4.84
+    },
+    {
+        "text": "have a fifth level spell prepared a",
+        "start": 1635.96,
+        "duration": 4.439
+    },
+    {
+        "text": "fifth level spell available for your",
+        "start": 1638.08,
+        "duration": 4.12
+    },
+    {
+        "text": "other fifth level spells you're mostly",
+        "start": 1640.399,
+        "duration": 3.601
+    },
+    {
+        "text": "going to be using those to cast higher",
+        "start": 1642.2,
+        "duration": 5.04
+    },
+    {
+        "text": "level versions of lower level spells so",
+        "start": 1644.0,
+        "duration": 4.96
+    },
+    {
+        "text": "your other fifth level spell slots other",
+        "start": 1647.24,
+        "duration": 3.48
+    },
+    {
+        "text": "than destructive wave are mostly going",
+        "start": 1648.96,
+        "duration": 4.16
+    },
+    {
+        "text": "to go into casting Spirit Guardians at",
+        "start": 1650.72,
+        "duration": 4.439
+    },
+    {
+        "text": "this point because a fifth level Spirit",
+        "start": 1653.12,
+        "duration": 4.32
+    },
+    {
+        "text": "Guardians is tons of damage and it is",
+        "start": 1655.159,
+        "duration": 4.321
+    },
+    {
+        "text": "going to really improve the damage",
+        "start": 1657.44,
+        "duration": 3.599
+    },
+    {
+        "text": "similarly you can do the same with call",
+        "start": 1659.48,
+        "duration": 3.72
+    },
+    {
+        "text": "lightning to improve the damage of that",
+        "start": 1661.039,
+        "duration": 4.201
+    },
+    {
+        "text": "effect as well you're also likely going",
+        "start": 1663.2,
+        "duration": 4.56
+    },
+    {
+        "text": "to want Aid on this character you can",
+        "start": 1665.24,
+        "duration": 4.76
+    },
+    {
+        "text": "use a character that stays in Camp to",
+        "start": 1667.76,
+        "duration": 4.48
+    },
+    {
+        "text": "cast aid but Aid is just a nice boost to",
+        "start": 1670.0,
+        "duration": 4.279
+    },
+    {
+        "text": "your whole party and if cast with a",
+        "start": 1672.24,
+        "duration": 3.76
+    },
+    {
+        "text": "fourth level spell slot gives you plus",
+        "start": 1674.279,
+        "duration": 3.52
+    },
+    {
+        "text": "20 hit points on everyone which is just",
+        "start": 1676.0,
+        "duration": 4.799
+    },
+    {
+        "text": "a great boost to your survivability also",
+        "start": 1677.799,
+        "duration": 5.12
+    },
+    {
+        "text": "if you found good safety C gear you can",
+        "start": 1680.799,
+        "duration": 3.681
+    },
+    {
+        "text": "use hold person there's a lot of",
+        "start": 1682.919,
+        "duration": 3.88
+    },
+    {
+        "text": "encounters where if you can land this it",
+        "start": 1684.48,
+        "duration": 4.16
+    },
+    {
+        "text": "just instantly wins because of the",
+        "start": 1686.799,
+        "duration": 3.48
+    },
+    {
+        "text": "automatic critical hits that it grants",
+        "start": 1688.64,
+        "duration": 4.399
+    },
+    {
+        "text": "to your allies another option here is",
+        "start": 1690.279,
+        "duration": 6.4
+    },
+    {
+        "text": "banishment because banishment is a spell",
+        "start": 1693.039,
+        "duration": 6.041
+    },
+    {
+        "text": "that targets an enemy's Charisma saving",
+        "start": 1696.679,
+        "duration": 5.521
+    },
+    {
+        "text": "throw a lot of bosses have very low",
+        "start": 1699.08,
+        "duration": 4.839
+    },
+    {
+        "text": "Charisma saves and so targeting them",
+        "start": 1702.2,
+        "duration": 2.959
+    },
+    {
+        "text": "with banishment means that you're",
+        "start": 1703.919,
+        "duration": 2.841
+    },
+    {
+        "text": "basically guaranteed to hit them and",
+        "start": 1705.159,
+        "duration": 3.281
+    },
+    {
+        "text": "some bosses if you can remove them for",
+        "start": 1706.76,
+        "duration": 3.639
+    },
+    {
+        "text": "two turns and kill their allies you win",
+        "start": 1708.44,
+        "duration": 3.68
+    },
+    {
+        "text": "the encounter outright uh with",
+        "start": 1710.399,
+        "duration": 3.961
+    },
+    {
+        "text": "banishment there so those are a couple",
+        "start": 1712.12,
+        "duration": 4.0
+    },
+    {
+        "text": "spells that are worth keeping in mind at",
+        "start": 1714.36,
+        "duration": 4.4
+    },
+    {
+        "text": "this point in the",
+        "start": 1716.12,
+        "duration": 2.64
+    },
+    {
+        "text": "game at cleric level 10 we get access to",
+        "start": 1719.48,
+        "duration": 5.6
+    },
+    {
+        "text": "divine intervention once per game your",
+        "start": 1722.559,
+        "duration": 4.321
+    },
+    {
+        "text": "cleric can use this to gain a super",
+        "start": 1725.08,
+        "duration": 4.16
+    },
+    {
+        "text": "powerful effect you can cheese this by",
+        "start": 1726.88,
+        "duration": 5.24
+    },
+    {
+        "text": "respecing and stuff but um it at least",
+        "start": 1729.24,
+        "duration": 5.279
+    },
+    {
+        "text": "in theory it's once per game the mace",
+        "start": 1732.12,
+        "duration": 4.039
+    },
+    {
+        "text": "that this gives you is very useful for",
+        "start": 1734.519,
+        "duration": 3.241
+    },
+    {
+        "text": "your cleric because the healing aura",
+        "start": 1736.159,
+        "duration": 3.321
+    },
+    {
+        "text": "that that mace grants you is actually",
+        "start": 1737.76,
+        "duration": 3.72
+    },
+    {
+        "text": "pretty nice and will probably be your",
+        "start": 1739.48,
+        "duration": 4.76
+    },
+    {
+        "text": "best in slot weapon to have um",
+        "start": 1741.48,
+        "duration": 5.28
+    },
+    {
+        "text": "throughout the the game at this point",
+        "start": 1744.24,
+        "duration": 4.679
+    },
+    {
+        "text": "just because it heals you constantly it",
+        "start": 1746.76,
+        "duration": 4.6
+    },
+    {
+        "text": "it can allow you to apply the uh buff on",
+        "start": 1748.919,
+        "duration": 4.321
+    },
+    {
+        "text": "heal items to your whole party without",
+        "start": 1751.36,
+        "duration": 3.439
+    },
+    {
+        "text": "spending a spell on it so it's very",
+        "start": 1753.24,
+        "duration": 3.48
+    },
+    {
+        "text": "useful to do that as well there's a",
+        "start": 1754.799,
+        "duration": 3.641
+    },
+    {
+        "text": "bunch of other weapons that are good but",
+        "start": 1756.72,
+        "duration": 4.04
+    },
+    {
+        "text": "honestly cleric weapons are not the most",
+        "start": 1758.44,
+        "duration": 5.04
+    },
+    {
+        "text": "important things uh in general what",
+        "start": 1760.76,
+        "duration": 5.12
+    },
+    {
+        "text": "weapon you use is going to impact you",
+        "start": 1763.48,
+        "duration": 3.88
+    },
+    {
+        "text": "significantly less than your other",
+        "start": 1765.88,
+        "duration": 3.639
+    },
+    {
+        "text": "itemization and also cleric is just such",
+        "start": 1767.36,
+        "duration": 5.08
+    },
+    {
+        "text": "a powerful character in it just the base",
+        "start": 1769.519,
+        "duration": 5.76
+    },
+    {
+        "text": "class is so powerful that items are not",
+        "start": 1772.44,
+        "duration": 5.92
+    },
+    {
+        "text": "critical to cleric success anyways um",
+        "start": 1775.279,
+        "duration": 4.64
+    },
+    {
+        "text": "but I think that the divine intervention",
+        "start": 1778.36,
+        "duration": 3.199
+    },
+    {
+        "text": "for the weapon is still going to improve",
+        "start": 1779.919,
+        "duration": 3.561
+    },
+    {
+        "text": "your party overall uh pretty",
+        "start": 1781.559,
+        "duration": 4.161
+    },
+    {
+        "text": "significantly for a cantrip selection by",
+        "start": 1783.48,
+        "duration": 3.96
+    },
+    {
+        "text": "this point you should definitely have",
+        "start": 1785.72,
+        "duration": 3.76
+    },
+    {
+        "text": "sorted out like your light sources and",
+        "start": 1787.44,
+        "duration": 3.4
+    },
+    {
+        "text": "everything so it doesn't really matter",
+        "start": 1789.48,
+        "duration": 2.799
+    },
+    {
+        "text": "what we take here just take whatever you",
+        "start": 1790.84,
+        "duration": 3.76
+    },
+    {
+        "text": "want for",
+        "start": 1792.279,
+        "duration": 2.321
+    },
+    {
+        "text": "flavor and then at level 11 we we get",
+        "start": 1795.44,
+        "duration": 5.04
+    },
+    {
+        "text": "access to six level spells uh which are",
+        "start": 1798.36,
+        "duration": 3.919
+    },
+    {
+        "text": "some of the obviously most powerful",
+        "start": 1800.48,
+        "duration": 4.679
+    },
+    {
+        "text": "spells in the entire game and clerics",
+        "start": 1802.279,
+        "duration": 5.361
+    },
+    {
+        "text": "have three I think two that are really",
+        "start": 1805.159,
+        "duration": 4.88
+    },
+    {
+        "text": "good and three that are worth mentioning",
+        "start": 1807.64,
+        "duration": 5.08
+    },
+    {
+        "text": "uh in terms of six level spells the best",
+        "start": 1810.039,
+        "duration": 4.801
+    },
+    {
+        "text": "of the six level spells for clerics is",
+        "start": 1812.72,
+        "duration": 4.16
+    },
+    {
+        "text": "Heroes Feast when cast on your whole",
+        "start": 1814.84,
+        "duration": 3.36
+    },
+    {
+        "text": "party it makes them all immune to",
+        "start": 1816.88,
+        "duration": 2.76
+    },
+    {
+        "text": "frightened gives them additional hit",
+        "start": 1818.2,
+        "duration": 3.319
+    },
+    {
+        "text": "points and these hit points stack with",
+        "start": 1819.64,
+        "duration": 4.759
+    },
+    {
+        "text": "the hit points that you get from Aid and",
+        "start": 1821.519,
+        "duration": 5.121
+    },
+    {
+        "text": "uh and gives you advantage on wisdom",
+        "start": 1824.399,
+        "duration": 4.041
+    },
+    {
+        "text": "saves this protects your part from some",
+        "start": 1826.64,
+        "duration": 3.48
+    },
+    {
+        "text": "of the most dangerous Encounters in the",
+        "start": 1828.44,
+        "duration": 3.76
+    },
+    {
+        "text": "late game uh there are encounters that",
+        "start": 1830.12,
+        "duration": 4.32
+    },
+    {
+        "text": "you just will instantly lose if you",
+        "start": 1832.2,
+        "duration": 4.199
+    },
+    {
+        "text": "don't have immunity to fear and failure",
+        "start": 1834.44,
+        "duration": 3.68
+    },
+    {
+        "text": "wisdom saves and heroes Feast totally",
+        "start": 1836.399,
+        "duration": 3.76
+    },
+    {
+        "text": "solves that problem all by itself it",
+        "start": 1838.12,
+        "duration": 4.279
+    },
+    {
+        "text": "lasts all day absolutely a great use of",
+        "start": 1840.159,
+        "duration": 4.601
+    },
+    {
+        "text": "a six level spell slot however you can",
+        "start": 1842.399,
+        "duration": 4.801
+    },
+    {
+        "text": "have a camp follower cast Heroes Feast",
+        "start": 1844.76,
+        "duration": 4.6
+    },
+    {
+        "text": "um and so another option is to use",
+        "start": 1847.2,
+        "duration": 4.92
+    },
+    {
+        "text": "planer Ally the Thea that you get from",
+        "start": 1849.36,
+        "duration": 5.319
+    },
+    {
+        "text": "planer Ally is one of the best effects",
+        "start": 1852.12,
+        "duration": 4.559
+    },
+    {
+        "text": "in the game uh as well one of the best",
+        "start": 1854.679,
+        "duration": 4.12
+    },
+    {
+        "text": "summons in the game it's not as powerful",
+        "start": 1856.679,
+        "duration": 4.041
+    },
+    {
+        "text": "as the elemental meridon that Wizards",
+        "start": 1858.799,
+        "duration": 4.48
+    },
+    {
+        "text": "and Druids get but still the second most",
+        "start": 1860.72,
+        "duration": 5.439
+    },
+    {
+        "text": "powerful summon in the game uh is the",
+        "start": 1863.279,
+        "duration": 5.52
+    },
+    {
+        "text": "daa and it is going to give you a ton of",
+        "start": 1866.159,
+        "duration": 5.561
+    },
+    {
+        "text": "extra damage and tanking for your party",
+        "start": 1868.799,
+        "duration": 4.681
+    },
+    {
+        "text": "the Genny that you can get as well is",
+        "start": 1871.72,
+        "duration": 3.64
+    },
+    {
+        "text": "also very good just cuz it has a massive",
+        "start": 1873.48,
+        "duration": 3.559
+    },
+    {
+        "text": "amount of hit points so it will survive",
+        "start": 1875.36,
+        "duration": 3.88
+    },
+    {
+        "text": "pretty easily as well finally if you",
+        "start": 1877.039,
+        "duration": 5.0
+    },
+    {
+        "text": "want a damage option blade barrier okay",
+        "start": 1879.24,
+        "duration": 4.399
+    },
+    {
+        "text": "I think in general you're better off",
+        "start": 1882.039,
+        "duration": 3.64
+    },
+    {
+        "text": "with one of these other two planer Ally",
+        "start": 1883.639,
+        "duration": 3.64
+    },
+    {
+        "text": "will typically do more damage but if you",
+        "start": 1885.679,
+        "duration": 3.561
+    },
+    {
+        "text": "know there's an AOE fight that you have",
+        "start": 1887.279,
+        "duration": 3.561
+    },
+    {
+        "text": "that's coming up you can use blade",
+        "start": 1889.24,
+        "duration": 3.6
+    },
+    {
+        "text": "barrier by default the best option is",
+        "start": 1890.84,
+        "duration": 3.36
+    },
+    {
+        "text": "going to be heroes Feast but if you're",
+        "start": 1892.84,
+        "duration": 3.04
+    },
+    {
+        "text": "getting that elsewhere or refreshing",
+        "start": 1894.2,
+        "duration": 3.24
+    },
+    {
+        "text": "your spell slot with an item that lets",
+        "start": 1895.88,
+        "duration": 4.0
+    },
+    {
+        "text": "you cast two six level spells in a day",
+        "start": 1897.44,
+        "duration": 4.479
+    },
+    {
+        "text": "then the daa is going to be really good",
+        "start": 1899.88,
+        "duration": 4.2
+    },
+    {
+        "text": "as",
+        "start": 1901.919,
+        "duration": 2.161
+    },
+    {
+        "text": "well and finally at cleric level 12 if",
+        "start": 1904.12,
+        "duration": 4.96
+    },
+    {
+        "text": "you're staying monoc class um we are",
+        "start": 1906.919,
+        "duration": 5.72
+    },
+    {
+        "text": "going to pick up our last two points of",
+        "start": 1909.08,
+        "duration": 5.92
+    },
+    {
+        "text": "wisdom maximizing our wisdom and making",
+        "start": 1912.639,
+        "duration": 4.241
+    },
+    {
+        "text": "sure that our safety C's are as high as",
+        "start": 1915.0,
+        "duration": 3.639
+    },
+    {
+        "text": "possible for our final prepared spell",
+        "start": 1916.88,
+        "duration": 3.2
+    },
+    {
+        "text": "list we're going to again drop cure",
+        "start": 1918.639,
+        "duration": 3.0
+    },
+    {
+        "text": "wounds and death ward those spells are",
+        "start": 1920.08,
+        "duration": 3.839
+    },
+    {
+        "text": "pretty bad and bring back in some more",
+        "start": 1921.639,
+        "duration": 3.961
+    },
+    {
+        "text": "situational spells that we might need",
+        "start": 1923.919,
+        "duration": 4.041
+    },
+    {
+        "text": "for various situations uh lesser",
+        "start": 1925.6,
+        "duration": 5.199
+    },
+    {
+        "text": "restoration is often good to have around",
+        "start": 1927.96,
+        "duration": 5.439
+    },
+    {
+        "text": "and maybe we want to go all the way back",
+        "start": 1930.799,
+        "duration": 4.921
+    },
+    {
+        "text": "and pick up something like",
+        "start": 1933.399,
+        "duration": 5.201
+    },
+    {
+        "text": "um uh or we don't currently have hold",
+        "start": 1935.72,
+        "duration": 5.48
+    },
+    {
+        "text": "person prepared it's also useful to have",
+        "start": 1938.6,
+        "duration": 4.48
+    },
+    {
+        "text": "enhanced ability prepared at this point",
+        "start": 1941.2,
+        "duration": 3.24
+    },
+    {
+        "text": "because at level 12 there's a couple",
+        "start": 1943.08,
+        "duration": 2.959
+    },
+    {
+        "text": "story events that you're really going to",
+        "start": 1944.44,
+        "duration": 4.04
+    },
+    {
+        "text": "want to pass skill checks for so having",
+        "start": 1946.039,
+        "duration": 4.24
+    },
+    {
+        "text": "enhanced ability prepared can let you",
+        "start": 1948.48,
+        "duration": 5.0
+    },
+    {
+        "text": "use that if if it comes up I think that",
+        "start": 1950.279,
+        "duration": 5.601
+    },
+    {
+        "text": "people tend to cast this spell a little",
+        "start": 1953.48,
+        "duration": 3.919
+    },
+    {
+        "text": "too often because there's not a lot of",
+        "start": 1955.88,
+        "duration": 3.519
+    },
+    {
+        "text": "skill checks in the game that are worth",
+        "start": 1957.399,
+        "duration": 3.801
+    },
+    {
+        "text": "spending a level two spell slot to",
+        "start": 1959.399,
+        "duration": 3.28
+    },
+    {
+        "text": "slightly improve your chance at",
+        "start": 1961.2,
+        "duration": 3.199
+    },
+    {
+        "text": "succeeding on but there are some that",
+        "start": 1962.679,
+        "duration": 3.96
+    },
+    {
+        "text": "are really really worth it so having it",
+        "start": 1964.399,
+        "duration": 6.16
+    },
+    {
+        "text": "available is always uh good this is our",
+        "start": 1966.639,
+        "duration": 6.321
+    },
+    {
+        "text": "cleric build and I will talk about",
+        "start": 1970.559,
+        "duration": 4.881
+    },
+    {
+        "text": "potential multiclassing and items but",
+        "start": 1972.96,
+        "duration": 4.959
+    },
+    {
+        "text": "overall what clerics give you are an",
+        "start": 1975.44,
+        "duration": 5.16
+    },
+    {
+        "text": "enormous amount of control and utility",
+        "start": 1977.919,
+        "duration": 4.6
+    },
+    {
+        "text": "as well as great tanking abilities",
+        "start": 1980.6,
+        "duration": 3.439
+    },
+    {
+        "text": "thanks to their extremely high armor",
+        "start": 1982.519,
+        "duration": 3.88
+    },
+    {
+        "text": "class and distraction distracting",
+        "start": 1984.039,
+        "duration": 4.561
+    },
+    {
+        "text": "enemies using spiritual weapon and",
+        "start": 1986.399,
+        "duration": 5.0
+    },
+    {
+        "text": "guardian of Faith so you can lock down a",
+        "start": 1988.6,
+        "duration": 4.439
+    },
+    {
+        "text": "whole group of enemies with your various",
+        "start": 1991.399,
+        "duration": 4.601
+    },
+    {
+        "text": "spell selection deal incredible damage",
+        "start": 1993.039,
+        "duration": 6.081
+    },
+    {
+        "text": "and also debuff enemies in some of the",
+        "start": 1996.0,
+        "duration": 5.24
+    },
+    {
+        "text": "most powerful ways in the game this",
+        "start": 1999.12,
+        "duration": 3.799
+    },
+    {
+        "text": "spell selection allows you to do that",
+        "start": 2001.24,
+        "duration": 3.159
+    },
+    {
+        "text": "and I think is a great spell list to",
+        "start": 2002.919,
+        "duration": 4.921
+    },
+    {
+        "text": "have by default",
+        "start": 2004.399,
+        "duration": 3.441
+    },
+    {
+        "text": "for items for our cleric there's a lot",
+        "start": 2008.12,
+        "duration": 3.84
+    },
+    {
+        "text": "that you can benefit from and I'm going",
+        "start": 2010.32,
+        "duration": 3.56
+    },
+    {
+        "text": "to give you both some specific items",
+        "start": 2011.96,
+        "duration": 3.24
+    },
+    {
+        "text": "that I think are really powerful on",
+        "start": 2013.88,
+        "duration": 3.56
+    },
+    {
+        "text": "clerics as well well as general rules",
+        "start": 2015.2,
+        "duration": 4.0
+    },
+    {
+        "text": "for when you're picking items obviously",
+        "start": 2017.44,
+        "duration": 4.56
+    },
+    {
+        "text": "the game has thousands of items so your",
+        "start": 2019.2,
+        "duration": 4.24
+    },
+    {
+        "text": "your Loadout is going to change",
+        "start": 2022.0,
+        "duration": 3.08
+    },
+    {
+        "text": "significantly over the course of your",
+        "start": 2023.44,
+        "duration": 3.959
+    },
+    {
+        "text": "playthrough and so it's best that you",
+        "start": 2025.08,
+        "duration": 4.76
+    },
+    {
+        "text": "have the tools to pick good items for",
+        "start": 2027.399,
+        "duration": 5.041
+    },
+    {
+        "text": "yourself first up we're going to talk",
+        "start": 2029.84,
+        "duration": 4.4
+    },
+    {
+        "text": "about one of the best item sets for",
+        "start": 2032.44,
+        "duration": 4.239
+    },
+    {
+        "text": "clerics the buff on heel items this is",
+        "start": 2034.24,
+        "duration": 4.08
+    },
+    {
+        "text": "the Hell Riders Pride the whispering",
+        "start": 2036.679,
+        "duration": 3.401
+    },
+    {
+        "text": "promise and the boots of Aid and comfort",
+        "start": 2038.32,
+        "duration": 4.88
+    },
+    {
+        "text": "all available early in act one and when",
+        "start": 2040.08,
+        "duration": 6.439
+    },
+    {
+        "text": "worn this will allow your party to gain",
+        "start": 2043.2,
+        "duration": 6.52
+    },
+    {
+        "text": "blade Ward bless and uh three temporary",
+        "start": 2046.519,
+        "duration": 5.441
+    },
+    {
+        "text": "hit points every time you cast a healing",
+        "start": 2049.72,
+        "duration": 4.8
+    },
+    {
+        "text": "spell on them with mass healing word",
+        "start": 2051.96,
+        "duration": 4.28
+    },
+    {
+        "text": "this is your entire party and is going",
+        "start": 2054.52,
+        "duration": 4.119
+    },
+    {
+        "text": "to be an enormous amount of buffing for",
+        "start": 2056.24,
+        "duration": 4.96
+    },
+    {
+        "text": "your party members um over the course of",
+        "start": 2058.639,
+        "duration": 4.401
+    },
+    {
+        "text": "the game bless is going to make sure",
+        "start": 2061.2,
+        "duration": 4.159
+    },
+    {
+        "text": "they hit more regularly and blade Ward",
+        "start": 2063.04,
+        "duration": 3.879
+    },
+    {
+        "text": "will make them take half damage from",
+        "start": 2065.359,
+        "duration": 3.24
+    },
+    {
+        "text": "just about everything thing and so that",
+        "start": 2066.919,
+        "duration": 3.72
+    },
+    {
+        "text": "is going to be a significant boost to",
+        "start": 2068.599,
+        "duration": 4.04
+    },
+    {
+        "text": "your party this item set is incredible",
+        "start": 2070.639,
+        "duration": 5.681
+    },
+    {
+        "text": "for cleric secondly another item a type",
+        "start": 2072.639,
+        "duration": 5.52
+    },
+    {
+        "text": "of item that is really good for clerics",
+        "start": 2076.32,
+        "duration": 4.359
+    },
+    {
+        "text": "is going to be anything that does",
+        "start": 2078.159,
+        "duration": 5.161
+    },
+    {
+        "text": "radiating orb you'll be doing a lot of",
+        "start": 2080.679,
+        "duration": 4.16
+    },
+    {
+        "text": "radiant damage because you're going to",
+        "start": 2083.32,
+        "duration": 4.48
+    },
+    {
+        "text": "be casting Spirit uh spirit Guardians on",
+        "start": 2084.839,
+        "duration": 5.08
+    },
+    {
+        "text": "radiant damage and doing radiant damage",
+        "start": 2087.8,
+        "duration": 3.64
+    },
+    {
+        "text": "with it every single",
+        "start": 2089.919,
+        "duration": 4.361
+    },
+    {
+        "text": "turn when you do radiant damage and",
+        "start": 2091.44,
+        "duration": 5.679
+    },
+    {
+        "text": "stack radiant orb on an enemy they take",
+        "start": 2094.28,
+        "duration": 4.88
+    },
+    {
+        "text": "a minus one penalty to attack rolls for",
+        "start": 2097.119,
+        "duration": 4.081
+    },
+    {
+        "text": "each remaining turn so if you have",
+        "start": 2099.16,
+        "duration": 4.0
+    },
+    {
+        "text": "multiple of these items that give",
+        "start": 2101.2,
+        "duration": 4.6
+    },
+    {
+        "text": "radiating orb and can stack it up see",
+        "start": 2103.16,
+        "duration": 4.8
+    },
+    {
+        "text": "pretty quickly enemies will almost",
+        "start": 2105.8,
+        "duration": 4.52
+    },
+    {
+        "text": "instantly lose their ability to do",
+        "start": 2107.96,
+        "duration": 4.76
+    },
+    {
+        "text": "anything because they will have such",
+        "start": 2110.32,
+        "duration": 4.56
+    },
+    {
+        "text": "enormous penalties to their attack roles",
+        "start": 2112.72,
+        "duration": 3.6
+    },
+    {
+        "text": "that they will never be able to land",
+        "start": 2114.88,
+        "duration": 4.28
+    },
+    {
+        "text": "hits in this way you can walk next to",
+        "start": 2116.32,
+        "duration": 4.56
+    },
+    {
+        "text": "enemies with Spirit guardians or use",
+        "start": 2119.16,
+        "duration": 3.32
+    },
+    {
+        "text": "other sources of radiant damage like",
+        "start": 2120.88,
+        "duration": 3.88
+    },
+    {
+        "text": "destructive wrath to do a massive amount",
+        "start": 2122.48,
+        "duration": 4.599
+    },
+    {
+        "text": "of debuffing as well as the great damage",
+        "start": 2124.76,
+        "duration": 4.52
+    },
+    {
+        "text": "that you're doing consistently as well",
+        "start": 2127.079,
+        "duration": 3.801
+    },
+    {
+        "text": "for our Tempest cleric we're also just",
+        "start": 2129.28,
+        "duration": 3.319
+    },
+    {
+        "text": "going to want a great uh just the best",
+        "start": 2130.88,
+        "duration": 4.44
+    },
+    {
+        "text": "suit of heavy armor that we can find um",
+        "start": 2132.599,
+        "duration": 4.121
+    },
+    {
+        "text": "pretty much just whatever has the",
+        "start": 2135.32,
+        "duration": 3.2
+    },
+    {
+        "text": "highest Armor class is going to be good",
+        "start": 2136.72,
+        "duration": 3.48
+    },
+    {
+        "text": "although I'm also quite partial to this",
+        "start": 2138.52,
+        "duration": 3.72
+    },
+    {
+        "text": "Dwarven splint mail I think this is one",
+        "start": 2140.2,
+        "duration": 3.48
+    },
+    {
+        "text": "of the best suits of armor in the game",
+        "start": 2142.24,
+        "duration": 2.76
+    },
+    {
+        "text": "and will last you throughout most of the",
+        "start": 2143.68,
+        "duration": 3.36
+    },
+    {
+        "text": "game because the bonus to Constitution",
+        "start": 2145.0,
+        "duration": 4.44
+    },
+    {
+        "text": "gives you extra hit points as well as",
+        "start": 2147.04,
+        "duration": 5.92
+    },
+    {
+        "text": "keeping your concentration spells uh be",
+        "start": 2149.44,
+        "duration": 6.04
+    },
+    {
+        "text": "more reliable you also want a shield",
+        "start": 2152.96,
+        "duration": 3.76
+    },
+    {
+        "text": "again you're looking for the highest",
+        "start": 2155.48,
+        "duration": 3.08
+    },
+    {
+        "text": "Armor class in the game but you're also",
+        "start": 2156.72,
+        "duration": 4.08
+    },
+    {
+        "text": "looking for Shields with cool special",
+        "start": 2158.56,
+        "duration": 5.64
+    },
+    {
+        "text": "effects like increasing your save DCS uh",
+        "start": 2160.8,
+        "duration": 5.24
+    },
+    {
+        "text": "like this one or increasing your",
+        "start": 2164.2,
+        "duration": 4.48
+    },
+    {
+        "text": "initiative like this one any items that",
+        "start": 2166.04,
+        "duration": 4.84
+    },
+    {
+        "text": "increase your save DCS or your",
+        "start": 2168.68,
+        "duration": 5.24
+    },
+    {
+        "text": "initiative are premium value for clerics",
+        "start": 2170.88,
+        "duration": 4.32
+    },
+    {
+        "text": "because those are some of the most",
+        "start": 2173.92,
+        "duration": 4.48
+    },
+    {
+        "text": "important things that they will have uh",
+        "start": 2175.2,
+        "duration": 4.96
+    },
+    {
+        "text": "the most important stats that they can",
+        "start": 2178.4,
+        "duration": 4.12
+    },
+    {
+        "text": "possibly use and so any items that do",
+        "start": 2180.16,
+        "duration": 4.439
+    },
+    {
+        "text": "that are going to benefit your clerics",
+        "start": 2182.52,
+        "duration": 4.599
+    },
+    {
+        "text": "massively so basically to sum up you're",
+        "start": 2184.599,
+        "duration": 5.081
+    },
+    {
+        "text": "looking four um the buff on heal items",
+        "start": 2187.119,
+        "duration": 4.841
+    },
+    {
+        "text": "are great specific items and then you",
+        "start": 2189.68,
+        "duration": 3.84
+    },
+    {
+        "text": "want the armor with the highest armor",
+        "start": 2191.96,
+        "duration": 3.159
+    },
+    {
+        "text": "class the shield with the highest armor",
+        "start": 2193.52,
+        "duration": 3.44
+    },
+    {
+        "text": "class and any other items that improve",
+        "start": 2195.119,
+        "duration": 3.48
+    },
+    {
+        "text": "your armor class because your cleric",
+        "start": 2196.96,
+        "duration": 4.0
+    },
+    {
+        "text": "will just be able to then just not get",
+        "start": 2198.599,
+        "duration": 5.081
+    },
+    {
+        "text": "hit which is obviously great especially",
+        "start": 2200.96,
+        "duration": 4.2
+    },
+    {
+        "text": "when you're running around in melee a",
+        "start": 2203.68,
+        "duration": 3.919
+    },
+    {
+        "text": "lot of the time you also want items that",
+        "start": 2205.16,
+        "duration": 4.36
+    },
+    {
+        "text": "improve your spell DC so that your",
+        "start": 2207.599,
+        "duration": 3.52
+    },
+    {
+        "text": "spells are more reliable and you want",
+        "start": 2209.52,
+        "duration": 3.079
+    },
+    {
+        "text": "items that improve your initiative so",
+        "start": 2211.119,
+        "duration": 2.801
+    },
+    {
+        "text": "that you can land your spells before",
+        "start": 2212.599,
+        "duration": 3.841
+    },
+    {
+        "text": "enemies go if you use the divine",
+        "start": 2213.92,
+        "duration": 5.439
+    },
+    {
+        "text": "intervention uh to gain a weapon you get",
+        "start": 2216.44,
+        "duration": 4.8
+    },
+    {
+        "text": "the devotees mace which gives you this",
+        "start": 2219.359,
+        "duration": 5.161
+    },
+    {
+        "text": "healing incense Aura this gives you as a",
+        "start": 2221.24,
+        "duration": 5.44
+    },
+    {
+        "text": "bonus action and gives you basically a",
+        "start": 2224.52,
+        "duration": 4.04
+    },
+    {
+        "text": "healing word a mass healing word every",
+        "start": 2226.68,
+        "duration": 4.36
+    },
+    {
+        "text": "turn for 10 turns which works incredibly",
+        "start": 2228.56,
+        "duration": 4.44
+    },
+    {
+        "text": "well with these items to apply all of",
+        "start": 2231.04,
+        "duration": 3.88
+    },
+    {
+        "text": "these effects every turn for 10 turns",
+        "start": 2233.0,
+        "duration": 4.0
+    },
+    {
+        "text": "which is obviously awesome and another",
+        "start": 2234.92,
+        "duration": 3.88
+    },
+    {
+        "text": "specific kind of item that you should be",
+        "start": 2237.0,
+        "duration": 3.359
+    },
+    {
+        "text": "looking for is something that gives you",
+        "start": 2238.8,
+        "duration": 4.279
+    },
+    {
+        "text": "access to Misty step because Misty step",
+        "start": 2240.359,
+        "duration": 5.201
+    },
+    {
+        "text": "is a spell that clerics normally do not",
+        "start": 2243.079,
+        "duration": 5.0
+    },
+    {
+        "text": "get and it's a get out of jail free card",
+        "start": 2245.56,
+        "duration": 4.48
+    },
+    {
+        "text": "if you get into a bad situation or just",
+        "start": 2248.079,
+        "duration": 3.921
+    },
+    {
+        "text": "need to get up onto High Ground I think",
+        "start": 2250.04,
+        "duration": 3.48
+    },
+    {
+        "text": "every character in the game should try",
+        "start": 2252.0,
+        "duration": 3.64
+    },
+    {
+        "text": "to get access to Misty step if it all",
+        "start": 2253.52,
+        "duration": 3.68
+    },
+    {
+        "text": "feasible because it's just such a",
+        "start": 2255.64,
+        "duration": 3.28
+    },
+    {
+        "text": "powerful effect and will make your",
+        "start": 2257.2,
+        "duration": 4.2
+    },
+    {
+        "text": "character much safer so overall Armor",
+        "start": 2258.92,
+        "duration": 4.64
+    },
+    {
+        "text": "class save DC and initiative those are",
+        "start": 2261.4,
+        "duration": 3.36
+    },
+    {
+        "text": "the things that you care about on",
+        "start": 2263.56,
+        "duration": 2.799
+    },
+    {
+        "text": "clerics as well as the very powerful",
+        "start": 2264.76,
+        "duration": 3.96
+    },
+    {
+        "text": "buff on heal items and radiating orb if",
+        "start": 2266.359,
+        "duration": 4.0
+    },
+    {
+        "text": "you want to cheese out bosses by",
+        "start": 2268.72,
+        "duration": 4.8
+    },
+    {
+        "text": "reducing their attack roles to",
+        "start": 2270.359,
+        "duration": 5.561
+    },
+    {
+        "text": "zero finally just a quick word on",
+        "start": 2273.52,
+        "duration": 4.599
+    },
+    {
+        "text": "multiclassing if you want to stay mostly",
+        "start": 2275.92,
+        "duration": 4.72
+    },
+    {
+        "text": "a cleric there is still one one level",
+        "start": 2278.119,
+        "duration": 5.681
+    },
+    {
+        "text": "dip that is extremely worth mentioning",
+        "start": 2280.64,
+        "duration": 5.56
+    },
+    {
+        "text": "um and that is taking your very first",
+        "start": 2283.8,
+        "duration": 5.2
+    },
+    {
+        "text": "level of your character in sorcerer the",
+        "start": 2286.2,
+        "duration": 5.32
+    },
+    {
+        "text": "reason for this is that Sorcerers get",
+        "start": 2289.0,
+        "duration": 4.88
+    },
+    {
+        "text": "Constitution save proficiency which",
+        "start": 2291.52,
+        "duration": 4.76
+    },
+    {
+        "text": "means that you can then skip warcaster",
+        "start": 2293.88,
+        "duration": 4.04
+    },
+    {
+        "text": "on your cleric because you'll have way",
+        "start": 2296.28,
+        "duration": 4.36
+    },
+    {
+        "text": "better concentration saves um and you",
+        "start": 2297.92,
+        "duration": 4.28
+    },
+    {
+        "text": "get access to a bunch of sorcerer",
+        "start": 2300.64,
+        "duration": 3.6
+    },
+    {
+        "text": "utility including the very powerful",
+        "start": 2302.2,
+        "duration": 4.52
+    },
+    {
+        "text": "Shield spell and magic Missile which are",
+        "start": 2304.24,
+        "duration": 4.16
+    },
+    {
+        "text": "both very useful to have on just about",
+        "start": 2306.72,
+        "duration": 3.119
+    },
+    {
+        "text": "every character and some great",
+        "start": 2308.4,
+        "duration": 3.64
+    },
+    {
+        "text": "additional can trips as well uh stuff",
+        "start": 2309.839,
+        "duration": 3.801
+    },
+    {
+        "text": "like minor illusion and Mage hand are",
+        "start": 2312.04,
+        "duration": 3.52
+    },
+    {
+        "text": "very useful as well and you can take",
+        "start": 2313.64,
+        "duration": 3.6
+    },
+    {
+        "text": "true strike to annoy everyone in the",
+        "start": 2315.56,
+        "duration": 3.36
+    },
+    {
+        "text": "YouTube comments which is always",
+        "start": 2317.24,
+        "duration": 3.8
+    },
+    {
+        "text": "extremely valuable plus if you take",
+        "start": 2318.92,
+        "duration": 4.199
+    },
+    {
+        "text": "storm sorcery then whenever you cast a",
+        "start": 2321.04,
+        "duration": 4.279
+    },
+    {
+        "text": "spell you get to fly as a bonus action",
+        "start": 2323.119,
+        "duration": 3.521
+    },
+    {
+        "text": "which gives you an enormous amount of",
+        "start": 2325.319,
+        "duration": 2.961
+    },
+    {
+        "text": "Mobility so if you really want to",
+        "start": 2326.64,
+        "duration": 4.08
+    },
+    {
+        "text": "optimize this build and are looking and",
+        "start": 2328.28,
+        "duration": 5.559
+    },
+    {
+        "text": "would have taken warter of the Feats um",
+        "start": 2330.72,
+        "duration": 5.32
+    },
+    {
+        "text": "that I mentioned then it can almost",
+        "start": 2333.839,
+        "duration": 4.441
+    },
+    {
+        "text": "always be correct to take sorcerer as",
+        "start": 2336.04,
+        "duration": 4.6
+    },
+    {
+        "text": "your first level instead and then build",
+        "start": 2338.28,
+        "duration": 4.24
+    },
+    {
+        "text": "this cleric build with the next 11",
+        "start": 2340.64,
+        "duration": 4.199
+    },
+    {
+        "text": "levels in cleric using exactly the same",
+        "start": 2342.52,
+        "duration": 5.0
+    },
+    {
+        "text": "setup that I mentioned uh as well you'll",
+        "start": 2344.839,
+        "duration": 4.561
+    },
+    {
+        "text": "still hit 20 wisdom you'll still get",
+        "start": 2347.52,
+        "duration": 3.48
+    },
+    {
+        "text": "heavy armor and shield proficiency",
+        "start": 2349.4,
+        "duration": 3.6
+    },
+    {
+        "text": "because those actually come from your",
+        "start": 2351.0,
+        "duration": 4.88
+    },
+    {
+        "text": "cleric subass not your cleric class so",
+        "start": 2353.0,
+        "duration": 4.24
+    },
+    {
+        "text": "as soon as you take Tempest cleric",
+        "start": 2355.88,
+        "duration": 2.719
+    },
+    {
+        "text": "you'll still get the armor and shield",
+        "start": 2357.24,
+        "duration": 3.44
+    },
+    {
+        "text": "proficiencies and so you won't lose",
+        "start": 2358.599,
+        "duration": 3.881
+    },
+    {
+        "text": "anything from taking sorcerer it's a",
+        "start": 2360.68,
+        "duration": 4.24
+    },
+    {
+        "text": "very powerful dip and allows you to fly",
+        "start": 2362.48,
+        "duration": 4.28
+    },
+    {
+        "text": "as well as defend yourself even better",
+        "start": 2364.92,
+        "duration": 3.399
+    },
+    {
+        "text": "because you have the Shield spell and",
+        "start": 2366.76,
+        "duration": 3.88
+    },
+    {
+        "text": "that can increase your already very high",
+        "start": 2368.319,
+        "duration": 4.561
+    },
+    {
+        "text": "AC up into the",
+        "start": 2370.64,
+        "duration": 4.199
+    },
+    {
+        "text": "stratosphere all right my friends I hope",
+        "start": 2372.88,
+        "duration": 3.56
+    },
+    {
+        "text": "that you've enjoyed this look at the",
+        "start": 2374.839,
+        "duration": 3.401
+    },
+    {
+        "text": "Tempest cleric the best cleric in",
+        "start": 2376.44,
+        "duration": 4.639
+    },
+    {
+        "text": "Boulders Gate 3 in my opinion and a",
+        "start": 2378.24,
+        "duration": 5.68
+    },
+    {
+        "text": "Mainstay in many many honor mode parties",
+        "start": 2381.079,
+        "duration": 4.601
+    },
+    {
+        "text": "as well as every other party and if",
+        "start": 2383.92,
+        "duration": 3.96
+    },
+    {
+        "text": "you've been looking to get shadowart to",
+        "start": 2385.68,
+        "duration": 4.8
+    },
+    {
+        "text": "really uh start kicking butt then this",
+        "start": 2387.88,
+        "duration": 3.76
+    },
+    {
+        "text": "is the place to",
+        "start": 2390.48,
+        "duration": 3.28
+    },
+    {
+        "text": "start as always if you've enjoyed the",
+        "start": 2391.64,
+        "duration": 3.76
+    },
+    {
+        "text": "video of course feel free to leave a",
+        "start": 2393.76,
+        "duration": 3.92
+    },
+    {
+        "text": "comment uh and like the video both those",
+        "start": 2395.4,
+        "duration": 3.8
+    },
+    {
+        "text": "things help me out a ton with the",
+        "start": 2397.68,
+        "duration": 3.639
+    },
+    {
+        "text": "algorithm and I do read every comment I",
+        "start": 2399.2,
+        "duration": 3.6
+    },
+    {
+        "text": "get and appreciate people who take the",
+        "start": 2401.319,
+        "duration": 3.641
+    },
+    {
+        "text": "time to do that I wish I could still",
+        "start": 2402.8,
+        "duration": 4.72
+    },
+    {
+        "text": "answer them all but um unfortunately I",
+        "start": 2404.96,
+        "duration": 4.879
+    },
+    {
+        "text": "just or fortunately I now get enough",
+        "start": 2407.52,
+        "duration": 3.92
+    },
+    {
+        "text": "that I can't always answer them all but",
+        "start": 2409.839,
+        "duration": 3.641
+    },
+    {
+        "text": "I do read them all and really appreciate",
+        "start": 2411.44,
+        "duration": 3.6
+    },
+    {
+        "text": "everyone who takes the time and of",
+        "start": 2413.48,
+        "duration": 2.92
+    },
+    {
+        "text": "course you can subscribe to my channel",
+        "start": 2415.04,
+        "duration": 3.44
+    },
+    {
+        "text": "for more build guides and other strategy",
+        "start": 2416.4,
+        "duration": 4.8
+    },
+    {
+        "text": "game content cheers my friends I'll",
+        "start": 2418.48,
+        "duration": 5.96
+    },
+    {
+        "text": "catch you next time",
+        "start": 2421.2,
+        "duration": 3.24
+    }
+]

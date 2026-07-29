@@ -1,0 +1,5922 @@
+[
+    {
+        "text": "All",
+        "start": 0.0,
+        "duration": 2.879
+    },
+    {
+        "text": "right, my friends. Let's burn designated",
+        "start": 0.56,
+        "duration": 4.4
+    },
+    {
+        "text": "punching bag, the oathbreaker knight to",
+        "start": 2.879,
+        "duration": 5.121
+    },
+    {
+        "text": "ashes in a single turn. I've gone ahead",
+        "start": 4.96,
+        "duration": 5.36
+    },
+    {
+        "text": "and pre-cast haste on myself. That's",
+        "start": 8.0,
+        "duration": 3.759
+    },
+    {
+        "text": "available to this character. So, you're",
+        "start": 10.32,
+        "duration": 3.84
+    },
+    {
+        "text": "going to do it before most fights start.",
+        "start": 11.759,
+        "duration": 5.761
+    },
+    {
+        "text": "Um, and to begin the combat, we're going",
+        "start": 14.16,
+        "duration": 6.08
+    },
+    {
+        "text": "to go ahead and use Hexblades Curse on",
+        "start": 17.52,
+        "duration": 5.28
+    },
+    {
+        "text": "the Oathbreaker Knight. This will",
+        "start": 20.24,
+        "duration": 3.84
+    },
+    {
+        "text": "increase our chance to critically hit",
+        "start": 22.8,
+        "duration": 3.44
+    },
+    {
+        "text": "and add extra damage to every one of our",
+        "start": 24.08,
+        "duration": 3.6
+    },
+    {
+        "text": "scorching rays. We're then going to use",
+        "start": 26.24,
+        "duration": 3.279
+    },
+    {
+        "text": "a fifth level scorching ray. We could",
+        "start": 27.68,
+        "duration": 3.919
+    },
+    {
+        "text": "also use a sixth level if we wanted to",
+        "start": 29.519,
+        "duration": 4.56
+    },
+    {
+        "text": "refresh our spell slot afterwards using",
+        "start": 31.599,
+        "duration": 4.64
+    },
+    {
+        "text": "Marahesh gear or something, but uh no",
+        "start": 34.079,
+        "duration": 4.16
+    },
+    {
+        "text": "need to burn that many resources on this",
+        "start": 36.239,
+        "duration": 4.0
+    },
+    {
+        "text": "chump. Uh the hit chance here is a",
+        "start": 38.239,
+        "duration": 4.081
+    },
+    {
+        "text": "little bit low, but it'll get better as",
+        "start": 40.239,
+        "duration": 4.48
+    },
+    {
+        "text": "our attacks land because of Arcane",
+        "start": 42.32,
+        "duration": 4.48
+    },
+    {
+        "text": "Incuity. So you can see here we've",
+        "start": 44.719,
+        "duration": 4.32
+    },
+    {
+        "text": "almost one-shot him. Um but we can just",
+        "start": 46.8,
+        "duration": 3.84
+    },
+    {
+        "text": "do the same thing again with a hasted",
+        "start": 49.039,
+        "duration": 3.761
+    },
+    {
+        "text": "action. We could also quicken our spells",
+        "start": 50.64,
+        "duration": 3.919
+    },
+    {
+        "text": "here. And you'll notice that with this",
+        "start": 52.8,
+        "duration": 3.36
+    },
+    {
+        "text": "second one, with the sixth level spell",
+        "start": 54.559,
+        "duration": 4.081
+    },
+    {
+        "text": "slot, it's a 99% chance to hit all of",
+        "start": 56.16,
+        "duration": 4.559
+    },
+    {
+        "text": "our attacks. We also have infinitely",
+        "start": 58.64,
+        "duration": 4.719
+    },
+    {
+        "text": "high save DCs effectively for things",
+        "start": 60.719,
+        "duration": 4.48
+    },
+    {
+        "text": "like hold person, so we can lock down",
+        "start": 63.359,
+        "duration": 3.841
+    },
+    {
+        "text": "enemies completely. Obviously, don't do",
+        "start": 65.199,
+        "duration": 4.401
+    },
+    {
+        "text": "this while concentrating on haste, but",
+        "start": 67.2,
+        "duration": 5.279
+    },
+    {
+        "text": "um as you can see, in only one round of",
+        "start": 69.6,
+        "duration": 4.879
+    },
+    {
+        "text": "combat, we've burned him to death with",
+        "start": 72.479,
+        "duration": 4.32
+    },
+    {
+        "text": "plenty of damage to spare. All right,",
+        "start": 74.479,
+        "duration": 4.481
+    },
+    {
+        "text": "let's get to the build. Hello, my",
+        "start": 76.799,
+        "duration": 3.601
+    },
+    {
+        "text": "friends, and welcome back to another",
+        "start": 78.96,
+        "duration": 3.04
+    },
+    {
+        "text": "Balders's Gate 3 character building",
+        "start": 80.4,
+        "duration": 3.44
+    },
+    {
+        "text": "guide. Hope you're all doing well. Today",
+        "start": 82.0,
+        "duration": 3.68
+    },
+    {
+        "text": "I'm covering one of the most powerful",
+        "start": 83.84,
+        "duration": 4.24
+    },
+    {
+        "text": "builds in all of Balders's Gate 3, the",
+        "start": 85.68,
+        "duration": 4.56
+    },
+    {
+        "text": "Fire Sorcerer. This is of course an",
+        "start": 88.08,
+        "duration": 4.399
+    },
+    {
+        "text": "update video to my previous video of the",
+        "start": 90.24,
+        "duration": 4.64
+    },
+    {
+        "text": "same name because this already powerful",
+        "start": 92.479,
+        "duration": 5.041
+    },
+    {
+        "text": "build received significant buffs in",
+        "start": 94.88,
+        "duration": 4.72
+    },
+    {
+        "text": "patch 8, so I wanted to update it to the",
+        "start": 97.52,
+        "duration": 4.4
+    },
+    {
+        "text": "most powerful modern version. This",
+        "start": 99.6,
+        "duration": 3.92
+    },
+    {
+        "text": "character has some of the absolute",
+        "start": 101.92,
+        "duration": 4.0
+    },
+    {
+        "text": "highest single turn damage in the game",
+        "start": 103.52,
+        "duration": 4.639
+    },
+    {
+        "text": "with burst damage capable of ending",
+        "start": 105.92,
+        "duration": 4.479
+    },
+    {
+        "text": "almost any fight before enemies ever get",
+        "start": 108.159,
+        "duration": 4.481
+    },
+    {
+        "text": "a chance to act. It also comes with",
+        "start": 110.399,
+        "duration": 4.161
+    },
+    {
+        "text": "extremely powerful and with the right",
+        "start": 112.64,
+        "duration": 5.36
+    },
+    {
+        "text": "items n irresistible crowd control and",
+        "start": 114.56,
+        "duration": 5.519
+    },
+    {
+        "text": "completely breaks the action economy",
+        "start": 118.0,
+        "duration": 4.24
+    },
+    {
+        "text": "capable of taking three turns for every",
+        "start": 120.079,
+        "duration": 5.04
+    },
+    {
+        "text": "other character's one. Before patch 8,",
+        "start": 122.24,
+        "duration": 4.879
+    },
+    {
+        "text": "the main downsides to this build were",
+        "start": 125.119,
+        "duration": 3.92
+    },
+    {
+        "text": "that it was relatively squishy as a",
+        "start": 127.119,
+        "duration": 4.721
+    },
+    {
+        "text": "sorcerer and extremely restd dependent,",
+        "start": 129.039,
+        "duration": 4.801
+    },
+    {
+        "text": "burning a lot of resources in more",
+        "start": 131.84,
+        "duration": 4.08
+    },
+    {
+        "text": "difficult encounters. But those issues",
+        "start": 133.84,
+        "duration": 4.64
+    },
+    {
+        "text": "have been significantly mitigated by the",
+        "start": 135.92,
+        "duration": 4.72
+    },
+    {
+        "text": "addition of patch 8, which makes this",
+        "start": 138.48,
+        "duration": 5.119
+    },
+    {
+        "text": "already powerful build smoother, more",
+        "start": 140.64,
+        "duration": 6.0
+    },
+    {
+        "text": "fun, and even more consistent to play.",
+        "start": 143.599,
+        "duration": 4.481
+    },
+    {
+        "text": "Before I begin, I do want to take a",
+        "start": 146.64,
+        "duration": 3.2
+    },
+    {
+        "text": "quick moment to say thank you so much to",
+        "start": 148.08,
+        "duration": 4.879
+    },
+    {
+        "text": "Impulsive Tink for the $5 donation,",
+        "start": 149.84,
+        "duration": 6.88
+    },
+    {
+        "text": "Orion Estarte for the $25, JD Long Drive",
+        "start": 152.959,
+        "duration": 6.64
+    },
+    {
+        "text": "for the $15, and Shaun O'Neal generic",
+        "start": 156.72,
+        "duration": 5.04
+    },
+    {
+        "text": "username and Shrill for becoming channel",
+        "start": 159.599,
+        "duration": 3.681
+    },
+    {
+        "text": "members. Thank you so much, my friends.",
+        "start": 161.76,
+        "duration": 3.52
+    },
+    {
+        "text": "I really appreciate the support. It",
+        "start": 163.28,
+        "duration": 4.239
+    },
+    {
+        "text": "really means so much to me. All right,",
+        "start": 165.28,
+        "duration": 4.959
+    },
+    {
+        "text": "let's start some fires. I'm using the",
+        "start": 167.519,
+        "duration": 4.481
+    },
+    {
+        "text": "halfling hierling as the example",
+        "start": 170.239,
+        "duration": 3.441
+    },
+    {
+        "text": "character here because of course there's",
+        "start": 172.0,
+        "duration": 3.36
+    },
+    {
+        "text": "no companion that's by default a",
+        "start": 173.68,
+        "duration": 3.68
+    },
+    {
+        "text": "sorcerer and sorcerers benefit",
+        "start": 175.36,
+        "duration": 4.4
+    },
+    {
+        "text": "tremendously from being halflings.",
+        "start": 177.36,
+        "duration": 3.68
+    },
+    {
+        "text": "Although you can play this build with",
+        "start": 179.76,
+        "duration": 3.839
+    },
+    {
+        "text": "any race. Um, and it's going to be",
+        "start": 181.04,
+        "duration": 4.8
+    },
+    {
+        "text": "extremely powerful. There's some unique",
+        "start": 183.599,
+        "duration": 4.161
+    },
+    {
+        "text": "synergy for halflings and the fire",
+        "start": 185.84,
+        "duration": 3.92
+    },
+    {
+        "text": "sorcerer in particular. We're going to",
+        "start": 187.76,
+        "duration": 5.52
+    },
+    {
+        "text": "be rolling tons and tons of dice, and so",
+        "start": 189.76,
+        "duration": 5.52
+    },
+    {
+        "text": "Halfling's ability to reroll natural",
+        "start": 193.28,
+        "duration": 4.4
+    },
+    {
+        "text": "ones will come up very frequently for",
+        "start": 195.28,
+        "duration": 4.72
+    },
+    {
+        "text": "this character and turn lots of misses",
+        "start": 197.68,
+        "duration": 3.839
+    },
+    {
+        "text": "into hits over the course of the",
+        "start": 200.0,
+        "duration": 3.36
+    },
+    {
+        "text": "playthrough. We're also going to be",
+        "start": 201.519,
+        "duration": 3.521
+    },
+    {
+        "text": "making a lot of out of combat skill",
+        "start": 203.36,
+        "duration": 3.36
+    },
+    {
+        "text": "checks since this is most likely to be",
+        "start": 205.04,
+        "duration": 3.44
+    },
+    {
+        "text": "your party face. And again, r-rolling",
+        "start": 206.72,
+        "duration": 3.84
+    },
+    {
+        "text": "natural ones is great there. Finally,",
+        "start": 208.48,
+        "duration": 3.52
+    },
+    {
+        "text": "we're almost always going to be",
+        "start": 210.56,
+        "duration": 3.2
+    },
+    {
+        "text": "concentrating on a spell. And the spell",
+        "start": 212.0,
+        "duration": 3.599
+    },
+    {
+        "text": "we're most likely to be concentrating on",
+        "start": 213.76,
+        "duration": 4.08
+    },
+    {
+        "text": "is haste. Dropping concentration on that",
+        "start": 215.599,
+        "duration": 4.081
+    },
+    {
+        "text": "is very bad. Halfling's ability to",
+        "start": 217.84,
+        "duration": 4.24
+    },
+    {
+        "text": "reroll ones again prevents one of the",
+        "start": 219.68,
+        "duration": 4.08
+    },
+    {
+        "text": "disasters that can befall this",
+        "start": 222.08,
+        "duration": 3.84
+    },
+    {
+        "text": "character. Other great options for your",
+        "start": 223.76,
+        "duration": 4.88
+    },
+    {
+        "text": "race pick include wood elf or halfwood",
+        "start": 225.92,
+        "duration": 4.239
+    },
+    {
+        "text": "elf. The bonus movement speed is",
+        "start": 228.64,
+        "duration": 4.319
+    },
+    {
+        "text": "extremely powerful and Dwargar's out of",
+        "start": 230.159,
+        "duration": 5.761
+    },
+    {
+        "text": "combat uh invisibility is absurdly",
+        "start": 232.959,
+        "duration": 5.36
+    },
+    {
+        "text": "strong for the fire sorcerer. Since",
+        "start": 235.92,
+        "duration": 3.92
+    },
+    {
+        "text": "you're going to be burning enemies to",
+        "start": 238.319,
+        "duration": 3.601
+    },
+    {
+        "text": "ash before they ever take a turn in most",
+        "start": 239.84,
+        "duration": 4.479
+    },
+    {
+        "text": "scenarios, the ability to start combats",
+        "start": 241.92,
+        "duration": 4.08
+    },
+    {
+        "text": "from invisibility, get the surprise",
+        "start": 244.319,
+        "duration": 3.361
+    },
+    {
+        "text": "round, and kill enemies before they ever",
+        "start": 246.0,
+        "duration": 3.28
+    },
+    {
+        "text": "get a chance to act is of course",
+        "start": 247.68,
+        "duration": 3.839
+    },
+    {
+        "text": "incredibly strong. Thanks to the armor",
+        "start": 249.28,
+        "duration": 4.159
+    },
+    {
+        "text": "proficiencies that we're getting from",
+        "start": 251.519,
+        "duration": 3.92
+    },
+    {
+        "text": "our warlock dip, though, you can build",
+        "start": 253.439,
+        "duration": 4.401
+    },
+    {
+        "text": "this with any uh any race and still",
+        "start": 255.439,
+        "duration": 4.64
+    },
+    {
+        "text": "benefit from those. So, what race you",
+        "start": 257.84,
+        "duration": 4.239
+    },
+    {
+        "text": "pick is mostly a flavor question, but",
+        "start": 260.079,
+        "duration": 3.521
+    },
+    {
+        "text": "those are some that are the most",
+        "start": 262.079,
+        "duration": 3.921
+    },
+    {
+        "text": "powerful from a mechanical standpoint.",
+        "start": 263.6,
+        "duration": 4.4
+    },
+    {
+        "text": "For our sorcerer subclass, we're going",
+        "start": 266.0,
+        "duration": 4.639
+    },
+    {
+        "text": "to be choosing the draconic bloodline.",
+        "start": 268.0,
+        "duration": 4.56
+    },
+    {
+        "text": "This gets us two things. One, it gets us",
+        "start": 270.639,
+        "duration": 3.84
+    },
+    {
+        "text": "an extra hit point every level, which is",
+        "start": 272.56,
+        "duration": 4.16
+    },
+    {
+        "text": "actually very relevant. Sorcerers get",
+        "start": 274.479,
+        "duration": 4.641
+    },
+    {
+        "text": "very few hit points, of course. So, the",
+        "start": 276.72,
+        "duration": 4.56
+    },
+    {
+        "text": "extra HP every level, this is going to",
+        "start": 279.12,
+        "duration": 5.12
+    },
+    {
+        "text": "be 11 extra HP at level 12, which will",
+        "start": 281.28,
+        "duration": 4.8
+    },
+    {
+        "text": "represent something like a seventh of",
+        "start": 284.24,
+        "duration": 4.32
+    },
+    {
+        "text": "our total hit points. Um, which makes",
+        "start": 286.08,
+        "duration": 4.08
+    },
+    {
+        "text": "the character significantly more",
+        "start": 288.56,
+        "duration": 4.639
+    },
+    {
+        "text": "resilient. It also gives us a base AC of",
+        "start": 290.16,
+        "duration": 4.88
+    },
+    {
+        "text": "13 when we're not wearing armor, which",
+        "start": 293.199,
+        "duration": 4.081
+    },
+    {
+        "text": "saves us a spell slot and a spell known",
+        "start": 295.04,
+        "duration": 4.32
+    },
+    {
+        "text": "slot on mage armor since this",
+        "start": 297.28,
+        "duration": 4.4
+    },
+    {
+        "text": "character's spells are very very",
+        "start": 299.36,
+        "duration": 4.88
+    },
+    {
+        "text": "constrained. Uh, this is also a very",
+        "start": 301.68,
+        "duration": 5.12
+    },
+    {
+        "text": "relevant buff. The real prize though is",
+        "start": 304.24,
+        "duration": 4.48
+    },
+    {
+        "text": "the bonus to fire damage since we're",
+        "start": 306.8,
+        "duration": 3.28
+    },
+    {
+        "text": "going to be doing a lot of fire damage",
+        "start": 308.72,
+        "duration": 3.199
+    },
+    {
+        "text": "that we'll get at later levels, which",
+        "start": 310.08,
+        "duration": 3.92
+    },
+    {
+        "text": "means for our draconic ancestor, we need",
+        "start": 311.919,
+        "duration": 5.12
+    },
+    {
+        "text": "to pick one of these that is a firebased",
+        "start": 314.0,
+        "duration": 4.96
+    },
+    {
+        "text": "dragon. So that leaves us with a choice",
+        "start": 317.039,
+        "duration": 5.121
+    },
+    {
+        "text": "of brass, gold, or red dragon, a",
+        "start": 318.96,
+        "duration": 5.36
+    },
+    {
+        "text": "draconic sorcerer. Of these, you can",
+        "start": 322.16,
+        "duration": 4.08
+    },
+    {
+        "text": "pick any. It doesn't make a massive",
+        "start": 324.32,
+        "duration": 4.64
+    },
+    {
+        "text": "difference. Um the only difference is",
+        "start": 326.24,
+        "duration": 4.959
+    },
+    {
+        "text": "the spell that you get at level one. So",
+        "start": 328.96,
+        "duration": 4.32
+    },
+    {
+        "text": "red dragon gets burning hands. Brass",
+        "start": 331.199,
+        "duration": 3.921
+    },
+    {
+        "text": "dragon gets sleep, which is a very good",
+        "start": 333.28,
+        "duration": 4.24
+    },
+    {
+        "text": "level one combat spell. Personally, I",
+        "start": 335.12,
+        "duration": 4.56
+    },
+    {
+        "text": "prefer gold dragon because disguise self",
+        "start": 337.52,
+        "duration": 4.0
+    },
+    {
+        "text": "is very useful for a party face and",
+        "start": 339.68,
+        "duration": 4.0
+    },
+    {
+        "text": "comes up all the time. So I like having",
+        "start": 341.52,
+        "duration": 3.92
+    },
+    {
+        "text": "access to that. But again, you can pick",
+        "start": 343.68,
+        "duration": 3.6
+    },
+    {
+        "text": "whichever of these you want for flavor",
+        "start": 345.44,
+        "duration": 4.56
+    },
+    {
+        "text": "reasons. For our cantrip selection,",
+        "start": 347.28,
+        "duration": 4.32
+    },
+    {
+        "text": "we're going to be picking two damage",
+        "start": 350.0,
+        "duration": 3.12
+    },
+    {
+        "text": "cantrips, so we have multiple damage",
+        "start": 351.6,
+        "duration": 3.52
+    },
+    {
+        "text": "types and aren't entirely reliant on",
+        "start": 353.12,
+        "duration": 3.44
+    },
+    {
+        "text": "just fire damage. So, we're going to",
+        "start": 355.12,
+        "duration": 3.2
+    },
+    {
+        "text": "grab firebolt, and we'll also take ray",
+        "start": 356.56,
+        "duration": 4.16
+    },
+    {
+        "text": "of frost, which is the best uh level one",
+        "start": 358.32,
+        "duration": 4.24
+    },
+    {
+        "text": "damage cantrip. This will let us both",
+        "start": 360.72,
+        "duration": 4.0
+    },
+    {
+        "text": "freeze water to cause enemies to slip",
+        "start": 362.56,
+        "duration": 5.04
+    },
+    {
+        "text": "and fall and slow enemies to run away um",
+        "start": 364.72,
+        "duration": 4.8
+    },
+    {
+        "text": "in order to kite them better. Ray of",
+        "start": 367.6,
+        "duration": 3.68
+    },
+    {
+        "text": "Firebolt obviously is more damage and",
+        "start": 369.52,
+        "duration": 3.84
+    },
+    {
+        "text": "can set fires. In addition to that,",
+        "start": 371.28,
+        "duration": 3.919
+    },
+    {
+        "text": "we're going to grab minor illusion. This",
+        "start": 373.36,
+        "duration": 3.92
+    },
+    {
+        "text": "character will have great AoE damage, so",
+        "start": 375.199,
+        "duration": 4.881
+    },
+    {
+        "text": "the ability to group enemies up and then",
+        "start": 377.28,
+        "duration": 4.8
+    },
+    {
+        "text": "drop a fireball on their heads is of",
+        "start": 380.08,
+        "duration": 4.08
+    },
+    {
+        "text": "course incredibly potent. And finally,",
+        "start": 382.08,
+        "duration": 4.64
+    },
+    {
+        "text": "we'll pick friends. Um, even on honor",
+        "start": 384.16,
+        "duration": 4.8
+    },
+    {
+        "text": "mode, this is a great cantrip to have",
+        "start": 386.72,
+        "duration": 4.96
+    },
+    {
+        "text": "for your party face because you can use",
+        "start": 388.96,
+        "duration": 4.48
+    },
+    {
+        "text": "it to gain advantage and then just leave",
+        "start": 391.68,
+        "duration": 5.68
+    },
+    {
+        "text": "the area and uh it the enemies won't get",
+        "start": 393.44,
+        "duration": 5.759
+    },
+    {
+        "text": "mad until it expires. So you can just",
+        "start": 397.36,
+        "duration": 3.839
+    },
+    {
+        "text": "wait out the timer on friends and then",
+        "start": 399.199,
+        "duration": 3.761
+    },
+    {
+        "text": "come back and get free advantage on all",
+        "start": 401.199,
+        "duration": 3.921
+    },
+    {
+        "text": "of your charisma checks. For our spell",
+        "start": 402.96,
+        "duration": 3.6
+    },
+    {
+        "text": "selection at level one, we're going to",
+        "start": 405.12,
+        "duration": 4.16
+    },
+    {
+        "text": "take chromatic orb, which lets us do",
+        "start": 406.56,
+        "duration": 4.56
+    },
+    {
+        "text": "great damage and many different damage",
+        "start": 409.28,
+        "duration": 3.68
+    },
+    {
+        "text": "types and create surfaces, which of",
+        "start": 411.12,
+        "duration": 3.44
+    },
+    {
+        "text": "course are very, very powerful, and",
+        "start": 412.96,
+        "duration": 4.56
+    },
+    {
+        "text": "magic missile for um extremely",
+        "start": 414.56,
+        "duration": 4.72
+    },
+    {
+        "text": "consistent damage output. Since this",
+        "start": 417.52,
+        "duration": 3.36
+    },
+    {
+        "text": "doesn't roll to hit, you can use it to",
+        "start": 419.28,
+        "duration": 4.0
+    },
+    {
+        "text": "finish off lowhealth enemies or just",
+        "start": 420.88,
+        "duration": 4.56
+    },
+    {
+        "text": "guarantee that you damage a particularly",
+        "start": 423.28,
+        "duration": 5.52
+    },
+    {
+        "text": "dangerous enemy. For our ability scores,",
+        "start": 425.44,
+        "duration": 5.12
+    },
+    {
+        "text": "we're going to be focusing on going",
+        "start": 428.8,
+        "duration": 3.6
+    },
+    {
+        "text": "first and dealing as much damage as",
+        "start": 430.56,
+        "duration": 3.359
+    },
+    {
+        "text": "possible. There are two different ways",
+        "start": 432.4,
+        "duration": 3.44
+    },
+    {
+        "text": "we can build our ability scores, and it",
+        "start": 433.919,
+        "duration": 3.601
+    },
+    {
+        "text": "depends on whether you intend to give",
+        "start": 435.84,
+        "duration": 3.68
+    },
+    {
+        "text": "this character Ethel's hair for a plus",
+        "start": 437.52,
+        "duration": 4.959
+    },
+    {
+        "text": "one bonus to their charisma or not. Uh,",
+        "start": 439.52,
+        "duration": 4.799
+    },
+    {
+        "text": "this character benefits more than just",
+        "start": 442.479,
+        "duration": 4.16
+    },
+    {
+        "text": "about any other character from getting",
+        "start": 444.319,
+        "duration": 3.841
+    },
+    {
+        "text": "Ethe's hair. So, if you're planning to",
+        "start": 446.639,
+        "duration": 3.28
+    },
+    {
+        "text": "get that in your run, you will almost",
+        "start": 448.16,
+        "duration": 3.2
+    },
+    {
+        "text": "certainly want to put it on this",
+        "start": 449.919,
+        "duration": 3.361
+    },
+    {
+        "text": "character. It's not required, but it",
+        "start": 451.36,
+        "duration": 4.16
+    },
+    {
+        "text": "does make you significantly stronger.",
+        "start": 453.28,
+        "duration": 4.24
+    },
+    {
+        "text": "So, for the demo version of this build,",
+        "start": 455.52,
+        "duration": 3.28
+    },
+    {
+        "text": "I'm going to be assuming that we're",
+        "start": 457.52,
+        "duration": 2.959
+    },
+    {
+        "text": "starting with 17 charisma, and then",
+        "start": 458.8,
+        "duration": 4.48
+    },
+    {
+        "text": "we'll buff it up to 18 using that uh",
+        "start": 460.479,
+        "duration": 6.72
+    },
+    {
+        "text": "consumable. Uh if you are So, if you're",
+        "start": 463.28,
+        "duration": 5.359
+    },
+    {
+        "text": "doing that, you're going to start with",
+        "start": 467.199,
+        "duration": 4.081
+    },
+    {
+        "text": "16 dexterity, 14 constitution, 10",
+        "start": 468.639,
+        "duration": 4.96
+    },
+    {
+        "text": "wisdom, and 17 charisma. And then you'll",
+        "start": 471.28,
+        "duration": 4.56
+    },
+    {
+        "text": "increase this to 18 during play. If",
+        "start": 473.599,
+        "duration": 3.6
+    },
+    {
+        "text": "you're not using Ethel's hair, you'll",
+        "start": 475.84,
+        "duration": 3.12
+    },
+    {
+        "text": "start with 16 charisma and put the extra",
+        "start": 477.199,
+        "duration": 3.521
+    },
+    {
+        "text": "two points in wisdom for one more point",
+        "start": 478.96,
+        "duration": 4.4
+    },
+    {
+        "text": "of wisdom save. The downside of doing",
+        "start": 480.72,
+        "duration": 4.08
+    },
+    {
+        "text": "that is you're going to have to dedicate",
+        "start": 483.36,
+        "duration": 3.119
+    },
+    {
+        "text": "more initiative gear to this character",
+        "start": 484.8,
+        "duration": 3.28
+    },
+    {
+        "text": "because you won't be able to get alert",
+        "start": 486.479,
+        "duration": 4.0
+    },
+    {
+        "text": "as a feat. So that's why we want Ethe's",
+        "start": 488.08,
+        "duration": 4.72
+    },
+    {
+        "text": "hair. Uh and why this is the version of",
+        "start": 490.479,
+        "duration": 4.081
+    },
+    {
+        "text": "the build that I'm going to be assuming",
+        "start": 492.8,
+        "duration": 3.2
+    },
+    {
+        "text": "you're using for the purpose of this",
+        "start": 494.56,
+        "duration": 5.68
+    },
+    {
+        "text": "demo. Um finally, we just want to take",
+        "start": 496.0,
+        "duration": 6.319
+    },
+    {
+        "text": "party face skills. Persuasion, of",
+        "start": 500.24,
+        "duration": 3.6
+    },
+    {
+        "text": "course, is the most important, which is",
+        "start": 502.319,
+        "duration": 3.28
+    },
+    {
+        "text": "why we're starting as a sorcerer. And",
+        "start": 503.84,
+        "duration": 4.16
+    },
+    {
+        "text": "then you can grab um intimidation or",
+        "start": 505.599,
+        "duration": 4.88
+    },
+    {
+        "text": "deception, your preference. Uh you can",
+        "start": 508.0,
+        "duration": 4.56
+    },
+    {
+        "text": "also take backgrounds that give you some",
+        "start": 510.479,
+        "duration": 4.8
+    },
+    {
+        "text": "of these uh dialogue skills. The guild",
+        "start": 512.56,
+        "duration": 4.56
+    },
+    {
+        "text": "artisan background for example gives you",
+        "start": 515.279,
+        "duration": 3.921
+    },
+    {
+        "text": "persuasion and insight. Very useful for",
+        "start": 517.12,
+        "duration": 4.0
+    },
+    {
+        "text": "a dialogue focused character. And then",
+        "start": 519.2,
+        "duration": 3.04
+    },
+    {
+        "text": "you could take deception and",
+        "start": 521.12,
+        "duration": 2.88
+    },
+    {
+        "text": "intimidation. Also worth noting that",
+        "start": 522.24,
+        "duration": 3.44
+    },
+    {
+        "text": "with high charisma and friends, you",
+        "start": 524.0,
+        "duration": 3.36
+    },
+    {
+        "text": "don't need proficiency in all of these",
+        "start": 525.68,
+        "duration": 3.92
+    },
+    {
+        "text": "skills to be able to make skill checks",
+        "start": 527.36,
+        "duration": 4.0
+    },
+    {
+        "text": "with them. So you'll still be able to",
+        "start": 529.6,
+        "duration": 4.32
+    },
+    {
+        "text": "make those rules even if you index more",
+        "start": 531.36,
+        "duration": 4.96
+    },
+    {
+        "text": "into one of these skills. That's it for",
+        "start": 533.92,
+        "duration": 4.8
+    },
+    {
+        "text": "level one. Let's move on to level two.",
+        "start": 536.32,
+        "duration": 4.079
+    },
+    {
+        "text": "Also, I just realized after recording",
+        "start": 538.72,
+        "duration": 3.76
+    },
+    {
+        "text": "the intro that I had blue dye on the",
+        "start": 540.399,
+        "duration": 4.241
+    },
+    {
+        "text": "robe for the fire sorcerer. Obviously a",
+        "start": 542.48,
+        "duration": 4.799
+    },
+    {
+        "text": "ridiculous choice, so I fixed that. At",
+        "start": 544.64,
+        "duration": 4.08
+    },
+    {
+        "text": "first level, we're going to be starting",
+        "start": 547.279,
+        "duration": 3.441
+    },
+    {
+        "text": "with a level of sorcerer. Although we're",
+        "start": 548.72,
+        "duration": 3.6
+    },
+    {
+        "text": "going to be dipping warlock for this",
+        "start": 550.72,
+        "duration": 2.72
+    },
+    {
+        "text": "character, we want to start with",
+        "start": 552.32,
+        "duration": 4.079
+    },
+    {
+        "text": "sorcerer for two reasons. One, sorcerer",
+        "start": 553.44,
+        "duration": 5.2
+    },
+    {
+        "text": "gains constitution save proficiency,",
+        "start": 556.399,
+        "duration": 3.921
+    },
+    {
+        "text": "which is the most important save",
+        "start": 558.64,
+        "duration": 3.6
+    },
+    {
+        "text": "proficiency for any caster since it",
+        "start": 560.32,
+        "duration": 3.44
+    },
+    {
+        "text": "governs whether you can maintain",
+        "start": 562.24,
+        "duration": 3.279
+    },
+    {
+        "text": "concentration on your spells when you",
+        "start": 563.76,
+        "duration": 3.92
+    },
+    {
+        "text": "take damage or have to make con saves.",
+        "start": 565.519,
+        "duration": 4.88
+    },
+    {
+        "text": "Um, the second is that sorcerer also",
+        "start": 567.68,
+        "duration": 4.8
+    },
+    {
+        "text": "gets better skill proficiencies for",
+        "start": 570.399,
+        "duration": 3.921
+    },
+    {
+        "text": "being a party face. And since this is a",
+        "start": 572.48,
+        "duration": 3.76
+    },
+    {
+        "text": "charisma character, it's very likely to",
+        "start": 574.32,
+        "duration": 3.519
+    },
+    {
+        "text": "be your party face, though it doesn't",
+        "start": 576.24,
+        "duration": 3.52
+    },
+    {
+        "text": "have to be. So, starting with sorcerer",
+        "start": 577.839,
+        "duration": 4.0
+    },
+    {
+        "text": "just gets us a couple small advantages",
+        "start": 579.76,
+        "duration": 4.8
+    },
+    {
+        "text": "over starting with warlock. At character",
+        "start": 581.839,
+        "duration": 5.12
+    },
+    {
+        "text": "level two, this is where the major buff",
+        "start": 584.56,
+        "duration": 5.36
+    },
+    {
+        "text": "to this build comes in from patch 8 with",
+        "start": 586.959,
+        "duration": 5.681
+    },
+    {
+        "text": "the existence of hexblade warlock. Now",
+        "start": 589.92,
+        "duration": 4.08
+    },
+    {
+        "text": "we can actually we're going to take one",
+        "start": 592.64,
+        "duration": 3.199
+    },
+    {
+        "text": "level of warlock here and you can",
+        "start": 594.0,
+        "duration": 3.76
+    },
+    {
+        "text": "actually take fiend or great old one",
+        "start": 595.839,
+        "duration": 3.761
+    },
+    {
+        "text": "warlock and they're very very powerful.",
+        "start": 597.76,
+        "duration": 4.56
+    },
+    {
+        "text": "Archve is also okay but fiend warlock",
+        "start": 599.6,
+        "duration": 5.359
+    },
+    {
+        "text": "gives you command which is an extremely",
+        "start": 602.32,
+        "duration": 5.12
+    },
+    {
+        "text": "strong control spell for this character",
+        "start": 604.959,
+        "duration": 4.241
+    },
+    {
+        "text": "and great old one gives you mortal",
+        "start": 607.44,
+        "duration": 3.2
+    },
+    {
+        "text": "reminder. We're going to be landing a",
+        "start": 609.2,
+        "duration": 3.12
+    },
+    {
+        "text": "lot of critical hits. So this is again",
+        "start": 610.64,
+        "duration": 4.48
+    },
+    {
+        "text": "very powerful passive control. Um but",
+        "start": 612.32,
+        "duration": 4.56
+    },
+    {
+        "text": "previously you were most likely when",
+        "start": 615.12,
+        "duration": 3.44
+    },
+    {
+        "text": "building this character just to take 12",
+        "start": 616.88,
+        "duration": 4.56
+    },
+    {
+        "text": "levels of sorcerer. Now, with Hexblade",
+        "start": 618.56,
+        "duration": 5.68
+    },
+    {
+        "text": "Warlock, we get a bunch of incredibly",
+        "start": 621.44,
+        "duration": 4.48
+    },
+    {
+        "text": "powerful additions to the build that",
+        "start": 624.24,
+        "duration": 4.159
+    },
+    {
+        "text": "make it significantly more resilient and",
+        "start": 625.92,
+        "duration": 5.52
+    },
+    {
+        "text": "also much less rest dependent. By taking",
+        "start": 628.399,
+        "duration": 4.801
+    },
+    {
+        "text": "one level of Warlock, we get an extra",
+        "start": 631.44,
+        "duration": 3.6
+    },
+    {
+        "text": "spell every short rest, which is already",
+        "start": 633.2,
+        "duration": 3.52
+    },
+    {
+        "text": "pretty good for this character. You can",
+        "start": 635.04,
+        "duration": 3.52
+    },
+    {
+        "text": "eat those spells, turn them into sorcery",
+        "start": 636.72,
+        "duration": 3.44
+    },
+    {
+        "text": "points, and then turn them back into",
+        "start": 638.56,
+        "duration": 4.399
+    },
+    {
+        "text": "spell slots if you want. Um, so you can",
+        "start": 640.16,
+        "duration": 5.359
+    },
+    {
+        "text": "use these short rest spells pretty",
+        "start": 642.959,
+        "duration": 4.721
+    },
+    {
+        "text": "frequently to extend the lifespan of",
+        "start": 645.519,
+        "duration": 4.0
+    },
+    {
+        "text": "your sorcerer, which has a very high",
+        "start": 647.68,
+        "duration": 4.64
+    },
+    {
+        "text": "burn rate, pun very much intended. You",
+        "start": 649.519,
+        "duration": 4.401
+    },
+    {
+        "text": "also get to take the shield spell",
+        "start": 652.32,
+        "duration": 4.4
+    },
+    {
+        "text": "without spending a sorcerer spell known",
+        "start": 653.92,
+        "duration": 5.44
+    },
+    {
+        "text": "slot on it, which is very good as well",
+        "start": 656.72,
+        "duration": 4.799
+    },
+    {
+        "text": "because this is a spell you're almost",
+        "start": 659.36,
+        "duration": 4.0
+    },
+    {
+        "text": "always going to want, but spells known",
+        "start": 661.519,
+        "duration": 5.281
+    },
+    {
+        "text": "are very constrained for sorcerers. In",
+        "start": 663.36,
+        "duration": 7.039
+    },
+    {
+        "text": "addition to that, we also get some extra",
+        "start": 666.8,
+        "duration": 5.36
+    },
+    {
+        "text": "cantrips, which are very nice. Here we",
+        "start": 670.399,
+        "duration": 4.481
+    },
+    {
+        "text": "get to take Eldrich Blast for yet",
+        "start": 672.16,
+        "duration": 5.28
+    },
+    {
+        "text": "another great damage cantrip and bone",
+        "start": 674.88,
+        "duration": 4.88
+    },
+    {
+        "text": "chill to be able to shut down enemy",
+        "start": 677.44,
+        "duration": 4.48
+    },
+    {
+        "text": "healing and give undead disadvantage.",
+        "start": 679.76,
+        "duration": 4.319
+    },
+    {
+        "text": "So, we now have all of the the strong",
+        "start": 681.92,
+        "duration": 4.32
+    },
+    {
+        "text": "damaging cantrips and an array of",
+        "start": 684.079,
+        "duration": 6.401
+    },
+    {
+        "text": "options available to us. Um, and for we",
+        "start": 686.24,
+        "duration": 6.88
+    },
+    {
+        "text": "in addition to shield also get to take",
+        "start": 690.48,
+        "duration": 4.64
+    },
+    {
+        "text": "hex. This character is going to be doing",
+        "start": 693.12,
+        "duration": 4.48
+    },
+    {
+        "text": "most of its damage by casting scorching",
+        "start": 695.12,
+        "duration": 5.36
+    },
+    {
+        "text": "rays which hit many many times. Since",
+        "start": 697.6,
+        "duration": 6.479
+    },
+    {
+        "text": "hex works on all spell casts, it will",
+        "start": 700.48,
+        "duration": 6.32
+    },
+    {
+        "text": "apply the extra d6 necrotic damage to",
+        "start": 704.079,
+        "duration": 4.88
+    },
+    {
+        "text": "every beam of a scorching ray. So when",
+        "start": 706.8,
+        "duration": 4.479
+    },
+    {
+        "text": "you upcast scorching ray, hex can give",
+        "start": 708.959,
+        "duration": 5.681
+    },
+    {
+        "text": "you up to 7d6 extra damage at the cost",
+        "start": 711.279,
+        "duration": 5.521
+    },
+    {
+        "text": "of just your level one warlock spell",
+        "start": 714.64,
+        "duration": 4.319
+    },
+    {
+        "text": "slot. So, this gives you another way to",
+        "start": 716.8,
+        "duration": 4.719
+    },
+    {
+        "text": "extend your damage without burning full",
+        "start": 718.959,
+        "duration": 5.44
+    },
+    {
+        "text": "highle spell slots on quickening spells.",
+        "start": 721.519,
+        "duration": 5.921
+    },
+    {
+        "text": "And Hexlad's curse gives you effectively",
+        "start": 724.399,
+        "duration": 5.841
+    },
+    {
+        "text": "another copy of that. By bonus action",
+        "start": 727.44,
+        "duration": 6.0
+    },
+    {
+        "text": "casting Hexblad's curse, you gain a uh",
+        "start": 730.24,
+        "duration": 5.12
+    },
+    {
+        "text": "additional damage equal to your",
+        "start": 733.44,
+        "duration": 4.32
+    },
+    {
+        "text": "proficiency bonus on every damage roll,",
+        "start": 735.36,
+        "duration": 4.32
+    },
+    {
+        "text": "which again, we're making tons of damage",
+        "start": 737.76,
+        "duration": 4.879
+    },
+    {
+        "text": "rolls on this character. Uh, and a bonus",
+        "start": 739.68,
+        "duration": 5.04
+    },
+    {
+        "text": "to critical hits against that target.",
+        "start": 742.639,
+        "duration": 3.601
+    },
+    {
+        "text": "Again, we can do this once per short",
+        "start": 744.72,
+        "duration": 2.96
+    },
+    {
+        "text": "rest. So, it means that our damage",
+        "start": 746.24,
+        "duration": 4.719
+    },
+    {
+        "text": "output is significantly less long rest",
+        "start": 747.68,
+        "duration": 5.12
+    },
+    {
+        "text": "dependent cuz we're burning fewer spell",
+        "start": 750.959,
+        "duration": 4.721
+    },
+    {
+        "text": "slots in every combat. We also, as a hex",
+        "start": 752.8,
+        "duration": 5.2
+    },
+    {
+        "text": "blade, get medium armor and shield",
+        "start": 755.68,
+        "duration": 4.48
+    },
+    {
+        "text": "proficiency. While in the end game, this",
+        "start": 758.0,
+        "duration": 3.6
+    },
+    {
+        "text": "character is going to switch back to",
+        "start": 760.16,
+        "duration": 3.6
+    },
+    {
+        "text": "powerful robes uh cuz they're really",
+        "start": 761.6,
+        "duration": 4.479
+    },
+    {
+        "text": "good for casters. Medium armor get makes",
+        "start": 763.76,
+        "duration": 4.16
+    },
+    {
+        "text": "us much tankier in the early game, and",
+        "start": 766.079,
+        "duration": 3.841
+    },
+    {
+        "text": "shield proficiency gives us some great",
+        "start": 767.92,
+        "duration": 4.479
+    },
+    {
+        "text": "options for items. Uh doesn't constrain",
+        "start": 769.92,
+        "duration": 4.159
+    },
+    {
+        "text": "what race we're picking, so we can",
+        "start": 772.399,
+        "duration": 4.801
+    },
+    {
+        "text": "always use shields. Um, and again just",
+        "start": 774.079,
+        "duration": 5.281
+    },
+    {
+        "text": "makes us significantly more resilient in",
+        "start": 777.2,
+        "duration": 3.68
+    },
+    {
+        "text": "the early game. So it takes what was",
+        "start": 779.36,
+        "duration": 3.44
+    },
+    {
+        "text": "previously a fairly squishy character",
+        "start": 780.88,
+        "duration": 4.32
+    },
+    {
+        "text": "and makes it significantly harder to",
+        "start": 782.8,
+        "duration": 5.279
+    },
+    {
+        "text": "kill. So we just get to go longer and",
+        "start": 785.2,
+        "duration": 4.879
+    },
+    {
+        "text": "with less disruption from our enemies",
+        "start": 788.079,
+        "duration": 4.081
+    },
+    {
+        "text": "while dealing even more damage than used",
+        "start": 790.079,
+        "duration": 4.721
+    },
+    {
+        "text": "to be possible. At character level",
+        "start": 792.16,
+        "duration": 4.56
+    },
+    {
+        "text": "three, we're going back to sorcerer cuz",
+        "start": 794.8,
+        "duration": 3.839
+    },
+    {
+        "text": "of course we want to level up and reach",
+        "start": 796.72,
+        "duration": 4.239
+    },
+    {
+        "text": "our sorcerer bonus fire damage as",
+        "start": 798.639,
+        "duration": 4.88
+    },
+    {
+        "text": "quickly as we can. Um, and we also get",
+        "start": 800.959,
+        "duration": 5.041
+    },
+    {
+        "text": "access to extra spells and sorcerer meta",
+        "start": 803.519,
+        "duration": 4.88
+    },
+    {
+        "text": "magic. What spell we pick at this level",
+        "start": 806.0,
+        "duration": 4.399
+    },
+    {
+        "text": "is not super important. We're very",
+        "start": 808.399,
+        "duration": 4.56
+    },
+    {
+        "text": "likely to swap this out uh as soon as we",
+        "start": 810.399,
+        "duration": 4.481
+    },
+    {
+        "text": "get access to level two spells. So, you",
+        "start": 812.959,
+        "duration": 3.841
+    },
+    {
+        "text": "can take fog cloud or ice knife. These",
+        "start": 814.88,
+        "duration": 3.68
+    },
+    {
+        "text": "are decent early game spells. I'm going",
+        "start": 816.8,
+        "duration": 3.76
+    },
+    {
+        "text": "to go with fogcloud here. And then, of",
+        "start": 818.56,
+        "duration": 3.2
+    },
+    {
+        "text": "course, we're going to pick our meta",
+        "start": 820.56,
+        "duration": 2.8
+    },
+    {
+        "text": "magic. The meta magic that we're going",
+        "start": 821.76,
+        "duration": 4.16
+    },
+    {
+        "text": "to pick is always twin spell because",
+        "start": 823.36,
+        "duration": 4.64
+    },
+    {
+        "text": "this will let us twin haste and haste",
+        "start": 825.92,
+        "duration": 4.4
+    },
+    {
+        "text": "ourselves and an ally for extra actions",
+        "start": 828.0,
+        "duration": 4.399
+    },
+    {
+        "text": "or two allies if we want to fight where",
+        "start": 830.32,
+        "duration": 4.959
+    },
+    {
+        "text": "we don't uh expend as many spell slots.",
+        "start": 832.399,
+        "duration": 5.44
+    },
+    {
+        "text": "Um and of course twin are combat spells",
+        "start": 835.279,
+        "duration": 4.8
+    },
+    {
+        "text": "as well. In addition to that, you can",
+        "start": 837.839,
+        "duration": 5.12
+    },
+    {
+        "text": "take either extended spell. Extended",
+        "start": 840.079,
+        "duration": 6.161
+    },
+    {
+        "text": "spell is especially good if you are",
+        "start": 842.959,
+        "duration": 5.12
+    },
+    {
+        "text": "dipping fiend warlock instead of hex",
+        "start": 846.24,
+        "duration": 2.88
+    },
+    {
+        "text": "blade because you can double the",
+        "start": 848.079,
+        "duration": 3.76
+    },
+    {
+        "text": "duration of command. Um, but also pretty",
+        "start": 849.12,
+        "duration": 5.36
+    },
+    {
+        "text": "nice for this character with lots of",
+        "start": 851.839,
+        "duration": 4.481
+    },
+    {
+        "text": "duration effects and duration crowd",
+        "start": 854.48,
+        "duration": 3.76
+    },
+    {
+        "text": "controls. Or you can just take distance",
+        "start": 856.32,
+        "duration": 4.319
+    },
+    {
+        "text": "spell. I tend to like distance spell a",
+        "start": 858.24,
+        "duration": 4.159
+    },
+    {
+        "text": "little bit more because it means that",
+        "start": 860.639,
+        "duration": 4.64
+    },
+    {
+        "text": "you can play even safer. A 90 ft long",
+        "start": 862.399,
+        "duration": 5.201
+    },
+    {
+        "text": "scorching ray means that you can be 120",
+        "start": 865.279,
+        "duration": 4.56
+    },
+    {
+        "text": "ft away after casting it if it somehow",
+        "start": 867.6,
+        "duration": 4.96
+    },
+    {
+        "text": "doesn't kill an enemy.",
+        "start": 869.839,
+        "duration": 4.8
+    },
+    {
+        "text": "At character level four, we're taking",
+        "start": 872.56,
+        "duration": 3.76
+    },
+    {
+        "text": "our third level of sorcerer, which gets",
+        "start": 874.639,
+        "duration": 4.64
+    },
+    {
+        "text": "us access to second level spells here.",
+        "start": 876.32,
+        "duration": 5.199
+    },
+    {
+        "text": "And there are two spells that we really",
+        "start": 879.279,
+        "duration": 4.24
+    },
+    {
+        "text": "want to grab at this level. We're going",
+        "start": 881.519,
+        "duration": 3.921
+    },
+    {
+        "text": "to pick up Cloud of Daggers. This is",
+        "start": 883.519,
+        "duration": 4.161
+    },
+    {
+        "text": "just generically the best combat spell",
+        "start": 885.44,
+        "duration": 4.399
+    },
+    {
+        "text": "available at this level. There's lots of",
+        "start": 887.68,
+        "duration": 3.839
+    },
+    {
+        "text": "encounters that Cloud of Daggers will",
+        "start": 889.839,
+        "duration": 3.841
+    },
+    {
+        "text": "just solve outright. And it's the",
+        "start": 891.519,
+        "duration": 4.481
+    },
+    {
+        "text": "highest damage level two damage spell in",
+        "start": 893.68,
+        "duration": 4.24
+    },
+    {
+        "text": "the game, even higher than Scorching Ray",
+        "start": 896.0,
+        "duration": 3.68
+    },
+    {
+        "text": "most of the time because there's no",
+        "start": 897.92,
+        "duration": 3.76
+    },
+    {
+        "text": "saving throw or hit roll with Cloud of",
+        "start": 899.68,
+        "duration": 4.56
+    },
+    {
+        "text": "Daggers. We also do want Scorching Ray.",
+        "start": 901.68,
+        "duration": 4.399
+    },
+    {
+        "text": "That's what this character is mostly",
+        "start": 904.24,
+        "duration": 3.2
+    },
+    {
+        "text": "built around. So, we're going to go",
+        "start": 906.079,
+        "duration": 3.041
+    },
+    {
+        "text": "ahead and replace whatever spell we took",
+        "start": 907.44,
+        "duration": 3.759
+    },
+    {
+        "text": "at level two and pick up scorching ray",
+        "start": 909.12,
+        "duration": 4.48
+    },
+    {
+        "text": "as well for even more damage output. For",
+        "start": 911.199,
+        "duration": 4.801
+    },
+    {
+        "text": "our metamagic selection here, we're",
+        "start": 913.6,
+        "duration": 5.2
+    },
+    {
+        "text": "going to take quickened spell. This is",
+        "start": 916.0,
+        "duration": 5.36
+    },
+    {
+        "text": "very likely to be taken at level three",
+        "start": 918.8,
+        "duration": 4.64
+    },
+    {
+        "text": "on every single sorcerer build, and this",
+        "start": 921.36,
+        "duration": 4.08
+    },
+    {
+        "text": "one is no exception. What's better than",
+        "start": 923.44,
+        "duration": 4.079
+    },
+    {
+        "text": "one spell in a turn? Two spells in a",
+        "start": 925.44,
+        "duration": 3.68
+    },
+    {
+        "text": "turn. And that's how sorcerer just",
+        "start": 927.519,
+        "duration": 3.281
+    },
+    {
+        "text": "breaks the action economy by taking",
+        "start": 929.12,
+        "duration": 3.6
+    },
+    {
+        "text": "multiple turns for every car other",
+        "start": 930.8,
+        "duration": 4.88
+    },
+    {
+        "text": "characters.",
+        "start": 932.72,
+        "duration": 5.359
+    },
+    {
+        "text": "At sorcerer level four, we get an extra",
+        "start": 935.68,
+        "duration": 4.48
+    },
+    {
+        "text": "spell selection here. And we're going to",
+        "start": 938.079,
+        "duration": 4.081
+    },
+    {
+        "text": "go ahead and take misty step. Most",
+        "start": 940.16,
+        "duration": 3.76
+    },
+    {
+        "text": "characters should have access to misty",
+        "start": 942.16,
+        "duration": 3.76
+    },
+    {
+        "text": "step for mobility options, and this can",
+        "start": 943.92,
+        "duration": 4.88
+    },
+    {
+        "text": "help us get out of bad situations. Um,",
+        "start": 945.92,
+        "duration": 5.039
+    },
+    {
+        "text": "so just having the bonus action teleport",
+        "start": 948.8,
+        "duration": 4.479
+    },
+    {
+        "text": "is very, very helpful. We also get an",
+        "start": 950.959,
+        "duration": 4.161
+    },
+    {
+        "text": "additional cantrip. There's a couple",
+        "start": 953.279,
+        "duration": 3.761
+    },
+    {
+        "text": "different options that we can take here,",
+        "start": 955.12,
+        "duration": 4.0
+    },
+    {
+        "text": "but having mage hand is very useful for",
+        "start": 957.04,
+        "duration": 3.28
+    },
+    {
+        "text": "this character. There's a couple",
+        "start": 959.12,
+        "duration": 3.36
+    },
+    {
+        "text": "throwable items that we might want to",
+        "start": 960.32,
+        "duration": 4.56
+    },
+    {
+        "text": "use, and the mage hand can throw those.",
+        "start": 962.48,
+        "duration": 4.32
+    },
+    {
+        "text": "Um, you can also take a light if your",
+        "start": 964.88,
+        "duration": 3.36
+    },
+    {
+        "text": "party doesn't have access to it because",
+        "start": 966.8,
+        "duration": 3.52
+    },
+    {
+        "text": "it's a very useful utility cantrip going",
+        "start": 968.24,
+        "duration": 4.64
+    },
+    {
+        "text": "into act two. For our feet selection",
+        "start": 970.32,
+        "duration": 4.48
+    },
+    {
+        "text": "here, if you're using Ethel's hair to",
+        "start": 972.88,
+        "duration": 3.92
+    },
+    {
+        "text": "boost your charisma up to 18, you're",
+        "start": 974.8,
+        "duration": 3.92
+    },
+    {
+        "text": "going to go ahead and take alert. This",
+        "start": 976.8,
+        "duration": 4.399
+    },
+    {
+        "text": "is great on honor mode because it if you",
+        "start": 978.72,
+        "duration": 4.4
+    },
+    {
+        "text": "go first, enemies don't get to go",
+        "start": 981.199,
+        "duration": 4.401
+    },
+    {
+        "text": "second. So, almost any honor mode",
+        "start": 983.12,
+        "duration": 4.159
+    },
+    {
+        "text": "character can benefit from taking this",
+        "start": 985.6,
+        "duration": 4.32
+    },
+    {
+        "text": "feat. If you don't have Ethel's hair,",
+        "start": 987.279,
+        "duration": 4.321
+    },
+    {
+        "text": "um, then you're going to take an ability",
+        "start": 989.92,
+        "duration": 3.68
+    },
+    {
+        "text": "improvement to boost your charisma up to",
+        "start": 991.6,
+        "duration": 4.72
+    },
+    {
+        "text": "18. So, if you're not using that build,",
+        "start": 993.6,
+        "duration": 4.239
+    },
+    {
+        "text": "um we're going to skip alert and then",
+        "start": 996.32,
+        "duration": 3.84
+    },
+    {
+        "text": "use uh items in order to boost our",
+        "start": 997.839,
+        "duration": 4.161
+    },
+    {
+        "text": "initiative instead. But for this version",
+        "start": 1000.16,
+        "duration": 3.679
+    },
+    {
+        "text": "of the build, alert is always going to",
+        "start": 1002.0,
+        "duration": 4.56
+    },
+    {
+        "text": "be the feat.",
+        "start": 1003.839,
+        "duration": 4.961
+    },
+    {
+        "text": "At character level six, we're taking our",
+        "start": 1006.56,
+        "duration": 4.48
+    },
+    {
+        "text": "fifth level of sorcerer, which gets us",
+        "start": 1008.8,
+        "duration": 4.56
+    },
+    {
+        "text": "extremely powerful level three spells.",
+        "start": 1011.04,
+        "duration": 3.84
+    },
+    {
+        "text": "This is where most characters reach",
+        "start": 1013.36,
+        "duration": 3.839
+    },
+    {
+        "text": "their first major major power spike as",
+        "start": 1014.88,
+        "duration": 5.12
+    },
+    {
+        "text": "spellcasters. Now, one thing that you'll",
+        "start": 1017.199,
+        "duration": 5.2
+    },
+    {
+        "text": "notice as a draconic sorcerer is that",
+        "start": 1020.0,
+        "duration": 4.72
+    },
+    {
+        "text": "we're heavily constrained on our spell",
+        "start": 1022.399,
+        "duration": 4.001
+    },
+    {
+        "text": "selection. So, we need to be very",
+        "start": 1024.72,
+        "duration": 3.76
+    },
+    {
+        "text": "careful about which spells we take in",
+        "start": 1026.4,
+        "duration": 4.559
+    },
+    {
+        "text": "order to have access to all of the tools",
+        "start": 1028.48,
+        "duration": 4.959
+    },
+    {
+        "text": "that we need to win combats. For this",
+        "start": 1030.959,
+        "duration": 4.0
+    },
+    {
+        "text": "character, we're going to grab counter",
+        "start": 1033.439,
+        "duration": 4.0
+    },
+    {
+        "text": "spell. Any honor mode party should have",
+        "start": 1034.959,
+        "duration": 4.24
+    },
+    {
+        "text": "access to counter spell. I usually like",
+        "start": 1037.439,
+        "duration": 3.441
+    },
+    {
+        "text": "to have two characters capable of",
+        "start": 1039.199,
+        "duration": 4.24
+    },
+    {
+        "text": "casting this because it can just stop",
+        "start": 1040.88,
+        "duration": 4.959
+    },
+    {
+        "text": "enemies from instantly ending your run",
+        "start": 1043.439,
+        "duration": 4.721
+    },
+    {
+        "text": "with devastating spell casts. And then",
+        "start": 1045.839,
+        "duration": 4.001
+    },
+    {
+        "text": "we're also going to replace one of our",
+        "start": 1048.16,
+        "duration": 4.32
+    },
+    {
+        "text": "lower level spells. These are all really",
+        "start": 1049.84,
+        "duration": 4.48
+    },
+    {
+        "text": "strong spells, so we're not thrilled",
+        "start": 1052.48,
+        "duration": 4.24
+    },
+    {
+        "text": "about having to replace any of them. But",
+        "start": 1054.32,
+        "duration": 4.0
+    },
+    {
+        "text": "since we're very likely to be",
+        "start": 1056.72,
+        "duration": 3.44
+    },
+    {
+        "text": "concentrating on other stuff at this",
+        "start": 1058.32,
+        "duration": 3.359
+    },
+    {
+        "text": "point, we're going to replace Cloud of",
+        "start": 1060.16,
+        "duration": 3.04
+    },
+    {
+        "text": "Daggers. And we'll replace it with a",
+        "start": 1061.679,
+        "duration": 3.441
+    },
+    {
+        "text": "concentration spell. In this case,",
+        "start": 1063.2,
+        "duration": 4.4
+    },
+    {
+        "text": "haste. Twinning haste is one of the best",
+        "start": 1065.12,
+        "duration": 4.64
+    },
+    {
+        "text": "things that you can do as a sorcerer.",
+        "start": 1067.6,
+        "duration": 4.079
+    },
+    {
+        "text": "Being able to cast it on yourself and an",
+        "start": 1069.76,
+        "duration": 5.2
+    },
+    {
+        "text": "ally or on two allies is ridiculously",
+        "start": 1071.679,
+        "duration": 6.641
+    },
+    {
+        "text": "strong. Um, this effectively lets you",
+        "start": 1074.96,
+        "duration": 6.88
+    },
+    {
+        "text": "spend a and uh no actions because you",
+        "start": 1078.32,
+        "duration": 6.0
+    },
+    {
+        "text": "cast this before combat starts on",
+        "start": 1081.84,
+        "duration": 4.88
+    },
+    {
+        "text": "getting two extra actions every turn of",
+        "start": 1084.32,
+        "duration": 4.16
+    },
+    {
+        "text": "combat. So again, you're just breaking",
+        "start": 1086.72,
+        "duration": 4.079
+    },
+    {
+        "text": "the action economy completely and",
+        "start": 1088.48,
+        "duration": 4.0
+    },
+    {
+        "text": "meaning that you act many more times",
+        "start": 1090.799,
+        "duration": 4.0
+    },
+    {
+        "text": "than enemies do. Dungeons and Dragons",
+        "start": 1092.48,
+        "duration": 4.0
+    },
+    {
+        "text": "can basically be thought of as an",
+        "start": 1094.799,
+        "duration": 5.681
+    },
+    {
+        "text": "exercise in trying to increase the ratio",
+        "start": 1096.48,
+        "duration": 6.4
+    },
+    {
+        "text": "of actions you take to actions enemies",
+        "start": 1100.48,
+        "duration": 4.88
+    },
+    {
+        "text": "take to infinite. That can either be",
+        "start": 1102.88,
+        "duration": 3.84
+    },
+    {
+        "text": "done by killing them, so they can't take",
+        "start": 1105.36,
+        "duration": 3.36
+    },
+    {
+        "text": "any actions, or by directly increasing",
+        "start": 1106.72,
+        "duration": 4.079
+    },
+    {
+        "text": "the number of actions you take. Sorcerer",
+        "start": 1108.72,
+        "duration": 3.6
+    },
+    {
+        "text": "does that directly, which is why it's",
+        "start": 1110.799,
+        "duration": 2.961
+    },
+    {
+        "text": "one of the strongest characters in the",
+        "start": 1112.32,
+        "duration": 3.599
+    },
+    {
+        "text": "game.",
+        "start": 1113.76,
+        "duration": 4.48
+    },
+    {
+        "text": "At level seven, we reach our sixth level",
+        "start": 1115.919,
+        "duration": 4.561
+    },
+    {
+        "text": "of draconic sorcerer, and this is where",
+        "start": 1118.24,
+        "duration": 4.48
+    },
+    {
+        "text": "we get elemental affinity for fire",
+        "start": 1120.48,
+        "duration": 4.48
+    },
+    {
+        "text": "damage. What this means for us is that",
+        "start": 1122.72,
+        "duration": 4.56
+    },
+    {
+        "text": "every time we do fire damage, it adds",
+        "start": 1124.96,
+        "duration": 5.28
+    },
+    {
+        "text": "our charisma modifier to that damage.",
+        "start": 1127.28,
+        "duration": 5.2
+    },
+    {
+        "text": "Since we're mostly casting scorching",
+        "start": 1130.24,
+        "duration": 4.88
+    },
+    {
+        "text": "ray, um, which does its damage in",
+        "start": 1132.48,
+        "duration": 4.72
+    },
+    {
+        "text": "multiple instances, we're adding our",
+        "start": 1135.12,
+        "duration": 4.4
+    },
+    {
+        "text": "charisma to every single ray. So, if we",
+        "start": 1137.2,
+        "duration": 4.4
+    },
+    {
+        "text": "cast a level two scorching ray, and we",
+        "start": 1139.52,
+        "duration": 4.24
+    },
+    {
+        "text": "have 18 charisma at this point, that's",
+        "start": 1141.6,
+        "duration": 5.04
+    },
+    {
+        "text": "adding 12 total damage to the spellcast.",
+        "start": 1143.76,
+        "duration": 5.12
+    },
+    {
+        "text": "If we're upcasting scorching ray to get",
+        "start": 1146.64,
+        "duration": 4.56
+    },
+    {
+        "text": "extra rays, it's going to add our",
+        "start": 1148.88,
+        "duration": 5.2
+    },
+    {
+        "text": "charisma to each of those rays in turn,",
+        "start": 1151.2,
+        "duration": 5.2
+    },
+    {
+        "text": "which increases the damage even further.",
+        "start": 1154.08,
+        "duration": 5.28
+    },
+    {
+        "text": "So, by being a draconic sorcerer, we get",
+        "start": 1156.4,
+        "duration": 5.04
+    },
+    {
+        "text": "to multiply the damage that we're",
+        "start": 1159.36,
+        "duration": 4.72
+    },
+    {
+        "text": "dealing. If we're then adding hex damage",
+        "start": 1161.44,
+        "duration": 4.96
+    },
+    {
+        "text": "to each ray or hex blades curse damage",
+        "start": 1164.08,
+        "duration": 4.64
+    },
+    {
+        "text": "to each ray, you can see that each shot",
+        "start": 1166.4,
+        "duration": 5.6
+    },
+    {
+        "text": "that we do applies so many instances of",
+        "start": 1168.72,
+        "duration": 5.28
+    },
+    {
+        "text": "extra damage that most enemies won't",
+        "start": 1172.0,
+        "duration": 4.72
+    },
+    {
+        "text": "have the health to survive it.",
+        "start": 1174.0,
+        "duration": 4.4
+    },
+    {
+        "text": "For our spell selection at this level,",
+        "start": 1176.72,
+        "duration": 3.199
+    },
+    {
+        "text": "we actually have a bunch of choices.",
+        "start": 1178.4,
+        "duration": 3.04
+    },
+    {
+        "text": "There's a lot of different spells that",
+        "start": 1179.919,
+        "duration": 3.841
+    },
+    {
+        "text": "we could use. Um, you could take hold",
+        "start": 1181.44,
+        "duration": 4.16
+    },
+    {
+        "text": "person, which can work with the hat of",
+        "start": 1183.76,
+        "duration": 4.32
+    },
+    {
+        "text": "fire acuity to lock down enemies more",
+        "start": 1185.6,
+        "duration": 6.0
+    },
+    {
+        "text": "easily. Uh, you can also take hypnotic",
+        "start": 1188.08,
+        "duration": 5.68
+    },
+    {
+        "text": "pattern to lock down entire encounters.",
+        "start": 1191.6,
+        "duration": 4.16
+    },
+    {
+        "text": "But, uh, for my money, it feels wrong to",
+        "start": 1193.76,
+        "duration": 4.0
+    },
+    {
+        "text": "play a fire sorcerer without fireball.",
+        "start": 1195.76,
+        "duration": 3.36
+    },
+    {
+        "text": "So, even though there's a bunch of other",
+        "start": 1197.76,
+        "duration": 2.56
+    },
+    {
+        "text": "options, we're going to go ahead and",
+        "start": 1199.12,
+        "duration": 3.439
+    },
+    {
+        "text": "take fireball. We do want AoE damage for",
+        "start": 1200.32,
+        "duration": 5.359
+    },
+    {
+        "text": "this character anyways, but um, from a",
+        "start": 1202.559,
+        "duration": 5.441
+    },
+    {
+        "text": "purely mechanical standpoint, it might",
+        "start": 1205.679,
+        "duration": 4.161
+    },
+    {
+        "text": "be a little better to take hold person",
+        "start": 1208.0,
+        "duration": 3.6
+    },
+    {
+        "text": "or hypnotic pattern at this level.",
+        "start": 1209.84,
+        "duration": 3.44
+    },
+    {
+        "text": "Fireball is a good spell, but not an",
+        "start": 1211.6,
+        "duration": 3.92
+    },
+    {
+        "text": "amazing spell. But we're playing a fire",
+        "start": 1213.28,
+        "duration": 3.68
+    },
+    {
+        "text": "sorcerer, so of course we're going to",
+        "start": 1215.52,
+        "duration": 4.399
+    },
+    {
+        "text": "take it. At level eight, we get our",
+        "start": 1216.96,
+        "duration": 4.48
+    },
+    {
+        "text": "seventh level of sorcerer, getting",
+        "start": 1219.919,
+        "duration": 3.841
+    },
+    {
+        "text": "access to fourth level spells. And of",
+        "start": 1221.44,
+        "duration": 3.68
+    },
+    {
+        "text": "course, there's another fire spell,",
+        "start": 1223.76,
+        "duration": 3.2
+    },
+    {
+        "text": "which also happens to be one of the best",
+        "start": 1225.12,
+        "duration": 4.08
+    },
+    {
+        "text": "spells at uh fourth level for a",
+        "start": 1226.96,
+        "duration": 4.64
+    },
+    {
+        "text": "sorcerer, and that is wall of fire. This",
+        "start": 1229.2,
+        "duration": 4.479
+    },
+    {
+        "text": "is another concentration spell, but it's",
+        "start": 1231.6,
+        "duration": 4.319
+    },
+    {
+        "text": "a concentration damage spell. So, for",
+        "start": 1233.679,
+        "duration": 3.12
+    },
+    {
+        "text": "fights where you don't want to",
+        "start": 1235.919,
+        "duration": 2.88
+    },
+    {
+        "text": "concentrate on haste, this is often your",
+        "start": 1236.799,
+        "duration": 3.681
+    },
+    {
+        "text": "best option. There's a lot of fights",
+        "start": 1238.799,
+        "duration": 4.481
+    },
+    {
+        "text": "that this solos because enemies who are",
+        "start": 1240.48,
+        "duration": 4.72
+    },
+    {
+        "text": "moving towards you will always take the",
+        "start": 1243.28,
+        "duration": 4.0
+    },
+    {
+        "text": "damage and often over multiple turns.",
+        "start": 1245.2,
+        "duration": 4.16
+    },
+    {
+        "text": "The trick with wall of fire is try to",
+        "start": 1247.28,
+        "duration": 4.96
+    },
+    {
+        "text": "get it in a narrow hallway lengthwise so",
+        "start": 1249.36,
+        "duration": 5.04
+    },
+    {
+        "text": "enemies have to walk down the entire",
+        "start": 1252.24,
+        "duration": 3.76
+    },
+    {
+        "text": "length of the wall instead of just",
+        "start": 1254.4,
+        "duration": 3.44
+    },
+    {
+        "text": "through it and take damage multiple",
+        "start": 1256.0,
+        "duration": 4.559
+    },
+    {
+        "text": "turns in a row. We also at this point",
+        "start": 1257.84,
+        "duration": 5.199
+    },
+    {
+        "text": "are likely not to need chromatic orb",
+        "start": 1260.559,
+        "duration": 4.641
+    },
+    {
+        "text": "that frequently anymore. This has been a",
+        "start": 1263.039,
+        "duration": 4.64
+    },
+    {
+        "text": "mainstay of our non-conentration damage",
+        "start": 1265.2,
+        "duration": 5.04
+    },
+    {
+        "text": "dealing, but now we have uh scorching",
+        "start": 1267.679,
+        "duration": 4.48
+    },
+    {
+        "text": "ray and fireball filling that role. So,",
+        "start": 1270.24,
+        "duration": 3.52
+    },
+    {
+        "text": "we're going to go ahead and swap out",
+        "start": 1272.159,
+        "duration": 4.321
+    },
+    {
+        "text": "chromatic orb despite again being a very",
+        "start": 1273.76,
+        "duration": 4.88
+    },
+    {
+        "text": "powerful spell. And we'll pick up hold",
+        "start": 1276.48,
+        "duration": 4.64
+    },
+    {
+        "text": "person. Hold person is really good once",
+        "start": 1278.64,
+        "duration": 4.8
+    },
+    {
+        "text": "we get the hat of fire acuity of course",
+        "start": 1281.12,
+        "duration": 4.559
+    },
+    {
+        "text": "and so being able to build up really",
+        "start": 1283.44,
+        "duration": 5.119
+    },
+    {
+        "text": "strong save DCs and then use hold person",
+        "start": 1285.679,
+        "duration": 5.36
+    },
+    {
+        "text": "to lock down enemies. It also synergizes",
+        "start": 1288.559,
+        "duration": 4.961
+    },
+    {
+        "text": "extremely well with scorching ray",
+        "start": 1291.039,
+        "duration": 4.961
+    },
+    {
+        "text": "because the critical hits from within 10",
+        "start": 1293.52,
+        "duration": 5.039
+    },
+    {
+        "text": "ft do work on the scorching ray beams.",
+        "start": 1296.0,
+        "duration": 4.4
+    },
+    {
+        "text": "So if you hold person someone and then",
+        "start": 1298.559,
+        "duration": 3.6
+    },
+    {
+        "text": "hit them with scorching ray, you get a",
+        "start": 1300.4,
+        "duration": 5.279
+    },
+    {
+        "text": "whole ton of guaranteed critical hits.",
+        "start": 1302.159,
+        "duration": 6.0
+    },
+    {
+        "text": "At level 9, we're getting our eighth",
+        "start": 1305.679,
+        "duration": 4.641
+    },
+    {
+        "text": "level of sorcerer for a second feat. And",
+        "start": 1308.159,
+        "duration": 3.76
+    },
+    {
+        "text": "of course with our feet, we're going to",
+        "start": 1310.32,
+        "duration": 4.64
+    },
+    {
+        "text": "boost our charisma to the maximum. Um,",
+        "start": 1311.919,
+        "duration": 4.721
+    },
+    {
+        "text": "obviously we have the plus one from",
+        "start": 1314.96,
+        "duration": 3.04
+    },
+    {
+        "text": "Ethel's hair. So now we have 20",
+        "start": 1316.64,
+        "duration": 2.96
+    },
+    {
+        "text": "charisma. That means we're doing plus",
+        "start": 1318.0,
+        "duration": 3.76
+    },
+    {
+        "text": "five damage with every single ray",
+        "start": 1319.6,
+        "duration": 4.24
+    },
+    {
+        "text": "whenever we cast scorching ray. Five",
+        "start": 1321.76,
+        "duration": 4.399
+    },
+    {
+        "text": "damage extra to every enemy we catch in",
+        "start": 1323.84,
+        "duration": 4.56
+    },
+    {
+        "text": "a fireball and so on. So our fire damage",
+        "start": 1326.159,
+        "duration": 5.281
+    },
+    {
+        "text": "is even higher than it was before. Also,",
+        "start": 1328.4,
+        "duration": 4.72
+    },
+    {
+        "text": "of course, this improves our save DCs",
+        "start": 1331.44,
+        "duration": 3.119
+    },
+    {
+        "text": "and chances to hit, which are very",
+        "start": 1333.12,
+        "duration": 3.28
+    },
+    {
+        "text": "important for this character. For our",
+        "start": 1334.559,
+        "duration": 3.521
+    },
+    {
+        "text": "spell selection at this level, we have a",
+        "start": 1336.4,
+        "duration": 4.159
+    },
+    {
+        "text": "lot of different options. Um, it's been",
+        "start": 1338.08,
+        "duration": 4.24
+    },
+    {
+        "text": "pretty tightly constrained up to this",
+        "start": 1340.559,
+        "duration": 3.841
+    },
+    {
+        "text": "point, but here is where you get a",
+        "start": 1342.32,
+        "duration": 3.68
+    },
+    {
+        "text": "little more room to customize the",
+        "start": 1344.4,
+        "duration": 3.68
+    },
+    {
+        "text": "character based on how your party is",
+        "start": 1346.0,
+        "duration": 3.6
+    },
+    {
+        "text": "playing out and what things you feel",
+        "start": 1348.08,
+        "duration": 2.88
+    },
+    {
+        "text": "you're missing. By this point in the",
+        "start": 1349.6,
+        "duration": 2.72
+    },
+    {
+        "text": "game, of course, you should have a",
+        "start": 1350.96,
+        "duration": 3.199
+    },
+    {
+        "text": "pretty good sense of what your party",
+        "start": 1352.32,
+        "duration": 4.0
+    },
+    {
+        "text": "actually needs. So, a few good options",
+        "start": 1354.159,
+        "duration": 4.481
+    },
+    {
+        "text": "are Sletorm. This is another very",
+        "start": 1356.32,
+        "duration": 4.479
+    },
+    {
+        "text": "powerful AoE control spell. There's a",
+        "start": 1358.64,
+        "duration": 3.84
+    },
+    {
+        "text": "lot of fights even in the late game that",
+        "start": 1360.799,
+        "duration": 4.24
+    },
+    {
+        "text": "Sletorm does very well against. or ice",
+        "start": 1362.48,
+        "duration": 4.559
+    },
+    {
+        "text": "storm if you feel that you need another",
+        "start": 1365.039,
+        "duration": 4.801
+    },
+    {
+        "text": "non-conentration AOE damage spell.",
+        "start": 1367.039,
+        "duration": 4.64
+    },
+    {
+        "text": "Hypnotic pattern can help you shut down",
+        "start": 1369.84,
+        "duration": 4.64
+    },
+    {
+        "text": "entire encounters, as could confusion if",
+        "start": 1371.679,
+        "duration": 4.801
+    },
+    {
+        "text": "you prefer a level four spell slot for",
+        "start": 1374.48,
+        "duration": 4.559
+    },
+    {
+        "text": "for that purpose. And if you're worried",
+        "start": 1376.48,
+        "duration": 4.48
+    },
+    {
+        "text": "about certain boss fights with enemies",
+        "start": 1379.039,
+        "duration": 4.481
+    },
+    {
+        "text": "that have very weak charisma saves,",
+        "start": 1380.96,
+        "duration": 4.719
+    },
+    {
+        "text": "banishment targets enemy charisma and is",
+        "start": 1383.52,
+        "duration": 4.24
+    },
+    {
+        "text": "a good option as well. Since this only",
+        "start": 1385.679,
+        "duration": 3.761
+    },
+    {
+        "text": "comes up in a handful of fights, I",
+        "start": 1387.76,
+        "duration": 3.52
+    },
+    {
+        "text": "wouldn't recommend it. But there are",
+        "start": 1389.44,
+        "duration": 3.84
+    },
+    {
+        "text": "specific party compositions that might",
+        "start": 1391.28,
+        "duration": 3.68
+    },
+    {
+        "text": "want to consider it if you're worried",
+        "start": 1393.28,
+        "duration": 4.879
+    },
+    {
+        "text": "about fighting Orin, for example. Um,",
+        "start": 1394.96,
+        "duration": 5.36
+    },
+    {
+        "text": "so, uh, what I'm going to recommend as a",
+        "start": 1398.159,
+        "duration": 4.561
+    },
+    {
+        "text": "good generic pick is Sletorm. This is",
+        "start": 1400.32,
+        "duration": 4.32
+    },
+    {
+        "text": "just always an extremely powerful",
+        "start": 1402.72,
+        "duration": 3.92
+    },
+    {
+        "text": "option, a great control spell, but",
+        "start": 1404.64,
+        "duration": 3.6
+    },
+    {
+        "text": "there's a lot of different options to",
+        "start": 1406.64,
+        "duration": 3.44
+    },
+    {
+        "text": "customize based on what your party",
+        "start": 1408.24,
+        "duration": 4.96
+    },
+    {
+        "text": "needs. When we get fifth level spells at",
+        "start": 1410.08,
+        "duration": 5.12
+    },
+    {
+        "text": "character level 10, of course, we get to",
+        "start": 1413.2,
+        "duration": 4.64
+    },
+    {
+        "text": "choose um a sorcerer spell of level",
+        "start": 1415.2,
+        "duration": 4.08
+    },
+    {
+        "text": "five. And we're going to pick up hold",
+        "start": 1417.84,
+        "duration": 3.44
+    },
+    {
+        "text": "monster. Hold monster, just like hold",
+        "start": 1419.28,
+        "duration": 3.759
+    },
+    {
+        "text": "person, works extremely well with",
+        "start": 1421.28,
+        "duration": 3.68
+    },
+    {
+        "text": "acuity, gets us guaranteed critical",
+        "start": 1423.039,
+        "duration": 3.681
+    },
+    {
+        "text": "hits, and hits the enemies that hold",
+        "start": 1424.96,
+        "duration": 5.16
+    },
+    {
+        "text": "person doesn't.",
+        "start": 1426.72,
+        "duration": 3.4
+    },
+    {
+        "text": "Then at sorcerer level 10, we get an",
+        "start": 1430.24,
+        "duration": 4.08
+    },
+    {
+        "text": "extra cantrip. So, we're going to take",
+        "start": 1432.799,
+        "duration": 3.12
+    },
+    {
+        "text": "true strike to annoy people in the",
+        "start": 1434.32,
+        "duration": 4.0
+    },
+    {
+        "text": "YouTube comments. We'll also pick up",
+        "start": 1435.919,
+        "duration": 4.801
+    },
+    {
+        "text": "another fifth level spell. And again, at",
+        "start": 1438.32,
+        "duration": 3.92
+    },
+    {
+        "text": "this level, there's a lot of room for",
+        "start": 1440.72,
+        "duration": 3.28
+    },
+    {
+        "text": "customization. So, you can go back for",
+        "start": 1442.24,
+        "duration": 3.36
+    },
+    {
+        "text": "one of the spells that I've already",
+        "start": 1444.0,
+        "duration": 3.44
+    },
+    {
+        "text": "mentioned. You can also take cone of",
+        "start": 1445.6,
+        "duration": 4.319
+    },
+    {
+        "text": "cold if you want, again, a large AOE",
+        "start": 1447.44,
+        "duration": 5.359
+    },
+    {
+        "text": "burst damage effect. Getting enemies wet",
+        "start": 1449.919,
+        "duration": 5.201
+    },
+    {
+        "text": "and then dealing double damage to them",
+        "start": 1452.799,
+        "duration": 4.161
+    },
+    {
+        "text": "with Ceone of Cold is very powerful. You",
+        "start": 1455.12,
+        "duration": 3.36
+    },
+    {
+        "text": "do have to be careful with the wet",
+        "start": 1456.96,
+        "duration": 3.44
+    },
+    {
+        "text": "condition since it also gives enemies",
+        "start": 1458.48,
+        "duration": 3.679
+    },
+    {
+        "text": "resistance to fire, and we're going to",
+        "start": 1460.4,
+        "duration": 3.519
+    },
+    {
+        "text": "be doing a lot of fire damage. But,",
+        "start": 1462.159,
+        "duration": 3.201
+    },
+    {
+        "text": "there's actually a tricky thing you can",
+        "start": 1463.919,
+        "duration": 2.88
+    },
+    {
+        "text": "do with that, which I'll talk about a",
+        "start": 1465.36,
+        "duration": 3.12
+    },
+    {
+        "text": "little more in the item section. So,",
+        "start": 1466.799,
+        "duration": 3.681
+    },
+    {
+        "text": "this can be a good selection as well.",
+        "start": 1468.48,
+        "duration": 4.16
+    },
+    {
+        "text": "Um, for a good generic pick, I'm just",
+        "start": 1470.48,
+        "duration": 4.079
+    },
+    {
+        "text": "going to pick up hypnotic pattern. I",
+        "start": 1472.64,
+        "duration": 3.76
+    },
+    {
+        "text": "really like having multiple ways to lock",
+        "start": 1474.559,
+        "duration": 3.681
+    },
+    {
+        "text": "down these encounters, but again, you",
+        "start": 1476.4,
+        "duration": 3.04
+    },
+    {
+        "text": "should have a good sense of what your",
+        "start": 1478.24,
+        "duration": 2.559
+    },
+    {
+        "text": "party needs and what gaps you're trying",
+        "start": 1479.44,
+        "duration": 3.2
+    },
+    {
+        "text": "to fill. At this point, for our",
+        "start": 1480.799,
+        "duration": 3.921
+    },
+    {
+        "text": "metamagic selection, we're going to take",
+        "start": 1482.64,
+        "duration": 5.039
+    },
+    {
+        "text": "heightened spell. This can at the cost",
+        "start": 1484.72,
+        "duration": 5.36
+    },
+    {
+        "text": "of three sorcery points give enemies",
+        "start": 1487.679,
+        "duration": 4.961
+    },
+    {
+        "text": "disadvantage on saves combined with the",
+        "start": 1490.08,
+        "duration": 5.199
+    },
+    {
+        "text": "boost to save DCs that we're getting",
+        "start": 1492.64,
+        "duration": 5.279
+    },
+    {
+        "text": "from the hat of fire acuity if we're",
+        "start": 1495.279,
+        "duration": 4.481
+    },
+    {
+        "text": "using that or just from our save DC",
+        "start": 1497.919,
+        "duration": 4.961
+    },
+    {
+        "text": "items and being a charisma caster and",
+        "start": 1499.76,
+        "duration": 5.12
+    },
+    {
+        "text": "having high charisma. Enemies will",
+        "start": 1502.88,
+        "duration": 4.24
+    },
+    {
+        "text": "almost always fail their saves against",
+        "start": 1504.88,
+        "duration": 4.32
+    },
+    {
+        "text": "any of our spells, which can let us lock",
+        "start": 1507.12,
+        "duration": 4.0
+    },
+    {
+        "text": "down encounters with hold person or hold",
+        "start": 1509.2,
+        "duration": 3.92
+    },
+    {
+        "text": "monster. And even the most difficult",
+        "start": 1511.12,
+        "duration": 3.6
+    },
+    {
+        "text": "boss fights in the game become trivial",
+        "start": 1513.12,
+        "duration": 3.2
+    },
+    {
+        "text": "if you can force them to fail saves",
+        "start": 1514.72,
+        "duration": 2.959
+    },
+    {
+        "text": "against that, assuming they're not",
+        "start": 1516.32,
+        "duration": 3.52
+    },
+    {
+        "text": "immune.",
+        "start": 1517.679,
+        "duration": 4.641
+    },
+    {
+        "text": "And finally, at level 12, we get sixth",
+        "start": 1519.84,
+        "duration": 4.4
+    },
+    {
+        "text": "level sorcerer spells. And we also get",
+        "start": 1522.32,
+        "duration": 4.64
+    },
+    {
+        "text": "the ability to freely fly as a draconic",
+        "start": 1524.24,
+        "duration": 5.919
+    },
+    {
+        "text": "sorcerer. Um, which is really nice. Uh,",
+        "start": 1526.96,
+        "duration": 5.04
+    },
+    {
+        "text": "if you especially if you aren't using",
+        "start": 1530.159,
+        "duration": 5.041
+    },
+    {
+        "text": "the illith fly power, um, free flight",
+        "start": 1532.0,
+        "duration": 5.44
+    },
+    {
+        "text": "all the time is just very powerful and",
+        "start": 1535.2,
+        "duration": 4.0
+    },
+    {
+        "text": "makes this character significantly more",
+        "start": 1537.44,
+        "duration": 4.16
+    },
+    {
+        "text": "mobile. It's a great capstone ability to",
+        "start": 1539.2,
+        "duration": 4.4
+    },
+    {
+        "text": "get at the end of the build. For our",
+        "start": 1541.6,
+        "duration": 3.52
+    },
+    {
+        "text": "spell selection at this level, we're",
+        "start": 1543.6,
+        "duration": 3.28
+    },
+    {
+        "text": "going to take Globe of Invulnerability.",
+        "start": 1545.12,
+        "duration": 3.36
+    },
+    {
+        "text": "There's several boss fights that this",
+        "start": 1546.88,
+        "duration": 3.52
+    },
+    {
+        "text": "just wins outright because it makes you",
+        "start": 1548.48,
+        "duration": 4.96
+    },
+    {
+        "text": "immune to damage for three turns. Um, so",
+        "start": 1550.4,
+        "duration": 4.879
+    },
+    {
+        "text": "in the late game, this is one of the",
+        "start": 1553.44,
+        "duration": 3.76
+    },
+    {
+        "text": "most important tools in the game to have",
+        "start": 1555.279,
+        "duration": 4.961
+    },
+    {
+        "text": "access to. If you are using scrolls or",
+        "start": 1557.2,
+        "duration": 4.88
+    },
+    {
+        "text": "have another caster that has it, chain",
+        "start": 1560.24,
+        "duration": 3.679
+    },
+    {
+        "text": "lightning is also a great burst damage",
+        "start": 1562.08,
+        "duration": 3.52
+    },
+    {
+        "text": "spell. Or of course, you can feel free",
+        "start": 1563.919,
+        "duration": 3.36
+    },
+    {
+        "text": "to go back and pick up spells that you",
+        "start": 1565.6,
+        "duration": 3.92
+    },
+    {
+        "text": "feel you're missing from earlier levels.",
+        "start": 1567.279,
+        "duration": 4.321
+    },
+    {
+        "text": "All right, my friends, that is the",
+        "start": 1569.52,
+        "duration": 4.48
+    },
+    {
+        "text": "updated fire sorcerer, but of course, we",
+        "start": 1571.6,
+        "duration": 4.4
+    },
+    {
+        "text": "can make the character even more",
+        "start": 1574.0,
+        "duration": 6.08
+    },
+    {
+        "text": "powerful and more Bernie um with items.",
+        "start": 1576.0,
+        "duration": 6.08
+    },
+    {
+        "text": "So, let's talk about those. Items for",
+        "start": 1580.08,
+        "duration": 3.28
+    },
+    {
+        "text": "this character are fairly",
+        "start": 1582.08,
+        "duration": 2.88
+    },
+    {
+        "text": "straightforward. We're really looking",
+        "start": 1583.36,
+        "duration": 3.76
+    },
+    {
+        "text": "for one thing and one thing only from",
+        "start": 1584.96,
+        "duration": 4.0
+    },
+    {
+        "text": "our items, and that is to hit with our",
+        "start": 1587.12,
+        "duration": 4.159
+    },
+    {
+        "text": "attacks as frequently as possible. We",
+        "start": 1588.96,
+        "duration": 4.48
+    },
+    {
+        "text": "just want to land our scorching rays as",
+        "start": 1591.279,
+        "duration": 4.161
+    },
+    {
+        "text": "much as possible to do as much damage as",
+        "start": 1593.44,
+        "duration": 4.239
+    },
+    {
+        "text": "possible. Everything else flows from",
+        "start": 1595.44,
+        "duration": 4.4
+    },
+    {
+        "text": "there. So, our itemization is in aid of",
+        "start": 1597.679,
+        "duration": 4.88
+    },
+    {
+        "text": "making that happen as much as it can and",
+        "start": 1599.84,
+        "duration": 5.36
+    },
+    {
+        "text": "mitigating the uh problems that turn up",
+        "start": 1602.559,
+        "duration": 4.881
+    },
+    {
+        "text": "if that somehow doesn't happen. So,",
+        "start": 1605.2,
+        "duration": 3.92
+    },
+    {
+        "text": "we're basically just building defenses",
+        "start": 1607.44,
+        "duration": 3.839
+    },
+    {
+        "text": "and ways to make Scorching Ray land more",
+        "start": 1609.12,
+        "duration": 4.159
+    },
+    {
+        "text": "reliably. For that reason, we're",
+        "start": 1611.279,
+        "duration": 3.921
+    },
+    {
+        "text": "building pretty much every way to",
+        "start": 1613.279,
+        "duration": 3.921
+    },
+    {
+        "text": "increase our spell attack roles that",
+        "start": 1615.2,
+        "duration": 4.24
+    },
+    {
+        "text": "exists in the game. Let's start with our",
+        "start": 1617.2,
+        "duration": 4.56
+    },
+    {
+        "text": "weapon. For our early game, we're going",
+        "start": 1619.44,
+        "duration": 4.64
+    },
+    {
+        "text": "to use the spell sparkler as our weapon.",
+        "start": 1621.76,
+        "duration": 4.24
+    },
+    {
+        "text": "This gives us lightning charges whenever",
+        "start": 1624.08,
+        "duration": 4.88
+    },
+    {
+        "text": "we deal damage with a spell. And those",
+        "start": 1626.0,
+        "duration": 4.88
+    },
+    {
+        "text": "lightning charges increase our chance to",
+        "start": 1628.96,
+        "duration": 3.52
+    },
+    {
+        "text": "hit by plus one. No matter how many",
+        "start": 1630.88,
+        "duration": 3.36
+    },
+    {
+        "text": "charges you have, it's always a plus one",
+        "start": 1632.48,
+        "duration": 4.16
+    },
+    {
+        "text": "to hit. But plus one to hit is a lot in",
+        "start": 1634.24,
+        "duration": 4.88
+    },
+    {
+        "text": "the early game. And making those uh",
+        "start": 1636.64,
+        "duration": 4.88
+    },
+    {
+        "text": "extra hits land more reliably is really",
+        "start": 1639.12,
+        "duration": 4.24
+    },
+    {
+        "text": "powerful. It also adds an extra",
+        "start": 1641.52,
+        "duration": 3.759
+    },
+    {
+        "text": "lightning damage to every ray of our",
+        "start": 1643.36,
+        "duration": 4.24
+    },
+    {
+        "text": "scorching rays and an extra d8 lightning",
+        "start": 1645.279,
+        "duration": 4.64
+    },
+    {
+        "text": "damage when we reach five charges. So,",
+        "start": 1647.6,
+        "duration": 5.28
+    },
+    {
+        "text": "it increases our damage significantly um",
+        "start": 1649.919,
+        "duration": 5.281
+    },
+    {
+        "text": "every single time we cast Scorching Ray.",
+        "start": 1652.88,
+        "duration": 3.679
+    },
+    {
+        "text": "In the late game, we're going to swap to",
+        "start": 1655.2,
+        "duration": 3.359
+    },
+    {
+        "text": "Maraheshar. Of course, this is going to",
+        "start": 1656.559,
+        "duration": 3.921
+    },
+    {
+        "text": "be the best endgame staff for pretty",
+        "start": 1658.559,
+        "duration": 3.921
+    },
+    {
+        "text": "much any spellcaster, but this character",
+        "start": 1660.48,
+        "duration": 4.72
+    },
+    {
+        "text": "in particular uses this staff well.",
+        "start": 1662.48,
+        "duration": 5.12
+    },
+    {
+        "text": "We're very spell slot hungry, so the",
+        "start": 1665.2,
+        "duration": 4.88
+    },
+    {
+        "text": "ability to refresh one of our level six",
+        "start": 1667.6,
+        "duration": 4.8
+    },
+    {
+        "text": "spell slots with arcane battery is",
+        "start": 1670.08,
+        "duration": 4.8
+    },
+    {
+        "text": "incredibly powerful for this character.",
+        "start": 1672.4,
+        "duration": 5.519
+    },
+    {
+        "text": "And uh the plus bonus to spell attack",
+        "start": 1674.88,
+        "duration": 4.799
+    },
+    {
+        "text": "rolls and spell save DC that Mara",
+        "start": 1677.919,
+        "duration": 3.76
+    },
+    {
+        "text": "Hashkar has is great. But what really",
+        "start": 1679.679,
+        "duration": 4.401
+    },
+    {
+        "text": "sets it apart is Caresa's favor. When",
+        "start": 1681.679,
+        "duration": 4.961
+    },
+    {
+        "text": "you have Marahesh gear equipped, you can",
+        "start": 1684.08,
+        "duration": 5.839
+    },
+    {
+        "text": "use Caresa's favor and set it to fire.",
+        "start": 1686.64,
+        "duration": 6.08
+    },
+    {
+        "text": "And this will add fire uh your",
+        "start": 1689.919,
+        "duration": 4.88
+    },
+    {
+        "text": "proficiency bonus in fire damage to",
+        "start": 1692.72,
+        "duration": 4.88
+    },
+    {
+        "text": "every spell that deals fire damage.",
+        "start": 1694.799,
+        "duration": 4.961
+    },
+    {
+        "text": "Since this applies to every individual",
+        "start": 1697.6,
+        "duration": 4.16
+    },
+    {
+        "text": "ray of the scorching ray, this is",
+        "start": 1699.76,
+        "duration": 4.72
+    },
+    {
+        "text": "another plus4 damage on every single ray",
+        "start": 1701.76,
+        "duration": 5.12
+    },
+    {
+        "text": "that we fire. It also allows us to build",
+        "start": 1704.48,
+        "duration": 5.12
+    },
+    {
+        "text": "up heat, which we can then use to use",
+        "start": 1706.88,
+        "duration": 5.6
+    },
+    {
+        "text": "heat convergence to add even more fire",
+        "start": 1709.6,
+        "duration": 6.16
+    },
+    {
+        "text": "damage to our next spell. The usual the",
+        "start": 1712.48,
+        "duration": 4.88
+    },
+    {
+        "text": "heat convergence tool tip here is",
+        "start": 1715.76,
+        "duration": 3.2
+    },
+    {
+        "text": "broken, but basically you'll build up",
+        "start": 1717.36,
+        "duration": 3.36
+    },
+    {
+        "text": "charges of heat convergence. You then",
+        "start": 1718.96,
+        "duration": 4.319
+    },
+    {
+        "text": "activate it and it adds that many points",
+        "start": 1720.72,
+        "duration": 5.04
+    },
+    {
+        "text": "of damage to your next spell. It'll only",
+        "start": 1723.279,
+        "duration": 5.041
+    },
+    {
+        "text": "work on one ray of a scorching ray. So",
+        "start": 1725.76,
+        "duration": 4.56
+    },
+    {
+        "text": "the usual pattern for this is you use",
+        "start": 1728.32,
+        "duration": 4.079
+    },
+    {
+        "text": "scorching ray to build up heat",
+        "start": 1730.32,
+        "duration": 4.32
+    },
+    {
+        "text": "convergent to to build up heat. Then you",
+        "start": 1732.399,
+        "duration": 4.241
+    },
+    {
+        "text": "discharge it in a fireball. So you apply",
+        "start": 1734.64,
+        "duration": 3.919
+    },
+    {
+        "text": "the extra damage to every enemy that",
+        "start": 1736.64,
+        "duration": 3.68
+    },
+    {
+        "text": "gets hit by the fireball. It's a small",
+        "start": 1738.559,
+        "duration": 4.961
+    },
+    {
+        "text": "amount of damage, but it does add up. In",
+        "start": 1740.32,
+        "duration": 4.8
+    },
+    {
+        "text": "addition to our weapon, because we're a",
+        "start": 1743.52,
+        "duration": 4.0
+    },
+    {
+        "text": "hexblade warlock, we also get access to",
+        "start": 1745.12,
+        "duration": 4.48
+    },
+    {
+        "text": "a shield. And the best shield by far for",
+        "start": 1747.52,
+        "duration": 4.72
+    },
+    {
+        "text": "this character is Keic's shield. plus",
+        "start": 1749.6,
+        "duration": 4.64
+    },
+    {
+        "text": "one to spell safe DC and spell attack",
+        "start": 1752.24,
+        "duration": 4.64
+    },
+    {
+        "text": "rolls is exactly what we're looking for.",
+        "start": 1754.24,
+        "duration": 4.319
+    },
+    {
+        "text": "We also want to hit our attacks more",
+        "start": 1756.88,
+        "duration": 3.519
+    },
+    {
+        "text": "often and have them do more damage. So,",
+        "start": 1758.559,
+        "duration": 3.84
+    },
+    {
+        "text": "our rings are going to be the same setup",
+        "start": 1760.399,
+        "duration": 4.801
+    },
+    {
+        "text": "for that um that in aid of that same",
+        "start": 1762.399,
+        "duration": 5.441
+    },
+    {
+        "text": "plan. The risky ring again is incredibly",
+        "start": 1765.2,
+        "duration": 4.56
+    },
+    {
+        "text": "strong on this character. We don't",
+        "start": 1767.84,
+        "duration": 3.76
+    },
+    {
+        "text": "really care about disadvantage on saving",
+        "start": 1769.76,
+        "duration": 4.159
+    },
+    {
+        "text": "throws in most scenarios, though it can",
+        "start": 1771.6,
+        "duration": 4.72
+    },
+    {
+        "text": "be fairly bad because it does um for",
+        "start": 1773.919,
+        "duration": 4.961
+    },
+    {
+        "text": "losing concentration on spells, but",
+        "start": 1776.32,
+        "duration": 4.32
+    },
+    {
+        "text": "usually you are not going to be making",
+        "start": 1778.88,
+        "duration": 3.44
+    },
+    {
+        "text": "that many saving throws on this",
+        "start": 1780.64,
+        "duration": 4.0
+    },
+    {
+        "text": "character. Uh and advantage on your",
+        "start": 1782.32,
+        "duration": 4.239
+    },
+    {
+        "text": "attacks means that your scorching rays",
+        "start": 1784.64,
+        "duration": 4.32
+    },
+    {
+        "text": "land more often and are more likely to",
+        "start": 1786.559,
+        "duration": 4.081
+    },
+    {
+        "text": "critically hit, so they do more damage",
+        "start": 1788.96,
+        "duration": 3.36
+    },
+    {
+        "text": "when they hit. We're also going to use",
+        "start": 1790.64,
+        "duration": 4.08
+    },
+    {
+        "text": "the callous glow ring to add two extra",
+        "start": 1792.32,
+        "duration": 5.2
+    },
+    {
+        "text": "damage to every single ray. You can see",
+        "start": 1794.72,
+        "duration": 4.4
+    },
+    {
+        "text": "how this uh works out where we're",
+        "start": 1797.52,
+        "duration": 3.759
+    },
+    {
+        "text": "stacking additional damage on every ray",
+        "start": 1799.12,
+        "duration": 4.48
+    },
+    {
+        "text": "and making sure that they always hit to",
+        "start": 1801.279,
+        "duration": 4.4
+    },
+    {
+        "text": "do that even more frequently. Our glove",
+        "start": 1803.6,
+        "duration": 5.04
+    },
+    {
+        "text": "slot has a couple options as well. The",
+        "start": 1805.679,
+        "duration": 5.441
+    },
+    {
+        "text": "Heldusk gloves also a bonus to spell",
+        "start": 1808.64,
+        "duration": 5.6
+    },
+    {
+        "text": "attack rolls and spell save DC um and",
+        "start": 1811.12,
+        "duration": 5.2
+    },
+    {
+        "text": "give us rays of fire as an additional",
+        "start": 1814.24,
+        "duration": 4.319
+    },
+    {
+        "text": "spellcast. This is a really nice spell",
+        "start": 1816.32,
+        "duration": 4.479
+    },
+    {
+        "text": "for this character uh that just does",
+        "start": 1818.559,
+        "duration": 5.521
+    },
+    {
+        "text": "some ex some excellent damage. It is",
+        "start": 1820.799,
+        "duration": 6.161
+    },
+    {
+        "text": "basically an extra cast of a medium",
+        "start": 1824.08,
+        "duration": 5.199
+    },
+    {
+        "text": "level scorching ray um every single",
+        "start": 1826.96,
+        "duration": 4.0
+    },
+    {
+        "text": "short rest. And since this character is",
+        "start": 1829.279,
+        "duration": 3.601
+    },
+    {
+        "text": "so spell slot hungry, the hell dust",
+        "start": 1830.96,
+        "duration": 4.24
+    },
+    {
+        "text": "gloves spellcast here is actually very",
+        "start": 1832.88,
+        "duration": 5.039
+    },
+    {
+        "text": "good. The other option for our gloves is",
+        "start": 1835.2,
+        "duration": 4.88
+    },
+    {
+        "text": "the spell might gloves. The spell might",
+        "start": 1837.919,
+        "duration": 4.321
+    },
+    {
+        "text": "gloves let you take a minus five penalty",
+        "start": 1840.08,
+        "duration": 4.4
+    },
+    {
+        "text": "to your hit chance, which obviously is a",
+        "start": 1842.24,
+        "duration": 4.72
+    },
+    {
+        "text": "pretty severe penalty for an extra d8",
+        "start": 1844.48,
+        "duration": 4.559
+    },
+    {
+        "text": "damage on any spell that requires an",
+        "start": 1846.96,
+        "duration": 4.0
+    },
+    {
+        "text": "attack roll. Well, scorching ray",
+        "start": 1849.039,
+        "duration": 3.52
+    },
+    {
+        "text": "requires an attack roll. So, this is an",
+        "start": 1850.96,
+        "duration": 4.0
+    },
+    {
+        "text": "extra d8 damage on every single ray that",
+        "start": 1852.559,
+        "duration": 4.961
+    },
+    {
+        "text": "we fire. We can mitigate the downsides",
+        "start": 1854.96,
+        "duration": 5.76
+    },
+    {
+        "text": "with the bonuses from our uh extra hit",
+        "start": 1857.52,
+        "duration": 5.039
+    },
+    {
+        "text": "chance from things like the risky ring.",
+        "start": 1860.72,
+        "duration": 3.679
+    },
+    {
+        "text": "And of course, the hat of fire acuity",
+        "start": 1862.559,
+        "duration": 3.521
+    },
+    {
+        "text": "means that once we've started hitting",
+        "start": 1864.399,
+        "duration": 4.081
+    },
+    {
+        "text": "enemies, we're never going to miss with",
+        "start": 1866.08,
+        "duration": 4.64
+    },
+    {
+        "text": "subsequent scorching rays because arcane",
+        "start": 1868.48,
+        "duration": 4.799
+    },
+    {
+        "text": "acuity will give us such a huge bonus.",
+        "start": 1870.72,
+        "duration": 5.04
+    },
+    {
+        "text": "For our amulet selection, we have",
+        "start": 1873.279,
+        "duration": 5.441
+    },
+    {
+        "text": "several different options. um the amulet",
+        "start": 1875.76,
+        "duration": 4.96
+    },
+    {
+        "text": "of the devout if you want to focus more",
+        "start": 1878.72,
+        "duration": 4.319
+    },
+    {
+        "text": "on control spells. This doesn't increase",
+        "start": 1880.72,
+        "duration": 4.48
+    },
+    {
+        "text": "your chance to hit with spells, but save",
+        "start": 1883.039,
+        "duration": 4.081
+    },
+    {
+        "text": "DC is still really good. So, this is",
+        "start": 1885.2,
+        "duration": 3.76
+    },
+    {
+        "text": "just a great caster amulet. Or the",
+        "start": 1887.12,
+        "duration": 3.52
+    },
+    {
+        "text": "amulet of greater health can make this",
+        "start": 1888.96,
+        "duration": 3.68
+    },
+    {
+        "text": "character significantly tankier when",
+        "start": 1890.64,
+        "duration": 3.6
+    },
+    {
+        "text": "combined with the plus one health per",
+        "start": 1892.64,
+        "duration": 3.759
+    },
+    {
+        "text": "level that you get from being a draconic",
+        "start": 1894.24,
+        "duration": 4.64
+    },
+    {
+        "text": "sorcerer. This means that um you",
+        "start": 1896.399,
+        "duration": 4.721
+    },
+    {
+        "text": "actually end up with an extremely high",
+        "start": 1898.88,
+        "duration": 3.84
+    },
+    {
+        "text": "health total if you're wearing the",
+        "start": 1901.12,
+        "duration": 4.08
+    },
+    {
+        "text": "amulet of greater health. 134 for a",
+        "start": 1902.72,
+        "duration": 5.679
+    },
+    {
+        "text": "sorcerer is uh extremely powerful and",
+        "start": 1905.2,
+        "duration": 5.359
+    },
+    {
+        "text": "very hard to take down. Some other good",
+        "start": 1908.399,
+        "duration": 4.561
+    },
+    {
+        "text": "option uh another good option includes",
+        "start": 1910.559,
+        "duration": 5.6
+    },
+    {
+        "text": "the another good option is the spine",
+        "start": 1912.96,
+        "duration": 4.719
+    },
+    {
+        "text": "shutter amulet. I don't know why I was",
+        "start": 1916.159,
+        "duration": 4.4
+    },
+    {
+        "text": "stumbling so much over saying that. Um",
+        "start": 1917.679,
+        "duration": 5.041
+    },
+    {
+        "text": "which when you deal damage with a range",
+        "start": 1920.559,
+        "duration": 3.921
+    },
+    {
+        "text": "spell attack, which is what we're doing,",
+        "start": 1922.72,
+        "duration": 3.679
+    },
+    {
+        "text": "we inflict two turns of reverberation.",
+        "start": 1924.48,
+        "duration": 4.0
+    },
+    {
+        "text": "One scorching ray will easily max out",
+        "start": 1926.399,
+        "duration": 3.841
+    },
+    {
+        "text": "reverberation multiple times on a",
+        "start": 1928.48,
+        "duration": 3.52
+    },
+    {
+        "text": "target. So, that's extra damage and",
+        "start": 1930.24,
+        "duration": 4.72
+    },
+    {
+        "text": "knocking enemies prone with um casts of",
+        "start": 1932.0,
+        "duration": 5.6
+    },
+    {
+        "text": "your scorching rays. Very powerful as",
+        "start": 1934.96,
+        "duration": 4.8
+    },
+    {
+        "text": "well. Finally, this isn't one that",
+        "start": 1937.6,
+        "duration": 3.919
+    },
+    {
+        "text": "you're going to wear full time, but it's",
+        "start": 1939.76,
+        "duration": 3.36
+    },
+    {
+        "text": "very much worth mentioning. This",
+        "start": 1941.519,
+        "duration": 4.16
+    },
+    {
+        "text": "character wants as many spell slots as",
+        "start": 1943.12,
+        "duration": 6.559
+    },
+    {
+        "text": "possible. Um we we can both uh consume",
+        "start": 1945.679,
+        "duration": 6.0
+    },
+    {
+        "text": "them for sorcery points and cast them",
+        "start": 1949.679,
+        "duration": 4.161
+    },
+    {
+        "text": "for very damaging spells. So, the",
+        "start": 1951.679,
+        "duration": 4.24
+    },
+    {
+        "text": "spellcrux amulet and other ways to",
+        "start": 1953.84,
+        "duration": 3.839
+    },
+    {
+        "text": "restore your spell slots are very",
+        "start": 1955.919,
+        "duration": 3.6
+    },
+    {
+        "text": "important. You're going to swap this in,",
+        "start": 1957.679,
+        "duration": 4.081
+    },
+    {
+        "text": "restore the spell slot, and then swap",
+        "start": 1959.519,
+        "duration": 4.4
+    },
+    {
+        "text": "back to your normal amulet in order to",
+        "start": 1961.76,
+        "duration": 3.759
+    },
+    {
+        "text": "keep going for longer during your",
+        "start": 1963.919,
+        "duration": 4.721
+    },
+    {
+        "text": "adventuring days. For armor, we're going",
+        "start": 1965.519,
+        "duration": 5.361
+    },
+    {
+        "text": "to end up in the robe of the weave by",
+        "start": 1968.64,
+        "duration": 4.639
+    },
+    {
+        "text": "the end game. Again, bonus to spell save",
+        "start": 1970.88,
+        "duration": 4.56
+    },
+    {
+        "text": "DC and spell attack rules combined with",
+        "start": 1973.279,
+        "duration": 4.161
+    },
+    {
+        "text": "the draconic sorcerer's natural mage",
+        "start": 1975.44,
+        "duration": 4.0
+    },
+    {
+        "text": "armor and ketherix shield. That gives us",
+        "start": 1977.44,
+        "duration": 5.2
+    },
+    {
+        "text": "a fairly respectable 20 AC um in the",
+        "start": 1979.44,
+        "duration": 5.76
+    },
+    {
+        "text": "endame before any other bonuses. And of",
+        "start": 1982.64,
+        "duration": 4.0
+    },
+    {
+        "text": "course, we have shield to boost it to",
+        "start": 1985.2,
+        "duration": 4.079
+    },
+    {
+        "text": "25. So, while this character isn't",
+        "start": 1986.64,
+        "duration": 4.399
+    },
+    {
+        "text": "incredibly tanky, they're not squishy",
+        "start": 1989.279,
+        "duration": 5.12
+    },
+    {
+        "text": "the way other uh sorcerers often are.",
+        "start": 1991.039,
+        "duration": 5.281
+    },
+    {
+        "text": "Other good options, especially in the",
+        "start": 1994.399,
+        "duration": 4.321
+    },
+    {
+        "text": "early game, you can use any medium armor",
+        "start": 1996.32,
+        "duration": 4.4
+    },
+    {
+        "text": "with this character. Usually, I like to",
+        "start": 1998.72,
+        "duration": 3.76
+    },
+    {
+        "text": "just put them in whatever medium armor",
+        "start": 2000.72,
+        "duration": 3.839
+    },
+    {
+        "text": "the rest of my party doesn't need",
+        "start": 2002.48,
+        "duration": 3.919
+    },
+    {
+        "text": "because they're still going to be",
+        "start": 2004.559,
+        "duration": 3.281
+    },
+    {
+        "text": "playing at the back. They're less likely",
+        "start": 2006.399,
+        "duration": 2.88
+    },
+    {
+        "text": "to be taking attacks than other",
+        "start": 2007.84,
+        "duration": 4.24
+    },
+    {
+        "text": "characters, so you don't need to invest",
+        "start": 2009.279,
+        "duration": 5.28
+    },
+    {
+        "text": "in specific medium armor sets for them.",
+        "start": 2012.08,
+        "duration": 4.56
+    },
+    {
+        "text": "But so just go with whatever the rest of",
+        "start": 2014.559,
+        "duration": 3.36
+    },
+    {
+        "text": "your party doesn't need that gives them",
+        "start": 2016.64,
+        "duration": 4.0
+    },
+    {
+        "text": "the highest AC. Uh the full dexterity",
+        "start": 2017.919,
+        "duration": 5.281
+    },
+    {
+        "text": "bonuses like the Yonti scale mail are",
+        "start": 2020.64,
+        "duration": 3.919
+    },
+    {
+        "text": "good and this gives you plus one",
+        "start": 2023.2,
+        "duration": 2.959
+    },
+    {
+        "text": "initiative. So this is a pretty nice",
+        "start": 2024.559,
+        "duration": 3.201
+    },
+    {
+        "text": "character for this up until you get the",
+        "start": 2026.159,
+        "duration": 4.0
+    },
+    {
+        "text": "rogue of robe of the weave. Uh the",
+        "start": 2027.76,
+        "duration": 5.12
+    },
+    {
+        "text": "potent robe is also very good. This is",
+        "start": 2030.159,
+        "duration": 4.561
+    },
+    {
+        "text": "still a warlock. So, even though this is",
+        "start": 2032.88,
+        "duration": 4.159
+    },
+    {
+        "text": "more for full warlocks, this character",
+        "start": 2034.72,
+        "duration": 4.64
+    },
+    {
+        "text": "still fires Eldrich Blasts, which will",
+        "start": 2037.039,
+        "duration": 4.321
+    },
+    {
+        "text": "get your charisma bonus to each ray of",
+        "start": 2039.36,
+        "duration": 3.919
+    },
+    {
+        "text": "the Eldrich Blast. And the extra",
+        "start": 2041.36,
+        "duration": 3.439
+    },
+    {
+        "text": "temporary hit points make you even",
+        "start": 2043.279,
+        "duration": 3.441
+    },
+    {
+        "text": "tankier, as does the extra armor class.",
+        "start": 2044.799,
+        "duration": 3.6
+    },
+    {
+        "text": "So, this is a good option. But in the",
+        "start": 2046.72,
+        "duration": 3.359
+    },
+    {
+        "text": "end game, the robe of the weave is hard",
+        "start": 2048.399,
+        "duration": 3.68
+    },
+    {
+        "text": "to beat for a spellcaster that wants to",
+        "start": 2050.079,
+        "duration": 4.56
+    },
+    {
+        "text": "make spell attack rolls. In addition to",
+        "start": 2052.079,
+        "duration": 4.8
+    },
+    {
+        "text": "that, the cloak of the weave weave does",
+        "start": 2054.639,
+        "duration": 4.321
+    },
+    {
+        "text": "the same thing, but in the cloak slot,",
+        "start": 2056.879,
+        "duration": 4.161
+    },
+    {
+        "text": "which is also a very uncontested slot.",
+        "start": 2058.96,
+        "duration": 4.8
+    },
+    {
+        "text": "So that's uh almost 100% going to be",
+        "start": 2061.04,
+        "duration": 4.96
+    },
+    {
+        "text": "your cloak for this character. For our",
+        "start": 2063.76,
+        "duration": 4.319
+    },
+    {
+        "text": "boots, there are a few different options",
+        "start": 2066.0,
+        "duration": 3.679
+    },
+    {
+        "text": "that we can use. Again, the",
+        "start": 2068.079,
+        "duration": 4.0
+    },
+    {
+        "text": "disintegrating night walkers is always",
+        "start": 2069.679,
+        "duration": 4.881
+    },
+    {
+        "text": "just a default very powerful boot for",
+        "start": 2072.079,
+        "duration": 4.0
+    },
+    {
+        "text": "characters that don't need anything else",
+        "start": 2074.56,
+        "duration": 3.44
+    },
+    {
+        "text": "in particular. So always a good option",
+        "start": 2076.079,
+        "duration": 3.361
+    },
+    {
+        "text": "for this character. Can prevent you",
+        "start": 2078.0,
+        "duration": 4.079
+    },
+    {
+        "text": "falling over and losing concentration on",
+        "start": 2079.44,
+        "duration": 4.88
+    },
+    {
+        "text": "uh haste as well. And it lets you sub",
+        "start": 2082.079,
+        "duration": 4.161
+    },
+    {
+        "text": "misty step out in your spell selection",
+        "start": 2084.32,
+        "duration": 3.839
+    },
+    {
+        "text": "for another spell. And since this",
+        "start": 2086.24,
+        "duration": 4.08
+    },
+    {
+        "text": "character is so constrained on spell",
+        "start": 2088.159,
+        "duration": 3.92
+    },
+    {
+        "text": "selection, that can get you a lot more",
+        "start": 2090.32,
+        "duration": 4.16
+    },
+    {
+        "text": "options. Uh, another good option for",
+        "start": 2092.079,
+        "duration": 4.32
+    },
+    {
+        "text": "this character is the boots of striding.",
+        "start": 2094.48,
+        "duration": 3.76
+    },
+    {
+        "text": "Since we're a hexblade, we have medium",
+        "start": 2096.399,
+        "duration": 3.841
+    },
+    {
+        "text": "armor proficiency. So, normally these",
+        "start": 2098.24,
+        "duration": 4.16
+    },
+    {
+        "text": "aren't available to sorcerers, but since",
+        "start": 2100.24,
+        "duration": 4.64
+    },
+    {
+        "text": "we have con save proficiency, we might",
+        "start": 2102.4,
+        "duration": 4.4
+    },
+    {
+        "text": "be wearing the amulet of greater health",
+        "start": 2104.88,
+        "duration": 5.36
+    },
+    {
+        "text": "for advantage on con saves as well. Um,",
+        "start": 2106.8,
+        "duration": 6.16
+    },
+    {
+        "text": "this character and we may well be a",
+        "start": 2110.24,
+        "duration": 4.56
+    },
+    {
+        "text": "halfling as well. This character is very",
+        "start": 2112.96,
+        "duration": 3.84
+    },
+    {
+        "text": "good at not dropping concentration on",
+        "start": 2114.8,
+        "duration": 5.6
+    },
+    {
+        "text": "spells. Uh but going prone automatically",
+        "start": 2116.8,
+        "duration": 5.2
+    },
+    {
+        "text": "makes you drop concentration. So the",
+        "start": 2120.4,
+        "duration": 3.52
+    },
+    {
+        "text": "boots of striding prevent one of the",
+        "start": 2122.0,
+        "duration": 4.48
+    },
+    {
+        "text": "ways that you can lose concentration. Uh",
+        "start": 2123.92,
+        "duration": 4.56
+    },
+    {
+        "text": "and are very good on any character that",
+        "start": 2126.48,
+        "duration": 3.52
+    },
+    {
+        "text": "wants to maintain concentration on",
+        "start": 2128.48,
+        "duration": 4.0
+    },
+    {
+        "text": "haste. Another pair of boots that I like",
+        "start": 2130.0,
+        "duration": 4.32
+    },
+    {
+        "text": "a lot for this character if you don't",
+        "start": 2132.48,
+        "duration": 3.28
+    },
+    {
+        "text": "mind a little bit of extra",
+        "start": 2134.32,
+        "duration": 4.16
+    },
+    {
+        "text": "micromanagement is the boots of arcane",
+        "start": 2135.76,
+        "duration": 4.72
+    },
+    {
+        "text": "bolstering. This gives you arcane",
+        "start": 2138.48,
+        "duration": 4.56
+    },
+    {
+        "text": "charge, which increases your damage by",
+        "start": 2140.48,
+        "duration": 4.96
+    },
+    {
+        "text": "two with spells against threatened",
+        "start": 2143.04,
+        "duration": 4.48
+    },
+    {
+        "text": "targets. Uh, the tool tip here is wrong.",
+        "start": 2145.44,
+        "duration": 3.6
+    },
+    {
+        "text": "It says while you're threatened, you",
+        "start": 2147.52,
+        "duration": 2.96
+    },
+    {
+        "text": "deal plus two damage. It's actually",
+        "start": 2149.04,
+        "duration": 3.039
+    },
+    {
+        "text": "while the enemy is threatened. So, it",
+        "start": 2150.48,
+        "duration": 3.84
+    },
+    {
+        "text": "can be by an ally and you can be far",
+        "start": 2152.079,
+        "duration": 6.161
+    },
+    {
+        "text": "away from them. Um, for two turns. This",
+        "start": 2154.32,
+        "duration": 6.0
+    },
+    {
+        "text": "happens each time you dash, and you can",
+        "start": 2158.24,
+        "duration": 4.0
+    },
+    {
+        "text": "dash before combat starts. So, if you",
+        "start": 2160.32,
+        "duration": 4.32
+    },
+    {
+        "text": "want to use a dash action before combat",
+        "start": 2162.24,
+        "duration": 4.64
+    },
+    {
+        "text": "starts, get two turns of arcane charge.",
+        "start": 2164.64,
+        "duration": 5.36
+    },
+    {
+        "text": "Your initial burst damage with the",
+        "start": 2166.88,
+        "duration": 4.8
+    },
+    {
+        "text": "scorching ray will have plus two damage",
+        "start": 2170.0,
+        "duration": 3.44
+    },
+    {
+        "text": "on every single roll, which again is",
+        "start": 2171.68,
+        "duration": 4.32
+    },
+    {
+        "text": "very powerful. The arcane charge bonus",
+        "start": 2173.44,
+        "duration": 6.32
+    },
+    {
+        "text": "damage is also even on honor mode, um",
+        "start": 2176.0,
+        "duration": 6.24
+    },
+    {
+        "text": "can be a damage rider source, uh which",
+        "start": 2179.76,
+        "duration": 5.52
+    },
+    {
+        "text": "is a kind of buggy way of saying does",
+        "start": 2182.24,
+        "duration": 4.879
+    },
+    {
+        "text": "more damage than it should in",
+        "start": 2185.28,
+        "duration": 3.44
+    },
+    {
+        "text": "combination with some other things than",
+        "start": 2187.119,
+        "duration": 4.0
+    },
+    {
+        "text": "we're using. and on lower difficulties",
+        "start": 2188.72,
+        "duration": 5.76
+    },
+    {
+        "text": "will deal even more damage than that.",
+        "start": 2191.119,
+        "duration": 5.921
+    },
+    {
+        "text": "Your helmet is probably the most",
+        "start": 2194.48,
+        "duration": 4.16
+    },
+    {
+        "text": "important slot for this character and",
+        "start": 2197.04,
+        "duration": 3.2
+    },
+    {
+        "text": "the one where you have to make the the",
+        "start": 2198.64,
+        "duration": 3.36
+    },
+    {
+        "text": "toughest decision. There's a lot of",
+        "start": 2200.24,
+        "duration": 5.359
+    },
+    {
+        "text": "really good hats for the fire sorcerer.",
+        "start": 2202.0,
+        "duration": 5.359
+    },
+    {
+        "text": "Of course, the birthright hat is always",
+        "start": 2205.599,
+        "duration": 3.681
+    },
+    {
+        "text": "a great option for a charisma character.",
+        "start": 2207.359,
+        "duration": 3.521
+    },
+    {
+        "text": "We're adding our charisma many times",
+        "start": 2209.28,
+        "duration": 3.839
+    },
+    {
+        "text": "over to our damage, so increasing it is",
+        "start": 2210.88,
+        "duration": 4.4
+    },
+    {
+        "text": "always going to be excellent. The hat of",
+        "start": 2213.119,
+        "duration": 4.401
+    },
+    {
+        "text": "fire acuity is the natural choice of",
+        "start": 2215.28,
+        "duration": 4.0
+    },
+    {
+        "text": "course for a fire sorcerer, though it",
+        "start": 2217.52,
+        "duration": 4.72
+    },
+    {
+        "text": "takes a specific story path to get. Um,",
+        "start": 2219.28,
+        "duration": 4.799
+    },
+    {
+        "text": "whenever we deal fire damage, which",
+        "start": 2222.24,
+        "duration": 3.92
+    },
+    {
+        "text": "we're doing with scorching ray, we gain",
+        "start": 2224.079,
+        "duration": 4.401
+    },
+    {
+        "text": "arcane acuity for two turns. Arcane",
+        "start": 2226.16,
+        "duration": 4.24
+    },
+    {
+        "text": "Acuity gives us a plus one bonus to our",
+        "start": 2228.48,
+        "duration": 3.92
+    },
+    {
+        "text": "attack rolls and save DC. So, it's going",
+        "start": 2230.4,
+        "duration": 4.56
+    },
+    {
+        "text": "to make our hold persons uh impossible",
+        "start": 2232.4,
+        "duration": 4.8
+    },
+    {
+        "text": "to resist and our scorching rays",
+        "start": 2234.96,
+        "duration": 4.56
+    },
+    {
+        "text": "impossible to dodge. So, of course, with",
+        "start": 2237.2,
+        "duration": 4.48
+    },
+    {
+        "text": "the hat of fire acuity, you charge up",
+        "start": 2239.52,
+        "duration": 4.64
+    },
+    {
+        "text": "this character to become uh impossible",
+        "start": 2241.68,
+        "duration": 4.88
+    },
+    {
+        "text": "for enemies to avoid taking damage or",
+        "start": 2244.16,
+        "duration": 4.48
+    },
+    {
+        "text": "dying to them. If you're not using that,",
+        "start": 2246.56,
+        "duration": 3.68
+    },
+    {
+        "text": "a good alternative is the hood of the",
+        "start": 2248.64,
+        "duration": 3.439
+    },
+    {
+        "text": "weave. This is just a flat plus two to",
+        "start": 2250.24,
+        "duration": 4.16
+    },
+    {
+        "text": "your spell attack rules. And another uh",
+        "start": 2252.079,
+        "duration": 4.241
+    },
+    {
+        "text": "hat that I like quite a lot on this",
+        "start": 2254.4,
+        "duration": 4.959
+    },
+    {
+        "text": "character is the pyro quickness hat um",
+        "start": 2256.32,
+        "duration": 5.12
+    },
+    {
+        "text": "which whenever you deal fire damage, you",
+        "start": 2259.359,
+        "duration": 3.921
+    },
+    {
+        "text": "burn yourself and get an extra bonus",
+        "start": 2261.44,
+        "duration": 4.24
+    },
+    {
+        "text": "action. It only works once per round,",
+        "start": 2263.28,
+        "duration": 4.64
+    },
+    {
+        "text": "but an extra bonus action is incredibly",
+        "start": 2265.68,
+        "duration": 4.32
+    },
+    {
+        "text": "strong for a sorcerer since you can",
+        "start": 2267.92,
+        "duration": 4.48
+    },
+    {
+        "text": "quicken spells uh with it. And for this",
+        "start": 2270.0,
+        "duration": 4.32
+    },
+    {
+        "text": "character in particular, where you can",
+        "start": 2272.4,
+        "duration": 3.52
+    },
+    {
+        "text": "use it to cast hex blades, curse, and",
+        "start": 2274.32,
+        "duration": 3.759
+    },
+    {
+        "text": "hex. You do have to be very careful with",
+        "start": 2275.92,
+        "duration": 4.8
+    },
+    {
+        "text": "the pyro quickness hat. It will burn you",
+        "start": 2278.079,
+        "duration": 5.28
+    },
+    {
+        "text": "once for each time you cast scorching",
+        "start": 2280.72,
+        "duration": 4.0
+    },
+    {
+        "text": "ray. So, you're going to want some way",
+        "start": 2283.359,
+        "duration": 3.521
+    },
+    {
+        "text": "to become immune to burning, whether",
+        "start": 2284.72,
+        "duration": 4.879
+    },
+    {
+        "text": "that be uh getting yourself wet or",
+        "start": 2286.88,
+        "duration": 5.52
+    },
+    {
+        "text": "wearing the uh cloak that gets you wet.",
+        "start": 2289.599,
+        "duration": 5.681
+    },
+    {
+        "text": "Um or have damage redu enough damage",
+        "start": 2292.4,
+        "duration": 5.439
+    },
+    {
+        "text": "reduction uh from your resistance to",
+        "start": 2295.28,
+        "duration": 5.12
+    },
+    {
+        "text": "fire damage from being a a fire sorcerer",
+        "start": 2297.839,
+        "duration": 4.561
+    },
+    {
+        "text": "and then some form of damage reduction",
+        "start": 2300.4,
+        "duration": 4.0
+    },
+    {
+        "text": "on top of that that you can ignore the",
+        "start": 2302.4,
+        "duration": 4.88
+    },
+    {
+        "text": "1d4 damage. Otherwise, it the even",
+        "start": 2304.4,
+        "duration": 4.64
+    },
+    {
+        "text": "though the chances of each individual",
+        "start": 2307.28,
+        "duration": 4.0
+    },
+    {
+        "text": "one dropping concentration are low, the",
+        "start": 2309.04,
+        "duration": 4.319
+    },
+    {
+        "text": "burning will uh cause you to drop",
+        "start": 2311.28,
+        "duration": 3.52
+    },
+    {
+        "text": "concentration. So, you do have to be a",
+        "start": 2313.359,
+        "duration": 2.801
+    },
+    {
+        "text": "little careful with this item, but if",
+        "start": 2314.8,
+        "duration": 2.559
+    },
+    {
+        "text": "you want to build around it, it's",
+        "start": 2316.16,
+        "duration": 3.199
+    },
+    {
+        "text": "incredibly strong. Finally, you can",
+        "start": 2317.359,
+        "duration": 4.24
+    },
+    {
+        "text": "round it out with a good passive from",
+        "start": 2319.359,
+        "duration": 3.521
+    },
+    {
+        "text": "your bow. You're not going to be",
+        "start": 2321.599,
+        "duration": 2.401
+    },
+    {
+        "text": "shooting your bow because you have",
+        "start": 2322.88,
+        "duration": 2.8
+    },
+    {
+        "text": "cantrips that you prefer to use, but the",
+        "start": 2324.0,
+        "duration": 3.44
+    },
+    {
+        "text": "Deadshot for increased critical hit",
+        "start": 2325.68,
+        "duration": 4.08
+    },
+    {
+        "text": "chance or the Hell Rider Long Bow for",
+        "start": 2327.44,
+        "duration": 4.08
+    },
+    {
+        "text": "increased initiative, especially if you",
+        "start": 2329.76,
+        "duration": 3.2
+    },
+    {
+        "text": "went the version of the build that",
+        "start": 2331.52,
+        "duration": 3.76
+    },
+    {
+        "text": "doesn't have alert, will be your best",
+        "start": 2332.96,
+        "duration": 4.72
+    },
+    {
+        "text": "options for passives. Increased crit",
+        "start": 2335.28,
+        "duration": 3.92
+    },
+    {
+        "text": "chance is really good on a character",
+        "start": 2337.68,
+        "duration": 3.2
+    },
+    {
+        "text": "rolling this many attacks and all of",
+        "start": 2339.2,
+        "duration": 4.639
+    },
+    {
+        "text": "those attacks have advantage. Finally,",
+        "start": 2340.88,
+        "duration": 5.04
+    },
+    {
+        "text": "it's worth mentioning a few items that",
+        "start": 2343.839,
+        "duration": 4.721
+    },
+    {
+        "text": "are not for this character, but are",
+        "start": 2345.92,
+        "duration": 5.12
+    },
+    {
+        "text": "really powerful if your allies can use",
+        "start": 2348.56,
+        "duration": 5.039
+    },
+    {
+        "text": "them alongside this character. The staff",
+        "start": 2351.04,
+        "duration": 5.2
+    },
+    {
+        "text": "of arcane blessing doubles the bonus of",
+        "start": 2353.599,
+        "duration": 4.801
+    },
+    {
+        "text": "bless to spell attacks. We're making",
+        "start": 2356.24,
+        "duration": 5.2
+    },
+    {
+        "text": "constant spell attacks, so a an allied",
+        "start": 2358.4,
+        "duration": 5.36
+    },
+    {
+        "text": "cleric casting bless on us and giving us",
+        "start": 2361.44,
+        "duration": 4.96
+    },
+    {
+        "text": "plus 2d4 to hit with all of our spell",
+        "start": 2363.76,
+        "duration": 4.72
+    },
+    {
+        "text": "attacks will make this character",
+        "start": 2366.4,
+        "duration": 5.52
+    },
+    {
+        "text": "enormously more consistent. Balar aloo",
+        "start": 2368.48,
+        "duration": 6.32
+    },
+    {
+        "text": "is excellent for any character doing",
+        "start": 2371.92,
+        "duration": 5.12
+    },
+    {
+        "text": "lots of damage instances because the",
+        "start": 2374.8,
+        "duration": 4.319
+    },
+    {
+        "text": "shriek ability means that enemies take",
+        "start": 2377.04,
+        "duration": 4.16
+    },
+    {
+        "text": "an extra 1d4 thunder damage from",
+        "start": 2379.119,
+        "duration": 4.0
+    },
+    {
+        "text": "anything that damages them. Since we're",
+        "start": 2381.2,
+        "duration": 4.24
+    },
+    {
+        "text": "hitting enemies many many many times a",
+        "start": 2383.119,
+        "duration": 4.72
+    },
+    {
+        "text": "turn. That 1d4 thunder damage is going",
+        "start": 2385.44,
+        "duration": 4.32
+    },
+    {
+        "text": "to add up. It will also stack our hex",
+        "start": 2387.839,
+        "duration": 4.24
+    },
+    {
+        "text": "blades curse damage on top of it. And so",
+        "start": 2389.76,
+        "duration": 4.079
+    },
+    {
+        "text": "all of those modifiers stack together",
+        "start": 2392.079,
+        "duration": 3.681
+    },
+    {
+        "text": "for even more damage. So if you have an",
+        "start": 2393.839,
+        "duration": 4.081
+    },
+    {
+        "text": "ally carrying this going next to enemies",
+        "start": 2395.76,
+        "duration": 4.24
+    },
+    {
+        "text": "with shriek, those enemies will take",
+        "start": 2397.92,
+        "duration": 4.56
+    },
+    {
+        "text": "even more damage. Finally, there's one",
+        "start": 2400.0,
+        "duration": 5.92
+    },
+    {
+        "text": "in particular that is a very useful item",
+        "start": 2402.48,
+        "duration": 5.44
+    },
+    {
+        "text": "for a fire sorcerer, and that's the",
+        "start": 2405.92,
+        "duration": 4.4
+    },
+    {
+        "text": "arsonist's oil. There's a few weird",
+        "start": 2407.92,
+        "duration": 4.24
+    },
+    {
+        "text": "tricks with arsonist oil, but the",
+        "start": 2410.32,
+        "duration": 3.44
+    },
+    {
+        "text": "default is you can just put it on an",
+        "start": 2412.16,
+        "duration": 3.28
+    },
+    {
+        "text": "allies weapon, and they can strip fire",
+        "start": 2413.76,
+        "duration": 3.839
+    },
+    {
+        "text": "resistance off an enemy. Very good to",
+        "start": 2415.44,
+        "duration": 4.48
+    },
+    {
+        "text": "help your fire spells do more damage and",
+        "start": 2417.599,
+        "duration": 4.561
+    },
+    {
+        "text": "more efficient than taking the elemental",
+        "start": 2419.92,
+        "duration": 5.439
+    },
+    {
+        "text": "affinity feat. um is using arsonist oil",
+        "start": 2422.16,
+        "duration": 5.36
+    },
+    {
+        "text": "to get the same effect. However, there's",
+        "start": 2425.359,
+        "duration": 4.48
+    },
+    {
+        "text": "actually also an exploit you can do with",
+        "start": 2427.52,
+        "duration": 4.319
+    },
+    {
+        "text": "this. It's a little fiddly, but it's",
+        "start": 2429.839,
+        "duration": 3.841
+    },
+    {
+        "text": "worth mentioning cuz it's super powerful",
+        "start": 2431.839,
+        "duration": 4.801
+    },
+    {
+        "text": "if you do. If an enemy has temporary",
+        "start": 2433.68,
+        "duration": 5.04
+    },
+    {
+        "text": "resistance to fire damage, and then you",
+        "start": 2436.64,
+        "duration": 4.24
+    },
+    {
+        "text": "hit them with arsonous soil, and then",
+        "start": 2438.72,
+        "duration": 5.28
+    },
+    {
+        "text": "that temporary resistance expires, they",
+        "start": 2440.88,
+        "duration": 5.36
+    },
+    {
+        "text": "get damage vulnerability, taking double",
+        "start": 2444.0,
+        "duration": 4.8
+    },
+    {
+        "text": "damage from all fire. So, if you get an",
+        "start": 2446.24,
+        "duration": 4.4
+    },
+    {
+        "text": "enemy wet and then hit them with",
+        "start": 2448.8,
+        "duration": 3.68
+    },
+    {
+        "text": "arsonist oil and then wait for them to",
+        "start": 2450.64,
+        "duration": 4.56
+    },
+    {
+        "text": "dry off, they'll have vulnerability to",
+        "start": 2452.48,
+        "duration": 4.72
+    },
+    {
+        "text": "fire damage from the arsonous oil and",
+        "start": 2455.2,
+        "duration": 3.6
+    },
+    {
+        "text": "take double damage from all of your",
+        "start": 2457.2,
+        "duration": 4.0
+    },
+    {
+        "text": "spells. You can also do this by throwing",
+        "start": 2458.8,
+        "duration": 4.96
+    },
+    {
+        "text": "an elixir of fire resistance at an enemy",
+        "start": 2461.2,
+        "duration": 4.56
+    },
+    {
+        "text": "and then throwing a different elixir to",
+        "start": 2463.76,
+        "duration": 4.559
+    },
+    {
+        "text": "overwrite that fire resistance elixir",
+        "start": 2465.76,
+        "duration": 4.319
+    },
+    {
+        "text": "after you've hit them with the arsonist",
+        "start": 2468.319,
+        "duration": 4.161
+    },
+    {
+        "text": "oil. So, a couple weird combos you can",
+        "start": 2470.079,
+        "duration": 4.561
+    },
+    {
+        "text": "do, but very powerful because, of",
+        "start": 2472.48,
+        "duration": 5.2
+    },
+    {
+        "text": "course, doubling damage to enemies is",
+        "start": 2474.64,
+        "duration": 6.16
+    },
+    {
+        "text": "extraordinarily strong. Finally, for",
+        "start": 2477.68,
+        "duration": 5.2
+    },
+    {
+        "text": "endgame items for this character, your",
+        "start": 2480.8,
+        "duration": 3.6
+    },
+    {
+        "text": "build is going to look something pretty",
+        "start": 2482.88,
+        "duration": 4.56
+    },
+    {
+        "text": "close to this. The hat of fire acuity",
+        "start": 2484.4,
+        "duration": 4.88
+    },
+    {
+        "text": "because it's broken and part of what",
+        "start": 2487.44,
+        "duration": 4.0
+    },
+    {
+        "text": "makes this character so powerful. The",
+        "start": 2489.28,
+        "duration": 3.76
+    },
+    {
+        "text": "cloak of the weave and the robe of the",
+        "start": 2491.44,
+        "duration": 3.44
+    },
+    {
+        "text": "weave to make your attacks hit more",
+        "start": 2493.04,
+        "duration": 4.559
+    },
+    {
+        "text": "frequently. the spellmite gloves to add",
+        "start": 2494.88,
+        "duration": 4.719
+    },
+    {
+        "text": "extra damage to every single bean that",
+        "start": 2497.599,
+        "duration": 4.081
+    },
+    {
+        "text": "you fire. The disintegrating night",
+        "start": 2499.599,
+        "duration": 4.401
+    },
+    {
+        "text": "walkers because they uh strike a good",
+        "start": 2501.68,
+        "duration": 4.24
+    },
+    {
+        "text": "balance between the boots of striding",
+        "start": 2504.0,
+        "duration": 3.76
+    },
+    {
+        "text": "which cost you some armor class since",
+        "start": 2505.92,
+        "duration": 3.439
+    },
+    {
+        "text": "they're medium armor so they turn off",
+        "start": 2507.76,
+        "duration": 4.24
+    },
+    {
+        "text": "your inherent mage armor um and the",
+        "start": 2509.359,
+        "duration": 4.24
+    },
+    {
+        "text": "boots of arcane bolstering which I",
+        "start": 2512.0,
+        "duration": 3.52
+    },
+    {
+        "text": "personally don't enjoy doing the micro",
+        "start": 2513.599,
+        "duration": 3.76
+    },
+    {
+        "text": "before combat starts but if you do enjoy",
+        "start": 2515.52,
+        "duration": 4.4
+    },
+    {
+        "text": "that then you can do that. I also like",
+        "start": 2517.359,
+        "duration": 4.561
+    },
+    {
+        "text": "to sacrifice a little bit of offense for",
+        "start": 2519.92,
+        "duration": 3.6
+    },
+    {
+        "text": "defense with the amulet of greater",
+        "start": 2521.92,
+        "duration": 3.439
+    },
+    {
+        "text": "health. This helps us maintain",
+        "start": 2523.52,
+        "duration": 3.599
+    },
+    {
+        "text": "concentration on our spells much more",
+        "start": 2525.359,
+        "duration": 4.561
+    },
+    {
+        "text": "easily and makes us actually quite tanky",
+        "start": 2527.119,
+        "duration": 6.401
+    },
+    {
+        "text": "with 20 AC and 134 HP. The risky ring",
+        "start": 2529.92,
+        "duration": 5.679
+    },
+    {
+        "text": "and the callus glow ring so that our",
+        "start": 2533.52,
+        "duration": 3.599
+    },
+    {
+        "text": "attacks hit more often and do more",
+        "start": 2535.599,
+        "duration": 4.321
+    },
+    {
+        "text": "damage. And of course, Marco gear and ke",
+        "start": 2537.119,
+        "duration": 4.561
+    },
+    {
+        "text": "shield with the dead shot to increase",
+        "start": 2539.92,
+        "duration": 4.08
+    },
+    {
+        "text": "our chance to critically hit. All right,",
+        "start": 2541.68,
+        "duration": 3.76
+    },
+    {
+        "text": "my friends. I hope that you've enjoyed",
+        "start": 2544.0,
+        "duration": 3.119
+    },
+    {
+        "text": "this look at the fire sorcerer and I",
+        "start": 2545.44,
+        "duration": 3.679
+    },
+    {
+        "text": "hope it helps you burn your enemies to",
+        "start": 2547.119,
+        "duration": 4.96
+    },
+    {
+        "text": "ashes on your way to cruising to an",
+        "start": 2549.119,
+        "duration": 5.2
+    },
+    {
+        "text": "honor mode victory. As always, of",
+        "start": 2552.079,
+        "duration": 3.681
+    },
+    {
+        "text": "course, if you've enjoyed the video,",
+        "start": 2554.319,
+        "duration": 2.881
+    },
+    {
+        "text": "then feel free to leave a comment and",
+        "start": 2555.76,
+        "duration": 2.72
+    },
+    {
+        "text": "hit like. Helps me out with the",
+        "start": 2557.2,
+        "duration": 3.04
+    },
+    {
+        "text": "algorithm, so I appreciate you taking",
+        "start": 2558.48,
+        "duration": 3.52
+    },
+    {
+        "text": "the time to do that. And of course, you",
+        "start": 2560.24,
+        "duration": 3.359
+    },
+    {
+        "text": "can subscribe to my channel for more",
+        "start": 2562.0,
+        "duration": 4.0
+    },
+    {
+        "text": "Boulders Gate 3 build guides and other",
+        "start": 2563.599,
+        "duration": 5.601
+    },
+    {
+        "text": "strategy game analysis. Cheers, folks.",
+        "start": 2566.0,
+        "duration": 6.4
+    },
+    {
+        "text": "I'll catch you next time.",
+        "start": 2569.2,
+        "duration": 3.2
+    }
+]

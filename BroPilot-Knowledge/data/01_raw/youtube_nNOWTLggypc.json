@@ -1,0 +1,3602 @@
+[
+    {
+        "text": "hello there friends and welcome for",
+        "start": 0.06,
+        "duration": 4.98
+    },
+    {
+        "text": "today's vg3 guide we have at last all",
+        "start": 2.04,
+        "duration": 5.7
+    },
+    {
+        "text": "about the Monk class and we'll be going",
+        "start": 5.04,
+        "duration": 5.099
+    },
+    {
+        "text": "one punch man style with amazing damage",
+        "start": 7.74,
+        "duration": 5.399
+    },
+    {
+        "text": "both on our normal hits close to 50 and",
+        "start": 10.139,
+        "duration": 4.741
+    },
+    {
+        "text": "of course our Flurry of Blows for even",
+        "start": 13.139,
+        "duration": 4.801
+    },
+    {
+        "text": "higher than 90 damage per strike monks",
+        "start": 14.88,
+        "duration": 4.68
+    },
+    {
+        "text": "are probably the class in the game that",
+        "start": 17.94,
+        "duration": 3.66
+    },
+    {
+        "text": "has the most amount of unique features",
+        "start": 19.56,
+        "duration": 4.92
+    },
+    {
+        "text": "and trust me it's very easy to get a",
+        "start": 21.6,
+        "duration": 5.759
+    },
+    {
+        "text": "Non-Stop paint train of punch attacks if",
+        "start": 24.48,
+        "duration": 5.82
+    },
+    {
+        "text": "you're a monk with this build you can",
+        "start": 27.359,
+        "duration": 5.04
+    },
+    {
+        "text": "get even higher than 10 attacks per turn",
+        "start": 30.3,
+        "duration": 4.56
+    },
+    {
+        "text": "easily your attack chains will just keep",
+        "start": 32.399,
+        "duration": 4.441
+    },
+    {
+        "text": "on going and going together with",
+        "start": 34.86,
+        "duration": 4.44
+    },
+    {
+        "text": "powerful attacks on hits such as stun",
+        "start": 36.84,
+        "duration": 4.92
+    },
+    {
+        "text": "and knock down as a matter of fact your",
+        "start": 39.3,
+        "duration": 4.439
+    },
+    {
+        "text": "punches will become solo P you even get",
+        "start": 41.76,
+        "duration": 4.619
+    },
+    {
+        "text": "to explode enemies all around you should",
+        "start": 43.739,
+        "duration": 5.34
+    },
+    {
+        "text": "create massive chains of death",
+        "start": 46.379,
+        "duration": 5.281
+    },
+    {
+        "text": "just look at the extra damage Stacks go",
+        "start": 49.079,
+        "duration": 4.8
+    },
+    {
+        "text": "and of course you'll be quite decent at",
+        "start": 51.66,
+        "duration": 4.14
+    },
+    {
+        "text": "avoiding enemy strikes too with good",
+        "start": 53.879,
+        "duration": 4.32
+    },
+    {
+        "text": "armor class and a great hit point score",
+        "start": 55.8,
+        "duration": 4.919
+    },
+    {
+        "text": "so without further Ado let us get into",
+        "start": 58.199,
+        "duration": 6.18
+    },
+    {
+        "text": "our one punch man monk build guide first",
+        "start": 60.719,
+        "duration": 5.701
+    },
+    {
+        "text": "with all of the main Unique Mechanics",
+        "start": 64.379,
+        "duration": 3.78
+    },
+    {
+        "text": "behind the Monk class because trust me",
+        "start": 66.42,
+        "duration": 3.84
+    },
+    {
+        "text": "there's a lot of them",
+        "start": 68.159,
+        "duration": 4.681
+    },
+    {
+        "text": "first monks are unique in that they can",
+        "start": 70.26,
+        "duration": 4.38
+    },
+    {
+        "text": "already achieve a very high amount of",
+        "start": 72.84,
+        "duration": 3.18
+    },
+    {
+        "text": "attacks per round compared to other",
+        "start": 74.64,
+        "duration": 3.479
+    },
+    {
+        "text": "classes even at level 1 that's right",
+        "start": 76.02,
+        "duration": 5.459
+    },
+    {
+        "text": "from their Flurry of Blows ability it",
+        "start": 78.119,
+        "duration": 5.761
+    },
+    {
+        "text": "costs one key Point key points will",
+        "start": 81.479,
+        "duration": 3.801
+    },
+    {
+        "text": "always be recharged on a short rest",
+        "start": 83.88,
+        "duration": 3.72
+    },
+    {
+        "text": "eventually you can end up with more than",
+        "start": 85.28,
+        "duration": 5.74
+    },
+    {
+        "text": "20 uses and well as a bonus action you",
+        "start": 87.6,
+        "duration": 6.6
+    },
+    {
+        "text": "can make two punch attacks later when",
+        "start": 91.02,
+        "duration": 5.459
+    },
+    {
+        "text": "you add loads of boosts your unarmed",
+        "start": 94.2,
+        "duration": 4.02
+    },
+    {
+        "text": "damage well let's just say you'll be",
+        "start": 96.479,
+        "duration": 3.841
+    },
+    {
+        "text": "hitting for higher than 90 damage even",
+        "start": 98.22,
+        "duration": 5.16
+    },
+    {
+        "text": "as I said this does cost a resource",
+        "start": 100.32,
+        "duration": 5.52
+    },
+    {
+        "text": "however right at level 1 you'll also",
+        "start": 103.38,
+        "duration": 3.9
+    },
+    {
+        "text": "have another way of getting bonus",
+        "start": 105.84,
+        "duration": 3.959
+    },
+    {
+        "text": "attacks through your Martial Arts bonus",
+        "start": 107.28,
+        "duration": 5.159
+    },
+    {
+        "text": "unarmed strike ability after you attack",
+        "start": 109.799,
+        "duration": 4.981
+    },
+    {
+        "text": "the enemy ones and this has to come from",
+        "start": 112.439,
+        "duration": 4.341
+    },
+    {
+        "text": "a normal attack right so a normal action",
+        "start": 114.78,
+        "duration": 5.28
+    },
+    {
+        "text": "you can as a bonus action make a punch",
+        "start": 116.78,
+        "duration": 5.5
+    },
+    {
+        "text": "attack so even at level 1 you would",
+        "start": 120.06,
+        "duration": 4.08
+    },
+    {
+        "text": "already have 2 attacks if you don't want",
+        "start": 122.28,
+        "duration": 4.379
+    },
+    {
+        "text": "to spend key points for Flurry of Blows",
+        "start": 124.14,
+        "duration": 5.58
+    },
+    {
+        "text": "note that monk weapons are any weapons",
+        "start": 126.659,
+        "duration": 5.22
+    },
+    {
+        "text": "the Monk Is proficient with right for",
+        "start": 129.72,
+        "duration": 3.9
+    },
+    {
+        "text": "example if you were an elf if you work",
+        "start": 131.879,
+        "duration": 4.261
+    },
+    {
+        "text": "with long swords which also work should",
+        "start": 133.62,
+        "duration": 4.92
+    },
+    {
+        "text": "proc the bonus on arms strike ability we",
+        "start": 136.14,
+        "duration": 4.739
+    },
+    {
+        "text": "just covered just remember you have to",
+        "start": 138.54,
+        "duration": 4.8
+    },
+    {
+        "text": "alternate normal attacks with this bonus",
+        "start": 140.879,
+        "duration": 5.101
+    },
+    {
+        "text": "action to actually get it",
+        "start": 143.34,
+        "duration": 4.74
+    },
+    {
+        "text": "anyways monk is quite a loaded class",
+        "start": 145.98,
+        "duration": 3.54
+    },
+    {
+        "text": "there's still more to cover even at",
+        "start": 148.08,
+        "duration": 3.6
+    },
+    {
+        "text": "level one there's the classic unarmored",
+        "start": 149.52,
+        "duration": 4.32
+    },
+    {
+        "text": "defense which means while they are not",
+        "start": 151.68,
+        "duration": 4.38
+    },
+    {
+        "text": "wearing any armor you'll get to add both",
+        "start": 153.84,
+        "duration": 5.399
+    },
+    {
+        "text": "your wisdom and dexterity modifier to",
+        "start": 156.06,
+        "duration": 5.64
+    },
+    {
+        "text": "Armor class however",
+        "start": 159.239,
+        "duration": 5.28
+    },
+    {
+        "text": "in Boulder Skate 3 I'm usually enough",
+        "start": 161.7,
+        "duration": 5.22
+    },
+    {
+        "text": "wearing heavy armor will not block her",
+        "start": 164.519,
+        "duration": 4.021
+    },
+    {
+        "text": "most important monk abilities such as",
+        "start": 166.92,
+        "duration": 4.44
+    },
+    {
+        "text": "Flurry of Blows and also your bonus",
+        "start": 168.54,
+        "duration": 4.979
+    },
+    {
+        "text": "alarm strike it will just prevent you",
+        "start": 171.36,
+        "duration": 4.5
+    },
+    {
+        "text": "from Gaining extra AC from under armored",
+        "start": 173.519,
+        "duration": 5.641
+    },
+    {
+        "text": "defense together with the classic monk",
+        "start": 175.86,
+        "duration": 5.0
+    },
+    {
+        "text": "extra movement speed we'll get later",
+        "start": 179.16,
+        "duration": 3.84
+    },
+    {
+        "text": "what this means is if you were for",
+        "start": 180.86,
+        "duration": 4.3
+    },
+    {
+        "text": "example to multi-class into a fighter",
+        "start": 183.0,
+        "duration": 4.2
+    },
+    {
+        "text": "with heavy armor proficiency you'll get",
+        "start": 185.16,
+        "duration": 4.26
+    },
+    {
+        "text": "to equip it just fine even as a monk",
+        "start": 187.2,
+        "duration": 4.759
+    },
+    {
+        "text": "anyways in fifth edition DND so bg3",
+        "start": 189.42,
+        "duration": 5.88
+    },
+    {
+        "text": "monks also get to apply their dexterity",
+        "start": 191.959,
+        "duration": 6.28
+    },
+    {
+        "text": "modifier automatically to both attacks",
+        "start": 195.3,
+        "duration": 6.24
+    },
+    {
+        "text": "and damage unless your strength is",
+        "start": 198.239,
+        "duration": 5.461
+    },
+    {
+        "text": "higher there is a lot to be said about",
+        "start": 201.54,
+        "duration": 4.199
+    },
+    {
+        "text": "having high strength as a monk because",
+        "start": 203.7,
+        "duration": 4.74
+    },
+    {
+        "text": "of a very hopy fit even I'll soon cover",
+        "start": 205.739,
+        "duration": 4.561
+    },
+    {
+        "text": "but with this build we'll get you have",
+        "start": 208.44,
+        "duration": 4.32
+    },
+    {
+        "text": "both right 16 dexterity and even up to",
+        "start": 210.3,
+        "duration": 5.28
+    },
+    {
+        "text": "27 strength as I said at level 2 you'll",
+        "start": 212.76,
+        "duration": 4.74
+    },
+    {
+        "text": "get the classic monk movement speed",
+        "start": 215.58,
+        "duration": 4.379
+    },
+    {
+        "text": "boost but it only works if you are not",
+        "start": 217.5,
+        "duration": 5.28
+    },
+    {
+        "text": "equipping any armor including let's say",
+        "start": 219.959,
+        "duration": 4.981
+    },
+    {
+        "text": "helmets and boots that are light or",
+        "start": 222.78,
+        "duration": 4.5
+    },
+    {
+        "text": "medium armor right it has to be clothing",
+        "start": 224.94,
+        "duration": 4.019
+    },
+    {
+        "text": "only",
+        "start": 227.28,
+        "duration": 3.539
+    },
+    {
+        "text": "you're getting even more stuff at level",
+        "start": 228.959,
+        "duration": 4.801
+    },
+    {
+        "text": "2 3 abilities even the first is patient",
+        "start": 230.819,
+        "duration": 5.161
+    },
+    {
+        "text": "defense at the cost of a key Point as a",
+        "start": 233.76,
+        "duration": 4.74
+    },
+    {
+        "text": "bonus action you can make all enemy",
+        "start": 235.98,
+        "duration": 4.92
+    },
+    {
+        "text": "attacks against you have disadvantage",
+        "start": 238.5,
+        "duration": 4.799
+    },
+    {
+        "text": "until the next turn",
+        "start": 240.9,
+        "duration": 4.44
+    },
+    {
+        "text": "it's quite a powerful ability to have if",
+        "start": 243.299,
+        "duration": 3.3
+    },
+    {
+        "text": "you want to tank with your monk right",
+        "start": 245.34,
+        "duration": 3.36
+    },
+    {
+        "text": "because it's not just one attack or one",
+        "start": 246.599,
+        "duration": 4.801
+    },
+    {
+        "text": "enemy it's all enemies that attack after",
+        "start": 248.7,
+        "duration": 5.52
+    },
+    {
+        "text": "you until your next turn comes plus by",
+        "start": 251.4,
+        "duration": 5.1
+    },
+    {
+        "text": "virtue of being a bonus action you can",
+        "start": 254.22,
+        "duration": 4.079
+    },
+    {
+        "text": "still do your normal attack and even",
+        "start": 256.5,
+        "duration": 3.66
+    },
+    {
+        "text": "combine it with Flurry of Blows and",
+        "start": 258.299,
+        "duration": 4.441
+    },
+    {
+        "text": "other bonus actions too second is step",
+        "start": 260.16,
+        "duration": 5.34
+    },
+    {
+        "text": "of the wind Dash as a bonus action and",
+        "start": 262.74,
+        "duration": 4.26
+    },
+    {
+        "text": "with one key point",
+        "start": 265.5,
+        "duration": 3.3
+    },
+    {
+        "text": "you can double your movement speed",
+        "start": 267.0,
+        "duration": 3.72
+    },
+    {
+        "text": "lastly we have step of the wind",
+        "start": 268.8,
+        "duration": 3.959
+    },
+    {
+        "text": "disengage which lets you to disengage as",
+        "start": 270.72,
+        "duration": 4.14
+    },
+    {
+        "text": "a bonus action but as a monk is very",
+        "start": 272.759,
+        "duration": 4.801
+    },
+    {
+        "text": "easy to get good enough Armor class both",
+        "start": 274.86,
+        "duration": 4.8
+    },
+    {
+        "text": "on Armored and also when wearing armor",
+        "start": 277.56,
+        "duration": 4.62
+    },
+    {
+        "text": "and shoots",
+        "start": 279.66,
+        "duration": 4.8
+    },
+    {
+        "text": "at level 3 you'll get your monk subclass",
+        "start": 282.18,
+        "duration": 4.38
+    },
+    {
+        "text": "to me the best one is way off the open",
+        "start": 284.46,
+        "duration": 4.14
+    },
+    {
+        "text": "hand if you want to really go all out in",
+        "start": 286.56,
+        "duration": 4.26
+    },
+    {
+        "text": "damage right first it enhances your",
+        "start": 288.6,
+        "duration": 4.56
+    },
+    {
+        "text": "Flurry of Blows with three different",
+        "start": 290.82,
+        "duration": 4.62
+    },
+    {
+        "text": "abilities toppo to make enemies prone",
+        "start": 293.16,
+        "duration": 3.66
+    },
+    {
+        "text": "which is great",
+        "start": 295.44,
+        "duration": 4.259
+    },
+    {
+        "text": "stagger to stagger enemies not that good",
+        "start": 296.82,
+        "duration": 4.2
+    },
+    {
+        "text": "it just prevents them from taking",
+        "start": 299.699,
+        "duration": 4.261
+    },
+    {
+        "text": "reactions and push to well push enemies",
+        "start": 301.02,
+        "duration": 5.28
+    },
+    {
+        "text": "away from you amazing for let's say",
+        "start": 303.96,
+        "duration": 4.38
+    },
+    {
+        "text": "pushing them into the void for instant",
+        "start": 306.3,
+        "duration": 3.78
+    },
+    {
+        "text": "kills just like warlock with repelling",
+        "start": 308.34,
+        "duration": 4.32
+    },
+    {
+        "text": "blasts right as I said they will all be",
+        "start": 310.08,
+        "duration": 4.679
+    },
+    {
+        "text": "applied on top of your Flurry of Blows",
+        "start": 312.66,
+        "duration": 3.96
+    },
+    {
+        "text": "so you'll still do the two punches",
+        "start": 314.759,
+        "duration": 4.561
+    },
+    {
+        "text": "together with the bonus effects and you",
+        "start": 316.62,
+        "duration": 4.62
+    },
+    {
+        "text": "will get another very powerful ability",
+        "start": 319.32,
+        "duration": 4.439
+    },
+    {
+        "text": "at level 6 as I'll soon show you lastly",
+        "start": 321.24,
+        "duration": 4.32
+    },
+    {
+        "text": "level 3 will also provides you with",
+        "start": 323.759,
+        "duration": 4.261
+    },
+    {
+        "text": "deflect missiles which can highly reduce",
+        "start": 325.56,
+        "duration": 5.76
+    },
+    {
+        "text": "incoming ranged damage as a reaction",
+        "start": 328.02,
+        "duration": 5.58
+    },
+    {
+        "text": "months per turn and you can even use a",
+        "start": 331.32,
+        "duration": 4.62
+    },
+    {
+        "text": "key points to the flex the missile right",
+        "start": 333.6,
+        "duration": 5.46
+    },
+    {
+        "text": "back at the attacker at level 4",
+        "start": 335.94,
+        "duration": 5.22
+    },
+    {
+        "text": "you have the slow fall ability as a",
+        "start": 339.06,
+        "duration": 4.199
+    },
+    {
+        "text": "reaction you can gain resistance to",
+        "start": 341.16,
+        "duration": 4.02
+    },
+    {
+        "text": "Falling damage it can help a bit",
+        "start": 343.259,
+        "duration": 4.141
+    },
+    {
+        "text": "assuming enemies manage to shove you",
+        "start": 345.18,
+        "duration": 4.2
+    },
+    {
+        "text": "from high ground it's not that common",
+        "start": 347.4,
+        "duration": 4.739
+    },
+    {
+        "text": "but can happen in a few cases",
+        "start": 349.38,
+        "duration": 5.099
+    },
+    {
+        "text": "well I might already cover this now but",
+        "start": 352.139,
+        "duration": 4.441
+    },
+    {
+        "text": "at level 4 since you get an extra feat",
+        "start": 354.479,
+        "duration": 4.22
+    },
+    {
+        "text": "Devon brawler is probably the most",
+        "start": 356.58,
+        "duration": 4.32
+    },
+    {
+        "text": "powerful fit in the game at the moment",
+        "start": 358.699,
+        "duration": 4.84
+    },
+    {
+        "text": "if not slightly op even",
+        "start": 360.9,
+        "duration": 6.48
+    },
+    {
+        "text": "no other feat will do as much as this",
+        "start": 363.539,
+        "duration": 6.061
+    },
+    {
+        "text": "first you get an extra points to",
+        "start": 367.38,
+        "duration": 3.84
+    },
+    {
+        "text": "strength our Constitution which is why I",
+        "start": 369.6,
+        "duration": 4.68
+    },
+    {
+        "text": "like starting with 15 Constitution",
+        "start": 371.22,
+        "duration": 5.16
+    },
+    {
+        "text": "second and most importantly whenever you",
+        "start": 374.28,
+        "duration": 4.32
+    },
+    {
+        "text": "make an unarmed attack including from",
+        "start": 376.38,
+        "duration": 3.9
+    },
+    {
+        "text": "Wild shape",
+        "start": 378.6,
+        "duration": 5.219
+    },
+    {
+        "text": "or use a throne weapon your strength",
+        "start": 380.28,
+        "duration": 6.539
+    },
+    {
+        "text": "modifier will be added twice to both",
+        "start": 383.819,
+        "duration": 6.841
+    },
+    {
+        "text": "attack rows and damage to put it simply",
+        "start": 386.819,
+        "duration": 6.421
+    },
+    {
+        "text": "let's say you have 20 strength so that's",
+        "start": 390.66,
+        "duration": 5.94
+    },
+    {
+        "text": "a plus five you'll get a plus 10 to both",
+        "start": 393.24,
+        "duration": 6.42
+    },
+    {
+        "text": "attack rolls and damage it really is",
+        "start": 396.6,
+        "duration": 5.819
+    },
+    {
+        "text": "absurdly good with this feat alone",
+        "start": 399.66,
+        "duration": 5.28
+    },
+    {
+        "text": "you'll be able to remove any concerns",
+        "start": 402.419,
+        "duration": 4.321
+    },
+    {
+        "text": "you have about hitting the enemy even on",
+        "start": 404.94,
+        "duration": 3.36
+    },
+    {
+        "text": "tactician because of how loaded the",
+        "start": 406.74,
+        "duration": 4.38
+    },
+    {
+        "text": "bonus is remember even at level 4 your",
+        "start": 408.3,
+        "duration": 5.04
+    },
+    {
+        "text": "monk can already have 21 strength",
+        "start": 411.12,
+        "duration": 4.5
+    },
+    {
+        "text": "permanently pretty much through some",
+        "start": 413.34,
+        "duration": 4.199
+    },
+    {
+        "text": "easy to acquire consumables as I'll",
+        "start": 415.62,
+        "duration": 4.62
+    },
+    {
+        "text": "explain in the build section which just",
+        "start": 417.539,
+        "duration": 4.201
+    },
+    {
+        "text": "happens to be right when you'd get his",
+        "start": 420.24,
+        "duration": 3.899
+    },
+    {
+        "text": "feet and of course by virtue of monks",
+        "start": 421.74,
+        "duration": 3.84
+    },
+    {
+        "text": "punching multiple times per round",
+        "start": 424.139,
+        "duration": 4.081
+    },
+    {
+        "text": "because of Flurry of Blows Stacks the",
+        "start": 425.58,
+        "duration": 4.38
+    },
+    {
+        "text": "extra damage from strength will be",
+        "start": 428.22,
+        "duration": 3.9
+    },
+    {
+        "text": "really good too",
+        "start": 429.96,
+        "duration": 4.799
+    },
+    {
+        "text": "at level 5 monks get the classic extra",
+        "start": 432.12,
+        "duration": 4.199
+    },
+    {
+        "text": "attack just like a lot of the other",
+        "start": 434.759,
+        "duration": 3.72
+    },
+    {
+        "text": "Marshall classes and remember for each",
+        "start": 436.319,
+        "duration": 4.261
+    },
+    {
+        "text": "normal attack you can use a bonus action",
+        "start": 438.479,
+        "duration": 5.041
+    },
+    {
+        "text": "for a normal Punch or just use Flurry of",
+        "start": 440.58,
+        "duration": 4.86
+    },
+    {
+        "text": "Blows for double now this is when we",
+        "start": 443.52,
+        "duration": 3.6
+    },
+    {
+        "text": "also get the classic stunning strike",
+        "start": 445.44,
+        "duration": 3.96
+    },
+    {
+        "text": "monk ability kinda late compared to",
+        "start": 447.12,
+        "duration": 4.44
+    },
+    {
+        "text": "other editions of DnD and well it's",
+        "start": 449.4,
+        "duration": 4.62
+    },
+    {
+        "text": "basically your punch except you also get",
+        "start": 451.56,
+        "duration": 5.46
+    },
+    {
+        "text": "to stun enemies right and you can do it",
+        "start": 454.02,
+        "duration": 5.04
+    },
+    {
+        "text": "both when it comes to melee or unarmed",
+        "start": 457.02,
+        "duration": 4.679
+    },
+    {
+        "text": "at level 6 we get another boost to",
+        "start": 459.06,
+        "duration": 4.62
+    },
+    {
+        "text": "movement speed when unarmored for four",
+        "start": 461.699,
+        "duration": 4.201
+    },
+    {
+        "text": "and a half meters together with the King",
+        "start": 463.68,
+        "duration": 4.62
+    },
+    {
+        "text": "powered strikes ability so that our",
+        "start": 465.9,
+        "duration": 4.98
+    },
+    {
+        "text": "unarmed punches will will now bypass",
+        "start": 468.3,
+        "duration": 4.5
+    },
+    {
+        "text": "enemies resistant and immune to channel",
+        "start": 470.88,
+        "duration": 4.439
+    },
+    {
+        "text": "magical damage as an open hand monk you",
+        "start": 472.8,
+        "duration": 5.179
+    },
+    {
+        "text": "also get your most powerful ability",
+        "start": 475.319,
+        "duration": 5.641
+    },
+    {
+        "text": "manifestation of body mind and soul",
+        "start": 477.979,
+        "duration": 4.961
+    },
+    {
+        "text": "you can only have one active at the same",
+        "start": 480.96,
+        "duration": 3.78
+    },
+    {
+        "text": "time but it's a passive so doesn't cost",
+        "start": 482.94,
+        "duration": 3.9
+    },
+    {
+        "text": "anything and while they each increase",
+        "start": 484.74,
+        "duration": 5.04
+    },
+    {
+        "text": "the damage of your unarmed strikes by an",
+        "start": 486.84,
+        "duration": 4.799
+    },
+    {
+        "text": "additional amount that will also be",
+        "start": 489.78,
+        "duration": 4.8
+    },
+    {
+        "text": "further boosted by your wisdom it starts",
+        "start": 491.639,
+        "duration": 4.801
+    },
+    {
+        "text": "at four to seven if you have let's say",
+        "start": 494.58,
+        "duration": 4.619
+    },
+    {
+        "text": "16 wisdom but later can become six to",
+        "start": 496.44,
+        "duration": 4.5
+    },
+    {
+        "text": "nine and you get to choose the damage",
+        "start": 499.199,
+        "duration": 4.68
+    },
+    {
+        "text": "type 2 I prefer radiant but psychic and",
+        "start": 500.94,
+        "duration": 5.699
+    },
+    {
+        "text": "necrotic are also quite powerful last",
+        "start": 503.879,
+        "duration": 4.561
+    },
+    {
+        "text": "but not least level 6 is so loaded",
+        "start": 506.639,
+        "duration": 3.301
+    },
+    {
+        "text": "because you also get another ultimate",
+        "start": 508.44,
+        "duration": 3.779
+    },
+    {
+        "text": "monk ability wholeness of body it",
+        "start": 509.94,
+        "duration": 4.8
+    },
+    {
+        "text": "provides some healing which is okay",
+        "start": 512.219,
+        "duration": 4.74
+    },
+    {
+        "text": "but most importantly also lets you",
+        "start": 514.74,
+        "duration": 4.38
+    },
+    {
+        "text": "regain half your key points for a more",
+        "start": 516.959,
+        "duration": 4.44
+    },
+    {
+        "text": "flurry of blue spammage and here's the",
+        "start": 519.12,
+        "duration": 4.859
+    },
+    {
+        "text": "most powerful effect you'll enter a",
+        "start": 521.399,
+        "duration": 4.56
+    },
+    {
+        "text": "state of wholeness for three rounds",
+        "start": 523.979,
+        "duration": 3.961
+    },
+    {
+        "text": "which means you'll now have an extra",
+        "start": 525.959,
+        "duration": 4.44
+    },
+    {
+        "text": "bonus action as if that was not enough",
+        "start": 527.94,
+        "duration": 5.04
+    },
+    {
+        "text": "you'll also recover one extra key Point",
+        "start": 530.399,
+        "duration": 5.341
+    },
+    {
+        "text": "per every turn I don't think anything is",
+        "start": 532.98,
+        "duration": 4.44
+    },
+    {
+        "text": "saying having more bonus actions with a",
+        "start": 535.74,
+        "duration": 4.2
+    },
+    {
+        "text": "monk is the key to ensure you will drown",
+        "start": 537.42,
+        "duration": 4.62
+    },
+    {
+        "text": "the enemies in multiple Flurry of Blows",
+        "start": 539.94,
+        "duration": 4.32
+    },
+    {
+        "text": "for absurd's amount of damage per turn",
+        "start": 542.04,
+        "duration": 4.799
+    },
+    {
+        "text": "sadly this ability is only once per long",
+        "start": 544.26,
+        "duration": 4.68
+    },
+    {
+        "text": "rest but is loaded enough to be",
+        "start": 546.839,
+        "duration": 4.261
+    },
+    {
+        "text": "definitely worth it at level 7 you have",
+        "start": 548.94,
+        "duration": 4.14
+    },
+    {
+        "text": "evasion which just like the Third",
+        "start": 551.1,
+        "duration": 4.08
+    },
+    {
+        "text": "Edition variant whenever you make a safe",
+        "start": 553.08,
+        "duration": 4.92
+    },
+    {
+        "text": "intro against a spell based on dexterity",
+        "start": 555.18,
+        "duration": 4.68
+    },
+    {
+        "text": "if you make the save you'll take no",
+        "start": 558.0,
+        "duration": 4.14
+    },
+    {
+        "text": "damage instead of just half and even if",
+        "start": 559.86,
+        "duration": 4.08
+    },
+    {
+        "text": "you fail you'll take half damage instead",
+        "start": 562.14,
+        "duration": 4.379
+    },
+    {
+        "text": "together with Stillness of mind which",
+        "start": 563.94,
+        "duration": 3.899
+    },
+    {
+        "text": "prevents you from being Charmed or",
+        "start": 566.519,
+        "duration": 3.541
+    },
+    {
+        "text": "frightened",
+        "start": 567.839,
+        "duration": 4.44
+    },
+    {
+        "text": "at level 9 you get a further boost to",
+        "start": 570.06,
+        "duration": 3.899
+    },
+    {
+        "text": "movement speed together with one of the",
+        "start": 572.279,
+        "duration": 4.201
+    },
+    {
+        "text": "most fun monk abilities if not most fun",
+        "start": 573.959,
+        "duration": 5.041
+    },
+    {
+        "text": "game abilities overall resonation punch",
+        "start": 576.48,
+        "duration": 5.46
+    },
+    {
+        "text": "together with resonation blast you can",
+        "start": 579.0,
+        "duration": 5.279
+    },
+    {
+        "text": "use this either as a normal Punch or as",
+        "start": 581.94,
+        "duration": 4.8
+    },
+    {
+        "text": "a bonus action yoga should do your full",
+        "start": 584.279,
+        "duration": 4.921
+    },
+    {
+        "text": "arm damage together with applying",
+        "start": 586.74,
+        "duration": 5.099
+    },
+    {
+        "text": "resonate to the enemy you punch and then",
+        "start": 589.2,
+        "duration": 4.5
+    },
+    {
+        "text": "you can use the key resonation blast",
+        "start": 591.839,
+        "duration": 3.721
+    },
+    {
+        "text": "ability it doesn't actually cost any",
+        "start": 593.7,
+        "duration": 4.44
+    },
+    {
+        "text": "action at all not bonus not normal it",
+        "start": 595.56,
+        "duration": 4.14
+    },
+    {
+        "text": "doesn't cost anything outside of one key",
+        "start": 598.14,
+        "duration": 2.879
+    },
+    {
+        "text": "point",
+        "start": 599.7,
+        "duration": 4.68
+    },
+    {
+        "text": "and anyways you target a key enemy and",
+        "start": 601.019,
+        "duration": 5.161
+    },
+    {
+        "text": "it and all of the surrounding enemies in",
+        "start": 604.38,
+        "duration": 3.84
+    },
+    {
+        "text": "a rather decent area of effect",
+        "start": 606.18,
+        "duration": 5.099
+    },
+    {
+        "text": "will automatically take 3d6 Force damage",
+        "start": 608.22,
+        "duration": 5.58
+    },
+    {
+        "text": "now it might not seem like much at first",
+        "start": 611.279,
+        "duration": 5.701
+    },
+    {
+        "text": "but you can stack this to absurd amounts",
+        "start": 613.8,
+        "duration": 6.36
+    },
+    {
+        "text": "for a true overwhelmingly nuclear",
+        "start": 616.98,
+        "duration": 4.62
+    },
+    {
+        "text": "explosion chain",
+        "start": 620.16,
+        "duration": 4.02
+    },
+    {
+        "text": "because ideally you want to get our",
+        "start": 621.6,
+        "duration": 4.14
+    },
+    {
+        "text": "enemies together for example from the",
+        "start": 624.18,
+        "duration": 3.659
+    },
+    {
+        "text": "black hole minus layer power then punch",
+        "start": 625.74,
+        "duration": 4.56
+    },
+    {
+        "text": "as many as you can with the key",
+        "start": 627.839,
+        "duration": 5.041
+    },
+    {
+        "text": "resonation to apply it to multiple",
+        "start": 630.3,
+        "duration": 4.38
+    },
+    {
+        "text": "targets right because whenever you",
+        "start": 632.88,
+        "duration": 3.72
+    },
+    {
+        "text": "detonate one of them all of the nearby",
+        "start": 634.68,
+        "duration": 3.779
+    },
+    {
+        "text": "Targets that are afflicted by resonation",
+        "start": 636.6,
+        "duration": 5.1
+    },
+    {
+        "text": "will also explode right so as you can",
+        "start": 638.459,
+        "duration": 6.0
+    },
+    {
+        "text": "see here the game even lags a bit before",
+        "start": 641.7,
+        "duration": 4.62
+    },
+    {
+        "text": "we get to the final result because of",
+        "start": 644.459,
+        "duration": 3.781
+    },
+    {
+        "text": "how many explosions there were you can",
+        "start": 646.32,
+        "duration": 4.68
+    },
+    {
+        "text": "achieve an absurd amount of extra damage",
+        "start": 648.24,
+        "duration": 5.039
+    },
+    {
+        "text": "Stacks especially when combined with",
+        "start": 651.0,
+        "duration": 4.44
+    },
+    {
+        "text": "another great mind flayer power code a",
+        "start": 653.279,
+        "duration": 3.901
+    },
+    {
+        "text": "week as I would explain the build",
+        "start": 655.44,
+        "duration": 3.06
+    },
+    {
+        "text": "progression there is something to be",
+        "start": 657.18,
+        "duration": 3.18
+    },
+    {
+        "text": "said about multi-classing away from monk",
+        "start": 658.5,
+        "duration": 3.3
+    },
+    {
+        "text": "earlier so you don't get this ability",
+        "start": 660.36,
+        "duration": 3.419
+    },
+    {
+        "text": "but on the other hand like I said it can",
+        "start": 661.8,
+        "duration": 4.38
+    },
+    {
+        "text": "be a very fun and Powerful tool as well",
+        "start": 663.779,
+        "duration": 4.921
+    },
+    {
+        "text": "I'll give you both ways of doing it why",
+        "start": 666.18,
+        "duration": 4.38
+    },
+    {
+        "text": "write level 11 you automatically gain",
+        "start": 668.7,
+        "duration": 3.9
+    },
+    {
+        "text": "the sanctuary effect after a long rest",
+        "start": 670.56,
+        "duration": 4.62
+    },
+    {
+        "text": "and that's it outside of more key points",
+        "start": 672.6,
+        "duration": 4.979
+    },
+    {
+        "text": "now that we know how all of the many",
+        "start": 675.18,
+        "duration": 4.68
+    },
+    {
+        "text": "unique Monk class features work let's",
+        "start": 677.579,
+        "duration": 4.621
+    },
+    {
+        "text": "get into our build At Last First with",
+        "start": 679.86,
+        "duration": 5.4
+    },
+    {
+        "text": "character creation and the best races",
+        "start": 682.2,
+        "duration": 5.34
+    },
+    {
+        "text": "when it comes shoe race my preferred",
+        "start": 685.26,
+        "duration": 5.579
+    },
+    {
+        "text": "pick for a monk is elf and wood elf this",
+        "start": 687.54,
+        "duration": 5.16
+    },
+    {
+        "text": "way we get of course increased movement",
+        "start": 690.839,
+        "duration": 3.06
+    },
+    {
+        "text": "speed",
+        "start": 692.7,
+        "duration": 2.759
+    },
+    {
+        "text": "which is even better when you consider",
+        "start": 693.899,
+        "duration": 4.741
+    },
+    {
+        "text": "monk already has movement bonuses if not",
+        "start": 695.459,
+        "duration": 5.461
+    },
+    {
+        "text": "wearing armor so can help quite a lot",
+        "start": 698.64,
+        "duration": 4.02
+    },
+    {
+        "text": "early on and movement speed is great for",
+        "start": 700.92,
+        "duration": 3.419
+    },
+    {
+        "text": "any build of any type really but",
+        "start": 702.66,
+        "duration": 4.2
+    },
+    {
+        "text": "especially mainly At Close Quarters of",
+        "start": 704.339,
+        "duration": 4.74
+    },
+    {
+        "text": "course dark vision is great too but many",
+        "start": 706.86,
+        "duration": 4.5
+    },
+    {
+        "text": "races can provide it and you can even",
+        "start": 709.079,
+        "duration": 5.461
+    },
+    {
+        "text": "have proficiency with long bows and long",
+        "start": 711.36,
+        "duration": 6.0
+    },
+    {
+        "text": "swords which will count as monk weapons",
+        "start": 714.54,
+        "duration": 4.919
+    },
+    {
+        "text": "other than that there's also something",
+        "start": 717.36,
+        "duration": 4.919
+    },
+    {
+        "text": "to be said about stifling and the Zario",
+        "start": 719.459,
+        "duration": 5.521
+    },
+    {
+        "text": "tiffling of course so you get three",
+        "start": 722.279,
+        "duration": 5.041
+    },
+    {
+        "text": "Smite abilities one at level 3 the order",
+        "start": 724.98,
+        "duration": 5.039
+    },
+    {
+        "text": "at level 5. monks don't really have many",
+        "start": 727.32,
+        "duration": 4.68
+    },
+    {
+        "text": "concentration effects so",
+        "start": 730.019,
+        "duration": 3.961
+    },
+    {
+        "text": "Smite will be welcome to increase your",
+        "start": 732.0,
+        "duration": 4.44
+    },
+    {
+        "text": "damage even further now let's cover our",
+        "start": 733.98,
+        "duration": 4.02
+    },
+    {
+        "text": "stats there's two ways you can build",
+        "start": 736.44,
+        "duration": 3.36
+    },
+    {
+        "text": "your unarmed Monk",
+        "start": 738.0,
+        "duration": 4.32
+    },
+    {
+        "text": "the first and my preferred pick is to",
+        "start": 739.8,
+        "duration": 5.4
+    },
+    {
+        "text": "dump your strength because there is a",
+        "start": 742.32,
+        "duration": 5.04
+    },
+    {
+        "text": "very easy way including very early game",
+        "start": 745.2,
+        "duration": 5.04
+    },
+    {
+        "text": "to achieve extreme strength without",
+        "start": 747.36,
+        "duration": 5.7
+    },
+    {
+        "text": "having to invest into it at all and it's",
+        "start": 750.24,
+        "duration": 6.18
+    },
+    {
+        "text": "quite simple from elixirs right the huge",
+        "start": 753.06,
+        "duration": 5.399
+    },
+    {
+        "text": "giant Elixir for example can set your",
+        "start": 756.42,
+        "duration": 4.859
+    },
+    {
+        "text": "strength to 21 until the following long",
+        "start": 758.459,
+        "duration": 5.221
+    },
+    {
+        "text": "rest so pretty much forever the best",
+        "start": 761.279,
+        "duration": 5.341
+    },
+    {
+        "text": "part is you can buy as many as you want",
+        "start": 763.68,
+        "duration": 5.52
+    },
+    {
+        "text": "from a certain vendor at a miconite",
+        "start": 766.62,
+        "duration": 4.5
+    },
+    {
+        "text": "colony in the underdark which by the way",
+        "start": 769.2,
+        "duration": 4.379
+    },
+    {
+        "text": "you can access even at act 1 right there",
+        "start": 771.12,
+        "duration": 4.74
+    },
+    {
+        "text": "are so many ways to get you the ud this",
+        "start": 773.579,
+        "duration": 3.961
+    },
+    {
+        "text": "vendor will always sell at the very",
+        "start": 775.86,
+        "duration": 4.919
+    },
+    {
+        "text": "least one Elixir per long rest so you'll",
+        "start": 777.54,
+        "duration": 5.58
+    },
+    {
+        "text": "never run out it's quite efficient and",
+        "start": 780.779,
+        "duration": 4.5
+    },
+    {
+        "text": "quite cheap two plus you'll also have a",
+        "start": 783.12,
+        "duration": 3.48
+    },
+    {
+        "text": "lot of other powerful stuff there",
+        "start": 785.279,
+        "duration": 4.201
+    },
+    {
+        "text": "including even the ingredients for the",
+        "start": 786.6,
+        "duration": 4.2
+    },
+    {
+        "text": "clouds Giant",
+        "start": 789.48,
+        "duration": 4.26
+    },
+    {
+        "text": "Elixir recipe which Satchel strength 27",
+        "start": 790.8,
+        "duration": 5.099
+    },
+    {
+        "text": "the normal huge giant Elixir itself",
+        "start": 793.74,
+        "duration": 3.96
+    },
+    {
+        "text": "potions of haste a lot of other use",
+        "start": 795.899,
+        "duration": 4.021
+    },
+    {
+        "text": "swing regions and so on the dwarf lady",
+        "start": 797.7,
+        "duration": 5.46
+    },
+    {
+        "text": "Merchant will become your best friend",
+        "start": 799.92,
+        "duration": 5.88
+    },
+    {
+        "text": "and later of course for X3 on Mars you",
+        "start": 803.16,
+        "duration": 5.04
+    },
+    {
+        "text": "can just me Max with Cloud giant elixirs",
+        "start": 805.8,
+        "duration": 5.159
+    },
+    {
+        "text": "for 27 strength now the only downside to",
+        "start": 808.2,
+        "duration": 5.1
+    },
+    {
+        "text": "this is that well you could use another",
+        "start": 810.959,
+        "duration": 4.261
+    },
+    {
+        "text": "Elixir right like the one that lets you",
+        "start": 813.3,
+        "duration": 4.14
+    },
+    {
+        "text": "have one extra action per enemy Cube per",
+        "start": 815.22,
+        "duration": 4.38
+    },
+    {
+        "text": "turn such as bloodlust or to increase",
+        "start": 817.44,
+        "duration": 4.32
+    },
+    {
+        "text": "your critical range but I find it quite",
+        "start": 819.6,
+        "duration": 3.6
+    },
+    {
+        "text": "efficient regardless because of how",
+        "start": 821.76,
+        "duration": 3.9
+    },
+    {
+        "text": "early and easy it is to do it this way",
+        "start": 823.2,
+        "duration": 4.199
+    },
+    {
+        "text": "we have a lot of extra points to put",
+        "start": 825.66,
+        "duration": 3.96
+    },
+    {
+        "text": "into both dexterity wisdom and",
+        "start": 827.399,
+        "duration": 4.261
+    },
+    {
+        "text": "Constitution and you can of course",
+        "start": 829.62,
+        "duration": 4.08
+    },
+    {
+        "text": "ignore some of these stats and just",
+        "start": 831.66,
+        "duration": 4.859
+    },
+    {
+        "text": "start with let's say 17 strength like I",
+        "start": 833.7,
+        "duration": 4.62
+    },
+    {
+        "text": "said I don't find it needed and you can",
+        "start": 836.519,
+        "duration": 3.541
+    },
+    {
+        "text": "always respect your character to see",
+        "start": 838.32,
+        "duration": 4.98
+    },
+    {
+        "text": "what works best for you so to me 8",
+        "start": 840.06,
+        "duration": 5.04
+    },
+    {
+        "text": "strength assign a plus one should",
+        "start": 843.3,
+        "duration": 4.02
+    },
+    {
+        "text": "dexterity and start with 16 for",
+        "start": 845.1,
+        "duration": 3.96
+    },
+    {
+        "text": "initiative and armor class mostly",
+        "start": 847.32,
+        "duration": 4.019
+    },
+    {
+        "text": "initiative because of how easy it is for",
+        "start": 849.06,
+        "duration": 3.959
+    },
+    {
+        "text": "your among 12 for strike enemies in your",
+        "start": 851.339,
+        "duration": 3.361
+    },
+    {
+        "text": "submission with their numerous attacks",
+        "start": 853.019,
+        "duration": 4.921
+    },
+    {
+        "text": "15 Constitution we can make this into 16",
+        "start": 854.7,
+        "duration": 5.16
+    },
+    {
+        "text": "through the tavern brawler feet for high",
+        "start": 857.94,
+        "duration": 5.399
+    },
+    {
+        "text": "hit points and nope it will not stack",
+        "start": 859.86,
+        "duration": 5.46
+    },
+    {
+        "text": "with the barbarian's ability that grants",
+        "start": 863.339,
+        "duration": 4.8
+    },
+    {
+        "text": "you AC based on the Constitution as far",
+        "start": 865.32,
+        "duration": 4.92
+    },
+    {
+        "text": "as the monk wisdom which I see and",
+        "start": 868.139,
+        "duration": 3.841
+    },
+    {
+        "text": "speaking about wisdom it will be your",
+        "start": 870.24,
+        "duration": 3.719
+    },
+    {
+        "text": "most important stat so don't both",
+        "start": 871.98,
+        "duration": 4.32
+    },
+    {
+        "text": "intelligence and Charisma now add a plus",
+        "start": 873.959,
+        "duration": 4.861
+    },
+    {
+        "text": "due to wisdom so we can start at 17.",
+        "start": 876.3,
+        "duration": 4.38
+    },
+    {
+        "text": "wisdom will provide us with both more",
+        "start": 878.82,
+        "duration": 4.44
+    },
+    {
+        "text": "ACS stacking with dexterity but also",
+        "start": 880.68,
+        "duration": 4.98
+    },
+    {
+        "text": "higher damage as we get two sources of",
+        "start": 883.26,
+        "duration": 5.519
+    },
+    {
+        "text": "our wisdom modifier to damage as far as",
+        "start": 885.66,
+        "duration": 5.039
+    },
+    {
+        "text": "skills it's up to you but since we have",
+        "start": 888.779,
+        "duration": 5.461
+    },
+    {
+        "text": "very high wisdom definitely inside",
+        "start": 890.699,
+        "duration": 6.0
+    },
+    {
+        "text": "perception thankfully is already granted",
+        "start": 894.24,
+        "duration": 4.32
+    },
+    {
+        "text": "from our Race by virtue of being an elf",
+        "start": 896.699,
+        "duration": 3.901
+    },
+    {
+        "text": "there's loads of insight and perception",
+        "start": 898.56,
+        "duration": 3.48
+    },
+    {
+        "text": "checks and they are based on wisdom",
+        "start": 900.6,
+        "duration": 3.239
+    },
+    {
+        "text": "other than that I really enjoy",
+        "start": 902.04,
+        "duration": 3.419
+    },
+    {
+        "text": "acrobatics too because of our high",
+        "start": 903.839,
+        "duration": 2.821
+    },
+    {
+        "text": "dexterity",
+        "start": 905.459,
+        "duration": 4.021
+    },
+    {
+        "text": "together with Athletics as even with low",
+        "start": 906.66,
+        "duration": 4.56
+    },
+    {
+        "text": "strength like I said you can achieve",
+        "start": 909.48,
+        "duration": 4.2
+    },
+    {
+        "text": "very high amounts very soon in the game",
+        "start": 911.22,
+        "duration": 4.859
+    },
+    {
+        "text": "for the background I like yield Artisan",
+        "start": 913.68,
+        "duration": 4.08
+    },
+    {
+        "text": "for insight and also the bonus to",
+        "start": 916.079,
+        "duration": 3.181
+    },
+    {
+        "text": "persuasion",
+        "start": 917.76,
+        "duration": 3.72
+    },
+    {
+        "text": "and for the second level onwards I'll be",
+        "start": 919.26,
+        "duration": 3.78
+    },
+    {
+        "text": "leveling my character as just a normal",
+        "start": 921.48,
+        "duration": 3.419
+    },
+    {
+        "text": "Bland human to show you that you can",
+        "start": 923.04,
+        "duration": 3.96
+    },
+    {
+        "text": "really go with any race you want most of",
+        "start": 924.899,
+        "duration": 3.721
+    },
+    {
+        "text": "the powerful monk benefits come from",
+        "start": 927.0,
+        "duration": 2.88
+    },
+    {
+        "text": "class features after all and",
+        "start": 928.62,
+        "duration": 3.42
+    },
+    {
+        "text": "multi-classing options I've already",
+        "start": 929.88,
+        "duration": 3.36
+    },
+    {
+        "text": "explained the abilities you gain at",
+        "start": 932.04,
+        "duration": 3.78
+    },
+    {
+        "text": "level 2 and so on Fall level 3 we",
+        "start": 933.24,
+        "duration": 4.32
+    },
+    {
+        "text": "definitely want way of the open hand for",
+        "start": 935.82,
+        "duration": 4.079
+    },
+    {
+        "text": "the amazing boost shoe damage our",
+        "start": 937.56,
+        "duration": 4.92
+    },
+    {
+        "text": "defeated level 4 is a given to have an",
+        "start": 939.899,
+        "duration": 4.8
+    },
+    {
+        "text": "umbrella and increase Constitution",
+        "start": 942.48,
+        "duration": 5.94
+    },
+    {
+        "text": "nothing will be as good as this trust me",
+        "start": 944.699,
+        "duration": 5.461
+    },
+    {
+        "text": "and don't forget you can already benefit",
+        "start": 948.42,
+        "duration": 4.14
+    },
+    {
+        "text": "from your elixirs of your giant strength",
+        "start": 950.16,
+        "duration": 4.859
+    },
+    {
+        "text": "for 21 strength right at this level",
+        "start": 952.56,
+        "duration": 4.38
+    },
+    {
+        "text": "or around level 5 which is safer to",
+        "start": 955.019,
+        "duration": 4.62
+    },
+    {
+        "text": "reach the underdark and start buying",
+        "start": 956.94,
+        "duration": 5.519
+    },
+    {
+        "text": "your infinite elixirs nothing outside of",
+        "start": 959.639,
+        "duration": 5.401
+    },
+    {
+        "text": "class features at level 5 together with",
+        "start": 962.459,
+        "duration": 4.62
+    },
+    {
+        "text": "our last most important ones at level 6",
+        "start": 965.04,
+        "duration": 3.659
+    },
+    {
+        "text": "as I mentioned before now there's two",
+        "start": 967.079,
+        "duration": 2.88
+    },
+    {
+        "text": "ways of",
+        "start": 968.699,
+        "duration": 3.841
+    },
+    {
+        "text": "progressing this character further first",
+        "start": 969.959,
+        "duration": 4.74
+    },
+    {
+        "text": "you can keep him as a pure monk until",
+        "start": 972.54,
+        "duration": 6.06
+    },
+    {
+        "text": "Level 9 so we get a very nice and quite",
+        "start": 974.699,
+        "duration": 6.901
+    },
+    {
+        "text": "fun resonating strike among abilities as",
+        "start": 978.6,
+        "duration": 4.5
+    },
+    {
+        "text": "I've explained before",
+        "start": 981.6,
+        "duration": 3.66
+    },
+    {
+        "text": "to make enemies explode all around you",
+        "start": 983.1,
+        "duration": 4.979
+    },
+    {
+        "text": "it's quite efficient too considering it",
+        "start": 985.26,
+        "duration": 4.62
+    },
+    {
+        "text": "only costs you one key point right",
+        "start": 988.079,
+        "duration": 3.781
+    },
+    {
+        "text": "because the rest is just normal and",
+        "start": 989.88,
+        "duration": 4.68
+    },
+    {
+        "text": "bonus punch actions of course you might",
+        "start": 991.86,
+        "duration": 5.039
+    },
+    {
+        "text": "also find that should be more of a win",
+        "start": 994.56,
+        "duration": 3.719
+    },
+    {
+        "text": "more ability if you know what I mean",
+        "start": 996.899,
+        "duration": 4.201
+    },
+    {
+        "text": "it's not really necessary for a monk so",
+        "start": 998.279,
+        "duration": 5.341
+    },
+    {
+        "text": "something else you can do is multi-class",
+        "start": 1001.1,
+        "duration": 5.34
+    },
+    {
+        "text": "now and ideally we want to Rogue for the",
+        "start": 1003.62,
+        "duration": 5.639
+    },
+    {
+        "text": "thief subclass so that we get an extra",
+        "start": 1006.44,
+        "duration": 4.5
+    },
+    {
+        "text": "bonus action which for a monk is",
+        "start": 1009.259,
+        "duration": 3.661
+    },
+    {
+        "text": "extremely useful right because remember",
+        "start": 1010.94,
+        "duration": 5.04
+    },
+    {
+        "text": "each bonus action will let you have two",
+        "start": 1012.92,
+        "duration": 5.46
+    },
+    {
+        "text": "extra monk attacks from Flurry of Blows",
+        "start": 1015.98,
+        "duration": 5.46
+    },
+    {
+        "text": "or one from the normal bonus punch so",
+        "start": 1018.38,
+        "duration": 6.24
+    },
+    {
+        "text": "ideally three levels of Rogue and if you",
+        "start": 1021.44,
+        "duration": 4.859
+    },
+    {
+        "text": "want the resonating strike abilities",
+        "start": 1024.62,
+        "duration": 4.079
+    },
+    {
+        "text": "well you can also combine it with Rogue",
+        "start": 1026.299,
+        "duration": 4.981
+    },
+    {
+        "text": "right 9 levels of Monk then exactly",
+        "start": 1028.699,
+        "duration": 4.681
+    },
+    {
+        "text": "three levels of Rogue exactly what we",
+        "start": 1031.28,
+        "duration": 3.96
+    },
+    {
+        "text": "need to finish our character at level",
+        "start": 1033.38,
+        "duration": 4.919
+    },
+    {
+        "text": "12. of course the downside is that while",
+        "start": 1035.24,
+        "duration": 5.04
+    },
+    {
+        "text": "you'd get resonating strike and more cue",
+        "start": 1038.299,
+        "duration": 4.26
+    },
+    {
+        "text": "points you would only be able to acquire",
+        "start": 1040.28,
+        "duration": 4.98
+    },
+    {
+        "text": "the extra bonus action from Thief at",
+        "start": 1042.559,
+        "duration": 6.601
+    },
+    {
+        "text": "level 12 so act 3 only",
+        "start": 1045.26,
+        "duration": 5.76
+    },
+    {
+        "text": "for this guide I'll be going with triple",
+        "start": 1049.16,
+        "duration": 3.42
+    },
+    {
+        "text": "levels in shoe broke now just to show",
+        "start": 1051.02,
+        "duration": 3.18
+    },
+    {
+        "text": "you how it is because like I said you",
+        "start": 1052.58,
+        "duration": 3.479
+    },
+    {
+        "text": "can just go 9 Monk and three Rogue later",
+        "start": 1054.2,
+        "duration": 4.02
+    },
+    {
+        "text": "sadly I don't believe sneak attack will",
+        "start": 1056.059,
+        "duration": 3.601
+    },
+    {
+        "text": "work at least not if you're punches",
+        "start": 1058.22,
+        "duration": 3.42
+    },
+    {
+        "text": "right because it's not counted as a",
+        "start": 1059.66,
+        "duration": 6.3
+    },
+    {
+        "text": "weapon with the finessible property but",
+        "start": 1061.64,
+        "duration": 6.3
+    },
+    {
+        "text": "since monks have short sword proficiency",
+        "start": 1065.96,
+        "duration": 3.959
+    },
+    {
+        "text": "you can always equip one if you want",
+        "start": 1067.94,
+        "duration": 3.96
+    },
+    {
+        "text": "I just don't think it's necessary",
+        "start": 1069.919,
+        "duration": 4.981
+    },
+    {
+        "text": "then level 2 Broke at level 8 and that",
+        "start": 1071.9,
+        "duration": 5.279
+    },
+    {
+        "text": "lasts at level 9",
+        "start": 1074.9,
+        "duration": 4.8
+    },
+    {
+        "text": "the thief subclass for the very handy",
+        "start": 1077.179,
+        "duration": 5.041
+    },
+    {
+        "text": "fast hands ability for the extra bonus",
+        "start": 1079.7,
+        "duration": 4.68
+    },
+    {
+        "text": "action which is permanent by the way per",
+        "start": 1082.22,
+        "duration": 5.16
+    },
+    {
+        "text": "turn now here's what you can do at level",
+        "start": 1084.38,
+        "duration": 5.1
+    },
+    {
+        "text": "4 Rogue we'll get access to an extra",
+        "start": 1087.38,
+        "duration": 3.78
+    },
+    {
+        "text": "feat which will only happen if you",
+        "start": 1089.48,
+        "duration": 4.02
+    },
+    {
+        "text": "increase monk to level 8. we already",
+        "start": 1091.16,
+        "duration": 4.44
+    },
+    {
+        "text": "have Tavern brawler the most busted of",
+        "start": 1093.5,
+        "duration": 4.08
+    },
+    {
+        "text": "them all what I like picking now is",
+        "start": 1095.6,
+        "duration": 4.56
+    },
+    {
+        "text": "ability Improvement and wisdom this way",
+        "start": 1097.58,
+        "duration": 4.68
+    },
+    {
+        "text": "through anti-zatho gift that you can get",
+        "start": 1100.16,
+        "duration": 4.44
+    },
+    {
+        "text": "attacked one you would already have 20",
+        "start": 1102.26,
+        "duration": 4.44
+    },
+    {
+        "text": "wisdom by now and like I said we have",
+        "start": 1104.6,
+        "duration": 4.86
+    },
+    {
+        "text": "two important abilities that increase",
+        "start": 1106.7,
+        "duration": 5.219
+    },
+    {
+        "text": "our unarmed damage based on our wisdom",
+        "start": 1109.46,
+        "duration": 4.8
+    },
+    {
+        "text": "modifier for a plus 10. other than that",
+        "start": 1111.919,
+        "duration": 3.961
+    },
+    {
+        "text": "level 4 Rogue won't really give you",
+        "start": 1114.26,
+        "duration": 4.26
+    },
+    {
+        "text": "anything and like I said you can just",
+        "start": 1115.88,
+        "duration": 5.94
+    },
+    {
+        "text": "get three extra levels into monk now for",
+        "start": 1118.52,
+        "duration": 5.88
+    },
+    {
+        "text": "the resonating ability",
+        "start": 1121.82,
+        "duration": 6.18
+    },
+    {
+        "text": "I'll be going for defeat however",
+        "start": 1124.4,
+        "duration": 5.82
+    },
+    {
+        "text": "since this will prevent you from getting",
+        "start": 1128.0,
+        "duration": 4.5
+    },
+    {
+        "text": "the resonating monk power right because",
+        "start": 1130.22,
+        "duration": 4.62
+    },
+    {
+        "text": "we only have two leftover levels what",
+        "start": 1132.5,
+        "duration": 3.9
+    },
+    {
+        "text": "you can do now is multi-glass again",
+        "start": 1134.84,
+        "duration": 3.9
+    },
+    {
+        "text": "first with fighter",
+        "start": 1136.4,
+        "duration": 4.2
+    },
+    {
+        "text": "well it's actually more like two levels",
+        "start": 1138.74,
+        "duration": 4.5
+    },
+    {
+        "text": "of fighter right for the extra action",
+        "start": 1140.6,
+        "duration": 5.16
+    },
+    {
+        "text": "surge ability which means of course more",
+        "start": 1143.24,
+        "duration": 3.54
+    },
+    {
+        "text": "punches",
+        "start": 1145.76,
+        "duration": 3.9
+    },
+    {
+        "text": "once per short rest fighter will also",
+        "start": 1146.78,
+        "duration": 5.58
+    },
+    {
+        "text": "provide you with all armor proficiencies",
+        "start": 1149.66,
+        "duration": 4.68
+    },
+    {
+        "text": "and also shoot now there is something to",
+        "start": 1152.36,
+        "duration": 3.36
+    },
+    {
+        "text": "be said about getting an early level",
+        "start": 1154.34,
+        "duration": 3.54
+    },
+    {
+        "text": "into fighter as a monk but to me that's",
+        "start": 1155.72,
+        "duration": 4.8
+    },
+    {
+        "text": "only if you went with strength right",
+        "start": 1157.88,
+        "duration": 4.26
+    },
+    {
+        "text": "because this will already have nice",
+        "start": 1160.52,
+        "duration": 3.84
+    },
+    {
+        "text": "dexterity and wisdom to make up for the",
+        "start": 1162.14,
+        "duration": 5.039
+    },
+    {
+        "text": "lack of armor early game plus are some",
+        "start": 1164.36,
+        "duration": 5.58
+    },
+    {
+        "text": "Monk unique gear that also improves your",
+        "start": 1167.179,
+        "duration": 5.341
+    },
+    {
+        "text": "unarmored AC very early and of course if",
+        "start": 1169.94,
+        "duration": 5.28
+    },
+    {
+        "text": "you go with half elf or human you'd also",
+        "start": 1172.52,
+        "duration": 4.56
+    },
+    {
+        "text": "get shoot and light armor proficiency",
+        "start": 1175.22,
+        "duration": 4.44
+    },
+    {
+        "text": "and for half Health the extra movement",
+        "start": 1177.08,
+        "duration": 4.2
+    },
+    {
+        "text": "speed as well with subscribe what you",
+        "start": 1179.66,
+        "duration": 3.42
+    },
+    {
+        "text": "want to pick and at last we are at level",
+        "start": 1181.28,
+        "duration": 4.259
+    },
+    {
+        "text": "12 for the fighter unique action surge",
+        "start": 1183.08,
+        "duration": 3.959
+    },
+    {
+        "text": "ability by the way if you want higher",
+        "start": 1185.539,
+        "duration": 4.081
+    },
+    {
+        "text": "critical range you can also ignore the",
+        "start": 1187.039,
+        "duration": 5.221
+    },
+    {
+        "text": "level 4 in shoe Rogue and get 3 into",
+        "start": 1189.62,
+        "duration": 5.28
+    },
+    {
+        "text": "Fighter for the champion subclass which",
+        "start": 1192.26,
+        "duration": 4.2
+    },
+    {
+        "text": "well increases your critical range by",
+        "start": 1194.9,
+        "duration": 2.76
+    },
+    {
+        "text": "plus one",
+        "start": 1196.46,
+        "duration": 4.56
+    },
+    {
+        "text": "so 19 to 20 instead of just 20.",
+        "start": 1197.66,
+        "duration": 5.58
+    },
+    {
+        "text": "alright now let's discover gear for our",
+        "start": 1201.02,
+        "duration": 3.779
+    },
+    {
+        "text": "Monk",
+        "start": 1203.24,
+        "duration": 4.319
+    },
+    {
+        "text": "for the helmet slot ultimately cerevox",
+        "start": 1204.799,
+        "duration": 5.401
+    },
+    {
+        "text": "horn helmet for the further boost to",
+        "start": 1207.559,
+        "duration": 4.801
+    },
+    {
+        "text": "critical range something very needed for",
+        "start": 1210.2,
+        "duration": 3.42
+    },
+    {
+        "text": "a monk",
+        "start": 1212.36,
+        "duration": 3.42
+    },
+    {
+        "text": "after all we attacked twice before a",
+        "start": 1213.62,
+        "duration": 4.439
+    },
+    {
+        "text": "Flurry of Blows you can also go with the",
+        "start": 1215.78,
+        "duration": 4.92
+    },
+    {
+        "text": "mask of so perception but I'd much",
+        "start": 1218.059,
+        "duration": 4.801
+    },
+    {
+        "text": "rather the critical range increase at",
+        "start": 1220.7,
+        "duration": 4.8
+    },
+    {
+        "text": "the point we get both act 3 you already",
+        "start": 1222.86,
+        "duration": 4.439
+    },
+    {
+        "text": "have amazing bonus of attack and",
+        "start": 1225.5,
+        "duration": 4.26
+    },
+    {
+        "text": "initiative anyways mostly attack because",
+        "start": 1227.299,
+        "duration": 4.861
+    },
+    {
+        "text": "of Tavern brawler earlier you can also",
+        "start": 1229.76,
+        "duration": 4.38
+    },
+    {
+        "text": "make use of the covert call for the same",
+        "start": 1232.16,
+        "duration": 4.68
+    },
+    {
+        "text": "purpose as sarahvox Helm critical range",
+        "start": 1234.14,
+        "duration": 5.76
+    },
+    {
+        "text": "increase as this is act 2 just remember",
+        "start": 1236.84,
+        "duration": 6.719
+    },
+    {
+        "text": "both count as armor Right light for the",
+        "start": 1239.9,
+        "duration": 7.74
+    },
+    {
+        "text": "covert helmet and medium for cerevox as",
+        "start": 1243.559,
+        "duration": 6.301
+    },
+    {
+        "text": "for much earlier than that just a haste",
+        "start": 1247.64,
+        "duration": 4.5
+    },
+    {
+        "text": "Helm so that you gain momentum at the",
+        "start": 1249.86,
+        "duration": 4.199
+    },
+    {
+        "text": "start of battle for higher movement",
+        "start": 1252.14,
+        "duration": 4.38
+    },
+    {
+        "text": "speed plus it's not really counted as",
+        "start": 1254.059,
+        "duration": 4.921
+    },
+    {
+        "text": "armor poor cloak just a cloak of",
+        "start": 1256.52,
+        "duration": 4.14
+    },
+    {
+        "text": "displacement because although we won't",
+        "start": 1258.98,
+        "duration": 3.48
+    },
+    {
+        "text": "have the ultimate armor class possible",
+        "start": 1260.66,
+        "duration": 4.62
+    },
+    {
+        "text": "by forcing disadvantage on enemy attacks",
+        "start": 1262.46,
+        "duration": 5.04
+    },
+    {
+        "text": "well Chances Are Gonna Miss because we",
+        "start": 1265.28,
+        "duration": 5.16
+    },
+    {
+        "text": "do have decent AC regardless both when",
+        "start": 1267.5,
+        "duration": 5.28
+    },
+    {
+        "text": "on armor at or wearing armor and shoots",
+        "start": 1270.44,
+        "duration": 5.099
+    },
+    {
+        "text": "and speaking about armor definitely held",
+        "start": 1272.78,
+        "duration": 4.98
+    },
+    {
+        "text": "the scar more even if you weren't a",
+        "start": 1275.539,
+        "duration": 4.621
+    },
+    {
+        "text": "fighter or don't have heavy armor",
+        "start": 1277.76,
+        "duration": 4.26
+    },
+    {
+        "text": "proficiency it doesn't matter because",
+        "start": 1280.16,
+        "duration": 4.379
+    },
+    {
+        "text": "the armor will work regardless right it",
+        "start": 1282.02,
+        "duration": 4.2
+    },
+    {
+        "text": "automatically makes you proficient with",
+        "start": 1284.539,
+        "duration": 3.241
+    },
+    {
+        "text": "it",
+        "start": 1286.22,
+        "duration": 3.66
+    },
+    {
+        "text": "resistance your fire is always so great",
+        "start": 1287.78,
+        "duration": 3.779
+    },
+    {
+        "text": "and plus this is the heavy armor with",
+        "start": 1289.88,
+        "duration": 4.2
+    },
+    {
+        "text": "the highest AC amount I believe very",
+        "start": 1291.559,
+        "duration": 4.441
+    },
+    {
+        "text": "early in the game you can just go with",
+        "start": 1294.08,
+        "duration": 3.9
+    },
+    {
+        "text": "ropes right because they won't interfere",
+        "start": 1296.0,
+        "duration": 3.6
+    },
+    {
+        "text": "with your own armored defense ability",
+        "start": 1297.98,
+        "duration": 3.42
+    },
+    {
+        "text": "although there aren't that many good",
+        "start": 1299.6,
+        "duration": 3.72
+    },
+    {
+        "text": "ropes usually you just provide plus one",
+        "start": 1301.4,
+        "duration": 4.44
+    },
+    {
+        "text": "Tracy and late game economists go with",
+        "start": 1303.32,
+        "duration": 4.68
+    },
+    {
+        "text": "the vast of sober Rejuvenation shoe if",
+        "start": 1305.84,
+        "duration": 4.079
+    },
+    {
+        "text": "you'd rather be an unarmed monk forever",
+        "start": 1308.0,
+        "duration": 4.32
+    },
+    {
+        "text": "as it does grant you an extra plus due",
+        "start": 1309.919,
+        "duration": 5.64
+    },
+    {
+        "text": "to AC because it's also act 3 only I'd",
+        "start": 1312.32,
+        "duration": 4.62
+    },
+    {
+        "text": "much rather have your armor at this",
+        "start": 1315.559,
+        "duration": 3.721
+    },
+    {
+        "text": "point four gloves this is actually the",
+        "start": 1316.94,
+        "duration": 4.44
+    },
+    {
+        "text": "most important monk slot because a lot",
+        "start": 1319.28,
+        "duration": 4.019
+    },
+    {
+        "text": "of stuff that enhances unarmed damage",
+        "start": 1321.38,
+        "duration": 3.24
+    },
+    {
+        "text": "comes from here",
+        "start": 1323.299,
+        "duration": 4.321
+    },
+    {
+        "text": "well ultimately gloves of soul-catching",
+        "start": 1324.62,
+        "duration": 4.679
+    },
+    {
+        "text": "of course",
+        "start": 1327.62,
+        "duration": 3.6
+    },
+    {
+        "text": "because well first they provide you with",
+        "start": 1329.299,
+        "duration": 4.201
+    },
+    {
+        "text": "a huge 1 to 10 extra Force damage to",
+        "start": 1331.22,
+        "duration": 4.62
+    },
+    {
+        "text": "unarmed hits second you can even heal",
+        "start": 1333.5,
+        "duration": 3.96
+    },
+    {
+        "text": "your character once per turn after",
+        "start": 1335.84,
+        "duration": 3.42
+    },
+    {
+        "text": "making an unarmed strike",
+        "start": 1337.46,
+        "duration": 3.719
+    },
+    {
+        "text": "by 10 hit points",
+        "start": 1339.26,
+        "duration": 3.779
+    },
+    {
+        "text": "lastly",
+        "start": 1341.179,
+        "duration": 4.261
+    },
+    {
+        "text": "you can instead choose to gain advantage",
+        "start": 1343.039,
+        "duration": 3.601
+    },
+    {
+        "text": "on all",
+        "start": 1345.44,
+        "duration": 3.66
+    },
+    {
+        "text": "attack rolls and saving troops until the",
+        "start": 1346.64,
+        "duration": 3.72
+    },
+    {
+        "text": "end of your next turn which is",
+        "start": 1349.1,
+        "duration": 3.3
+    },
+    {
+        "text": "absolutely bust at you and it even",
+        "start": 1350.36,
+        "duration": 3.66
+    },
+    {
+        "text": "increases your constitutional by plus 2",
+        "start": 1352.4,
+        "duration": 4.44
+    },
+    {
+        "text": "up to 20 was not your love right but",
+        "start": 1354.02,
+        "duration": 4.92
+    },
+    {
+        "text": "earlier very early you can go with the",
+        "start": 1356.84,
+        "duration": 4.38
+    },
+    {
+        "text": "bracers of Defense which can be found as",
+        "start": 1358.94,
+        "duration": 4.739
+    },
+    {
+        "text": "early as the blight Village even for a",
+        "start": 1361.22,
+        "duration": 4.02
+    },
+    {
+        "text": "plus due to AC so long as you are",
+        "start": 1363.679,
+        "duration": 4.081
+    },
+    {
+        "text": "unarmored and we do have enough wisdom",
+        "start": 1365.24,
+        "duration": 4.02
+    },
+    {
+        "text": "and exteriority at the start of the game",
+        "start": 1367.76,
+        "duration": 3.48
+    },
+    {
+        "text": "for that and later there's plenty of",
+        "start": 1369.26,
+        "duration": 4.38
+    },
+    {
+        "text": "gloves that enhance your punch attacks",
+        "start": 1371.24,
+        "duration": 4.74
+    },
+    {
+        "text": "with one to four minor Elemental damage",
+        "start": 1373.64,
+        "duration": 5.039
+    },
+    {
+        "text": "too far boots ultimately the boots of",
+        "start": 1375.98,
+        "duration": 4.86
+    },
+    {
+        "text": "uninhibited kushigo to enhance your",
+        "start": 1378.679,
+        "duration": 4.86
+    },
+    {
+        "text": "punches equal to your wisdom modifier",
+        "start": 1380.84,
+        "duration": 5.699
+    },
+    {
+        "text": "and as I said before as an open hand",
+        "start": 1383.539,
+        "duration": 6.241
+    },
+    {
+        "text": "Monk we can also get even higher damage",
+        "start": 1386.539,
+        "duration": 5.64
+    },
+    {
+        "text": "with our manifestation abilities also",
+        "start": 1389.78,
+        "duration": 4.74
+    },
+    {
+        "text": "based on wisdom earlier there's always",
+        "start": 1392.179,
+        "duration": 4.441
+    },
+    {
+        "text": "the evasive shoes if you want higher AC",
+        "start": 1394.52,
+        "duration": 4.68
+    },
+    {
+        "text": "for amulets there's not that many",
+        "start": 1396.62,
+        "duration": 5.4
+    },
+    {
+        "text": "important ones ultimately just greater",
+        "start": 1399.2,
+        "duration": 4.68
+    },
+    {
+        "text": "health for the massive boost to hit",
+        "start": 1402.02,
+        "duration": 3.779
+    },
+    {
+        "text": "points by version of having 23",
+        "start": 1403.88,
+        "duration": 3.96
+    },
+    {
+        "text": "Constitution but the surgeon's",
+        "start": 1405.799,
+        "duration": 4.681
+    },
+    {
+        "text": "subjugation amulet found that act 2 can",
+        "start": 1407.84,
+        "duration": 5.28
+    },
+    {
+        "text": "be quite powerful as well once per long",
+        "start": 1410.48,
+        "duration": 4.26
+    },
+    {
+        "text": "grass whenever you squat a critical hit",
+        "start": 1413.12,
+        "duration": 4.439
+    },
+    {
+        "text": "on a humanoid creature you can make them",
+        "start": 1414.74,
+        "duration": 4.799
+    },
+    {
+        "text": "automatically without a safe without",
+        "start": 1417.559,
+        "duration": 6.421
+    },
+    {
+        "text": "resistant paralyzed for two whole turns",
+        "start": 1419.539,
+        "duration": 6.721
+    },
+    {
+        "text": "and well paralyzed enemies are pretty",
+        "start": 1423.98,
+        "duration": 3.78
+    },
+    {
+        "text": "much dead",
+        "start": 1426.26,
+        "duration": 4.44
+    },
+    {
+        "text": "your attacks hit 100 of the time and are",
+        "start": 1427.76,
+        "duration": 5.46
+    },
+    {
+        "text": "also automatic Critical Hits right this",
+        "start": 1430.7,
+        "duration": 4.8
+    },
+    {
+        "text": "is even better when combined with the",
+        "start": 1433.22,
+        "duration": 4.56
+    },
+    {
+        "text": "look of the far Realms mind flare power",
+        "start": 1435.5,
+        "duration": 4.38
+    },
+    {
+        "text": "because you can then have one critical",
+        "start": 1437.78,
+        "duration": 4.259
+    },
+    {
+        "text": "hit on demand",
+        "start": 1439.88,
+        "duration": 4.5
+    },
+    {
+        "text": "earlier just go with the Amulet of mises",
+        "start": 1442.039,
+        "duration": 4.441
+    },
+    {
+        "text": "type of course you teleport once we're",
+        "start": 1444.38,
+        "duration": 4.919
+    },
+    {
+        "text": "short rest or the Amulet of the Harpers",
+        "start": 1446.48,
+        "duration": 5.28
+    },
+    {
+        "text": "for the very handy Shield ability ones",
+        "start": 1449.299,
+        "duration": 4.441
+    },
+    {
+        "text": "for long rest to avoid a blow that might",
+        "start": 1451.76,
+        "duration": 4.44
+    },
+    {
+        "text": "have otherwise hit you as far as our",
+        "start": 1453.74,
+        "duration": 4.26
+    },
+    {
+        "text": "Rings well the risky ring is as always",
+        "start": 1456.2,
+        "duration": 4.74
+    },
+    {
+        "text": "the best in slot for any ranged or Melee",
+        "start": 1458.0,
+        "duration": 3.9
+    },
+    {
+        "text": "character",
+        "start": 1460.94,
+        "duration": 3.0
+    },
+    {
+        "text": "you'll simply gain advantage on all",
+        "start": 1461.9,
+        "duration": 4.08
+    },
+    {
+        "text": "attack rows right which height increases",
+        "start": 1463.94,
+        "duration": 3.3
+    },
+    {
+        "text": "your chances of not only hitting",
+        "start": 1465.98,
+        "duration": 2.939
+    },
+    {
+        "text": "especially when combined if they have an",
+        "start": 1467.24,
+        "duration": 3.66
+    },
+    {
+        "text": "umbrella ability but also making",
+        "start": 1468.919,
+        "duration": 4.201
+    },
+    {
+        "text": "Critical Hits",
+        "start": 1470.9,
+        "duration": 4.32
+    },
+    {
+        "text": "the more critical boosting gear you have",
+        "start": 1473.12,
+        "duration": 4.799
+    },
+    {
+        "text": "the better for this purpose as well the",
+        "start": 1475.22,
+        "duration": 5.339
+    },
+    {
+        "text": "disadvantage on saving trolls is not",
+        "start": 1477.919,
+        "duration": 3.961
+    },
+    {
+        "text": "really that much of a downside",
+        "start": 1480.559,
+        "duration": 3.6
+    },
+    {
+        "text": "considering the benefit you get from it",
+        "start": 1481.88,
+        "duration": 4.74
+    },
+    {
+        "text": "and I really enjoy combining it with the",
+        "start": 1484.159,
+        "duration": 5.221
+    },
+    {
+        "text": "callus glow ring so that our punches",
+        "start": 1486.62,
+        "duration": 4.799
+    },
+    {
+        "text": "deal even more damage equal to two",
+        "start": 1489.38,
+        "duration": 4.44
+    },
+    {
+        "text": "points of radiant against enemies that",
+        "start": 1491.419,
+        "duration": 4.561
+    },
+    {
+        "text": "are illuminated super easy to do by just",
+        "start": 1493.82,
+        "duration": 3.479
+    },
+    {
+        "text": "you know having a character with the",
+        "start": 1495.98,
+        "duration": 3.48
+    },
+    {
+        "text": "light can drip close to the enemy this",
+        "start": 1497.299,
+        "duration": 4.26
+    },
+    {
+        "text": "approx on the coded weak mind flare",
+        "start": 1499.46,
+        "duration": 4.26
+    },
+    {
+        "text": "power which is hilarious too now let us",
+        "start": 1501.559,
+        "duration": 4.801
+    },
+    {
+        "text": "cover weapons and quick slots or",
+        "start": 1503.72,
+        "duration": 5.64
+    },
+    {
+        "text": "consumables for weapons well I'd rather",
+        "start": 1506.36,
+        "duration": 5.64
+    },
+    {
+        "text": "just your punch but earlier in the game",
+        "start": 1509.36,
+        "duration": 4.559
+    },
+    {
+        "text": "when you won't have as many bonuses your",
+        "start": 1512.0,
+        "duration": 4.26
+    },
+    {
+        "text": "punching attacks you can also equip any",
+        "start": 1513.919,
+        "duration": 4.081
+    },
+    {
+        "text": "weapon you are proficient with right",
+        "start": 1516.26,
+        "duration": 4.26
+    },
+    {
+        "text": "because you still gets to make the bonus",
+        "start": 1518.0,
+        "duration": 4.86
+    },
+    {
+        "text": "Punch or the Flurry of Blows with that",
+        "start": 1520.52,
+        "duration": 4.38
+    },
+    {
+        "text": "weapon type but later it will be",
+        "start": 1522.86,
+        "duration": 4.08
+    },
+    {
+        "text": "punching and punching all the way as I",
+        "start": 1524.9,
+        "duration": 3.72
+    },
+    {
+        "text": "said you can even combine monks with",
+        "start": 1526.94,
+        "duration": 2.76
+    },
+    {
+        "text": "shields",
+        "start": 1528.62,
+        "duration": 3.179
+    },
+    {
+        "text": "which can provide you not only higher AC",
+        "start": 1529.7,
+        "duration": 4.74
+    },
+    {
+        "text": "but also some other nice benefits now",
+        "start": 1531.799,
+        "duration": 4.681
+    },
+    {
+        "text": "the knife of the under Mountain King is",
+        "start": 1534.44,
+        "duration": 3.839
+    },
+    {
+        "text": "amazing to increase our critical range",
+        "start": 1536.48,
+        "duration": 4.86
+    },
+    {
+        "text": "together with cerevox helmet it's just",
+        "start": 1538.279,
+        "duration": 4.081
+    },
+    {
+        "text": "that",
+        "start": 1541.34,
+        "duration": 3.42
+    },
+    {
+        "text": "you can't just equip it on them off hand",
+        "start": 1542.36,
+        "duration": 4.919
+    },
+    {
+        "text": "while leaving the main hand as a punch",
+        "start": 1544.76,
+        "duration": 5.34
+    },
+    {
+        "text": "sadly what you can do however is equip",
+        "start": 1547.279,
+        "duration": 5.341
+    },
+    {
+        "text": "it on the main hand with a shoot as this",
+        "start": 1550.1,
+        "duration": 4.74
+    },
+    {
+        "text": "will still let you retain your Flurry of",
+        "start": 1552.62,
+        "duration": 5.34
+    },
+    {
+        "text": "Blows ability and also the bonus unarmed",
+        "start": 1554.84,
+        "duration": 5.76
+    },
+    {
+        "text": "punch at the cost of of course having to",
+        "start": 1557.96,
+        "duration": 5.219
+    },
+    {
+        "text": "attack with it on your main hand which",
+        "start": 1560.6,
+        "duration": 4.98
+    },
+    {
+        "text": "is well less damage than our punches",
+        "start": 1563.179,
+        "duration": 4.321
+    },
+    {
+        "text": "with the benefit of higher critical",
+        "start": 1565.58,
+        "duration": 4.68
+    },
+    {
+        "text": "range of course as far as ranged weapons",
+        "start": 1567.5,
+        "duration": 5.159
+    },
+    {
+        "text": "well the dead shot is D must have right",
+        "start": 1570.26,
+        "duration": 3.96
+    },
+    {
+        "text": "for the further critical range Boost",
+        "start": 1572.659,
+        "duration": 4.26
+    },
+    {
+        "text": "after all as I said you can't really",
+        "start": 1574.22,
+        "duration": 5.22
+    },
+    {
+        "text": "combine two dwell with that weapons as",
+        "start": 1576.919,
+        "duration": 4.321
+    },
+    {
+        "text": "far as mainly for higher critical range",
+        "start": 1579.44,
+        "duration": 4.619
+    },
+    {
+        "text": "so you only have the dead shot and",
+        "start": 1581.24,
+        "duration": 5.22
+    },
+    {
+        "text": "Center foxhorn helmet",
+        "start": 1584.059,
+        "duration": 3.841
+    },
+    {
+        "text": "and you really want to Stack your",
+        "start": 1586.46,
+        "duration": 3.66
+    },
+    {
+        "text": "criticals as high as you can there's the",
+        "start": 1587.9,
+        "duration": 4.139
+    },
+    {
+        "text": "fighter level 3 multi-class shoe if you",
+        "start": 1590.12,
+        "duration": 4.38
+    },
+    {
+        "text": "want and don't forget you absolutely",
+        "start": 1592.039,
+        "duration": 4.981
+    },
+    {
+        "text": "want to keep a very healthy stack of",
+        "start": 1594.5,
+        "duration": 4.799
+    },
+    {
+        "text": "huge giant strength elixirs achievable",
+        "start": 1597.02,
+        "duration": 5.039
+    },
+    {
+        "text": "super early to set your strength to 21",
+        "start": 1599.299,
+        "duration": 5.521
+    },
+    {
+        "text": "once for a long rest sadly you cannot",
+        "start": 1602.059,
+        "duration": 4.321
+    },
+    {
+        "text": "combine this with the elixir of",
+        "start": 1604.82,
+        "duration": 4.14
+    },
+    {
+        "text": "bloodlust but you have enough actions as",
+        "start": 1606.38,
+        "duration": 5.76
+    },
+    {
+        "text": "a monk as is I find and later you can",
+        "start": 1608.96,
+        "duration": 6.66
+    },
+    {
+        "text": "also get Cloud giant elixirs ride for 27",
+        "start": 1612.14,
+        "duration": 6.419
+    },
+    {
+        "text": "whole points of strength instead once",
+        "start": 1615.62,
+        "duration": 4.5
+    },
+    {
+        "text": "again you can even start buying the",
+        "start": 1618.559,
+        "duration": 3.72
+    },
+    {
+        "text": "ingredients as early as the micronut",
+        "start": 1620.12,
+        "duration": 4.26
+    },
+    {
+        "text": "colony Merchant for the normal Hill",
+        "start": 1622.279,
+        "duration": 4.561
+    },
+    {
+        "text": "giant elixirs it's best you have this in",
+        "start": 1624.38,
+        "duration": 5.279
+    },
+    {
+        "text": "mind since you'll be going to her once",
+        "start": 1626.84,
+        "duration": 4.98
+    },
+    {
+        "text": "for long rest anyways well alright",
+        "start": 1629.659,
+        "duration": 4.26
+    },
+    {
+        "text": "friends so this was it from my monk one",
+        "start": 1631.82,
+        "duration": 3.959
+    },
+    {
+        "text": "punch man guide if you found it useful",
+        "start": 1633.919,
+        "duration": 3.24
+    },
+    {
+        "text": "as always please remember to like",
+        "start": 1635.779,
+        "duration": 3.361
+    },
+    {
+        "text": "subscribe and become a channel member if",
+        "start": 1637.159,
+        "duration": 3.961
+    },
+    {
+        "text": "you can I truly appreciate your support",
+        "start": 1639.14,
+        "duration": 4.2
+    },
+    {
+        "text": "thank you for watching and see you next",
+        "start": 1641.12,
+        "duration": 4.76
+    },
+    {
+        "text": "time friends",
+        "start": 1643.34,
+        "duration": 2.54
+    }
+]

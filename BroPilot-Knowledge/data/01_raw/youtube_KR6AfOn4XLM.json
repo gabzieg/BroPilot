@@ -1,0 +1,4207 @@
+[
+    {
+        "text": "Hello, my friends, and welcome back to",
+        "start": 0.32,
+        "duration": 4.2
+    },
+    {
+        "text": "another Baldur's Gate 3 mod round up.",
+        "start": 2.16,
+        "duration": 4.0
+    },
+    {
+        "text": "Hope you're all doing well. Today, I'll",
+        "start": 4.52,
+        "duration": 4.44
+    },
+    {
+        "text": "be showcasing 10 more awesome mods that",
+        "start": 6.16,
+        "duration": 4.4
+    },
+    {
+        "text": "I've really been enjoying trying out",
+        "start": 8.96,
+        "duration": 3.36
+    },
+    {
+        "text": "that I haven't previously showcased on",
+        "start": 10.56,
+        "duration": 3.4
+    },
+    {
+        "text": "the channel. Some of them are newer,",
+        "start": 12.32,
+        "duration": 3.12
+    },
+    {
+        "text": "some are older, but all of them are",
+        "start": 13.96,
+        "duration": 3.6
+    },
+    {
+        "text": "incredibly interesting and fun and very",
+        "start": 15.44,
+        "duration": 4.92
+    },
+    {
+        "text": "much worth checking out. As always, all",
+        "start": 17.56,
+        "duration": 4.28
+    },
+    {
+        "text": "the mods we'll be talking about are",
+        "start": 20.36,
+        "duration": 4.16
+    },
+    {
+        "text": "available on all the platforms, console,",
+        "start": 21.84,
+        "duration": 4.64
+    },
+    {
+        "text": "Mac, and PC. This time with one",
+        "start": 24.52,
+        "duration": 3.88
+    },
+    {
+        "text": "exception, but it was too cute not to",
+        "start": 26.48,
+        "duration": 3.88
+    },
+    {
+        "text": "include. Uh and they've all been tested",
+        "start": 28.4,
+        "duration": 4.359
+    },
+    {
+        "text": "with the latest patch, both by me and of",
+        "start": 30.36,
+        "duration": 4.2
+    },
+    {
+        "text": "course by many others. I've also",
+        "start": 32.759,
+        "duration": 4.401
+    },
+    {
+        "text": "included a wide variety of new content,",
+        "start": 34.56,
+        "duration": 4.92
+    },
+    {
+        "text": "quality of life mods, bug fixes, and",
+        "start": 37.16,
+        "duration": 4.4
+    },
+    {
+        "text": "cosmetic changes. So, no matter how you",
+        "start": 39.48,
+        "duration": 3.76
+    },
+    {
+        "text": "prefer to customize your game, there",
+        "start": 41.56,
+        "duration": 3.28
+    },
+    {
+        "text": "should be something here to help you do",
+        "start": 43.24,
+        "duration": 4.12
+    },
+    {
+        "text": "exactly that. Before I begin, I do want",
+        "start": 44.84,
+        "duration": 3.92
+    },
+    {
+        "text": "to take a quick moment to say thank you",
+        "start": 47.36,
+        "duration": 3.84
+    },
+    {
+        "text": "so much to Jacob Delaney for the $5",
+        "start": 48.76,
+        "duration": 5.52
+    },
+    {
+        "text": "donation, Tarantula for the $5, I'm just",
+        "start": 51.2,
+        "duration": 5.72
+    },
+    {
+        "text": "a subscriber for the $10, and Bald",
+        "start": 54.28,
+        "duration": 5.72
+    },
+    {
+        "text": "Capybara, Phantom Threads, and Grayson M",
+        "start": 56.92,
+        "duration": 4.6
+    },
+    {
+        "text": "for becoming channel members. Thank you",
+        "start": 60.0,
+        "duration": 3.24
+    },
+    {
+        "text": "so much, my friends. I really appreciate",
+        "start": 61.52,
+        "duration": 3.679
+    },
+    {
+        "text": "the support. It really means so much to",
+        "start": 63.24,
+        "duration": 5.36
+    },
+    {
+        "text": "me. All right, let's get modding.",
+        "start": 65.199,
+        "duration": 6.921
+    },
+    {
+        "text": "First up, a massive overhaul mod, D&D",
+        "start": 68.6,
+        "duration": 7.44
+    },
+    {
+        "text": "5.5e all-in-one. So, Baldur's Gate 3 is",
+        "start": 72.12,
+        "duration": 5.84
+    },
+    {
+        "text": "based on the fifth edition Dungeons &",
+        "start": 76.04,
+        "duration": 4.32
+    },
+    {
+        "text": "Dragons game, which came out in 2014.",
+        "start": 77.96,
+        "duration": 4.8
+    },
+    {
+        "text": "That's the rule set that it uses. But,",
+        "start": 80.36,
+        "duration": 4.72
+    },
+    {
+        "text": "in 2024, Dungeons & Dragons released a",
+        "start": 82.76,
+        "duration": 5.0
+    },
+    {
+        "text": "new update, 5.5 edition, also called",
+        "start": 85.08,
+        "duration": 6.28
+    },
+    {
+        "text": "2024 D&D or occasionally one D&D before",
+        "start": 87.76,
+        "duration": 6.12
+    },
+    {
+        "text": "they realized that sounded kind of dumb.",
+        "start": 91.36,
+        "duration": 3.36
+    },
+    {
+        "text": "Uh",
+        "start": 93.88,
+        "duration": 5.36
+    },
+    {
+        "text": "5.5 D&D is a compatible update, so it",
+        "start": 94.72,
+        "duration": 6.52
+    },
+    {
+        "text": "still works with the fifth edition",
+        "start": 99.24,
+        "duration": 4.6
+    },
+    {
+        "text": "rules, but has been pretty much",
+        "start": 101.24,
+        "duration": 5.24
+    },
+    {
+        "text": "overhauled from the ground up in order",
+        "start": 103.84,
+        "duration": 4.72
+    },
+    {
+        "text": "to make a more balanced and sort of",
+        "start": 106.48,
+        "duration": 5.16
+    },
+    {
+        "text": "streamlined game. And I think that",
+        "start": 108.56,
+        "duration": 5.08
+    },
+    {
+        "text": "overall, it's been very successful in",
+        "start": 111.64,
+        "duration": 6.12
+    },
+    {
+        "text": "that goal. And D&D 5.5e, the Baldur's",
+        "start": 113.64,
+        "duration": 6.16
+    },
+    {
+        "text": "Gate mod, brings Baldur's Gate's rule",
+        "start": 117.76,
+        "duration": 4.44
+    },
+    {
+        "text": "set to use the new rules for Dungeons &",
+        "start": 119.8,
+        "duration": 5.44
+    },
+    {
+        "text": "Dragons. This includes a massive amount",
+        "start": 122.2,
+        "duration": 5.64
+    },
+    {
+        "text": "of additional stuff, new spells, and",
+        "start": 125.24,
+        "duration": 4.68
+    },
+    {
+        "text": "completely overhauled existing spells,",
+        "start": 127.84,
+        "duration": 4.4
+    },
+    {
+        "text": "including a totally reworked version of",
+        "start": 129.92,
+        "duration": 4.44
+    },
+    {
+        "text": "true strike, which is actually extremely",
+        "start": 132.24,
+        "duration": 5.24
+    },
+    {
+        "text": "powerful now. Uh several new classes,",
+        "start": 134.36,
+        "duration": 6.84
+    },
+    {
+        "text": "new abilities, a reworked feat system,",
+        "start": 137.48,
+        "duration": 7.6
+    },
+    {
+        "text": "uh reworked skills, and more besides. It",
+        "start": 141.2,
+        "duration": 6.08
+    },
+    {
+        "text": "because this is a complete overhaul of",
+        "start": 145.08,
+        "duration": 5.16
+    },
+    {
+        "text": "the rule system that the game uses, it",
+        "start": 147.28,
+        "duration": 4.8
+    },
+    {
+        "text": "touches pretty much everything in the",
+        "start": 150.24,
+        "duration": 3.68
+    },
+    {
+        "text": "game. I'm going to actually just quickly",
+        "start": 152.08,
+        "duration": 4.16
+    },
+    {
+        "text": "start a new game, so you get a sense of",
+        "start": 153.92,
+        "duration": 4.48
+    },
+    {
+        "text": "just how much new stuff is included in",
+        "start": 156.24,
+        "duration": 3.52
+    },
+    {
+        "text": "this mod.",
+        "start": 158.4,
+        "duration": 3.28
+    },
+    {
+        "text": "So, right away, you can see that as",
+        "start": 159.76,
+        "duration": 3.64
+    },
+    {
+        "text": "we're choosing our class, we have three",
+        "start": 161.68,
+        "duration": 4.32
+    },
+    {
+        "text": "brand new options, artificer,",
+        "start": 163.4,
+        "duration": 5.6
+    },
+    {
+        "text": "gunslinger, and illrigger. And these are",
+        "start": 166.0,
+        "duration": 5.28
+    },
+    {
+        "text": "all fully featured classes with their",
+        "start": 169.0,
+        "duration": 5.56
+    },
+    {
+        "text": "own subclasses and extremely extensive",
+        "start": 171.28,
+        "duration": 5.52
+    },
+    {
+        "text": "suites of abilities. In addition to",
+        "start": 174.56,
+        "duration": 4.68
+    },
+    {
+        "text": "that, the basic mechanics of the game",
+        "start": 176.8,
+        "duration": 5.4
+    },
+    {
+        "text": "have been reworked significantly. Uh you",
+        "start": 179.24,
+        "duration": 5.28
+    },
+    {
+        "text": "no longer get a subclass at level one.",
+        "start": 182.2,
+        "duration": 4.96
+    },
+    {
+        "text": "It all all classes have their subclasses",
+        "start": 184.52,
+        "duration": 5.28
+    },
+    {
+        "text": "all at level three. So, you can't, for",
+        "start": 187.16,
+        "duration": 4.56
+    },
+    {
+        "text": "example, take a one-level dipping cleric",
+        "start": 189.8,
+        "duration": 3.96
+    },
+    {
+        "text": "for a massive power spike anymore. You",
+        "start": 191.72,
+        "duration": 3.88
+    },
+    {
+        "text": "have to actually invest a little more in",
+        "start": 193.76,
+        "duration": 4.08
+    },
+    {
+        "text": "a class in order to get a bunch out of",
+        "start": 195.6,
+        "duration": 4.96
+    },
+    {
+        "text": "it from multiclassing. There's brand new",
+        "start": 197.84,
+        "duration": 6.52
+    },
+    {
+        "text": "spells as well. Um spells like hell's",
+        "start": 200.56,
+        "duration": 6.56
+    },
+    {
+        "text": "lash for the wizard and tons of new",
+        "start": 204.36,
+        "duration": 5.4
+    },
+    {
+        "text": "cantrips, things like finger guns,",
+        "start": 207.12,
+        "duration": 5.48
+    },
+    {
+        "text": "hellfire, green flame blade, and the",
+        "start": 209.76,
+        "duration": 4.8
+    },
+    {
+        "text": "completely reworked true strike, which",
+        "start": 212.6,
+        "duration": 3.96
+    },
+    {
+        "text": "turns all of your weapons. It works very",
+        "start": 214.56,
+        "duration": 3.64
+    },
+    {
+        "text": "similar to shillelagh in that it turns",
+        "start": 216.56,
+        "duration": 3.64
+    },
+    {
+        "text": "your weapons into using your casting",
+        "start": 218.2,
+        "duration": 4.96
+    },
+    {
+        "text": "stat instead of your weapon attack",
+        "start": 220.2,
+        "duration": 5.48
+    },
+    {
+        "text": "action. Um backgrounds have been",
+        "start": 223.16,
+        "duration": 4.64
+    },
+    {
+        "text": "reworked as well. They now give you",
+        "start": 225.68,
+        "duration": 4.08
+    },
+    {
+        "text": "feats. And so, when you take the",
+        "start": 227.8,
+        "duration": 4.24
+    },
+    {
+        "text": "outlander background, for example, you",
+        "start": 229.76,
+        "duration": 5.64
+    },
+    {
+        "text": "get additional HP. Um and feats",
+        "start": 232.04,
+        "duration": 5.12
+    },
+    {
+        "text": "themselves have been reworked in order",
+        "start": 235.4,
+        "duration": 4.68
+    },
+    {
+        "text": "to all provide extra stats. Uh you can",
+        "start": 237.16,
+        "duration": 4.52
+    },
+    {
+        "text": "actually see a little bit more",
+        "start": 240.08,
+        "duration": 3.72
+    },
+    {
+        "text": "exploration of this if you check out the",
+        "start": 241.68,
+        "duration": 5.6
+    },
+    {
+        "text": "video that I did on Solasta 2, um which",
+        "start": 243.8,
+        "duration": 6.44
+    },
+    {
+        "text": "released and also uses 5.5e. So, there's",
+        "start": 247.28,
+        "duration": 5.08
+    },
+    {
+        "text": "a little bit more uh",
+        "start": 250.24,
+        "duration": 4.48
+    },
+    {
+        "text": "explanation of the the rule set there as",
+        "start": 252.36,
+        "duration": 4.32
+    },
+    {
+        "text": "well and my own sort of discovery,",
+        "start": 254.72,
+        "duration": 3.799
+    },
+    {
+        "text": "because I myself have not played a lot",
+        "start": 256.68,
+        "duration": 4.2
+    },
+    {
+        "text": "of 5.5 in tabletop. I played a ton of",
+        "start": 258.519,
+        "duration": 4.521
+    },
+    {
+        "text": "fifth edition, but haven't moved much to",
+        "start": 260.88,
+        "duration": 5.04
+    },
+    {
+        "text": "5.5. Um so, it's really fun to be able",
+        "start": 263.04,
+        "duration": 5.04
+    },
+    {
+        "text": "to try it out in",
+        "start": 265.92,
+        "duration": 6.04
+    },
+    {
+        "text": "uh the in the computer game versions. Uh",
+        "start": 268.08,
+        "duration": 7.6
+    },
+    {
+        "text": "this adds so much new stuff that it's",
+        "start": 271.96,
+        "duration": 5.72
+    },
+    {
+        "text": "kind of impossible to cover all of it,",
+        "start": 275.68,
+        "duration": 4.48
+    },
+    {
+        "text": "but the basic question is, is it worth",
+        "start": 277.68,
+        "duration": 4.32
+    },
+    {
+        "text": "moving to the new rule set? And I think",
+        "start": 280.16,
+        "duration": 5.12
+    },
+    {
+        "text": "that the answer is uh pretty much yes.",
+        "start": 282.0,
+        "duration": 6.8
+    },
+    {
+        "text": "5.5e is overall more balanced, has more",
+        "start": 285.28,
+        "duration": 5.6
+    },
+    {
+        "text": "cool things that can happen. There is",
+        "start": 288.8,
+        "duration": 4.56
+    },
+    {
+        "text": "just more content as well in the way",
+        "start": 290.88,
+        "duration": 4.96
+    },
+    {
+        "text": "that they've added the mod. Um and so,",
+        "start": 293.36,
+        "duration": 4.52
+    },
+    {
+        "text": "it interacts with the existing rules of",
+        "start": 295.84,
+        "duration": 3.92
+    },
+    {
+        "text": "Baldur's Gate because it is built to be",
+        "start": 297.88,
+        "duration": 4.8
+    },
+    {
+        "text": "a compatible system in a really fun way",
+        "start": 299.76,
+        "duration": 5.04
+    },
+    {
+        "text": "and gives you a lot of new options and",
+        "start": 302.68,
+        "duration": 4.76
+    },
+    {
+        "text": "cool new things. Uh takes away some of",
+        "start": 304.8,
+        "duration": 5.0
+    },
+    {
+        "text": "the most egregious balance problems,",
+        "start": 307.44,
+        "duration": 4.6
+    },
+    {
+        "text": "though it does introduce some new ones.",
+        "start": 309.8,
+        "duration": 5.28
+    },
+    {
+        "text": "And overall, just gives you some uh",
+        "start": 312.04,
+        "duration": 5.88
+    },
+    {
+        "text": "fun and extremely powerful options and",
+        "start": 315.08,
+        "duration": 5.2
+    },
+    {
+        "text": "lots and lots of new stuff to explore as",
+        "start": 317.92,
+        "duration": 5.28
+    },
+    {
+        "text": "you would want from a full overhaul mod.",
+        "start": 320.28,
+        "duration": 4.32
+    },
+    {
+        "text": "Now, one other thing that is worth",
+        "start": 323.2,
+        "duration": 3.12
+    },
+    {
+        "text": "mentioning about this mod is that it",
+        "start": 324.6,
+        "duration": 3.44
+    },
+    {
+        "text": "does have uh improved UI as a",
+        "start": 326.32,
+        "duration": 3.52
+    },
+    {
+        "text": "dependency, which does have the",
+        "start": 328.04,
+        "duration": 4.24
+    },
+    {
+        "text": "occasional bug. I personally have not",
+        "start": 329.84,
+        "duration": 6.4
+    },
+    {
+        "text": "encountered many bugs at all using 5.5e.",
+        "start": 332.28,
+        "duration": 6.08
+    },
+    {
+        "text": "The main thing that I found was that a",
+        "start": 336.24,
+        "duration": 3.88
+    },
+    {
+        "text": "couple classes have the ability to",
+        "start": 338.36,
+        "duration": 4.56
+    },
+    {
+        "text": "select uh features from later levels",
+        "start": 340.12,
+        "duration": 5.16
+    },
+    {
+        "text": "earlier, but they're all labeled, so you",
+        "start": 342.92,
+        "duration": 4.56
+    },
+    {
+        "text": "can just not do that. And otherwise, I",
+        "start": 345.28,
+        "duration": 4.56
+    },
+    {
+        "text": "found that this is pretty bug-free,",
+        "start": 347.48,
+        "duration": 5.36
+    },
+    {
+        "text": "which is honestly remarkable given how",
+        "start": 349.84,
+        "duration": 4.92
+    },
+    {
+        "text": "massive an undertaking it is to",
+        "start": 352.84,
+        "duration": 4.12
+    },
+    {
+        "text": "completely change the rule set of the",
+        "start": 354.76,
+        "duration": 3.92
+    },
+    {
+        "text": "entire game. So, definitely worth",
+        "start": 356.96,
+        "duration": 3.12
+    },
+    {
+        "text": "checking out.",
+        "start": 358.68,
+        "duration": 3.96
+    },
+    {
+        "text": "Another truly massive undertaking and",
+        "start": 360.08,
+        "duration": 4.8
+    },
+    {
+        "text": "honestly probably even more massive,",
+        "start": 362.64,
+        "duration": 5.6
+    },
+    {
+        "text": "item and spell bug fixes. This mod aims",
+        "start": 364.88,
+        "duration": 6.12
+    },
+    {
+        "text": "to combine basically every bug fix that",
+        "start": 368.24,
+        "duration": 4.84
+    },
+    {
+        "text": "the community has found in order to fix",
+        "start": 371.0,
+        "duration": 4.44
+    },
+    {
+        "text": "the truly ridiculous number of bugs",
+        "start": 373.08,
+        "duration": 4.0
+    },
+    {
+        "text": "still remaining in Baldur's Gate 3,",
+        "start": 375.44,
+        "duration": 4.16
+    },
+    {
+        "text": "ranging from pretty severe pretty minor",
+        "start": 377.08,
+        "duration": 5.4
+    },
+    {
+        "text": "to extremely severe. Uh obviously, if",
+        "start": 379.6,
+        "duration": 5.0
+    },
+    {
+        "text": "you have spent any time digging into",
+        "start": 382.48,
+        "duration": 3.6
+    },
+    {
+        "text": "Baldur's Gate 3, you will know that",
+        "start": 384.6,
+        "duration": 3.8
+    },
+    {
+        "text": "there are still a lot of bugs remaining.",
+        "start": 386.08,
+        "duration": 4.76
+    },
+    {
+        "text": "I've done plenty of uh discussion of",
+        "start": 388.4,
+        "duration": 4.92
+    },
+    {
+        "text": "those in my tier lists of spells and",
+        "start": 390.84,
+        "duration": 5.08
+    },
+    {
+        "text": "items especially. Um and this mod aims",
+        "start": 393.32,
+        "duration": 5.16
+    },
+    {
+        "text": "to fix all of them. There are of course",
+        "start": 395.92,
+        "duration": 4.96
+    },
+    {
+        "text": "way, way too many to dig into specific",
+        "start": 398.48,
+        "duration": 4.96
+    },
+    {
+        "text": "bug fixes here. There are, as I say,",
+        "start": 400.88,
+        "duration": 4.84
+    },
+    {
+        "text": "over 2,400",
+        "start": 403.44,
+        "duration": 4.4
+    },
+    {
+        "text": "individual fixes. You can go look up a",
+        "start": 405.72,
+        "duration": 5.04
+    },
+    {
+        "text": "list of all of them if you want. Um but",
+        "start": 407.84,
+        "duration": 5.08
+    },
+    {
+        "text": "I have found that this fixes a number of",
+        "start": 410.76,
+        "duration": 4.36
+    },
+    {
+        "text": "extremely important things. Bugs like",
+        "start": 412.92,
+        "duration": 5.88
+    },
+    {
+        "text": "the uh bug save DCs for blade barrier",
+        "start": 415.12,
+        "duration": 6.08
+    },
+    {
+        "text": "and ice wall, which render those spells",
+        "start": 418.8,
+        "duration": 5.2
+    },
+    {
+        "text": "pretty useless at high levels, um can",
+        "start": 421.2,
+        "duration": 4.76
+    },
+    {
+        "text": "are fixed with this, making those spells",
+        "start": 424.0,
+        "duration": 4.04
+    },
+    {
+        "text": "pretty powerful. Bugs with things like",
+        "start": 425.96,
+        "duration": 5.04
+    },
+    {
+        "text": "shield bash using using the wrong spell",
+        "start": 428.04,
+        "duration": 5.2
+    },
+    {
+        "text": "uh using the wrong save DC, making it",
+        "start": 431.0,
+        "duration": 4.16
+    },
+    {
+        "text": "great for casters and bad for martial",
+        "start": 433.24,
+        "duration": 4.0
+    },
+    {
+        "text": "characters, fixed with this mod, uh",
+        "start": 435.16,
+        "duration": 4.84
+    },
+    {
+        "text": "which again is awesome. Baldur's Gate 3,",
+        "start": 437.24,
+        "duration": 5.24
+    },
+    {
+        "text": "of course, has an absurd number of bugs.",
+        "start": 440.0,
+        "duration": 4.88
+    },
+    {
+        "text": "And uh fixing them all is probably",
+        "start": 442.48,
+        "duration": 4.56
+    },
+    {
+        "text": "outside the scope even of a mod as big",
+        "start": 444.88,
+        "duration": 4.08
+    },
+    {
+        "text": "as this one, but it's amazing that",
+        "start": 447.04,
+        "duration": 5.0
+    },
+    {
+        "text": "people have done so much work to clean",
+        "start": 448.96,
+        "duration": 5.6
+    },
+    {
+        "text": "up many of the remaining errors. And you",
+        "start": 452.04,
+        "duration": 4.48
+    },
+    {
+        "text": "know, I I want to say I don't blame",
+        "start": 454.56,
+        "duration": 4.28
+    },
+    {
+        "text": "Larian for having so many uh bugs",
+        "start": 456.52,
+        "duration": 5.04
+    },
+    {
+        "text": "remaining, cuz this game is enormous and",
+        "start": 458.84,
+        "duration": 4.68
+    },
+    {
+        "text": "it would be a life's work to fix them",
+        "start": 461.56,
+        "duration": 4.0
+    },
+    {
+        "text": "all. And it's amazing that the community",
+        "start": 463.52,
+        "duration": 4.32
+    },
+    {
+        "text": "has come together to help do that. So,",
+        "start": 465.56,
+        "duration": 4.44
+    },
+    {
+        "text": "really huge shout-out to all of the",
+        "start": 467.84,
+        "duration": 4.28
+    },
+    {
+        "text": "people who have worked on documenting",
+        "start": 470.0,
+        "duration": 4.52
+    },
+    {
+        "text": "and helping to fix these bugs. I haven't",
+        "start": 472.12,
+        "duration": 5.96
+    },
+    {
+        "text": "run into uh too many issues with this",
+        "start": 474.52,
+        "duration": 6.28
+    },
+    {
+        "text": "installed. I've had a couple things that",
+        "start": 478.08,
+        "duration": 5.32
+    },
+    {
+        "text": "it fixes that I thought were probably",
+        "start": 480.8,
+        "duration": 5.4
+    },
+    {
+        "text": "intended behavior and not bugs. Um but",
+        "start": 483.4,
+        "duration": 5.72
+    },
+    {
+        "text": "overall, it has fixed a lot of the small",
+        "start": 486.2,
+        "duration": 5.68
+    },
+    {
+        "text": "irritations and errors that still uh",
+        "start": 489.12,
+        "duration": 5.52
+    },
+    {
+        "text": "exist in the game and is way, way more",
+        "start": 491.88,
+        "duration": 6.24
+    },
+    {
+        "text": "positive than negative. Um and honestly,",
+        "start": 494.64,
+        "duration": 6.2
+    },
+    {
+        "text": "I'm having a hard time uh",
+        "start": 498.12,
+        "duration": 5.08
+    },
+    {
+        "text": "deciding whether I want to go back to",
+        "start": 500.84,
+        "duration": 4.68
+    },
+    {
+        "text": "playing without it at all, because",
+        "start": 503.2,
+        "duration": 5.2
+    },
+    {
+        "text": "fixing all of these bugs has been such a",
+        "start": 505.52,
+        "duration": 4.68
+    },
+    {
+        "text": "phenomenal addition to the game and has",
+        "start": 508.4,
+        "duration": 3.88
+    },
+    {
+        "text": "made many of the small irritations that",
+        "start": 510.2,
+        "duration": 3.839
+    },
+    {
+        "text": "you have kind of forgotten about after",
+        "start": 512.28,
+        "duration": 3.48
+    },
+    {
+        "text": "having played the game for a really long",
+        "start": 514.039,
+        "duration": 4.761
+    },
+    {
+        "text": "time, just go away, which is a real",
+        "start": 515.76,
+        "duration": 5.2
+    },
+    {
+        "text": "breath of fresh air. So, uh phenomenal",
+        "start": 518.8,
+        "duration": 3.72
+    },
+    {
+        "text": "mod. Shout-out for the people who've",
+        "start": 520.96,
+        "duration": 3.48
+    },
+    {
+        "text": "maintained it. I love seeing this many",
+        "start": 522.52,
+        "duration": 4.8
+    },
+    {
+        "text": "bug fixes, and they've done a great job",
+        "start": 524.44,
+        "duration": 5.6
+    },
+    {
+        "text": "with all of the fixes to items and",
+        "start": 527.32,
+        "duration": 4.4
+    },
+    {
+        "text": "spells, which are the buggiest types of",
+        "start": 530.04,
+        "duration": 3.44
+    },
+    {
+        "text": "thing in the game.",
+        "start": 531.72,
+        "duration": 5.52
+    },
+    {
+        "text": "Next up, a new class, the dragon tamer.",
+        "start": 533.48,
+        "duration": 6.56
+    },
+    {
+        "text": "This, of course, is a Dungeons & Dragons",
+        "start": 537.24,
+        "duration": 5.16
+    },
+    {
+        "text": "game, and what's cooler than being able",
+        "start": 540.04,
+        "duration": 4.84
+    },
+    {
+        "text": "to have a dragon on your side? The",
+        "start": 542.4,
+        "duration": 4.4
+    },
+    {
+        "text": "dragon tamer fulfills, you know, one of",
+        "start": 544.88,
+        "duration": 5.24
+    },
+    {
+        "text": "the major fantasies of fantasy gaming,",
+        "start": 546.8,
+        "duration": 5.32
+    },
+    {
+        "text": "having a really cool dragon pal who",
+        "start": 550.12,
+        "duration": 3.96
+    },
+    {
+        "text": "fries your enemies for you. And it does",
+        "start": 552.12,
+        "duration": 3.8
+    },
+    {
+        "text": "a pretty good job of that. The dragon",
+        "start": 554.08,
+        "duration": 5.2
+    },
+    {
+        "text": "tamer class lets you choose one of the",
+        "start": 555.92,
+        "duration": 5.72
+    },
+    {
+        "text": "uh 11 different different dragon types",
+        "start": 559.28,
+        "duration": 4.48
+    },
+    {
+        "text": "available to be your companion. You can",
+        "start": 561.64,
+        "duration": 5.76
+    },
+    {
+        "text": "also choose a random one and have it uh",
+        "start": 563.76,
+        "duration": 6.0
+    },
+    {
+        "text": "have fate take control of which dragon",
+        "start": 567.4,
+        "duration": 4.04
+    },
+    {
+        "text": "is your friend, which is also kind of a",
+        "start": 569.76,
+        "duration": 4.92
+    },
+    {
+        "text": "fun addition to the to the class setup.",
+        "start": 571.44,
+        "duration": 5.36
+    },
+    {
+        "text": "And this dragon will act basically like",
+        "start": 574.68,
+        "duration": 4.36
+    },
+    {
+        "text": "a beastmaster companion, except instead",
+        "start": 576.8,
+        "duration": 5.4
+    },
+    {
+        "text": "of having a badger, you have a dragon.",
+        "start": 579.04,
+        "duration": 7.04
+    },
+    {
+        "text": "This lets you do huge AoE damage,",
+        "start": 582.2,
+        "duration": 7.36
+    },
+    {
+        "text": "massive uh melee damage with bites and",
+        "start": 586.08,
+        "duration": 6.16
+    },
+    {
+        "text": "claws, and have uh incredible synergy",
+        "start": 589.56,
+        "duration": 4.6
+    },
+    {
+        "text": "with your dragon as it empowers you with",
+        "start": 592.24,
+        "duration": 4.0
+    },
+    {
+        "text": "its elemental power. The class comes",
+        "start": 594.16,
+        "duration": 4.04
+    },
+    {
+        "text": "with two subclasses, a melee-focused",
+        "start": 596.24,
+        "duration": 3.84
+    },
+    {
+        "text": "class and a ranged-focused class,",
+        "start": 598.2,
+        "duration": 3.72
+    },
+    {
+        "text": "similar to a ranger, so you can think of",
+        "start": 600.08,
+        "duration": 4.32
+    },
+    {
+        "text": "this as being very like a Beastmaster",
+        "start": 601.92,
+        "duration": 4.8
+    },
+    {
+        "text": "Ranger, except of course with a dragon.",
+        "start": 604.4,
+        "duration": 4.6
+    },
+    {
+        "text": "Um and both of them will use the",
+        "start": 606.72,
+        "duration": 4.2
+    },
+    {
+        "text": "elemental aspect of your dragon to",
+        "start": 609.0,
+        "duration": 3.72
+    },
+    {
+        "text": "empower either their archery or their",
+        "start": 610.92,
+        "duration": 3.64
+    },
+    {
+        "text": "melee stuff and have a lot of class",
+        "start": 612.72,
+        "duration": 3.48
+    },
+    {
+        "text": "abilities focused on buffing up the",
+        "start": 614.56,
+        "duration": 3.76
+    },
+    {
+        "text": "dragon, which will also level as you do",
+        "start": 616.2,
+        "duration": 4.24
+    },
+    {
+        "text": "and everything. The dragon can of course",
+        "start": 618.32,
+        "duration": 4.72
+    },
+    {
+        "text": "fly and run around and blow things up.",
+        "start": 620.44,
+        "duration": 5.24
+    },
+    {
+        "text": "Now, one thing I will say about this uh",
+        "start": 623.04,
+        "duration": 6.24
+    },
+    {
+        "text": "class is that it is extremely powerful.",
+        "start": 625.68,
+        "duration": 5.88
+    },
+    {
+        "text": "It's way over the power curve, but",
+        "start": 629.28,
+        "duration": 3.88
+    },
+    {
+        "text": "that's kind of the point of having a",
+        "start": 631.56,
+        "duration": 5.48
+    },
+    {
+        "text": "cool dragon pal is having uh that dragon",
+        "start": 633.16,
+        "duration": 6.04
+    },
+    {
+        "text": "pal just eat everything for you. And so,",
+        "start": 637.04,
+        "duration": 4.08
+    },
+    {
+        "text": "I really don't mind this class being",
+        "start": 639.2,
+        "duration": 3.68
+    },
+    {
+        "text": "overpowered. That is of course a",
+        "start": 641.12,
+        "duration": 3.76
+    },
+    {
+        "text": "downfall of homebrew classes in general",
+        "start": 642.88,
+        "duration": 3.24
+    },
+    {
+        "text": "is they'll tend to be on the more",
+        "start": 644.88,
+        "duration": 2.8
+    },
+    {
+        "text": "powerful side. So, you may want to use",
+        "start": 646.12,
+        "duration": 3.12
+    },
+    {
+        "text": "it in combination with some difficulty",
+        "start": 647.68,
+        "duration": 3.36
+    },
+    {
+        "text": "mods, but let's be real, if you're",
+        "start": 649.24,
+        "duration": 3.52
+    },
+    {
+        "text": "playing the dragon class, you really",
+        "start": 651.04,
+        "duration": 3.56
+    },
+    {
+        "text": "just want your dragon to eat everything",
+        "start": 652.76,
+        "duration": 4.44
+    },
+    {
+        "text": "and this class does a great job of that.",
+        "start": 654.6,
+        "duration": 4.24
+    },
+    {
+        "text": "Another thing I should probably mention",
+        "start": 657.2,
+        "duration": 5.08
+    },
+    {
+        "text": "is that I will say the the tooltips and",
+        "start": 658.84,
+        "duration": 5.76
+    },
+    {
+        "text": "tone of the level ups are a little",
+        "start": 662.28,
+        "duration": 4.24
+    },
+    {
+        "text": "immersion breaking. It's very kind of",
+        "start": 664.6,
+        "duration": 4.76
+    },
+    {
+        "text": "casual. Um but the actual",
+        "start": 666.52,
+        "duration": 5.52
+    },
+    {
+        "text": "class itself works very well. The",
+        "start": 669.36,
+        "duration": 4.72
+    },
+    {
+        "text": "animations are great. The dragon is",
+        "start": 672.04,
+        "duration": 5.24
+    },
+    {
+        "text": "great and everything. Uh so, the the",
+        "start": 674.08,
+        "duration": 6.48
+    },
+    {
+        "text": "typos and and jokes um I found a little",
+        "start": 677.28,
+        "duration": 5.72
+    },
+    {
+        "text": "jarring, but don't detract from the",
+        "start": 680.56,
+        "duration": 5.8
+    },
+    {
+        "text": "overall uh impact of the Dragon Tamer",
+        "start": 683.0,
+        "duration": 4.92
+    },
+    {
+        "text": "class, which lets you just have your",
+        "start": 686.36,
+        "duration": 4.68
+    },
+    {
+        "text": "cool dragon friend stomp all over the",
+        "start": 687.92,
+        "duration": 5.36
+    },
+    {
+        "text": "enemies and eat its way through a bunch",
+        "start": 691.04,
+        "duration": 4.48
+    },
+    {
+        "text": "of illithids.",
+        "start": 693.28,
+        "duration": 4.72
+    },
+    {
+        "text": "Next up, a cosmetic mod, the Moonlight",
+        "start": 695.52,
+        "duration": 5.24
+    },
+    {
+        "text": "Horn Collection. This mod adds a ton of",
+        "start": 698.0,
+        "duration": 5.24
+    },
+    {
+        "text": "new horn options for tieflings, which in",
+        "start": 700.76,
+        "duration": 4.44
+    },
+    {
+        "text": "the base game is actually one of the",
+        "start": 703.24,
+        "duration": 3.52
+    },
+    {
+        "text": "areas in which I think the character",
+        "start": 705.2,
+        "duration": 3.32
+    },
+    {
+        "text": "creator kind of falls down. There are",
+        "start": 706.76,
+        "duration": 4.88
+    },
+    {
+        "text": "not that many cool different options for",
+        "start": 708.52,
+        "duration": 5.6
+    },
+    {
+        "text": "tieflings' horns. So, having a ton of",
+        "start": 711.64,
+        "duration": 4.6
+    },
+    {
+        "text": "new options can really let you dig in",
+        "start": 714.12,
+        "duration": 3.96
+    },
+    {
+        "text": "and uh create the character that you",
+        "start": 716.24,
+        "duration": 3.64
+    },
+    {
+        "text": "want to play. These horns are also",
+        "start": 718.08,
+        "duration": 4.72
+    },
+    {
+        "text": "available for other uh races as well. I",
+        "start": 719.88,
+        "duration": 5.24
+    },
+    {
+        "text": "think they work with um basically anyone",
+        "start": 722.8,
+        "duration": 5.16
+    },
+    {
+        "text": "with the same head model, so uh drow,",
+        "start": 725.12,
+        "duration": 5.88
+    },
+    {
+        "text": "elves, humans, and half-elves. Um and",
+        "start": 727.96,
+        "duration": 4.879
+    },
+    {
+        "text": "that can let you play uh a neat",
+        "start": 731.0,
+        "duration": 4.0
+    },
+    {
+        "text": "half-tiefling or something like that if",
+        "start": 732.839,
+        "duration": 3.441
+    },
+    {
+        "text": "that's the character that you want to",
+        "start": 735.0,
+        "duration": 3.44
+    },
+    {
+        "text": "play. I really like the modeling work",
+        "start": 736.28,
+        "duration": 4.559
+    },
+    {
+        "text": "that's been done here and uh a lot of",
+        "start": 738.44,
+        "duration": 5.12
+    },
+    {
+        "text": "them remind me a little of the Godlike",
+        "start": 740.839,
+        "duration": 4.881
+    },
+    {
+        "text": "uh character creator from Avowed, like",
+        "start": 743.56,
+        "duration": 4.0
+    },
+    {
+        "text": "this one for example, which I thought",
+        "start": 745.72,
+        "duration": 4.24
+    },
+    {
+        "text": "was a really cool visual as well. Uh and",
+        "start": 747.56,
+        "duration": 5.24
+    },
+    {
+        "text": "they can really give you a lot of extra",
+        "start": 749.96,
+        "duration": 5.08
+    },
+    {
+        "text": "customization and a lot of interesting",
+        "start": 752.8,
+        "duration": 4.76
+    },
+    {
+        "text": "options for when you're designing your",
+        "start": 755.04,
+        "duration": 3.64
+    },
+    {
+        "text": "character.",
+        "start": 757.56,
+        "duration": 3.04
+    },
+    {
+        "text": "I'm going to stereotype a little here. I",
+        "start": 758.68,
+        "duration": 3.8
+    },
+    {
+        "text": "think that probably someone playing a",
+        "start": 760.6,
+        "duration": 4.36
+    },
+    {
+        "text": "tiefling will on average spend more time",
+        "start": 762.48,
+        "duration": 4.12
+    },
+    {
+        "text": "in the character creator than someone",
+        "start": 764.96,
+        "duration": 4.08
+    },
+    {
+        "text": "playing uh any other race. And so,",
+        "start": 766.6,
+        "duration": 4.08
+    },
+    {
+        "text": "having more options for tiefling",
+        "start": 769.04,
+        "duration": 3.96
+    },
+    {
+        "text": "visuals, I think is incredible. And you",
+        "start": 770.68,
+        "duration": 3.68
+    },
+    {
+        "text": "know, I'm counting myself in that",
+        "start": 773.0,
+        "duration": 4.72
+    },
+    {
+        "text": "number. Um but it's always going to be",
+        "start": 774.36,
+        "duration": 5.12
+    },
+    {
+        "text": "better to have more visual options.",
+        "start": 777.72,
+        "duration": 4.16
+    },
+    {
+        "text": "These ones are really well done and",
+        "start": 779.48,
+        "duration": 4.359
+    },
+    {
+        "text": "cover an area of the character creator",
+        "start": 781.88,
+        "duration": 3.959
+    },
+    {
+        "text": "that I think is pretty lacking. So,",
+        "start": 783.839,
+        "duration": 3.761
+    },
+    {
+        "text": "highly recommended.",
+        "start": 785.839,
+        "duration": 3.161
+    },
+    {
+        "text": "The author also mentions in the",
+        "start": 787.6,
+        "duration": 3.76
+    },
+    {
+        "text": "description that they say there might be",
+        "start": 789.0,
+        "duration": 4.48
+    },
+    {
+        "text": "a couple lighting errors uh with certain",
+        "start": 791.36,
+        "duration": 4.52
+    },
+    {
+        "text": "textures. I have not encountered any of",
+        "start": 793.48,
+        "duration": 4.6
+    },
+    {
+        "text": "those, but uh obviously always worth",
+        "start": 795.88,
+        "duration": 4.2
+    },
+    {
+        "text": "keeping an eye out for. And as with any",
+        "start": 798.08,
+        "duration": 4.56
+    },
+    {
+        "text": "visual mod, I have encountered a couple",
+        "start": 800.08,
+        "duration": 5.24
+    },
+    {
+        "text": "clipping issues with certain helmets. Um",
+        "start": 802.64,
+        "duration": 4.92
+    },
+    {
+        "text": "but mostly this has been very, very",
+        "start": 805.32,
+        "duration": 5.64
+    },
+    {
+        "text": "minor and it's worked very well in game.",
+        "start": 807.56,
+        "duration": 6.16
+    },
+    {
+        "text": "Next, a UI and utility mod, Better",
+        "start": 810.96,
+        "duration": 5.12
+    },
+    {
+        "text": "Target Info. This is a actually a very",
+        "start": 813.72,
+        "duration": 3.76
+    },
+    {
+        "text": "old mod. In fact, it was one of the",
+        "start": 816.08,
+        "duration": 3.759
+    },
+    {
+        "text": "first mods added to the in-game mod",
+        "start": 817.48,
+        "duration": 4.6
+    },
+    {
+        "text": "manager. Um but it's very much worth",
+        "start": 819.839,
+        "duration": 4.401
+    },
+    {
+        "text": "highlighting again because it's such a",
+        "start": 822.08,
+        "duration": 4.72
+    },
+    {
+        "text": "good and useful utility mod that really",
+        "start": 824.24,
+        "duration": 4.76
+    },
+    {
+        "text": "improves the in-game targeting",
+        "start": 826.8,
+        "duration": 4.88
+    },
+    {
+        "text": "interface. So, in game, when you mouse",
+        "start": 829.0,
+        "duration": 4.76
+    },
+    {
+        "text": "over a creature or target them in some",
+        "start": 831.68,
+        "duration": 3.8
+    },
+    {
+        "text": "way, you're going to get this pop-up",
+        "start": 833.76,
+        "duration": 3.32
+    },
+    {
+        "text": "information about current status",
+        "start": 835.48,
+        "duration": 3.76
+    },
+    {
+        "text": "effects, their name, their hit points,",
+        "start": 837.08,
+        "duration": 4.72
+    },
+    {
+        "text": "and so on. But it doesn't have as much",
+        "start": 839.24,
+        "duration": 4.28
+    },
+    {
+        "text": "information as you might want at a",
+        "start": 841.8,
+        "duration": 4.36
+    },
+    {
+        "text": "glance. Better Target Info fixes a lot",
+        "start": 843.52,
+        "duration": 5.84
+    },
+    {
+        "text": "of that uh with the modded version uh",
+        "start": 846.16,
+        "duration": 5.4
+    },
+    {
+        "text": "where they have bolded the name of the",
+        "start": 849.36,
+        "duration": 4.04
+    },
+    {
+        "text": "creature, which honestly makes it a lot",
+        "start": 851.56,
+        "duration": 3.399
+    },
+    {
+        "text": "more readable, especially against",
+        "start": 853.4,
+        "duration": 3.48
+    },
+    {
+        "text": "chaotic backgrounds. But more",
+        "start": 854.959,
+        "duration": 4.641
+    },
+    {
+        "text": "importantly, made it a little easier to",
+        "start": 856.88,
+        "duration": 4.92
+    },
+    {
+        "text": "see their current effects and added",
+        "start": 859.6,
+        "duration": 5.479
+    },
+    {
+        "text": "their resistances as a visual indicator",
+        "start": 861.8,
+        "duration": 5.159
+    },
+    {
+        "text": "right under them. Having the resistances",
+        "start": 865.079,
+        "duration": 3.481
+    },
+    {
+        "text": "just there, so you don't have to",
+        "start": 866.959,
+        "duration": 3.481
+    },
+    {
+        "text": "right-click and examine the creature in",
+        "start": 868.56,
+        "duration": 3.16
+    },
+    {
+        "text": "order to figure out what they're",
+        "start": 870.44,
+        "duration": 4.24
+    },
+    {
+        "text": "resistant to, is extremely helpful for",
+        "start": 871.72,
+        "duration": 5.04
+    },
+    {
+        "text": "planning your turns at a glance and just",
+        "start": 874.68,
+        "duration": 4.32
+    },
+    {
+        "text": "gives you a lot more information about",
+        "start": 876.76,
+        "duration": 4.36
+    },
+    {
+        "text": "enemies. It works also with modded",
+        "start": 879.0,
+        "duration": 3.88
+    },
+    {
+        "text": "enemies, which can be pretty helpful if",
+        "start": 881.12,
+        "duration": 4.32
+    },
+    {
+        "text": "you're using a mod that adds new enemies",
+        "start": 882.88,
+        "duration": 4.72
+    },
+    {
+        "text": "or new encounters. Um so, that you don't",
+        "start": 885.44,
+        "duration": 4.399
+    },
+    {
+        "text": "have to carefully inspect everything to",
+        "start": 887.6,
+        "duration": 4.479
+    },
+    {
+        "text": "figure out all their resistances. Maybe",
+        "start": 889.839,
+        "duration": 3.601
+    },
+    {
+        "text": "if you've played the game a lot, you've",
+        "start": 892.079,
+        "duration": 4.0
+    },
+    {
+        "text": "memorized how uh the resistances and",
+        "start": 893.44,
+        "duration": 4.24
+    },
+    {
+        "text": "important information about every",
+        "start": 896.079,
+        "duration": 3.121
+    },
+    {
+        "text": "vanilla creature, but if you're playing",
+        "start": 897.68,
+        "duration": 3.6
+    },
+    {
+        "text": "with mods, having all that info at a",
+        "start": 899.2,
+        "duration": 3.639
+    },
+    {
+        "text": "glance without having to go into the",
+        "start": 901.28,
+        "duration": 3.64
+    },
+    {
+        "text": "character sheet can be pretty helpful.",
+        "start": 902.839,
+        "duration": 4.521
+    },
+    {
+        "text": "The other thing that it does is make",
+        "start": 904.92,
+        "duration": 5.159
+    },
+    {
+        "text": "looting a little bit cleaner by uh",
+        "start": 907.36,
+        "duration": 5.56
+    },
+    {
+        "text": "adding the number of items and the gold",
+        "start": 910.079,
+        "duration": 6.401
+    },
+    {
+        "text": "value of those items to uh the glance",
+        "start": 912.92,
+        "duration": 6.56
+    },
+    {
+        "text": "value of looking over the chest or the",
+        "start": 916.48,
+        "duration": 6.12
+    },
+    {
+        "text": "container. So, if you are deciding",
+        "start": 919.48,
+        "duration": 5.0
+    },
+    {
+        "text": "whether it's worth looting a container",
+        "start": 922.6,
+        "duration": 3.479
+    },
+    {
+        "text": "or deciding whether it's worth picking",
+        "start": 924.48,
+        "duration": 3.84
+    },
+    {
+        "text": "something up, having the gold value",
+        "start": 926.079,
+        "duration": 4.681
+    },
+    {
+        "text": "right there, having the gold value of",
+        "start": 928.32,
+        "duration": 4.72
+    },
+    {
+        "text": "the item that you might be picking up uh",
+        "start": 930.76,
+        "duration": 4.6
+    },
+    {
+        "text": "present just by mousing over it can be",
+        "start": 933.04,
+        "duration": 4.64
+    },
+    {
+        "text": "very helpful for saving you time. Um",
+        "start": 935.36,
+        "duration": 6.08
+    },
+    {
+        "text": "especially if you are on, you know, your",
+        "start": 937.68,
+        "duration": 7.2
+    },
+    {
+        "text": "third or fourth or 20th play-through,",
+        "start": 941.44,
+        "duration": 5.2
+    },
+    {
+        "text": "you probably don't want to spend a lot",
+        "start": 944.88,
+        "duration": 3.199
+    },
+    {
+        "text": "of time clicking through picking up",
+        "start": 946.64,
+        "duration": 3.36
+    },
+    {
+        "text": "everything. You know roughly how much",
+        "start": 948.079,
+        "duration": 3.481
+    },
+    {
+        "text": "gold you need to get the stuff that you",
+        "start": 950.0,
+        "duration": 3.52
+    },
+    {
+        "text": "want for that play-through. And so,",
+        "start": 951.56,
+        "duration": 5.6
+    },
+    {
+        "text": "having uh the gold listed at a glance",
+        "start": 953.52,
+        "duration": 5.6
+    },
+    {
+        "text": "can really help save you time and just",
+        "start": 957.16,
+        "duration": 3.88
+    },
+    {
+        "text": "make things a lot cleaner. So, both in",
+        "start": 959.12,
+        "duration": 4.52
+    },
+    {
+        "text": "fights and out of fights, this mod has a",
+        "start": 961.04,
+        "duration": 6.2
+    },
+    {
+        "text": "lot of utility for helping make uh the",
+        "start": 963.64,
+        "duration": 6.0
+    },
+    {
+        "text": "information that you need available to",
+        "start": 967.24,
+        "duration": 3.839
+    },
+    {
+        "text": "you right away.",
+        "start": 969.64,
+        "duration": 5.56
+    },
+    {
+        "text": "The uh exact visuals, I am I think they",
+        "start": 971.079,
+        "duration": 6.841
+    },
+    {
+        "text": "could maybe uh like increase the text",
+        "start": 975.2,
+        "duration": 5.6
+    },
+    {
+        "text": "size just a little bit more um would be",
+        "start": 977.92,
+        "duration": 4.44
+    },
+    {
+        "text": "something that I wouldn't mind, but I",
+        "start": 980.8,
+        "duration": 3.88
+    },
+    {
+        "text": "have really liked Better Target Info in",
+        "start": 982.36,
+        "duration": 3.92
+    },
+    {
+        "text": "general and think that it's a very",
+        "start": 984.68,
+        "duration": 5.2
+    },
+    {
+        "text": "helpful mod uh to give you a bunch of uh",
+        "start": 986.28,
+        "duration": 5.799
+    },
+    {
+        "text": "uh a bunch of extra glance value, in",
+        "start": 989.88,
+        "duration": 4.64
+    },
+    {
+        "text": "particular showing resistances and",
+        "start": 992.079,
+        "duration": 4.641
+    },
+    {
+        "text": "vulnerabilities right when you look at a",
+        "start": 994.52,
+        "duration": 4.0
+    },
+    {
+        "text": "character.",
+        "start": 996.72,
+        "duration": 4.4
+    },
+    {
+        "text": "Next up, another new content overhaul,",
+        "start": 998.52,
+        "duration": 5.439
+    },
+    {
+        "text": "basically a full expansion to the game,",
+        "start": 1001.12,
+        "duration": 5.36
+    },
+    {
+        "text": "Fade's Assorted Treasure Expansion. So,",
+        "start": 1003.959,
+        "duration": 4.361
+    },
+    {
+        "text": "previously I've recommended Fade's",
+        "start": 1006.48,
+        "duration": 4.04
+    },
+    {
+        "text": "Equipment Distribution, which adds a ton",
+        "start": 1008.32,
+        "duration": 5.639
+    },
+    {
+        "text": "of new items as uh lootable items off of",
+        "start": 1010.52,
+        "duration": 5.92
+    },
+    {
+        "text": "enemies or from containers. And that's a",
+        "start": 1013.959,
+        "duration": 5.321
+    },
+    {
+        "text": "great mod that just adds way more cool,",
+        "start": 1016.44,
+        "duration": 4.6
+    },
+    {
+        "text": "thematic, and interesting items to the",
+        "start": 1019.28,
+        "duration": 4.96
+    },
+    {
+        "text": "game, enabling all tons of uh new builds",
+        "start": 1021.04,
+        "duration": 5.44
+    },
+    {
+        "text": "and allowing your characters to really",
+        "start": 1024.24,
+        "duration": 4.56
+    },
+    {
+        "text": "explore and figure out what they want to",
+        "start": 1026.48,
+        "duration": 4.68
+    },
+    {
+        "text": "do cuz just adding more items opens up",
+        "start": 1028.8,
+        "duration": 4.84
+    },
+    {
+        "text": "so many more options, especially if",
+        "start": 1031.16,
+        "duration": 4.56
+    },
+    {
+        "text": "you're a more veteran player. Fade's",
+        "start": 1033.64,
+        "duration": 4.28
+    },
+    {
+        "text": "Assorted Treasure Expansion continues on",
+        "start": 1035.72,
+        "duration": 5.0
+    },
+    {
+        "text": "that theme, but in my opinion is way",
+        "start": 1037.92,
+        "duration": 6.32
+    },
+    {
+        "text": "cooler because the this mod",
+        "start": 1040.72,
+        "duration": 6.2
+    },
+    {
+        "text": "instead of adding these items as",
+        "start": 1044.24,
+        "duration": 4.68
+    },
+    {
+        "text": "container loot or drops from enemies,",
+        "start": 1046.92,
+        "duration": 4.64
+    },
+    {
+        "text": "adds them as placed objects in the game.",
+        "start": 1048.92,
+        "duration": 5.0
+    },
+    {
+        "text": "And they've done a phenomenal job making",
+        "start": 1051.56,
+        "duration": 4.96
+    },
+    {
+        "text": "the treasure that you get correspond to",
+        "start": 1053.92,
+        "duration": 4.36
+    },
+    {
+        "text": "the location in which you find it. So,",
+        "start": 1056.52,
+        "duration": 3.8
+    },
+    {
+        "text": "you can get all sorts of really",
+        "start": 1058.28,
+        "duration": 5.08
+    },
+    {
+        "text": "interesting, fun items by exploring the",
+        "start": 1060.32,
+        "duration": 5.04
+    },
+    {
+        "text": "odd corners of the world, picking stuff",
+        "start": 1063.36,
+        "duration": 4.0
+    },
+    {
+        "text": "up off the ground, finding stuff behind",
+        "start": 1065.36,
+        "duration": 4.52
+    },
+    {
+        "text": "walls or under boxes and things like",
+        "start": 1067.36,
+        "duration": 4.76
+    },
+    {
+        "text": "that. And basically everywhere that I",
+        "start": 1069.88,
+        "duration": 4.36
+    },
+    {
+        "text": "looked playing with this mod, there was",
+        "start": 1072.12,
+        "duration": 4.68
+    },
+    {
+        "text": "something cool and fun. Many of the",
+        "start": 1074.24,
+        "duration": 4.68
+    },
+    {
+        "text": "items are uh",
+        "start": 1076.8,
+        "duration": 4.879
+    },
+    {
+        "text": "very minor and so, they're not hugely",
+        "start": 1078.92,
+        "duration": 3.88
+    },
+    {
+        "text": "game-breaking, though there are",
+        "start": 1081.679,
+        "duration": 3.241
+    },
+    {
+        "text": "definitely some that are extremely",
+        "start": 1082.8,
+        "duration": 5.6
+    },
+    {
+        "text": "powerful. Um so, the this will obviously",
+        "start": 1084.92,
+        "duration": 4.88
+    },
+    {
+        "text": "increase the power level of your",
+        "start": 1088.4,
+        "duration": 3.48
+    },
+    {
+        "text": "characters significantly, but a lot of",
+        "start": 1089.8,
+        "duration": 4.76
+    },
+    {
+        "text": "what it adds is just awesome flavor and",
+        "start": 1091.88,
+        "duration": 4.84
+    },
+    {
+        "text": "fun stuff everywhere that you look.",
+        "start": 1094.56,
+        "duration": 4.68
+    },
+    {
+        "text": "Baldur's Gate 3 already, one of the the",
+        "start": 1096.72,
+        "duration": 5.28
+    },
+    {
+        "text": "things that the game does really well is",
+        "start": 1099.24,
+        "duration": 5.16
+    },
+    {
+        "text": "just having cool stuff in every corner",
+        "start": 1102.0,
+        "duration": 4.52
+    },
+    {
+        "text": "where you can sort of poke around and",
+        "start": 1104.4,
+        "duration": 5.2
+    },
+    {
+        "text": "find it. And this continues that awesome",
+        "start": 1106.52,
+        "duration": 6.68
+    },
+    {
+        "text": "work by adding even more cool stuff in",
+        "start": 1109.6,
+        "duration": 5.68
+    },
+    {
+        "text": "even more corners.",
+        "start": 1113.2,
+        "duration": 4.6
+    },
+    {
+        "text": "Having the excuse to look around and",
+        "start": 1115.28,
+        "duration": 4.639
+    },
+    {
+        "text": "find fun things and know that there's",
+        "start": 1117.8,
+        "duration": 4.24
+    },
+    {
+        "text": "stuff out there that I missed and didn't",
+        "start": 1119.919,
+        "duration": 5.0
+    },
+    {
+        "text": "find um after, you know, thousands of",
+        "start": 1122.04,
+        "duration": 5.8
+    },
+    {
+        "text": "hours in the game is really adds an",
+        "start": 1124.919,
+        "duration": 5.201
+    },
+    {
+        "text": "element of discovery to the game again.",
+        "start": 1127.84,
+        "duration": 4.839
+    },
+    {
+        "text": "And uh I've really been enjoying poking",
+        "start": 1130.12,
+        "duration": 5.0
+    },
+    {
+        "text": "around, going into dungeons that I",
+        "start": 1132.679,
+        "duration": 5.321
+    },
+    {
+        "text": "previously would have skipped or uh just",
+        "start": 1135.12,
+        "duration": 6.52
+    },
+    {
+        "text": "run through for the 90th time um just to",
+        "start": 1138.0,
+        "duration": 7.04
+    },
+    {
+        "text": "find fun things. And things like",
+        "start": 1141.64,
+        "duration": 6.36
+    },
+    {
+        "text": "uh the Spined Welk add just a little bit",
+        "start": 1145.04,
+        "duration": 5.52
+    },
+    {
+        "text": "of flavor without being too incredibly",
+        "start": 1148.0,
+        "duration": 5.36
+    },
+    {
+        "text": "powerful, uh which I think is one of the",
+        "start": 1150.56,
+        "duration": 4.32
+    },
+    {
+        "text": "great things about Baldur's Gate.",
+        "start": 1153.36,
+        "duration": 3.88
+    },
+    {
+        "text": "There's so many items and and events and",
+        "start": 1154.88,
+        "duration": 3.799
+    },
+    {
+        "text": "things that are just pure flavor.",
+        "start": 1157.24,
+        "duration": 2.8
+    },
+    {
+        "text": "They're they're just there to make the",
+        "start": 1158.679,
+        "duration": 3.48
+    },
+    {
+        "text": "world feel more real and more lived in",
+        "start": 1160.04,
+        "duration": 5.36
+    },
+    {
+        "text": "and more fun. And uh mods that can",
+        "start": 1162.159,
+        "duration": 5.841
+    },
+    {
+        "text": "capture that feeling are extremely rare,",
+        "start": 1165.4,
+        "duration": 4.96
+    },
+    {
+        "text": "extremely hard to do, and awesome when",
+        "start": 1168.0,
+        "duration": 4.28
+    },
+    {
+        "text": "they do happen. So, I really love the",
+        "start": 1170.36,
+        "duration": 3.559
+    },
+    {
+        "text": "feeling of discovery that you get from",
+        "start": 1172.28,
+        "duration": 4.2
+    },
+    {
+        "text": "this. The balance on the items is",
+        "start": 1173.919,
+        "duration": 4.041
+    },
+    {
+        "text": "overall pretty good, though there's a",
+        "start": 1176.48,
+        "duration": 3.32
+    },
+    {
+        "text": "couple that stand out as being too",
+        "start": 1177.96,
+        "duration": 3.88
+    },
+    {
+        "text": "powerful. You can of course just not use",
+        "start": 1179.8,
+        "duration": 4.04
+    },
+    {
+        "text": "those if you find that they're",
+        "start": 1181.84,
+        "duration": 3.64
+    },
+    {
+        "text": "significantly affecting the balance of",
+        "start": 1183.84,
+        "duration": 4.04
+    },
+    {
+        "text": "the game. But they also enable a lot of",
+        "start": 1185.48,
+        "duration": 4.32
+    },
+    {
+        "text": "new and interesting builds and things",
+        "start": 1187.88,
+        "duration": 3.88
+    },
+    {
+        "text": "that you might otherwise not be able to",
+        "start": 1189.8,
+        "duration": 4.48
+    },
+    {
+        "text": "do. Uh and more importantly, give you a",
+        "start": 1191.76,
+        "duration": 4.76
+    },
+    {
+        "text": "reason to look around again. So, great",
+        "start": 1194.28,
+        "duration": 4.44
+    },
+    {
+        "text": "mod, highly recommended.",
+        "start": 1196.52,
+        "duration": 4.16
+    },
+    {
+        "text": "Next up, another new class, the",
+        "start": 1198.72,
+        "duration": 5.44
+    },
+    {
+        "text": "Succubus. This is a charm-based",
+        "start": 1200.68,
+        "duration": 5.68
+    },
+    {
+        "text": "frontline tanking class with a really",
+        "start": 1204.16,
+        "duration": 4.16
+    },
+    {
+        "text": "cool theme. Of course, a demonic",
+        "start": 1206.36,
+        "duration": 4.92
+    },
+    {
+        "text": "succubus is an archetype that shows up",
+        "start": 1208.32,
+        "duration": 4.92
+    },
+    {
+        "text": "in all kinds of different fantasy and",
+        "start": 1211.28,
+        "duration": 4.68
+    },
+    {
+        "text": "also is very present in Baldur's Gate 3.",
+        "start": 1213.24,
+        "duration": 4.64
+    },
+    {
+        "text": "Um so, if you want to play as that type",
+        "start": 1215.96,
+        "duration": 3.2
+    },
+    {
+        "text": "of character, this gives you the",
+        "start": 1217.88,
+        "duration": 3.68
+    },
+    {
+        "text": "opportunity to do so. The mechanics for",
+        "start": 1219.16,
+        "duration": 4.56
+    },
+    {
+        "text": "this class are very cool. It uses a lot",
+        "start": 1221.56,
+        "duration": 5.04
+    },
+    {
+        "text": "of charm and whenever you charm an enemy",
+        "start": 1223.72,
+        "duration": 6.84
+    },
+    {
+        "text": "or take damage, so you uh can have the",
+        "start": 1226.6,
+        "duration": 6.4
+    },
+    {
+        "text": "sort of push and pull between charming",
+        "start": 1230.56,
+        "duration": 4.12
+    },
+    {
+        "text": "enemies, which stops them from attacking",
+        "start": 1233.0,
+        "duration": 4.12
+    },
+    {
+        "text": "you, and trying to get them to take uh",
+        "start": 1234.68,
+        "duration": 4.44
+    },
+    {
+        "text": "hit you and take damage, which creates",
+        "start": 1237.12,
+        "duration": 3.84
+    },
+    {
+        "text": "some interesting tactical tension. You",
+        "start": 1239.12,
+        "duration": 5.56
+    },
+    {
+        "text": "gain a uh stack of the lustful effect,",
+        "start": 1240.96,
+        "duration": 6.08
+    },
+    {
+        "text": "which at five stacks lets you transform",
+        "start": 1244.68,
+        "duration": 4.24
+    },
+    {
+        "text": "into a much more powerful form with",
+        "start": 1247.04,
+        "duration": 4.8
+    },
+    {
+        "text": "extra armor class, extra flight, and",
+        "start": 1248.92,
+        "duration": 5.72
+    },
+    {
+        "text": "more damage. This is a very cool play",
+        "start": 1251.84,
+        "duration": 5.32
+    },
+    {
+        "text": "style. There are not a lot of",
+        "start": 1254.64,
+        "duration": 5.32
+    },
+    {
+        "text": "builder-spender characters in Dungeons &",
+        "start": 1257.16,
+        "duration": 4.8
+    },
+    {
+        "text": "Dragons in general, as in characters",
+        "start": 1259.96,
+        "duration": 3.92
+    },
+    {
+        "text": "that build up a resource during combats",
+        "start": 1261.96,
+        "duration": 3.72
+    },
+    {
+        "text": "and then spend it in order to get cool",
+        "start": 1263.88,
+        "duration": 4.24
+    },
+    {
+        "text": "effects. And it's a type of play style",
+        "start": 1265.68,
+        "duration": 4.28
+    },
+    {
+        "text": "that many players, myself included,",
+        "start": 1268.12,
+        "duration": 3.72
+    },
+    {
+        "text": "really enjoy and sort of miss when",
+        "start": 1269.96,
+        "duration": 4.88
+    },
+    {
+        "text": "playing uh fifth edition D&D. And so,",
+        "start": 1271.84,
+        "duration": 5.6
+    },
+    {
+        "text": "having a class that does that is really",
+        "start": 1274.84,
+        "duration": 4.76
+    },
+    {
+        "text": "awesome. It also uses one of the",
+        "start": 1277.44,
+        "duration": 4.84
+    },
+    {
+        "text": "least-used mechanics in Baldur's Gate 3.",
+        "start": 1279.6,
+        "duration": 5.28
+    },
+    {
+        "text": "Charm is a very under-baked mechanic in",
+        "start": 1282.28,
+        "duration": 5.6
+    },
+    {
+        "text": "BG3 that uh doesn't work that well in",
+        "start": 1284.88,
+        "duration": 5.04
+    },
+    {
+        "text": "general. So, a class based around it has",
+        "start": 1287.88,
+        "duration": 3.64
+    },
+    {
+        "text": "a bunch of interesting interactions in",
+        "start": 1289.92,
+        "duration": 3.6
+    },
+    {
+        "text": "the game. It's especially fun playing",
+        "start": 1291.52,
+        "duration": 4.56
+    },
+    {
+        "text": "with a a glamour bard because the charm",
+        "start": 1293.52,
+        "duration": 5.76
+    },
+    {
+        "text": "from the glamour bard's um mantle counts",
+        "start": 1296.08,
+        "duration": 6.92
+    },
+    {
+        "text": "as coming from the creature that is that",
+        "start": 1299.28,
+        "duration": 7.64
+    },
+    {
+        "text": "uh the mantle is on. And so, you can use",
+        "start": 1303.0,
+        "duration": 5.52
+    },
+    {
+        "text": "mantle of inspiration in order to",
+        "start": 1306.92,
+        "duration": 3.84
+    },
+    {
+        "text": "trigger succubus effects, which is kind",
+        "start": 1308.52,
+        "duration": 4.2
+    },
+    {
+        "text": "of a fun little synergy.",
+        "start": 1310.76,
+        "duration": 5.52
+    },
+    {
+        "text": "Um this class has not that many",
+        "start": 1312.72,
+        "duration": 6.2
+    },
+    {
+        "text": "abilities, but they all work towards the",
+        "start": 1316.28,
+        "duration": 5.32
+    },
+    {
+        "text": "theme and I've found it pretty fun to",
+        "start": 1318.92,
+        "duration": 4.2
+    },
+    {
+        "text": "play. Obviously, there are some",
+        "start": 1321.6,
+        "duration": 3.8
+    },
+    {
+        "text": "challenges playing, especially in Act 2,",
+        "start": 1323.12,
+        "duration": 3.96
+    },
+    {
+        "text": "when many enemies are immune to charm,",
+        "start": 1325.4,
+        "duration": 3.52
+    },
+    {
+        "text": "but that's what just being able to take",
+        "start": 1327.08,
+        "duration": 4.28
+    },
+    {
+        "text": "damage is for. Um so, you can still",
+        "start": 1328.92,
+        "duration": 4.28
+    },
+    {
+        "text": "build up the stacks. You don't have to",
+        "start": 1331.36,
+        "duration": 3.92
+    },
+    {
+        "text": "use uh charm every fight, but when you",
+        "start": 1333.2,
+        "duration": 4.28
+    },
+    {
+        "text": "have charm available as a bonus action",
+        "start": 1335.28,
+        "duration": 5.68
+    },
+    {
+        "text": "constantly, uh which this class gets, uh",
+        "start": 1337.48,
+        "duration": 5.56
+    },
+    {
+        "text": "you'll find that there's a lot more uses",
+        "start": 1340.96,
+        "duration": 3.56
+    },
+    {
+        "text": "for the ability than when you have to",
+        "start": 1343.04,
+        "duration": 3.44
+    },
+    {
+        "text": "spend a full action on it. And I was",
+        "start": 1344.52,
+        "duration": 4.36
+    },
+    {
+        "text": "really enjoying figuring out the",
+        "start": 1346.48,
+        "duration": 4.28
+    },
+    {
+        "text": "different ways that you can actually",
+        "start": 1348.88,
+        "duration": 4.16
+    },
+    {
+        "text": "play with this lesser-used mechanic.",
+        "start": 1350.76,
+        "duration": 5.28
+    },
+    {
+        "text": "Comes with two subclasses and a bunch of",
+        "start": 1353.04,
+        "duration": 6.44
+    },
+    {
+        "text": "unique spells and uh new abilities as",
+        "start": 1356.04,
+        "duration": 5.639
+    },
+    {
+        "text": "well. And one thing that I also really",
+        "start": 1359.48,
+        "duration": 4.56
+    },
+    {
+        "text": "liked about this subclass is that it's",
+        "start": 1361.679,
+        "duration": 5.681
+    },
+    {
+        "text": "quite underpowered, I think. Um which is",
+        "start": 1364.04,
+        "duration": 8.12
+    },
+    {
+        "text": "extremely rare for a homebrew subcla- a",
+        "start": 1367.36,
+        "duration": 7.6
+    },
+    {
+        "text": "homebrew class. Um almost always when",
+        "start": 1372.16,
+        "duration": 4.64
+    },
+    {
+        "text": "you find a modded or homebrew class,",
+        "start": 1374.96,
+        "duration": 4.08
+    },
+    {
+        "text": "it's wildly over the power curve, but",
+        "start": 1376.8,
+        "duration": 4.72
+    },
+    {
+        "text": "this one I think is in general uh weaker",
+        "start": 1379.04,
+        "duration": 4.639
+    },
+    {
+        "text": "than vanilla classes, which is fun and",
+        "start": 1381.52,
+        "duration": 3.8
+    },
+    {
+        "text": "refreshing. And it's kind of fun to play",
+        "start": 1383.679,
+        "duration": 3.201
+    },
+    {
+        "text": "a slightly weaker class and try to",
+        "start": 1385.32,
+        "duration": 4.04
+    },
+    {
+        "text": "figure out how to make it work as well",
+        "start": 1386.88,
+        "duration": 5.6
+    },
+    {
+        "text": "um when the class has such a cool uh",
+        "start": 1389.36,
+        "duration": 5.36
+    },
+    {
+        "text": "thematic and interesting power fantasy",
+        "start": 1392.48,
+        "duration": 4.6
+    },
+    {
+        "text": "also. So, the succubus class I found a",
+        "start": 1394.72,
+        "duration": 4.16
+    },
+    {
+        "text": "really interesting tactical puzzle and a",
+        "start": 1397.08,
+        "duration": 4.12
+    },
+    {
+        "text": "really well-put-together theme. Really",
+        "start": 1398.88,
+        "duration": 3.84
+    },
+    {
+        "text": "fun class that's very much worth",
+        "start": 1401.2,
+        "duration": 2.88
+    },
+    {
+        "text": "playing.",
+        "start": 1402.72,
+        "duration": 4.24
+    },
+    {
+        "text": "Donstar's Telekinetic Spells. This is a",
+        "start": 1404.08,
+        "duration": 4.64
+    },
+    {
+        "text": "spell pack. The author's done a series",
+        "start": 1406.96,
+        "duration": 3.6
+    },
+    {
+        "text": "of these, each of which adds a bunch of",
+        "start": 1408.72,
+        "duration": 3.44
+    },
+    {
+        "text": "new spells with a different specific",
+        "start": 1410.56,
+        "duration": 3.96
+    },
+    {
+        "text": "theme. But the Telekinetic Spells pack",
+        "start": 1412.16,
+        "duration": 4.72
+    },
+    {
+        "text": "is my favorite because the spells are",
+        "start": 1414.52,
+        "duration": 5.6
+    },
+    {
+        "text": "just so cool visually and thematically.",
+        "start": 1416.88,
+        "duration": 6.16
+    },
+    {
+        "text": "Um being able to lift stuff up and throw",
+        "start": 1420.12,
+        "duration": 6.0
+    },
+    {
+        "text": "it at people and do sort of Jedi force",
+        "start": 1423.04,
+        "duration": 5.84
+    },
+    {
+        "text": "tricks is one of the areas in which",
+        "start": 1426.12,
+        "duration": 4.76
+    },
+    {
+        "text": "Dungeons & Dragons spellcasting kind of",
+        "start": 1428.88,
+        "duration": 4.0
+    },
+    {
+        "text": "falls down. There's obviously the the",
+        "start": 1430.88,
+        "duration": 4.08
+    },
+    {
+        "text": "high-level spell telekinesis, but if you",
+        "start": 1432.88,
+        "duration": 4.08
+    },
+    {
+        "text": "want to play a character who's primarily",
+        "start": 1434.96,
+        "duration": 4.44
+    },
+    {
+        "text": "based around manipulating the world",
+        "start": 1436.96,
+        "duration": 4.44
+    },
+    {
+        "text": "around them with their spellcasting,",
+        "start": 1439.4,
+        "duration": 4.44
+    },
+    {
+        "text": "there actually aren't that many options.",
+        "start": 1441.4,
+        "duration": 4.88
+    },
+    {
+        "text": "Uh this Telekinetic Spell pack gives you",
+        "start": 1443.84,
+        "duration": 5.48
+    },
+    {
+        "text": "a really cool way to do that, to throw",
+        "start": 1446.28,
+        "duration": 5.52
+    },
+    {
+        "text": "single small objects, to",
+        "start": 1449.32,
+        "duration": 5.0
+    },
+    {
+        "text": "uh set up telekinetic bubbles of force",
+        "start": 1451.8,
+        "duration": 4.96
+    },
+    {
+        "text": "around yourself. And the visuals look",
+        "start": 1454.32,
+        "duration": 3.88
+    },
+    {
+        "text": "really good for these spells and the",
+        "start": 1456.76,
+        "duration": 4.08
+    },
+    {
+        "text": "spell effects are great overall. It also",
+        "start": 1458.2,
+        "duration": 5.0
+    },
+    {
+        "text": "adds a lot of new abjuration spells,",
+        "start": 1460.84,
+        "duration": 4.56
+    },
+    {
+        "text": "including an abjuration cantrip, uh",
+        "start": 1463.2,
+        "duration": 4.36
+    },
+    {
+        "text": "which is something that is uh kind of",
+        "start": 1465.4,
+        "duration": 4.2
+    },
+    {
+        "text": "missing from the game. So, it adds some",
+        "start": 1467.56,
+        "duration": 4.4
+    },
+    {
+        "text": "more offensive spellcasting to",
+        "start": 1469.6,
+        "duration": 4.72
+    },
+    {
+        "text": "abjuration and transmutation spell",
+        "start": 1471.96,
+        "duration": 4.24
+    },
+    {
+        "text": "schools that don't really have it in",
+        "start": 1474.32,
+        "duration": 3.32
+    },
+    {
+        "text": "Baldur's Gate 3 cuz some of their",
+        "start": 1476.2,
+        "duration": 4.36
+    },
+    {
+        "text": "options for that were cut uh compared to",
+        "start": 1477.64,
+        "duration": 5.0
+    },
+    {
+        "text": "tabletop. And so, if you want to play a",
+        "start": 1480.56,
+        "duration": 5.24
+    },
+    {
+        "text": "more school-focused spellcaster, one who",
+        "start": 1482.64,
+        "duration": 6.32
+    },
+    {
+        "text": "uses spells from their uh thematic",
+        "start": 1485.8,
+        "duration": 5.48
+    },
+    {
+        "text": "school of origin, then this gives you a",
+        "start": 1488.96,
+        "duration": 4.76
+    },
+    {
+        "text": "lot more options to do so. The spells",
+        "start": 1491.28,
+        "duration": 4.68
+    },
+    {
+        "text": "themselves include three new cantrips",
+        "start": 1493.72,
+        "duration": 4.68
+    },
+    {
+        "text": "and a bunch of new uh higher-level",
+        "start": 1495.96,
+        "duration": 4.32
+    },
+    {
+        "text": "spells. I think it's eight new",
+        "start": 1498.4,
+        "duration": 4.2
+    },
+    {
+        "text": "higher-level spells. Uh no, 12 new",
+        "start": 1500.28,
+        "duration": 4.84
+    },
+    {
+        "text": "higher-level spells, excuse me. Um",
+        "start": 1502.6,
+        "duration": 4.24
+    },
+    {
+        "text": "and they",
+        "start": 1505.12,
+        "duration": 4.48
+    },
+    {
+        "text": "have a wide variety of different spells,",
+        "start": 1506.84,
+        "duration": 5.24
+    },
+    {
+        "text": "including defensive options, damaging",
+        "start": 1509.6,
+        "duration": 4.2
+    },
+    {
+        "text": "options, pushing and pulling, and",
+        "start": 1512.08,
+        "duration": 3.56
+    },
+    {
+        "text": "repositioning enemies. So, a lot of fun",
+        "start": 1513.8,
+        "duration": 4.4
+    },
+    {
+        "text": "tactical options to use. I will say in",
+        "start": 1515.64,
+        "duration": 5.039
+    },
+    {
+        "text": "terms of power level, they are very",
+        "start": 1518.2,
+        "duration": 4.84
+    },
+    {
+        "text": "high. So, if you're going to add these",
+        "start": 1520.679,
+        "duration": 4.521
+    },
+    {
+        "text": "spells and use more than just like one",
+        "start": 1523.04,
+        "duration": 4.32
+    },
+    {
+        "text": "of them, you probably are going to want",
+        "start": 1525.2,
+        "duration": 4.88
+    },
+    {
+        "text": "to use this in combination with either a",
+        "start": 1527.36,
+        "duration": 5.88
+    },
+    {
+        "text": "a weaker mix of classes in order to",
+        "start": 1530.08,
+        "duration": 5.28
+    },
+    {
+        "text": "avoid having the game become too easy.",
+        "start": 1533.24,
+        "duration": 3.52
+    },
+    {
+        "text": "Unless, of course, you just want a",
+        "start": 1535.36,
+        "duration": 3.56
+    },
+    {
+        "text": "really powerful option. Obviously, it",
+        "start": 1536.76,
+        "duration": 3.96
+    },
+    {
+        "text": "can be very fun to just overpower the",
+        "start": 1538.92,
+        "duration": 4.48
+    },
+    {
+        "text": "game. Um but the the spells here are a",
+        "start": 1540.72,
+        "duration": 4.84
+    },
+    {
+        "text": "little better than the spells in vanilla",
+        "start": 1543.4,
+        "duration": 4.24
+    },
+    {
+        "text": "in general, especially the straight-up",
+        "start": 1545.56,
+        "duration": 3.76
+    },
+    {
+        "text": "damaging ones and the ones with crowd",
+        "start": 1547.64,
+        "duration": 4.24
+    },
+    {
+        "text": "control attached. And so, you may want",
+        "start": 1549.32,
+        "duration": 4.64
+    },
+    {
+        "text": "to use a difficulty mod because the",
+        "start": 1551.88,
+        "duration": 3.36
+    },
+    {
+        "text": "power level is very high, but",
+        "start": 1553.96,
+        "duration": 3.48
+    },
+    {
+        "text": "thematically, they're so cool and",
+        "start": 1555.24,
+        "duration": 4.68
+    },
+    {
+        "text": "visually, they're so well done. And of",
+        "start": 1557.44,
+        "duration": 4.56
+    },
+    {
+        "text": "course, it can always just be fun to",
+        "start": 1559.92,
+        "duration": 4.44
+    },
+    {
+        "text": "play with really powerful toys and knock",
+        "start": 1562.0,
+        "duration": 4.44
+    },
+    {
+        "text": "down all the enemies that come face you.",
+        "start": 1564.36,
+        "duration": 3.96
+    },
+    {
+        "text": "And it does a great job of, again,",
+        "start": 1566.44,
+        "duration": 5.0
+    },
+    {
+        "text": "fulfilling the class fantasy of being uh",
+        "start": 1568.32,
+        "duration": 5.12
+    },
+    {
+        "text": "telekinetic character and throwing",
+        "start": 1571.44,
+        "duration": 3.68
+    },
+    {
+        "text": "things around with your mind. So, if you",
+        "start": 1573.44,
+        "duration": 3.52
+    },
+    {
+        "text": "want to play Magneto or someone like",
+        "start": 1575.12,
+        "duration": 4.72
+    },
+    {
+        "text": "that, this is a great uh spell pack to",
+        "start": 1576.96,
+        "duration": 4.52
+    },
+    {
+        "text": "allow you to do that. It also is",
+        "start": 1579.84,
+        "duration": 3.36
+    },
+    {
+        "text": "compatible with a lot of other custom",
+        "start": 1581.48,
+        "duration": 4.6
+    },
+    {
+        "text": "classes. There are several um",
+        "start": 1583.2,
+        "duration": 5.6
+    },
+    {
+        "text": "patch mods that, if you're using other",
+        "start": 1586.08,
+        "duration": 5.16
+    },
+    {
+        "text": "modded classes, will add these spells to",
+        "start": 1588.8,
+        "duration": 4.48
+    },
+    {
+        "text": "that class. Uh which is kind of fun",
+        "start": 1591.24,
+        "duration": 3.96
+    },
+    {
+        "text": "getting to combine different mods and",
+        "start": 1593.28,
+        "duration": 4.08
+    },
+    {
+        "text": "see how they all interact.",
+        "start": 1595.2,
+        "duration": 5.24
+    },
+    {
+        "text": "Next, a utility and kind of realism mod,",
+        "start": 1597.36,
+        "duration": 5.72
+    },
+    {
+        "text": "Traders Drop All Loot. This is a very",
+        "start": 1600.44,
+        "duration": 4.4
+    },
+    {
+        "text": "simple mod that just makes it so that",
+        "start": 1603.08,
+        "duration": 4.24
+    },
+    {
+        "text": "when you kill a trading character, they",
+        "start": 1604.84,
+        "duration": 3.88
+    },
+    {
+        "text": "drop everything in their trading",
+        "start": 1607.32,
+        "duration": 4.04
+    },
+    {
+        "text": "inventory. Uh this obviously makes sense",
+        "start": 1608.72,
+        "duration": 5.2
+    },
+    {
+        "text": "because it is sort of bizarre that they",
+        "start": 1611.36,
+        "duration": 4.2
+    },
+    {
+        "text": "can sell it to you, but you can't find",
+        "start": 1613.92,
+        "duration": 3.32
+    },
+    {
+        "text": "it anywhere else, though obviously,",
+        "start": 1615.56,
+        "duration": 3.52
+    },
+    {
+        "text": "that's a convention in games for game",
+        "start": 1617.24,
+        "duration": 4.16
+    },
+    {
+        "text": "balance. Uh but it also is a pretty nice",
+        "start": 1619.08,
+        "duration": 4.28
+    },
+    {
+        "text": "quality-of-life mod because often, if",
+        "start": 1621.4,
+        "duration": 3.76
+    },
+    {
+        "text": "you're on later playthroughs, you've",
+        "start": 1623.36,
+        "duration": 3.68
+    },
+    {
+        "text": "done a lot of playthroughs of the game,",
+        "start": 1625.16,
+        "duration": 3.56
+    },
+    {
+        "text": "it can be kind of annoying scrounging",
+        "start": 1627.04,
+        "duration": 3.92
+    },
+    {
+        "text": "for gold to get the exact items that you",
+        "start": 1628.72,
+        "duration": 4.76
+    },
+    {
+        "text": "need. Gold is very plentiful in Baldur's",
+        "start": 1630.96,
+        "duration": 5.0
+    },
+    {
+        "text": "Gate, but it sometimes involves either",
+        "start": 1633.48,
+        "duration": 5.96
+    },
+    {
+        "text": "doing bugs or just picking up everything",
+        "start": 1635.96,
+        "duration": 5.04
+    },
+    {
+        "text": "and then spending a lot of time clicking",
+        "start": 1639.44,
+        "duration": 3.32
+    },
+    {
+        "text": "through selling it. So, this mod can",
+        "start": 1641.0,
+        "duration": 3.36
+    },
+    {
+        "text": "save you that time. And if there's an",
+        "start": 1642.76,
+        "duration": 2.96
+    },
+    {
+        "text": "item that you want from a specific",
+        "start": 1644.36,
+        "duration": 2.8
+    },
+    {
+        "text": "trader, you can just kill them and get",
+        "start": 1645.72,
+        "duration": 3.52
+    },
+    {
+        "text": "it. I think that that's a a really nice",
+        "start": 1647.16,
+        "duration": 4.48
+    },
+    {
+        "text": "thing. Obviously, it's going to make",
+        "start": 1649.24,
+        "duration": 4.08
+    },
+    {
+        "text": "your characters more powerful on the",
+        "start": 1651.64,
+        "duration": 4.0
+    },
+    {
+        "text": "whole and can unbalance the game if you",
+        "start": 1653.32,
+        "duration": 5.48
+    },
+    {
+        "text": "abuse this option, but if you just want",
+        "start": 1655.64,
+        "duration": 5.36
+    },
+    {
+        "text": "to save time or if you just want to have",
+        "start": 1658.8,
+        "duration": 4.84
+    },
+    {
+        "text": "a little bit of extra realism for the",
+        "start": 1661.0,
+        "duration": 4.92
+    },
+    {
+        "text": "killing the occasional trader, some of",
+        "start": 1663.64,
+        "duration": 4.72
+    },
+    {
+        "text": "them, of course, turn hostile and it can",
+        "start": 1665.92,
+        "duration": 5.4
+    },
+    {
+        "text": "be kind of uh funny that you have to go",
+        "start": 1668.36,
+        "duration": 5.04
+    },
+    {
+        "text": "up, buy their stuff, and then trigger",
+        "start": 1671.32,
+        "duration": 4.28
+    },
+    {
+        "text": "the story event that makes them hostile.",
+        "start": 1673.4,
+        "duration": 4.44
+    },
+    {
+        "text": "Uh if you don't want to lose their loot,",
+        "start": 1675.6,
+        "duration": 4.2
+    },
+    {
+        "text": "then this mod can just solve all of",
+        "start": 1677.84,
+        "duration": 3.64
+    },
+    {
+        "text": "those problems and make the game play a",
+        "start": 1679.8,
+        "duration": 3.12
+    },
+    {
+        "text": "little smoother.",
+        "start": 1681.48,
+        "duration": 4.24
+    },
+    {
+        "text": "And finally, one of my very favorite new",
+        "start": 1682.92,
+        "duration": 5.32
+    },
+    {
+        "text": "mods in terms of fun, whimsy, and",
+        "start": 1685.72,
+        "duration": 5.48
+    },
+    {
+        "text": "utility, Pack Rats. This is an awesome",
+        "start": 1688.24,
+        "duration": 5.08
+    },
+    {
+        "text": "mod that lets you summon little rat",
+        "start": 1691.2,
+        "duration": 4.04
+    },
+    {
+        "text": "familiars that run around collecting",
+        "start": 1693.32,
+        "duration": 4.0
+    },
+    {
+        "text": "loot from your environment. So, you can",
+        "start": 1695.24,
+        "duration": 4.6
+    },
+    {
+        "text": "summon the pack rat, and they will",
+        "start": 1697.32,
+        "duration": 4.6
+    },
+    {
+        "text": "automatically run around and collect",
+        "start": 1699.84,
+        "duration": 4.04
+    },
+    {
+        "text": "lootable items in the environment and",
+        "start": 1701.92,
+        "duration": 3.759
+    },
+    {
+        "text": "containers. Um",
+        "start": 1703.88,
+        "duration": 3.96
+    },
+    {
+        "text": "if you summon, there are also different",
+        "start": 1705.679,
+        "duration": 4.041
+    },
+    {
+        "text": "kinds of rats, and look how cute they",
+        "start": 1707.84,
+        "duration": 2.64
+    },
+    {
+        "text": "are.",
+        "start": 1709.72,
+        "duration": 2.04
+    },
+    {
+        "text": "Uh there are also different kinds of",
+        "start": 1710.48,
+        "duration": 3.199
+    },
+    {
+        "text": "rats. So, if you summon the rat burglar,",
+        "start": 1711.76,
+        "duration": 3.76
+    },
+    {
+        "text": "it will go steal things for you and pick",
+        "start": 1713.679,
+        "duration": 4.921
+    },
+    {
+        "text": "locks. If you summon the lab rat, it",
+        "start": 1715.52,
+        "duration": 6.0
+    },
+    {
+        "text": "will go harvest materials and refine",
+        "start": 1718.6,
+        "duration": 4.8
+    },
+    {
+        "text": "them, so you get a little bit bigger",
+        "start": 1721.52,
+        "duration": 5.04
+    },
+    {
+        "text": "return. Now, of course, this is going to",
+        "start": 1723.4,
+        "duration": 4.92
+    },
+    {
+        "text": "uh affect game balance somewhat if you",
+        "start": 1726.56,
+        "duration": 4.119
+    },
+    {
+        "text": "get more consumable materials, if you",
+        "start": 1728.32,
+        "duration": 4.08
+    },
+    {
+        "text": "can pick locks without needing a",
+        "start": 1730.679,
+        "duration": 4.041
+    },
+    {
+        "text": "lockpicking skill. Um so, it does make",
+        "start": 1732.4,
+        "duration": 4.519
+    },
+    {
+        "text": "the game a little easier, but not having",
+        "start": 1734.72,
+        "duration": 4.32
+    },
+    {
+        "text": "an auto loot function available in the",
+        "start": 1736.919,
+        "duration": 4.601
+    },
+    {
+        "text": "game by default is kind of an annoyance",
+        "start": 1739.04,
+        "duration": 5.48
+    },
+    {
+        "text": "when playing on PC. On console, you have",
+        "start": 1741.52,
+        "duration": 4.76
+    },
+    {
+        "text": "the AoE loot button, but that doesn't",
+        "start": 1744.52,
+        "duration": 4.6
+    },
+    {
+        "text": "exist on PC. And so, having a mod that",
+        "start": 1746.28,
+        "duration": 5.639
+    },
+    {
+        "text": "helps you do that in an in-world and",
+        "start": 1749.12,
+        "duration": 4.96
+    },
+    {
+        "text": "really fun way with cute little rat",
+        "start": 1751.919,
+        "duration": 4.401
+    },
+    {
+        "text": "buddies that run around and grab things",
+        "start": 1754.08,
+        "duration": 4.2
+    },
+    {
+        "text": "uh is awesome. Now, I mentioned at the",
+        "start": 1756.32,
+        "duration": 4.52
+    },
+    {
+        "text": "start of the video that there was one",
+        "start": 1758.28,
+        "duration": 4.16
+    },
+    {
+        "text": "mod that I was going to talk about that",
+        "start": 1760.84,
+        "duration": 4.16
+    },
+    {
+        "text": "was PC only, and this, unfortunately, is",
+        "start": 1762.44,
+        "duration": 4.56
+    },
+    {
+        "text": "the one. I thought that it was just so",
+        "start": 1765.0,
+        "duration": 3.88
+    },
+    {
+        "text": "cute and so cool that I wanted to",
+        "start": 1767.0,
+        "duration": 3.56
+    },
+    {
+        "text": "mention it anyways. And because it's",
+        "start": 1768.88,
+        "duration": 3.68
+    },
+    {
+        "text": "relatively new, it was only released",
+        "start": 1770.56,
+        "duration": 3.599
+    },
+    {
+        "text": "this month.",
+        "start": 1772.56,
+        "duration": 4.28
+    },
+    {
+        "text": "Often, um mods that are this new will",
+        "start": 1774.159,
+        "duration": 4.441
+    },
+    {
+        "text": "get added to console later. So, if",
+        "start": 1776.84,
+        "duration": 3.88
+    },
+    {
+        "text": "you're watching this not at the upload",
+        "start": 1778.6,
+        "duration": 4.4
+    },
+    {
+        "text": "time, it may have been ported to console",
+        "start": 1780.72,
+        "duration": 4.76
+    },
+    {
+        "text": "by the time you see this video. Cuz uh",
+        "start": 1783.0,
+        "duration": 4.2
+    },
+    {
+        "text": "mods have to go through a certification",
+        "start": 1785.48,
+        "duration": 4.32
+    },
+    {
+        "text": "process. There are some ways, I think,",
+        "start": 1787.2,
+        "duration": 5.08
+    },
+    {
+        "text": "to download uh PC-only mods onto",
+        "start": 1789.8,
+        "duration": 5.32
+    },
+    {
+        "text": "console, and so it may work if you do",
+        "start": 1792.28,
+        "duration": 5.04
+    },
+    {
+        "text": "that. I myself have not tested any of",
+        "start": 1795.12,
+        "duration": 4.92
+    },
+    {
+        "text": "that, as I play on PC, but obviously, if",
+        "start": 1797.32,
+        "duration": 4.16
+    },
+    {
+        "text": "you do find a way to get it to work on",
+        "start": 1800.04,
+        "duration": 4.68
+    },
+    {
+        "text": "PC on consoles, rather, um let me know.",
+        "start": 1801.48,
+        "duration": 5.76
+    },
+    {
+        "text": "But, on PC, this is just such a fun and",
+        "start": 1804.72,
+        "duration": 5.8
+    },
+    {
+        "text": "creative and cool mod with uh",
+        "start": 1807.24,
+        "duration": 5.6
+    },
+    {
+        "text": "some really cute little companions. I",
+        "start": 1810.52,
+        "duration": 4.76
+    },
+    {
+        "text": "also just really like any mod that adds",
+        "start": 1812.84,
+        "duration": 5.0
+    },
+    {
+        "text": "cool pets to your character, because it",
+        "start": 1815.28,
+        "duration": 4.96
+    },
+    {
+        "text": "just gives you a more of a grounded",
+        "start": 1817.84,
+        "duration": 4.36
+    },
+    {
+        "text": "feeling in the world. So, even though",
+        "start": 1820.24,
+        "duration": 5.12
+    },
+    {
+        "text": "these are, of course, not uh it you",
+        "start": 1822.2,
+        "duration": 4.6
+    },
+    {
+        "text": "know, they're a little more capable than",
+        "start": 1825.36,
+        "duration": 3.76
+    },
+    {
+        "text": "a real-life rat would be, uh who are not",
+        "start": 1826.8,
+        "duration": 5.56
+    },
+    {
+        "text": "incredibly trainable, um at least in",
+        "start": 1829.12,
+        "duration": 5.0
+    },
+    {
+        "text": "terms of, you know, collecting",
+        "start": 1832.36,
+        "duration": 6.12
+    },
+    {
+        "text": "alchemical ingredients. Uh the",
+        "start": 1834.12,
+        "duration": 5.96
+    },
+    {
+        "text": "the feeling of having your character",
+        "start": 1838.48,
+        "duration": 3.76
+    },
+    {
+        "text": "actually be attached to things, I think,",
+        "start": 1840.08,
+        "duration": 3.96
+    },
+    {
+        "text": "is something that is really hard to",
+        "start": 1842.24,
+        "duration": 4.84
+    },
+    {
+        "text": "recreate in a computer game, and having",
+        "start": 1844.04,
+        "duration": 4.44
+    },
+    {
+        "text": "a cute little pet can really help do",
+        "start": 1847.08,
+        "duration": 3.68
+    },
+    {
+        "text": "that. Um",
+        "start": 1848.48,
+        "duration": 5.12
+    },
+    {
+        "text": "you also have the ravenous rat, which",
+        "start": 1850.76,
+        "duration": 7.64
+    },
+    {
+        "text": "can uh create uh food from corpses, and",
+        "start": 1853.6,
+        "duration": 7.28
+    },
+    {
+        "text": "the graveyard rat, which can collect",
+        "start": 1858.4,
+        "duration": 4.36
+    },
+    {
+        "text": "corpses, which is actually incredible",
+        "start": 1860.88,
+        "duration": 4.08
+    },
+    {
+        "text": "utility if you're playing a necromancer,",
+        "start": 1862.76,
+        "duration": 3.96
+    },
+    {
+        "text": "because it stores them weightlessly, and",
+        "start": 1864.96,
+        "duration": 3.56
+    },
+    {
+        "text": "so collecting corpses and bringing them",
+        "start": 1866.72,
+        "duration": 3.96
+    },
+    {
+        "text": "along from fight to fight in order to",
+        "start": 1868.52,
+        "duration": 4.0
+    },
+    {
+        "text": "allow you to use animate dead to create",
+        "start": 1870.68,
+        "duration": 4.44
+    },
+    {
+        "text": "undead on a corpse, or um",
+        "start": 1872.52,
+        "duration": 5.4
+    },
+    {
+        "text": "the corpse explosion cantrip. Uh",
+        "start": 1875.12,
+        "duration": 4.96
+    },
+    {
+        "text": "can also be really nice. So, it adds",
+        "start": 1877.92,
+        "duration": 3.6
+    },
+    {
+        "text": "tons of utility in terms of",
+        "start": 1880.08,
+        "duration": 4.44
+    },
+    {
+        "text": "auto-looting, in terms of making a some",
+        "start": 1881.52,
+        "duration": 5.6
+    },
+    {
+        "text": "of the more irritating classes to play",
+        "start": 1884.52,
+        "duration": 5.4
+    },
+    {
+        "text": "easier to play, because uh sorting and",
+        "start": 1887.12,
+        "duration": 5.8
+    },
+    {
+        "text": "carrying corpses can be pretty annoying.",
+        "start": 1889.92,
+        "duration": 3.64
+    },
+    {
+        "text": "Um",
+        "start": 1892.92,
+        "duration": 2.48
+    },
+    {
+        "text": "so, I just love this mod. I think it's",
+        "start": 1893.56,
+        "duration": 3.76
+    },
+    {
+        "text": "really cool and really cute. I hope it",
+        "start": 1895.4,
+        "duration": 3.88
+    },
+    {
+        "text": "comes to console soon, but I wanted to",
+        "start": 1897.32,
+        "duration": 4.88
+    },
+    {
+        "text": "talk about it anyways.",
+        "start": 1899.28,
+        "duration": 3.92
+    },
+    {
+        "text": "All right, my friends. I hope that",
+        "start": 1902.2,
+        "duration": 2.52
+    },
+    {
+        "text": "you've enjoyed this look at 10 more",
+        "start": 1903.2,
+        "duration": 4.48
+    },
+    {
+        "text": "awesome mods, whether new or old, and I",
+        "start": 1904.72,
+        "duration": 5.2
+    },
+    {
+        "text": "hope that you enjoy trying them out, and",
+        "start": 1907.68,
+        "duration": 5.16
+    },
+    {
+        "text": "maybe finding some new fun ways to play",
+        "start": 1909.92,
+        "duration": 5.32
+    },
+    {
+        "text": "the game, or updating things that",
+        "start": 1912.84,
+        "duration": 4.36
+    },
+    {
+        "text": "irritate you, or even just removing a",
+        "start": 1915.24,
+        "duration": 3.84
+    },
+    {
+        "text": "bunch of bugs that have been in the game",
+        "start": 1917.2,
+        "duration": 3.96
+    },
+    {
+        "text": "since the beginning. As always, of",
+        "start": 1919.08,
+        "duration": 3.64
+    },
+    {
+        "text": "course, if there are mods that you",
+        "start": 1921.16,
+        "duration": 3.76
+    },
+    {
+        "text": "recommend, um let me know in the",
+        "start": 1922.72,
+        "duration": 3.88
+    },
+    {
+        "text": "comments, and let everyone else know in",
+        "start": 1924.92,
+        "duration": 3.96
+    },
+    {
+        "text": "the comments below. Uh always interested",
+        "start": 1926.6,
+        "duration": 3.84
+    },
+    {
+        "text": "in hearing about new mods that you've",
+        "start": 1928.88,
+        "duration": 3.56
+    },
+    {
+        "text": "been enjoying. And if you have tried out",
+        "start": 1930.44,
+        "duration": 4.08
+    },
+    {
+        "text": "and experienced any of these mods, let",
+        "start": 1932.44,
+        "duration": 3.96
+    },
+    {
+        "text": "people know what you think of them. Of",
+        "start": 1934.52,
+        "duration": 3.159
+    },
+    {
+        "text": "course, if you've enjoyed the video,",
+        "start": 1936.4,
+        "duration": 3.24
+    },
+    {
+        "text": "then feel free to leave a comment and",
+        "start": 1937.679,
+        "duration": 3.441
+    },
+    {
+        "text": "hit the like button. Helps me out with",
+        "start": 1939.64,
+        "duration": 3.08
+    },
+    {
+        "text": "the algorithm, so I appreciate you",
+        "start": 1941.12,
+        "duration": 3.2
+    },
+    {
+        "text": "taking the time to do that. And of",
+        "start": 1942.72,
+        "duration": 3.16
+    },
+    {
+        "text": "course, you can subscribe to my channel",
+        "start": 1944.32,
+        "duration": 3.84
+    },
+    {
+        "text": "for more Baldur's Gate 3 and other",
+        "start": 1945.88,
+        "duration": 5.2
+    },
+    {
+        "text": "strategy game analysis. Cheers, folks.",
+        "start": 1948.16,
+        "duration": 5.88
+    },
+    {
+        "text": "I'll catch you next time.",
+        "start": 1951.08,
+        "duration": 2.96
+    }
+]

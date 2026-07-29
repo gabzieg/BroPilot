@@ -8,6 +8,18 @@ import json
 # Cole seus vídeos aqui
 # Lista curada em 2026-07-26: top 10 mais vistos + top 10 mais recentes
 # (com "Baldur"/"BG3" no título) de cada canal.
+#
+# Poda em 2026-07-28 (132 -> 100), toda ela dos canais oficiais da Larian:
+#   - 10 sem legenda nenhuma (trailers, cinemáticas, entrevista, "Ambiences").
+#     Não era bloqueio de IP, era ausência permanente: falhavam em toda
+#     execução sem chance de dar certo, escondendo as falhas que importam.
+#   - 22 de marketing/entretenimento (mais trailers, "Animated Short",
+#     let's plays, música de long rest, Photo Mode, mods). Nenhum tem conteúdo
+#     de min-maxing.
+# O motivo de podar em vez de só ignorar: o YouTube bloqueia o IP por volta de
+# ~30 requisições, então cada vídeo inútil na lista é uma requisição a menos
+# para os que importam. Mantidos os 3 "Guide To New Subclasses Patch 8", que
+# são mecânica de verdade.
 videos_youtube = [
     # DnDDeepDive
     "https://www.youtube.com/watch?v=Q4iw6MPxSDg",  # Top *5* Baldur's Gate 3 Multiclass Builds! Vol. 1
@@ -112,42 +124,10 @@ videos_youtube = [
     "https://www.youtube.com/watch?v=OCl5BxzTMLI",  # Baldur's Gate 3 News - Community Update! (Mods Mods Mods, Game Awards, Challenge Run....)
     "https://www.youtube.com/watch?v=2yrxuzy_TuM",  # Baldur's Gate 3 Unexpected News - HBO TV Series... (What We Know & My Thoughts)
     # LarianStudios
-    "https://www.youtube.com/watch?v=XuCfkgaaa08",  # Baldur's Gate 3: Launch Trailer
-    "https://www.youtube.com/watch?v=fcmH0c3ywxk",  # Baldur's Gate 3 Accolades Trailer
-    "https://www.youtube.com/watch?v=NOWGnC3h9WQ",  # Baldur's Gate 3 - The Game Awards Trailer
-    "https://www.youtube.com/watch?v=jNY7AEQ59-8",  # Baldur's Gate 3 Opening Cinematic
-    "https://www.youtube.com/watch?v=iWtEDCuc4s4",  # Baldur's Gate 3 Early Access Release Window Announcement Trailer
-    "https://www.youtube.com/watch?v=j_5KuItVaoY",  # Breaking down Multiplayer & Cinematics in Baldur's Gate 3 - Update #6
-    "https://www.youtube.com/watch?v=sS_fzCWkoHc",  # Baldur's Gate 3 - The Game Awards 2022 Teaser
-    "https://www.youtube.com/watch?v=_3nxRjgGcv4",  # Baldur's Gate 3: Of Valour and Lore - Bard
-    "https://www.youtube.com/watch?v=42S03eaRics",  # Baldur's Gate 3 - The Panel From Hell 3 - Twitch Plays: A Most Noble Sacrifice
-    "https://www.youtube.com/watch?v=CwCyTt8fSAU",  # Baldur's Gate 3: The Final Patch - An Animated Short
-    "https://www.youtube.com/watch?v=6w6MJ8FzfjM",  # Baldur's Gate 3: Modding Mayhem - An Animated Short
-    "https://www.youtube.com/watch?v=N56xp4tAxuY",  # Baldur's Gate 3: Christmas Gift - An Animated Short
-    "https://www.youtube.com/watch?v=2p-5RXAitTI",  # Baldur's Gate 3: Launch Party - An Animated Short
-    "https://www.youtube.com/watch?v=_wW4Fdh6zFM",  # Baldur's Gate 3 - PlayStation 5 Pre-Launch Trailer
-    "https://www.youtube.com/watch?v=1_nOikdM7oo",  # Baldur's Gate 3: Maggie Robertson on becoming a shapeshifting evil
-    "https://www.youtube.com/watch?v=_TmGocqpY0Y",  # Baldur's Gate 3: Release Teaser
-    "https://www.youtube.com/watch?v=03TwMYuizoI",  # Baldur's Gate 3: The Greatest Foe - An Animated Short
     # LarianCFH
-    "https://www.youtube.com/watch?v=eTWMYiroHC0",  # Five Very Silly Mods To Add To Baldur's Gate 3
-    "https://www.youtube.com/watch?v=iHlbagHZR2U",  # How Baldur's Gate 3 Mods Are Curated For Console
-    "https://www.youtube.com/watch?v=2qb1_BTa1xg",  # How To Find Your Baldur's Gate 3 Mods
-    "https://www.youtube.com/watch?v=ID_N8qgEhFY",  # Connecting With Cross-Play - How to set up Cross-Play with Baldur's Gate 3 Patch 8
-    "https://www.youtube.com/watch?v=qaohqWGY4Nk",  # Baldur's Gate 3 Ambiences - Hag Hut Hangout
-    "https://www.youtube.com/watch?v=lxO-BoDe6EQ",  # Baldur's Gate 3 Ambiences - Elfsong Sounds
-    "https://www.youtube.com/watch?v=OiJSfCEXWog",  # Baldur's Gate 3 Ambiences - Tiefling Time-Out
-    "https://www.youtube.com/watch?v=s4DhedOkQZY",  # Baldur's Gate 3 Ambiences - Forest Free-Time
-    "https://www.youtube.com/watch?v=-aHDdQCBgSs",  # Baldur's Gate 3 Ambiences - Docks After Dawn
-    "https://www.youtube.com/watch?v=PIoS9zBNMto",  # Larian plays Baldur's Gate 3 | Aoife's Dark Urge Part 3 - Trade Secrets (with Jack Surman)
-    "https://www.youtube.com/watch?v=JeB8H3wN9tI",  # Baldur's Gate 3 - Chill Demonic Beats To Long Rest To
-    "https://www.youtube.com/watch?v=WJ_sB2qlkTs",  # A Very Normal Anniversary Compilation | Larian plays Baldur's Gate 3 (Dark Urge highlights)
-    "https://www.youtube.com/watch?v=XkxdCbqfttk",  # Larian plays Baldur's Gate 3 | Aoife's Dark Urge Part 4 - Feared for Alfira (She's Probably Fine)
-    "https://www.youtube.com/watch?v=4yi2vSeU054",  # Photo Mode Tips And Tricks For Beginners In Baldur's Gate 3's Patch 8
     "https://www.youtube.com/watch?v=Kh6XxfmHJWA",  # Guide To New Subclasses In Baldur's Gate 3 Patch 8 (Part 3)
     "https://www.youtube.com/watch?v=rJyJt97EOFk",  # Guide To New Subclasses In Baldur's Gate 3 Patch 8 (Part 2)
     "https://www.youtube.com/watch?v=wa9lqZr113w",  # Guide To New Subclasses In Baldur's Gate 3 Patch 8 (Part 1)
-    "https://www.youtube.com/watch?v=2RrZaWrZG-8",  # How to Get Started with Baldur's Gate 3 Patch 8 Photo Mode
 ]
 
 base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
