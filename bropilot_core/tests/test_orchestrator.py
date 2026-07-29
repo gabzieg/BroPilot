@@ -15,6 +15,7 @@ from bropilot_core.orchestrator import (
     SYSTEM_PERSONA,
     Answer,
     Orchestrator,
+    StreamedAnswer,
     _count_tokens,
 )
 
@@ -43,6 +44,7 @@ class _FakeLLM:
     def __init__(self, reply="resposta do modelo"):
         self.reply = reply
         self.calls = []
+        self.stream_calls = []
 
     @property
     def embed_model(self):
@@ -54,6 +56,14 @@ class _FakeLLM:
     def generate(self, system, user):
         self.calls.append({"system": system, "user": user})
         return self.reply
+
+    def generate_stream(self, system, user):
+        # pedaços óbvios de reconhecer no teste: a resposta fatiada em 2.
+        self.stream_calls.append({"system": system, "user": user})
+        meio = len(self.reply) // 2
+        for pedaco in (self.reply[:meio], self.reply[meio:]):
+            if pedaco:
+                yield pedaco
 
 
 class AskWithoutContextTest(unittest.TestCase):
@@ -104,6 +114,51 @@ class AskWithoutContextTest(unittest.TestCase):
         self.orch.ask("pergunta")
 
         self.assertEqual(self.retriever.calls[0]["k"], 3)
+
+
+class AskStreamTest(unittest.TestCase):
+    """ask_stream() precisa ter os MESMOS metadados de ask() (sources, boost,
+    orçamento) — só o transporte da resposta muda de string pra iterator."""
+
+    def setUp(self):
+        self.retriever = _FakeRetriever(
+            [_chunk("texto A", "a.md", 0.9), _chunk("texto B", "b.md", 0.8)]
+        )
+        self.llm = _FakeLLM(reply="use Tavern Brawler")
+        self.orch = Orchestrator(self.llm, self.retriever)
+
+    def test_returns_streamed_answer_with_same_sources_as_ask(self):
+        streamed = self.orch.ask_stream("qual a melhor build?")
+
+        self.assertIsInstance(streamed, StreamedAnswer)
+        self.assertEqual(streamed.sources, ["a.md", "b.md"])
+        self.assertFalse(streamed.party_had_live_stats)
+
+    def test_chunks_concatenate_into_the_full_reply(self):
+        streamed = self.orch.ask_stream("qual a melhor build?")
+
+        self.assertEqual("".join(streamed.chunks), "use Tavern Brawler")
+
+    def test_sources_are_known_before_any_chunk_is_consumed(self):
+        # a garantia central de StreamedAnswer: sources não depende de
+        # esgotar `chunks` — já vem pronto no objeto de retorno.
+        streamed = self.orch.ask_stream("pergunta")
+
+        self.assertEqual(streamed.sources, ["a.md", "b.md"])
+        self.assertEqual(self.llm.stream_calls, [])  # generate_stream() nem foi chamado ainda
+
+        list(streamed.chunks)  # só agora a geração roda de fato
+
+        self.assertEqual(len(self.llm.stream_calls), 1)
+
+    def test_uses_same_prompt_building_as_ask(self):
+        streamed = self.orch.ask_stream("como funciona sneak attack?")
+        list(streamed.chunks)  # generate_stream() é preguiçoso — precisa consumir
+
+        user = self.llm.stream_calls[0]["user"]
+        self.assertEqual(self.llm.stream_calls[0]["system"], SYSTEM_PERSONA)
+        self.assertIn("=== CONTEXTO RECUPERADO DA BASE ===", user)
+        self.assertIn("como funciona sneak attack?", user)
 
 
 class PromptBudgetTest(unittest.TestCase):
@@ -189,13 +244,13 @@ class CliBootTest(unittest.TestCase):
 
 
 class CliLoopTest(unittest.TestCase):
-    def _run(self, entradas):
+    def _run(self, entradas, chunks=("use Tavern ", "Brawler"),
+              sources=("build_monk_openhand.md",)):
         provider = MagicMock()
         provider.health_check.return_value = True
         orchestrator = MagicMock()
-        orchestrator.ask.return_value = Answer(
-            text="use Tavern Brawler", sources=["build_monk_openhand.md"],
-            party_had_live_stats=False,
+        orchestrator.ask_stream.return_value = StreamedAnswer(
+            chunks=iter(chunks), sources=list(sources), party_had_live_stats=False,
         )
 
         out = io.StringIO()
@@ -210,6 +265,7 @@ class CliLoopTest(unittest.TestCase):
         code, saida, _ = self._run(["qual feat pegar?", "sair"])
 
         self.assertEqual(code, 0)
+        # os pedaços chegam concatenados na tela, sem quebra entre eles
         self.assertIn("use Tavern Brawler", saida)
         # a regra: resposta NUNCA sai sem as fontes
         self.assertIn("build_monk_openhand.md", saida)
@@ -220,16 +276,45 @@ class CliLoopTest(unittest.TestCase):
         self.assertEqual(code, 0)
         self.assertIn("até a próxima", saida)
 
-    def test_exits_cleanly_on_ctrl_c(self):
+    def test_exits_cleanly_on_ctrl_c_at_prompt(self):
         code, saida, _ = self._run([KeyboardInterrupt()])
 
         self.assertEqual(code, 0)
+
+    def test_ctrl_c_mid_stream_stops_cleanly_and_returns_to_prompt(self):
+        # Ctrl+C durante a GERAÇÃO (iterando streamed.chunks), não no input().
+        # Simula com um iterator que levanta KeyboardInterrupt no meio.
+        def chunks_interrompidos():
+            yield "começo da resposta"
+            raise KeyboardInterrupt
+
+        provider = MagicMock()
+        provider.health_check.return_value = True
+        orchestrator = MagicMock()
+        orchestrator.ask_stream.return_value = StreamedAnswer(
+            chunks=chunks_interrompidos(), sources=["a.md"], party_had_live_stats=False,
+        )
+
+        out = io.StringIO()
+        with patch("bropilot_core.cli.create_provider", return_value=provider), patch(
+            "bropilot_core.cli.build_default_orchestrator", return_value=orchestrator
+        ), patch("builtins.input", side_effect=["pergunta", "sair"]):
+            with redirect_stdout(out):
+                code = cli.main([])
+
+        self.assertEqual(code, 0)
+        saida = out.getvalue()
+        self.assertIn("começo da resposta", saida)   # o que já tinha chegado ficou na tela
+        self.assertIn("geração interrompida", saida)
+        self.assertNotIn("Traceback", saida)
+        self.assertNotIn("a.md", saida)               # interrompeu antes das fontes
+        self.assertIn("até a próxima", saida)          # voltou ao prompt e seguiu até 'sair'
 
     def test_blank_input_does_not_call_the_model(self):
         code, _, orchestrator = self._run(["", "   ", "sair"])
 
         self.assertEqual(code, 0)
-        orchestrator.ask.assert_not_called()
+        orchestrator.ask_stream.assert_not_called()
 
 
 if __name__ == "__main__":

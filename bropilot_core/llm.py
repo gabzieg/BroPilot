@@ -35,8 +35,9 @@ reconstruído (`build_index(rebuild=True)`) antes do retriever poder usá-lo.
 
 from __future__ import annotations
 
+import json
 import os
-from typing import Protocol, Sequence
+from typing import Iterator, Protocol, Sequence
 
 import requests
 
@@ -51,8 +52,21 @@ class LLMProvider(Protocol):
     def generate(self, system: str, user: str) -> str:
         """Uma volta de inferência. system = persona + contexto RAG; user = pergunta.
 
-        Síncrono e sem streaming no scaffold — o CLI de MVP não precisa de stream.
-        Streaming vira uma variante depois, quando a UI exigir resposta incremental.
+        Síncrono, devolve o texto inteiro de uma vez. É o que eval_rag.py e a
+        suíte de testes consomem — não precisam de streaming, só do resultado
+        final. Ver generate_stream() para o caminho incremental.
+        """
+        ...
+
+    def generate_stream(self, system: str, user: str) -> Iterator[str]:
+        """Como generate(), mas produz PEDAÇOS de texto conforme chegam do
+        back-end, em vez do texto inteiro de uma vez ao final.
+
+        Existe para latência PERCEBIDA, não para latência real: o tempo total
+        de geração não muda, mas quem está lendo vê a resposta se formando em
+        vez de encarar um prompt vazio por ~60s — é o que decide se dá pra
+        usar isto junto com o jogo aberto. generate() continua existindo e
+        continua sendo o caminho que eval_rag.py e os testes usam.
         """
         ...
 
@@ -174,13 +188,72 @@ class OllamaProvider:
 
         return response.json()
 
-    def generate(self, system: str, user: str) -> str:
-        """POST /api/chat com messages=[system, user]. Retorna o texto da resposta.
+    def _post_stream(
+        self, path: str, payload: dict, *, timeout_s: float, model: str, context: str
+    ) -> Iterator[dict]:
+        """Como `_post`, mas para o endpoint respondendo NDJSON (`stream=True`
+        no corpo do request): mesmo tratamento de erro (offline, timeout,
+        modelo ausente), só que devolve um generator de dicts — uma por linha
+        — em vez de carregar a resposta inteira com `response.json()`, que
+        pressupõe um único objeto JSON e quebraria contra um corpo NDJSON.
 
-        stream=False porque o CLI de MVP consome a resposta inteira de uma vez
-        (ver docstring do Protocol).
+        `stream=True` aqui é o parâmetro do `requests` (não baixa o corpo
+        inteiro antes de retornar); é isso que permite `iter_lines()` entregar
+        cada linha assim que ela chega pela rede, em vez de só depois que o
+        Ollama termina de gerar a resposta inteira.
         """
-        payload = self._post(
+        try:
+            response = requests.post(
+                f"{self._host}{path}", json=payload, timeout=timeout_s, stream=True
+            )
+        except requests.exceptions.Timeout as exc:
+            raise RuntimeError(
+                f"Ollama não respondeu em {timeout_s}s ao {context}. Modelo "
+                "local é lento na primeira chamada (carrega na VRAM); tente de "
+                "novo ou aumente o timeout."
+            ) from exc
+        except requests.exceptions.ConnectionError as exc:
+            raise RuntimeError(
+                f"Não foi possível conectar no Ollama em {self._host}. "
+                "Suba o serviço com `ollama serve` e tente de novo."
+            ) from exc
+
+        if response.status_code == 404:
+            raise RuntimeError(
+                f"Ollama não encontrou o modelo '{model}'. "
+                f"Baixe com: ollama pull {model}"
+            )
+        if not response.ok:
+            raise RuntimeError(
+                f"Erro na API do Ollama ({response.status_code}) ao {context}: "
+                f"{response.text[:500]}"
+            )
+
+        for line in response.iter_lines():
+            if not line:
+                continue
+            yield json.loads(line)
+
+    def generate(self, system: str, user: str) -> str:
+        """Retorna o texto completo da resposta.
+
+        Wrapper sobre generate_stream(): consome o stream até o fim e
+        concatena. Um único caminho de request para as duas formas — quem
+        chama generate() (eval_rag.py, a suíte) não vê diferença nenhuma no
+        contrato, só ganha o benefício de não haver duas implementações de
+        POST /api/chat para manter em sincronia.
+        """
+        return "".join(self.generate_stream(system, user))
+
+    def generate_stream(self, system: str, user: str) -> Iterator[str]:
+        """POST /api/chat com stream=True. Produz cada pedaço de texto
+        (`message.content`) assim que a linha NDJSON correspondente chega —
+        é isto que faz a resposta aparecer token a token no terminal em vez
+        de tudo de uma vez ao final. Mesmos erros de generate() (offline,
+        timeout, modelo ausente), com as mesmas mensagens acionáveis — só o
+        transporte muda (ver `_post_stream`).
+        """
+        for chunk in self._post_stream(
             "/api/chat",
             {
                 "model": self._chat_model,
@@ -188,14 +261,16 @@ class OllamaProvider:
                     {"role": "system", "content": system},
                     {"role": "user", "content": user},
                 ],
-                "stream": False,
+                "stream": True,
                 "options": {"num_ctx": self._num_ctx},
             },
             timeout_s=self._timeout_s,
             model=self._chat_model,
             context="gerar uma resposta",
-        )
-        return payload["message"]["content"]
+        ):
+            content = chunk.get("message", {}).get("content", "")
+            if content:
+                yield content
 
     def embed(self, texts: Sequence[str]) -> list[list[float]]:
         """POST /api/embed em lote. Retorna um vetor por texto, na mesma ordem.
@@ -375,6 +450,20 @@ class OpenAIProvider:
             )
 
         return response.json()["choices"][0]["message"]["content"]
+
+    def generate_stream(self, system: str, user: str) -> Iterator[str]:
+        """FALLBACK — NÃO é streaming de verdade: chama generate() (uma volta
+        síncrona inteira) e produz o resultado inteiro como um único pedaço.
+
+        A API da OpenAI suporta SSE de verdade (`stream=True` + parsing das
+        linhas `data: ...`), mas o back-end cloud não é o caminho ativo hoje
+        (CLI usa Ollama local — ver docstring do módulo); implementar o SSE
+        de verdade fica para quando a etapa 2 voltar a ser usada de fato, em
+        vez de manter dois parsers de streaming sem uso real testando um
+        deles às cegas. Documentado explicitamente aqui para não ser
+        confundido com o streaming real do OllamaProvider.
+        """
+        yield self.generate(system, user)
 
     def embed(self, texts: Sequence[str]) -> list[list[float]]:
         """POST {base_url}/embeddings em lotes de até _EMBED_BATCH_SIZE

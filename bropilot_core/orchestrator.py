@@ -18,7 +18,7 @@ from __future__ import annotations
 
 from dataclasses import dataclass
 from pathlib import Path
-from typing import TYPE_CHECKING
+from typing import TYPE_CHECKING, Iterator
 
 import tiktoken
 
@@ -74,6 +74,25 @@ class Answer:
     party_had_live_stats: bool  # False = resposta com fidelidade degradada (sem mod)
 
 
+@dataclass
+class StreamedAnswer:
+    """Como Answer, mas para o caminho de streaming (ver Orchestrator.ask_stream).
+
+    `chunks` é o iterator de pedaços de texto — consuma-o para imprimir a
+    resposta incremental. `sources` e `party_had_live_stats` já vêm
+    RESOLVIDOS de imediato, ao contrário do texto: retrieval, boost, dedup e
+    o corte por orçamento de prompt (`_fit_chunks`) já rodaram antes de
+    `llm.generate_stream()` ser sequer chamado, então as fontes são
+    conhecidas ANTES do primeiro token chegar — não há nada em StreamedAnswer
+    que dependa da geração terminar. Ficam num objeto único, em vez de uma
+    tupla solta, só para quem consome não precisar carregar duas variáveis à
+    parte; nada impede imprimir `sources` antes de `chunks` se a UI quiser.
+    """
+    chunks: Iterator[str]
+    sources: list[str]
+    party_had_live_stats: bool
+
+
 class Orchestrator:
     """Fachada única do sistema integrado. CLI e UI só conhecem esta classe."""
 
@@ -106,6 +125,42 @@ class Orchestrator:
         `Answer.party_had_live_stats` sai False — degradando com honestidade,
         nunca inventando stats.
         """
+        system, user, sources, party_had_live_stats = self._prepare(question, ctx)
+        text = self.llm.generate(system, user)
+
+        return Answer(
+            text=text, sources=sources, party_had_live_stats=party_had_live_stats
+        )
+
+    def ask_stream(
+        self, question: str, ctx: "SaveContext | None" = None
+    ) -> StreamedAnswer:
+        """Como ask(), mas a geração vem incremental — para latência
+        PERCEBIDA, não real (ver docstring de LLMProvider.generate_stream).
+
+        Mesmo pipeline até a geração (retrieval híbrido -> boost -> dedup ->
+        orçamento de prompt, tudo em `_prepare`); só a última perna muda:
+        `llm.generate_stream()` em vez de `llm.generate()`. `sources` e
+        `party_had_live_stats` já saem resolvidos no retorno (ver docstring
+        de StreamedAnswer) — só `chunks` é preguiçoso.
+        """
+        system, user, sources, party_had_live_stats = self._prepare(question, ctx)
+
+        return StreamedAnswer(
+            chunks=self.llm.generate_stream(system, user),
+            sources=sources,
+            party_had_live_stats=party_had_live_stats,
+        )
+
+    def _prepare(
+        self, question: str, ctx: "SaveContext | None"
+    ) -> tuple[str, str, list[str], bool]:
+        """A parte do pipeline que ask() e ask_stream() compartilham por
+        inteiro: retrieval -> boost -> dedup -> orçamento de prompt -> fontes
+        resolvidas. Só o que vem depois (chamar generate() ou
+        generate_stream()) diverge entre as duas — fatorado aqui para as duas
+        nunca poderem divergir sem querer no que manda pro LLM.
+        """
         # O estado do save entra DUAS vezes, com papéis diferentes: como
         # sinais que dirigem a busca, e como texto que o modelo lê. Ver o
         # docstring do módulo — é o design state-aware, não redundância.
@@ -116,18 +171,14 @@ class Orchestrator:
 
         used = self._fit_chunks(chunks, party_text, question)
         system, user = self._build_prompt(question, party_text, used)
-        text = self.llm.generate(system, user)
 
         # Fontes = o que REALMENTE alimentou o prompt (pós-corte), deduplicado
         # preservando a ordem de relevância. Citar um arquivo que foi cortado
         # por orçamento seria mentir sobre o que embasou a resposta.
         sources = list(dict.fromkeys(c.source_file for c in used))
+        party_had_live_stats = bool(signals and signals.get("has_live_stats"))
 
-        return Answer(
-            text=text,
-            sources=sources,
-            party_had_live_stats=bool(signals and signals.get("has_live_stats")),
-        )
+        return system, user, sources, party_had_live_stats
 
     def _fit_chunks(
         self, chunks: list[RetrievedChunk], party_text: str, question: str

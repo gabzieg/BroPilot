@@ -147,8 +147,12 @@ def main(argv: list[str] | None = None) -> int:
             print("até a próxima!")
             return 0
 
+        # ask_stream() só monta o prompt (retrieval -> boost -> dedup ->
+        # orçamento) — a geração em si só começa quando `streamed.chunks` é
+        # iterado logo abaixo, então um Ctrl+C aqui interrompe antes da parte
+        # lenta (~60s) sequer começar.
         try:
-            answer = orchestrator.ask(question, ctx)
+            streamed = orchestrator.ask_stream(question, ctx)
         except RuntimeError as exc:
             print(f"erro: {exc}\n", file=sys.stderr)
             continue
@@ -156,10 +160,28 @@ def main(argv: list[str] | None = None) -> int:
             print("\n(geração interrompida)\n")
             continue
 
-        print(f"\nbropilot > {answer.text}\n")
-        # As fontes SEMPRE acompanham a resposta: é como se verifica se o RAG
-        # puxou o material certo, em vez de o modelo estar inventando.
-        print(f"  fontes: {', '.join(answer.sources) or '(nenhuma)'}\n")
+        # Escreve cada pedaço com flush imediato, sem quebra de linha entre
+        # eles: é isto que faz a resposta aparecer se formando no terminal em
+        # vez de tudo de uma vez ao final (a latência TOTAL não muda — a
+        # PERCEBIDA sim, e é ela que decide se dá pra usar isto jogando).
+        sys.stdout.write("\nbropilot > ")
+        sys.stdout.flush()
+        try:
+            for pedaco in streamed.chunks:
+                sys.stdout.write(pedaco)
+                sys.stdout.flush()
+        except KeyboardInterrupt:
+            print("\n\n(geração interrompida)\n")
+            continue
+        except RuntimeError as exc:
+            print(f"\nerro: {exc}\n", file=sys.stderr)
+            continue
+
+        print("\n")
+        # As fontes SEMPRE acompanham a resposta — só que agora depois do
+        # stream inteiro, nunca no meio: é como se verifica se o RAG puxou o
+        # material certo, em vez de o modelo estar inventando.
+        print(f"  fontes: {', '.join(streamed.sources) or '(nenhuma)'}\n")
 
 
 if __name__ == "__main__":

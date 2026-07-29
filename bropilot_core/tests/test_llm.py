@@ -9,6 +9,7 @@ Ollama quando BROPILOT_LLM não está setada.
 
 from __future__ import annotations
 
+import json
 import os
 import unittest
 from unittest.mock import MagicMock, patch
@@ -16,6 +17,20 @@ from unittest.mock import MagicMock, patch
 import requests
 
 from bropilot_core.llm import OllamaProvider, OpenAIProvider, create_provider
+
+
+def _ndjson_lines(*mensagens):
+    """Monta linhas NDJSON como o Ollama manda em stream=True: uma por pedaço
+    de conteúdo, mais a linha final com done=True. `mensagens` são só os
+    pedaços de texto — o resto do envelope é preenchido igual em cada linha."""
+    linhas = [
+        json.dumps({"model": "qwen2.5", "message": {"role": "assistant", "content": m}, "done": False}).encode()
+        for m in mensagens
+    ]
+    linhas.append(
+        json.dumps({"model": "qwen2.5", "message": {"role": "assistant", "content": ""}, "done": True}).encode()
+    )
+    return linhas
 
 
 class OpenAIProviderHealthCheckTest(unittest.TestCase):
@@ -99,6 +114,25 @@ class OpenAIProviderEmbedTest(unittest.TestCase):
         self.assertEqual(provider.embed([]), [])
 
 
+class OpenAIProviderGenerateStreamTest(unittest.TestCase):
+    @patch("bropilot_core.llm.requests.post")
+    def test_generate_stream_is_a_single_chunk_fallback(self, mock_post):
+        response = MagicMock()
+        response.status_code = 200
+        response.ok = True
+        response.json.return_value = {
+            "choices": [{"message": {"content": "Tavern Brawler."}}]
+        }
+        mock_post.return_value = response
+
+        pedacos = list(OpenAIProvider(api_key="sk-fake").generate_stream("s", "u"))
+
+        # fallback documentado: um único pedaço com o texto inteiro, não
+        # streaming de verdade — mas o CONTRATO (Iterator[str]) é o mesmo.
+        self.assertEqual(pedacos, ["Tavern Brawler."])
+        mock_post.assert_called_once()
+
+
 class OllamaProviderTest(unittest.TestCase):
     """Todos os testes mockam requests — nenhuma chamada real ao Ollama."""
 
@@ -110,20 +144,55 @@ class OllamaProviderTest(unittest.TestCase):
         response.json.return_value = payload
         return response
 
+    @staticmethod
+    def _streaming(linhas):
+        """Resposta com stream=True: status/ok normais, mas iter_lines() em
+        vez de json() — é isso que generate_stream() consome."""
+        response = MagicMock()
+        response.status_code = 200
+        response.ok = True
+        response.iter_lines.return_value = linhas
+        return response
+
     @patch("bropilot_core.llm.requests.post")
-    def test_generate_extracts_text_from_chat_response(self, mock_post):
-        mock_post.return_value = self._ok(
-            {"model": "qwen2.5", "message": {"role": "assistant", "content": "Tavern Brawler."}, "done": True}
+    def test_generate_stream_yields_chunks_in_order(self, mock_post):
+        mock_post.return_value = self._streaming(
+            _ndjson_lines("Tavern ", "Brawler", ".")
+        )
+
+        pedacos = list(OllamaProvider().generate_stream("persona", "qual feat?"))
+
+        self.assertEqual(pedacos, ["Tavern ", "Brawler", "."])
+        body = mock_post.call_args.kwargs["json"]
+        self.assertIs(body["stream"], True)
+        self.assertIs(mock_post.call_args.kwargs["stream"], True)  # streaming de verdade no requests, não só no corpo
+        self.assertEqual([m["role"] for m in body["messages"]], ["system", "user"])
+
+    @patch("bropilot_core.llm.requests.post")
+    def test_generate_wrapper_concatenates_stream_into_full_string(self, mock_post):
+        mock_post.return_value = self._streaming(
+            _ndjson_lines("Tavern ", "Brawler.")
         )
 
         answer = OllamaProvider().generate("persona", "qual feat?")
 
+        # generate() é wrapper de generate_stream(): mesma string que a
+        # concatenação manual dos pedaços daria, sem diferença nenhuma pra
+        # quem chama (eval_rag.py, a suíte).
         self.assertEqual(answer, "Tavern Brawler.")
-        body = mock_post.call_args.kwargs["json"]
-        self.assertIs(body["stream"], False)
-        self.assertEqual(
-            [m["role"] for m in body["messages"]], ["system", "user"]
+
+    @patch("bropilot_core.llm.requests.post")
+    def test_generate_stream_skips_blank_lines_and_empty_content(self, mock_post):
+        # a linha final (done=True) tem content vazio — não pode virar um
+        # pedaço vazio no meio da resposta.
+        response = self._streaming(
+            [b"", *_ndjson_lines("só isso")]
         )
+        mock_post.return_value = response
+
+        pedacos = list(OllamaProvider().generate_stream("s", "u"))
+
+        self.assertEqual(pedacos, ["só isso"])
 
     @patch("bropilot_core.llm.requests.post")
     def test_embed_preserves_input_order_across_batches(self, mock_post):
@@ -154,6 +223,15 @@ class OllamaProviderTest(unittest.TestCase):
             OllamaProvider().embed(["a", "b"])
 
         self.assertIn("desalinhado", str(ctx.exception))
+
+    @patch("bropilot_core.llm.requests.post")
+    def test_generate_stream_reports_offline_ollama_before_yielding_anything(self, mock_post):
+        mock_post.side_effect = requests.exceptions.ConnectionError()
+
+        with self.assertRaises(RuntimeError) as ctx:
+            list(OllamaProvider().generate_stream("s", "u"))
+
+        self.assertIn("ollama serve", str(ctx.exception))
 
     @patch("bropilot_core.llm.requests.post")
     def test_generate_reports_missing_model_with_pull_command(self, mock_post):
