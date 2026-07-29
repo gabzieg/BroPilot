@@ -182,11 +182,70 @@ refinado, e a re-execução retoma de onde parou.
   `03_refined/refino_log.jsonl`.
 - Verificador calibrado contra o padrão-ouro (0 números / 13 nomes).
 
-### Pendente — validação em duas etapas, com aval humano entre elas
+### Etapa 1 executada: REPROVOU com qwen2.5:7b
 
-**Etapa 1 (em execução quando esta sessão terminou):** rodar o pipeline sobre o
-próprio `youtube_nNOWTLggypc.md` gravando em caminho temporário, e comparar com o
-padrão-ouro. É a medida direta de quanto o automatizado se aproxima do manual.
+Pipeline rodado sobre o próprio `youtube_nNOWTLggypc.md` (240 s, 3 partes) e
+comparado com o padrão-ouro.
+
+| | original | padrão-ouro | pipeline |
+|---|---|---|---|
+| chars | 26.639 | 12.092 | 10.249 |
+| headers | 2 | 20 | 36 |
+| palavras | 4.988 | 2.047 | 1.595 |
+| nomes sinalizados | — | 13 | **43** |
+
+Os números de superfície parecem bons (61% de redução, mais headers que o
+padrão-ouro). **O conteúdo não é.** Três defeitos, em ordem de gravidade:
+
+**1. Erro factual introduzido.** O original diz *"add both your **wisdom** and
+dexterity modifier to Armor class"*. O pipeline escreveu *"Permite adicionar
+tanto a **inteligência** quanto à destreza ao cálculo do CA"*. Trocou o atributo.
+Isso é exatamente o risco que esta ADR existe para evitar: erro canonizado com
+aparência de fonte confiável.
+
+**2. Distorção material de número.** O original diz que o ki *"eventually you can
+end up with more than **20 uses**"*. O pipeline escreveu *"permite que o
+personagem realize até **20 ataques** em um único turno"*. Trocou o referente do
+número. **A checagem (a) não pega isso** — o "20" existe no original, só que
+significando outra coisa. Limite conhecido do verificador: ele valida
+*presença* de número, não *atribuição*.
+
+**3. Nomes próprios traduzidos — o oposto do objetivo.** "Bracers of Defence"
+virou "Bracetas de Defesa"; "Cloak of Displacement" virou "Capa de
+Deslocamento"; "Sarevok's Horned Helmet" virou "Capelo de Cerevox"; "Martial
+Arts" virou "Arts Martial". O padrão-ouro **mantém os nomes em inglês de
+propósito** — é a grafia canônica que o retrieval precisa casar. Traduzir destrói
+o mesmo acesso que o refino deveria criar, e é o que explica 43 nomes
+sinalizados contra 13.
+
+Além disso o título saiu inventado ("Monarca Guerreiro", que não está em lugar
+nenhum do original) e a corrupção "key points" foi preservada em vez de
+corrigida para ki points.
+
+**Conclusão: não soltar na base.** O `--limit 3` da Etapa 2 fica bloqueado até
+isto ser resolvido.
+
+### Hipóteses para a próxima sessão, em ordem de custo
+
+1. **O prompt não proíbe traduzir nome próprio.** Correção barata: regra
+   explícita de manter itens/feats/magias/subclasses na grafia em inglês do
+   glossário, com exemplo. Provável causa direta do defeito 3, e talvez do 1
+   (o modelo está *traduzindo* em vez de *reescrever*).
+2. **qwen2.5:7b é fraco demais para a tarefa.** Ele faz três coisas ao mesmo
+   tempo — traduzir, estruturar e preservar fidelidade — e derrapa na terceira.
+   Testar com `BROPILOT_LLM=openai` (gpt-4o-mini) num único documento mede isso
+   direto; o custo é de centavos e a comparação é contra o mesmo padrão-ouro.
+3. **Talvez o documento não deva ser traduzido.** O padrão-ouro é em português,
+   mas nada obriga: manter em inglês eliminaria de uma vez o vetor dos defeitos
+   1 e 3. Decisão de produto — quem lê o refinado é o LLM, não você.
+
+Verificador a melhorar junto: a checagem (a) precisa de uma forma de detectar
+número reatribuído (ex.: comparar a janela de palavras ao redor do número no
+original e no refinado), senão o defeito 2 continua invisível.
+
+### Comandos da validação
+
+**Etapa 1** (a que reprovou):
 
 ```bash
 python scripts/youtube_refiner.py --only-file youtube_nNOWTLggypc.md \
@@ -195,8 +254,8 @@ diff /tmp/refino_validacao/youtube_nNOWTLggypc.md \
      data/03_refined/youtube_nNOWTLggypc.md
 ```
 
-**Etapa 2 (só após aval da 1):** `--limit 3` em outros vídeos, com antes/depois
-lado a lado. Só depois disso processar o resto dos 64 documentos.
+**Etapa 2 — BLOQUEADA** até a Etapa 1 passar. Seria `--limit 3` em outros
+vídeos, com antes/depois lado a lado, e só então os 64 documentos restantes.
 
 ```bash
 python scripts/youtube_refiner.py --limit 3 --out-dir /tmp/refino_validacao
