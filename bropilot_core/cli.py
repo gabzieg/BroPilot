@@ -37,7 +37,38 @@ def _bootstrap_saveparser_path() -> None:
     primeiro a cruzar essa fronteira, então precisa localizar o pacote do parser.
     Ver README do bropilot_core para o plano de resolver isso via editable install.
     """
-    raise NotImplementedError("entra quando o save for plugado")
+    raiz = Path(__file__).resolve().parent.parent / "BroPilot-SaveParser" / "src"
+    if raiz.is_dir() and str(raiz) not in sys.path:
+        sys.path.insert(0, str(raiz))
+
+
+def carregar_save(dump: str | None = None):
+    """Save mais recente + snapshot do mod, se houver. Devolve (ctx, aviso).
+
+    Nunca levanta: save é dado OPCIONAL. Qualquer falha — parser ausente,
+    caminho inexistente, .lsv corrompido — vira aviso e o CLI segue no modo
+    sem-save. Travar a experiência por falta de dado opcional seria pior que
+    responder só com a base de conhecimento.
+    """
+    _bootstrap_saveparser_path()
+    try:
+        from bropilot.models import SaveContext
+        from bropilot.save import SaveGame, default_save_root, latest_save
+    except ImportError as exc:
+        return None, f"SaveParser indisponível ({exc}) — seguindo sem save."
+
+    try:
+        caminho = latest_save()
+        if caminho is None:
+            return None, (
+                f"Nenhum save encontrado em {default_save_root()} — "
+                "seguindo sem save."
+            )
+        ctx = SaveContext(SaveGame(caminho), inventory_dump=dump)
+        ctx.party  # força a leitura agora, para falhar aqui e não na 1a pergunta
+        return ctx, f"Save carregado: {caminho.name}"
+    except Exception as exc:  # noqa: BLE001 — save é opcional, nada aqui é fatal
+        return None, f"Falha ao ler o save ({type(exc).__name__}: {exc}) — seguindo sem save."
 
 
 def main(argv: list[str] | None = None) -> int:
@@ -58,8 +89,13 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument(
         "--dump",
         metavar="CAMINHO",
-        help="snapshot bropilot_inventory.json do mod (ainda inerte: o save "
-             "entra na próxima etapa).",
+        help="snapshot bropilot_inventory.json do mod (Windows). Sem ele, o "
+             "save em disco só dá nível/raça/classe.",
+    )
+    parser.add_argument(
+        "--sem-save",
+        action="store_true",
+        help="ignora o savegame e responde só com a base de conhecimento.",
     )
     parser.add_argument(
         "--store", metavar="CAMINHO", help="diretório do índice (default: o do build)."
@@ -68,9 +104,6 @@ def main(argv: list[str] | None = None) -> int:
         "-k", type=int, default=6, help="quantos chunks recuperar por pergunta."
     )
     args = parser.parse_args(argv)
-
-    if args.dump:
-        print("aviso: --dump ainda não faz nada; o save entra na próxima etapa.\n")
 
     # Falhar cedo e com mensagem acionável: Ollama fora do ar, modelo não
     # baixado ou índice inexistente são condições que o usuário resolve — não
@@ -87,7 +120,18 @@ def main(argv: list[str] | None = None) -> int:
 
     orchestrator.k = args.k
 
-    print("BroPilot — modo sem save (só base de conhecimento).")
+    ctx = None
+    if args.sem_save:
+        print("BroPilot — modo sem save (--sem-save).")
+    else:
+        ctx, aviso = carregar_save(args.dump)
+        print(f"BroPilot — {aviso}")
+        if ctx is not None:
+            from .serialize import serialize_party
+            # Mostrar a ficha no boot deixa explícito o que o modelo vai ver,
+            # incluindo o aviso de fidelidade degradada quando não há mod.
+            print(serialize_party(ctx))
+
     print("Pergunte à vontade. 'sair', Ctrl+C ou Ctrl+D encerram.\n")
 
     while True:
@@ -104,7 +148,7 @@ def main(argv: list[str] | None = None) -> int:
             return 0
 
         try:
-            answer = orchestrator.ask(question)
+            answer = orchestrator.ask(question, ctx)
         except RuntimeError as exc:
             print(f"erro: {exc}\n", file=sys.stderr)
             continue

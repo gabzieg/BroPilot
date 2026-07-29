@@ -4,12 +4,16 @@ from __future__ import annotations
 
 import json
 import os
+import sys
 from functools import cached_property
 from pathlib import Path
 
 from . import lsf
 from .lspk import Package
 
+#: Caminho do Windows. Mantido como está: é o contrato existente e o que roda
+#: na máquina dos parceiros. `default_save_root()` é quem escolhe por
+#: plataforma; esta constante continua sendo o valor do Windows.
 DEFAULT_SAVE_ROOT = (
     Path(os.environ.get("LOCALAPPDATA", Path.home() / "AppData/Local"))
     / "Larian Studios"
@@ -20,10 +24,44 @@ DEFAULT_SAVE_ROOT = (
     / "Story"
 )
 
+#: No macOS o BG3 grava em ~/Documents, não em Application Support. Verificado
+#: numa instalação real (40 saves), com a mesma estrutura de subpastas do
+#: Windows, incluindo o nível "Story".
+MACOS_SAVE_ROOT = (
+    Path.home()
+    / "Documents"
+    / "Larian Studios"
+    / "Baldur's Gate 3"
+    / "PlayerProfiles"
+    / "Public"
+    / "Savegames"
+    / "Story"
+)
+
+#: Sobrescreve a resolução por plataforma. Existe porque o caminho varia com
+#: instalação via Steam/GOG, iCloud sincronizando ~/Documents, e Proton no
+#: Linux — casos demais para adivinhar.
+SAVE_ROOT_ENV = "BROPILOT_SAVE_ROOT"
+
+
+def default_save_root() -> Path:
+    """Onde procurar saves nesta máquina.
+
+    Ordem: env var BROPILOT_SAVE_ROOT > caminho da plataforma. Fora do macOS
+    cai no DEFAULT_SAVE_ROOT (Windows), que também é o palpite menos ruim para
+    Linux sob Proton, onde o prefixo Wine reproduz a árvore do Windows.
+    """
+    override = os.environ.get(SAVE_ROOT_ENV)
+    if override:
+        return Path(override).expanduser()
+    if sys.platform == "darwin":
+        return MACOS_SAVE_ROOT
+    return DEFAULT_SAVE_ROOT
+
 
 def find_saves(root: str | Path | None = None) -> list[Path]:
     """All .lsv savegames under the profile, newest first."""
-    root = Path(root) if root else DEFAULT_SAVE_ROOT
+    root = Path(root) if root else default_save_root()
     if not root.exists():
         return []
     saves = list(root.glob("*/*.lsv"))

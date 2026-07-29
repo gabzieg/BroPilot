@@ -24,6 +24,7 @@ import tiktoken
 
 from .index.retriever import RetrievedChunk, Retriever
 from .llm import create_provider
+from .serialize import extract_signals, serialize_party
 
 if TYPE_CHECKING:
     from bropilot import SaveContext
@@ -63,13 +64,6 @@ def _render_chunk(position: int, chunk: RetrievedChunk) -> str:
     """Cada chunk vai rotulado com o arquivo de origem para o modelo poder
     citar a fonte, e para a resposta ser auditável contra a base."""
     return f"\n[{position}] fonte: {chunk.source_file}\n{chunk.text}"
-
-
-def _has_live_stats(ctx: "SaveContext") -> bool:
-    """Se o snapshot do mod alimentou este contexto. Sem o mod (macOS), o save
-    em disco só dá nível/raça/classe — a resposta é de fidelidade degradada e
-    o Answer precisa dizer isso."""
-    return bool(getattr(ctx, "dump", None))
 
 
 @dataclass
@@ -112,11 +106,13 @@ class Orchestrator:
         `Answer.party_had_live_stats` sai False — degradando com honestidade,
         nunca inventando stats.
         """
-        chunks = self.retriever.search(question, k=self.k)
+        # O estado do save entra DUAS vezes, com papéis diferentes: como
+        # sinais que dirigem a busca, e como texto que o modelo lê. Ver o
+        # docstring do módulo — é o design state-aware, não redundância.
+        signals = extract_signals(ctx) if ctx is not None else None
+        party_text = serialize_party(ctx) if ctx is not None else ""
 
-        # A ficha da party e os signals entram quando serialize.py existir; até
-        # lá, ctx só decide o flag de fidelidade.
-        party_text = ""
+        chunks = self.retriever.search(question, signals=signals, k=self.k)
 
         used = self._fit_chunks(chunks, party_text, question)
         system, user = self._build_prompt(question, party_text, used)
@@ -130,7 +126,7 @@ class Orchestrator:
         return Answer(
             text=text,
             sources=sources,
-            party_had_live_stats=False if ctx is None else _has_live_stats(ctx),
+            party_had_live_stats=bool(signals and signals.get("has_live_stats")),
         )
 
     def _fit_chunks(
