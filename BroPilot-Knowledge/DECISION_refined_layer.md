@@ -201,3 +201,107 @@ hipótese de diluição está confirmada e o refino tem retorno garantido. Se n�
 subir, o problema é outro e o refino seria trabalho desperdiçado.
 
 Custo do teste: uma reindexação. Vale fazer primeiro.
+
+---
+
+# RESULTADO — hipótese de diluição FALSEADA (2026-07-28)
+
+> Seção adicionada após a execução do experimento proposto acima. A decisão
+> registrada na primeira parte deste documento **não foi implementada**, e não
+> deve ser retomada sem ler esta seção.
+
+## O que foi testado
+
+O "teste barato" da seção anterior, mais uma terceira condição. Três índices, a
+mesma bateria de 12 perguntas (`eval_rag.py --sem-geracao`, que mede retrieval
+sem pagar os ~60s/pergunta da geração local):
+
+1. **baseline** — 151 arquivos, 4.409 chunks, sem signals.
+2. **denso** — só `wiki` + `build_*` (27 arquivos, ~14% do corpus por volume),
+   sem signals. Testa a hipótese de diluição.
+3. **+ save (boost)** — corpus completo, com `signals` extraídos do save real
+   (party nível 8: Bard/SwordsCollege, Cleric/LightDomain, Fighter/BattleMaster,
+   Druid/CircleOfTheLand).
+
+Relatórios: `bropilot_core/eval/comparacao_3vias.md`,
+`rag_eval_denso_retrieval.md`, `rag_eval_com_save_retrieval.md`.
+
+## Números
+
+| Métrica | Meta ADR | baseline | denso | + save (boost) |
+|---|---|---|---|---|
+| Jaccard paráfrases (média) | > 0.6 | 0.20 | 0.23 | **0.32** |
+| Jaccard cross-lingual | > 0.7 | 0.14 | **0.38** | 0.12 |
+| Spread top-6 (média) | maior | 0.026 | 0.030 | 0.039 * |
+| Duplicatas (total) | zero | 22 | 21 | 19 |
+
+\* O spread com boost **não é comparável em valor absoluto**: o boost soma até
++0.30 ao score, então parte do aumento é mudança de escala, não separação real.
+
+## Veredito: a hipótese estava errada
+
+O critério de falseamento definido nesta ADR era explícito. **Cortar 82% do
+corpus moveu a estabilidade entre paráfrases em +0.03** — dentro do ruído.
+Nenhuma condição chega perto das metas.
+
+**Por que o experimento nunca poderia ter funcionado:** ele cortou *volume*, mas
+manteve *domínio*. Vinte e sete arquivos de BG3 continuam sendo 100% BG3.
+
+A compressão de similaridade não vem de quantos documentos existem — vem de
+**tudo falar do mesmo assunto**. Num corpus mono-domínio, qualquer pergunta sobre
+build de RPG é ~0.5 similar a qualquer conteúdo sobre build de RPG. Remover
+documentos não descomprime a paisagem, porque os remanescentes seguem no mesmo
+domínio. A compressão é propriedade do par (modelo de embedding × corpus
+mono-domínio) e é **insensível ao tamanho do corpus**.
+
+## Ressalvas de método (para não superinterpretar a tabela)
+
+- **Denso vs baseline confunde variáveis.** Diferem em densidade, mas também em
+  idioma e gênero (wiki inglesa estruturada vs transcrição coloquial
+  multilíngue). O ganho cross-lingual do denso (0.38) pode vir da uniformidade,
+  não da densidade.
+- **Não construa teoria sobre o cross-lingual do boost (0.14 → 0.12).** Com
+  conjuntos de 6 elementos, o Jaccard é quantizado em passos de ~0.09
+  (1/11, 2/10, 3/9…). Uma diferença de 0.02 está **abaixo da granularidade de
+  trocar um único documento**. É ruído, não efeito.
+
+## O que sobreviveu
+
+**1. O boost state-aware é o maior ganho isolado, e é de graça.** 0.20 → 0.32
+sobre o corpus completo, sem cortar nada, batendo o corpus denso. O mecanismo:
+os `signals` são **invariantes à formulação da pergunta**, então ancoram o
+ranking contra o ruído de reformulação. É a arquitetura state-aware pagando o
+próprio custo, medida.
+
+**2. As duplicatas têm outra causa, mais barata de resolver.** 22/21/19 em todas
+as condições — nenhuma das três ataca. A causa é **fragmentação de documento**,
+não diluição de corpus: `youtube_manual.md` (560 KB), guias da Steam (400 KB,
+268 KB) e wikis longas (`skills.md` → 56 chunks, `weapons.md` → 52) inundam o
+top-6 com pedaços de si mesmas. Cerca de 1/3 dos slots de contexto é repetição
+de fonte.
+
+## Decisão revisada
+
+**A camada `03_refined` como otimização de retrieval está descartada.** O
+problema que ela resolveria não é o problema que existe.
+
+Ordem de trabalho que a evidência sustenta:
+
+1. **Dedup por `source_file` no retriever** (máx 1–2 chunks por documento no
+   top-k). Dezenas de linhas; ataca a única métrica quebrada em todas as
+   condições e recupera slots de contexto desperdiçados.
+2. **Busca híbrida (BM25 + denso)** — promovida de plano B a plano A. A razão
+   agora é precisa: **sinal lexical não é comprimido em mono-domínio.** "Open
+   Hand" como string literal discrimina exatamente onde o cosseno não consegue.
+3. **Manter o boost.**
+
+## A justificativa que sobreviveu para o refino (outra, e menor)
+
+O corpus tem **um** arquivo de build curado (`build_monk_openhand.md`, 4 KB)
+contra 54% do volume em transcrição de YouTube, onde o conhecimento de build
+está preso em forma divagante. Isso é **lacuna de conteúdo**, não física de
+retrieval.
+
+Se o refino voltar à mesa, que seja por essa razão — **autoria do conteúdo que
+falta** — e depois que os dois consertos acima aterrissarem, com medição nova.
+Não pelo argumento de diluição, que foi testado e reprovado.
