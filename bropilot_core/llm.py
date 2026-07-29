@@ -86,6 +86,13 @@ class LLMProvider(Protocol):
         modo de falha mais caro do RAG, porque parece que funciona."""
         ...
 
+    @property
+    def chat_model(self) -> str:
+        """Identidade do modelo de geração, exposta para relatórios/eval
+        registrarem CONTRA qual modelo uma resposta foi produzida — sem isso
+        um relatório de acurácia fica mudo sobre a variável mais óbvia."""
+        ...
+
 
 def _model_is_installed(model: str, installed: set[str]) -> bool:
     """O /api/tags devolve o nome COM tag ("nomic-embed-text:latest"), mas o
@@ -148,6 +155,10 @@ class OllamaProvider:
     @property
     def embed_model(self) -> str:
         return self._embed_model
+
+    @property
+    def chat_model(self) -> str:
+        return self._chat_model
 
     def _post(
         self, path: str, payload: dict, *, timeout_s: float, model: str, context: str
@@ -395,6 +406,10 @@ class OpenAIProvider:
     @property
     def embed_model(self) -> str:
         return self._embed_model
+
+    @property
+    def chat_model(self) -> str:
+        return self._chat_model
 
     def _require_api_key(self, context: str) -> str:
         if not self._api_key:

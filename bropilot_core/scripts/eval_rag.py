@@ -114,6 +114,36 @@ PERGUNTAS_EN = [
      "texto": "what's the best class?"},
 ]
 
+# As 10 perguntas do relatório de acurácia para o README (`--showcase`).
+# Ordem fixa e proposital — cada uma testa uma dimensão diferente do sistema
+# (regra factual, build, subclasse nova, action economy, multiclasse,
+# ambiguidade usando o save, caster, buraco conhecido da base, limite
+# sem-mod, fora de escopo). Ao contrário de PERGUNTAS/PERGUNTAS_EN, esta
+# lista não tem `grupo` — o showcase não faz as checagens mecânicas
+# cruzadas (paráfrase/cross-lingual), só coleta pergunta→resposta.
+PERGUNTAS_SHOWCASE = [
+    {"id": "s1", "categoria": "regra factual verificável",
+     "texto": "how many Superiority Dice does a Battle Master have at level 5?"},
+    {"id": "s2", "categoria": "build / subclasse",
+     "texto": "best feats for an Open Hand Monk"},
+    {"id": "s3", "categoria": "build / usa subclasse nova",
+     "texto": "best race for a Battle Master Fighter"},
+    {"id": "s4", "categoria": "action economy",
+     "texto": "how does bonus action economy work with Dual Wielder?"},
+    {"id": "s5", "categoria": "multiclasse",
+     "texto": "is a Monk 9 / Rogue 3 multiclass worth it for damage?"},
+    {"id": "s6", "categoria": "ambígua — usa o estado do save",
+     "texto": "what's the best level-up choice for my current party?"},
+    {"id": "s7", "categoria": "caster — Shadowheart é Light Domain no save",
+     "texto": "best build for a Light Domain Cleric"},
+    {"id": "s8", "categoria": "expõe buraco de magia de propósito",
+     "texto": "which spells should a Circle of the Land Druid prioritize?"},
+    {"id": "s9", "categoria": "item — expõe o limite sem-mod no Mac",
+     "texto": "should I equip Gloves of Soul Catching on my Monk?"},
+    {"id": "s10", "categoria": "fora de escopo — deve recusar",
+     "texto": "what's the best build in Elden Ring?"},
+]
+
 # Marcadores de "não sei / não está na base". Heurística de SUBSTRING, reportada
 # como sinal mecânico, não como veredito: serve para o leitor achar rápido as
 # respostas que admitiram ignorância, não para decidir se a resposta prestou.
@@ -489,6 +519,94 @@ def gerar_relatorio(resultados: list[dict], meta: dict, k: int) -> str:
     return "\n".join(out)
 
 
+def gerar_relatorio_showcase(resultados: list[dict], meta: dict) -> str:
+    """Relatório do `--showcase`: material BRUTO para anexar ao README.
+
+    Deliberadamente mais magro que `gerar_relatorio` — sem tabela de chunks,
+    sem checagens mecânicas, sem boost. Só o que um leitor humano (ou um
+    juiz mais forte, depois) precisa para julgar acerto/alucinação: a
+    pergunta, a resposta INTEGRAL, as fontes citadas e a latência. O campo
+    `veredito` fica vazio de propósito — não é este script que julga
+    qualidade, ver docstring do módulo.
+    """
+    agora = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    out = ["# BroPilot — Relatório de Acurácia (showcase)", ""]
+
+    if meta.get("aviso"):
+        out += [
+            "> ## ⚠️ ÍNDICE DESATUALIZADO",
+            f"> **{meta['aviso']}**",
+            "",
+        ]
+
+    stats_txt = (
+        "SIM" if meta.get("has_live_stats")
+        else "NÃO (sem snapshot do mod companion — Mac não roda o Script "
+             "Extender/BG3SE deste projeto; ficha da party é só nível/raça/"
+             "classe)"
+    )
+    out += [
+        f"Gerado em {agora}.",
+        "",
+        "> Este documento **coleta evidência fielmente** — pergunta, resposta "
+        "completa, fontes e latência — rodando a stack real (Ollama + índice "
+        "+ save). Ele **não julga** se uma resposta está certa, incompleta ou "
+        "alucinada; isso fica para a coluna **Veredito**, deixada em branco "
+        "para preenchimento humano (ou por um juiz automatizado mais forte) "
+        "depois.",
+        "",
+        "## Setup",
+        "",
+        f"- Data: **{agora}**",
+        f"- Modelo de geração: `{meta['chat_model']}`",
+        f"- Modelo de embedding: `{meta['embed_model']}` (dim {meta['embed_dim']})",
+        f"- Índice: **{meta['chunks']} chunks** de {meta['arquivos']} arquivos",
+        # meta['save'] já vem de carregar_save() como frase pronta ("Save
+        # carregado: X.lsv" ou o aviso de falha) — sem prefixo aqui, senão
+        # duplica ("Save carregado: Save carregado: ...").
+        f"- {meta.get('save', 'Nenhum save carregado')}",
+        f"- Party tinha stats ao vivo (mod companion): **{stats_txt}**",
+        "",
+        "---",
+        "",
+        "## Perguntas",
+        "",
+    ]
+
+    for r in resultados:
+        out.append(f"### `{r['id']}` — {r['categoria']}")
+        out.append("")
+        out.append(f"**Pergunta:** {r['texto']}")
+        out.append("")
+        out.append(f"**Latência:** {r['segundos']:.1f}s")
+        out.append("")
+
+        if r["erro"]:
+            out.append(f"> **FALHOU:** `{r['erro']}`")
+            out.append("")
+            out.append("**Veredito:** _(a preencher)_")
+            out.append("")
+            out.append("---")
+            out.append("")
+            continue
+
+        out.append("**Resposta:**")
+        out.append("")
+        out.append(r["resposta"] or "*(vazia)*")
+        out.append("")
+        out.append(
+            f"**Fontes citadas:** "
+            f"{', '.join(f'`{f}`' for f in r['fontes']) or '—'}"
+        )
+        out.append("")
+        out.append("**Veredito:** _(a preencher)_")
+        out.append("")
+        out.append("---")
+        out.append("")
+
+    return "\n".join(out)
+
+
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(
         prog="python -m bropilot_core.scripts.eval_rag",
@@ -530,9 +648,29 @@ def main(argv: list[str] | None = None) -> int:
              "mesmos id/categoria/grupo, texto traduzido. Não muta a bateria "
              "PT nem o relatório baseline existente.",
     )
+    parser.add_argument(
+        "--showcase",
+        action="store_true",
+        help="roda as 10 perguntas fixas de PERGUNTAS_SHOWCASE (material bruto "
+             "para o relatório de acurácia do README) em vez da bateria "
+             "PERGUNTAS/PERGUNTAS_EN. Sempre com geração ligada e sempre com "
+             "save carregado (implica --com-save); ignora --lang e produz um "
+             "relatório mais magro via gerar_relatorio_showcase (sem tabela "
+             "de chunks nem checagens mecânicas — só pergunta, resposta "
+             "completa, fontes, latência e um campo 'veredito' vazio para "
+             "preenchimento humano). Incompatível com --sem-geracao.",
+    )
     args = parser.parse_args(argv)
 
-    perguntas = PERGUNTAS_EN if args.lang == "en" else PERGUNTAS
+    if args.showcase and args.sem_geracao:
+        print("erro: --showcase é incompatível com --sem-geracao — o "
+              "relatório de acurácia precisa da resposta gerada de verdade.",
+              file=sys.stderr)
+        return 1
+
+    perguntas = PERGUNTAS_SHOWCASE if args.showcase else (
+        PERGUNTAS_EN if args.lang == "en" else PERGUNTAS
+    )
     store_dir = Path(args.store) if args.store else STORE_DIR
 
     try:
@@ -547,16 +685,18 @@ def main(argv: list[str] | None = None) -> int:
         return 1
 
     meta["vector_weight"] = args.peso_vetorial
+    meta["chat_model"] = provider.chat_model
     ctx = None
     meta["signals"] = "**None** — sem save, o boost state-aware não age"
-    if args.com_save:
+    meta["has_live_stats"] = False
+    if args.com_save or args.showcase:
         from ..cli import carregar_save
 
         ctx, aviso_save = carregar_save(args.dump)
         print(aviso_save)
         if ctx is None:
-            print("erro: --com-save pedido mas nenhum save foi carregado.",
-                  file=sys.stderr)
+            print("erro: --com-save/--showcase pedido mas nenhum save foi "
+                  "carregado.", file=sys.stderr)
             return 1
         from ..serialize import extract_signals
 
@@ -568,6 +708,7 @@ def main(argv: list[str] | None = None) -> int:
             f"has_live_stats={sinais.get('has_live_stats')}"
         )
         meta["save"] = aviso_save
+        meta["has_live_stats"] = bool(sinais.get("has_live_stats"))
 
     spy = _RecordingRetriever(retriever)
     orchestrator = Orchestrator(provider, spy, k=args.k)
@@ -589,16 +730,25 @@ def main(argv: list[str] | None = None) -> int:
         orchestrator, spy, ctx, sem_geracao=args.sem_geracao, perguntas=perguntas
     )
 
-    destino = Path(
-        args.output
-        or f"bropilot_core/eval/rag_eval_"
-           f"{'com_save' if args.com_save else 'sem_save'}_"
-           f"{'retrieval_' if args.sem_geracao else ''}"
-           f"{'en_' if args.lang == 'en' else ''}"
-           f"{datetime.now():%Y%m%d_%H%M%S}.md"
-    )
-    destino.parent.mkdir(parents=True, exist_ok=True)
-    destino.write_text(gerar_relatorio(resultados, meta, args.k), encoding="utf-8")
+    if args.showcase:
+        destino = Path(
+            args.output
+            or f"bropilot_core/eval/showcase_accuracy_"
+               f"{datetime.now():%Y%m%d_%H%M%S}.md"
+        )
+        destino.parent.mkdir(parents=True, exist_ok=True)
+        destino.write_text(gerar_relatorio_showcase(resultados, meta), encoding="utf-8")
+    else:
+        destino = Path(
+            args.output
+            or f"bropilot_core/eval/rag_eval_"
+               f"{'com_save' if args.com_save else 'sem_save'}_"
+               f"{'retrieval_' if args.sem_geracao else ''}"
+               f"{'en_' if args.lang == 'en' else ''}"
+               f"{datetime.now():%Y%m%d_%H%M%S}.md"
+        )
+        destino.parent.mkdir(parents=True, exist_ok=True)
+        destino.write_text(gerar_relatorio(resultados, meta, args.k), encoding="utf-8")
 
     falhas = sum(1 for r in resultados if r["erro"])
     print(f"\nRelatório: {destino}")
