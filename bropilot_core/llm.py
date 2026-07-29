@@ -117,15 +117,32 @@ class OllamaProvider:
         self,
         *,
         host: str = "http://localhost:11434",
-        chat_model: str = "qwen2.5:7b-instruct-q4_K_M",
+        chat_model: str | None = None,
         embed_model: str = "bge-m3",
         timeout_s: float = 120.0,
         embed_timeout_s: float = 300.0,
         embed_batch_size: int = 32,
         num_ctx: int = 8192,
+        temperature: float | None = None,
+        seed: int | None = None,
     ) -> None:
         """Guarda config. Ver docstring do módulo para a razão dos defaults
         (VRAM compartilhada com o BG3).
+
+        chat_model vem de BROPILOT_CHAT_MODEL quando não passado explicitamente
+        (mesmo padrão de api_key no OpenAIProvider) — permite trocar o modelo
+        de geração para comparação (ex.: eval_rag.py --showcase contra um 14b)
+        sem editar código nem duplicar caminho de configuração. Default
+        inalterado (qwen2.5:7b-instruct-q4_K_M) para não quebrar nada quando a
+        env var não está setada.
+
+        temperature/seed vêm de BROPILOT_TEMPERATURE/BROPILOT_SEED quando não
+        passados. DEFAULT temperature=0.0 (decodificação gulosa) + seed fixo:
+        sem isso o Ollama roda na temperature default (~0.8) sem seed, e cada
+        chamada é um sorteio — para um assistente de REGRAS (fatos, não
+        criatividade) isso torna qualquer avaliação de acurácia uma amostra
+        única ruidosa, não reprodutível. Vale tanto para o CLI quanto para
+        eval_rag.py, porque os dois passam por este mesmo __init__.
 
         embed_timeout_s é separado de timeout_s porque indexar a base manda
         lotes grandes para uma GPU que também roda o jogo — o teto de 120s que
@@ -139,12 +156,23 @@ class OllamaProvider:
         inchar a VRAM disputada com o BG3.
         """
         self._host = host.rstrip("/")
-        self._chat_model = chat_model
+        self._chat_model = (
+            chat_model or os.environ.get("BROPILOT_CHAT_MODEL")
+            or "qwen2.5:7b-instruct-q4_K_M"
+        )
         self._embed_model = embed_model
         self._timeout_s = timeout_s
         self._embed_timeout_s = embed_timeout_s
         self._embed_batch_size = embed_batch_size
         self._num_ctx = num_ctx
+        self._temperature = (
+            temperature if temperature is not None
+            else float(os.environ.get("BROPILOT_TEMPERATURE", 0.0))
+        )
+        self._seed = (
+            seed if seed is not None
+            else int(os.environ.get("BROPILOT_SEED", 42))
+        )
 
     @property
     def num_ctx(self) -> int:
@@ -159,6 +187,14 @@ class OllamaProvider:
     @property
     def chat_model(self) -> str:
         return self._chat_model
+
+    @property
+    def temperature(self) -> float:
+        return self._temperature
+
+    @property
+    def seed(self) -> int:
+        return self._seed
 
     def _post(
         self, path: str, payload: dict, *, timeout_s: float, model: str, context: str
@@ -273,7 +309,11 @@ class OllamaProvider:
                     {"role": "user", "content": user},
                 ],
                 "stream": True,
-                "options": {"num_ctx": self._num_ctx},
+                "options": {
+                    "num_ctx": self._num_ctx,
+                    "temperature": self._temperature,
+                    "seed": self._seed,
+                },
             },
             timeout_s=self._timeout_s,
             model=self._chat_model,
@@ -387,21 +427,38 @@ class OpenAIProvider:
         self,
         *,
         api_key: str | None = None,
-        chat_model: str = "gpt-4o-mini",
+        chat_model: str | None = None,
         embed_model: str = "text-embedding-3-small",
         base_url: str = _DEFAULT_BASE_URL,
         timeout_s: float = 60.0,
+        temperature: float | None = None,
+        seed: int | None = None,
     ) -> None:
         """Guarda config; não faz chamada de rede aqui (ver health_check).
 
         api_key vem de OPENAI_API_KEY quando não passada explicitamente —
-        nunca hardcode a chave.
+        nunca hardcode a chave. chat_model, por simetria com o OllamaProvider,
+        vem de BROPILOT_CHAT_MODEL quando não passado (default inalterado:
+        gpt-4o-mini). temperature/seed, mesma simetria, vêm de
+        BROPILOT_TEMPERATURE/BROPILOT_SEED — default temperature=0.0 e seed
+        fixo, mesma razão do OllamaProvider (assistente de regras precisa de
+        determinismo, não de criatividade).
         """
         self._api_key = api_key or os.environ.get("OPENAI_API_KEY")
-        self._chat_model = chat_model
+        self._chat_model = (
+            chat_model or os.environ.get("BROPILOT_CHAT_MODEL") or "gpt-4o-mini"
+        )
         self._embed_model = embed_model
         self._base_url = base_url.rstrip("/")
         self._timeout_s = timeout_s
+        self._temperature = (
+            temperature if temperature is not None
+            else float(os.environ.get("BROPILOT_TEMPERATURE", 0.0))
+        )
+        self._seed = (
+            seed if seed is not None
+            else int(os.environ.get("BROPILOT_SEED", 42))
+        )
 
     @property
     def embed_model(self) -> str:
@@ -410,6 +467,14 @@ class OpenAIProvider:
     @property
     def chat_model(self) -> str:
         return self._chat_model
+
+    @property
+    def temperature(self) -> float:
+        return self._temperature
+
+    @property
+    def seed(self) -> int:
+        return self._seed
 
     def _require_api_key(self, context: str) -> str:
         if not self._api_key:
@@ -439,6 +504,8 @@ class OpenAIProvider:
                         {"role": "system", "content": system},
                         {"role": "user", "content": user},
                     ],
+                    "temperature": self._temperature,
+                    "seed": self._seed,
                 },
                 timeout=self._timeout_s,
             )
