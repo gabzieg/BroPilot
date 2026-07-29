@@ -30,6 +30,7 @@ from ..index.build import STORE_DIR, TRUSTED_DIR, classify_source
 from ..index.retriever import RetrievedChunk, Retriever
 from ..llm import create_provider
 from ..orchestrator import Orchestrator
+from ..serialize import extract_signals
 
 # id, categoria e grupo. `grupo` liga perguntas que devem ser comparadas entre
 # si nas checagens mecânicas do fim do relatório.
@@ -182,24 +183,45 @@ def _metadados_indice(store_dir: Path, trusted_dir: Path = TRUSTED_DIR) -> dict:
 
 
 def executar(
-    orchestrator: Orchestrator, spy: _RecordingRetriever, ctx=None
+    orchestrator: Orchestrator,
+    spy: _RecordingRetriever,
+    ctx=None,
+    *,
+    sem_geracao: bool = False,
 ) -> list[dict]:
     """Roda a bateria. Uma pergunta que falhar vira registro de erro e a
-    bateria continua — perder as 11 seguintes por causa de uma seria pior."""
+    bateria continua — perder as 11 seguintes por causa de uma seria pior.
+
+    `sem_geracao=True` faz só a busca. A geração local responde por ~95% do
+    tempo da bateria e não influencia nenhuma métrica de retrieval, então
+    medir retrieval com ela ligada é pagar horas por nada.
+    """
     resultados = []
     total = len(PERGUNTAS)
 
     for i, pergunta in enumerate(PERGUNTAS, start=1):
-        print(f"[{i}/{total}] ({pergunta['categoria']}) {pergunta['texto']}")
+        print(f"[{i}/{total}] ({pergunta['categoria']}) {pergunta['texto']}",
+              flush=True)
         spy.ultima_busca = []
         registro = dict(pergunta)
+        registro["sem_geracao"] = sem_geracao
 
         inicio = time.perf_counter()
         try:
-            resposta = orchestrator.ask(pergunta["texto"], ctx)
-            registro["erro"] = None
-            registro["resposta"] = resposta.text
-            registro["fontes"] = resposta.sources
+            if sem_geracao:
+                # Mesmo caminho de busca do ask(): signals do ctx quando existe,
+                # senão None. Replicar aqui manteria as duas versões da bateria
+                # medindo coisas diferentes.
+                signals = extract_signals(ctx) if ctx is not None else None
+                spy.search(pergunta["texto"], signals=signals, k=orchestrator.k)
+                registro["erro"] = None
+                registro["resposta"] = None
+                registro["fontes"] = []
+            else:
+                resposta = orchestrator.ask(pergunta["texto"], ctx)
+                registro["erro"] = None
+                registro["resposta"] = resposta.text
+                registro["fontes"] = resposta.sources
         except Exception as exc:  # noqa: BLE001 — a bateria não pode morrer aqui
             registro["erro"] = f"{type(exc).__name__}: {exc}"
             registro["resposta"] = None
@@ -220,7 +242,7 @@ def executar(
         ]
         print(f"      {registro['segundos']:.1f}s, "
               f"{len(registro['chunks'])} chunks, "
-              f"{len(registro['fontes'])} fontes")
+              f"{len(registro['fontes'])} fontes", flush=True)
         resultados.append(registro)
 
     return resultados
@@ -231,17 +253,23 @@ def _checagens_mecanicas(resultados: list[dict]) -> list[str]:
     linhas = []
     por_id = {r["id"]: r for r in resultados}
 
+    sem_geracao = all(r.get("sem_geracao") for r in resultados)
+
     # 1. fontes citadas ⊆ arquivos dos chunks que alimentaram o prompt
     linhas.append("### Fontes citadas batem com os chunks recuperados?\n")
-    linhas.append("| pergunta | fontes citadas | fontes fora dos chunks |")
-    linhas.append("|---|---|---|")
-    for r in resultados:
-        arquivos = {c["source_file"] for c in r["chunks"]}
-        extras = set(r["fontes"]) - arquivos
-        linhas.append(
-            f"| `{r['id']}` | {len(r['fontes'])} | "
-            f"{'**' + ', '.join(sorted(extras)) + '**' if extras else 'nenhuma'} |"
-        )
+    if sem_geracao:
+        linhas.append("**N/A** — bateria rodada com `--sem-geracao`: não houve "
+                      "resposta, logo não há fontes citadas para conferir.")
+    else:
+        linhas.append("| pergunta | fontes citadas | fontes fora dos chunks |")
+        linhas.append("|---|---|---|")
+        for r in resultados:
+            arquivos = {c["source_file"] for c in r["chunks"]}
+            extras = set(r["fontes"]) - arquivos
+            linhas.append(
+                f"| `{r['id']}` | {len(r['fontes'])} | "
+                f"{'**' + ', '.join(sorted(extras)) + '**' if extras else 'nenhuma'} |"
+            )
 
     # 2. paráfrases: os três conjuntos de arquivos deveriam se parecer
     grupo = [r for r in resultados if r["grupo"] == "parafrase_monge"]
@@ -274,6 +302,10 @@ def _checagens_mecanicas(resultados: list[dict]) -> list[str]:
 
     # 4. fora de escopo: a resposta contém algum marcador de "não sei"?
     fora = [r for r in resultados if r["grupo"] == "fora_escopo"]
+    if fora and sem_geracao:
+        linhas.append("\n### Fora de escopo: a resposta admitiu não saber?\n")
+        linhas.append("**N/A** — sem geração, não há resposta para inspecionar.")
+        fora = []
     if fora:
         linhas.append("\n### Fora de escopo: a resposta admitiu não saber?\n")
         linhas.append("Detecção por substring — sinal para achar o trecho, "
@@ -291,7 +323,8 @@ def _checagens_mecanicas(resultados: list[dict]) -> list[str]:
     ok = [r for r in resultados if r["erro"] is None]
     if ok:
         tempos = sorted(r["segundos"] for r in ok)
-        linhas.append("\n### Latência\n")
+        rotulo = " (só busca, sem geração)" if sem_geracao else ""
+        linhas.append(f"\n### Latência{rotulo}\n")
         linhas.append(f"- respostas: {len(ok)}/{len(resultados)}")
         linhas.append(f"- min: {tempos[0]:.1f}s | mediana: "
                       f"{tempos[len(tempos)//2]:.1f}s | max: {tempos[-1]:.1f}s")
@@ -315,9 +348,12 @@ def gerar_relatorio(resultados: list[dict], meta: dict, k: int) -> str:
             "",
         ]
 
+    modo = ("**Modo `--sem-geracao`**: só retrieval; nenhuma resposta foi "
+            "gerada." if meta.get("sem_geracao") else "")
     out += [
         f"Gerado em {agora}.",
         "",
+        *([modo, ""] if modo else []),
         "> Este relatório **coleta evidência**, não julga qualidade. As únicas "
         "marcações automáticas são mecânicas (fontes × chunks, sobreposição "
         "entre paráfrases, presença de marcadores de recusa, latência).",
@@ -373,11 +409,17 @@ def gerar_relatorio(resultados: list[dict], meta: dict, k: int) -> str:
             out.append("*(nenhum)*")
         out.append("")
 
-        out.append("**Resposta:**")
-        out.append("")
-        out.append(r["resposta"] or "*(vazia)*")
-        out.append("")
-        out.append(f"**Fontes citadas:** {', '.join(f'`{f}`' for f in r['fontes']) or '—'}")
+        if r.get("sem_geracao"):
+            out.append("*(geração pulada — `--sem-geracao`)*")
+        else:
+            out.append("**Resposta:**")
+            out.append("")
+            out.append(r["resposta"] or "*(vazia)*")
+            out.append("")
+            out.append(
+                f"**Fontes citadas:** "
+                f"{', '.join(f'`{f}`' for f in r['fontes']) or '—'}"
+            )
         out.append("")
         out.append("---")
         out.append("")
@@ -406,6 +448,12 @@ def main(argv: list[str] | None = None) -> int:
     )
     parser.add_argument(
         "--dump", metavar="CAMINHO", help="bropilot_inventory.json do mod."
+    )
+    parser.add_argument(
+        "--sem-geracao",
+        action="store_true",
+        help="só busca, sem chamar o LLM. A geração local é ~95%% do tempo da "
+             "bateria e não afeta métrica de retrieval nenhuma.",
     )
     args = parser.parse_args(argv)
 
@@ -451,14 +499,19 @@ def main(argv: list[str] | None = None) -> int:
         # Mesmo aviso do topo do relatório: avaliar índice desatualizado sem
         # saber disso é pior que esperar a reindexação.
         print(f"\n  ⚠️  ÍNDICE DESATUALIZADO: {meta['aviso']}\n", file=sys.stderr)
-    print(f"Rodando {len(PERGUNTAS)} perguntas com geração local — vai demorar.\n")
+    meta["sem_geracao"] = args.sem_geracao
+    if args.sem_geracao:
+        print(f"Rodando {len(PERGUNTAS)} perguntas — só busca, sem geração.\n")
+    else:
+        print(f"Rodando {len(PERGUNTAS)} perguntas com geração local — vai demorar.\n")
 
-    resultados = executar(orchestrator, spy, ctx)
+    resultados = executar(orchestrator, spy, ctx, sem_geracao=args.sem_geracao)
 
     destino = Path(
         args.output
         or f"bropilot_core/eval/rag_eval_"
            f"{'com_save' if args.com_save else 'sem_save'}_"
+           f"{'retrieval_' if args.sem_geracao else ''}"
            f"{datetime.now():%Y%m%d_%H%M%S}.md"
     )
     destino.parent.mkdir(parents=True, exist_ok=True)

@@ -34,8 +34,12 @@ _PARES_PARAFRASE = [("d1", "d2"), ("d1", "d3"), ("d2", "d3")]
 _PAR_CROSSLINGUAL = ("a1", "e1")
 
 
-def coletar(store_dir: Path, k: int) -> dict:
-    """Roda só a busca para cada pergunta e devolve os hits por id."""
+def coletar(store_dir: Path, k: int, signals=None, rotulo: str | None = None) -> dict:
+    """Roda só a busca para cada pergunta e devolve os hits por id.
+
+    `signals` liga o boost state-aware — é o que permite comparar a MESMA base
+    com e sem o estado da party, isolando o efeito do boost do efeito do corpus.
+    """
     provider = create_provider()
     retriever = Retriever(provider, store_dir)
     manifest = json.loads((store_dir / "manifest.json").read_text(encoding="utf-8"))
@@ -43,13 +47,15 @@ def coletar(store_dir: Path, k: int) -> dict:
 
     hits = {}
     for pergunta in PERGUNTAS:
-        resultado = retriever.search(pergunta["texto"], k=k)
+        resultado = retriever.search(pergunta["texto"], signals=signals, k=k)
         hits[pergunta["id"]] = [
             {"source_file": h.source_file, "score": h.score} for h in resultado
         ]
         print(f"  {pergunta['id']}: {len(resultado)} hits")
 
     return {
+        "rotulo": rotulo or str(store_dir),
+        "signals": bool(signals),
         "store": str(store_dir),
         "chunks": tabela.count_rows(),
         "arquivos": len(manifest.get("files", {})),
@@ -83,118 +89,107 @@ def _linha_delta(valor_a: float, valor_b: float, casas: int = 3) -> str:
     return f"{valor_a:.{casas}f} | {valor_b:.{casas}f} | {seta} {delta:+.{casas}f}"
 
 
-def comparar(base: dict, exp: dict, k: int) -> str:
+def _tabela(cabecalho: list[str], linhas: list[list[str]]) -> list[str]:
+    out = ["| " + " | ".join(cabecalho) + " |",
+           "|" + "|".join("---" for _ in cabecalho) + "|"]
+    out += ["| " + " | ".join(str(c) for c in linha) + " |" for linha in linhas]
+    return out
+
+
+def comparar(condicoes: list[dict], k: int) -> str:
+    nomes = [c["rotulo"] for c in condicoes]
     out = [
-        "# Comparação de retrieval — baseline vs experimento denso",
+        "# Comparação de retrieval entre condições",
         "",
         f"Gerado em {datetime.now():%Y-%m-%d %H:%M:%S}. k={k}.",
         "",
-        "> Métricas **só de retrieval** (sem geração): são as que respondem se a "
-        "hipótese de diluição procede. A qualidade das RESPOSTAS não entra aqui "
-        "— o corpus denso não tem o conteúdo estratégico das transcrições, "
-        "então piora esperada de resposta não invalida o experimento.",
+        "> Métricas **só de retrieval** (sem geração). A qualidade das RESPOSTAS "
+        "não entra aqui: o corpus denso não tem o conteúdo estratégico das "
+        "transcrições, então piora de resposta não invalida o experimento — o "
+        "que está sob teste é estabilidade e precisão de BUSCA.",
         "",
-        "| | baseline | experimento |",
-        "|---|---|---|",
-        f"| store | `{base['store']}` | `{exp['store']}` |",
-        f"| arquivos | {base['arquivos']} | {exp['arquivos']} |",
-        f"| chunks | {base['chunks']} | {exp['chunks']} |",
-        f"| source_types | {base['source_types'] or 'todos'} | {exp['source_types']} |",
-        "",
-        "## 1. Estabilidade entre paráfrases (Jaccard dos `source_file`)",
-        "",
-        "As três formulações da mesma intenção deveriam recuperar material "
-        "parecido. Meta declarada no ADR: **> 0.6**.",
-        "",
-        "| par | baseline | experimento | delta |",
-        "|---|---|---|---|",
     ]
-
-    jac_base, jac_exp = [], []
-    for a, b in _PARES_PARAFRASE:
-        ja = _jaccard(_arquivos(base["hits"][a]), _arquivos(base["hits"][b]))
-        je = _jaccard(_arquivos(exp["hits"][a]), _arquivos(exp["hits"][b]))
-        jac_base.append(ja)
-        jac_exp.append(je)
-        out.append(f"| `{a}` × `{b}` | {_linha_delta(ja, je, 2)} |")
-    media_base = sum(jac_base) / len(jac_base)
-    media_exp = sum(jac_exp) / len(jac_exp)
-    out.append(f"| **média** | {_linha_delta(media_base, media_exp, 2)} |")
-
-    out += [
-        "",
-        "## 2. Cross-lingual (PT × EN da mesma pergunta)",
-        "",
-        "Meta declarada no ADR: **> 0.7**.",
-        "",
-        "| par | baseline | experimento | delta |",
-        "|---|---|---|---|",
-    ]
-    a, b = _PAR_CROSSLINGUAL
-    jb = _jaccard(_arquivos(base["hits"][a]), _arquivos(base["hits"][b]))
-    je = _jaccard(_arquivos(exp["hits"][a]), _arquivos(exp["hits"][b]))
-    out.append(f"| `{a}` × `{b}` | {_linha_delta(jb, je, 2)} |")
-
-    out += [
-        "",
-        f"## 3. Spread de score no top-{k}",
-        "",
-        "Diferença entre o melhor e o pior score de cada busca. Spread perto de "
-        "zero = candidatos empatados, ranking pouco decidível. Maior é melhor.",
-        "",
-        "| pergunta | baseline | experimento | delta |",
-        "|---|---|---|---|",
-    ]
-    spreads_base, spreads_exp = [], []
-    for pergunta in PERGUNTAS:
-        pid = pergunta["id"]
-        sb = _spread(base["hits"][pid])
-        se = _spread(exp["hits"][pid])
-        spreads_base.append(sb)
-        spreads_exp.append(se)
-        out.append(f"| `{pid}` | {_linha_delta(sb, se)} |")
-    out.append(
-        f"| **média** | "
-        f"{_linha_delta(sum(spreads_base)/len(spreads_base), sum(spreads_exp)/len(spreads_exp))} |"
+    out += _tabela(
+        [""] + nomes,
+        [
+            ["store"] + [f"`{Path(c['store']).name}`" for c in condicoes],
+            ["arquivos"] + [c["arquivos"] for c in condicoes],
+            ["chunks"] + [c["chunks"] for c in condicoes],
+            ["source_types"] + [str(c["source_types"] or "todos") for c in condicoes],
+            ["signals (boost)"] + ["sim" if c["signals"] else "não" for c in condicoes],
+        ],
     )
 
-    out += [
-        "",
-        f"## 4. Duplicata de documento dentro do top-{k}",
-        "",
-        "Hits que são outro pedaço de um documento já presente no top-k. "
-        "Cada duplicata é um slot gasto sem trazer fonte nova.",
-        "",
-        "| pergunta | baseline | experimento |",
-        "|---|---|---|",
-    ]
-    dup_base = dup_exp = 0
+    out += ["", "## 1. Estabilidade entre paráfrases (Jaccard dos `source_file`)", "",
+            "As três formulações da mesma intenção deveriam recuperar material "
+            "parecido. Meta do ADR: **> 0.6**.", ""]
+    linhas, medias = [], [[] for _ in condicoes]
+    for a, b in _PARES_PARAFRASE:
+        valores = []
+        for i, c in enumerate(condicoes):
+            j = _jaccard(_arquivos(c["hits"][a]), _arquivos(c["hits"][b]))
+            medias[i].append(j)
+            valores.append(f"{j:.2f}")
+        linhas.append([f"`{a}` × `{b}`"] + valores)
+    linhas.append(["**média**"] + [f"**{sum(m)/len(m):.2f}**" for m in medias])
+    out += _tabela(["par"] + nomes, linhas)
+
+    out += ["", "## 2. Cross-lingual (PT × EN da mesma pergunta)", "",
+            "Meta do ADR: **> 0.7**.", ""]
+    a, b = _PAR_CROSSLINGUAL
+    out += _tabela(
+        ["par"] + nomes,
+        [[f"`{a}` × `{b}`"] + [
+            f"{_jaccard(_arquivos(c['hits'][a]), _arquivos(c['hits'][b])):.2f}"
+            for c in condicoes]],
+    )
+
+    out += ["", f"## 3. Spread de score no top-{k}", "",
+            "Diferença entre o melhor e o pior score da busca. Perto de zero = "
+            "candidatos empatados, ranking pouco decidível. Maior é melhor.",
+            "", "> O boost muda a ESCALA do score (soma até +0.30), então o "
+            "spread da coluna com signals não é comparável às outras em valor "
+            "absoluto — só entre si.", ""]
+    linhas, medias = [], [[] for _ in condicoes]
     for pergunta in PERGUNTAS:
         pid = pergunta["id"]
-        db_, de_ = _duplicatas(base["hits"][pid]), _duplicatas(exp["hits"][pid])
-        dup_base += db_
-        dup_exp += de_
-        out.append(f"| `{pid}` | {db_} | {de_} |")
-    out.append(f"| **total** | **{dup_base}** | **{dup_exp}** |")
+        valores = []
+        for i, c in enumerate(condicoes):
+            s = _spread(c["hits"][pid])
+            medias[i].append(s)
+            valores.append(f"{s:.3f}")
+        linhas.append([f"`{pid}`"] + valores)
+    linhas.append(["**média**"] + [f"**{sum(m)/len(m):.3f}**" for m in medias])
+    out += _tabela(["pergunta"] + nomes, linhas)
 
-    out += [
-        "",
-        "## 5. `build_monk_openhand.md` no top-k",
-        "",
-        "> **NÃO CONCLUSIVO.** No experimento este arquivo é 1 de 27; no "
-        "baseline era 1 de 151. Aparecer aqui é consequência aritmética do "
-        "corpus menor, não prova de que o retrieval melhorou. Registrado só "
-        "para constar.",
-        "",
-        "| pergunta | baseline | experimento |",
-        "|---|---|---|",
-    ]
+    out += ["", f"## 4. Duplicata de documento dentro do top-{k}", "",
+            "Hits que repetem um documento já presente. Cada duplicata é um "
+            "slot gasto sem trazer fonte nova.", ""]
+    linhas, totais = [], [0] * len(condicoes)
+    for pergunta in PERGUNTAS:
+        pid = pergunta["id"]
+        valores = []
+        for i, c in enumerate(condicoes):
+            d = _duplicatas(c["hits"][pid])
+            totais[i] += d
+            valores.append(d)
+        linhas.append([f"`{pid}`"] + valores)
+    linhas.append(["**total**"] + [f"**{t}**" for t in totais])
+    out += _tabela(["pergunta"] + nomes, linhas)
+
+    out += ["", "## 5. `build_monk_openhand.md` no top-k", "",
+            "> **NÃO CONCLUSIVO para o corpus denso.** Lá esse arquivo é 1 de "
+            "27; no baseline é 1 de 151. Aparecer é consequência aritmética do "
+            "corpus menor, não prova de retrieval melhor. Já na coluna com "
+            "signals o índice é o mesmo do baseline, então ali a diferença SIM "
+            "é atribuível ao boost.", ""]
     alvo = "build_monk_openhand.md"
-    for pid in ("a1", "d1", "d2", "d3", "e1"):
-        pb = "sim" if alvo in _arquivos(base["hits"][pid]) else "não"
-        pe = "sim" if alvo in _arquivos(exp["hits"][pid]) else "não"
-        out.append(f"| `{pid}` | {pb} | {pe} |")
-
+    out += _tabela(
+        ["pergunta"] + nomes,
+        [[f"`{pid}`"] + ["sim" if alvo in _arquivos(c["hits"][pid]) else "não"
+                         for c in condicoes]
+         for pid in ("a1", "d1", "d2", "d3", "e1")],
+    )
     out.append("")
     return "\n".join(out)
 
@@ -202,26 +197,46 @@ def comparar(base: dict, exp: dict, k: int) -> str:
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(
         prog="python -m bropilot_core.scripts.compare_retrieval",
-        description="Compara métricas de retrieval entre dois índices.",
+        description="Compara métricas de retrieval entre condições.",
     )
     parser.add_argument("--baseline", default=str(STORE_DIR))
-    parser.add_argument("--experimento", required=True)
+    parser.add_argument("--experimento", help="segundo índice (ex.: corpus denso).")
+    parser.add_argument("--com-save", action="store_true",
+                        help="adiciona uma condição: baseline + boost state-aware.")
     parser.add_argument("--output", required=True)
     parser.add_argument("-k", type=int, default=6)
     args = parser.parse_args(argv)
 
+    condicoes = []
     try:
-        print(f"baseline    ({args.baseline}):")
-        base = coletar(Path(args.baseline), args.k)
-        print(f"experimento ({args.experimento}):")
-        exp = coletar(Path(args.experimento), args.k)
+        print("baseline (sem save):")
+        condicoes.append(coletar(Path(args.baseline), args.k,
+                                 rotulo="baseline (sem save)"))
+        if args.experimento:
+            print("experimento denso:")
+            condicoes.append(coletar(Path(args.experimento), args.k,
+                                     rotulo="denso (wiki+build)"))
+        if args.com_save:
+            from ..cli import carregar_save
+            from ..serialize import extract_signals
+
+            ctx, aviso = carregar_save()
+            print(aviso)
+            if ctx is None:
+                print("erro: --com-save pedido mas nenhum save carregado.",
+                      file=sys.stderr)
+                return 1
+            print("baseline + save:")
+            condicoes.append(coletar(Path(args.baseline), args.k,
+                                     signals=extract_signals(ctx),
+                                     rotulo="baseline + save (boost)"))
     except RuntimeError as exc:
         print(f"erro: {exc}", file=sys.stderr)
         return 1
 
     destino = Path(args.output)
     destino.parent.mkdir(parents=True, exist_ok=True)
-    destino.write_text(comparar(base, exp, args.k), encoding="utf-8")
+    destino.write_text(comparar(condicoes, args.k), encoding="utf-8")
     print(f"\nComparação: {destino}")
     return 0
 
