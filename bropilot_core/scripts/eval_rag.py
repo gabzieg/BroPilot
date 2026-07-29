@@ -559,6 +559,8 @@ def gerar_relatorio_showcase(resultados: list[dict], meta: dict) -> str:
         "",
         f"- Data: **{agora}**",
         f"- Modelo de geração: `{meta['chat_model']}`",
+        f"- Temperature: **{meta['temperature']}** | seed: **{meta['seed']}** "
+        f"(0 = decodificação gulosa/determinística, não é sorteio)",
         f"- Modelo de embedding: `{meta['embed_model']}` (dim {meta['embed_dim']})",
         f"- Índice: **{meta['chunks']} chunks** de {meta['arquivos']} arquivos",
         # meta['save'] já vem de carregar_save() como frase pronta ("Save
@@ -686,6 +688,8 @@ def main(argv: list[str] | None = None) -> int:
 
     meta["vector_weight"] = args.peso_vetorial
     meta["chat_model"] = provider.chat_model
+    meta["temperature"] = getattr(provider, "temperature", "?")
+    meta["seed"] = getattr(provider, "seed", "?")
     ctx = None
     meta["signals"] = "**None** — sem save, o boost state-aware não age"
     meta["has_live_stats"] = False
