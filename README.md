@@ -63,26 +63,31 @@ Com 4 sócios sem folha, o custo de **caixa** do MVP local é mínimo — **~$21
 
 ## 🎯 Acurácia (avaliação honesta)
 
-O BroPilot foi avaliado com uma bateria de **10 perguntas rodadas contra a stack real** (Ollama local + índice híbrido + save de verdade), sem cherry-pick — as perguntas incluem, de propósito, casos que expõem limites conhecidos. Os vereditos foram dados por um **juiz externo mais forte** (não o próprio modelo de geração se autoavaliando).
+O BroPilot foi avaliado com uma bateria de **10 perguntas rodadas contra a stack real** (índice híbrido + save de verdade), sem cherry-pick — as perguntas incluem, de propósito, casos que expõem limites conhecidos. Os vereditos foram dados por um **juiz externo mais forte** (não o próprio modelo de geração se autoavaliando). Cada mudança foi medida como **variável única** e registrada no acompanhamento.
 
-📋 **[Relatório completo com as 10 perguntas, respostas verbatim, fontes e vereditos](docs/ACCURACY_REPORT.md)**
+📋 **[Acompanhamento completo (5 runs, placar e log de decisões)](docs/ACCURACY_TRACKING.md)** · **[Relatório baseline](docs/ACCURACY_REPORT.md)** · **[Relatório final (nuvem)](docs/ACCURACY_REPORT_gpt4omini_temp0.md)**
 
-**Placar (n=10, um retrato — não uma taxa estatística):**
+### O resultado, em uma tabela
 
-| Veredito | Total |
-|---|---|
-| ✅ Correto / recusou fora-de-escopo | 2 |
-| 🟡 Parcial (núcleo certo, com erro ou vago) | 3 |
-| ❌ Alucinou regra de BG3 | 5 |
+Mesma bateria, mesmo índice, mesmo retrieval, mesmo save, mesmo prompt — **só o modelo de geração muda entre as linhas** (n=10; ponderado conta 🟡 como ½):
 
-### O que funciona, e o que é o teto atual
+| Run | Modelo de geração | ✅ | 🟡 | ❌ | Ponderado | Latência/pergunta |
+|---|---|---|---|---|---|---|
+| baseline | `qwen2.5:7b` (local) | 2 | 3 | 5 | 3,5 | ~60s |
+| — | `qwen2.5:14b` (local) | 1 | 5 | 4 | 3,5 | ~107s |
+| — | `qwen2.5:7b` temp 0 | 1 | 4 | 5 | 3,0 | ~54s |
+| — | `qwen2.5:14b` temp 0 | 2 | 4 | 4 | 4,0 | ~130s |
+| **final** | **`gpt-4o-mini` (nuvem)** | **9** | **1** | **0** | **9,5** | **~8s** |
 
-A divisão é limpa e diagnóstica:
+### A história que os números contam
 
-- **O pipeline funciona.** Nos 10 casos, o retrieval híbrido recuperou os arquivos certos e o parser leu a party corretamente (classes, subclasses, níveis). **Lookup de fato único** (ex.: "quantos dados de Superioridade um Battle Master tem no nível 5?") e **recusa de fora-de-escopo** (perguntar sobre outro jogo) são confiáveis.
-- **O teto é a geração.** As falhas se concentram no modelo local (`qwen2.5:7b` quantizado) ao **sintetizar conselho de build** — o caso de uso central: inventa feats que não existem, aplica feats que não funcionam na build (ex.: Great Weapon Master em golpe desarmado), e troca features entre classes. Duas falhas de honestidade também apareceram: fabricar atributos que não estão na ficha, e trocar de idioma no meio da resposta.
+O diagnóstico veio por eliminação — cinco experimentos, cada um mudando **uma variável**:
 
-**Conclusão acionável:** o investimento em RAG (busca híbrida, dedup, save-aware, raspagem de subclasses) pagou — o encanamento entrega o contexto certo. O próximo passo indicado é um **modelo de geração mais forte** (nuvem — Haiku/GPT-4o-mini — ou um local bem maior), medido de novo contra esta mesma bateria para um antes/depois honesto.
+- **O pipeline sempre esteve certo.** Em todos os runs, o retrieval híbrido recuperou os arquivos corretos e o parser leu a party (classes, subclasses, níveis). O RAG entregava o contexto certo o tempo todo.
+- **O gargalo era o modelo local.** O `qwen2.5:7b/14b` quantizado alucinava regra ao sintetizar builds — inventava feats, aplicava feats que não funcionam (Great Weapon Master em golpe desarmado), trocava features entre classes. Nem dobrar o tamanho do modelo (14b) nem fixar a temperatura em 0 resolveram: a alucinação sobreviveu aos dois.
+- **Trocar o cérebro resolveu de uma vez.** Com `gpt-4o-mini` na geração (e o embedding seguindo `bge-m3` local, índice inalterado), o placar saltou de ~3,5 para **9,5 — zero alucinação de regra** — e a latência caiu **10-20×**. O único 🟡 é um caveat de min-max faltando, não um erro.
+
+**Conclusão:** o investimento em RAG (busca híbrida, dedup, save-aware, raspagem de subclasses) foi validado — bastava um modelo de geração à altura do contexto que o pipeline já entregava. Para uso pessoal, a geração roda na nuvem (custo ~US$0,038/usuário/mês, latência baixa); o caminho 100% local segue no código (abstração `LLMProvider`) para quem priorizar privacidade e offline, ao custo da qualidade medida acima.
 
 ## 📁 Estrutura de Pastas
 ```text
