@@ -26,10 +26,12 @@ modelo de geração), e registrada aqui como uma linha.
 | 1 | 29/jul | — (baseline) | `qwen2.5:7b` (temp default ~0.8) | 2 | 3 | 5 | ~60s / ~9min | baseline |
 | 2 | 29/jul | modelo (7b → 14b) | `qwen2.5:14b` (temp default) | 1 | 5 | 4 | ~107s / ~18min | **não adotar** (lateral, 2x latência) |
 | 3 | 29/jul | temperatura (→ 0, seed fixo) | `qwen2.5:7b` **temp 0** | 1 | 4 | 5 | ~9min | reprodutível, mas acurácia não subiu (s10 regrediu) |
-| 4 | 29/jul | temperatura (→ 0) + modelo | `qwen2.5:14b` **temp 0** | 2 | 4 | 4 | ~22min | melhor ponderado (4,0), mas ainda 4/10 alucinam |
+| 4 | 29/jul | temperatura (→ 0) + modelo | `qwen2.5:14b` **temp 0** | 2 | 4 | 4 | ~22min | melhor local (4,0), mas ainda 4/10 alucinam |
+| 5 | 30/jul | modelo → NUVEM (gera) | `gpt-4o-mini` **temp 0** (embed segue bge-m3 local) | **9** | 1 | **0** | ~8s / <2min | **salto decisivo** — 0 alucinação, 10-20x mais rápido |
 
-Ponderado (🟡 = ½): run1 3,5 · run2 3,5 · run3 3,0 · run4 **4,0**. Melhor config é
-marginal sobre o baseline, e ainda alucina regra em 4/10.
+Ponderado (🟡 = ½): run1 3,5 · run2 3,5 · run3 3,0 · run4 4,0 · run5 **9,5**.
+De ~3,5-4,0 (local) para **9,5** (nuvem), variável única (só a geração). O único
+🟡 (s5) é um caveat de min-max faltando, não alucinação.
 
 ## Delta detalhado — run #2 (14b vs 7b)
 
@@ -96,3 +98,23 @@ no código. Requer key (medição pontual, ~1 centavo pelas 10 perguntas).
   nuvem** (Haiku / GPT-4o-mini) — variável única, mesma bateria, temp 0. Único
   lever não testado com salto de capacidade grande; agora com evidência, não
   palpite. Requer key (medição pontual, ~1 centavo).
+- **30/jul — run #5 confirma a tese: o gargalo era o modelo, o RAG estava certo.**
+  gpt-4o-mini (geração) + bge-m3 (embedding local, índice inalterado): **9/1/0**,
+  zero alucinação de regra, latência ~8s/pergunta (vs 60-205s local). Variável
+  única — só a geração mudou; índice, retrieval, save, prompt e perguntas
+  idênticos. Isso PROVA que todo o trabalho de RAG (busca híbrida, dedup,
+  save-aware, subclasses) entregava o contexto certo o tempo todo; o teto era 100%
+  a capacidade do modelo local. Bônus: a recusa de fora-de-escopo ficou limpa
+  (s10), a fabricação de stats sumiu (s9), e a força do modelo mascarou o buraco
+  de conteúdo de magia (s8) com priors corretos.
+- **30/jul — decisão de arquitetura: geração na nuvem para o uso pessoal.** A
+  qualidade (9,5 vs 3,5-4,0) e a latência não deixam dúvida. Trade-off aceito:
+  depende de key e envia pergunta+chunks a um terceiro (o embedding segue local;
+  o save não sai inteiro). Custo ~$0,038/usuário/mês (bate com a análise de custo
+  original). Se virar produto distribuído, BYOK resolve custo e parte da
+  privacidade. O caminho local continua no código (abstração `LLMProvider`) para
+  quem priorizar privacidade/offline — mas não é o default de qualidade.
+- **Próximos possíveis (não urgentes):** run #6 opcional com Claude Haiku (exige
+  construir `AnthropicProvider`) para comparar contra o gpt-4o-mini; e cobertura
+  de conteúdo (item/magia) — agora com prioridade menor, já que um modelo forte
+  preenche parte das lacunas com priors corretos (ver s8).
