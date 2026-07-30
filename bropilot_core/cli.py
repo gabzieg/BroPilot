@@ -20,6 +20,7 @@ back-end de geração (ver DECISION.md).
 from __future__ import annotations
 
 import argparse
+import json
 import sys
 from pathlib import Path
 
@@ -103,6 +104,13 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument(
         "-k", type=int, default=6, help="quantos chunks recuperar por pergunta."
     )
+    parser.add_argument(
+        "--ask",
+        metavar="PERGUNTA",
+        help="modo single-shot: responde UMA pergunta em JSON no stdout e sai "
+             "(sem REPL). Para consumidores não-interativos, como o overlay "
+             "Electron — ver bropilot-ui/electron-main.js.",
+    )
     args = parser.parse_args(argv)
 
     # Falhar cedo e com mensagem acionável: Ollama fora do ar, modelo não
@@ -120,19 +128,43 @@ def main(argv: list[str] | None = None) -> int:
 
     orchestrator.k = args.k
 
+    # Nesta função, stdout é reservado para o payload de resposta (texto puro
+    # no REPL, um único JSON no modo --ask). Tudo que é log/boot vai pra
+    # stderr — assim quem consome stdout programaticamente (--ask) nunca
+    # precisa filtrar ruído fora do JSON.
     ctx = None
     if args.sem_save:
-        print("BroPilot — modo sem save (--sem-save).")
+        print("BroPilot — modo sem save (--sem-save).", file=sys.stderr)
     else:
         ctx, aviso = carregar_save(args.dump)
-        print(f"BroPilot — {aviso}")
+        print(f"BroPilot — {aviso}", file=sys.stderr)
         if ctx is not None:
             from .serialize import serialize_party
             # Mostrar a ficha no boot deixa explícito o que o modelo vai ver,
             # incluindo o aviso de fidelidade degradada quando não há mod.
-            print(serialize_party(ctx))
+            print(serialize_party(ctx), file=sys.stderr)
 
-    print("Pergunte à vontade. 'sair', Ctrl+C ou Ctrl+D encerram.\n")
+    if args.ask is not None:
+        # Single-shot: uma pergunta, um JSON no stdout, sai. Não usa
+        # ask_stream() — o consumidor (subprocess do Electron) só lê o stdout
+        # depois que o processo termina, então não há ganho de latência
+        # percebida em streamar aqui; ask() já devolve pronto.
+        try:
+            resposta = orchestrator.ask(args.ask, ctx)
+        except RuntimeError as exc:
+            print(json.dumps({"error": str(exc)}, ensure_ascii=False))
+            return 1
+        print(json.dumps(
+            {
+                "answer": resposta.text,
+                "sources": resposta.sources,
+                "party_had_live_stats": resposta.party_had_live_stats,
+            },
+            ensure_ascii=False,
+        ))
+        return 0
+
+    print("Pergunte à vontade. 'sair', Ctrl+C ou Ctrl+D encerram.\n", file=sys.stderr)
 
     while True:
         try:
