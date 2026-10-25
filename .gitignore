@@ -1,22 +1,27 @@
-# Ambientes Virtuais
+# Virtual Environments
 venv/
 .venv/
 env/
 
-# Mac OS
+# OS & Editor
 .DS_Store
+.claude/
+claude.md.local-backup
 
-# Caches do Python
+# Python Cache
 __pycache__/
 *.pyc
 
-# Arquivos de ambiente e chaves
+# Environment & Keys
 .env
 
-# Dumps locais de teste
+# Local Dumps, Test Fixtures & Mod Manager Binaries
 *_dump.json
 char_struct.json
+PROMPTS-teste-lucas.md
+docs/BG3ModManager/
+docs/Malphas-*/
+docs/files/
 
-# Staging de empacotamento do mod
+# Mod Packaging Staging
 BroPilot-SaveParser/build/
-.claude/

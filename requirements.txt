@@ -1,0 +1,15 @@
+# Core RAG & LLM Orchestration (bropilot_core)
+lancedb>=0.15.0
+pyarrow>=17.0.0
+tiktoken>=0.7.0
+requests>=2.31.0
+pydantic>=2.7.0
+
+# Binary Save Parser (BroPilot-SaveParser)
+lz4>=4.3.0
+zstandard>=0.22.0
+
+# Knowledge Base ETL Pipeline (BroPilot-Knowledge)
+beautifulsoup4>=4.12.0
+youtube-transcript-api>=0.6.2
+tqdm>=4.66.0

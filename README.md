@@ -1,117 +1,149 @@
-# 🎲 BroPilot - Baldur's Gate 3 Min-Maxing Assistant
+# 🎲 BroPilot — Real-Time AI Co-Pilot for Baldur's Gate 3
 
-O **BroPilot** é um assistente virtual (Copilot) desenvolvido para rodar localmente e auxiliar jogadores de Baldur's Gate 3 com decisões de min-maxing, otimização de *builds*, economia de ações (*Action Economy*) e escolhas de equipamentos.
+![Python](https://img.shields.io/badge/Python-3.11+-3776AB?logo=python&logoColor=white)
+![Electron](https://img.shields.io/badge/Overlay-Electron-47848F?logo=electron&logoColor=white)
+![LanceDB](https://img.shields.io/badge/Vector_DB-LanceDB-FF6F00)
+![RAG](https://img.shields.io/badge/Architecture-State--Aware_Hybrid_RAG-8A2BE2)
 
-## 🎯 Objetivo (MVP)
-Um motor que é acionado via atalho (ex: `Ctrl + 0`) durante a gameplay. O gatilho força um Quicksave (`F5`), o BroPilot descompacta o arquivo `.lsv`, lê o estado atual da *party* (níveis, itens, atributos) e cruza isso com uma base de conhecimento (RAG) para sugerir a melhor jogada, item de mercador ou nó de diálogo.
+**BroPilot** is a state-aware AI tactical assistant and overlay for **Baldur's Gate 3**. It combines native binary save-file parsing (`.lsv` / LSF / Osiris StorySave), a Lua Script Extender companion mod, and a hybrid Retrieval-Augmented Generation (RAG) pipeline to deliver real-time min-maxing advice, action-economy optimization, equipment synergy, and dialogue guidance directly over the game.
 
-## 🏗️ Arquitetura do Projeto
+---
 
-O projeto é dividido em dois grandes motores:
-1. **Pipeline de Dados (ETL/Knowledge Base):** Scripts em Python que extraem dados da BG3 Wiki e transcrições de vídeos focados em *builds*. Usa a arquitetura Medallion:
-   - `01_raw`: Arquivos HTML brutos e despejos de texto manual (`.txt`).
-   - `02_trusted`: Arquivos convertidos para Markdown, limpos de tags HTML, lixos de interface e marcações de tempo.
-   - `03_refined`: Matrizes de itens e mercadores (WIP).
-2. **Cérebro da IA & Save Extractor:** Motor em Python (`BroPilot-SaveParser`) que extrai dados do *save* do jogo (`.lsv`, LSF, Osiris StorySave) + mod companion (`BroPilotExporter`) para alimentar o LLM (`bropilot.py`) com o estado da party em tempo real.
+## 🏗️ System Architecture
 
-## 🚫 Reddit fora do pipeline
-O Reddit foi removido das fontes de dados do BroPilot. A API pública (`.json`) está bloqueada por Cloudflare para scraping automatizado (confirmado mesmo com `cloudscraper`), e a API oficial (OAuth) deixou de oferecer registro gratuito de apps para uso relacionado a tratamento por IA. Sem uma via viável e sustentável de acesso, decidimos não depender do Reddit como fonte.
+Unlike generic wiki chatbots, BroPilot is **state-aware**: your active party's state enters the pipeline twice—first as structured search signals that steer hybrid vector/FTS retrieval, and second as serialized character sheets injected into the generation prompt.
 
-Os scripts e dados que existiam (`reddit_parser.py`, `reddit_text_cleaner.py`, `reddit_manual.txt/.md`) foram preservados em `BroPilot-Knowledge/_archive/reddit/` para referência, mas não fazem parte do fluxo ativo.
+```mermaid
+flowchart LR
+    subgraph Game["Baldur's Gate 3 Runtime"]
+        SAVE["Quicksave (.lsv)\nLSF + Osiris StorySave"]
+        MOD["BroPilotExporter\n(Lua Script Extender Mod)"]
+    end
 
-## 🧰 Modo de Contingência (API Humana)
-Para fontes onde a extração automática falha (ex.: um vídeo do YouTube sem transcrição disponível), existe uma rotina de limpeza manual: dê `Ctrl+A` / `Ctrl+C` no conteúdo, cole em um arquivo `_manual.txt` na camada RAW e rode o script `_text_cleaner.py` correspondente para gerar o Markdown limpo.
+    subgraph Parser["BroPilot-SaveParser"]
+        SP["Native Binary Parser\n(LZ4 / Zstd / LSF Nodes)"]
+        SER["serialize.py\nParty Sheet + Search Signals"]
+    end
 
-## ⏳ Bloqueio de IP do YouTube: paciência em vez de proxy
-`youtube_parser.py` roda sobre `youtube-transcript-api`, que depende de requisições diretas ao YouTube — sem chave de API. Passado de um certo volume de requisições, o YouTube bloqueia o IP (`IpBlocked`/`RequestBlocked`) e o bloqueio pode durar bem mais do que os "minutos" que a própria lib sugere; testamos e confirmamos que não é um bloqueio pontual de vídeo específico, é o IP inteiro.
+    subgraph KB["BroPilot-Knowledge (Medallion ETL)"]
+        RAW["01_raw\nWiki HTML • YT Transcripts • Steam/Larian Forums"]
+        TRUST["02_trusted\nCleaned Markdown Corpus (~1.1M tokens)"]
+        LANCE["LanceDB Hybrid Index\n(bge-m3 Dense + BM25 FTS)"]
+    end
 
-A lib oferece dois contornos, e optamos por nenhum dos dois:
-- **Cookies de autenticação**: além de resolver só bloqueio de vídeo *age-restricted* (não o bloqueio de IP por rate-limit), essa via está **desativada na versão instalada** (`youtube-transcript-api` 1.2.4) — o próprio autor removeu o suporte após uma mudança da API do YouTube quebrar a implementação anterior.
-- **Proxy residencial rotativo** (ex.: Webshare): resolve de verdade, mas exige contratar e manter um serviço pago de terceiros — custo recorrente para um projeto que hoje é 100% local e sem custo externo.
+    subgraph Core["bropilot_core & Overlay"]
+        RET["Hybrid Retriever\n(Party-Signal Boost + Dedup)"]
+        ORCH["Orchestrator & LLMProvider\n(Ollama Local / OpenAI Cloud)"]
+        UI["bropilot-ui\n(Frameless Electron HUD Overlay)"]
+    end
 
-Optamos por **paciência**: o script já é idempotente (pula vídeos já baixados em `01_raw`/`02_trusted`), então basta rodar `youtube_parser.py` aos poucos, espaçado ao longo de vários dias, até completar a lista curada. Mais lento, mas sem dependência de serviço pago nem risco de banir a conta usada nos cookies.
+    SAVE --> SP
+    MOD --> SP
+    SP --> SER
+    RAW --> TRUST --> LANCE
+    SER -->|Search Signals| RET
+    LANCE --> RET
+    RET -->|Top-K Chunks| ORCH
+    SER -->|Party Sheet| ORCH
+    ORCH <--> UI
+```
 
-## 💰 Análise de Custo & Monetização
+### The Four Subsystems
 
-Análise completa de **custo de desenvolvimento + implementação + manutenção** cruzada com modelos de monetização, considerando o time de **4 sócios** (sem folha — dev é custo de oportunidade, não caixa).
+| Subsystem | Description |
+| :--- | :--- |
+| **`BroPilot-SaveParser`** | Native Python binary parser that unpacks Larian `.lsv` packages (LZ4/Zstd) and parses `Globals.lsf`, `meta.lsf`, and Osiris `StorySave.bin` databases without external C# tools, paired with a Lua Script Extender mod (`BroPilotExporter`) for live combat/inventory snapshots. |
+| **`BroPilot-Knowledge`** | Medallion-architecture ETL pipeline (`01_raw` → `02_trusted` → `03_refined`) that crawls and sanitizes the BG3 Wiki, Larian Forums, Steam Community build guides, YouTube build transcripts, and dialogue trees (`dialog.moxifer.com`). |
+| **`bropilot_core`** | The state-aware RAG engine. Indexes the 1.1M-token Markdown corpus into **LanceDB** using `bge-m3` embeddings + full-text search, extracts party signals (`extract_signals`), performs hybrid retrieval with source deduplication, and abstracts generation behind `LLMProvider` (local Ollama or cloud OpenAI). |
+| **`bropilot-ui`** | Frameless, always-on-top **Electron** overlay summoned via global hotkey (`Ctrl+Shift+B`) that communicates with the Python orchestrator subprocess to answer tactical queries mid-combat. |
 
-📊 **[Planilha completa (Google Sheets)](https://docs.google.com/spreadsheets/d/1AjFbbCcDz8IZqTZgOYPhCQ13x6nRUbC8/edit?usp=sharing&ouid=109391157338588128384&rtpof=true&sd=true)** — 7 abas com fórmulas vivas: premissas editáveis, custo unitário, CAPEX de tempo, TCO local vs API, veredito e monetização.
+---
 
-### Achado principal
+## 🎯 Empirical RAG Accuracy Benchmark
 
-A escolha de **RAG local** partiu da suposição de que era mais barato — e está certa para o **custo de caixa** (token = $0, roda na máquina do usuário). Mas a análise revelou que, dado o **uso baixo** (~40 consultas/usuário/mês) e a **KB pequena** (1,1M tokens medidos: 119 arquivos `.md`, 4.5 MB), a via **API também sairia baratíssima**:
+BroPilot was evaluated against a 10-question adversarial benchmark executed against the real hybrid index and a live party save file—intentionally covering edge cases in BG3's D&D 5e ruleset (action economy, feat interactions, multiclass spell slots, and item synergies). Verdicts were scored blind by a stronger external judge model across five controlled single-variable runs:
 
-| Modelo (Fase 2) | Custo/usuário/mês | Custo/usuário/ano |
-|---|---|---|
-| Gemini Flash | ~$0.019 | ~$0.23 |
-| GPT-4o-mini | ~$0.038 | ~$0.46 |
-| Haiku 4.5 (pior caso) | ~$0.280 | ~$3.36 |
-| RAG local (MVP) | $0 | $0 |
+| Run | Generation Model | Embedding Model | ✅ Pass | 🟡 Partial | ❌ Fail | Weighted Score | Avg Latency |
+| :--- | :--- | :--- | :---: | :---: | :---: | :---: | :---: |
+| 1 (Baseline) | `qwen2.5:7b` (Local) | `bge-m3` (Local) | 2 | 3 | 5 | **3.5 / 10** | ~60s |
+| 2 | `qwen2.5:14b` (Local) | `bge-m3` (Local) | 1 | 5 | 4 | **3.5 / 10** | ~107s |
+| 3 | `qwen2.5:7b` (`temp=0`) | `bge-m3` (Local) | 1 | 4 | 5 | **3.0 / 10** | ~54s |
+| 4 | `qwen2.5:14b` (`temp=0`) | `bge-m3` (Local) | 2 | 4 | 4 | **4.0 / 10** | ~130s |
+| **5 (Final)** | **`gpt-4o-mini` (`temp=0`)** | **`bge-m3` (Local)** | **9** | **1** | **0** | **9.5 / 10** | **~8s** |
 
-**Conclusão:** custo não é o critério que separa local de API aqui — ambos são baratos. A decisão real é **privacidade/offline** (local) vs. **qualidade de resposta + facilidade de instalação** (API). O "local" cobra o preço em **tempo de dev, suporte a hardware do usuário e atrito de instalação** (baixar Ollama + modelo ~5 GB), custos reais porém invisíveis no extrato.
+### Key Engineering Takeaways
+1. **The Retrieval Pipeline Was Always Right:** Across all 5 runs, the state-aware hybrid retriever surfaced the exact subclass tables and item mechanics, and the binary parser accurately extracted party levels, classes, and attributes.
+2. **Quantized Local Models Bottlenecked Rule Synthesis:** Quantized `7b`/`14b` local models hallucinated D&D 5e rule interactions when synthesizing multi-chunk builds (e.g., applying *Great Weapon Master* to unarmed strikes). Neither doubling model parameters nor pinning `temperature=0` eliminated rule fabrication.
+3. **Hybrid Local-Index + Cloud-Generation Sweet Spot:** Keeping embeddings (`bge-m3`) and vector search (`LanceDB`) 100% local while routing final synthesis through `gpt-4o-mini` eliminated rule hallucinations (**9.5/10**), cut latency by **10×**, and costs **~$0.038/user/month** (~40 queries/month). Both backends remain selectable via `LLMProvider`.
 
-### O gargalo é tempo, não dinheiro
+📋 Detailed evaluation logs: [`docs/ACCURACY_TRACKING.md`](docs/ACCURACY_TRACKING.md) · [`docs/ACCURACY_REPORT.md`](docs/ACCURACY_REPORT.md) · [`docs/ACCURACY_REPORT_gpt4omini_temp0.md`](docs/ACCURACY_REPORT_gpt4omini_temp0.md)
 
-Com 4 sócios sem folha, o custo de **caixa** do MVP local é mínimo — **~$215/ano** (code-signing Windows + domínio), coberto por **~21 vendas a $15**. O investimento pesado é **tempo**: estimadas **~230h restantes** até shippar = **~58h por sócio** (SaveParser, ETL e o scaffold do core RAG já estão escritos: ~4.550 LOC).
+---
 
-### Recomendação
+## 📁 Repository Structure
 
-- **Arquitetura:** manter o MVP local (já construído, com a abstração `LLMProvider` pronta), mas **antecipar a Fase 2 API** (Gemini Flash) como opção paralela — resolve o teto de qualidade e a barreira de instalação por ~$92/ano em 5k usuários. Deixe o jogador escolher: local (privado/grátis) ou cloud (melhor/mais fácil).
-- **Monetização:** **one-time a $10–15** na cultura de mods de BG3 (caixa coberto trivialmente), com **BYOK** para quem quiser a versão cloud sem o time pagar token. Evitar assinatura no MVP (churn de jogo single-player mata MRR); freemium só faz sentido depois da Fase 2 API.
-
-> ⚠️ Premissas de preço de token verificadas em jul/2026. A estimativa de 230h de dev restante é aproximada — ajuste a aba `CAPEX Dev (tempo)` na planilha conforme o escopo real.
-
-## 🎯 Acurácia (avaliação honesta)
-
-O BroPilot foi avaliado com uma bateria de **10 perguntas rodadas contra a stack real** (índice híbrido + save de verdade), sem cherry-pick — as perguntas incluem, de propósito, casos que expõem limites conhecidos. Os vereditos foram dados por um **juiz externo mais forte** (não o próprio modelo de geração se autoavaliando). Cada mudança foi medida como **variável única** e registrada no acompanhamento.
-
-📋 **[Acompanhamento completo (5 runs, placar e log de decisões)](docs/ACCURACY_TRACKING.md)** · **[Relatório baseline](docs/ACCURACY_REPORT.md)** · **[Relatório final (nuvem)](docs/ACCURACY_REPORT_gpt4omini_temp0.md)**
-
-### O resultado, em uma tabela
-
-Mesma bateria, mesmo índice, mesmo retrieval, mesmo save, mesmo prompt — **só o modelo de geração muda entre as linhas** (n=10; ponderado conta 🟡 como ½):
-
-| Run | Modelo de geração | ✅ | 🟡 | ❌ | Ponderado | Latência/pergunta |
-|---|---|---|---|---|---|---|
-| baseline | `qwen2.5:7b` (local) | 2 | 3 | 5 | 3,5 | ~60s |
-| — | `qwen2.5:14b` (local) | 1 | 5 | 4 | 3,5 | ~107s |
-| — | `qwen2.5:7b` temp 0 | 1 | 4 | 5 | 3,0 | ~54s |
-| — | `qwen2.5:14b` temp 0 | 2 | 4 | 4 | 4,0 | ~130s |
-| **final** | **`gpt-4o-mini` (nuvem)** | **9** | **1** | **0** | **9,5** | **~8s** |
-
-### A história que os números contam
-
-O diagnóstico veio por eliminação — cinco experimentos, cada um mudando **uma variável**:
-
-- **O pipeline sempre esteve certo.** Em todos os runs, o retrieval híbrido recuperou os arquivos corretos e o parser leu a party (classes, subclasses, níveis). O RAG entregava o contexto certo o tempo todo.
-- **O gargalo era o modelo local.** O `qwen2.5:7b/14b` quantizado alucinava regra ao sintetizar builds — inventava feats, aplicava feats que não funcionam (Great Weapon Master em golpe desarmado), trocava features entre classes. Nem dobrar o tamanho do modelo (14b) nem fixar a temperatura em 0 resolveram: a alucinação sobreviveu aos dois.
-- **Trocar o cérebro resolveu de uma vez.** Com `gpt-4o-mini` na geração (e o embedding seguindo `bge-m3` local, índice inalterado), o placar saltou de ~3,5 para **9,5 — zero alucinação de regra** — e a latência caiu **10-20×**. O único 🟡 é um caveat de min-max faltando, não um erro.
-
-**Conclusão:** o investimento em RAG (busca híbrida, dedup, save-aware, raspagem de subclasses) foi validado — bastava um modelo de geração à altura do contexto que o pipeline já entregava. Para uso pessoal, a geração roda na nuvem (custo ~US$0,038/usuário/mês, latência baixa); o caminho 100% local segue no código (abstração `LLMProvider`) para quem priorizar privacidade e offline, ao custo da qualidade medida acima.
-
-## 📁 Estrutura de Pastas
 ```text
 BroPilot/
-├── bropilot.py                   # Orquestrador da IA (LLM Core)
-├── BroPilot-Knowledge/           # Base de dados de conhecimento (RAG)
+├── bropilot_core/                # State-Aware RAG & LLM Orchestration Engine
+│   ├── index/
+│   │   ├── build.py              # Markdown chunker & LanceDB indexer (bge-m3)
+│   │   └── retriever.py          # State-aware hybrid search (Dense + BM25 + Dedup)
+│   ├── scripts/                  # Retrieval & RAG benchmark harnesses (eval_rag.py)
+│   ├── tests/                    # Unit test suite (LLM providers, serializer, retriever)
+│   ├── cli.py                    # Interactive terminal REPL & JSON subprocess entrypoint
+│   ├── llm.py                    # LLMProvider abstraction (OllamaProvider & OpenAIProvider)
+│   ├── orchestrator.py           # Prompt assembly & token budget management
+│   └── serialize.py              # SaveContext -> character sheets & retrieval signals
+├── BroPilot-SaveParser/          # Native .lsv Save Unpacker & LSF/Osiris Parser
+│   ├── exporter/                 # Lua Script Extender mod (BroPilotExporter)
+│   ├── scripts/                  # CLI save inspection & debugging utilities
+│   └── src/bropilot/             # LSF binary reader, StorySave parser, and party extractor
+├── BroPilot-Knowledge/           # Medallion ETL Pipeline (Knowledge Base)
 │   ├── data/
-│   │   ├── 01_raw/               # Dumps de HTML e textos puros (Ctrl+C)
-│   │   ├── 02_trusted/           # Textos curados em Markdown
-│   │   └── 03_refined/           # Matrizes, JSONs de itens e índices (ex: dialog_index.json)
-│   ├── scripts/
-│   │   ├── wiki_scraper.py       # Crawler da Wiki oficial
-│   │   ├── text_cleaner.py       # Conversor HTML -> Markdown
-│   │   ├── youtube_parser.py     # Extrator de transcripts do YouTube
-│   │   ├── youtube_text_cleaner.py # Removedor de timestamps do YouTube
-│   │   ├── forum_scraper.py      # Crawler do fórum oficial (forums.larian.com)
-│   │   ├── forum_text_cleaner.py # Conversor HTML -> Markdown dos tópicos do fórum
-│   │   ├── steam_guide_scraper.py  # Crawler de guias da comunidade Steam
-│   │   ├── steam_text_cleaner.py   # Conversor HTML -> Markdown dos guias da Steam
-│   │   └── moxifer_dialog_index.py # Índice pesquisável de diálogos (dialog.moxifer.com)
-│   └── _archive/reddit/          # Scripts e dados do Reddit (descontinuado)
-├── BroPilot-SaveParser/          # Motor de extração do Save Game (.lsv)
-│   ├── exporter/                 # Mod Lua (Script Extender) para exportação in-game
-│   ├── scripts/                  # Scripts CLI de depuração/inspeção do save
-│   └── src/bropilot/             # Parser Python nativo de LSF/LSPK e Osiris StorySave
-└── README.md
+│   │   ├── 01_raw/               # Raw HTML dumps & transcripts
+│   │   ├── 02_trusted/           # Sanitized Markdown corpus (119 files, ~4.5 MB)
+│   │   └── 03_refined/           # Structured JSON matrices & dialogue indices
+│   └── scripts/                  # Wiki, Larian Forum, Steam Guide & YouTube scrapers/cleaners
+├── bropilot-ui/                  # Frameless Electron In-Game Overlay
+│   ├── electron-main.js          # Global hotkey listener, transparent window & Python IPC
+│   └── src/renderer.js           # HUD interface & streaming response renderer
+└── docs/                         # Accuracy reports, architecture notes & evaluation logs
+```
+
+---
+
+## 🚀 Getting Started
+
+### 1. Prerequisites
+- **Python 3.11+**
+- **Node.js 18+** (for the Electron overlay)
+- **Ollama** with `bge-m3` pulled (`ollama pull bge-m3`) for local vector embeddings
+- Either a local generation model (`ollama pull qwen2.5:7b-instruct-q4_K_M`) or an `OPENAI_API_KEY` environment variable
+
+### 2. Installation
+```bash
+# Install Python dependencies
+pip install -r requirements.txt
+
+# InstallSaveParser package in editable mode
+pip install -e BroPilot-SaveParser
+
+# Build the local LanceDB vector index (run once with Ollama active)
+python -m bropilot_core.index.build
+```
+
+### 3. Running the CLI or In-Game Overlay
+```bash
+# Option A: Interactive terminal REPL
+python -m bropilot_core.cli
+
+# Option B: Launch the Electron HUD Overlay (toggle in-game with Ctrl+Shift+B)
+cd bropilot-ui
+npm install
+npm start
+```
+
+### 4. Running Tests
+```bash
+python -m unittest discover -s bropilot_core/tests -v
 ```
